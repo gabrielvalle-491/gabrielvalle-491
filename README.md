@@ -19,7 +19,7 @@ freelance community manager — so I understand the business side of the process
 | [Business KPI Dashboard](https://github.com/gabrielvalle-491/business-kpi-dashboard) · [live demo](https://gabrielvalle-491.github.io/business-kpi-dashboard/) | Sales, customer and operations KPIs with filters + shareable HTML report | Python, pandas, Plotly, Streamlit |
 | [AI Document Assistant](https://github.com/gabrielvalle-491/ai-document-assistant) | Upload documents → ask questions → answers with page citations (works offline too) | Python, BM25, Claude/Gemini API |
 
-Every project includes sample data, a README with real output and an automated test suite (pytest).
+Every project includes sample data, a README with real output and an automated test suite (pytest + GitHub Actions CI).
 
 ### Tools
 
