@@ -18,6 +18,8 @@ freelance community manager — so I understand the business side of the process
 | [Lead Management Automation](https://github.com/gabrielvalle-491/lead-management-automation) | Captures leads from CSV, web forms (webhook) and email, classifies intent with AI, scores and routes them | Python, SQLite, Claude/Gemini API |
 | [Business KPI Dashboard](https://github.com/gabrielvalle-491/business-kpi-dashboard) · [live demo](https://gabrielvalle-491.github.io/business-kpi-dashboard/) | Sales, customer and operations KPIs with filters + shareable HTML report | Python, pandas, Plotly, Streamlit |
 | [AI Document Assistant](https://github.com/gabrielvalle-491/ai-document-assistant) | Upload documents → ask questions → answers with page citations (works offline too) | Python, BM25, Claude/Gemini API |
+| [QA Automation (Playwright)](https://github.com/gabrielvalle-491/qa-automation-playwright) | End-to-end test suite with page objects, a written test plan and sample bug reports | Python, Playwright, pytest |
+| [Virtual Assistant Toolkit](https://github.com/gabrielvalle-491/virtual-assistant-toolkit) | Automates everyday VA tasks: email drafts, scheduling, file organization and reports | Python |
 
 Every project includes sample data, a README with real output and an automated test suite (pytest + GitHub Actions CI).
 
@@ -28,4 +30,4 @@ Every project includes sample data, a README with real output and an automated t
 
 ### Contact
 
-📧 gabriel.e.valle@hotmail.com · 🌐 [allmaverick.my.canva.site](https://allmaverick.my.canva.site/)
+📧 gabriel.e.valle@hotmail.com · 🌐 [gabrielvalle-491.github.io](https://gabrielvalle-491.github.io/) · [allmaverick.my.canva.site](https://allmaverick.my.canva.site/)
