@@ -1,6 +1,6 @@
 ## Hi, I'm Gabriel Valle 👋
 
-**Data & AI Automation · Excel / PDF workflows · Virtual Assistant · QA** — Villa Mercedes, Argentina · Remote (UTC-3) · 🇪🇸 Spanish (native) / 🇬🇧 English (basic)
+**Data & AI Automation · Excel / PDF workflows · Virtual Assistant · QA** — 💬 [WhatsApp +54 9 2657 351236](https://wa.me/5492657351236) · Villa Mercedes, Argentina · Remote (UTC-3) · 🇪🇸 Spanish (native) / 🇬🇧 English (basic)
 
 I build small automations that remove repetitive office work: turning PDFs into Excel,
 cleaning messy spreadsheets, organizing leads and building KPI dashboards. I work with
@@ -30,4 +30,4 @@ Every project includes sample data, a README with real output and an automated t
 
 ### Contact
 
-📧 gabriel.e.valle@hotmail.com · 🌐 [gabrielvalle-491.github.io](https://gabrielvalle-491.github.io/) · [allmaverick.my.canva.site](https://allmaverick.my.canva.site/)
+💬 **WhatsApp: [+54 9 2657 351236](https://wa.me/5492657351236)** · 📧 gabriel.e.valle@hotmail.com · 🌐 [gabrielvalle-491.github.io](https://gabrielvalle-491.github.io/) · [allmaverick.my.canva.site](https://allmaverick.my.canva.site/)
