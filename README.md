@@ -13,6 +13,7 @@ freelance community manager — so I understand the business side of the process
 
 | Project | What it does | Stack |
 |---|---|---|
+| [Maverick Jobs AI](https://maverick-jobs-ai.vercel.app) · live | Job board that aggregates thousands of job posts from several sources, with search, 9 filters and cross-source de-duplication | Next.js, TypeScript, FastAPI, PostgreSQL, Docker |
 | [PDF → Excel Invoice Automation](https://github.com/gabrielvalle-491/pdf-invoice-to-excel) | Extracts invoice fields + line items from PDFs (EN/ES, multiple number/date formats) into a formatted Excel with validation | Python, pdfplumber, openpyxl |
 | [Excel Data Cleaner](https://github.com/gabrielvalle-491/excel-data-cleaner) | Cleans, validates and de-duplicates spreadsheets: names, emails, phones (E.164), dates, amounts, countries | Python, pandas, YAML config |
 | [Lead Management Automation](https://github.com/gabrielvalle-491/lead-management-automation) | Captures leads from CSV, web forms (webhook) and email, classifies intent with AI, scores and routes them | Python, SQLite, Claude/Gemini API |
