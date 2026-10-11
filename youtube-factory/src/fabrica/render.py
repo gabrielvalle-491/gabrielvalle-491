@@ -92,7 +92,11 @@ def producir(spec: dict, forzar: bool = False) -> dict:
     escribir_srt(lt, canal.dir_salida("subtitles") / f"{vid}.srt")
     escribir_vtt(lt, canal.dir_salida("subtitles") / f"{vid}.vtt")
     # Portada = estado final de la primera escena (es también el primer fotograma estable)
-    frames.portada(canal, spec["escenas"][0]["visual"], cab, canal.dir_salida("thumbnails") / f"{vid}.png", horizontal)
+    portada = canal.dir_salida("thumbnails") / f"{vid}.png"
+    frames.portada(canal, spec["escenas"][0]["visual"], cab, portada, horizontal)
+    if horizontal:  # miniatura recomendada por YouTube: 1280x720, < 2 MB
+        from PIL import Image
+        Image.open(portada).convert("RGB").resize((1280, 720), Image.LANCZOS).save(portada.with_suffix(".jpg"), quality=90)
     tecnico = {
         "id": vid, "duracion_s": round(lt.duracion, 3), "frases": len(lt.frases), "subtitulos": len(lt.subtitulos),
         "escenas": [{"inicio": round(e.inicio, 3), "fin": round(e.fin, 3), "beats": [round(b, 3) for b in e.beats],

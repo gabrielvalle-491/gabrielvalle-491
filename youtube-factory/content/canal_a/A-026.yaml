@@ -1,0 +1,72 @@
+id: A-026
+canal: canal_a
+fecha: 2026-11-13
+formato: short
+serie: Sin código
+episodio: "#04"
+pilar: automatizacion
+tipo_editorial: herramienta
+idea: "WhatsApp Business permite configurar un mensaje de ausencia para responder automáticamente fuera de horario; el texto ideal dice cuándo atiendes y qué hacer mientras tanto."
+objetivo: "Mostrar una automatización gratuita y sin código para pequeños negocios, con un texto modelo reutilizable."
+publico: "Dueños de pequeños negocios que reciben mensajes de clientes por WhatsApp fuera de horario."
+hipotesis: "Formato 'herramienta' en pilar 'automatizacion': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Un cliente te escribe de noche y no sabes qué responder?"
+duracion_objetivo: "35-55 s"
+titulo: "Mensaje de ausencia en WhatsApp Business: cómo configurarlo"
+titulos_alternativos:
+  - "Responde fuera de horario sin estar conectado"
+  - "El mensaje automático de WhatsApp Business que debes tener"
+  - "Qué escribir en tu mensaje de ausencia (con plantilla)"
+criterio_titulo: "Nombra la herramienta y la acción exacta ('mensaje de ausencia'), término de búsqueda frecuente."
+descripcion: |
+  La app WhatsApp Business permite configurar un mensaje de ausencia para responder fuera de horario. Los nombres del menú pueden variar según la versión y el sistema: búscalo en las herramientas de empresa de la app.
+  Incluye tu horario y qué hacer mientras tanto. Prueba el mensaje escribiéndote desde otro número.
+cta: "Guárdalo y configúralo hoy."
+comentario_fijado: "Plantilla: Hola, gracias por escribirnos. Ahora estamos fuera de horario. Atendemos de [DÍAS] de [HORA] a [HORA]. Te respondemos apenas volvamos."
+hashtags: ["#WhatsAppBusiness", "#Pymes", "#Automatización"]
+palabras_clave: ["mensaje de ausencia WhatsApp Business", "respuesta automática WhatsApp", "automatizar WhatsApp"]
+escenas:
+  - narracion: "¿Un cliente te escribe de noche y no sabes qué responder? Que responda tu WhatsApp Business."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Sin código", titulo: "Responde *fuera de horario* sin estar conectado", sub: "Mensaje de ausencia"}
+  - narracion: "Abre las herramientas de empresa de la app y busca el mensaje de ausencia. Actívalo. Elige el horario y a quién se envía. Y pruébalo escribiendo desde otro número."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Cómo *activarlo*"
+        pasos:
+          - {titulo: "Abre las herramientas de empresa", detalle: "En la app WhatsApp Business"}
+          - {titulo: "Activa el mensaje de ausencia", detalle: "El nombre puede variar según versión"}
+          - {titulo: "Elige horario y destinatarios", detalle: "Según tu atención"}
+          - {titulo: "Pruébalo", detalle: "Escribe desde otro número"}
+  - narracion: "El texto importa. Di que estás fuera de horario, cuándo vuelves y qué hacer mientras tanto."
+    visual:
+      plantilla: texto
+      datos:
+        titulo: "Texto *modelo*"
+        texto: "Hola, gracias por escribirnos. Ahora estamos fuera de horario. Atendemos de *[DÍAS]* de *[HORA]* a *[HORA]*. Te respondemos apenas volvamos."
+        beat_texto: 0
+  - narracion: "A la fecha, es una función de la app para empresas. Revisa el menú de tu versión."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Responde aunque estés *desconectado*"
+        puntos: ["Cuándo atiendes", "Qué hacer mientras tanto", "Pruébalo antes de dejarlo"]
+        cta: "Guárdalo y configúralo hoy"
+fuentes:
+  - url: "https://faq.whatsapp.com/501866148528310/?cms_platform=android"
+    titulo: "How to use greeting messages (Centro de ayuda de WhatsApp)"
+    fecha_consulta: 2026-10-11
+    respalda: "Contexto: la app WhatsApp Business ofrece mensajes automáticos en sus herramientas (ejemplo documentado: mensaje de bienvenida). La página específica del mensaje de ausencia no apareció en las búsquedas, por eso el video no describe botones ni rutas exactas."
+riesgos:
+  derechos: "bajo — texto y gráficos creados por el canal, sin capturas ni logotipos"
+  exactitud: "medio — no se encontró la página oficial del mensaje de ausencia; el video evita rutas de menú exactas y remite a revisar la versión; verificar en la app antes de publicar"
+  monetizacion: "bajo — contenido educativo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

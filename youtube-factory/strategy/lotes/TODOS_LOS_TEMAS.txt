@@ -36,69 +36,69 @@ A-031 | No definir la longitud de la respuesta | Palabras, viñetas o tiempo de 
 A-032 | Formulario → planilla → aviso por correo | Google Forms guarda respuestas en Sheets y puede avisarte por email
 A-033 | Descripciones de productos con IA | Plantilla con beneficios, medidas y objeciones del cliente
 A-034 | Encadenar prompts: dividir una tarea grande | Esquema → borrador → revisión: tres pasos superan a uno gigante
-A-035 | NotebookLM para estudiar tus documentos | Respuestas basadas en tus fuentes, con citas a los documentos
-A-036 | Guion de llamada de ventas y objeciones | Respuestas a "está caro" y "lo pienso" preparadas con IA
+A-035 | Por qué la IA inventa datos (alucinaciones) | No miente: predice texto probable. Cómo pedirle que diga "no sé"
+A-036 | Prompt "abogado del diablo" | Pide objeciones a tu idea antes de presentarla
 A-L05 | Cómo funciona un modelo de lenguaje, sin tecnicismos | Amplía los Shorts del mismo pilar con ejemplos completos y descargable
-A-037 | Prompt "abogado del diablo" | Pide objeciones a tu idea antes de presentarla
-A-038 | Respuestas rápidas de WhatsApp Business | Atajos con "/" para responder preguntas repetidas
-A-039 | Transcripción de llamada → preguntas frecuentes | Convierte lo que los clientes preguntan en una FAQ
+A-037 | Guion de llamada de ventas y objeciones | Respuestas a "está caro" y "lo pienso" preparadas con IA
+A-038 | No dar contexto del negocio | Sin rubro ni cliente ideal, la IA responde para "cualquiera"
+A-039 | Mito: si lo dice la IA es neutral | Aprende de textos humanos y puede repetir sesgos
 A-040 | Delimitadores: separar instrucciones del texto | Comillas triples o etiquetas evitan confusiones
-A-041 | Por qué la IA inventa datos (alucinaciones) | No miente: predice texto probable. Cómo pedirle que diga "no sé"
-A-042 | No dar contexto del negocio | Sin rubro ni cliente ideal, la IA responde para "cualquiera"
-A-043 | Renombrar 100 archivos con Python | Un bucle de pocas líneas y una prueba en carpeta copia
+A-041 | Qué es un token | La IA no lee palabras: lee trozos. Por eso a veces cuenta mal letras
+A-042 | Pedir "hazlo mejor" sin criterio | Define qué es "mejor": más corto, más formal, con datos
+A-043 | Transcripción de llamada → preguntas frecuentes | Convierte lo que los clientes preguntan en una FAQ
 A-L06 | Privacidad y seguridad al usar IA en el trabajo | Amplía los Shorts del mismo pilar con ejemplos completos y descargable
-A-044 | Pedir razonamiento paso a paso | Investigación de 2022 sobre "chain of thought" y su uso práctico
-A-045 | Adaptar un mensaje a cada país | Mismo anuncio para México, Argentina y Colombia: palabras que cambian
-A-046 | Pedir "hazlo mejor" sin criterio | Define qué es "mejor": más corto, más formal, con datos
-A-047 | Preguntas frecuentes para el WhatsApp de un negocio | De 20 consultas repetidas a 6 respuestas claras
-A-048 | Estructura de prompt rol-tarea-contexto-formato | Mismo pedido, antes y después: la diferencia está en 4 piezas
-A-049 | Confiar en enlaces y citas que genera la IA | Abre cada enlace: puede no existir o no decir eso
-A-050 | Que la IA te haga preguntas antes de responder | Una frase final convierte respuestas genéricas en específicas
+A-044 | Estructura de prompt rol-tarea-contexto-formato | Mismo pedido, antes y después: la diferencia está en 4 piezas
+A-045 | Confiar en enlaces y citas que genera la IA | Abre cada enlace: puede no existir o no decir eso
+A-046 | Pedir razonamiento paso a paso | Investigación de 2022 sobre "chain of thought" y su uso práctico
+A-047 | IA multimodal: fotos de tickets y pizarras | Texto, imagen y audio como entrada; revisa lo que transcribe
+A-048 | Un correo largo → tres opciones de respuesta | Formal, breve y con propuesta: eliges y ajustas
+A-049 | Mito: la IA eliminará todos los empleos ya | Qué proyecta el informe del Foro Económico Mundial 2025
+A-050 | Mezclar varias tareas en un solo mensaje | Una tarea por mensaje = respuestas más precisas
 A-L07 | Apps Script desde cero: enviar correos desde una planilla | Amplía los Shorts del mismo pilar con ejemplos completos y descargable
-A-051 | Calendario de publicaciones en planilla + IA | IA propone ideas; la planilla ordena fechas y estados
-A-052 | Un correo largo → tres opciones de respuesta | Formal, breve y con propuesta: eliges y ajustas
-A-053 | Mito: si lo dice la IA es neutral | Aprende de textos humanos y puede repetir sesgos
-A-054 | Mezclar varias tareas en un solo mensaje | Una tarea por mensaje = respuestas más precisas
-A-055 | Datos de facturas a una tabla y cómo validarlos | Extrae campos y verifica totales con una suma de control
-A-056 | Mito: la IA eliminará todos los empleos ya | Qué proyecta el informe del Foro Económico Mundial 2025
-A-057 | Descripción de puesto clara e inclusiva | Requisitos imprescindibles vs deseables
+A-051 | Ventana de contexto: por qué "olvida" en chats largos | Tiene memoria de trabajo limitada; resume y reinicia
+A-052 | Renombrar 100 archivos con Python | Un bucle de pocas líneas y una prueba en carpeta copia
+A-053 | Mito: la IA siempre sabe lo último | Fecha de corte del entrenamiento y búsqueda web: no es lo mismo
+A-054 | Qué es un agente de IA | Chatbot responde; agente ejecuta pasos con herramientas
+A-055 | Adaptar un mensaje a cada país | Mismo anuncio para México, Argentina y Colombia: palabras que cambian
+A-056 | Mito: un prompt más largo siempre es mejor | Lo que importa es la información útil, no la cantidad de palabras
+A-057 | Que la IA te haga preguntas antes de responder | Una frase final convierte respuestas genéricas en específicas
 A-L08 | IA para buscar trabajo: CV, carta y entrevista | Amplía los Shorts del mismo pilar con ejemplos completos y descargable
-A-058 | Notas de reunión desordenadas → acta con tareas | Pide responsables y fechas en tabla para no perder acuerdos
-A-059 | Mito: la IA siempre sabe lo último | Fecha de corte del entrenamiento y búsqueda web: no es lo mismo
-A-060 | Qué es un token | La IA no lee palabras: lee trozos. Por eso a veces cuenta mal letras
-A-061 | Texto → tabla de tareas con responsables y fechas | Columnas fijas: tarea, responsable, fecha, estado
-A-062 | Mito: un prompt más largo siempre es mejor | Lo que importa es la información útil, no la cantidad de palabras
-A-063 | IA multimodal: fotos de tickets y pizarras | Texto, imagen y audio como entrada; revisa lo que transcribe
-A-064 | Enviar sin revisar tono y datos | Revisión en 3 pasadas: datos, tono, llamada a la acción
+A-058 | Creatividad vs precisión en las respuestas | Mismo modelo, tareas distintas: cuándo pedir variedad y cuándo exactitud
+A-059 | Datos de facturas a una tabla y cómo validarlos | Extrae campos y verifica totales con una suma de control
+A-060 | Dictado por voz para escribir prompts más rápido | Windows + H activa el dictado en Windows 11
+A-061 | Modelo vs aplicación | El modelo es el motor; la app es el auto completo
+A-062 | Notas de reunión desordenadas → acta con tareas | Pide responsables y fechas en tabla para no perder acuerdos
+A-063 | Mito: los detectores de texto con IA son infalibles | OpenAI retiró su propio clasificador en 2023 por baja precisión
+A-064 | Descripción de puesto clara e inclusiva | Requisitos imprescindibles vs deseables
 A-L09 | Ventas con IA: guiones, objeciones y seguimiento | Amplía los Shorts del mismo pilar con ejemplos completos y descargable
-A-065 | Preparar una entrevista de trabajo con IA | Simulación de preguntas y respuestas con el método STAR
-A-066 | Mito: los detectores de texto con IA son infalibles | OpenAI retiró su propio clasificador en 2023 por baja precisión
-A-067 | Ventana de contexto: por qué "olvida" en chats largos | Tiene memoria de trabajo limitada; resume y reinicia
-A-068 | Checklist antes de usar IA en el trabajo | Datos, verificación, privacidad y responsabilidad
-A-069 | Dictado por voz para escribir prompts más rápido | Windows + H activa el dictado en Windows 11
-A-070 | Mito: la IA recuerda todo lo que le dijiste | Memoria por chat, memoria opcional y lo que no guarda
-A-071 | Qué es un agente de IA | Chatbot responde; agente ejecuta pasos con herramientas
+A-065 | Estructura de una presentación de 10 diapositivas | Problema, solución, prueba, próximo paso
+A-066 | Inyección de prompts explicada simple | Texto escondido que intenta dar órdenes a la IA
+A-067 | Mito: la IA recuerda todo lo que le dijiste | Memoria por chat, memoria opcional y lo que no guarda
+A-068 | Preguntas frecuentes para el WhatsApp de un negocio | De 20 consultas repetidas a 6 respuestas claras
+A-069 | Qué es un LLM en 40 segundos | Modelo de lenguaje grande: lee mucho texto y predice el siguiente trozo
+A-070 | Texto → tabla de tareas con responsables y fechas | Columnas fijas: tarea, responsable, fecha, estado
+A-071 | Calendario de publicaciones en planilla + IA | IA propone ideas; la planilla ordena fechas y estados
 A-L10 | Python para no programadores: automatizar archivos | Amplía los Shorts del mismo pilar con ejemplos completos y descargable
-A-072 | Estructura de una presentación de 10 diapositivas | Problema, solución, prueba, próximo paso
-A-073 | Mito: la IA entiende como una persona | Predice la siguiente palabra probable; útil, pero distinto
-A-074 | Nombres de archivos que se ordenan solos | Fecha AAAA-MM-DD al inicio y versión al final
-A-075 | Creatividad vs precisión en las respuestas | Mismo modelo, tareas distintas: cuándo pedir variedad y cuándo exactitud
-A-076 | Plan de estudio de 30 días con IA | Objetivo medible, sesiones cortas y repaso espaciado
-A-077 | Pegar datos sensibles en un chatbot | Qué no pegar nunca y cómo anonimizar en 10 segundos
-A-078 | Modelo vs aplicación | El modelo es el motor; la app es el auto completo
+A-072 | Nombres de archivos que se ordenan solos | Fecha AAAA-MM-DD al inicio y versión al final
+A-073 | Pegar datos sensibles en un chatbot | Qué no pegar nunca y cómo anonimizar en 10 segundos
+A-074 | Por qué cambia la respuesta si repites la pregunta | Elige entre opciones probables: no es una base de datos
+A-075 | Checklist antes de usar IA en el trabajo | Datos, verificación, privacidad y responsabilidad
+A-076 | Preparar una entrevista de trabajo con IA | Simulación de preguntas y respuestas con el método STAR
+A-077 | Estafas con voz clonada: palabra clave familiar | Cómo verificar una llamada urgente de un "familiar"
+A-078 | Priorizar tareas con la matriz de Eisenhower | Urgente vs importante: pide a la IA clasificar tu lista
 A-L11 | Organiza tu semana con IA: prioridades, reuniones y tareas | Amplía los Shorts del mismo pilar con ejemplos completos y descargable
-A-079 | Priorizar tareas con la matriz de Eisenhower | Urgente vs importante: pide a la IA clasificar tu lista
-A-080 | Estafas con voz clonada: palabra clave familiar | Cómo verificar una llamada urgente de un "familiar"
-A-081 | Qué es un LLM en 40 segundos | Modelo de lenguaje grande: lee mucho texto y predice el siguiente trozo
-A-082 | Convertir un proceso en checklist paso a paso | Del "así lo hago yo" a un procedimiento que cualquiera sigue
+A-079 | NotebookLM para estudiar tus documentos | Respuestas basadas en tus fuentes, con citas a los documentos
+A-080 | Mito: la IA entiende como una persona | Predice la siguiente palabra probable; útil, pero distinto
+A-081 | Respuestas rápidas de WhatsApp Business | Atajos con "/" para responder preguntas repetidas
+A-082 | De dónde viene la palabra "robot" | Obra de teatro de Karel Čapek de 1920
 A-083 | Usar IA en decisiones legales o médicas sin profesional | Úsala para preparar preguntas, no para reemplazar al experto
-A-084 | Por qué cambia la respuesta si repites la pregunta | Elige entre opciones probables: no es una base de datos
-A-085 | Ajustes de privacidad: que tus chats no entrenen modelos | Dónde está la opción en los asistentes más usados (verificar versión)
+A-084 | Plan de estudio de 30 días con IA | Objetivo medible, sesiones cortas y repaso espaciado
+A-085 | ELIZA (1966): el primer chatbot famoso | Un programa simple que la gente creía comprensivo
 A-L12 | Tu biblioteca de prompts: un sistema reutilizable | Amplía los Shorts del mismo pilar con ejemplos completos y descargable
-A-086 | De dónde viene la palabra "robot" | Obra de teatro de Karel Čapek de 1920
-A-087 | Inyección de prompts explicada simple | Texto escondido que intenta dar órdenes a la IA
+A-086 | Enviar sin revisar tono y datos | Revisión en 3 pasadas: datos, tono, llamada a la acción
+A-087 | Convertir un proceso en checklist paso a paso | Del "así lo hago yo" a un procedimiento que cualquiera sigue
 A-088 | Qué es RAG (respuestas con tus documentos) | Como un estudiante que consulta sus apuntes antes de responder
-A-089 | ELIZA (1966): el primer chatbot famoso | Un programa simple que la gente creía comprensivo
+A-089 | Ajustes de privacidad: que tus chats no entrenen modelos | Dónde está la opción en los asistentes más usados (verificar versión)
 A-090 | El test de Turing (1950) | La pregunta de Alan Turing y por qué sigue en debate
 B-001 | Tarjeta: pagar el mínimo vs el total | Ejemplo ilustrativo de cómo crece el saldo con interés
 B-002 | SI.ERROR para limpiar #N/A | Mensaje claro en vez de error
@@ -138,67 +138,67 @@ B-L04 | Deudas en planilla: amortización, bola de nieve y avalancha | Amplía l
 B-032 | INDICE + COINCIDIR vs BUSCARV | Buscar hacia la izquierda y no romperse al insertar columnas
 B-033 | Inventario con alerta de stock mínimo | Una columna calcula "Reponer" automáticamente
 B-034 | IVA en México, Colombia, Chile y Argentina | Tasa general por país y cómo calcular precio con y sin impuesto
-B-035 | TEXTO para mostrar fechas con el día | "lunes, 5 de enero" sin escribirlo a mano
-B-036 | Ctrl + T: convertir datos en tabla | Fórmulas que se extienden solas y filtros listos
-B-037 | Dividir una cuenta entre amigos | Quién debe a quién, con una planilla simple
-B-038 | Segmentaciones para filtrar con botones | Filtros visuales en tablas y tablas dinámicas
+B-035 | Inmovilizar paneles | Encabezados visibles al bajar
+B-036 | Filas vacías y totales en medio de los datos | Datos limpios arriba, cálculos aparte
+B-037 | Control de stock con entradas y salidas | Saldo = inicial + entradas − salidas por producto
+B-038 | Deudas: bola de nieve vs avalancha | Mismo dinero, distinto orden de pago, distinto interés total
 B-L05 | Inventario y stock con alertas automáticas | Amplía los Shorts del mismo pilar con ejemplos completos y descargable
-B-039 | Nombres de funciones en inglés y español | VLOOKUP es BUSCARV: guía para trabajar en EE. UU.
-B-040 | Deudas: bola de nieve vs avalancha | Mismo dinero, distinto orden de pago, distinto interés total
-B-041 | BUSCARX básico | Busca un precio por código sin contar columnas
-B-042 | Filas vacías y totales en medio de los datos | Datos limpios arriba, cálculos aparte
-B-043 | Presupuesto 50/30/20 en una planilla | Ingreso → tres montos automáticos con una fórmula
-B-044 | Historial de versiones | Recuperar una versión anterior en cada programa
-B-045 | SUMAR.SI.CONJUNTO: gastos por categoría y mes | Dos condiciones, un total
+B-039 | Formato personalizado para miles | Mostrar 1,5 k sin cambiar el valor
+B-040 | Historial de versiones | Recuperar una versión anterior en cada programa
+B-041 | Dividir una cuenta entre amigos | Quién debe a quién, con una planilla simple
+B-042 | Ctrl + T: convertir datos en tabla | Fórmulas que se extienden solas y filtros listos
+B-043 | TEXTO para mostrar fechas con el día | "lunes, 5 de enero" sin escribirlo a mano
+B-044 | Mito: tasa mensual × 12 = tasa anual efectiva | Nominal vs efectiva: el interés sobre interés
+B-045 | Cotización con subtotal, impuesto y total | Plantilla reutilizable con la tasa en una celda
 B-L06 | Tablas dinámicas desde cero | Amplía los Shorts del mismo pilar con ejemplos completos y descargable
-B-046 | Mito: tasa mensual × 12 = tasa anual efectiva | Nominal vs efectiva: el interés sobre interés
-B-047 | Control de stock con entradas y salidas | Saldo = inicial + entradas − salidas por producto
-B-048 | Mezclar datos y cálculos en la misma hoja | Separa entradas, cálculos y reportes
-B-049 | Tabla de amortización | Cuánto de cada cuota es interés y cuánto capital
-B-050 | GOOGLEFINANCE para tipo de cambio | Útil para referencia; datos con posible demora
-B-051 | BUSCARX con dos condiciones | Concatenar criterios dentro de la búsqueda
-B-052 | Tu precio por hora real como freelancer | Restar horas no facturables y gastos
+B-046 | Mezclar datos y cálculos en la misma hoja | Separa entradas, cálculos y reportes
+B-047 | Presupuesto 50/30/20 en una planilla | Ingreso → tres montos automáticos con una fórmula
+B-048 | Segmentaciones para filtrar con botones | Filtros visuales en tablas y tablas dinámicas
+B-049 | Nombres de funciones en inglés y español | VLOOKUP es BUSCARV: guía para trabajar en EE. UU.
+B-050 | Tu precio por hora real como freelancer | Restar horas no facturables y gastos
+B-051 | CONTAR.SI.CONJUNTO para asistencia | Presentes por persona y por mes
+B-052 | GOOGLEFINANCE para tipo de cambio | Útil para referencia; datos con posible demora
 B-L07 | Interés compuesto, inflación y metas de ahorro: las cuentas claras | Amplía los Shorts del mismo pilar con ejemplos completos y descargable
-B-053 | Cotización con subtotal, impuesto y total | Plantilla reutilizable con la tasa en una celda
-B-054 | BUSCARV con coincidencia aproximada sin querer | El último argumento: FALSO para exacta
-B-055 | Cuánto tardas en pagar una deuda (NPER) | Cuota fija → número de meses
+B-053 | Gráfico de avance hacia una meta | Barra de progreso con porcentaje logrado
+B-054 | Sube 50 % y baja 50 %: ¿vuelves al inicio? | Los porcentajes no se compensan
+B-055 | Tabla de amortización | Cuánto de cada cuota es interés y cuánto capital
 B-056 | Compartir en modo lector o comentarista | Permisos para no perder el control del archivo
-B-057 | Edad o antigüedad con SIFECHA | Años completos entre dos fechas
-B-058 | Funciones que solo tiene Google Sheets | GOOGLETRANSLATE, IMPORTRANGE y GOOGLEFINANCE
-B-059 | Cuota de un préstamo con la función PAGO | Monto, tasa y plazo → cuota mensual
+B-057 | DIAS.LAB: días hábiles hasta una entrega | Excluye fines de semana y feriados
+B-058 | BUSCARV con coincidencia aproximada sin querer | El último argumento: FALSO para exacta
+B-059 | Cuánto tardas en pagar una deuda (NPER) | Cuota fija → número de meses
 B-L08 | Errores de planilla que cuestan dinero y cómo evitarlos | Amplía los Shorts del mismo pilar con ejemplos completos y descargable
-B-060 | Sube 50 % y baja 50 %: ¿vuelves al inicio? | Los porcentajes no se compensan
-B-061 | LET para fórmulas legibles | Nombra cálculos intermedios dentro de la fórmula
-B-062 | Colaboración en tiempo real | Cuándo conviene cada uno para trabajar en equipo
-B-063 | Cuánto ahorrar por mes para una meta | Meta, plazo y aporte mensual
-B-064 | ¿Qué devuelve REDONDEAR(2,5;0)? | Excel redondea la mitad alejándose de cero
-B-065 | Inmovilizar paneles | Encabezados visibles al bajar
-B-066 | Trabajar sin internet | Qué permite cada uno sin conexión
+B-060 | Funciones que solo tiene Google Sheets | GOOGLETRANSLATE, IMPORTRANGE y GOOGLEFINANCE
+B-061 | Evitar duplicados al cargar datos | Validación con CONTAR.SI
+B-062 | ¿Qué devuelve REDONDEAR(2,5;0)? | Excel redondea la mitad alejándose de cero
+B-063 | Barras de datos dentro de las celdas | Formato condicional que dibuja
+B-064 | Colaboración en tiempo real | Cuándo conviene cada uno para trabajar en equipo
+B-065 | Cuota de un préstamo con la función PAGO | Monto, tasa y plazo → cuota mensual
+B-066 | ¿Qué cuenta CONTAR? | CONTAR solo cuenta números; CONTARA cuenta lo no vacío
 B-L09 | Excel vs Google Sheets: guía para elegir | Amplía los Shorts del mismo pilar con ejemplos completos y descargable
-B-067 | Proyección de ahorro con aportes mensuales | VF con pago periódico
-B-068 | ¿Qué cuenta CONTAR? | CONTAR solo cuenta números; CONTARA cuenta lo no vacío
-B-069 | CONTAR.SI.CONJUNTO para asistencia | Presentes por persona y por mes
-B-070 | El error de Excel de Reinhart y Rogoff | Un estudiante encontró un rango mal seleccionado en 2013
-B-071 | Plan de pagos de deudas con fechas | Calendario de cuotas y saldo pendiente
-B-072 | ¿3 cuotas de 40 o 110 al contado? | Depende de la tasa: comparar con valor actual
-B-073 | DIAS.LAB: días hábiles hasta una entrega | Excluye fines de semana y feriados
+B-067 | Metas trimestrales con porcentaje de avance | Real / objetivo con formato condicional
+B-068 | Trabajar sin internet | Qué permite cada uno sin conexión
+B-069 | Cuánto ahorrar por mes para una meta | Meta, plazo y aporte mensual
+B-070 | ¿3 cuotas de 40 o 110 al contado? | Depende de la tasa: comparar con valor actual
+B-071 | Checklist antes de enviar una planilla | Errores, formatos, nombres y permisos
+B-072 | El error de Excel de Reinhart y Rogoff | Un estudiante encontró un rango mal seleccionado en 2013
+B-073 | Proyección de ahorro con aportes mensuales | VF con pago periódico
 B-L10 | Resumen de ventas mensual con tabla dinámica y gráficos | Amplía los Shorts del mismo pilar con ejemplos completos y descargable
-B-074 | VisiCalc (1979) | La primera hoja de cálculo para computadoras personales
-B-075 | Control de gastos con 5 columnas | Fecha, concepto, categoría, medio de pago, monto
-B-076 | Días entre dos fechas | Restar fechas devuelve días: ¿cuántos hay entre estas dos?
-B-077 | Evitar duplicados al cargar datos | Validación con CONTAR.SI
-B-078 | Monotributo: controla tu facturación de 12 meses | Suma móvil para no pasarte de categoría (Argentina)
-B-079 | De TNA a TEA en un plazo fijo | Fórmula para comparar tasas (Argentina)
-B-080 | Metas trimestrales con porcentaje de avance | Real / objetivo con formato condicional
+B-074 | Días entre dos fechas | Restar fechas devuelve días: ¿cuántos hay entre estas dos?
+B-075 | Lista desplegable con validación de datos | Evita errores de escritura en categorías
+B-076 | VisiCalc (1979) | La primera hoja de cálculo para computadoras personales
+B-077 | BUSCARX básico | Busca un precio por código sin contar columnas
+B-078 | Formato condicional para vencimientos | Rojo si venció, amarillo si vence en 7 días
+B-079 | Plan de pagos de deudas con fechas | Calendario de cuotas y saldo pendiente
+B-080 | Lista de fechas del mes con SECUENCIA | Un mes completo de fechas con una sola fórmula
 B-L11 | Cotizaciones y control de cobros para freelancers | Amplía los Shorts del mismo pilar con ejemplos completos y descargable
-B-081 | Formato personalizado para miles | Mostrar 1,5 k sin cambiar el valor
-B-082 | Gráfico de avance hacia una meta | Barra de progreso con porcentaje logrado
-B-083 | Checklist antes de enviar una planilla | Errores, formatos, nombres y permisos
-B-084 | Lista desplegable con validación de datos | Evita errores de escritura en categorías
-B-085 | Formato condicional para vencimientos | Rojo si venció, amarillo si vence en 7 días
-B-086 | Barras de datos dentro de las celdas | Formato condicional que dibuja
-B-087 | Lista de fechas del mes con SECUENCIA | Un mes completo de fechas con una sola fórmula
+B-081 | SUMAR.SI.CONJUNTO: gastos por categoría y mes | Dos condiciones, un total
+B-082 | Comisión por tramos con búsqueda aproximada | Tabla de tramos y BUSCARX con coincidencia aproximada
+B-083 | Control de gastos con 5 columnas | Fecha, concepto, categoría, medio de pago, monto
+B-084 | Tabla dinámica en 3 pasos | Resumen de ventas por vendedor sin fórmulas
+B-085 | BUSCARX con dos condiciones | Concatenar criterios dentro de la búsqueda
+B-086 | Proteger celdas con fórmulas | Que nadie borre tus cálculos por accidente
+B-087 | Monotributo: controla tu facturación de 12 meses | Suma móvil para no pasarte de categoría (Argentina)
 B-L12 | Funciones dinámicas: BUSCARX, FILTRO, UNICOS y ORDENAR | Amplía los Shorts del mismo pilar con ejemplos completos y descargable
-B-088 | Comisión por tramos con búsqueda aproximada | Tabla de tramos y BUSCARX con coincidencia aproximada
-B-089 | Tabla dinámica en 3 pasos | Resumen de ventas por vendedor sin fórmulas
-B-090 | Proteger celdas con fórmulas | Que nadie borre tus cálculos por accidente
+B-088 | Edad o antigüedad con SIFECHA | Años completos entre dos fechas
+B-089 | Tabla dinámica: ventas por mes | Agrupar fechas por mes
+B-090 | De TNA a TEA en un plazo fijo | Fórmula para comparar tasas (Argentina)

@@ -1,0 +1,94 @@
+id: A-005
+canal: canal_a
+fecha: 2026-10-23
+formato: short
+serie: Caso pyme
+episodio: "#02"
+pilar: puente_excel
+tipo_editorial: caso_practico
+idea: "La IA etiqueta cada comentario de cliente con una categoría de una lista cerrada y CONTAR.SI cuenta cuántas veces aparece cada una, para ver qué problema se repite."
+objetivo: "Mostrar la división de roles IA + planilla en una tarea real de atención al cliente y atraer a dueños de pymes que usan Excel o Sheets."
+publico: "Dueños y encargados de pequeños negocios con decenas de comentarios, reseñas o mensajes de clientes sin ordenar."
+hipotesis: "Gancho 'mito' + duración media + visual 'tipografía': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "Mito: para saber qué molesta a tus clientes, tienes que leer todos los comentarios."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Clasifica comentarios de clientes con IA y cuéntalos en Excel"
+titulos_alternativos:
+  - "Qué se queja tu cliente: IA para etiquetar, CONTAR.SI para contar"
+  - "Mito: hay que leer todos los comentarios de clientes"
+  - "De 100 comentarios a un gráfico: cómo ordenarlos con IA"
+criterio_titulo: "Combina la tarea concreta (clasificar comentarios) con las dos herramientas; 'Excel' y 'clientes' son términos de búsqueda de la audiencia."
+descripcion: |
+  La IA asigna una categoría a cada comentario de una lista cerrada (precio, entrega, atención...) y la planilla cuenta cuántas veces aparece cada una con CONTAR.SI. Así ves qué problema se repite.
+  El ejemplo usa cinco comentarios ficticios. Revisa algunos comentarios a mano: la IA puede etiquetar mal. No pegues datos personales de tus clientes.
+cta: "Pruébalo con tus últimos comentarios."
+comentario_fijado: "Fórmula del video: =CONTAR.SI($B$2:$B$6;C2). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;). ¿Qué categorías usarías en tu negocio?"
+hashtags: ["#Excel", "#IA", "#Pymes"]
+palabras_clave: ["clasificar comentarios de clientes", "CONTAR.SI", "IA para pymes", "análisis de feedback"]
+escenas:
+  - narracion: "Mito: para saber qué molesta a tus clientes, tienes que leer todos los comentarios. Realidad: la IA los etiqueta y tu planilla los cuenta."
+    visual:
+      plantilla: mito
+      datos:
+        mito: "Hay que leer *todos* los comentarios"
+        realidad: "La IA los *etiqueta*; tu planilla los *cuenta*"
+  - narracion: "Primero, pídele a la IA una sola categoría por comentario, de una lista cerrada. Así todas las etiquetas se escriben igual."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Clasifica cada comentario con UNA categoría de esta lista: Precio, Entrega, Calidad, Atención, Otro. Responde en tabla: número y categoría.\nComentarios:\n[PEGA AQUÍ]"
+  - narracion: "Pega las categorías en una columna y escribe [[contar si|CONTAR.SI]]. El rango es la columna de categorías; el criterio, el nombre a contar. En este ejemplo ficticio, Entrega aparece tres veces."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=CONTAR.SI($B$2:$B$6;C2)"
+        celda_formula: "D2"
+        decimales: 0
+        filas:
+          - ["Comentario", "Categoría", "Resumen", "Veces"]
+          - ["Llegó tarde", "Entrega", "Entrega", ""]
+          - ["Muy caro", "Precio", "Precio", 1]
+          - ["Pedido tarde", "Entrega", "Atención", 1]
+          - ["Mal trato", "Atención", "", ""]
+          - ["Demoró días", "Entrega", "", ""]
+        resaltar:
+          - {rango: "B2:B6", beat: 1}
+          - {rango: "C2", beat: 1, alterno: true}
+        resultado: {celda: "D2", valor: "3", beat: 2}
+  - narracion: "Ordenadas por cantidad, se ven así. Entrega lidera, con tres. Precio y atención, una cada una."
+    visual:
+      plantilla: barras
+      datos:
+        titulo: "Comentarios por *categoría*"
+        maximo: 3
+        items:
+          - {etiqueta: "Entrega", valor: 3, destacado: true}
+          - {etiqueta: "Precio", valor: 1}
+          - {etiqueta: "Atención", valor: 1}
+        nota: "Datos ficticios · 5 comentarios"
+  - narracion: "Antes de decidir, lee algunos comentarios a mano: la IA puede etiquetar mal."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "IA *etiqueta*, planilla *cuenta*, tú decides"
+        puntos: ["Lista cerrada de categorías", "CONTAR.SI cuenta cada una", "Revisa una muestra a mano"]
+        cta: "Pruébalo con tus comentarios"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/office/funci%C3%B3n-contar-si-e0de10c6-f885-4e71-abb4-1f464816df34"
+    titulo: "Función CONTAR.SI (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "CONTAR.SI(rango;criterios) cuenta las celdas de un rango que cumplen un criterio."
+  - calculo: "[3, 1, 1, 3 + 1 + 1]"
+    respalda: "Conteo ilustrativo del ejemplo: 3 comentarios de Entrega, 1 de Precio y 1 de Atención (5 en total, datos ficticios)."
+riesgos:
+  derechos: "bajo — planilla, gráficos y prompt creados por el canal"
+  exactitud: "bajo — conteo verificable a mano; datos ficticios; se advierte que la IA puede etiquetar mal"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["CONTAR.SI"]

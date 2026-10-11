@@ -1,0 +1,68 @@
+id: A-022
+canal: canal_a
+fecha: 2026-11-09
+formato: short
+serie: El Atajo
+episodio: "#04"
+pilar: prompts
+tipo_editorial: tutorial
+idea: "Pedir el resumen de un PDF largo con la página de referencia de cada punto permite comprobar cifras, fechas y nombres contra el original."
+objetivo: "Enseñar un uso seguro del resumen con IA: el resumen guía, el documento original manda."
+publico: "Profesionales y estudiantes que resumen informes, contratos o artículos largos con un asistente de IA."
+hipotesis: "Formato 'tutorial' en pilar 'prompts': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Un resumen de IA puede sonar perfecto y traer una cifra mal."
+duracion_objetivo: "35-55 s"
+titulo: "Resumir un PDF largo con IA y qué verificar"
+titulos_alternativos:
+  - "Pídele a la IA el resumen con número de página"
+  - "El error de confiar en el resumen de un PDF (y cómo evitarlo)"
+  - "Resumen con IA sin sorpresas: 4 cosas que revisar"
+criterio_titulo: "Describe la tarea (resumir un PDF) y la promesa de valor (qué verificar); términos claros y buscables."
+descripcion: |
+  Pide el resumen en viñetas, con la página donde aparece cada punto, y marca lo que no esté en el texto. Luego revisa cifras, fechas y nombres contra el original y pregunta qué dejó fuera el resumen.
+  No subas documentos confidenciales sin revisar la política de privacidad de la herramienta.
+cta: "Guárdalo antes de resumir tu próximo informe."
+comentario_fijado: "Prompt: Resume este documento en [N] viñetas. Después de cada viñeta, indica la página donde aparece. Si algo no está en el texto, escribe «no consta»."
+hashtags: ["#IA", "#Prompts", "#Productividad"]
+palabras_clave: ["resumir PDF con IA", "resumen con páginas de referencia", "verificar resumen de IA"]
+escenas:
+  - narracion: "Un resumen de IA puede sonar perfecto y traer una cifra mal. Mira cómo pedirlo para poder comprobarlo."
+    visual:
+      plantilla: hook
+      datos: {kicker: "El Atajo", titulo: "Resumir un PDF sin *sorpresas*", sub: "Pide páginas de referencia"}
+  - narracion: "Primero, entrega el documento a tu asistente: si no acepta PDF, pega el texto. Segundo, pide el resumen con la página de cada punto. Tercero, revisa esas páginas en el original."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Tres pasos"
+        pasos:
+          - {titulo: "Entrega el documento", detalle: "PDF o texto pegado"}
+          - {titulo: "Pide páginas de referencia", detalle: "Una por cada punto"}
+          - {titulo: "Comprueba en el original", detalle: "Antes de usar el resumen"}
+  - narracion: "Este prompt hace que cada punto diga dónde sale. Y si algo no está en el texto, que lo diga."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Resume este documento en [N] viñetas. Después de cada viñeta, indica la página donde aparece. Si algo no está en el texto, escribe \"no consta\"."
+  - narracion: "Revisa las cifras, fechas y nombres contra el original. Comprueba que cada página citada diga lo que el resumen afirma. Pregunta qué dejó fuera. Y no subas documentos confidenciales sin revisar la privacidad de la herramienta."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Qué *verificar*"
+        estilo: check
+        items: ["Cifras, fechas y nombres", "Que cada página diga lo citado", "Qué dejó fuera el resumen", "Privacidad antes de subir el archivo"]
+fuentes:
+  - calculo: "[4]"
+    respalda: "Recomendaciones prácticas y generales de verificación; no incluyen cifras ni afirmaciones sobre funciones de un producto específico."
+riesgos:
+  derechos: "bajo — prompt y gráficos creados por el canal"
+  exactitud: "bajo — consejos generales; se evita afirmar capacidades concretas de productos"
+  monetizacion: "bajo — contenido educativo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

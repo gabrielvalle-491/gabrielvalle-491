@@ -1,0 +1,82 @@
+id: B-022
+canal: canal_b
+fecha: 2026-11-09
+formato: short
+serie: Fórmula en 40 segundos
+episodio: "#06"
+pilar: formulas
+tipo_editorial: tutorial
+idea: "FILTRAR devuelve con una fórmula todas las filas que cumplen una condición (por ejemplo, las tareas pendientes) y se actualiza sola."
+objetivo: "Tutorial buscable sobre una función moderna de Excel; mostrar la ventaja frente a filtrar a mano."
+publico: "Personas que llevan listas de tareas, pedidos o pagos y filtran manualmente cada vez que cambian los datos."
+hipotesis: "Formato 'tutorial' en pilar 'formulas': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Muestra solo lo pendiente con una fórmula, sin tocar el filtro."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "FILTRAR en Excel: ver solo lo pendiente con una fórmula"
+titulos_alternativos:
+  - "Función FILTRAR: devuelve solo las filas que cumplen una condición"
+  - "Lista de pendientes que se actualiza sola en Excel"
+  - "Olvida el filtro manual: usa la función FILTRAR"
+criterio_titulo: "Nombre exacto de la función en español más el caso de uso cotidiano."
+descripcion: |
+  La función FILTRAR devuelve solo las filas que cumplen la condición que defines, y se actualiza cuando cambian los datos. Ejemplo con una lista de tareas ilustrativa.
+  Según la ayuda oficial de Microsoft, FILTRAR forma parte de las funciones de matriz dinámica de Excel para Microsoft 365 y Excel 2021 o posterior. En Google Sheets existe la función FILTER.
+cta: "Pruébala con tu propia lista de tareas."
+comentario_fijado: "Fórmula: =FILTRAR(A2:A6;B2:B6=\"Pendiente\";\"Nada pendiente\"). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;). Nota: en Excel en español el nombre es FILTRAR."
+hashtags: ["#Excel", "#Fórmulas", "#ExcelTips"]
+palabras_clave: ["función FILTRAR Excel", "filtrar con fórmula", "lista de pendientes Excel"]
+escenas:
+  - narracion: "Muestra solo lo pendiente con una fórmula, sin tocar el filtro."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Fórmula en 40 segundos", titulo: "Solo lo *pendiente*, con una fórmula", sub: "Función FILTRAR · Excel 365 y 2021"}
+  - narracion: "Esta es tu lista de tareas, con su estado. Escribe la fórmula en una celda libre. Se marcan las tareas pendientes. Y aparecen solo esas, hacia abajo."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=FILTRAR(A2:A6;B2:B6=\"Pendiente\";\"Nada pendiente\")"
+        celda_formula: "C2"
+        filas:
+          - ["Tarea", "Estado", "Pendientes"]
+          - ["Informe", "Pendiente", "Informe"]
+          - ["Factura", "Listo", "Pedido"]
+          - ["Pedido", "Pendiente", "Reunión"]
+          - ["Contrato", "Listo", ""]
+          - ["Reunión", "Pendiente", ""]
+        resaltar:
+          - {rango: "B2:B6", beat: 2}
+        resultado: {celda: "C2", valor: "Informe", beat: 3}
+        nota: "Tareas ilustrativas"
+        beat_formula: 1
+  - narracion: "La fórmula tiene tres partes. Primero, lo que quieres devolver. Luego, la condición. Y al final, qué mostrar si no hay nada."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=FILTRAR(A2:A6;B2:B6=\"Pendiente\";\"Nada pendiente\")"
+        partes:
+          - {token: "A2:A6", explica: "lo que se devuelve"}
+          - {token: "B2:B6=\"Pendiente\"", explica: "la condición a cumplir"}
+          - {token: "\"Nada pendiente\"", explica: "texto si nada cumple"}
+  - narracion: "Cambia un estado a Listo y la lista se actualiza sola."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Una fórmula, lista *siempre al día*", puntos: ["Condición dentro de la fórmula", "Resultado dinámico", "Excel 365 y 2021"], cta: "Guárdalo"}
+fuentes:
+  - url: "https://support.microsoft.com/es-es/Excel/functions/filter-function"
+    titulo: "Función FILTRAR (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Sintaxis =FILTRAR(matriz;incluir;[si_vacío]): filtra un rango según los criterios definidos y permite indicar qué devolver si no hay resultados."
+  - calculo: "sum([1, 0, 1, 0, 1])"
+    resultado: 3
+    respalda: "Tres de las cinco tareas del ejemplo ilustrativo están pendientes."
+riesgos:
+  derechos: "bajo"
+  exactitud: "medio — la función requiere Excel 365 o 2021; se aclara en pantalla. En Google Sheets el nombre es FILTER"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["FILTRAR"]

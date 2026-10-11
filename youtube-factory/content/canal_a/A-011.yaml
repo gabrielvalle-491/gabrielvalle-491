@@ -1,0 +1,66 @@
+id: A-011
+canal: canal_a
+fecha: 2026-10-29
+formato: short
+serie: Caso pyme
+episodio: "#03"
+pilar: negocio
+tipo_editorial: caso_practico
+idea: "Un 'no' cortés a un cliente sigue tres pasos: agradecer, explicar el motivo en una frase y ofrecer una alternativa; la IA ayuda a redactarlo."
+objetivo: "Dar una estructura reutilizable para una conversación difícil de negocio y mostrar un prompt útil para redactarla."
+publico: "Dueños y encargados de pequeños negocios que dudan cómo rechazar un pedido, un descuento o un plazo sin molestar al cliente."
+hipotesis: "Gancho 'resultado' + duración corta + visual 'tipografía': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "Puedes decir que no a un cliente sin cerrar la puerta."
+duracion_objetivo: "20-32 s (≈55-80 palabras)"
+titulo: "Cómo decir que no a un cliente con cortesía (con ayuda de IA)"
+titulos_alternativos:
+  - "Un 'no' amable en 3 pasos: agradece, explica, ofrece"
+  - "Prompt para rechazar un pedido sin perder al cliente"
+  - "No sabes cómo decirle que no a un cliente: usa esta estructura"
+criterio_titulo: "Plantea la situación real y entrega la estructura; la variante 2 nombra los tres pasos."
+descripcion: |
+  Estructura para decir que no con cortesía: agradecer, explicar el motivo en una frase y ofrecer una alternativa. La IA puede ayudarte a redactar el mensaje con el tono adecuado.
+  Revisa el borrador antes de enviarlo: tú conoces al cliente y el contexto. No prometas alternativas que no puedas cumplir.
+cta: "Guárdalo para tu próximo 'no'."
+comentario_fijado: "¿Qué pedido te cuesta más rechazar: descuentos, plazos o trabajos fuera de tu servicio?"
+hashtags: ["#Pymes", "#AtenciónAlCliente", "#IA"]
+palabras_clave: ["cómo decir que no a un cliente", "correo para rechazar un pedido", "comunicación con clientes"]
+escenas:
+  - narracion: "Puedes decir que no a un cliente sin cerrar la puerta."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Caso pyme", titulo: "Un *no* que no cierra la puerta"}
+  - narracion: "Sigue tres pasos. Agradece el interés. Explica el motivo en una frase. Y ofrece una alternativa."
+    beats_frase: [1, 2, 3]
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Tres *pasos*"
+        pasos:
+          - {titulo: "Agradece", detalle: "Su interés y su confianza"}
+          - {titulo: "Explica", detalle: "El motivo, en una frase"}
+          - {titulo: "Ofrece", detalle: "Una alternativa real"}
+  - narracion: "Pídele el borrador a la IA con este prompt."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Redacta un correo cortés para decir que no a [PEDIDO DEL CLIENTE]. Agradece, explica en una frase [MOTIVO] y ofrece [ALTERNATIVA]. Tono cordial, máximo cinco líneas."
+  - narracion: "Léelo antes de enviarlo: debe sonar como tú."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Agradece, explica, *ofrece*", puntos: ["Un motivo claro", "Una alternativa real", "Revisa el tono"], cta: "Guárdalo para tu próximo no"}
+fuentes:
+  - calculo: "[3]"
+    respalda: "Estructura de tres pasos propuesta por el canal (agradecer, explicar, ofrecer alternativa); es una pauta de comunicación, no una cifra ni un dato de investigación."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — pauta de comunicación general; no se prometen resultados comerciales"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

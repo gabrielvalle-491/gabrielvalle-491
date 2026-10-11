@@ -1,0 +1,75 @@
+id: A-019
+canal: canal_a
+fecha: 2026-11-06
+formato: short
+serie: El Atajo
+episodio: "#03"
+pilar: prompts
+tipo_editorial: tutorial
+idea: "Una línea extra al final del prompt (filas por línea, columnas separadas por punto y coma, sin texto adicional) hace que la respuesta de la IA se pueda pegar en Excel y separar en columnas."
+objetivo: "Enseñar un hábito de prompt reutilizable que ahorra trabajo manual con planillas y posiciona al canal en flujos prácticos IA + Excel."
+publico: "Administrativos, contadores de pymes y emprendedores que piden listas a una IA y luego las reordenan a mano en Excel."
+hipotesis: "Formato 'tutorial' en pilar 'prompts': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Sigues copiando la respuesta de la IA dato por dato?"
+duracion_objetivo: "35-55 s"
+titulo: "Pídele a la IA una tabla lista para pegar en Excel"
+titulos_alternativos:
+  - "Una línea en tu prompt y la respuesta cae en columnas"
+  - "Deja de acomodar a mano lo que te responde la IA"
+  - "Del chat a Excel en segundos: texto en columnas"
+criterio_titulo: "Nombra el resultado concreto (tabla lista para pegar) y la herramienta (Excel), ambos términos de búsqueda con intención práctica."
+descripcion: |
+  Agrega al final de tu prompt: una fila por línea, columnas separadas por punto y coma y sin texto adicional. Luego pega en Excel y usa Datos > Texto en columnas con el delimitador punto y coma.
+  Revisa que los montos queden como números y verifica los datos: la IA puede equivocarse. El ejemplo usa datos ficticios.
+cta: "Guárdalo y pruébalo con tu próxima lista."
+comentario_fijado: "Línea para pegar al final de tu prompt: Entrega el resultado como filas, una por línea, con las columnas [COLUMNAS] separadas por punto y coma. Sin título ni texto adicional."
+hashtags: ["#Excel", "#IA", "#Prompts"]
+palabras_clave: ["IA a Excel", "texto en columnas", "prompt para tablas", "pegar respuesta de IA en Excel"]
+escenas:
+  - narracion: "¿Sigues copiando la respuesta de la IA dato por dato? Una línea extra en tu prompt lo evita."
+    visual:
+      plantilla: hook
+      datos: {kicker: "El Atajo", titulo: "De la IA a *Excel* sin copiar a mano", sub: "Una línea extra en tu prompt"}
+  - narracion: "Agrega esto al final de tu pedido. Una fila por línea, columnas separadas por punto y coma y nada de texto adicional. Así la respuesta llega lista para pegar."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Línea para el final del prompt"
+        texto: "Entrega el resultado como filas, una por línea, con las columnas [COLUMNAS] separadas por punto y coma. Sin título ni texto adicional."
+  - narracion: "Pega todo en la celda A uno. Luego ve a Datos, Texto en columnas, elige Delimitado y marca Punto y coma. Cada dato cae en su propia columna."
+    visual:
+      plantilla: planilla
+      datos:
+        titulo: "Después de *Texto en columnas*"
+        decimales: 0
+        filas:
+          - ["Concepto", "Mes", "Monto"]
+          - ["Papelería", "Octubre", 85]
+          - ["Transporte", "Octubre", 40]
+          - ["Internet", "Octubre", 60]
+        resaltar:
+          - {rango: "A1:C1", beat: 1}
+        nota: "Datos ficticios"
+  - narracion: "Antes de sumar, comprueba que los montos quedaron como números y no como texto. Y revisa los datos: la IA puede equivocarse."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Tabla lista en *tres* pasos"
+        puntos: ["Una fila por línea", "Punto y coma entre columnas", "Texto en columnas al pegar"]
+        cta: "Guárdalo para tu próxima lista"
+fuentes:
+  - url: "https://support.microsoft.com/en-us/office/split-text-into-different-columns-with-the-convert-text-to-columns-wizard-30b14928-5550-41f5-97ca-7a3e9c363ed7"
+    titulo: "Split text into different columns with the Convert Text to Columns Wizard (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "En Excel, la pestaña Datos incluye Texto en columnas (asistente Delimitado) para repartir el contenido de una celda en varias columnas según un separador."
+riesgos:
+  derechos: "bajo — prompt, planilla y gráficos creados por el canal"
+  exactitud: "bajo — el asistente es estándar de Excel; se advierte verificar la salida y el tipo de dato; los nombres del menú pueden variar según idioma y versión"
+  monetizacion: "bajo — contenido educativo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

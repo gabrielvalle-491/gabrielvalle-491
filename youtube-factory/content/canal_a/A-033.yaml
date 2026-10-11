@@ -1,0 +1,66 @@
+id: A-033
+canal: canal_a
+fecha: 2026-11-20
+formato: short
+serie: Caso pyme
+episodio: "#10"
+pilar: negocio
+tipo_editorial: caso_practico
+idea: "Una plantilla de prompt con beneficios, medidas y la objeción principal del cliente produce descripciones de producto útiles; la persona verifica que no haya características inventadas."
+objetivo: "Dar un prompt reutilizable para tiendas pequeñas y reforzar el hábito de verificar los datos que la IA agrega."
+publico: "Dueños de tiendas online o de catálogos que escriben descripciones de productos."
+hipotesis: "Formato 'caso_practico' en pilar 'negocio': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Tus descripciones de producto dicen lo mismo que las de todos?"
+duracion_objetivo: "35-55 s"
+titulo: "Descripciones de producto con IA: plantilla paso a paso"
+titulos_alternativos:
+  - "Qué datos darle a la IA para describir tus productos"
+  - "Descripción de producto: beneficios, medidas y objeciones"
+  - "Deja de copiar la descripción del proveedor: usa esta plantilla"
+criterio_titulo: "Describe el resultado (descripciones de producto) y el método (plantilla); términos buscables para tiendas pequeñas."
+descripcion: |
+  La IA escribe mejor si le das datos reales: beneficios, medidas, materiales y la duda más común de tus clientes. Usa la plantilla y pide que no invente características.
+  Antes de publicar, verifica medidas, materiales y cualquier afirmación contra tu producto real.
+cta: "Guárdalo para tu próximo producto."
+comentario_fijado: "Prompt: Escribe la descripción de [PRODUCTO] para [CLIENTE]. Beneficios: [LISTA]. Medidas y materiales: [DATOS]. Responde a esta objeción: [OBJECIÓN]. Máximo 8 líneas. No inventes características."
+hashtags: ["#Ecommerce", "#Pymes", "#IA"]
+palabras_clave: ["descripción de producto con IA", "texto para tienda online", "prompt para ecommerce", "IA para negocios"]
+escenas:
+  - narracion: "¿Tus descripciones de producto dicen lo mismo que las de todos? Dale a la IA lo que sí te diferencia."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Caso pyme", titulo: "Descripciones que *venden* información real", sub: "Plantilla de prompt"}
+  - narracion: "Dale tus datos reales: beneficios, medidas y materiales, y la duda más común de tus clientes. Así la descripción responde antes de que pregunten."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Escribe la descripción de [PRODUCTO] para [CLIENTE]. Beneficios: [LISTA]. Medidas y materiales: [DATOS]. Responde a esta objeción: [OBJECIÓN]. Máximo 8 líneas. No inventes características."
+  - narracion: "Antes de publicar, revisa que las medidas y los materiales coincidan con tu producto. Que no haya ninguna característica inventada. Y que la objeción tenga una respuesta clara."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Revisa *antes* de publicar"
+        estilo: check
+        items: ["Medidas y materiales correctos", "Ninguna característica inventada", "La objeción tiene respuesta clara"]
+  - narracion: "Si la IA agrega algo falso, tu cliente lo notará. Verifica siempre."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Datos reales, texto *claro*"
+        puntos: ["Beneficios y medidas", "La duda más común", "Verifica antes de publicar"]
+        cta: "Guárdalo para tu próximo producto"
+fuentes:
+  - calculo: "[3, 8]"
+    respalda: "Estructura de prompt propia del canal (tres elementos de revisión, máximo ocho líneas); no incluye datos ni afirmaciones sobre productos."
+riesgos:
+  derechos: "bajo — prompt y gráficos creados por el canal"
+  exactitud: "bajo — técnica general; se advierte verificar las características"
+  monetizacion: "bajo — contenido educativo para negocios"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

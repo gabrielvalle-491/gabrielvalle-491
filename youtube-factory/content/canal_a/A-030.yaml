@@ -1,0 +1,70 @@
+id: A-030
+canal: canal_a
+fecha: 2026-11-17
+formato: short
+serie: Caso pyme
+episodio: "#09"
+pilar: negocio
+tipo_editorial: caso_practico
+idea: "Una respuesta pública a una reseña negativa de Google sigue tres pasos (agradecer, reconocer, resolver en privado); la IA redacta el borrador y la persona lo revisa."
+objetivo: "Dar una plantilla reutilizable para una situación incómoda y frecuente de negocios locales, con datos verificados sobre cómo funcionan las respuestas a reseñas."
+publico: "Dueños de negocios locales (restaurantes, tiendas, servicios) con perfil en Google."
+hipotesis: "Formato 'caso_practico' en pilar 'negocio': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Una reseña negativa en Google no se responde con enojo."
+duracion_objetivo: "35-55 s"
+titulo: "Cómo responder reseñas negativas en Google (plantilla con IA)"
+titulos_alternativos:
+  - "Reseña negativa: agradecer, reconocer y resolver en privado"
+  - "Qué escribir cuando un cliente te califica mal en Google"
+  - "Responde reseñas negativas sin perder la calma"
+criterio_titulo: "Nombra el problema (reseñas negativas en Google) y la solución (plantilla); términos buscables por dueños de negocios."
+descripcion: |
+  Tres pasos para responder una reseña negativa: agradecer, reconocer el problema sin culpar y llevar la solución a un canal privado. La IA redacta el borrador; tú lo revisas.
+  Según la ayuda de Google, para responder reseñas tu perfil de empresa debe estar verificado, y tu respuesta se revisa antes de publicarse. No incluyas datos personales del cliente.
+cta: "Guárdalo para cuando llegue la próxima."
+comentario_fijado: "Prompt: Redacta una respuesta pública a esta reseña de Google: [PEGA LA RESEÑA]. Agradece, reconoce el problema sin culpar y pide continuar en privado por [CANAL]. Máximo 4 líneas. No incluyas datos personales."
+hashtags: ["#GoogleMaps", "#Pymes", "#IA"]
+palabras_clave: ["responder reseñas negativas Google", "reseñas de Google", "perfil de empresa de Google", "atención al cliente"]
+escenas:
+  - narracion: "Una reseña negativa en Google no se responde con enojo. Se responde en tres pasos."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Caso pyme", titulo: "Reseña negativa: *3 pasos*", sub: "Plantilla con IA"}
+  - narracion: "Primero, agradece que te avisaron. Segundo, reconoce el problema, sin culpar al cliente. Tercero, ofrece resolverlo en privado."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Los *tres* pasos"
+        pasos:
+          - {titulo: "Agradecer", detalle: "Gracias por avisarnos"}
+          - {titulo: "Reconocer", detalle: "Sin discutir ni culpar"}
+          - {titulo: "Resolver en privado", detalle: "Ofrece un canal de contacto"}
+  - narracion: "Pídele el borrador a la IA. Tú pones el canal de contacto."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Redacta una respuesta pública a esta reseña de Google: [PEGA LA RESEÑA]. Agradece, reconoce el problema sin culpar y pide continuar en privado por [CANAL]. Máximo 4 líneas. No incluyas datos personales."
+  - narracion: "Según la ayuda de Google, tu perfil debe estar verificado para responder, y tu respuesta se revisa antes de publicarse. Léela dos veces antes de enviarla."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Responde con *calma*"
+        puntos: ["Perfil de empresa verificado", "La respuesta se revisa antes de publicarse", "Léela antes de enviar"]
+        cta: "Guárdalo para la próxima reseña"
+fuentes:
+  - url: "https://support.google.com/business/answer/3474050?hl=en"
+    titulo: "Manage customer reviews (Google Business Profile Help)"
+    fecha_consulta: 2026-10-11
+    respalda: "Para responder reseñas, la empresa debe estar verificada; la respuesta se revisa contra las políticas de contenido antes de publicarse; puede editarse o borrarse después."
+riesgos:
+  derechos: "bajo — texto, prompt y gráficos creados por el canal"
+  exactitud: "bajo — requisitos verificados en la ayuda oficial; disponibilidad de reseñas varía por país o categoría"
+  monetizacion: "bajo — contenido educativo para negocios"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

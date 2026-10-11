@@ -61,25 +61,52 @@ LARGOS = {
 }
 
 
-def generar(canal_clave: str, inicio: date, dias: int = 90) -> list[dict]:
+def _elegir(disponibles: list[dict], plan: list[dict], ok) -> dict:
+    """Mejor candidata que respeta la variedad. Prioriza pilares con muchas ideas pendientes
+    (evita que al final del trimestre queden muchas ideas del mismo pilar juntas)."""
+    restantes = {}
+    for i in disponibles:
+        restantes[i["pilar"]] = restantes.get(i["pilar"], 0) + 1
+    total = max(1, len(disponibles))
+    for nivel in (2, 1, 0):  # relaja restricciones de a una si hace falta
+        cand = [i for i in disponibles if ok(i, plan, nivel)]
+        if cand:
+            return max(cand, key=lambda i: i["puntaje"] + 60 * restantes[i["pilar"]] / total)
+    return disponibles[0]
+
+
+def generar(canal_clave: str, inicio: date, dias: int = 90, fijos: int = 0) -> list[dict]:
+    """fijos = cantidad de Shorts iniciales del calendario actual que se conservan (ya guionados)."""
     canal = cargar_canal(canal_clave)
     cola = actualizar_cola(canal_clave)
     disponibles = list(cola)  # ordenadas por puntaje
     plan: list[dict] = []
+    if fijos:
+        previos = [r for r in leer(canal_clave) if r["formato"] == "short"][:fijos]
+        por_id = {i["id_idea"]: i for i in disponibles}
+        for r in previos:
+            idea = por_id[r["id_idea"]]
+            disponibles.remove(idea)
+            plan.append({**idea, "fase": r["fase"], "gancho_tipo": r["gancho_tipo"],
+                         "duracion_objetivo": r["duracion_objetivo"], "hipotesis": r["hipotesis"]})
 
-    def ok(idea, previos):
+    def ok(idea, previos, nivel=2):
         if not previos:
             return True
         a = previos[-1]
-        if idea["pilar"] == a["pilar"] or idea["tipo"] == a["tipo"]:
+        if idea["pilar"] == a["pilar"]:
             return False
-        if any(idea["serie"] == p["serie"] for p in previos[-2:]):
+        if nivel >= 1 and idea["tipo"] == a["tipo"]:
+            return False
+        if nivel >= 2 and any(idea["serie"] == p["serie"] for p in previos[-2:]):
             return False
         return True
 
     # Fase de aprendizaje: la mejor idea de cada pilar distinto, en rotación
     usados_pilares = []
     for k, (gancho, dur, visual) in enumerate(APRENDIZAJE[: min(14, dias)]):
+        if k < len(plan):
+            continue
         candidatas = [i for i in disponibles if i["pilar"] not in usados_pilares[-4:] and ok(i, plan)
                       and i["componentes"]["demanda"] >= 4]
         idea = candidatas[0] if candidatas else disponibles[0]
@@ -90,7 +117,7 @@ def generar(canal_clave: str, inicio: date, dias: int = 90) -> list[dict]:
                                   f"vistas a 7 días contra la media de la fase de aprendizaje."})
     # Resto: puntaje + restricciones de variedad
     while len(plan) < dias and disponibles:
-        idea = next((i for i in disponibles if ok(i, plan)), disponibles[0])
+        idea = _elegir(disponibles, plan, ok)
         disponibles.remove(idea)
         plan.append({**idea, "fase": "produccion", "gancho_tipo": "libre", "duracion_objetivo": DURACION["media"],
                      "hipotesis": f"Formato '{idea['tipo']}' en pilar '{idea['pilar']}': rendimiento frente a la media "

@@ -1,0 +1,66 @@
+id: A-006
+canal: canal_a
+fecha: 2026-10-24
+formato: short
+serie: Reto 5 minutos
+episodio: "#02"
+pilar: negocio
+tipo_editorial: experimento
+idea: "Pedirle a la IA cinco asuntos de correo con ángulos distintos y probar dos de ellos con partes similares de tu lista para ver cuál funciona mejor."
+objetivo: "Dar un experimento repetible de marketing por correo con IA, sin prometer resultados, para dueños de pymes y emprendedores."
+publico: "Emprendedores y encargados de pequeños negocios que envían correos a clientes y suelen usar el primer asunto que se les ocurre."
+hipotesis: "Gancho 'pregunta' + duración corta + visual 'demo': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "¿Cuántos asuntos pruebas antes de enviar un correo a tus clientes?"
+duracion_objetivo: "20-32 s (≈55-80 palabras)"
+titulo: "Asuntos de correo con IA: pide cinco y prueba dos"
+titulos_alternativos:
+  - "Reto 5 minutos: cinco asuntos de correo, cinco ángulos"
+  - "Cómo probar asuntos de correo sin adivinar"
+  - "No envíes el primer asunto: pídele cinco a la IA"
+criterio_titulo: "Describe el método (pedir cinco, probar dos) en pocas palabras; 'asuntos de correo' es término de búsqueda."
+descripcion: |
+  Experimento rápido: pídele a un asistente de IA cinco asuntos de correo, cada uno con un ángulo distinto (beneficio, pregunta, urgencia, número y curiosidad). Elige dos y envíalos a mitades similares de tu lista para comparar.
+  No hay asuntos que funcionen siempre: el resultado depende de tu público. Cambia solo el asunto y deja todo lo demás igual.
+cta: "Haz la prueba con tu próximo correo."
+comentario_fijado: "¿Qué ángulo probarías primero: beneficio, pregunta o curiosidad? Cuéntanos en los comentarios."
+hashtags: ["#EmailMarketing", "#IA", "#Pymes"]
+palabras_clave: ["asuntos de correo", "email marketing", "prueba A/B", "IA para marketing"]
+escenas:
+  - narracion: "¿Cuántos asuntos pruebas antes de enviar un correo a tus clientes? Con IA, puedes tener cinco en un minuto."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Reto 5 minutos", titulo: "¿Cuántos asuntos *pruebas* antes de enviar?", sub: "Pide cinco, prueba dos"}
+  - narracion: "Pide cinco asuntos, uno por ángulo. Beneficio. Pregunta. Urgencia. Número. Curiosidad."
+    beats_frase: [1, 2, 3, 4, 5]
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Cinco *ángulos*"
+        estilo: num
+        items: ["Beneficio", "Pregunta", "Urgencia", "Número", "Curiosidad"]
+  - narracion: "Elige dos. Envía el primero a la mitad de tu lista y el segundo a la otra mitad. Compara cuántos abren o hacen clic."
+    visual:
+      plantilla: versus
+      datos:
+        titulo: "Prueba *A/B*"
+        izq: {etiqueta: "Asunto A", titulo: "Mitad 1 de la lista", items: ["Un ángulo", "Mismo contenido"]}
+        der: {etiqueta: "Asunto B", titulo: "Mitad 2 de la lista", items: ["Otro ángulo", "Mismo contenido"]}
+        veredicto: "Cambia *solo* el asunto"
+  - narracion: "Cambia solo el asunto. Todo lo demás, igual."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Un cambio por *prueba*", puntos: ["Cinco asuntos con la IA", "Dos mitades similares", "Compara y repite"], cta: "Haz la prueba"}
+fuentes:
+  - calculo: "[5, 2]"
+    respalda: "Método propuesto: cinco variantes generadas, dos elegidas para la prueba. No se afirma ninguna cifra de resultados."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — método general; no se prometen resultados ni se citan tasas de apertura"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

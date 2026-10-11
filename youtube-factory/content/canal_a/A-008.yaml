@@ -1,0 +1,71 @@
+id: A-008
+canal: canal_a
+fecha: 2026-10-26
+formato: short
+serie: Sin código
+episodio: "#01"
+pilar: automatizacion
+tipo_editorial: herramienta
+idea: "Un filtro de Gmail etiqueta y archiva automáticamente los correos de facturas según remitente o palabras del asunto."
+objetivo: "Primer paso de automatización sin código que cualquier persona puede aplicar hoy; posiciona la serie 'Sin código'."
+publico: "Administrativos y dueños de pequeños negocios con la bandeja de entrada llena de facturas y avisos de pago."
+hipotesis: "Gancho 'error' + duración corta + visual 'demo': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "Mover a mano cada factura a una carpeta es un error que Gmail puede evitar."
+duracion_objetivo: "20-32 s (≈55-80 palabras)"
+titulo: "Filtros de Gmail: ordena tus facturas solas"
+titulos_alternativos:
+  - "Deja de archivar facturas a mano: crea un filtro en Gmail"
+  - "Automatiza tu bandeja: etiqueta y archiva correos sin código"
+  - "El error de ordenar tu Gmail a mano (y el filtro que lo arregla)"
+criterio_titulo: "Producto + beneficio concreto en pocas palabras; 'filtros de Gmail' es una búsqueda frecuente con intención práctica."
+descripcion: |
+  Un filtro de Gmail aplica una acción a los correos que cumplen criterios que tú defines, como el remitente o una palabra del asunto: por ejemplo, ponerles una etiqueta y archivarlos para que no llenen tu bandeja.
+  Los pasos y nombres de opciones pueden variar según la versión; en caso de duda, consulta la ayuda oficial de Gmail. Revisa de vez en cuando la etiqueta para no perder ninguna factura.
+cta: "Crea tu primer filtro hoy."
+comentario_fijado: "Ejemplo de criterio: remitente del proveedor, o la palabra factura en el asunto. ¿Qué otro tipo de correo filtrarías?"
+hashtags: ["#Gmail", "#Productividad", "#Automatización"]
+palabras_clave: ["filtros de Gmail", "organizar Gmail", "etiquetar facturas", "archivar correos automáticamente"]
+escenas:
+  - narracion: "Mover a mano cada factura a una carpeta es un error que Gmail puede evitar."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Sin código", titulo: "Ordenar facturas a mano es *tiempo perdido*", sub: "Un filtro de Gmail lo hace solo"}
+  - narracion: "Primero, elige un criterio. Por ejemplo, el remitente de tu proveedor. O una palabra del asunto, como factura."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Criterios del *filtro*"
+        estilo: check
+        items: ["Remitente: tu proveedor", "Palabra en el asunto: factura"]
+  - narracion: "Según la ayuda oficial, escribe los criterios en las opciones de búsqueda. Comprueba los resultados y elige crear filtro. Marca aplicar etiqueta, archivar, y confirma."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Crear el *filtro*"
+        pasos:
+          - {titulo: "Escribe los criterios", detalle: "En las opciones de búsqueda"}
+          - {titulo: "Revisa los resultados", detalle: "Y elige crear filtro"}
+          - {titulo: "Etiqueta y archiva", detalle: "Marca las acciones y confirma"}
+  - narracion: "Revisa la etiqueta de vez en cuando, para no perder ninguna."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Tu bandeja se *ordena sola*"
+        puntos: ["Elige un criterio claro", "Etiqueta y archiva", "Revisa la etiqueta"]
+        cta: "Crea tu primer filtro"
+fuentes:
+  - url: "https://support.google.com/mail/answer/6579?hl=es-419"
+    titulo: "Cómo crear normas para filtrar tus correos electrónicos (Ayuda de Gmail)"
+    fecha_consulta: 2026-10-11
+    respalda: "Los filtros permiten enviar mensajes a una etiqueta, archivarlos, borrarlos, destacarlos o reenviarlos automáticamente; se definen criterios en las opciones de búsqueda, se comprueban los resultados y se elige crear filtro."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — la interfaz de Gmail cambia; se remite a la ayuda oficial y no se nombran botones no verificados"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

@@ -1,0 +1,69 @@
+id: A-020
+canal: canal_a
+fecha: 2026-11-07
+formato: short
+serie: "¿Cuál uso?"
+episodio: "#03"
+pilar: herramientas
+tipo_editorial: comparacion
+idea: "Entre un plan gratuito y uno de pago de un asistente de IA, la diferencia más documentada es cuánto puedes usar; antes de pagar conviene probar tu tarea real y revisar la página oficial."
+objetivo: "Dar un criterio de decisión simple y honesto (sin recomendar un producto) y reforzar la confianza del canal al remitir a la fuente oficial."
+publico: "Trabajadores y emprendedores que dudan si pagar por un asistente de IA."
+hipotesis: "Formato 'comparacion' en pilar 'herramientas': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Vale la pena pagar por una IA? Primero mira qué cambia."
+duracion_objetivo: "35-55 s"
+titulo: "IA gratis o de pago: qué cambia de verdad (y cuándo pagar)"
+titulos_alternativos:
+  - "Antes de pagar por una IA, haz esta prueba de una semana"
+  - "Plan gratis vs plan de pago: los límites son la diferencia"
+  - "¿Pagar por ChatGPT u otra IA? Un criterio simple"
+criterio_titulo: "Plantea la duda real del público (gratis vs pago) y promete un criterio de decisión, no una recomendación comercial."
+descripcion: |
+  Según la ayuda oficial de ChatGPT (usado como ejemplo), los planes de pago ofrecen límites de uso más altos y las funciones avanzadas tienen topes más estrictos en el plan gratuito. Los modelos y los límites cambian con el tiempo.
+  Prueba el plan gratis con tu tarea real y confirma precios y condiciones en el sitio oficial. No es una recomendación de compra.
+cta: "Cuéntame en comentarios qué límite te frenó."
+comentario_fijado: "¿Qué tarea te hizo chocar con un límite del plan gratis: textos largos, archivos o imágenes?"
+hashtags: ["#IA", "#Herramientas", "#Productividad"]
+palabras_clave: ["IA gratis vs de pago", "ChatGPT gratis o Plus", "límites de uso IA"]
+escenas:
+  - narracion: "¿Vale la pena pagar por una IA? Primero mira qué cambia."
+    visual:
+      plantilla: hook
+      datos: {kicker: "¿Cuál uso?", titulo: "IA gratis o de pago: ¿qué *cambia*?", sub: "Ejemplo: ChatGPT, según su ayuda oficial"}
+  - narracion: "En el plan gratis hay límites de uso, y las funciones avanzadas, como subir archivos o crear imágenes, tienen topes más estrictos. En el plan de pago, los límites son más altos. Así que la diferencia principal, en general, es cuánto puedes usar."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Plan gratis", titulo: "Más límites", items: ["Tope de mensajes", "Topes más estrictos en archivos e imágenes"]}
+        der: {etiqueta: "Plan de pago", titulo: "Límites más altos", items: ["Más uso diario", "Revisa qué funciones incluye"]}
+        veredicto: "La diferencia clave: cuánto puedes usar"
+  - narracion: "Antes de pagar, usa el plan gratis con tu tarea real durante una semana. Anota cada vez que chocas con un límite. Y revisa la página oficial del plan, porque los modelos y los límites cambian con el tiempo."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Antes de *pagar*"
+        estilo: num
+        items: ["Prueba el plan gratis una semana", "Anota cada límite que te frena", "Confirma el plan en la página oficial"]
+  - narracion: "Paga solo si el límite te frena de verdad. Y a la fecha, confirma precios y condiciones en el sitio oficial."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Paga cuando el límite te *frene*"
+        puntos: ["Prueba con tu tarea real", "Mide cuánto usas", "Confirma precios en el sitio oficial"]
+        cta: "Guárdalo antes de pagar"
+fuentes:
+  - url: "https://help.openai.com/en/articles/9275245"
+    titulo: "ChatGPT Free Tier FAQ (OpenAI Help Center)"
+    fecha_consulta: 2026-10-11
+    respalda: "Los usuarios de ChatGPT Plus tienen límites de uso más altos; el plan gratuito tiene límites, con topes más estrictos en funciones avanzadas como análisis de datos, carga de archivos y creación de imágenes; el modelo por defecto y los límites pueden cambiar con el tiempo."
+riesgos:
+  derechos: "bajo — contenido propio, sin logotipos"
+  exactitud: "medio — planes, modelos y límites cambian; se habla en general, con 'a la fecha' y remisión a la ayuda oficial; no se citan cifras ni precios"
+  monetizacion: "bajo — sin afiliados ni recomendación de compra"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

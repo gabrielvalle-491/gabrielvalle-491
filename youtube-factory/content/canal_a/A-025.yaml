@@ -1,0 +1,68 @@
+id: A-025
+canal: canal_a
+fecha: 2026-11-12
+formato: short
+serie: El Atajo
+episodio: "#05"
+pilar: prompts
+tipo_editorial: tutorial
+idea: "Pedir el mismo resumen en tres niveles (una línea, un párrafo, una página) en un solo prompt permite elegir la versión según quién lo lee."
+objetivo: "Enseñar un patrón de prompt reutilizable que adapta la profundidad al lector."
+publico: "Trabajadores que resumen informes o reuniones para jefes, clientes y equipos distintos."
+hipotesis: "Formato 'tutorial' en pilar 'prompts': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Un mismo texto no se resume igual para tu jefe que para tu cliente."
+duracion_objetivo: "35-55 s"
+titulo: "Resume en tres niveles: una línea, un párrafo, una página"
+titulos_alternativos:
+  - "Un prompt, tres resúmenes: elige según quién lee"
+  - "Cómo pedirle a la IA el resumen justo para cada lector"
+  - "El prompt de los tres niveles de resumen"
+criterio_titulo: "Nombra el método (tres niveles) con sus tres formatos concretos; es claro y fácil de recordar."
+descripcion: |
+  Pide un solo resumen en tres niveles: una línea para quien solo necesita la idea, un párrafo para quien necesita contexto y una página para quien va a decidir.
+  Elige el nivel según quién lo lee y compara siempre con el original.
+cta: "Guárdalo y pruébalo con tu próximo informe."
+comentario_fijado: "Prompt: Resume el siguiente texto en tres niveles: 1) una línea; 2) un párrafo de cinco frases como máximo; 3) una página con subtítulos. Texto: [PEGA AQUÍ]"
+hashtags: ["#Prompts", "#IA", "#Productividad"]
+palabras_clave: ["resumir con IA", "prompt para resumir", "resumen ejecutivo con IA"]
+escenas:
+  - narracion: "Un mismo texto no se resume igual para tu jefe que para tu cliente. Pide tres versiones."
+    visual:
+      plantilla: hook
+      datos: {kicker: "El Atajo", titulo: "Un texto, *tres* resúmenes", sub: "Elige según quién lo lee"}
+  - narracion: "Nivel uno: una línea, para quien solo necesita la idea. Nivel dos: un párrafo, para quien necesita contexto. Nivel tres: una página, para quien va a decidir."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Tres *niveles*"
+        pasos:
+          - {titulo: "Una línea", detalle: "La idea central"}
+          - {titulo: "Un párrafo", detalle: "El contexto"}
+          - {titulo: "Una página", detalle: "Lo necesario para decidir"}
+  - narracion: "Pídelos todos en un solo prompt. Así puedes comparar los tres de una vez."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Resume el siguiente texto en tres niveles: 1) una línea; 2) un párrafo de cinco frases como máximo; 3) una página con subtítulos.\nTexto: [PEGA AQUÍ]"
+  - narracion: "Elige el nivel según quién lo lee. Y compara los tres con el original antes de enviarlos."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "El lector decide el *nivel*"
+        puntos: ["Línea: quien tiene prisa", "Párrafo: quien necesita contexto", "Página: quien decide"]
+        cta: "Guárdalo para tu próximo informe"
+fuentes:
+  - calculo: "[3]"
+    respalda: "Técnica de prompt propia del canal (tres niveles de resumen); no incluye datos ni afirmaciones sobre productos."
+riesgos:
+  derechos: "bajo — prompt y gráficos creados por el canal"
+  exactitud: "bajo — técnica general; se recomienda comparar con el original"
+  monetizacion: "bajo — contenido educativo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

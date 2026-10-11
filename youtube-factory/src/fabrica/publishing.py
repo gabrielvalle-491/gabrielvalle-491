@@ -163,10 +163,10 @@ def subir(spec: dict, simular: bool = True) -> dict:
         raise ErrorPublicacion(f"La API no devolvió id de video: {json.dumps(resp)[:300]}")
     programado = st.get("publishAt") is not None and st.get("privacyStatus") == "private"
     if spec["formato"] == "largo":
-        portada = ch.dir_salida("thumbnails") / f"{spec['id']}.png"
+        portada = ch.dir_salida("thumbnails") / f"{spec['id']}.jpg"
         if portada.exists():
             from googleapiclient.http import MediaFileUpload as MFU
-            yt.thumbnails().set(videoId=yid, media_body=MFU(str(portada), mimetype="image/png")).execute()
+            yt.thumbnails().set(videoId=yid, media_body=MFU(str(portada), mimetype="image/jpeg")).execute()
             _registrar_cuota(COSTO["thumbnails.set"], "thumbnails.set")
     estado = "programado" if programado else "subido_privado"
     with db.conectar() as con:

@@ -1,0 +1,87 @@
+id: A-013
+canal: canal_a
+fecha: 2026-10-31
+formato: short
+serie: Código mínimo
+episodio: "#01"
+pilar: automatizacion
+tipo_editorial: tutorial
+idea: "Una función de Apps Script de pocas líneas recorre las filas de una hoja de Google Sheets y envía un correo por cada una con MailApp."
+objetivo: "Primer ejemplo de código mínimo útil para pymes; abre la puerta a la guía larga de Apps Script y construye autoridad en automatización."
+publico: "Administrativos y emprendedores que envían los mismos avisos o recordatorios a muchos contactos y los escriben uno por uno."
+hipotesis: "Gancho 'error' + duración media + visual 'lista': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "Si envías cada correo a mano desde tu planilla, estás repitiendo trabajo."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Envía correos desde Google Sheets con Apps Script"
+titulos_alternativos:
+  - "Deja de enviar correos uno por uno: 9 líneas de Apps Script"
+  - "De tu planilla a la bandeja de entrada de tus clientes (sin pagar)"
+  - "Apps Script para principiantes: tu primer envío automático"
+criterio_titulo: "Nombra herramienta y tarea con términos de búsqueda ('Apps Script', 'Google Sheets', 'enviar correos')."
+descripcion: |
+  Una función corta de Apps Script lee las filas de tu hoja de Google Sheets y envía un correo por cada una con MailApp.sendEmail(destinatario, asunto, mensaje). La hoja necesita tres columnas: correo, asunto y mensaje.
+  Según la documentación de Apps Script, a la fecha, las cuentas personales pueden enviar a 100 destinatarios por día; los límites pueden cambiar. Prueba primero con tu propio correo y no envíes mensajes masivos sin permiso de los destinatarios.
+cta: "Pruébalo primero con tu propio correo."
+comentario_fijado: "Código del video: function enviar() { const filas = SpreadsheetApp.getActiveSheet().getDataRange().getValues(); filas.slice(1).forEach(f => { MailApp.sendEmail(f[0], f[1], f[2]); }); } — Es para un proyecto de Apps Script vinculado a tu hoja. ¿Qué aviso repites más?"
+hashtags: ["#AppsScript", "#GoogleSheets", "#Automatización"]
+palabras_clave: ["Apps Script", "enviar correos desde Google Sheets", "MailApp", "automatizar correos"]
+escenas:
+  - narracion: "Si envías cada correo a mano desde tu planilla, estás repitiendo trabajo. Apps Script lo hace por ti."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Código mínimo", titulo: "Un correo por fila, *sin copiar y pegar*", sub: "Apps Script + Google Sheets"}
+  - narracion: "Tu hoja lleva tres columnas: correo, asunto y mensaje. Cada fila es un correo."
+    visual:
+      plantilla: planilla
+      datos:
+        titulo: "La hoja de *envíos*"
+        decimales: 0
+        filas:
+          - ["Correo", "Asunto", "Mensaje"]
+          - ["ana@correo.com", "Tu cotización", "Adjunto datos"]
+          - ["luis@correo.com", "Recordatorio", "Vence el lunes"]
+        resaltar:
+          - {rango: "A2:C3", beat: 1}
+        nota: "Datos ficticios"
+  - narracion: "Esta función lee todas las filas. Salta el encabezado. Y envía un correo con el destinatario, el asunto y el texto de cada fila."
+    visual:
+      plantilla: codigo
+      datos:
+        lenguaje: "Apps Script"
+        codigo: "function enviar() {\n  const filas = SpreadsheetApp\n    .getActiveSheet()\n    .getDataRange().getValues();\n  filas.slice(1).forEach(f => {\n    MailApp.sendEmail(f[0],\n      f[1], f[2]);\n  });\n}"
+  - narracion: "Ojo con el límite: según la documentación de Apps Script, a la fecha, una cuenta personal puede enviar a 100 destinatarios por día."
+    visual:
+      plantilla: dato
+      datos:
+        kicker: "Límite diario"
+        dato: "*100* destinatarios por día"
+        contexto: "En cuentas personales, a la fecha"
+        fuente: "Cuotas de Apps Script"
+  - narracion: "Prueba primero con tu propio correo."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Una función, *muchos envíos*"
+        puntos: ["Tres columnas en la hoja", "Prueba con tu correo", "Respeta el límite diario"]
+        cta: "Pruébalo hoy"
+fuentes:
+  - url: "https://developers.google.com/apps-script/reference/mail/mail-app"
+    titulo: "Class MailApp (Google Apps Script)"
+    fecha_consulta: 2026-10-11
+    respalda: "MailApp.sendEmail(recipient, subject, body) envía un correo; el servicio solo envía y no lee la bandeja; las cuotas se cuentan por destinatario."
+  - url: "https://developers.google.com/apps-script/guides/services/quotas"
+    titulo: "Quotas for Google Services (Apps Script)"
+    fecha_consulta: 2026-10-11
+    respalda: "Límite de destinatarios de correo por día en MailApp: 100 en cuentas de consumidor (por ejemplo gmail.com); sujeto a cambios."
+    cifras: [100]
+riesgos:
+  derechos: "bajo — código propio y datos ficticios"
+  exactitud: "medio — cuotas pueden cambiar; se dice 'a la fecha'. Código de nueve líneas, sintaxis estándar de Apps Script"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["MailApp", "Sheets"]

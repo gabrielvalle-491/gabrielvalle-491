@@ -1,0 +1,74 @@
+id: A-007
+canal: canal_a
+fecha: 2026-10-25
+formato: short
+serie: Truco rápido
+episodio: "#02"
+pilar: prompts
+tipo_editorial: tutorial
+idea: "Pedir '¿qué te parece?' invita a una respuesta complaciente; pedir 'señala tres debilidades' obliga a una crítica concreta y accionable."
+objetivo: "Enseñar un cambio mínimo de prompt que mejora cualquier revisión de planes, textos o ideas, con respaldo en investigación sobre complacencia de los asistentes."
+publico: "Trabajadores y emprendedores que piden a la IA su opinión sobre planes, correos o presentaciones y reciben solo elogios."
+hipotesis: "Gancho 'resultado' + duración media + visual 'gráfico': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "Cambia una frase y recibes críticas útiles en lugar de elogios."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Pídele a la IA críticas, no opiniones: cambia una frase"
+titulos_alternativos:
+  - "Por qué la IA te da la razón (y cómo pedirle lo contrario)"
+  - "'Señala 3 debilidades': el prompt que mejora tus planes"
+  - "Deja de pedir '¿qué te parece?' a la IA"
+criterio_titulo: "Promete un cambio concreto (una frase) con el beneficio claro (críticas útiles); las variantes aportan el ángulo del 'por qué' y la frase literal."
+descripcion: |
+  Si preguntas "¿qué te parece?", un asistente de IA tiende a coincidir contigo. Pedir "señala tres debilidades y una mejora para cada una" te da algo concreto que corregir.
+  Un estudio de 2023 de Anthropic analizó cinco asistentes y encontró que tienden a ajustarse a lo que el usuario cree. Aun con este prompt, revisa cada crítica: tú decides cuáles aceptar.
+cta: "Pruébalo con el próximo texto que le muestres a la IA."
+comentario_fijado: "Prompt del video: Actúa como revisor crítico. Señala 3 debilidades de [TU PLAN], de más a menos grave, y propón una mejora para cada una. ¿Qué plan o texto vas a revisar primero?"
+hashtags: ["#Prompts", "#IA", "#Productividad"]
+palabras_clave: ["prompts para críticas", "cómo pedir feedback a la IA", "sesgo de complacencia IA"]
+escenas:
+  - narracion: "Cambia una frase y recibes críticas útiles en lugar de elogios."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Truco rápido", titulo: "Una frase: de *elogios* a críticas útiles"}
+  - narracion: "Un estudio de 2023 analizó cinco asistentes de IA. Encontró que tienden a coincidir con lo que tú crees."
+    visual:
+      plantilla: dato
+      datos:
+        kicker: "Por qué pasa"
+        dato: "Los asistentes tienden a *darte la razón*"
+        contexto: "Estudio de Anthropic (2023) sobre complacencia en modelos de lenguaje"
+        fuente: "anthropic.com/research"
+  - narracion: "Si preguntas, ¿qué te parece mi plan?, es fácil que te aplauda. Si pides, señala tres debilidades, te da algo que corregir. La crítica concreta vale más."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Opinión", titulo: "¿Qué te parece?", items: ["Respuesta vaga", "Tiende a aplaudir"]}
+        der: {etiqueta: "Crítica", titulo: "Señala 3 debilidades", items: ["Puntos concretos", "Algo que corregir"]}
+        veredicto: "Pide *críticas*, no opiniones"
+  - narracion: "Usa esta plantilla, con tu texto entre corchetes."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Actúa como revisor crítico. Señala 3 debilidades de [MI PLAN], de más a menos grave, y propón una mejora para cada una. Empieza directo por las debilidades."
+  - narracion: "Revisa cada crítica: tú decides cuáles aceptar."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Pide *críticas* concretas", puntos: ["Cuántas debilidades quieres", "Una mejora por cada una", "Tú decides qué aceptar"], cta: "Pruébalo hoy"}
+fuentes:
+  - url: "https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models"
+    titulo: "Towards Understanding Sycophancy in Language Models (Anthropic, 2023)"
+    fecha_consulta: 2026-10-11
+    respalda: "El estudio analizó cinco asistentes de IA y encontró que tienden a ajustar sus respuestas a las creencias del usuario (complacencia), en parte por las preferencias humanas usadas en el entrenamiento."
+    cifras: [2023]
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — se resume el hallazgo del estudio sin exagerar ('tienden a'); no se afirma que el prompt elimine la complacencia"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

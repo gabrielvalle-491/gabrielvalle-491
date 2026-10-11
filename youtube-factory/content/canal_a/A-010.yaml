@@ -1,0 +1,82 @@
+id: A-010
+canal: canal_a
+fecha: 2026-10-28
+formato: short
+serie: El Atajo
+episodio: "#02"
+pilar: puente_excel
+tipo_editorial: tutorial
+idea: "Para que la IA entregue una fórmula de Excel que funcione, describe las columnas, el resultado esperado y tu idioma de Excel; luego pruébala con un caso que ya conozcas."
+objetivo: "Enseñar a pedir fórmulas de forma que funcionen a la primera y a verificarlas con un caso conocido; conecta con la audiencia de Excel."
+publico: "Personas que usan Excel en el trabajo y le piden fórmulas a un asistente de IA, pero obtienen errores o resultados raros."
+hipotesis: "Gancho 'pregunta' + duración media + visual 'lista': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "¿Por qué la fórmula que te da la IA no funciona en tu Excel?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Cómo pedirle a la IA una fórmula de Excel que sí funcione"
+titulos_alternativos:
+  - "La IA te da una fórmula que falla: lo que faltó en tu prompt"
+  - "Prompt para fórmulas de Excel: columnas, resultado y una prueba"
+  - "Pídele fórmulas a la IA sin errores: método en 3 pasos"
+criterio_titulo: "Promete el resultado que busca la audiencia (que la fórmula funcione) y menciona IA y Excel, términos de búsqueda directos."
+descripcion: |
+  Para que un asistente de IA te dé una fórmula útil, describe tus columnas, el resultado que quieres y tu idioma de Excel (por ejemplo, separador de argumentos). Después prueba la fórmula con un caso cuyo resultado ya conozcas.
+  El ejemplo usa SUMAR.SI.CONJUNTO con datos ficticios. La IA puede equivocarse: no uses una fórmula en datos importantes sin probarla antes.
+cta: "Pruébalo con la próxima fórmula que necesites."
+comentario_fijado: "Fórmula del video: =SUMAR.SI.CONJUNTO(C:C;A:A;F1;B:B;G1). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;). ¿Qué fórmula te cuesta más escribir?"
+hashtags: ["#Excel", "#IA", "#Prompts"]
+palabras_clave: ["fórmulas de Excel con IA", "SUMAR.SI.CONJUNTO", "prompt para Excel", "ChatGPT Excel"]
+escenas:
+  - narracion: "¿Por qué la fórmula que te da la IA no funciona en tu Excel? Casi siempre, faltó contexto."
+    visual:
+      plantilla: hook
+      datos: {kicker: "El Atajo", titulo: "La IA te dio una fórmula que *falla*", sub: "Casi siempre faltó contexto"}
+  - narracion: "Describe tus columnas, lo que quieres obtener y tu idioma de Excel. Así."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Uso Excel en español, con ; como separador. Columna A: producto, B: región, C: ventas. Quiero sumar las ventas del producto de F1 en la región de G1."
+  - narracion: "La IA debería devolver algo así. Primero, el rango que se suma. Luego, el producto. Y al final, la región."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=SUMAR.SI.CONJUNTO(C:C;A:A;F1;B:B;G1)"
+        partes:
+          - {token: "C:C", explica: "ventas a sumar"}
+          - {token: "A:A;F1", explica: "producto igual al de F1"}
+          - {token: "B:B;G1", explica: "región igual a la de G1"}
+  - narracion: "Antes de usarla, pruébala con un caso que ya conoces. El lunes, Café en el Norte vendió 120. El martes, 80. La fórmula debe dar 200."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Prueba con un caso *conocido*"
+        lineas:
+          - {izq: "Lunes · Café · Norte", der: "120"}
+          - {izq: "Martes · Café · Norte", der: "80"}
+        resultado: {izq: "La fórmula debe dar", der: "200"}
+  - narracion: "Si da otra cifra, cuéntale a la IA qué obtuviste y qué esperabas."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Contexto + prueba = fórmula *confiable*"
+        puntos: ["Describe tus columnas", "Indica tu idioma de Excel", "Prueba con un caso conocido"]
+        cta: "Pruébalo hoy"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/excel/functions/sumifs-function"
+    titulo: "Función SUMAR.SI.CONJUNTO (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "SUMAR.SI.CONJUNTO(rango_suma; rango_criterios1; criterios1; ...) suma los valores que cumplen varias condiciones."
+  - calculo: "[120, 80, 120 + 80]"
+    resultado: [120, 80, 200]
+    respalda: "Caso de prueba ficticio: Café en el Norte vendió 120 el lunes y 80 el martes; la suma esperada es 200."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — sintaxis de SUMAR.SI.CONJUNTO verificada en la ayuda de Microsoft; datos ficticios; se advierte que la IA puede errar"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["SUMAR.SI.CONJUNTO"]

@@ -1,0 +1,82 @@
+id: A-023
+canal: canal_a
+fecha: 2026-11-10
+formato: short
+serie: Sin código
+episodio: "#03"
+pilar: puente_excel
+tipo_editorial: herramienta
+idea: "La función GOOGLETRANSLATE de Google Sheets traduce el contenido de una celda con la fórmula =GOOGLETRANSLATE(A2;\"es\";\"en\"), sin copiar y pegar."
+objetivo: "Mostrar una función poco conocida con aplicación inmediata (catálogos, listas de productos, respuestas) y posicionar al canal en el puente entre planillas y automatización."
+publico: "Emprendedores y administrativos que traducen listas de productos, textos de clientes o encuestas en Google Sheets."
+hipotesis: "Formato 'herramienta' en pilar 'puente_excel': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Tienes una columna entera para traducir? No copies y pegues celda por celda."
+duracion_objetivo: "35-55 s"
+titulo: "Traduce una columna entera en Google Sheets con una fórmula"
+titulos_alternativos:
+  - "GOOGLETRANSLATE: traducir celdas sin copiar y pegar"
+  - "Traducir una lista de productos en Sheets en segundos"
+  - "La función de Google Sheets que traduce por ti"
+criterio_titulo: "Describe el resultado (traducir una columna) y la herramienta (Google Sheets); la función es un término de búsqueda directo."
+descripcion: |
+  En Google Sheets, =GOOGLETRANSLATE(A2;"es";"en") traduce el texto de A2 de español a inglés. Según la ayuda oficial, los idiomas de origen y destino son opcionales, pero si omites el de origen también debes omitir el de destino.
+  Si tu hoja usa coma como separador, escribe =GOOGLETRANSLATE(A2,"es","en"). Es traducción automática: revisa los textos importantes. Los datos del ejemplo son ilustrativos.
+cta: "Guárdalo para tu próximo catálogo."
+comentario_fijado: "Fórmula: =GOOGLETRANSLATE(A2;\"es\";\"en\"). Si tu hoja usa coma como separador (México, EE. UU.), escribe =GOOGLETRANSLATE(A2,\"es\",\"en\")."
+hashtags: ["#GoogleSheets", "#Productividad", "#Excel"]
+palabras_clave: ["GOOGLETRANSLATE", "traducir en Google Sheets", "traducir columna", "fórmulas de Google Sheets"]
+escenas:
+  - narracion: "¿Tienes una columna entera para traducir? No copies y pegues celda por celda."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Sin código", titulo: "Traduce una columna con *una fórmula*", sub: "Google Sheets"}
+  - narracion: "En Google Sheets existe [[gúgol tránsleit|GOOGLETRANSLATE]]. Primero va el texto: aquí, la celda A dos. Luego, el idioma de origen: es, de español. Y al final, el de destino: en, de inglés."
+    visual:
+      plantilla: formula
+      datos:
+        titulo: "Cómo se *escribe*"
+        formula: "=GOOGLETRANSLATE(A2;\"es\";\"en\")"
+        partes:
+          - {token: "A2", explica: "El texto a traducir"}
+          - {token: "\"es\"", explica: "Idioma de origen: español"}
+          - {token: "\"en\"", explica: "Idioma de destino: inglés"}
+        nota: "Si tu hoja usa coma, escribe , en lugar de ;"
+  - narracion: "Escribe la fórmula en B dos y cópiala hacia abajo. Cada fila se traduce sola. Y B dos muestra la traducción del texto de A dos."
+    visual:
+      plantilla: planilla
+      datos:
+        titulo: "Columna *traducida*"
+        formula: "=GOOGLETRANSLATE(A2;\"es\";\"en\")"
+        celda_formula: "B2"
+        filas:
+          - ["Español", "Inglés"]
+          - ["Taza de cerámica", ""]
+          - ["Envío gratis", ""]
+          - ["Talla mediana", ""]
+        resaltar:
+          - {rango: "A2:A4", beat: 1}
+        resultado: {celda: "B2", valor: "Ceramic mug", beat: 2}
+        nota: "Ejemplo ilustrativo: el resultado puede variar"
+  - narracion: "Eso sí: es traducción automática. Revisa a mano los textos importantes."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Traducir sin *copiar y pegar*"
+        puntos: ["Texto, origen y destino", "Copia la fórmula hacia abajo", "Revisa lo importante"]
+        cta: "Guárdalo para tu próximo catálogo"
+fuentes:
+  - url: "https://support.google.com/docs/answer/3093331"
+    titulo: "GOOGLETRANSLATE (Ayuda de Editores de Documentos de Google)"
+    fecha_consulta: 2026-10-11
+    respalda: "Sintaxis GOOGLETRANSLATE(texto; [idioma_origen; idioma_destino]); el texto puede ser una celda; códigos de idioma de dos letras; si se omite el origen, también debe omitirse el destino."
+riesgos:
+  derechos: "bajo — planilla y gráficos creados por el canal"
+  exactitud: "medio — la sintaxis está verificada; la traducción mostrada es un ejemplo ilustrativo y puede variar"
+  monetizacion: "bajo — contenido educativo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["GOOGLETRANSLATE"]

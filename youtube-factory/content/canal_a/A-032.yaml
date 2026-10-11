@@ -1,0 +1,81 @@
+id: A-032
+canal: canal_a
+fecha: 2026-11-19
+formato: short
+serie: Sin código
+episodio: "#05"
+pilar: automatizacion
+tipo_editorial: tutorial
+idea: "Un formulario de Google Forms puede guardar sus respuestas en una hoja de cálculo de Google Sheets y avisarte por correo de cada respuesta nueva, sin programar."
+objetivo: "Mostrar una automatización real, gratuita y sin código para recibir consultas o pedidos."
+publico: "Emprendedores y administrativos que reciben consultas o pedidos por mensajes sueltos y los anotan a mano."
+hipotesis: "Formato 'tutorial' en pilar 'automatizacion': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Anotas a mano cada consulta que te llega? Un formulario lo hace solo."
+duracion_objetivo: "35-55 s"
+titulo: "Formulario → planilla → aviso por correo, sin programar"
+titulos_alternativos:
+  - "Google Forms: respuestas en Sheets y aviso a tu correo"
+  - "Automatiza consultas de clientes con un formulario gratis"
+  - "Deja de anotar pedidos a mano: haz esto"
+criterio_titulo: "Muestra el flujo completo en tres palabras (formulario, planilla, aviso) con las herramientas buscables."
+descripcion: |
+  Con Google Forms, las respuestas pueden guardarse en una hoja de cálculo de Google Sheets y puedes activar avisos por correo de nuevas respuestas. Según la ayuda oficial, esto se hace desde la pestaña Respuestas.
+  Prueba el formulario con una respuesta tuya antes de compartirlo. Los nombres de los menús pueden variar según el idioma y la versión.
+cta: "Guárdalo y pruébalo hoy."
+comentario_fijado: "Pasos: 1) crea tu formulario; 2) en Respuestas, vincula una hoja de cálculo; 3) en el menú de tres puntos, activa el aviso por correo de nuevas respuestas."
+hashtags: ["#GoogleForms", "#GoogleSheets", "#Automatización"]
+palabras_clave: ["Google Forms", "formulario a Sheets", "notificaciones por correo", "automatizar consultas"]
+escenas:
+  - narracion: "¿Anotas a mano cada consulta que te llega? Un formulario lo hace solo."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Sin código", titulo: "Formulario → planilla → *aviso*", sub: "Google Forms y Sheets"}
+  - narracion: "Primero, crea tu formulario en Google Forms. Luego, en la pestaña Respuestas, vincula una hoja de cálculo. Y en el menú de tres puntos, activa el aviso por correo de nuevas respuestas."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Tres *pasos*"
+        pasos:
+          - {titulo: "Crea el formulario", detalle: "En Google Forms"}
+          - {titulo: "Vincula una hoja", detalle: "Pestaña Respuestas"}
+          - {titulo: "Activa el aviso", detalle: "Menú de tres puntos"}
+  - narracion: "Cada respuesta llega como una fila nueva. Puedes agregar una columna Estado para marcar lo pendiente. Y el correo te avisa sin abrir la hoja."
+    visual:
+      plantilla: planilla
+      datos:
+        titulo: "Respuestas en *Sheets*"
+        filas:
+          - ["Nombre", "Consulta", "Estado"]
+          - ["Ana", "Precio de envío", "Pendiente"]
+          - ["Luis", "Cambio de talla", "Resuelta"]
+          - ["Marta", "Factura", "Pendiente"]
+        resaltar:
+          - {rango: "C1:C4", beat: 1}
+        nota: "Datos ficticios"
+  - narracion: "Antes de compartir el enlace, envía una respuesta de prueba tú mismo."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Prueba *antes* de compartir"
+        puntos: ["Formulario con tus preguntas", "Respuestas en una hoja", "Aviso por correo"]
+        cta: "Guárdalo y pruébalo hoy"
+fuentes:
+  - url: "https://support.google.com/docs/answer/139706?hl=en"
+    titulo: "View & manage form responses (Google Docs Editors Help)"
+    fecha_consulta: 2026-10-11
+    respalda: "En la pestaña Respuestas se pueden ver y gestionar respuestas, vincular a Sheets y activar notificaciones por correo de nuevas respuestas desde el menú Más."
+  - url: "https://support.google.com/docs/answer/2917686?hl=en"
+    titulo: "Choose where to save form responses (Google Docs Editors Help)"
+    fecha_consulta: 2026-10-11
+    respalda: "Las respuestas de un formulario pueden guardarse en una hoja de cálculo nueva o existente."
+riesgos:
+  derechos: "bajo — planilla y gráficos creados por el canal, sin capturas"
+  exactitud: "medio — los nombres de menús pueden variar por idioma y versión; se describe lo documentado de forma general"
+  monetizacion: "bajo — contenido educativo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Ana", "Luis", "Marta"]
