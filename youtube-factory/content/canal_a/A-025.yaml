@@ -45,7 +45,7 @@ escenas:
       datos:
         etiqueta: "Plantilla de prompt"
         texto: "Resume el siguiente texto en tres niveles: 1) una línea; 2) un párrafo de cinco frases como máximo; 3) una página con subtítulos.\nTexto: [PEGA AQUÍ]"
-  - narracion: "Elige el nivel según quién lo lee. Y compara los tres con el original antes de enviarlos."
+  - narracion: "Elige el nivel según quién lo lee. Y compara los tres con el original antes de enviarlos. Un resumen corto no reemplaza al texto completo, solo te ayuda a entrar."
     visual:
       plantilla: cierre
       datos:

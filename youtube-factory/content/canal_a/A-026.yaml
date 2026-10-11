@@ -47,7 +47,7 @@ escenas:
         titulo: "Texto *modelo*"
         texto: "Hola, gracias por escribirnos. Ahora estamos fuera de horario. Atendemos de *[DÍAS]* de *[HORA]* a *[HORA]*. Te respondemos apenas volvamos."
         beat_texto: 0
-  - narracion: "A la fecha, es una función de la app para empresas. Revisa el menú de tu versión."
+  - narracion: "A la fecha, es una función de la app para empresas. Revisa el menú de tu versión. Y si cambias tu horario, actualiza el texto."
     visual:
       plantilla: cierre
       datos:
@@ -69,4 +69,4 @@ declaracion_sintetica:
   decision: "declarar"
   motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
 costo_estimado_usd: 0
-palabras_validas: []
+palabras_validas: ["Actívalo", "Pruébalo", "pruébalo", "configurarlo", "configúralo"]

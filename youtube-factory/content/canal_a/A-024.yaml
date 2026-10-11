@@ -26,7 +26,7 @@ comentario_fijado: "Fórmulas: =B2*C2 en cada fila y =SUMA(D2:D4) para el total.
 hashtags: ["#Pymes", "#Excel", "#IA"]
 palabras_clave: ["cotización", "plantilla de cotización", "IA para negocios", "SUMA en Excel"]
 escenas:
-  - narracion: "La IA redacta tu cotización, pero la suma la hace la planilla."
+  - narracion: "La IA redacta tu cotización, pero la suma la hace la planilla. Así evitas errores de cálculo en el correo."
     visual:
       plantilla: hook
       datos: {kicker: "Caso pyme", titulo: "Cotización: la *planilla* suma", sub: "La IA solo redacta"}
@@ -48,13 +48,13 @@ escenas:
           - {rango: "D2:D4", beat: 1}
         resultado: {celda: "D5", valor: "290", beat: 2}
         nota: "Datos ficticios"
-  - narracion: "El texto lo redacta la IA. Dale los datos y pide un correo corto y claro."
+  - narracion: "El texto lo redacta la IA. Dale los datos y pide un correo corto y claro. Así no tiene que inventar ninguna cifra."
     visual:
       plantilla: prompt
       datos:
         etiqueta: "Plantilla de prompt"
         texto: "Redacta un correo de cotización para [CLIENTE]. Incluye estos conceptos y el total: [PEGA LA TABLA]. Tono cordial, máximo 8 líneas. No agregues descuentos ni plazos."
-  - narracion: "Antes de enviar, comprueba que el total del correo coincida con la planilla."
+  - narracion: "Antes de enviar, comprueba que el total del correo coincida con la planilla. Así el cliente recibe el mismo número en todas partes. Los impuestos dependen de tu país."
     visual:
       plantilla: cierre
       datos:

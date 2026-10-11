@@ -52,7 +52,7 @@ escenas:
         resaltar:
           - {rango: "C1:C4", beat: 1}
         nota: "Datos ficticios"
-  - narracion: "Antes de compartir el enlace, envía una respuesta de prueba tú mismo."
+  - narracion: "Antes de compartir el enlace, envía una respuesta de prueba tú mismo. Así compruebas que llegue la fila y el aviso."
     visual:
       plantilla: cierre
       datos:

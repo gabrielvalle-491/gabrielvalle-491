@@ -26,11 +26,11 @@ comentario_fijado: "Plantilla de ejemplo: Escribe un correo de [TIPO] para [CLIE
 hashtags: ["#Prompts", "#IA", "#Productividad"]
 palabras_clave: ["biblioteca de prompts", "plantillas de prompts", "organizar prompts", "prompts reutilizables"]
 escenas:
-  - narracion: "¿Escribes el mismo prompt desde cero cada semana? Guárdalo como plantilla."
+  - narracion: "¿Escribes el mismo prompt desde cero cada semana? Guárdalo como plantilla, y mejóralo cada vez que lo uses."
     visual:
       plantilla: hook
       datos: {kicker: "El Atajo", titulo: "Tu *biblioteca* de prompts", sub: "Plantillas con [corchetes]"}
-  - narracion: "Así se ve una plantilla. Lo que cambia cada vez va entre corchetes."
+  - narracion: "Así se ve una plantilla. Lo que cambia cada vez va entre corchetes. El resto queda fijo, y no lo reescribes."
     visual:
       plantilla: prompt
       datos:
@@ -46,7 +46,7 @@ escenas:
           - {titulo: "Un nombre claro", detalle: "Ej.: Correo a cliente"}
           - {titulo: "Variables entre corchetes", detalle: "Lo que cambia cada vez"}
           - {titulo: "Una nota de ajuste", detalle: "Qué mejorar la próxima vez"}
-  - narracion: "Empieza con los tres prompts que más repites."
+  - narracion: "Empieza con los tres prompts que más repites. Con el tiempo tendrás una biblioteca hecha con tus tareas reales. Y recuerda revisar siempre la respuesta."
     visual:
       plantilla: cierre
       datos:

@@ -1,0 +1,82 @@
+id: B-027
+canal: canal_b
+fecha: 2026-11-14
+formato: short
+serie: Error que todos cometen
+episodio: "#07"
+pilar: errores
+tipo_editorial: error_comun
+idea: "Una fórmula que suma celdas sueltas muestra #¡REF! cuando borras una de esas filas; usar rangos o tablas lo evita."
+objetivo: "Explicar la causa de #¡REF! y dar dos prácticas concretas para prevenirlo."
+publico: "Personas que arman totales con sumas celda por celda y borran filas sin cuidado."
+hipotesis: "Formato 'error_comun' en pilar 'errores': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Borraste una fila y tu total ahora dice #¡REF!. Esto fue lo que pasó."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Error #¡REF! al borrar filas en Excel: causa y cómo evitarlo"
+titulos_alternativos:
+  - "Por qué sale #¡REF! en Excel y cómo prevenirlo"
+  - "Borré una fila y mi suma dio #¡REF!: solución"
+  - "SUMA con rango vs celdas sueltas: el error #¡REF!"
+criterio_titulo: "Incluye el error exacto que la gente busca (#¡REF!) con causa y prevención."
+descripcion: |
+  #¡REF! aparece cuando una fórmula hace referencia a una celda que ya no existe, por ejemplo porque borraste la fila. Si usas un rango como B2:B4, Excel ajusta la fórmula al borrar una fila dentro del rango.
+  Si acabas de borrar, prueba deshacer con Ctrl + Z. Ejemplo con cifras ilustrativas.
+cta: "Cambia tus sumas celda por celda por rangos."
+comentario_fijado: "Evítalo: en vez de =B2+B3+B4 usa =SUMA(B2:B4). Si acabas de borrar la fila, Ctrl + Z la recupera. En México y EE. UU. Excel suele usar coma (,) como separador."
+hashtags: ["#Excel", "#ErroresDeExcel", "#Fórmulas"]
+palabras_clave: ["#¡REF! Excel", "error REF al borrar fila", "suma con rango"]
+escenas:
+  - narracion: "Borraste una fila y tu total ahora dice #¡REF!. Esto fue lo que pasó."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Error que todos cometen", titulo: "Borras una fila y aparece *#¡REF!*", sub: "Por qué pasa y cómo evitarlo"}
+  - narracion: "La suma tomaba celdas sueltas. Al borrar febrero, desaparece una de esas celdas. Y el total muestra #¡REF!."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=B2+#¡REF!+B3"
+        celda_formula: "B4"
+        filas:
+          - ["Mes", "Ventas"]
+          - ["Ene", 100]
+          - ["Mar", 120]
+          - ["Total", "#¡REF!"]
+        resaltar:
+          - {rango: "A2:B3", beat: 1}
+        resultado: {celda: "B4", valor: "#¡REF!", beat: 2}
+        nota: "La fórmula original era =B2+B3+B4"
+  - narracion: "Primero, si acabas de borrar, prueba deshacer con Ctrl + Z. Segundo, usa un rango: SUMA de B2 a B4 se ajusta sola. Tercero, convierte tus datos en tabla: sus referencias se actualizan al agregar o quitar filas."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Cómo evitarlo"
+        pasos:
+          - {titulo: "Deshaz con Ctrl + Z", detalle: "Si acabas de borrar"}
+          - {titulo: "Usa rangos", detalle: "=SUMA(B2:B4), no B2+B3+B4"}
+          - {titulo: "Convierte los datos en tabla", detalle: "Las referencias se ajustan solas"}
+  - narracion: "Rangos y tablas, y adiós al error."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Rangos *mejor* que celdas sueltas", cta: "Guárdalo"}
+fuentes:
+  - url: "https://support.microsoft.com/es-es/Excel/how-to-correct-a-ref-error"
+    titulo: "Cómo corregir un error #¡REF! (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "#¡REF! aparece cuando una fórmula hace referencia a una celda no válida, por ejemplo eliminada; Deshacer puede restaurar filas o columnas borradas; usar rangos como =SUMA(B2:D2) en lugar de celdas sueltas permite que Excel ajuste la fórmula."
+  - url: "https://support.microsoft.com/es-ES/Excel/using-structured-references-with-excel-tables"
+    titulo: "Usar referencias estructuradas con las tablas de Excel (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Los nombres de las referencias estructuradas se ajustan cuando se agregan o quitan datos de la tabla."
+  - calculo: "[100, 120]"
+    respalda: "Ventas ilustrativas del ejemplo."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — comportamiento documentado por Microsoft"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

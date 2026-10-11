@@ -65,4 +65,4 @@ declaracion_sintetica:
   decision: "declarar"
   motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
 costo_estimado_usd: 0
-palabras_validas: ["few-shot", "Few-shot"]
+palabras_validas: ["few-shot", "Few-shot", "Anthropic", "Few", "few", "shot"]

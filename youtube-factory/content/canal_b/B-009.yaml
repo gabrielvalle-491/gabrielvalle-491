@@ -1,0 +1,97 @@
+id: B-009
+canal: canal_b
+fecha: 2026-10-27
+formato: short
+serie: Error que todos cometen
+episodio: "#02"
+pilar: errores
+tipo_editorial: contraintuitivo
+idea: "El formato de número solo cambia lo que ves; la celda guarda el valor completo y la suma lo usa. REDONDEAR sí cambia el valor guardado."
+objetivo: "Evitar sumas que no cuadran con lo que se ve en pantalla y enseñar cuándo usar REDONDEAR."
+publico: "Personas que arman reportes, facturas o presupuestos y ven totales que no coinciden con la suma visible."
+hipotesis: "Gancho 'contraste' + duración media + visual 'gráfico': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "Tres celdas muestran 1,23, pero su suma da 3,70 y no 3,69."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Por qué tu suma no cuadra: 2 decimales no es redondear"
+titulos_alternativos:
+  - "REDONDEAR vs formato de decimales en Excel"
+  - "La suma de Excel no coincide con lo que veo: la razón"
+  - "Ver 2 decimales no es tener 2 decimales"
+criterio_titulo: "Nombra el síntoma (la suma no cuadra) y anticipa la causa (formato vs valor) sin revelar la solución."
+descripcion: |
+  Dar formato de dos decimales no cambia el número guardado: la barra de fórmulas muestra el valor completo y los cálculos usan ese valor. Para cambiar el valor real se usa REDONDEAR.
+  El ejemplo usa tres celdas con 1,234, mostradas como 1,23. Los datos son ilustrativos.
+cta: "Revisa en la barra de fórmulas qué hay en tus celdas."
+comentario_fijado: "Fórmula: =REDONDEAR(A2;2). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos. Ojo: redondear antes de sumar y sumar antes de redondear pueden dar totales distintos; elige según lo que necesites reportar."
+hashtags: ["#Excel", "#Fórmulas", "#Errores"]
+palabras_clave: ["REDONDEAR excel", "suma no coincide excel", "formato decimales vs redondear"]
+escenas:
+  - narracion: "Tres celdas muestran 1,23, pero su suma da 3,70 y no 3,69."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Error que todos cometen", titulo: "1,23 + 1,23 + 1,23 = *3,70*", sub: "¿Excel se equivocó?"}
+  - narracion: "Las celdas tienen formato de dos decimales, pero guardan 1,234. La suma usa el valor real, no el que ves. Total: 3,70."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=SUMA(A2:A4)"
+        celda_formula: "A5"
+        decimales: 2
+        filas:
+          - ["Valor"]
+          - [1.234]
+          - [1.234]
+          - [1.234]
+          - [""]
+        resaltar:
+          - {rango: "A2:A4", beat: 1}
+        resultado: {celda: "A5", valor: "3,70", beat: 2}
+        nota: "Se ven 2 decimales; se guardan 3"
+  - narracion: "Dar formato cambia lo que ves, no lo que hay. REDONDEAR cambia el valor guardado, y entonces la suma da 3,69."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Solo formato", titulo: "Muestra 1,23", items: ["Guarda 1,234", "Suma: 3,70"]}
+        der: {etiqueta: "REDONDEAR", titulo: "Guarda 1,23", items: ["=REDONDEAR(A2;2)", "Suma: 3,69"]}
+        veredicto: "El formato no cambia el valor"
+  - narracion: "Escribe REDONDEAR. Primero, el número. Luego, cuántos decimales conservar."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=REDONDEAR(A2;2)"
+        partes:
+          - {token: "A2", explica: "el número a redondear"}
+          - {token: "2", explica: "decimales que conservas"}
+  - narracion: "Revisa la barra de fórmulas: ahí está el valor real. Es el que usan tus cálculos. Si el total debe coincidir con lo que muestras, redondea antes de sumar."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Formato *no* es redondeo"
+        puntos: ["Formato: cambia lo que ves", "REDONDEAR: cambia el valor"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/excel/stop-showing-rounded-numbers"
+    titulo: "No volver a mostrar números redondeados (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "El número que se muestra es independiente del almacenado; los cálculos usan el valor almacenado, visible en la barra de fórmulas; para redondear el valor se usa REDONDEAR."
+  - url: "https://support.microsoft.com/es-es/excel/round-a-number"
+    titulo: "Redondear un número (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "REDONDEAR(número; núm_decimales) redondea un número a los decimales indicados."
+  - calculo: "1.234 * 3"
+    resultado: 3.70
+    respalda: "Suma de tres celdas con valor guardado 1,234 (se ve 3,70 con dos decimales)."
+  - calculo: "REDONDEAR(1.234, 2) * 3"
+    resultado: 3.69
+    respalda: "Suma de tres celdas ya redondeadas a 1,23."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — comportamiento documentado por Microsoft y aritmética verificada"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

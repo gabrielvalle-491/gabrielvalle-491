@@ -1,0 +1,65 @@
+id: A-016
+canal: canal_a
+fecha: 2026-11-03
+formato: short
+serie: Reto 5 minutos
+episodio: "#04"
+pilar: prompts
+tipo_editorial: experimento
+idea: "Reformular una instrucción en negativo ('no uses jerga') como una instrucción en positivo ('usa palabras de uso diario') suele dar un resultado más claro."
+objetivo: "Proponer un experimento simple de prompts que el público repite con su propio texto, apoyado en la guía oficial de prompts de Claude."
+publico: "Personas que escriben prompts con muchas prohibiciones ('no hagas', 'evita') y reciben respuestas que no son lo que querían."
+hipotesis: "Formato 'experimento' en pilar 'prompts': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿'No uses jerga' o 'usa palabras de uso diario'? Prueba cuál funciona mejor."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "'No hagas X' o 'Haz Y': qué instrucción entiende mejor la IA"
+titulos_alternativos:
+  - "Deja de decirle a la IA lo que NO quieres"
+  - "Reto 5 minutos: instrucciones en positivo vs en negativo"
+  - "Cómo reescribir un prompt lleno de 'no' para que funcione"
+criterio_titulo: "Plantea el contraste con las dos frases literales, fácil de reconocer por quien escribe prompts."
+descripcion: |
+  Experimento de cinco minutos: pide el mismo texto dos veces, una con instrucciones en negativo ("no uses jerga") y otra en positivo ("usa palabras de uso diario"), y compara.
+  La documentación de prompts de Claude, a la fecha, recomienda para controlar el formato indicar qué hacer en lugar de qué no hacer. Los resultados varían según el modelo y la tarea; para límites claros, una prohibición explícita sigue siendo válida.
+cta: "Reescribe hoy uno de tus prompts en positivo."
+comentario_fijado: "Escribe en comentarios una instrucción en negativo que uses y la reescribimos en positivo."
+hashtags: ["#Prompts", "#IA", "#Productividad"]
+palabras_clave: ["cómo escribir prompts", "instrucciones en positivo", "prompt engineering"]
+escenas:
+  - narracion: "¿'No uses jerga' o 'usa palabras de uso diario'? Prueba cuál funciona mejor."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Reto 5 minutos", titulo: "¿'No hagas X' o '*Haz Y*'?", sub: "Pruébalo con tu propio texto"}
+  - narracion: "Una instrucción en negativo dice qué evitar, pero no qué hacer. Una en positivo describe el resultado que quieres. La documentación de Claude, a la fecha, recomienda decir qué hacer, no qué evitar."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "En negativo", titulo: "'No hagas X'", items: ["No uses jerga", "No escribas mucho"]}
+        der: {etiqueta: "En positivo", titulo: "'Haz Y'", items: ["Usa palabras de uso diario", "Máximo tres frases"]}
+        veredicto: "Describe el *resultado* que quieres"
+  - narracion: "Haz el experimento con el mismo tema. Primero la versión en positivo. Después, la de los noes."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Versión en positivo"
+        texto: "Explica [TEMA]. Usa palabras de uso diario, escribe tres frases como máximo y termina con un ejemplo."
+  - narracion: "Compara las dos respuestas. Las instrucciones en positivo suelen ser más claras, pero tu caso puede variar."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Di qué *sí* hacer", puntos: ["Describe el resultado", "Compara las dos versiones", "Tu caso puede variar"], cta: "Haz el reto"}
+fuentes:
+  - url: "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"
+    titulo: "Prompting best practices (Claude Platform Docs)"
+    fecha_consulta: 2026-10-11
+    respalda: "La guía recomienda, para controlar el formato de la respuesta, decirle al modelo qué hacer en lugar de qué no hacer (ejemplo: pedir 'párrafos de prosa fluida' en vez de 'no uses markdown')."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — la recomendación oficial se cita para el formato; se aclara que el resultado varía y que las prohibiciones explícitas siguen siendo válidas para límites"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

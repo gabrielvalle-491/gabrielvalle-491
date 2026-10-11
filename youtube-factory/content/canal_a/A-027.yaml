@@ -53,7 +53,7 @@ escenas:
       datos:
         etiqueta: "Plantilla de prompt"
         texto: "Redacta una respuesta a este reclamo: [PEGA EL RECLAMO]. Estructura: 1) reconoce el problema; 2) ofrece esta solución: [SOLUCIÓN]; 3) cierra con el siguiente paso y la fecha. Tono cordial, sin excusas."
-  - narracion: "Nunca prometas algo que no puedas cumplir. Y no pegues datos personales del cliente en la IA."
+  - narracion: "Nunca prometas algo que no puedas cumplir. Y no pegues datos personales del cliente en la IA. Revisa el borrador y ajústalo a tu forma de hablar."
     visual:
       plantilla: cierre
       datos:

@@ -43,7 +43,7 @@ escenas:
         titulo: "Revisa *antes* de publicar"
         estilo: check
         items: ["Medidas y materiales correctos", "Ninguna característica inventada", "La objeción tiene respuesta clara"]
-  - narracion: "Si la IA agrega algo falso, tu cliente lo notará. Verifica siempre."
+  - narracion: "Si la IA agrega algo falso, tu cliente lo notará. Verifica siempre cada dato antes de publicar."
     visual:
       plantilla: cierre
       datos:

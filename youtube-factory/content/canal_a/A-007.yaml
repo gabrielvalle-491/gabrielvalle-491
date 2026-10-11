@@ -71,4 +71,4 @@ declaracion_sintetica:
   decision: "declarar"
   motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
 costo_estimado_usd: 0
-palabras_validas: []
+palabras_validas: ["Anthropic", "Pruébalo", "anthropic.com", "research"]

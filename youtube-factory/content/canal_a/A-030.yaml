@@ -26,7 +26,7 @@ comentario_fijado: "Prompt: Redacta una respuesta pública a esta reseña de Goo
 hashtags: ["#GoogleMaps", "#Pymes", "#IA"]
 palabras_clave: ["responder reseñas negativas Google", "reseñas de Google", "perfil de empresa de Google", "atención al cliente"]
 escenas:
-  - narracion: "Una reseña negativa en Google no se responde con enojo. Se responde en tres pasos."
+  - narracion: "Una reseña negativa en Google no se responde con enojo. Se responde en tres pasos. Tu respuesta aparece debajo de la reseña."
     visual:
       plantilla: hook
       datos: {kicker: "Caso pyme", titulo: "Reseña negativa: *3 pasos*", sub: "Plantilla con IA"}
@@ -39,7 +39,7 @@ escenas:
           - {titulo: "Agradecer", detalle: "Gracias por avisarnos"}
           - {titulo: "Reconocer", detalle: "Sin discutir ni culpar"}
           - {titulo: "Resolver en privado", detalle: "Ofrece un canal de contacto"}
-  - narracion: "Pídele el borrador a la IA. Tú pones el canal de contacto."
+  - narracion: "Pídele el borrador a la IA. Tú pones el canal de contacto. No incluyas datos personales del cliente."
     visual:
       plantilla: prompt
       datos:

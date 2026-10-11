@@ -57,7 +57,7 @@ escenas:
           - {rango: "A2:A4", beat: 1}
         resultado: {celda: "B2", valor: "Ceramic mug", beat: 2}
         nota: "Ejemplo ilustrativo: el resultado puede variar"
-  - narracion: "Eso sí: es traducción automática. Revisa a mano los textos importantes."
+  - narracion: "Eso sí: es traducción automática. Revisa a mano los textos importantes. Y si tu hoja usa coma como separador, cambia el punto y coma por coma."
     visual:
       plantilla: cierre
       datos:
@@ -79,4 +79,4 @@ declaracion_sintetica:
   decision: "declarar"
   motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
 costo_estimado_usd: 0
-palabras_validas: ["GOOGLETRANSLATE"]
+palabras_validas: ["GOOGLETRANSLATE", "Ceramic", "mug", "cópiala"]
