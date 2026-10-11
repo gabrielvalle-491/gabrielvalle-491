@@ -1,0 +1,93 @@
+id: B-001
+canal: canal_b
+fecha: 2026-10-19
+formato: short
+serie: Tu dinero en una planilla
+episodio: "#01"
+pilar: dinero
+tipo_editorial: contraintuitivo
+idea: "Pagar una cantidad fija baja en la tarjeta alarga la deuda y hace que los intereses superen el monto original (ejemplo ilustrativo calculado con NPER)."
+objetivo: "Educación financiera práctica: que la persona calcule su propio caso con una función de planilla."
+publico: "Personas con saldo en tarjeta de crédito en Latinoamérica que pagan poco cada mes."
+hipotesis: "Gancho 'pregunta' + duración media + visual 'tipografía + demo': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "Debes US$ 1 000 en la tarjeta y pagas US$ 50 por mes. ¿Cuánto terminas pagando?"
+duracion_objetivo: "35-55 s"
+titulo: "Pagar poco en la tarjeta: cuánto cuesta de verdad (con números)"
+titulos_alternativos:
+  - "US$ 1 000 de deuda pagando US$ 50 al mes: el cálculo completo"
+  - "La función de Excel que te dice cuándo terminas de pagar"
+  - "Por qué tu deuda de tarjeta baja tan lento"
+criterio_titulo: "Promete un cálculo concreto sin exagerar; 'con números' anticipa la demostración."
+descripcion: |
+  Ejemplo ilustrativo: deuda de US$ 1 000, interés del 4 % mensual y pago fijo de US$ 50. Con la función NPER calculamos cuántos meses lleva saldarla y cuánto se paga en total.
+  Las tasas reales varían según el país, el banco y la tarjeta: revisa la tuya en tu resumen. Contenido educativo general, no es asesoramiento financiero.
+cta: "Haz la cuenta con tu propia tasa."
+comentario_fijado: "Fórmula del video: =NPER(tasa_mensual;-pago;deuda). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;)."
+hashtags: ["#FinanzasPersonales", "#Excel", "#TarjetaDeCredito"]
+palabras_clave: ["pago mínimo tarjeta", "función NPER", "calcular deuda tarjeta"]
+escenas:
+  - narracion: "Debes US$ 1 000 en la tarjeta y pagas US$ 50 por mes. ¿Cuánto terminas pagando?"
+    visual:
+      plantilla: hook
+      datos: {kicker: "Tu dinero en una planilla", titulo: "Pagar poco en la tarjeta: ¿cuánto *cuesta*?", sub: "Ejemplo ilustrativo: 4 % de interés mensual"}
+  - narracion: "Con un interés ilustrativo del 4 % mensual, el saldo baja muy lento al principio. Gran parte de cada pago se va en intereses."
+    visual:
+      plantilla: linea
+      datos:
+        titulo: "Saldo de la deuda, mes a mes"
+        prefijo: "US$ "
+        series:
+          - {nombre: "Saldo", valores: [1000, 934, 850, 744, 609, 439, 224, 0], etiqueta_final: "US$ 0"}
+        etiquetas_x: ["0", "6", "12", "18", "24", "30", "36", "42"]
+        nota: "Pago fijo de US$ 50 · 4 % mensual (ilustrativo)"
+  - narracion: "En la planilla, la función NPER hace la cuenta. Primero, la tasa mensual. Luego el pago, en negativo porque sale de tu bolsillo. Y al final, la deuda."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=NPER(4%;-50;1000)"
+        partes:
+          - {token: "4%", explica: "tasa de interés mensual"}
+          - {token: "-50", explica: "pago mensual (negativo: sale)"}
+          - {token: "1000", explica: "deuda actual"}
+  - narracion: "Resultado: unos 41 meses para saldarla. En total pagas unos US$ 2 052. Los intereses superan a la deuda original."
+    visual:
+      plantilla: calculo
+      datos:
+        lineas:
+          - {izq: "Meses para saldar", der: "≈ 41"}
+          - {izq: "Total pagado", der: "≈ US$ 2 052"}
+        resultado: {izq: "Solo en intereses", der: "≈ US$ 1 052"}
+  - narracion: "Busca la tasa real en tu resumen y haz tu propia cuenta."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Pagar poco *alarga* la deuda"
+        puntos: ["Busca tu tasa en el resumen", "Calcula con NPER", "Compara pagos distintos"]
+        cta: "Haz tu cuenta"
+fuentes:
+  - url: "https://support.microsoft.com/es-ES/Excel/functions/nper-function"
+    titulo: "NPER (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "NPER devuelve el número de periodos con pagos y tasa constantes; sintaxis NPER(tasa; pago; va; [vf]; [tipo])."
+  - calculo: "[1000, 50]"
+    respalda: "Datos ilustrativos del ejemplo (deuda y pago)."
+  - calculo: "NPER(0.04, -50, 1000)"
+    resultado: 41.04
+    respalda: "Meses para saldar la deuda."
+  - calculo: "50 * NPER(0.04, -50, 1000)"
+    resultado: 2052
+    respalda: "Total pagado aproximado."
+  - calculo: "50 * NPER(0.04, -50, 1000) - 1000"
+    resultado: 1052
+    respalda: "Intereses pagados."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — tasa ilustrativa; se aclara que las tasas reales varían"
+  monetizacion: "bajo — educación financiera general, sin recomendar productos"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas."
+costo_estimado_usd: 0
+palabras_validas: ["NPER"]

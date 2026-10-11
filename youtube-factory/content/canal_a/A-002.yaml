@@ -1,0 +1,64 @@
+id: A-002
+canal: canal_a
+fecha: 2026-10-20
+formato: short
+serie: Reto 5 minutos
+episodio: "#01"
+pilar: prompts
+tipo_editorial: experimento
+idea: "Indicar la audiencia en el prompt cambia vocabulario, ejemplos y profundidad de la respuesta."
+objetivo: "Mostrar un experimento simple que cualquiera puede repetir y que mejora todas sus consultas."
+publico: "Trabajadores que usan asistentes de IA para explicar temas a clientes, jefes o equipos."
+hipotesis: "Gancho 'resultado' + duración corta + visual 'demo': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "Cambia una parte de tu prompt y la respuesta cambia por completo."
+duracion_objetivo: "20-32 s"
+titulo: "El mismo prompt, para un niño y para un gerente"
+titulos_alternativos:
+  - "Una línea en tu prompt cambia toda la respuesta"
+  - "Prueba esto: di para quién es la respuesta"
+  - "Por qué la IA te explica todo igual (y cómo evitarlo)"
+criterio_titulo: "El principal describe el experimento con un contraste concreto y fácil de visualizar."
+descripcion: |
+  Experimento rápido: pedimos a un asistente de IA que explique la inflación para un niño de diez años y para un gerente. Cambian el vocabulario, los ejemplos y la profundidad.
+  Las respuestas que se muestran fueron generadas con IA como ejemplo; verifica siempre el contenido antes de usarlo.
+cta: "Pruébalo hoy con un tema de tu trabajo."
+comentario_fijado: "¿Para qué audiencia sueles escribir: clientes, jefes o tu equipo?"
+hashtags: ["#Prompts", "#IA", "#Productividad"]
+palabras_clave: ["cómo escribir prompts", "prompt para explicar", "IA en el trabajo"]
+escenas:
+  - narracion: "Cambia *una parte* de tu prompt y la respuesta cambia por completo."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Reto 5 minutos", titulo: "Una línea cambia *toda* la respuesta"}
+  - narracion: "La prueba: pide explicar la inflación, primero para un niño de diez años. Después, para un gerente."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Mismo prompt, distinta audiencia"
+        texto: "Explica qué es la inflación para [UN NIÑO DE 10 AÑOS]. Máximo tres frases.\n\nExplica qué es la inflación para [UN GERENTE]. Máximo tres frases."
+  - narracion: "Para el niño, la respuesta usó golosinas que cada año cuestan más. Para el gerente, habló de costos, precios y márgenes. Misma pregunta, otra profundidad."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Para un niño", titulo: "Ejemplo cotidiano", items: ["Golosinas que cuestan más", "Frases cortas"]}
+        der: {etiqueta: "Para un gerente", titulo: "Impacto en el negocio", items: ["Costos y precios", "Márgenes y decisiones"]}
+        veredicto: "Respuestas de ejemplo generadas con IA"
+  - narracion: "Antes de pedir algo, di *para quién* es."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Di *para quién* es", puntos: ["Edad o cargo", "Qué sabe del tema", "Para qué lo usará"], cta: "Pruébalo hoy"}
+fuentes:
+  - calculo: "[10]"
+    respalda: "Experimento propio: las dos respuestas se generaron con un asistente de IA (Claude) el 2026-10-11 con los prompts mostrados; se resumen en pantalla."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — se presenta como ejemplo; las salidas de IA varían entre ejecuciones"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+  - {nombre: "Respuestas de ejemplo generadas con un asistente de IA (rotuladas en pantalla)", licencia: "uso permitido por los términos del servicio; rotulado como IA"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista y salidas de IA mostradas como ejemplo."
+costo_estimado_usd: 0
+palabras_validas: []

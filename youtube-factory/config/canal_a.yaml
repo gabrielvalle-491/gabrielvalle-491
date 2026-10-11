@@ -1,0 +1,65 @@
+# Canal A — IA aplicada y automatización para el trabajo
+prefijo_id: A
+marca:
+  nombre: "Atajo IA"
+  handle_sugerido: "@AtajoIA"        # verificar disponibilidad al crear el canal
+  lema: "IA aplicada al trabajo, sin humo"
+  descripcion_corta: "Plantillas de prompts, automatizaciones y límites reales de la IA para trabajar mejor."
+nicho: "IA aplicada, automatización y herramientas digitales para el trabajo y las pymes"
+youtube:
+  channel_id: ""                     # se completa tras autorizar (python fabrica.py autorizar canal_a)
+  categoria_id: "28"                 # Ciencia y tecnología
+  idioma: "es-419"
+  apto_para_ninos: false
+publicacion:
+  hora_short: "18:00"                # hora de Argentina (UTC-3) = 15:00 CDMX
+  hora_largo: "19:00"
+  dia_largo: "martes"
+identidad:
+  paleta:
+    fondo: "#0b0d17"
+    fondo2: "#141a30"
+    texto: "#f3f5ff"
+    texto_suave: "#a3abcf"
+    acento: "#8b6cff"
+    acento2: "#22d3ee"
+    positivo: "#34d399"
+    negativo: "#fb7185"
+    tarjeta: "#151a2e"
+    borde: "#262d4d"
+    texto_sobre_acento: "#ffffff"
+  tipografias: {titulos: space-grotesk, cuerpo: inter, mono: jetbrains-mono}
+voz:
+  motor: kokoro
+  voz: em_alex
+  mezcla: {em_alex: 0.8, em_santa: 0.2}   # voz propia del canal (mezcla de estilos Kokoro, Apache-2.0)
+  velocidad: 1.06
+musica: {tonica: "E", modo: "menor", bpm: 92, semilla: 11, brillo: 1.1}
+subtitulos: {max_palabras: 4}
+lexico:
+  "\\bNotebookLM\\b": "nóutbuk el em"
+  "\\bPerplexity\\b": "perpléxiti"
+  "\\bCopilot\\b": "cópailot"
+  "\\bGemini\\b": "yémini"
+  "\\bClaude\\b": "clod"
+  "\\bZapier\\b": "zápier"
+  "\\bApps Script\\b": "aps script"
+  "\\bLLM\\b": "ele ele eme"
+  "\\bLLMs\\b": "ele ele emes"
+  "\\bRAG\\b": "rag"
+  "\\bJSON\\b": "yeison"
+  "\\bGmail\\b": "yimeil"
+  "\\bForms\\b": "forms"
+  "\\bChat\\b": "chat"
+  "\\bfeedback\\b": "fídbak"
+  "\\bchatbot\\b": "chatbot"
+  "\\bchatbots\\b": "chatbots"
+  "\\bSUMAPRODUCTO\\b": "suma producto"
+  "\\bnull\\b": "nul"
+hashtags_base: ["#InteligenciaArtificial", "#IA", "#Productividad"]
+descripcion_pie: |
+  —
+  Atajo IA: IA aplicada al trabajo, sin humo. Contenido educativo general; verifica siempre la información antes de usarla en decisiones importantes.
+  Narración con voz sintética (texto a voz). Gráficos y animaciones creados por el canal.
+divulgacion_afiliados: "Algunos enlaces pueden ser de afiliado: si compras, el canal puede recibir una comisión sin costo extra para ti. Solo se incluyen herramientas que se explican en el video."
+enlaces_afiliado: {}   # completar SOLO con enlaces reales aprobados, p. ej. {canva: "https://..."}

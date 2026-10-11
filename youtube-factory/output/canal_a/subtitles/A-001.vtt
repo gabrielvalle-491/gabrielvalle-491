@@ -1,0 +1,37 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:04.114
+¿Cómo eliges proveedor si uno es más barato y el otro entrega más rápido?
+
+00:00:04.354 --> 00:00:05.887
+Con una matriz de puntaje.
+
+00:00:06.167 --> 00:00:10.561
+Primero, define los criterios y su peso: el precio vale 40 %.
+
+00:00:10.721 --> 00:00:13.092
+La entrega, 35 %.
+
+00:00:13.252 --> 00:00:15.521
+Y la atención, 25 %.
+
+00:00:15.801 --> 00:00:18.699
+Luego califica a cada proveedor del 1 al 10.
+
+00:00:18.859 --> 00:00:22.428
+SUMAPRODUCTO multiplica cada nota por su peso y suma todo.
+
+00:00:22.588 --> 00:00:28.027
+Gana el proveedor B, con 7,55 contra 7,10, aunque es más caro.
+
+00:00:28.307 --> 00:00:29.130
+¿Y la IA?
+
+00:00:29.370 --> 00:00:31.154
+Pídele criterios para tu rubro.
+
+00:00:31.314 --> 00:00:33.560
+Los pesos y las notas los decides tú.
+
+00:00:33.840 --> 00:00:36.959
+Así tu decisión queda por escrito y la puedes explicar.

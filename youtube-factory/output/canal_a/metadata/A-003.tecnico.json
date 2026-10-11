@@ -1,0 +1,78 @@
+{
+  "id": "A-003",
+  "duracion_s": 29.399,
+  "frases": 8,
+  "subtitulos": 23,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.859,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.859,
+      "fin": 11.328,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 11.328,
+      "fin": 17.036,
+      "beats": [
+        0.0,
+        2.486
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 17.036,
+      "fin": 23.495,
+      "beats": [
+        0.0,
+        1.738
+      ],
+      "plantilla": "codigo"
+    },
+    {
+      "inicio": 23.495,
+      "fin": 29.399,
+      "beats": [
+        0.0,
+        2.065
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.01",
+    "input_tp": "-6.10",
+    "input_lra": "2.50",
+    "input_thresh": "-31.31",
+    "output_i": "-14.29",
+    "output_tp": "-1.50",
+    "output_lra": "1.30",
+    "output_thresh": "-24.52",
+    "normalization_type": "dynamic",
+    "target_offset": "0.29"
+  },
+  "fotogramas_unicos": 290,
+  "tts_cache": 0,
+  "spec_hash": "6a82571b4a0d7c1c",
+  "segundos_produccion": 132.3,
+  "texto_hablado": [
+    "Si copias a mano en tu planilla lo que te responde la i a, estás perdiendo tiempo.",
+    "Pídele yeison.",
+    "yeison es texto ordenado en campos y valores, que otros programas pueden leer sin que lo toques.",
+    "En el prompt, nombra los campos exactos.",
+    "Y pide que responda solo con yeison, sin texto extra.",
+    "El resultado se ve así.",
+    "Una planilla, Python o una herramienta de automatización lo convierten en una fila.",
+    "Antes de automatizar, revisa varias respuestas: la i a puede omitir o inventar campos."
+  ]
+}

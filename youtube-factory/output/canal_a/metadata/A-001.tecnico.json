@@ -1,0 +1,86 @@
+{
+  "id": "A-001",
+  "duracion_s": 37.819,
+  "frases": 12,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.087,
+      "beats": [
+        -5.0,
+        4.304
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.087,
+      "fin": 15.721,
+      "beats": [
+        0.0,
+        4.584,
+        7.116
+      ],
+      "plantilla": "donut"
+    },
+    {
+      "inicio": 15.721,
+      "fin": 28.227,
+      "beats": [
+        0.0,
+        3.088,
+        6.817
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 28.227,
+      "fin": 33.76,
+      "beats": [
+        0.0,
+        1.093
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 33.76,
+      "fin": 37.819,
+      "beats": [
+        0.0,
+        1.328
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.34",
+    "input_tp": "-6.89",
+    "input_lra": "1.70",
+    "input_thresh": "-31.60",
+    "output_i": "-14.36",
+    "output_tp": "-1.50",
+    "output_lra": "1.50",
+    "output_thresh": "-24.56",
+    "normalization_type": "dynamic",
+    "target_offset": "0.36"
+  },
+  "fotogramas_unicos": 344,
+  "tts_cache": 0,
+  "spec_hash": "6ccc5da2886a1ac3",
+  "segundos_produccion": 165.2,
+  "texto_hablado": [
+    "¿Cómo eliges proveedor si uno es más barato y el otro entrega más rápido?",
+    "Con una matriz de puntaje.",
+    "Primero, define los criterios y su peso: el precio vale cuarenta por ciento.",
+    "La entrega, treinta y cinco por ciento.",
+    "Y la atención, veinticinco por ciento.",
+    "Luego califica a cada proveedor del uno al diez.",
+    "suma producto multiplica cada nota por su peso y suma todo.",
+    "Gana el proveedor B, con siete coma cincuenta y cinco contra siete coma diez, aunque es más caro.",
+    "¿Y la i a?",
+    "Pídele criterios para tu rubro.",
+    "Los pesos y las notas los decides tú.",
+    "Así tu decisión queda por escrito y la puedes explicar."
+  ]
+}

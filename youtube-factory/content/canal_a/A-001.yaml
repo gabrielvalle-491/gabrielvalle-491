@@ -1,0 +1,96 @@
+id: A-001
+canal: canal_a
+fecha: 2026-10-19
+formato: short
+serie: Caso pyme
+episodio: "#01"
+pilar: negocio
+tipo_editorial: caso_practico
+idea: "Elegir proveedor con una matriz de puntaje ponderado: la IA propone criterios, tú decides pesos y notas, la planilla calcula."
+objetivo: "Enseñar una técnica de decisión reutilizable y mostrar el rol correcto de la IA (estructura, no decisión). Atraer dueños de pymes."
+publico: "Dueños y encargados de compras de pequeños negocios en Latinoamérica que comparan proveedores."
+hipotesis: "Gancho 'pregunta' + duración media + visual 'tipografía + demo': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "¿Cómo eliges proveedor si uno es más barato y el otro entrega más rápido?"
+duracion_objetivo: "35-55 s"
+titulo: "¿Proveedor barato o rápido? Decide con una matriz de puntaje"
+titulos_alternativos:
+  - "Cómo comparar proveedores con números (y un poco de IA)"
+  - "Matriz de decisión: elige proveedor en 5 minutos"
+  - "Deja de elegir proveedor por corazonada"
+criterio_titulo: "El principal plantea el dilema real del público (precio vs rapidez) y nombra la herramienta; es claro y buscable ('matriz de puntaje')."
+descripcion: |
+  Una matriz de puntaje ponderado te ayuda a comparar proveedores con criterios claros: defines pesos, calificas del 1 al 10 y SUMAPRODUCTO hace la cuenta.
+  La IA sirve para proponer criterios según tu rubro; los pesos y las notas los decides tú. Los datos del ejemplo son ficticios.
+cta: "Guárdalo para tu próxima compra."
+comentario_fijado: "¿Qué criterio agregarías para tu rubro: garantía, forma de pago, cercanía?"
+hashtags: ["#Pymes", "#IA", "#Excel"]
+palabras_clave: ["comparar proveedores", "matriz de decisión", "SUMAPRODUCTO", "IA para negocios"]
+escenas:
+  - narracion: "¿Cómo eliges proveedor si uno es más barato y el otro entrega más rápido? Con una *matriz de puntaje*."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Caso pyme", titulo: "¿Barato o *rápido*? Decide con números", sub: "Matriz de puntaje ponderado"}
+  - narracion: "Primero, define los criterios y su peso: el precio vale *40 %*. La entrega, 35 %. Y la atención, 25 %."
+    visual:
+      plantilla: donut
+      datos:
+        titulo: "Criterios con *peso*"
+        centro: "100 %"
+        segmentos:
+          - {etiqueta: "Precio", valor: 40, texto: "40 %"}
+          - {etiqueta: "Entrega", valor: 35, texto: "35 %"}
+          - {etiqueta: "Atención", valor: 25, texto: "25 %"}
+  - narracion: "Luego califica a cada proveedor del 1 al 10. SUMAPRODUCTO multiplica cada nota por su peso y suma todo. Gana el proveedor B, con 7,55 contra 7,10, aunque es más caro."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=SUMAPRODUCTO($B$2:$B$4;D2:D4)"
+        celda_formula: "D5"
+        decimales: 0
+        filas:
+          - ["Criterio", "Peso", "Prov. A", "Prov. B"]
+          - ["Precio", "40 %", 9, 6]
+          - ["Entrega", "35 %", 5, 9]
+          - ["Atención", "25 %", 7, 8]
+          - ["Total", "100 %", "7,10", ""]
+        resaltar:
+          - {rango: "B2:B4", beat: 1}
+          - {rango: "D2:D4", beat: 1, alterno: true}
+        resultado: {celda: "D5", valor: "7,55", beat: 2}
+  - narracion: "¿Y la IA? Pídele criterios para tu rubro. Los pesos y las notas los decides tú."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Tengo un negocio de [RUBRO]. Propón 5 criterios para comparar proveedores de [PRODUCTO], con una frase que explique cada uno. No asignes pesos ni notas."
+  - narracion: "Así tu decisión queda por escrito y la puedes explicar."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Decide con *criterios*, no con corazonadas"
+        puntos: ["Pesos que suman 100 %", "Notas del 1 al 10", "SUMAPRODUCTO hace la cuenta"]
+        cta: "Guárdalo para tu próxima compra"
+fuentes:
+  - url: "https://support.microsoft.com/es-ES/Excel/functions/sumproduct-function"
+    titulo: "SUMAPRODUCTO (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "SUMAPRODUCTO devuelve la suma de los productos de rangos correspondientes."
+  - calculo: "[40, 35, 25, 40 + 35 + 25]"
+    respalda: "Pesos ilustrativos del ejemplo; suman 100 %."
+  - calculo: "0.40*9 + 0.35*5 + 0.25*7"
+    resultado: 7.10
+    respalda: "Puntaje ponderado del proveedor A."
+  - calculo: "0.40*6 + 0.35*9 + 0.25*8"
+    resultado: 7.55
+    respalda: "Puntaje ponderado del proveedor B."
+riesgos:
+  derechos: "bajo — planilla, gráficos y prompt creados por el canal"
+  exactitud: "bajo — cálculo verificado automáticamente; datos ficticios"
+  monetizacion: "bajo — contenido educativo para negocios"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista (TTS). Los gráficos no son realistas. Se declara en Studio y en la descripción por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["SUMAPRODUCTO"]

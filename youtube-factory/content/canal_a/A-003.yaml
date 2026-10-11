@@ -1,0 +1,71 @@
+id: A-003
+canal: canal_a
+fecha: 2026-10-21
+formato: short
+serie: El Atajo
+episodio: "#01"
+pilar: automatizacion
+tipo_editorial: tutorial
+idea: "Pedir la salida en JSON con campos fijos convierte respuestas de IA en datos que una planilla o un programa pueden cargar."
+objetivo: "Primer paso de automatización real; posiciona al canal en flujos prácticos (base para afiliados de herramientas)."
+publico: "Administrativos y emprendedores que copian a mano datos de correos o documentos."
+hipotesis: "Gancho 'error' + duración media + visual 'comparación': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "Si copias a mano en tu planilla lo que te responde la IA, estás perdiendo tiempo."
+duracion_objetivo: "35-55 s"
+titulo: "Deja de copiar a mano: pídele a la IA datos en JSON"
+titulos_alternativos:
+  - "El formato que convierte respuestas de IA en filas de tu planilla"
+  - "JSON explicado en 40 segundos (para automatizar sin programar)"
+  - "Cómo pedirle a la IA datos listos para automatizar"
+criterio_titulo: "Nombra el dolor (copiar a mano) y la solución concreta; 'JSON' es término de búsqueda con intención práctica."
+descripcion: |
+  JSON es un formato de texto con campos y valores que pueden leer las planillas, Python y las herramientas de automatización.
+  Pide campos exactos, respuesta solo en JSON y "null" si falta un dato. Revisa varias respuestas antes de automatizar: la IA puede omitir o inventar campos. El ejemplo usa datos ficticios.
+cta: "Guárdalo para tu próximo flujo."
+comentario_fijado: "¿De qué documentos copias datos a mano todas las semanas?"
+hashtags: ["#Automatización", "#IA", "#JSON"]
+palabras_clave: ["JSON", "automatizar con IA", "extraer datos de correos"]
+escenas:
+  - narracion: "Si copias a mano en tu planilla lo que te responde la IA, estás perdiendo tiempo. Pídele *JSON*."
+    visual:
+      plantilla: hook
+      datos: {kicker: "El Atajo", titulo: "Deja de copiar a mano: pide *JSON*"}
+  - narracion: "JSON es texto ordenado en campos y valores, que otros programas pueden leer sin que lo toques."
+    visual:
+      plantilla: texto
+      datos: {titulo: "¿Qué es JSON?", texto: "Texto ordenado en *campos* y *valores* que un programa puede leer.", beat_texto: 0}
+  - narracion: "En el prompt, nombra los campos exactos. Y pide que responda solo con JSON, sin texto extra."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Extrae de este correo: nombre, fecha y monto. Responde SOLO con JSON con las claves \"nombre\", \"fecha\" y \"monto\". Si falta un dato, usa null.\nCorreo: [PEGA AQUÍ]"
+  - narracion: "El resultado se ve así. Una planilla, Python o una herramienta de automatización lo convierten en una fila."
+    visual:
+      plantilla: codigo
+      datos:
+        lenguaje: "Ejemplo de salida (datos ficticios)"
+        codigo: "{\n  \"nombre\": \"Laura Gómez\",\n  \"fecha\": \"2026-10-19\",\n  \"monto\": 1500\n}"
+  - narracion: "Antes de automatizar, revisa varias respuestas: la IA puede omitir o inventar campos."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Campos fijos = datos *automatizables*"
+        puntos: ["Nombra cada campo", "Pide solo JSON", "Revisa antes de automatizar"]
+        cta: "Guárdalo para tu próximo flujo"
+fuentes:
+  - url: "https://www.json.org/json-en.html"
+    titulo: "Introducing JSON (json.org)"
+    fecha_consulta: 2026-10-11
+    respalda: "JSON es un formato de texto ligero de intercambio de datos basado en pares nombre/valor, fácil de procesar por programas."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — definición estándar; se advierte verificar salidas"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas."
+costo_estimado_usd: 0
+palabras_validas: ["JSON", "null", "Laura", "Gómez"]

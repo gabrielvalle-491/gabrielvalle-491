@@ -1,0 +1,87 @@
+{
+  "id": "B-001",
+  "duracion_s": 37.368,
+  "frases": 12,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.845,
+      "beats": [
+        -5.0,
+        3.969
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.845,
+      "fin": 14.221,
+      "beats": [
+        0.0,
+        5.583
+      ],
+      "plantilla": "linea"
+    },
+    {
+      "inicio": 14.221,
+      "fin": 23.734,
+      "beats": [
+        0.0,
+        2.962,
+        4.752,
+        7.907
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 23.734,
+      "fin": 33.109,
+      "beats": [
+        0.0,
+        3.259,
+        6.556
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 33.109,
+      "fin": 37.368,
+      "beats": [
+        0.0,
+        1.408
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.00",
+    "input_tp": "-6.61",
+    "input_lra": "1.80",
+    "input_thresh": "-32.20",
+    "output_i": "-14.25",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.38",
+    "normalization_type": "dynamic",
+    "target_offset": "0.25"
+  },
+  "fotogramas_unicos": 314,
+  "tts_cache": 0,
+  "spec_hash": "88a4ce580f4cbcf9",
+  "segundos_produccion": 125.6,
+  "texto_hablado": [
+    "Debes mil dólares en la tarjeta y pagas cincuenta dólares por mes.",
+    "¿Cuánto terminas pagando?",
+    "Con un interés ilustrativo del cuatro por ciento mensual, el saldo baja muy lento al principio.",
+    "Gran parte de cada pago se va en intereses.",
+    "En la planilla, la función ene per hace la cuenta.",
+    "Primero, la tasa mensual.",
+    "Luego el pago, en negativo porque sale de tu bolsillo.",
+    "Y al final, la deuda.",
+    "Resultado: unos cuarenta y uno meses para saldarla.",
+    "En total pagas unos dos mil cincuenta y dos dólares.",
+    "Los intereses superan a la deuda original.",
+    "Busca la tasa real en tu resumen y haz tu propia cuenta."
+  ]
+}

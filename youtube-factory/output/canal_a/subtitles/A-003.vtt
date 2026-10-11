@@ -1,0 +1,31 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:04.561
+Si copias a mano en tu planilla lo que te responde la IA, estás perdiendo tiempo.
+
+00:00:04.721 --> 00:00:05.659
+Pídele JSON.
+
+00:00:05.939 --> 00:00:08.313
+JSON es texto ordenado en campos y valores,
+
+00:00:08.313 --> 00:00:11.128
+que otros programas pueden leer sin que lo toques.
+
+00:00:11.408 --> 00:00:13.705
+En el prompt, nombra los campos exactos.
+
+00:00:13.865 --> 00:00:16.836
+Y pide que responda solo con JSON, sin texto extra.
+
+00:00:17.116 --> 00:00:18.665
+El resultado se ve así.
+
+00:00:18.825 --> 00:00:23.295
+Una planilla, Python o una herramienta de automatización lo convierten en una fila.
+
+00:00:23.575 --> 00:00:26.320
+Antes de automatizar, revisa varias respuestas:
+
+00:00:26.320 --> 00:00:28.539
+la IA puede omitir o inventar campos.

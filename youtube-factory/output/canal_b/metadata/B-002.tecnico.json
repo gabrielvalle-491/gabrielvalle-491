@@ -1,0 +1,78 @@
+{
+  "id": "B-002",
+  "duracion_s": 21.769,
+  "frases": 7,
+  "subtitulos": 15,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.809,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.809,
+      "fin": 7.079,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 7.079,
+      "fin": 13.54,
+      "beats": [
+        0.0,
+        1.712,
+        3.89
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 13.54,
+      "fin": 17.339,
+      "beats": [
+        0.0,
+        1.488
+      ],
+      "plantilla": "dato"
+    },
+    {
+      "inicio": 17.339,
+      "fin": 21.769,
+      "beats": [
+        0.0,
+        1.476
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.13",
+    "input_tp": "-7.24",
+    "input_lra": "3.80",
+    "input_thresh": "-32.42",
+    "output_i": "-14.37",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.57",
+    "normalization_type": "dynamic",
+    "target_offset": "0.37"
+  },
+  "fotogramas_unicos": 186,
+  "tts_cache": 0,
+  "spec_hash": "1865c0a97fa4857b",
+  "segundos_produccion": 72.4,
+  "texto_hablado": [
+    "Convierte este error en un mensaje claro con una sola fórmula.",
+    "Cuando buscar uve no encuentra un código, devuelve ene a.",
+    "Envuélvela con si error.",
+    "Primero va tu fórmula original.",
+    "Después, lo que quieres mostrar si falla.",
+    "Y si usas buscar equis, ya trae su propio argumento para esto.",
+    "Ojo: ocultar errores también puede ocultar datos mal cargados."
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "A-002",
+  "duracion_s": 22.197,
+  "frases": 7,
+  "subtitulos": 18,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.89,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.89,
+      "fin": 9.768,
+      "beats": [
+        0.0,
+        4.21
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 9.768,
+      "fin": 19.149,
+      "beats": [
+        0.0,
+        3.959,
+        6.984
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 19.149,
+      "fin": 22.197,
+      "beats": [
+        0.0,
+        0.923
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.16",
+    "input_tp": "-5.04",
+    "input_lra": "1.80",
+    "input_thresh": "-31.41",
+    "output_i": "-14.25",
+    "output_tp": "-1.50",
+    "output_lra": "1.20",
+    "output_thresh": "-24.41",
+    "normalization_type": "dynamic",
+    "target_offset": "0.25"
+  },
+  "fotogramas_unicos": 206,
+  "tts_cache": 0,
+  "spec_hash": "10bfd92c3c377bf8",
+  "segundos_produccion": 96.4,
+  "texto_hablado": [
+    "Cambia una parte de tu prompt y la respuesta cambia por completo.",
+    "La prueba: pide explicar la inflación, primero para un niño de diez años.",
+    "Después, para un gerente.",
+    "Para el niño, la respuesta usó golosinas que cada año cuestan más.",
+    "Para el gerente, habló de costos, precios y márgenes.",
+    "Misma pregunta, otra profundidad.",
+    "Antes de pedir algo, di para quién es."
+  ]
+}

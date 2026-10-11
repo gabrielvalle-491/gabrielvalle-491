@@ -1,0 +1,88 @@
+{
+  "id": "B-003",
+  "duracion_s": 41.032,
+  "frases": 13,
+  "subtitulos": 29,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.715,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.715,
+      "fin": 18.289,
+      "beats": [
+        0.0,
+        1.117,
+        4.624,
+        8.129
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 18.289,
+      "fin": 27.656,
+      "beats": [
+        0.0,
+        2.362,
+        4.049
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 27.656,
+      "fin": 36.932,
+      "beats": [
+        0.0,
+        3.033,
+        6.137
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 36.932,
+      "fin": 41.032,
+      "beats": [
+        0.0,
+        1.344
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.13",
+    "input_tp": "-7.27",
+    "input_lra": "2.00",
+    "input_thresh": "-32.37",
+    "output_i": "-14.05",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.23",
+    "normalization_type": "dynamic",
+    "target_offset": "0.05"
+  },
+  "fotogramas_unicos": 282,
+  "tts_cache": 0,
+  "spec_hash": "12e3f63c0739716c",
+  "segundos_produccion": 93.0,
+  "texto_hablado": [
+    "Si compras a cien y le sumas treinta por ciento, tu margen no es treinta por ciento.",
+    "Es veintitrés por ciento.",
+    "Costo: cien.",
+    "Con treinta por ciento de recargo, vendes a ciento treinta.",
+    "Ganas treinta, pero el margen se mide sobre el precio de venta.",
+    "treinta dividido ciento treinta: veintitrés por ciento.",
+    "El recargo se calcula sobre el costo.",
+    "El margen, sobre la venta.",
+    "Para ganar un treinta por ciento de margen, el precio es costo dividido cero coma setenta.",
+    "En tu planilla, pon el costo y el margen que buscas.",
+    "La fórmula divide el costo por uno menos el margen.",
+    "Precio: ciento cuarenta y dos coma ochenta y seis.",
+    "Revisa cuál usa tu negocio antes de fijar precios."
+  ]
+}

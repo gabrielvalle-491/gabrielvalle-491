@@ -1,0 +1,91 @@
+# n|pilar|serie|tipo|tema|angulo/promesa|plantillas sugeridas|mercado
+1|prompts|El Atajo|tutorial|Estructura de prompt rol-tarea-contexto-formato|Mismo pedido, antes y después: la diferencia está en 4 piezas|hook,versus,lista,prompt,cierre|latam
+2|ia_sin_humo|IA sin humo|contraintuitivo|Por qué la IA inventa datos (alucinaciones)|No miente: predice texto probable. Cómo pedirle que diga "no sé"|hook,texto,prompt,lista|latam
+3|negocio|Caso pyme|caso_practico|Responder un reclamo de cliente con IA|Reclamo real ficticio → respuesta en 3 pasos: calmar, resolver, cerrar|hook,pasos,prompt,cierre|latam
+4|ia_sin_humo|IA sin humo|mito|Mito: un prompt más largo siempre es mejor|Lo que importa es la información útil, no la cantidad de palabras|mito,versus,lista|latam
+5|prompts|El Atajo|tutorial|Notas de reunión desordenadas → acta con tareas|Pide responsables y fechas en tabla para no perder acuerdos|hook,prompt,planilla,cierre|latam
+6|seguridad|Error común|error_comun|Pegar datos sensibles en un chatbot|Qué no pegar nunca y cómo anonimizar en 10 segundos|hook,lista,versus,cierre|latam
+7|conceptos|Glosario rápido|contraintuitivo|Qué es un token|La IA no lee palabras: lee trozos. Por eso a veces cuenta mal letras|hook,texto,barras,cierre|latam
+8|prompts|El Atajo|tutorial|Pedir respuestas en formato tabla para pegar en Excel|Una línea extra en el prompt te ahorra copiar y pegar a mano|hook,prompt,planilla,cierre|latam
+9|automatizacion|Sin código|herramienta|Respuestas rápidas de WhatsApp Business|Atajos con "/" para responder preguntas repetidas|hook,pasos,lista,cierre|latam
+10|prompts|Reto 5 minutos|experimento|Dar ejemplos dentro del prompt (few-shot)|Con 2 ejemplos la IA copia tu estilo y formato|hook,versus,prompt,cierre|latam
+11|conceptos|Glosario rápido|contraintuitivo|Ventana de contexto: por qué "olvida" en chats largos|Tiene memoria de trabajo limitada; resume y reinicia|hook,texto,barras,lista|latam
+12|negocio|Caso pyme|caso_practico|Descripciones de productos con IA|Plantilla con beneficios, medidas y objeciones del cliente|hook,prompt,lista,cierre|latam
+13|puente_excel|El Atajo|tutorial|Pedirle a la IA fórmulas de Excel bien|Describe columnas y resultado esperado; luego prueba con un caso|hook,prompt,formula,cierre|latam
+14|ia_sin_humo|IA sin humo|mito|Mito: los detectores de texto con IA son infalibles|OpenAI retiró su propio clasificador en 2023 por baja precisión|mito,dato,lista|latam
+15|prompts|El Atajo|tutorial|Encadenar prompts: dividir una tarea grande|Esquema → borrador → revisión: tres pasos superan a uno gigante|hook,pasos,versus,cierre|latam
+16|prompts|Truco rápido|tutorial|Que la IA te haga preguntas antes de responder|Una frase final convierte respuestas genéricas en específicas|hook,prompt,lista,cierre|latam
+17|prompts|El Atajo|tutorial|Resumir un PDF largo y qué verificar|Pide páginas de referencia y revisa cifras contra el original|hook,pasos,prompt,lista|latam
+18|negocio|Caso pyme|caso_practico|Decir que no a un cliente con cortesía|Estructura: agradecer, explicar, ofrecer alternativa|hook,pasos,prompt,cierre|latam
+19|automatizacion|Sin código|tutorial|Formulario → planilla → aviso por correo|Google Forms guarda respuestas en Sheets y puede avisarte por email|hook,pasos,planilla,cierre|latam
+20|prompts|Error común|error_comun|Pedir "hazlo mejor" sin criterio|Define qué es "mejor": más corto, más formal, con datos|hook,versus,lista,cierre|latam
+21|conceptos|Glosario rápido|contraintuitivo|Creatividad vs precisión en las respuestas|Mismo modelo, tareas distintas: cuándo pedir variedad y cuándo exactitud|hook,versus,lista|latam
+22|empleo|Caso práctico|caso_practico|Preparar una entrevista de trabajo con IA|Simulación de preguntas y respuestas con el método STAR|hook,prompt,pasos,cierre|latam
+23|ia_sin_humo|Reto 5 minutos|experimento|Las cuentas: cuándo no confiar en la IA|Cálculos largos: usa planilla o calculadora y compara|hook,calculo,versus,cierre|latam
+24|automatizacion|Sin código|herramienta|Filtros de Gmail para ordenar tu bandeja|Etiquetar y archivar automáticamente correos de facturas|hook,pasos,lista,cierre|latam
+25|conceptos|Glosario rápido|contraintuitivo|Qué es RAG (respuestas con tus documentos)|Como un estudiante que consulta sus apuntes antes de responder|hook,pasos,texto,cierre|latam
+26|negocio|Caso pyme|caso_practico|Transcripción de llamada → preguntas frecuentes|Convierte lo que los clientes preguntan en una FAQ|hook,prompt,lista,cierre|latam
+27|ia_sin_humo|IA sin humo|mito|Mito: la IA eliminará todos los empleos ya|Qué proyecta el informe del Foro Económico Mundial 2025|mito,barras,dato,cierre|latam
+28|automatizacion|El Atajo|tutorial|Pedir salida en JSON para automatizar|Formato estructurado = datos que otro programa puede leer|hook,prompt,codigo,cierre|latam
+29|conceptos|Glosario rápido|contraintuitivo|Qué es un agente de IA|Chatbot responde; agente ejecuta pasos con herramientas|hook,versus,pasos,cierre|latam
+30|herramientas|¿Cuál uso?|comparacion|Buscador vs chatbot: cuándo usar cada uno|Datos recientes y fuentes → buscador; redactar y transformar → chatbot|hook,versus,lista,cierre|latam
+31|prompts|Reto 5 minutos|experimento|Explicar lo mismo a un niño y a un gerente|La audiencia en el prompt cambia vocabulario y profundidad|hook,versus,prompt|latam
+32|negocio|Caso pyme|caso_practico|Plan de publicaciones para redes de un negocio|Prompt con objetivos, público y tono + revisión humana|hook,prompt,planilla,cierre|latam
+33|ia_sin_humo|Error común|error_comun|Confiar en enlaces y citas que genera la IA|Abre cada enlace: puede no existir o no decir eso|hook,pasos,lista,cierre|latam
+34|puente_excel|Sin código|herramienta|Traducir una columna en Google Sheets|La función GOOGLETRANSLATE traduce celdas sin copiar y pegar|hook,formula,planilla,cierre|latam
+35|productividad|El Atajo|tutorial|Convertir un proceso en checklist paso a paso|Del "así lo hago yo" a un procedimiento que cualquiera sigue|hook,prompt,lista,cierre|latam
+36|negocio|Caso pyme|caso_practico|Análisis FODA útil con IA|Dale datos reales; pide acciones, no adjetivos|hook,prompt,versus,cierre|latam
+37|seguridad|Sin código|herramienta|Ajustes de privacidad: que tus chats no entrenen modelos|Dónde está la opción en los asistentes más usados (verificar versión)|hook,pasos,lista,cierre|latam
+38|herramientas|Truco rápido|herramienta|Instrucciones personalizadas para no repetir contexto|Guarda tu rol, tono y formato una sola vez|hook,prompt,lista,cierre|latam
+39|conceptos|IA sin humo|mito|Mito: la IA entiende como una persona|Predice la siguiente palabra probable; útil, pero distinto|mito,texto,pasos|latam
+40|negocio|Caso pyme|caso_practico|Responder reseñas negativas en Google|Plantilla: agradecer, reconocer, resolver en privado|hook,pasos,prompt,cierre|latam
+41|puente_excel|El Atajo|tutorial|Datos de facturas a una tabla y cómo validarlos|Extrae campos y verifica totales con una suma de control|hook,planilla,calculo,cierre|latam
+42|prompts|Error común|error_comun|No dar contexto del negocio|Sin rubro ni cliente ideal, la IA responde para "cualquiera"|hook,versus,prompt|latam
+43|negocio|Reto 5 minutos|experimento|Asuntos de correo: generar variantes para probar|Pide 5 variantes con ángulos distintos y mide aperturas|hook,lista,versus,cierre|latam
+44|automatizacion|Sin código|herramienta|Recordatorios automáticos con Google Calendar|Notificaciones y eventos repetidos para no olvidar pagos|hook,pasos,cierre|latam
+45|seguridad|Glosario rápido|contraintuitivo|Inyección de prompts explicada simple|Texto escondido que intenta dar órdenes a la IA|hook,texto,versus,lista|latam
+46|prompts|El Atajo|tutorial|Resumir en tres niveles|1 línea, 1 párrafo, 1 página: elige según quién lo lee|hook,pasos,prompt,cierre|latam
+47|productividad|El Atajo|tutorial|Priorizar tareas con la matriz de Eisenhower|Urgente vs importante: pide a la IA clasificar tu lista|hook,versus,lista,cierre|latam
+48|herramientas|¿Cuál uso?|comparacion|IA gratis vs de pago: qué cambia en general|Límites de uso, funciones y modelos (verificar precios vigentes)|hook,versus,lista,cierre|latam
+49|prompts|Truco rápido|tutorial|Prompt "abogado del diablo"|Pide objeciones a tu idea antes de presentarla|hook,prompt,lista|latam
+50|negocio|Caso pyme|caso_practico|Guion de llamada de ventas y objeciones|Respuestas a "está caro" y "lo pienso" preparadas con IA|hook,versus,prompt,cierre|latam
+51|prompts|Error común|error_comun|Mezclar varias tareas en un solo mensaje|Una tarea por mensaje = respuestas más precisas|hook,versus,pasos|latam
+52|conceptos|Glosario rápido|contraintuitivo|IA multimodal: fotos de tickets y pizarras|Texto, imagen y audio como entrada; revisa lo que transcribe|hook,pasos,lista,cierre|latam
+53|negocio|Caso pyme|caso_practico|Comparar proveedores en una tabla|Criterios con peso → puntaje total; la IA arma la estructura|hook,planilla,calculo,cierre|latam
+54|ia_sin_humo|IA sin humo|mito|Mito: si lo dice la IA es neutral|Aprende de textos humanos y puede repetir sesgos|mito,lista,cierre|latam
+55|productividad|Truco rápido|herramienta|Dictado por voz para escribir prompts más rápido|Windows + H activa el dictado en Windows 11|hook,pasos,cierre|latam
+56|empleo|Caso práctico|caso_practico|Descripción de puesto clara e inclusiva|Requisitos imprescindibles vs deseables|hook,versus,prompt,cierre|latam
+57|negocio|El Atajo|tutorial|Adaptar un mensaje a cada país|Mismo anuncio para México, Argentina y Colombia: palabras que cambian|hook,versus,lista,cierre|latam
+58|conceptos|Glosario rápido|contraintuitivo|Por qué cambia la respuesta si repites la pregunta|Elige entre opciones probables: no es una base de datos|hook,texto,versus|latam
+59|prompts|Reto 5 minutos|experimento|Pedir razonamiento paso a paso|Investigación de 2022 sobre "chain of thought" y su uso práctico|hook,dato,pasos,cierre|latam
+60|automatizacion|Código mínimo|tutorial|Enviar correos desde una planilla con Apps Script|Una función de pocas líneas recorre filas y envía mensajes|hook,codigo,planilla,cierre|latam
+61|ia_sin_humo|Error común|error_comun|Enviar sin revisar tono y datos|Revisión en 3 pasadas: datos, tono, llamada a la acción|hook,pasos,lista|latam
+62|negocio|Caso pyme|caso_practico|Secuencia de bienvenida de clientes en 5 correos|Qué decir el día 1, 3, 7, 14 y 30|hook,timeline,prompt,cierre|latam
+63|conceptos|Glosario rápido|contraintuitivo|Modelo vs aplicación|El modelo es el motor; la app es el auto completo|hook,versus,texto|latam
+64|automatizacion|Código mínimo|tutorial|Renombrar 100 archivos con Python|Un bucle de pocas líneas y una prueba en carpeta copia|hook,codigo,pasos,cierre|latam
+65|prompts|El Atajo|tutorial|Texto → tabla de tareas con responsables y fechas|Columnas fijas: tarea, responsable, fecha, estado|hook,prompt,planilla,cierre|latam
+66|ia_sin_humo|IA sin humo|mito|Mito: la IA siempre sabe lo último|Fecha de corte del entrenamiento y búsqueda web: no es lo mismo|mito,timeline,lista|latam
+67|negocio|Caso pyme|caso_practico|Preguntas frecuentes para el WhatsApp de un negocio|De 20 consultas repetidas a 6 respuestas claras|hook,lista,prompt,cierre|latam
+68|herramientas|¿Cuál uso?|comparacion|Resumen con IA vs leer el índice|Cuándo el resumen ahorra tiempo y cuándo te hace perder matices|hook,versus,lista|latam
+69|seguridad|Error común|error_comun|Usar IA en decisiones legales o médicas sin profesional|Úsala para preparar preguntas, no para reemplazar al experto|hook,versus,lista,cierre|latam
+70|empleo|El Atajo|tutorial|Plan de estudio de 30 días con IA|Objetivo medible, sesiones cortas y repaso espaciado|hook,timeline,prompt,cierre|latam
+71|prompts|Truco rápido|tutorial|Delimitadores: separar instrucciones del texto|Comillas triples o etiquetas evitan confusiones|hook,prompt,versus|latam
+72|negocio|Caso pyme|caso_practico|Cotización para un cliente con plantilla|IA para el texto, planilla para los números|hook,planilla,prompt,cierre|latam
+73|prompts|Reto 5 minutos|experimento|"No hagas X" vs "Haz Y"|Las instrucciones en positivo suelen ser más claras|hook,versus,prompt,cierre|latam
+74|herramientas|¿Cuál uso?|herramienta|NotebookLM para estudiar tus documentos|Respuestas basadas en tus fuentes, con citas a los documentos|hook,pasos,lista,cierre|latam
+75|prompts|Error común|error_comun|No definir la longitud de la respuesta|Palabras, viñetas o tiempo de lectura: elige una medida|hook,versus,prompt|latam
+76|automatizacion|Sin código|herramienta|Mensaje de ausencia en WhatsApp Business|Responder fuera de horario sin estar conectado|hook,pasos,cierre|latam
+77|conceptos|Glosario rápido|contraintuitivo|Qué es un LLM en 40 segundos|Modelo de lenguaje grande: lee mucho texto y predice el siguiente trozo|hook,pasos,texto|latam
+78|prompts|El Atajo|tutorial|Un correo largo → tres opciones de respuesta|Formal, breve y con propuesta: eliges y ajustas|hook,versus,prompt,cierre|latam
+79|puente_excel|Caso pyme|caso_practico|Clasificar comentarios de clientes en categorías|IA etiqueta, planilla cuenta: ves qué problema se repite|hook,planilla,barras,cierre|latam
+80|historia|Historia rápida|historia|ELIZA (1966): el primer chatbot famoso|Un programa simple que la gente creía comprensivo|hook,timeline,dato,cierre|latam
+81|historia|Historia rápida|historia|El test de Turing (1950)|La pregunta de Alan Turing y por qué sigue en debate|hook,dato,texto,cierre|latam
+82|historia|Historia rápida|historia|De dónde viene la palabra "robot"|Obra de teatro de Karel Čapek de 1920|hook,timeline,dato|latam
+83|productividad|El Atajo|tutorial|Estructura de una presentación de 10 diapositivas|Problema, solución, prueba, próximo paso|hook,lista,prompt,cierre|latam
+84|ia_sin_humo|IA sin humo|mito|Mito: la IA recuerda todo lo que le dijiste|Memoria por chat, memoria opcional y lo que no guarda|mito,versus,lista|latam
+85|puente_excel|Caso pyme|caso_practico|Calendario de publicaciones en planilla + IA|IA propone ideas; la planilla ordena fechas y estados|hook,planilla,lista,cierre|latam
+86|seguridad|Error común|error_comun|Estafas con voz clonada: palabra clave familiar|Cómo verificar una llamada urgente de un "familiar"|hook,pasos,dato,cierre|latam
+87|productividad|Truco rápido|tutorial|Nombres de archivos que se ordenan solos|Fecha AAAA-MM-DD al inicio y versión al final|hook,versus,lista,cierre|latam
+88|prompts|Truco rápido|tutorial|Pedir críticas en lugar de elogios|"Señala 3 debilidades" da más valor que "¿qué te parece?"|hook,versus,prompt|latam
+89|ia_sin_humo|El Atajo|tutorial|Checklist antes de usar IA en el trabajo|Datos, verificación, privacidad y responsabilidad|hook,lista,cierre|latam
+90|prompts|El Atajo|tutorial|Tu biblioteca de prompts|Carpeta de plantillas con variables entre corchetes|hook,pasos,prompt,cierre|latam
