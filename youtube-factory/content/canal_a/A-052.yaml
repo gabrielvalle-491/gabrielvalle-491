@@ -1,0 +1,82 @@
+id: A-052
+canal: canal_a
+fecha: 2026-12-09
+formato: short
+serie: Código mínimo
+episodio: "#02"
+pilar: automatizacion
+tipo_editorial: tutorial
+idea: "Un bucle de pocas líneas con pathlib numera archivos en orden; primero se prueba en una carpeta copia y solo muestra los nombres nuevos antes de renombrar."
+objetivo: "Primer script de automatización de archivos, seguro por diseño (copia y simulación), para no programadores."
+publico: "Administrativos y emprendedores con carpetas de fotos o documentos con nombres desordenados."
+hipotesis: "Formato 'tutorial' en pilar 'automatizacion': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Renombrar 100 archivos a mano? Un bucle de Python lo hace por ti."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Renombrar 100 archivos con Python en pocas líneas"
+titulos_alternativos:
+  - "Cambia el nombre de cientos de archivos sin hacerlo a mano"
+  - "Python para no programadores: numerar archivos con seguridad"
+  - "Renombrar archivos en lote: primero prueba en una copia"
+criterio_titulo: "Describe el resultado concreto y la herramienta; 'renombrar archivos con Python' es una búsqueda frecuente."
+descripcion: |
+  Script con pathlib que ordena los archivos .jpg de una carpeta y les asigna nombres como foto_001.jpg. Primero solo muestra en pantalla los cambios; cuando estén bien, quitas el comentario de la línea que renombra.
+  Haz siempre una copia de la carpeta: según la documentación de Python, si el nombre nuevo ya existe, rename reemplaza el archivo en Unix y da error en Windows. Requiere tener Python instalado.
+cta: "Guárdalo para tu próxima carpeta desordenada."
+comentario_fijado: |
+  Código:
+  from pathlib import Path
+  d = Path("copia")
+  fotos = sorted(d.glob("*.jpg"))
+  for n, f in enumerate(fotos, 1):
+      nuevo = f"foto_{n:03d}.jpg"
+      print(f.name, "->", nuevo)
+      # f.rename(d / nuevo)
+  Prueba primero en una copia de la carpeta.
+hashtags: ["#Python", "#Automatización", "#Productividad"]
+palabras_clave: ["renombrar archivos con Python", "pathlib rename", "automatizar archivos", "Python para principiantes"]
+escenas:
+  - narracion: "¿Renombrar 100 archivos a mano? Un bucle de Python lo hace por ti."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Código mínimo", titulo: "Renombra *100* archivos con Python", sub: "Primero en una copia"}
+  - narracion: "Este bucle recorre las fotos en orden. Para cada una arma un nombre nuevo, como foto, guion bajo, cero cero uno. Por ahora solo lo muestra; la línea que renombra está comentada."
+    visual:
+      plantilla: codigo
+      datos:
+        titulo: "Simulación primero"
+        lenguaje: "Python"
+        codigo: "from pathlib import Path\nd = Path(\"copia\")\nfotos = sorted(d.glob(\"*.jpg\"))\nfor n, f in enumerate(fotos, 1):\n    nuevo = f\"foto_{n:03d}.jpg\"\n    print(f.name, \"->\", nuevo)\n    # f.rename(d / nuevo)"
+  - narracion: "Primero, haz una copia de la carpeta. Segundo, ejecuta y revisa la lista que imprime. Tercero, quita el símbolo de comentario de la última línea."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Tres pasos *seguros*"
+        pasos:
+          - {titulo: "Copia la carpeta", detalle: "Trabaja siempre sobre la copia"}
+          - {titulo: "Ejecuta y revisa", detalle: "Mira la lista de cambios"}
+          - {titulo: "Activa rename", detalle: "Quita el # de la última línea"}
+  - narracion: "Si un nombre nuevo ya existe, Python puede reemplazar ese archivo o dar error, según el sistema. Por eso, la copia."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Primero *copia*, luego renombra"
+        puntos: ["Simula antes de renombrar", "Un nombre repetido puede pisar un archivo", "Trabaja sobre una copia"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://docs.python.org/3/library/pathlib.html"
+    titulo: "pathlib — Object-oriented filesystem paths (Python documentation)"
+    fecha_consulta: 2026-10-11
+    respalda: "Path.rename(): en Unix, si el destino existe y es un archivo, se reemplaza en silencio (si hay permiso); en Windows se produce FileExistsError. Path.glob() y sorted() para listar y ordenar."
+  - calculo: "[100]"
+    respalda: "Cantidad de archivos del ejemplo (ilustrativa). El script se probó en una carpeta de prueba con 3 archivos: imprimió a.jpg -> foto_001.jpg, b.jpg -> foto_002.jpg y c.jpg -> foto_003.jpg."
+riesgos:
+  derechos: "bajo — código propio"
+  exactitud: "medio — script probado en Linux con Python 3 en una carpeta de prueba; el comportamiento exacto en Windows y macOS no se probó. Verificar en una carpeta copia antes de publicar y de usarlo."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["pathlib", "Path", "jpg"]
