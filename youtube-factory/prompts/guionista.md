@@ -171,3 +171,4 @@ palabras_validas: []           # términos correctos que el diccionario no conoc
 - [ ] Título = lo que el video entrega; tres alternativas con ángulos distintos.
 - [ ] Hashtags 2-4; descripción breve y útil.
 - [ ] `python fabrica.py validar <ID>` sin errores críticos.
+- [ ] Si un tema obliga a mencionar salud o finanzas para advertir un riesgo, usa `excepciones_riesgo: {motivo: "justificación"}` (queda auditado).

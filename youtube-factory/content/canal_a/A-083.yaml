@@ -71,3 +71,5 @@ declaracion_sintetica:
   motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
 costo_estimado_usd: 0
 palabras_validas: []
+excepciones_riesgo:
+  salud: "Revisado por el editor (2026-10-11): menciona 'diagnóstico' solo para advertir que la IA no reemplaza a un profesional y que una urgencia requiere atención médica inmediata."

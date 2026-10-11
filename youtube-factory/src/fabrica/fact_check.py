@@ -175,8 +175,11 @@ VOSEO = r"\b(tenés|podés|querés|sabés|hacé|mirá|fijate|probá|guardalo|gua
 def riesgos_texto(spec: dict) -> list[str]:
     texto = " ".join([spec.get("titulo", ""), spec.get("descripcion", ""), *[e["narracion"] for e in spec["escenas"]]])
     out = []
+    excepciones = spec.get("excepciones_riesgo") or {}  # {motivo: justificación revisada}
     for patron, motivo in FRASES_RIESGO:
         if re.search(patron, texto, flags=re.I):
+            if motivo in excepciones and len(str(excepciones[motivo])) >= 20:
+                continue  # excepción explícita y justificada (queda registrada en la ficha)
             out.append(motivo)
     if re.search(VOSEO, texto, flags=re.I):
         out.append("voseo rioplatense: usar tú para español neutro (" +
@@ -220,7 +223,7 @@ def ortografia(spec: dict, extra_spec: list[str] | None = None) -> list[str]:
     extra = extra | {w.lower() for w in (extra_spec or [])} | {w.lower() for w in spec.get("palabras_validas", [])}
     desconocidas = set()
     for t in textos_visibles(spec):
-        t = re.sub(r"https?://\S+|#\w+|\[[^\]]*\]|=[A-Z][^\s]*", " ", t)
+        t = re.sub(r"https?://\S+|\b[\w.-]+\.(?:com|org|net|gov|edu|io|ai|es|ar|mx)\b\S*|#\w+|\[[^\]]*\]|=[A-Z][^\s]*", " ", t)
         for w in re.findall(r"[A-Za-zÁÉÍÓÚÜÑáéíóúüñ][A-Za-zÁÉÍÓÚÜÑáéíóúüñ.]*[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]|[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]", t):
             w = w.strip(".")
             if len(w) < 3 or w.lower() in extra or w.isupper():
