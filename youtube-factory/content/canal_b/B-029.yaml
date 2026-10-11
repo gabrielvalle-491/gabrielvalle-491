@@ -1,0 +1,77 @@
+id: B-029
+canal: canal_b
+fecha: 2026-11-16
+formato: short
+serie: Fórmula en 40 segundos
+episodio: "#08"
+pilar: formulas
+tipo_editorial: tutorial
+idea: "UNICOS devuelve una lista sin repetidos, por ejemplo los clientes distintos de una tabla de pedidos, y se actualiza sola."
+objetivo: "Tutorial buscable de una función moderna que reemplaza el quitar duplicados manual."
+publico: "Quien tiene listas con clientes, productos o códigos repetidos y necesita la lista de valores distintos."
+hipotesis: "Formato 'tutorial' en pilar 'formulas': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Tienes mil filas con clientes repetidos. Esta fórmula te da la lista limpia."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "UNICOS en Excel: lista sin duplicados con una fórmula"
+titulos_alternativos:
+  - "Cómo sacar valores únicos en Excel sin quitar duplicados a mano"
+  - "Clientes únicos en una fórmula: función UNICOS"
+  - "UNICOS: la lista sin repetidos que se actualiza sola"
+criterio_titulo: "Nombre de la función y resultado esperado (sin duplicados), lo que más se busca."
+descripcion: |
+  La función UNICOS devuelve cada valor una sola vez, en el orden en que aparece, y se actualiza si cambian los datos. Con su tercer argumento puedes obtener solo los que aparecen una vez.
+  Según la ayuda oficial de Microsoft, es una función de matriz dinámica disponible en Excel para Microsoft 365, 2024 y 2021. En Google Sheets existe UNIQUE.
+cta: "Pruébala con tu lista de clientes."
+comentario_fijado: "Fórmula: =UNICOS(A2:A6). Solo los que aparecen una vez: =UNICOS(A2:A6;FALSO;VERDADERO). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;)."
+hashtags: ["#Excel", "#Fórmulas", "#ExcelTips"]
+palabras_clave: ["función UNICOS", "valores únicos Excel", "quitar duplicados con fórmula"]
+escenas:
+  - narracion: "Tienes mil filas con clientes repetidos. Esta fórmula te da la lista limpia."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Fórmula en 40 segundos", titulo: "Clientes *sin repetir*", sub: "Función UNICOS · Excel 365 y 2021"}
+  - narracion: "Se escribe UNICOS y el rango de clientes. Eso es todo. El rango con repetidos es el único dato que necesita."
+    visual:
+      plantilla: formula
+      datos:
+        titulo: "Una fórmula, lista limpia"
+        formula: "=UNICOS(A2:A6)"
+        partes:
+          - {token: "A2:A6", explica: "el rango con *repetidos*"}
+  - narracion: "En la celda de al lado escribes la fórmula. Ana y Luis aparecen dos veces. Y el resultado trae cada cliente una sola vez."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=UNICOS(A2:A6)"
+        celda_formula: "B2"
+        filas:
+          - ["Cliente", "Únicos"]
+          - ["Ana", "Ana"]
+          - ["Luis", "Luis"]
+          - ["Ana", "Marta"]
+          - ["Marta", ""]
+          - ["Luis", ""]
+        resaltar:
+          - {rango: "A2:A6", beat: 1}
+        resultado: {celda: "B2", valor: "Ana", beat: 2}
+        nota: "Clientes ilustrativos"
+  - narracion: "Con VERDADERO como tercer argumento, devuelve solo los que aparecen una vez."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Sin duplicados, *sin esfuerzo*", puntos: ["=UNICOS(rango)", "Tercer argumento VERDADERO: solo una vez"], cta: "Guárdalo"}
+fuentes:
+  - url: "https://support.microsoft.com/es-es/excel/functions/unique-function"
+    titulo: "Función UNICOS / UNIQUE (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Sintaxis UNICOS(matriz;[por_col];[occurrences_once]): devuelve valores únicos de un rango; con el tercer argumento en VERDADERO devuelve solo los valores que aparecen una vez; disponible en Excel para Microsoft 365, 2024 y 2021."
+riesgos:
+  derechos: "bajo"
+  exactitud: "medio — requiere Excel 365 o 2021; el nombre en inglés es UNIQUE (también existe en Google Sheets)"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["UNICOS"]

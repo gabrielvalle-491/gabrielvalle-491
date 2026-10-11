@@ -1,0 +1,84 @@
+id: B-010
+canal: canal_b
+fecha: 2026-10-28
+formato: short
+serie: Tu dinero en una planilla
+episodio: "#04"
+pilar: dinero
+tipo_editorial: experimento
+idea: "Con interés compuesto, el saldo de cada año se calcula sobre el saldo del año anterior; la función VF da el resultado final de una vez (ejemplo ilustrativo: 1 000 al 7 % anual durante 10 años)."
+objetivo: "Mostrar cómo crece una cantidad con interés compuesto y enseñar la sintaxis de VF con un caso numérico verificable, sin recomendar productos."
+publico: "Personas que quieren entender el interés compuesto con una planilla antes de comparar opciones de ahorro."
+hipotesis: "Gancho 'pregunta' + duración media + visual 'lista': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "¿En cuánto se convierten US$ 1 000 en 10 años, con 7 % anual ilustrativo?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Interés compuesto en Excel: 1 000 al 7 % en 10 años con VF"
+titulos_alternativos:
+  - "La función VF explicada con un ejemplo de 10 años"
+  - "Cuánto crece una cantidad con interés compuesto (planilla)"
+  - "VF en Excel: valor futuro en una sola fórmula"
+criterio_titulo: "Incluye la función buscable (VF), el concepto (interés compuesto) y el caso concreto del video."
+descripcion: |
+  Ejemplo ilustrativo: US$ 1 000 con una tasa de 7 % anual, sin aportes, durante 10 años. La función VF calcula el valor futuro de una vez; el saldo de cada año se calcula sobre el del año anterior.
+  La tasa es solo un ejemplo: no es una promesa de rendimiento ni una recomendación de inversión. Contenido educativo general.
+cta: "Cambia la tasa y los años en tu planilla y compara."
+comentario_fijado: "Fórmula: =VF(7%;10;0;-1000). Paso a paso: cada año, saldo anterior × 1,07. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos. Tasa ilustrativa, no es una recomendación."
+hashtags: ["#Excel", "#InteresCompuesto", "#FinanzasPersonales"]
+palabras_clave: ["función VF", "interés compuesto excel", "valor futuro excel"]
+escenas:
+  - narracion: "¿En cuánto se convierten US$ 1 000 en 10 años, con 7 % anual ilustrativo?"
+    visual:
+      plantilla: hook
+      datos: {kicker: "Tu dinero en una planilla", titulo: "US$ 1 000 durante 10 años: ¿cuánto *crece*?", sub: "Tasa ilustrativa: 7 % anual"}
+  - narracion: "Al inicio, 1 000. En el año 5, 1 402,55. En el año 10, 1 967,15. Cada año, el interés se calcula sobre el saldo anterior."
+    visual:
+      plantilla: barras
+      datos:
+        titulo: "Saldo con 7 % anual (ilustrativo)"
+        prefijo: "US$ "
+        decimales: 2
+        maximo: 2200
+        items:
+          - {etiqueta: "Inicio", valor: 1000, tenue: true}
+          - {etiqueta: "Año 5", valor: 1402.55}
+          - {etiqueta: "Año 10", valor: 1967.15, destacado: true}
+  - narracion: "La función VF lo calcula de una vez. Primero, la tasa por periodo. Luego, los años. Y por último, cero aportes y el monto inicial, en negativo."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=VF(7%;10;0;-1000)"
+        partes:
+          - {token: "7%", explica: "tasa por periodo (ilustrativa)"}
+          - {token: "10", explica: "número de periodos (años)"}
+          - {token: "0;-1000", explica: "sin aportes; monto inicial en negativo"}
+  - narracion: "Es un ejemplo con tasa ilustrativa, no una promesa de rendimiento. Cambia la tasa y los años en tu planilla y compara."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Interés *compuesto*: pruébalo"
+        puntos: ["Saldo anterior × (1 + tasa)", "=VF(tasa;años;0;-monto)"]
+        cta: "Haz tu cuenta"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/excel/functions/fv-function"
+    titulo: "Función VF (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "VF devuelve el valor futuro de una inversión con pagos periódicos constantes y tasa constante; sintaxis VF(tasa; núm_per; pago; [va]; [tipo])."
+  - calculo: "[1000]"
+    respalda: "Monto inicial ilustrativo."
+  - calculo: "round(1000 * 1.07 ** 5, 2)"
+    resultado: 1402.55
+    respalda: "Saldo al año 5 con 7 % anual compuesto."
+  - calculo: "VF(0.07, 10, 0, -1000)"
+    resultado: 1967.15
+    respalda: "Saldo al año 10 (equivale a 1000 × 1,07^10)."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — aritmética verificada; la sintaxis de VF está documentada por Microsoft"
+  monetizacion: "medio — tema financiero; se declara tasa ilustrativa y se evita cualquier recomendación o promesa de rendimiento"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []
