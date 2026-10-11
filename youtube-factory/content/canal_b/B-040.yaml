@@ -109,3 +109,6 @@ declaracion_sintetica:
 costo_estimado_usd: 0
 palabras_validas:
 - Restablecer
+- OneDrive
+- SharePoint
+- num

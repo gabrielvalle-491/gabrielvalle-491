@@ -77,8 +77,11 @@ fuentes:
   titulo: Función INT.EFECTIVO (Microsoft Support)
   fecha_consulta: '2026-10-11'
   respalda: INT.EFECTIVO devuelve la tasa de interés anual efectiva a partir de la tasa nominal y el número de períodos de capitalización por año.
-- calculo: '[2, 12]'
-  respalda: 'Datos ilustrativos: tasa mensual y meses.'
+- calculo: '[2, 12, 100]'
+  respalda: 'Datos ilustrativos: tasa mensual, meses y saldo inicial.'
+- calculo: round((1.02 ** 12 - 1) * 100, 2)
+  resultado: 26.82
+  respalda: 'Tasa efectiva anual con 2 % mensual capitalizado: 26,82 %.'
 - calculo: 2 * 12
   resultado: 24
   respalda: Tasa nominal anual (mito).
@@ -107,3 +110,4 @@ declaracion_sintetica:
 costo_estimado_usd: 0
 palabras_validas:
 - INT.EFECTIVO
+- num
