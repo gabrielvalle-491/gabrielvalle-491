@@ -39,7 +39,7 @@ escenas:
           - {token: "\", \"", explica: "separador: coma y espacio"}
           - {token: "VERDADERO", explica: "ignora celdas vacías"}
           - {token: "A2:A4", explica: "rango con los correos"}
-  - narracion: "En la planilla, escribe la fórmula en otra celda. El rango toma los tres correos. Resultado: todos juntos, listos para pegar."
+  - narracion: "En la planilla, escribe la fórmula en otra celda. El rango toma los tres correos. Resultado: todos juntos, listos para pegar. Si hay una celda vacía, no deja comas de más."
     visual:
       plantilla: planilla
       datos:
@@ -80,4 +80,4 @@ declaracion_sintetica:
   decision: "declarar"
   motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
 costo_estimado_usd: 0
-palabras_validas: ["UNIRCADENAS", "TEXTJOIN"]
+palabras_validas: ["UNIRCADENAS", "TEXTJOIN", "ana", "leo", "eva", "ej.com"]
