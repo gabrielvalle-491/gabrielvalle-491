@@ -1,0 +1,73 @@
+id: A-083
+canal: canal_a
+fecha: 2027-01-09
+formato: short
+serie: Error común
+episodio: "#08"
+pilar: seguridad
+tipo_editorial: error_comun
+idea: "La IA sirve para entender términos y preparar preguntas antes de una consulta legal o médica, pero no para decidir ni sustituir al profesional."
+objetivo: "Evitar un error de alto riesgo y enseñar un uso seguro y útil con un prompt reutilizable."
+publico: "Personas que consultan a la IA por dudas de salud o de trámites legales antes de ir a un profesional."
+hipotesis: "Formato 'error_comun' en pilar 'seguridad': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Error común: pedirle a la IA que decida por ti un asunto legal o médico."
+duracion_objetivo: "35-55 s"
+titulo: "IA para temas legales o médicos: el error que debes evitar"
+titulos_alternativos:
+  - "Usa la IA para preparar tu consulta, no para reemplazarla"
+  - "El prompt para ir mejor preparado al médico o al abogado"
+  - "¿Puedes confiar en la IA para un tema legal o médico?"
+criterio_titulo: "Nombra el riesgo (legal o médico) y el error concreto; es el tipo de duda que el público busca."
+descripcion: |
+  La IA puede ayudarte a entender términos y a preparar preguntas antes de una consulta, pero no sustituye a un abogado ni a un médico. Un diagnóstico o un dictamen requiere a un profesional con licencia que conozca tu caso.
+  No incluyas datos personales ni sensibles en el prompt. Si es una urgencia médica, busca atención médica de inmediato. Contenido educativo general; no es asesoría legal ni médica.
+cta: "Guarda el prompt para tu próxima consulta."
+comentario_fijado: "Prompt: «Voy a consultar a [ABOGADO O MÉDICO] por [MI SITUACIÓN, SIN DATOS PERSONALES]. Explícame los términos clave y sugiere preguntas para hacerle. No des diagnóstico ni consejo legal.»"
+hashtags: ["#IA", "#Seguridad", "#IAsinHumo"]
+palabras_clave: ["IA consejo médico", "IA consejo legal", "usar ChatGPT con responsabilidad", "preparar una consulta"]
+escenas:
+  - narracion: "Error común: pedirle a la IA que decida por ti un asunto legal o médico."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Error común", titulo: "No dejes que la IA *decida* tu caso", sub: "Temas legales o médicos"}
+  - narracion: "El error: pedir un diagnóstico o un dictamen y actuar con eso. Lo mejor: usarla para entender términos y preparar tus preguntas. El profesional decide; la IA te ayuda a llegar mejor preparado."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Error", titulo: "Reemplazar al experto", items: ["Pedir diagnóstico o dictamen", "Actuar sin consultar"]}
+        der: {etiqueta: "Mejor", titulo: "Preparar la consulta", items: ["Entender términos", "Armar tus preguntas"]}
+        veredicto: "Decide el *profesional*"
+  - narracion: "Incluso las políticas de uso de OpenAI, a la fecha, piden que haya un profesional con licencia detrás de ese tipo de consejo personalizado."
+    visual:
+      plantilla: dato
+      datos:
+        kicker: "Lo dicen las reglas"
+        dato: "Consejo legal o médico *personalizado*: con profesional"
+        contexto: "Políticas de uso de OpenAI, a la fecha"
+        fuente: "openai.com/policies/usage-policies"
+  - narracion: "Prueba un prompt así. No incluyas datos personales ni sensibles."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Voy a consultar a [ABOGADO O MÉDICO] por [MI SITUACIÓN, SIN DATOS PERSONALES]. Explícame los términos clave y sugiere preguntas para hacerle. No des diagnóstico ni consejo legal."
+  - narracion: "Si es una urgencia médica, no consultes a la IA: busca atención médica de inmediato. La decisión final es del profesional."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "La IA *prepara*, el profesional decide", puntos: ["Entiende términos", "Prepara preguntas", "Urgencia: atención médica"], cta: "Guarda el prompt"}
+fuentes:
+  - url: "https://openai.com/policies/usage-policies/"
+    titulo: "Usage policies (OpenAI)"
+    fecha_consulta: 2026-10-11
+    respalda: "Entre los usos prohibidos figura la provisión de consejo personalizado que requiere licencia, como el legal o el médico, sin la participación adecuada de un profesional con licencia; las explicaciones generales siguen permitidas según los comentarios consultados."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — la redacción exacta de las políticas de uso de OpenAI cambia con el tiempo y se verificó a través de resultados de búsqueda (la página oficial y comentarios de prensa), no leyendo el texto vigente completo. Verificar el texto actual en openai.com/policies/usage-policies antes de publicar; el video lo presenta 'a la fecha'. Tema sensible: revisar que no se lea como asesoría legal o médica"
+  monetizacion: "bajo — tema sensible pero tratado con advertencias; no hay recomendaciones médicas ni legales"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

@@ -38,3 +38,12 @@ pero las rutas de menú de aplicaciones de terceros cambian y no siempre tienen 
 | B-060 | Disponibilidad de TRADUCIR/STOCKHISTORY en Excel | Cambia por versión |
 | B-061 | La validación no siempre actúa sobre datos pegados | Sin página oficial |
 | B-063 | Inicio > Formato condicional > Barras de datos (nombres en español) | Ayuda consultada en inglés |
+| B-034 | Tasas generales de IVA: MX 16 %, CO 19 %, CL 19 %, AR 21 % | Confirmar el día de publicar |
+| B-035 | Menús Vista > Inmovilizar paneles (Excel) y Ver > Inmovilizar (Sheets) | Nombres de menú |
+| B-038 | Intereses totales bola de nieve 961,32 vs avalancha 698,15 | Replicar en una planilla |
+| B-039 | Formato `0,0." k"` (coma decimal) vs `0.0," k"` (punto decimal) | Probar en ambas configuraciones |
+| B-040 | Historial de versiones (Excel en OneDrive; Sheets "Última edición") | Probar con cuentas reales |
+| B-043 | =TEXTO(A2;"dddd, d ""de"" mmmm") → "lunes, 5 de enero" | Probar en Excel y Sheets en español |
+| B-044 | INT.EFECTIVO(24%;12) = 26,82 % | Verificar nombre de la función en español |
+| B-047 | Regla 50/30/20 | Fuente no oficial; se presenta como guía popular |
+| B-048 | Insertar > Segmentación (Excel); "control de filtros" (Sheets) | Nombres según plataforma |

@@ -55,7 +55,7 @@ escenas:
       - etiqueta: Ahorro y deudas
         valor: 20
         texto: 20 %
-- narracion: 'Escribe el ingreso en [[ce dos|C2]]. Resalta los porcentajes. La fórmula multiplica el ingreso fijo por cada porcentaje: 600, 360 y 240.'
+- narracion: 'Escribe el ingreso en [[ce dos|C2]]. Resalta los porcentajes. La fórmula multiplica el ingreso fijo por cada porcentaje: 600, 360 y 240. Es la misma fórmula, copiada hacia abajo.'
   visual:
     plantilla: planilla
     datos:

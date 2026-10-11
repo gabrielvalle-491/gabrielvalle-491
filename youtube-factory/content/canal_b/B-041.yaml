@@ -70,7 +70,7 @@ escenas:
         valor: '90'
         beat: 2
       nota: Cantidades ilustrativas
-- narracion: 'La cuota es 240 entre 4: 60 por persona. Carla y Diego deben 60 cada uno. Ana recibe 90 y Beto 30.'
+- narracion: 'La cuota es 240 entre 4: 60 por persona. Carla y Diego deben 60 cada uno. Ana recibe 90 y Beto 30. Un saldo negativo paga; uno positivo recibe.'
   visual:
     plantilla: calculo
     datos:

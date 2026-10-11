@@ -1,0 +1,25 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:04.437
+Mito: para que la IA copie tu estilo, hay que describirlo con muchas palabras.
+
+00:00:04.597 --> 00:00:07.691
+Realidad: unos pocos ejemplos suelen funcionar mejor.
+
+00:00:07.971 --> 00:00:11.215
+Solo describir el estilo deja mucho a la interpretación.
+
+00:00:11.375 --> 00:00:14.344
+Con dos ejemplos tuyos, la IA ve el formato exacto.
+
+00:00:14.504 --> 00:00:15.875
+Eso se llama few-shot.
+
+00:00:16.155 --> 00:00:18.875
+Pega dos ejemplos y, después, tu pedido nuevo.
+
+00:00:19.155 --> 00:00:21.870
+Elige ejemplos distintos entre sí, y revisa que la
+
+00:00:21.870 --> 00:00:23.824
+IA no los copie al pie de la letra.

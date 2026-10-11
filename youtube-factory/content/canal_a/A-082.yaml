@@ -1,0 +1,78 @@
+id: A-082
+canal: canal_a
+fecha: 2027-01-08
+formato: short
+serie: Historia rápida
+episodio: "#01"
+pilar: historia
+tipo_editorial: historia
+idea: "La palabra 'robot' viene de la obra de teatro R.U.R., del escritor checo Karel Čapek, y de la palabra checa 'robota' (trabajo forzado)."
+objetivo: "Contar un origen curioso y verificable que conecta el vocabulario de la IA y la robótica con la cultura; aumentar retención con una historia corta."
+publico: "Curiosos de tecnología e IA que usan la palabra 'robot' todos los días sin saber de dónde viene."
+hipotesis: "Formato 'historia' en pilar 'historia': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "La palabra robot no nació en un laboratorio, sino en una obra de teatro."
+duracion_objetivo: "35-55 s"
+titulo: "De dónde viene la palabra «robot» (nació en un teatro)"
+titulos_alternativos:
+  - "Robot: la palabra que inventó una obra de teatro"
+  - "El hermano que bautizó a los robots"
+  - "Robot significa trabajo forzado: el origen de la palabra"
+criterio_titulo: "Plantea la pregunta que el público se haría y adelanta el dato sorprendente (teatro)."
+descripcion: |
+  La palabra «robot» se popularizó con la obra R.U.R., del escritor checo Karel Čapek, publicada en 1920 y estrenada en 1921. Viene de «robota», que en checo se asocia con trabajo forzado.
+  Según el propio Karel, la palabra fue idea de su hermano Josef. En la obra, los robots son trabajadores artificiales.
+cta: "Guárdalo para tu próxima conversación de café."
+comentario_fijado: "¿Qué otra palabra tecnológica te gustaría que explicáramos de dónde viene?"
+hashtags: ["#HistoriaDeLaIA", "#Robots", "#Curiosidades"]
+palabras_clave: ["origen de la palabra robot", "Karel Čapek", "RUR", "historia de los robots"]
+escenas:
+  - narracion: "La palabra robot no nació en un laboratorio, sino en una obra de teatro."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Historia rápida", titulo: "La palabra *robot* nació en un *teatro*"}
+  - narracion: "En 1920 se publica [[erre u erre|RUR]], una obra del escritor checo [[Chápek|Čapek]]. En 1921 llega a los escenarios. Y la palabra empieza a viajar a otros idiomas."
+    visual:
+      plantilla: timeline
+      datos:
+        titulo: "Del libro al *escenario*"
+        eventos:
+          - {fecha: "1920", texto: "Se publica R.U.R., de Karel Čapek"}
+          - {fecha: "1921", texto: "La obra se estrena en el teatro"}
+          - {fecha: "Después", texto: "«Robot» pasa a otros idiomas"}
+  - narracion: "Viene de robota, que en checo se asocia con trabajo forzado. Karel había pensado en otro nombre, pero su hermano Josef propuso roboti."
+    visual:
+      plantilla: dato
+      datos:
+        kicker: "El origen"
+        dato: "*Robota*: trabajo forzado, en checo"
+        contexto: "Idea de Josef Čapek, según su hermano Karel"
+        fuente: "britannica.com, wikipedia.org"
+  - narracion: "En la obra, los robots eran trabajadores artificiales. Hoy usamos la palabra para casi cualquier máquina automática."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "De trabajador *artificial* a máquina", puntos: ["Obra R.U.R.", "Karel y Josef Čapek", "Robota: trabajo forzado"], cta: "Guárdalo"}
+fuentes:
+  - url: "https://www.britannica.com/topic/RUR"
+    titulo: "R.U.R. (Encyclopaedia Britannica)"
+    fecha_consulta: 2026-10-11
+    respalda: "R.U.R., de Karel Čapek, se publicó en 1920 y se representó en 1921; en ella aparece la palabra «robot», derivada de la palabra checa para trabajo forzado."
+    cifras: [1920, 1921]
+  - url: "https://en.wikipedia.org/wiki/R.U.R."
+    titulo: "R.U.R. (Wikipedia)"
+    fecha_consulta: 2026-10-11
+    respalda: "Karel Čapek pensó primero en un nombre de raíz latina; su hermano Josef sugirió «roboti», y Karel lo reconoció como verdadero inventor de la palabra en un artículo de Lidové noviny. «Robota» en checo es trabajo forzado."
+  - url: "https://thereader.mitpress.mit.edu/origin-word-robot-rur"
+    titulo: "The Czech Play That Gave Us the Word 'Robot' (MIT Press Reader)"
+    fecha_consulta: 2026-10-11
+    respalda: "Contexto del origen de la palabra «robot» en la obra R.U.R."
+riesgos:
+  derechos: "bajo — todo el material visual es generado por el canal"
+  exactitud: "medio — años y significado de 'robota' confirmados en Britannica; la atribución a Josef se apoya en Wikipedia (que cita un artículo de Karel Čapek) y en una nota de Britannica. Conviene confirmar con una fuente primaria o académica antes de publicar. La fecha exacta del estreno varía según la producción (aficionados vs. Teatro Nacional), por eso solo se dice 1921"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Čapek", "Karel", "Josef", "robota", "roboti", "checo"]

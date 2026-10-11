@@ -32,7 +32,7 @@ palabras_clave:
 - convertir en tabla Excel
 - atajos de teclado Excel
 escenas:
-- narracion: Pulsa [[control te|Ctrl + T]] y tus datos se convierten en una tabla. Con una ventaja que ahorra mucho trabajo.
+- narracion: Pulsa [[control te|Ctrl + T]] y tus datos se convierten en una tabla. Así ganas fórmulas, filtros y orden en un solo paso.
   visual:
     plantilla: hook
     datos:
@@ -49,7 +49,7 @@ escenas:
       - titulo: Pulsa Ctrl + T
       - titulo: Marca que tiene encabezados
         detalle: Y acepta
-- narracion: En la columna Total, escribe la fórmula una sola vez. Resalta precio y cantidad. Al pulsar Enter, Excel la copia en toda la columna.
+- narracion: En la columna Total, escribe la fórmula una sola vez. Resalta precio y cantidad. Al pulsar Enter, Excel la copia en toda la columna. Excel llama a esto columna calculada.
   visual:
     plantilla: planilla
     datos:

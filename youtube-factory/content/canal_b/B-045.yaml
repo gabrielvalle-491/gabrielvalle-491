@@ -39,7 +39,7 @@ escenas:
       kicker: Mini sistema
       titulo: Cotización con *tasa en una celda*
       sub: Subtotal, impuesto y total
-- narracion: 'Escribe el subtotal y la tasa en celdas separadas. Resalta esas dos celdas. El impuesto es el subtotal por la tasa: 80.'
+- narracion: 'Escribe el subtotal y la tasa en celdas separadas. Resalta esas dos celdas. El impuesto es el subtotal por la tasa: 80. Así la tasa no queda escondida dentro de la fórmula.'
   visual:
     plantilla: planilla
     datos:

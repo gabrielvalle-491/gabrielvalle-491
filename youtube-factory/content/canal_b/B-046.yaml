@@ -70,7 +70,7 @@ escenas:
         - Pegas solo en Datos
         - El resto se recalcula
       veredicto: Menos errores, más fácil de revisar
-- narracion: 'Empieza hoy: crea las tres hojas con esos nombres y mueve tus fórmulas a Cálculos.'
+- narracion: 'Empieza hoy: crea las tres hojas con esos nombres y mueve tus fórmulas a Cálculos. Es una práctica de orden, no una regla obligatoria.'
   visual:
     plantilla: cierre
     datos:

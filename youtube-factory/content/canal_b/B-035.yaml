@@ -39,7 +39,7 @@ escenas:
       kicker: Truco de formato
       titulo: Encabezados que *no desaparecen*
       sub: Excel y Google Sheets
-- narracion: En Excel, abre la pestaña Vista. Elige Inmovilizar paneles. Y pulsa Inmovilizar fila superior.
+- narracion: En Excel, abre la pestaña Vista. Elige Inmovilizar paneles. Y pulsa Inmovilizar fila superior. Es lo más rápido cuando tus títulos están en la primera fila.
   visual:
     plantilla: pasos
     datos:
@@ -69,7 +69,7 @@ escenas:
         - Elige cuántas filas
         - 'Por ejemplo: 2 filas'
       veredicto: En ambos, los títulos quedan fijos al bajar
-- narracion: Para quitarlos, usa Movilizar paneles en Excel, o Ninguna fila en Google Sheets.
+- narracion: Para quitarlos, usa Movilizar paneles en Excel, o Ninguna fila en Google Sheets. Así tus títulos te acompañan en listas largas.
   visual:
     plantilla: cierre
     datos:
