@@ -1,0 +1,78 @@
+id: B-052
+canal: canal_b
+fecha: 2026-12-09
+formato: short
+serie: Funciones de Sheets
+episodio: "#01"
+pilar: excel_vs_sheets
+tipo_editorial: herramienta
+idea: "GOOGLEFINANCE trae el tipo de cambio entre dos monedas a una celda de Google Sheets, solo como referencia y con posible demora de hasta 20 minutos."
+objetivo: "Presentar una función exclusiva de Sheets con un uso concreto y la advertencia honesta sobre sus límites."
+publico: "Personas que manejan presupuestos o facturas en distintas monedas con Google Sheets."
+hipotesis: "Formato 'herramienta' en pilar 'excel_vs_sheets': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Una fórmula de Google Sheets te trae el tipo de cambio actualizado."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "GOOGLEFINANCE: tipo de cambio automático en Google Sheets"
+titulos_alternativos:
+  - "Cómo traer el dólar a tu hoja de cálculo con una fórmula"
+  - "Convertir monedas en Sheets sin copiar y pegar"
+  - "GOOGLEFINANCE: útil, pero con una advertencia"
+criterio_titulo: "Nombra la función y el resultado (tipo de cambio automático); la advertencia se cumple en el video."
+descripcion: |
+  GOOGLEFINANCE obtiene datos financieros de Google Finance. Con "CURRENCY:" más los códigos de dos monedas devuelve el tipo de cambio de referencia.
+  Según la ayuda de Google, las cotizaciones pueden tener una demora de hasta 20 minutos y la información es solo informativa, no para operar. Función exclusiva de Google Sheets. Contenido educativo general.
+cta: "Pruébala con tus dos monedas."
+comentario_fijado: "Fórmula: =GOOGLEFINANCE(\"CURRENCY:USDMXN\"). Cambia USDMXN por tus monedas (por ejemplo, USDARS o EURUSD). Es solo de referencia y puede tener demora. Si tu hoja usa configuración regional con coma decimal, los argumentos adicionales se separan con punto y coma (;)."
+hashtags: ["#GoogleSheets", "#TipoDeCambio", "#Fórmulas"]
+palabras_clave: ["GOOGLEFINANCE", "tipo de cambio Google Sheets", "convertir monedas Sheets"]
+escenas:
+  - narracion: "Una fórmula de Google Sheets te trae el tipo de cambio actualizado."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Funciones de Sheets", titulo: "Tipo de cambio con *GOOGLEFINANCE*", sub: "Solo en Google Sheets"}
+  - narracion: "La función se llama GOOGLEFINANCE. Dentro, entre comillas, escribes CURRENCY, dos puntos y los códigos de las dos monedas. Aquí, dólar a peso mexicano."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=GOOGLEFINANCE(\"CURRENCY:USDMXN\")"
+        partes:
+          - {token: "GOOGLEFINANCE", explica: "datos de Google Finance"}
+          - {token: "\"CURRENCY:\"", explica: "indica un par de monedas"}
+          - {token: "USDMXN", explica: "dólar a peso mexicano"}
+  - narracion: "Escribe el signo igual y la función. Pon el par de monedas entre comillas. Confirma con Enter y la celda muestra el tipo de cambio."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "En tu celda"
+        pasos:
+          - {titulo: "Escribe =GOOGLEFINANCE(", detalle: "en cualquier celda"}
+          - {titulo: "Agrega el par entre comillas", detalle: "\"CURRENCY:USDMXN\""}
+          - {titulo: "Presiona Enter", detalle: "la celda muestra la tasa"}
+  - narracion: "Es solo de referencia: según Google, puede tardar hasta 20 minutos y no es para operar."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Úsala como *referencia*"
+        puntos: ["Posible demora de hasta 20 minutos", "Solo informativa", "Exclusiva de Google Sheets"]
+        cta: "Pruébala"
+fuentes:
+  - url: "https://support.google.com/docs/answer/3093281?hl=en"
+    titulo: "GOOGLEFINANCE (Google Docs Editors Help)"
+    fecha_consulta: 2026-10-11
+    respalda: "GOOGLEFINANCE obtiene información financiera actual o histórica de Google Finance; las cotizaciones en tiempo real pueden tener demora de hasta 20 minutos y la información es solo informativa, no para operar."
+    cifras: [20]
+  - url: "https://www.thebricks.com/resources/guide-how-to-get-exchange-rate-in-google-sheets"
+    titulo: "How to Get Exchange Rate in Google Sheets (tercero)"
+    fecha_consulta: 2026-10-11
+    respalda: "Formato del par de monedas: =GOOGLEFINANCE(\"CURRENCY:USDEUR\"). Fuente de terceros."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — la sintaxis \"CURRENCY:XXXYYY\" se verificó en guías de terceros y en el resumen de la ayuda de Google; probar la fórmula en una hoja real antes de publicar. Función y demora pueden cambiar."
+  monetizacion: "bajo — se aclara que es solo de referencia, sin recomendar operaciones"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["GOOGLEFINANCE", "CURRENCY", "USDMXN", "Finance", "Pruébala"]

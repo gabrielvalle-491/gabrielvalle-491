@@ -48,7 +48,7 @@ escenas:
         titulo: "Si evalúas un texto, *no* decidas solo con un detector"
         estilo: check
         items: ["No es prueba única", "Pide borradores o conversa", "Decide con criterio humano"]
-  - narracion: "Una puntuación no es una prueba."
+  - narracion: "Una puntuación no es una prueba. Un detector puede orientar, pero la decisión final es de una persona."
     visual:
       plantilla: cierre
       datos:

@@ -46,7 +46,7 @@ escenas:
           - {titulo: "Resumir", detalle: "Solo el resumen"}
           - {titulo: "Revisar", detalle: "Corrige lo que falle"}
           - {titulo: "Redactar", detalle: "Usa el resumen aprobado"}
-  - narracion: "Dividir cuesta un mensaje más, pero ganas control."
+  - narracion: "Dividir cuesta un mensaje más, pero ganas control. Y según la documentación de Anthropic, encadenar prompts sirve para inspeccionar los resultados intermedios."
     visual:
       plantilla: cierre
       datos:
@@ -72,4 +72,4 @@ declaracion_sintetica:
   decision: "declarar"
   motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
 costo_estimado_usd: 0
-palabras_validas: []
+palabras_validas: ["Anthropic", "Pruébalo", "revísalo"]

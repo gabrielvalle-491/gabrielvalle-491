@@ -60,7 +60,7 @@ escenas:
           - {izq: "F-102", der: "480"}
           - {izq: "F-103", der: "1 730"}
         resultado: {izq: "Suma de la tabla", der: "3 460"}
-  - narracion: "Si no coincide, revisa fila por fila contra el original. Y aunque coincida, revisa una muestra."
+  - narracion: "Si no coincide, revisa fila por fila contra el original. Y aunque coincida, revisa una muestra, porque dos errores pueden compensarse."
     visual:
       plantilla: cierre
       datos:
@@ -72,6 +72,8 @@ fuentes:
     titulo: "Función SUMA (Microsoft Support)"
     fecha_consulta: 2026-10-11
     respalda: "SUMA suma valores individuales, referencias o rangos de celdas; ejemplo =SUMA(A2:A10)."
+  - calculo: "[1250, 480, 1730, 3460]"
+    respalda: "Montos de las tres facturas del ejemplo y su suma (datos ficticios)."
   - calculo: "1250 + 480 + 1730"
     resultado: 3460
     respalda: "Suma de control del ejemplo (datos ficticios)."

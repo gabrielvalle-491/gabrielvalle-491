@@ -34,7 +34,7 @@ escenas:
         realidad: "El Foro Económico proyecta *más empleos creados* que desplazados"
         fuente: "Future of Jobs Report 2025"
     edicion: "Tachar el mito con ritmo seco; la realidad aparece con la segunda frase."
-  - narracion: "Su informe de 2025 calcula, para 2030, 170 millones de empleos nuevos. Y 92 millones desplazados. El saldo neto sería de 78 millones más."
+  - narracion: "Su informe de 2025, basado en encuestas a empleadores, calcula para 2030 unos 170 millones de empleos nuevos. Y 92 millones desplazados. El saldo neto sería de 78 millones más."
     visual:
       plantilla: barras
       datos:
@@ -54,7 +54,7 @@ escenas:
         dato: "Cerca del *40 %* de empleadores prevé recortar donde la IA automatice tareas"
         contexto: "Cambian puestos y tareas; el informe también habla de capacitación"
         fuente: "Future of Jobs Report 2025"
-  - narracion: "Cambian las tareas, no desaparece todo. Revisa qué partes de tu trabajo puedes mejorar con IA."
+  - narracion: "Cambian las tareas, no desaparece todo. Lo útil es entender qué tareas cambian en tu puesto. Revisa qué partes de tu trabajo puedes mejorar con IA."
     visual:
       plantilla: cierre
       datos:
@@ -85,4 +85,4 @@ declaracion_sintetica:
   decision: "declarar"
   motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
 costo_estimado_usd: 0
-palabras_validas: []
+palabras_validas: ["Future", "Jobs", "Report"]

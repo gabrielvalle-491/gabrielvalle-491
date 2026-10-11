@@ -1,0 +1,72 @@
+{
+  "id": "A-008",
+  "duracion_s": 25.863,
+  "frases": 8,
+  "subtitulos": 19,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.635,
+      "beats": [
+        -5.0,
+        1.846
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.635,
+      "fin": 11.391,
+      "beats": [
+        0.0,
+        1.848
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 11.391,
+      "fin": 21.576,
+      "beats": [
+        0.0,
+        4.259,
+        7.239
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 21.576,
+      "fin": 25.863,
+      "beats": [
+        0.0,
+        1.419
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.52",
+    "input_tp": "-6.76",
+    "input_lra": "2.90",
+    "input_thresh": "-31.88",
+    "output_i": "-13.98",
+    "output_tp": "-1.50",
+    "output_lra": "2.30",
+    "output_thresh": "-24.22",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.02"
+  },
+  "fotogramas_unicos": 210,
+  "tts_cache": 0,
+  "spec_hash": "663ca3b944352435",
+  "segundos_produccion": 104.0,
+  "texto_hablado": [
+    "Mover a mano cada factura a una carpeta es un error que yimeil puede evitar.",
+    "Primero, elige un criterio.",
+    "Por ejemplo, el remitente de tu proveedor.",
+    "O una palabra del asunto, como factura.",
+    "Según la ayuda oficial, escribe los criterios en las opciones de búsqueda.",
+    "Comprueba los resultados y elige crear filtro.",
+    "Marca aplicar etiqueta, archivar, y confirma.",
+    "Revisa la etiqueta de vez en cuando, para no perder ninguna."
+  ]
+}

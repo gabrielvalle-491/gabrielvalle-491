@@ -1,0 +1,81 @@
+{
+  "id": "A-007",
+  "duracion_s": 33.749,
+  "frases": 10,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.934,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.934,
+      "fin": 11.174,
+      "beats": [
+        0.0,
+        4.068
+      ],
+      "plantilla": "dato"
+    },
+    {
+      "inicio": 11.174,
+      "fin": 20.459,
+      "beats": [
+        0.0,
+        3.458,
+        7.01
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 20.459,
+      "fin": 26.558,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 26.558,
+      "fin": 33.749,
+      "beats": [
+        0.0,
+        3.185
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.10",
+    "input_tp": "-6.71",
+    "input_lra": "2.90",
+    "input_thresh": "-31.33",
+    "output_i": "-14.14",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.30",
+    "normalization_type": "dynamic",
+    "target_offset": "0.14"
+  },
+  "fotogramas_unicos": 300,
+  "tts_cache": 0,
+  "spec_hash": "66f5ff370fecb88d",
+  "segundos_produccion": 145.9,
+  "texto_hablado": [
+    "Cambia una frase y recibes críticas útiles en lugar de elogios.",
+    "Un estudio de dos mil veintitrés analizó cinco asistentes de i a.",
+    "Encontró que tienden a coincidir con lo que tú crees.",
+    "Si preguntas, ¿qué te parece mi plan?, es fácil que te aplauda.",
+    "Si pides, señala tres debilidades, te da algo que corregir.",
+    "La crítica concreta vale más.",
+    "Usa esta plantilla, con tu texto entre corchetes.",
+    "Cambia el número de debilidades si necesitas más.",
+    "Revisa cada crítica: tú decides cuáles aceptar.",
+    "Si alguna no tiene sentido en tu caso, pide que la explique."
+  ]
+}

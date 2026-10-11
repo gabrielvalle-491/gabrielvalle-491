@@ -27,11 +27,11 @@ comentario_fijado: |
 hashtags: ["#Productividad", "#IA", "#Reuniones"]
 palabras_clave: ["acta de reunión con IA", "notas de reunión a tareas", "prompt para actas", "responsables y fechas"]
 escenas:
-  - narracion: "Notas de reunión desordenadas y nadie sabe quién hace qué."
+  - narracion: "Notas de reunión desordenadas y nadie sabe quién hace qué. Así se pierden los acuerdos."
     visual:
       plantilla: hook
       datos: {kicker: "El Atajo", titulo: "Notas desordenadas → *acta con tareas*", sub: "Responsables y fechas"}
-  - narracion: "Pega tus notas y pide una tabla con tarea, responsable, fecha y estado. Si falta un dato, que escriba por definir."
+  - narracion: "Pega tus notas y pide una tabla con tarea, responsable, fecha y estado. Si falta un dato, que escriba por definir, en vez de inventarlo."
     visual:
       plantilla: prompt
       datos:
@@ -49,7 +49,7 @@ escenas:
           - ["Revisar contrato", "POR DEFINIR", "POR DEFINIR", "Pendiente"]
         resaltar:
           - {rango: "B4:C4", beat: 1}
-  - narracion: "Revisa la tabla contra tus notas y confirma los pendientes."
+  - narracion: "Revisa la tabla contra tus notas y confirma los pendientes con el equipo. Si las notas son confidenciales, sigue las políticas de tu organización."
     visual:
       plantilla: cierre
       datos:

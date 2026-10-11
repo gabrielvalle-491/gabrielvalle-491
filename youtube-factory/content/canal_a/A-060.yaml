@@ -26,11 +26,11 @@ comentario_fijado: "Atajo: tecla Windows + H con el cursor dentro de un cuadro d
 hashtags: ["#Windows11", "#Productividad", "#IA"]
 palabras_clave: ["dictado por voz Windows 11", "Windows + H", "escribir con la voz", "dictar prompts"]
 escenas:
-  - narracion: "Escribe prompts largos hablando, sin instalar nada."
+  - narracion: "Escribe prompts largos hablando, sin instalar nada: Windows trae una función de escritura por voz."
     visual:
       plantilla: hook
       datos: {kicker: "Truco rápido", titulo: "Habla en vez de *teclear*", sub: "Windows + H"}
-  - narracion: "Haz clic dentro del cuadro de texto. Pulsa la tecla Windows y H a la vez. Habla con calma y revisa lo escrito. Para terminar, pulsa el botón del micrófono."
+  - narracion: "Haz clic dentro del cuadro de texto donde irá tu prompt. Pulsa la tecla Windows y H a la vez. Habla con calma y revisa lo escrito. Para terminar, pulsa el botón del micrófono."
     visual:
       plantilla: pasos
       datos:
@@ -48,7 +48,7 @@ escenas:
         dato: "Micrófono + *internet*"
         contexto: "El reconocimiento en línea usa servicios en la nube: no dictes datos sensibles"
         fuente: "Ayuda de Microsoft, a la fecha"
-  - narracion: "Revisa nombres y cifras antes de enviar."
+  - narracion: "Revisa nombres, cifras y puntuación antes de enviar, porque el dictado puede equivocarse. Es más rápido, pero no reemplaza tu revisión."
     visual:
       plantilla: cierre
       datos:

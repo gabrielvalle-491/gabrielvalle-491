@@ -30,7 +30,7 @@ escenas:
     visual:
       plantilla: hook
       datos: {kicker: "Truco rápido", titulo: "Que la IA te haga *preguntas*", sub: "Antes de responder"}
-  - narracion: "La frase es esta: antes de responder, hazme hasta cinco preguntas. Ponle un límite, para que no sea un interrogatorio."
+  - narracion: "La frase es esta: antes de responder, hazme hasta cinco preguntas. Ponle un límite, para que no sea un interrogatorio. Y pide una lista numerada, así contestas todo de una vez."
     visual:
       plantilla: prompt
       datos:
@@ -43,7 +43,7 @@ escenas:
         titulo: "Al *responder* sus preguntas"
         estilo: check
         items: ["Una línea por pregunta", "Si no sabes, pide un supuesto", "Sin datos sensibles"]
-  - narracion: "Con tus respuestas, la salida deja de ser genérica."
+  - narracion: "Con tus respuestas, la salida deja de ser genérica. Si no hace preguntas, repite la frase al final."
     visual:
       plantilla: cierre
       datos:

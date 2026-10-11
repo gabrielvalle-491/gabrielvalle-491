@@ -19,7 +19,7 @@ titulos_alternativos:
   - "Español neutro no basta: adapta tu mensaje por país"
 criterio_titulo: "Nombra los tres países y la herramienta; el público busca soluciones concretas para vender en varios mercados."
 descripcion: |
-  Un mismo mensaje puede necesitar cambios de trato y vocabulario según el país. Según el Diccionario panhispánico de dudas, en Argentina el trato informal usa vos, mientras que en la América no voseante se usa tú; y computador se usa mayoritariamente en Chile y Colombia, mientras que computadora predomina en la mayor parte de América.
+  Un mismo mensaje puede necesitar cambios de trato y vocabulario según el país. Según el Diccionario panhispánico de dudas, en Argentina el trato informal es el voseo, mientras que en la América no voseante se usa tú; y computador se usa mayoritariamente en Chile y Colombia, mientras que computadora predomina en la mayor parte de América.
   Pide a la IA que adapte el texto y liste los cambios, y que una persona del país lo revise antes de publicar.
 cta: "Guárdalo antes de lanzar tu próxima campaña."
 comentario_fijado: |
@@ -31,7 +31,7 @@ escenas:
     visual:
       plantilla: hook
       datos: {kicker: "El Atajo", titulo: "Un anuncio, *tres* países", sub: "México · Argentina · Colombia"}
-  - narracion: "En Argentina, el trato informal usa vos. En México, tú. Mismo idioma, distinto trato."
+  - narracion: "En Argentina, el trato informal es el voseo. En México, el tuteo. Mismo idioma, distinto trato."
     visual:
       plantilla: versus
       datos:
@@ -45,13 +45,13 @@ escenas:
         titulo: "Palabras y *moneda*"
         estilo: check
         items: ["Colombia: computador", "México: computadora", "Tres países, tres pesos distintos"]
-  - narracion: "Pídele a la IA que adapte el texto y liste lo que cambió."
+  - narracion: "Pídele a la IA que adapte el texto y liste lo que cambió. Así ves cada decisión y puedes corregirla."
     visual:
       plantilla: prompt
       datos:
         etiqueta: "Plantilla de prompt"
         texto: "Adapta este anuncio para [PAÍS]: usa trato [TÚ / VOS], vocabulario local y la moneda [MONEDA]. Conserva el sentido y lista las palabras que cambiaste.\nAnuncio: [PEGA AQUÍ]"
-  - narracion: "Después, que lo revise una persona de ese país."
+  - narracion: "Después, que lo revise una persona de ese país, porque dentro de cada país también hay variaciones."
     visual:
       plantilla: cierre
       datos:

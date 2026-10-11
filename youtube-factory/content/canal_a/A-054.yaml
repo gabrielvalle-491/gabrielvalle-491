@@ -46,7 +46,7 @@ escenas:
           - {titulo: "Planea", detalle: "Divide el objetivo en pasos"}
           - {titulo: "Usa herramientas", detalle: "Buscar, leer archivos, ejecutar"}
           - {titulo: "Revisa", detalle: "Repite hasta cumplir el objetivo"}
-  - narracion: "Más autonomía exige más cuidado: da permisos acotados y revisa lo que hizo."
+  - narracion: "Más autonomía exige más cuidado: da permisos acotados y revisa lo que hizo. Y si un chatbot resuelve tu tarea, no necesitas un agente."
     visual:
       plantilla: cierre
       datos:
