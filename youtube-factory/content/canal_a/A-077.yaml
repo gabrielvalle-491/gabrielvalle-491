@@ -1,0 +1,81 @@
+id: A-077
+canal: canal_a
+fecha: 2027-01-03
+formato: short
+serie: Error común
+episodio: "#07"
+pilar: seguridad
+tipo_editorial: error_comun
+idea: "Una voz puede clonarse con un audio corto; ante una llamada urgente de un «familiar» pidiendo dinero, cuelga, llama tú al número que ya tienes y pide una palabra clave acordada de antemano."
+objetivo: "Dar un protocolo de verificación de cuatro pasos y la idea de acordar una palabra clave en familia, apoyado en las recomendaciones de la FTC."
+publico: "Familias y personas mayores en Latinoamérica, y quienes quieren proteger a sus familiares de estafas telefónicas."
+hipotesis: "Formato 'error_comun' en pilar 'seguridad': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Error común: creer que, si suena como tu familiar, es tu familiar."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Voz clonada con IA: cómo verificar una llamada de un familiar"
+titulos_alternativos:
+  - "Te llama un «familiar» pidiendo dinero: haz esto primero"
+  - "La palabra clave familiar que frena las estafas con voz clonada"
+  - "No confíes en la voz: protocolo de 4 pasos contra la estafa del familiar"
+criterio_titulo: "Describe el escenario real y promete un protocolo; contiene términos buscables (voz clonada, verificar llamada)."
+descripcion: |
+  Los estafadores pueden usar IA para clonar la voz de un familiar a partir de un audio corto publicado en línea y llamar con una falsa emergencia. La FTC recomienda colgar y llamar tú a la persona usando un número que ya tengas, y desconfiar de pedidos de pago con tarjetas de regalo, criptomonedas o transferencias.
+  Acordar una palabra clave familiar, o una pregunta que solo esa persona sepa, es una medida práctica adicional. Esta guía es general; si ya pagaste, contacta de inmediato al servicio que usaste y denuncia ante las autoridades de tu país.
+cta: "Acuerda hoy una palabra clave con tu familia."
+comentario_fijado: "Fuentes: FTC, «Scammers Use Fake Emergencies To Steal Your Money» y «Scammers use AI to enhance their family emergency schemes». ¿Ya acordaron una palabra clave en tu familia?"
+hashtags: ["#Estafas", "#Seguridad", "#IA", "#VozClonada"]
+palabras_clave: ["voz clonada estafa", "estafa del familiar", "palabra clave familiar", "cómo verificar una llamada", "estafas con IA"]
+escenas:
+  - narracion: "Error común: creer que, si suena como tu familiar, es tu familiar."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Error común", titulo: "Suena como tu familiar, *¿es él?*", sub: "Estafas con voz clonada"}
+  - narracion: "Según la [[efe te ce|FTC]] de Estados Unidos, los estafadores pueden clonar una voz con un audio corto publicado en línea."
+    visual:
+      plantilla: dato
+      datos:
+        kicker: "Advertencia de la FTC"
+        dato: "Un audio *corto* en línea puede bastar para clonar una voz"
+        contexto: "Y la llamada suele pedir dinero con urgencia"
+        fuente: "FTC (EE. UU.), alertas para consumidores"
+  - narracion: "Primero, cuelga, aunque insistan en la urgencia. Después, llama tú al número que ya tienes de esa persona. Pide la palabra clave que acordaron. Y no pagues con tarjetas de regalo, criptomonedas ni transferencias."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Verifica en *cuatro pasos*"
+        pasos:
+          - {titulo: "Cuelga", detalle: "Aunque haya urgencia"}
+          - {titulo: "Llama tú", detalle: "Al número que ya tienes"}
+          - {titulo: "Palabra clave", detalle: "La que acordaron"}
+          - {titulo: "No pagues", detalle: "Tarjetas de regalo, cripto, transferencias"}
+  - narracion: "Elige la palabra clave con calma, antes de una emergencia. Que no sea un dato que se pueda encontrar en tus redes."
+    visual:
+      plantilla: texto
+      datos: {titulo: "Cómo elegir la palabra", texto: "Acuérdenla *en persona*, con calma. Que no se encuentre en tus *redes*."}
+  - narracion: "Acuerden hoy una palabra clave."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Una palabra clave *protege* a tu familia"
+        puntos: ["Cuelga y llama tú", "Palabra clave acordada", "Sin pagos urgentes"]
+        cta: "Acuérdala hoy"
+fuentes:
+  - url: "https://consumer.ftc.gov/articles/scammers-use-fake-emergencies-steal-your-money"
+    titulo: "Scammers Use Fake Emergencies To Steal Your Money (FTC)"
+    fecha_consulta: 2026-10-11
+    respalda: "La FTC advierte que pueden usar IA para clonar la voz de un familiar a partir de un audio corto en línea; recomienda colgar y llamar a la persona a un número conocido, o hacer una pregunta que solo esa persona sepa; y alerta sobre pedidos de pago con transferencias, criptomonedas, apps de pago o tarjetas de regalo."
+  - url: "https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes"
+    titulo: "Scammers use AI to enhance their family emergency schemes (FTC Consumer Alert)"
+    fecha_consulta: 2026-10-11
+    respalda: "Alerta de la FTC sobre el uso de IA para clonar voces en estafas de emergencia familiar."
+riesgos:
+  derechos: "bajo — material propio; sin audios reales ni logotipos"
+  exactitud: "medio — las recomendaciones de la FTC provienen de resúmenes de resultados de búsqueda de sus páginas (no se abrieron). La «palabra clave familiar» es una práctica extendida y se alinea con la recomendación de la FTC de hacer una pregunta que solo la persona sepa, pero la FTC no la menciona textualmente en lo verificado. Verificar la redacción antes de publicar. Fuentes en EE. UU.; en otros países las denuncias van a autoridades locales."
+  monetizacion: "bajo — contenido de utilidad pública"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["FTC"]
