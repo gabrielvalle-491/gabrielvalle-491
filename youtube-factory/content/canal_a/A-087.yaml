@@ -1,0 +1,67 @@
+id: A-087
+canal: canal_a
+fecha: 2027-01-13
+formato: short
+serie: El Atajo
+episodio: "#18"
+pilar: productividad
+tipo_editorial: tutorial
+idea: "Convertir un proceso que solo tú conoces en una checklist numerada con ayuda de la IA, revisarla con tres preguntas y probarla con otra persona."
+objetivo: "Dar un método corto y repetible para documentar procesos de trabajo, con un prompt útil y una prueba final que detecta pasos que faltan."
+publico: "Trabajadores y emprendedores que hacen tareas repetidas (cierres, pedidos, publicaciones) y necesitan que otra persona pueda seguirlas."
+hipotesis: "Formato 'tutorial' en pilar 'productividad': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Tu proceso solo existe en tu cabeza?"
+duracion_objetivo: "35-55 s"
+titulo: "Convierte cualquier proceso en una checklist con IA"
+titulos_alternativos:
+  - "Del 'así lo hago yo' a una checklist que cualquiera sigue"
+  - "Prompt para documentar un proceso paso a paso"
+  - "Checklist en 1 minuto: pide a la IA que ordene tu proceso"
+criterio_titulo: "Nombra el resultado (checklist) y la herramienta (IA); es claro y buscable ('checklist', 'proceso')."
+descripcion: |
+  Escribe tu proceso como te salga, pídele a la IA que lo convierta en una checklist numerada y revisa el resultado con tres preguntas: un verbo por paso, orden real y pasos que haces sin pensar.
+  La prueba final es que otra persona la siga sin tu ayuda. No pegues datos privados ni confidenciales en el prompt.
+cta: "Guárdalo y pruébalo con un proceso de tu semana."
+comentario_fijado: "¿Qué proceso de tu trabajo te gustaría tener en una checklist: cierre de mes, atención de pedidos o publicación de contenido?"
+hashtags: ["#IA", "#Productividad", "#Checklist"]
+palabras_clave: ["checklist con IA", "documentar procesos", "prompt para procesos", "paso a paso"]
+escenas:
+  - narracion: "¿Tu proceso solo existe en tu cabeza? Conviértelo en una *checklist* que cualquiera pueda seguir."
+    visual:
+      plantilla: hook
+      datos: {kicker: "El Atajo", titulo: "De tu cabeza a una *checklist*", sub: "Con ayuda de la IA"}
+  - narracion: "Escribe el proceso tal como lo haces, sin ordenar. Luego pídele a la IA que lo convierta en pasos."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Convierte este proceso en una checklist numerada. Cada paso empieza con un verbo y tiene una sola acción. Si falta información, pregúntame antes. Proceso: [PEGA TU PROCESO, SIN DATOS PRIVADOS]"
+  - narracion: "Revisa que cada paso tenga un solo verbo. Que el orden sea el real. Y que no falte lo que haces sin pensar."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Revisa la *respuesta*"
+        estilo: check
+        items: ["Un solo verbo por paso", "El orden real del trabajo", "Lo que haces sin pensar"]
+  - narracion: "La prueba final: pide a otra persona que la siga sin tu ayuda. Donde se atore, falta un paso."
+    visual:
+      plantilla: texto
+      datos: {kicker: "Prueba final", titulo: "Que otra persona la siga", texto: "Donde se atore, *falta un paso*", nota: "Agrégalo y vuelve a probar"}
+  - narracion: "Así tu forma de trabajar deja de depender de tu memoria. Guárdalo y pruébalo con un proceso de tu semana."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Un proceso, *una checklist*", puntos: ["Escríbelo sin ordenar", "Pide pasos con un verbo", "Pruébalo con otra persona"], cta: "Guárdalo"}
+fuentes:
+  - metodo_propio: true
+    respalda: "Método propio del canal: tres comprobaciones sobre la checklist (un verbo por paso, orden real, pasos implícitos) y una prueba con otra persona. No hay afirmaciones externas ni cifras que respaldar."
+riesgos:
+  derechos: "bajo — prompt y gráficos creados por el canal"
+  exactitud: "bajo — método propio sin afirmaciones técnicas sobre productos ni cifras; se advierte no pegar datos confidenciales"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Escríbelo", "Pruébalo", "pruébalo", "check"]

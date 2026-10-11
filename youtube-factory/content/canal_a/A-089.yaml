@@ -1,0 +1,83 @@
+id: A-089
+canal: canal_a
+fecha: 2027-01-15
+formato: short
+serie: Sin código
+episodio: "#07"
+pilar: seguridad
+tipo_editorial: herramienta
+idea: "Revisar en ChatGPT y en Gemini el ajuste que controla si tus chats se usan para mejorar los modelos, y conocer el chat temporal de ChatGPT."
+objetivo: "Mostrar dónde está el ajuste de privacidad en dos asistentes muy usados, según la ayuda oficial, con la advertencia de que los menús y nombres cambian."
+publico: "Personas que usan asistentes de IA para trabajar y no quieren que sus conversaciones se usen para entrenar modelos."
+hipotesis: "Formato 'herramienta' en pilar 'seguridad': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Tus chats con una IA pueden usarse para entrenar modelos?"
+duracion_objetivo: "35-55 s"
+titulo: "Que tus chats no entrenen la IA: ajustes en ChatGPT y Gemini"
+titulos_alternativos:
+  - "Privacidad en ChatGPT y Gemini: dónde está el ajuste"
+  - "¿Tus chats entrenan modelos? Revisa este ajuste"
+  - "Chat temporal y ajustes de datos: protege tus conversaciones"
+criterio_titulo: "Promete exactamente lo que muestra: el ajuste en dos asistentes concretos; incluye términos buscables (ChatGPT, Gemini, chats, entrenar)."
+descripcion: |
+  Según la ayuda oficial, en ChatGPT el ajuste está en Configuración, Controles de datos (Settings, Data controls) y en Gemini en Configuración y ayuda, Actividad (Settings & help, Activity). El chat temporal de ChatGPT no se usa para mejorar los modelos.
+  Los menús y nombres cambian: confirma en la ayuda oficial de tu versión y cuenta. Aunque lo apagues, no pegues datos confidenciales en un chat.
+cta: "Guárdalo y revisa tus ajustes hoy."
+comentario_fijado: "Revisa en la ayuda oficial de cada herramienta: help.openai.com (ChatGPT) y support.google.com/gemini (Gemini). Los menús cambian."
+hashtags: ["#IA", "#Privacidad", "#ChatGPT", "#Gemini"]
+palabras_clave: ["privacidad ChatGPT", "privacidad Gemini", "que mis chats no entrenen la IA", "chat temporal"]
+escenas:
+  - narracion: "¿Tus chats con una IA pueden usarse para entrenar modelos? Depende de un ajuste que puedes revisar."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Sin código", titulo: "¿Tus chats *entrenan* la IA?", sub: "Dónde revisar el ajuste, a la fecha"}
+  - narracion: "En ChatGPT, abre Configuración. Entra a Controles de datos. Y desactiva [[mejorar el modelo para todos|Improve the model for everyone]]."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "ChatGPT, *a la fecha*"
+        pasos:
+          - {titulo: "Configuración", detalle: "Settings"}
+          - {titulo: "Controles de datos", detalle: "Data controls"}
+          - {titulo: "Mejorar el modelo", detalle: "Improve the model for everyone"}
+  - narracion: "En Gemini, abre Configuración y ayuda. Entra a Actividad. Y desactiva [[conservar actividad|Keep Activity]]."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Gemini, *a la fecha*"
+        estilo: num
+        items:
+          - {texto: "Configuración y ayuda", detalle: "Settings & help"}
+          - {texto: "Actividad", detalle: "Activity"}
+          - {texto: "Desactivar Keep Activity", detalle: "Turn off Keep Activity"}
+  - narracion: "Otra opción en ChatGPT es el chat temporal: no se usa para mejorar los modelos, aunque puede conservarse un tiempo por seguridad."
+    visual:
+      plantilla: texto
+      datos: {kicker: "Otra opción", titulo: "Chat temporal", texto: "No se usa para *mejorar los modelos*", nota: "Puede conservarse un tiempo por seguridad"}
+  - narracion: "En cuentas de trabajo o escuela, las reglas las fija el administrador. Y los menús cambian: confirma en la ayuda oficial."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Revisa y *confirma*", puntos: ["Ajuste de datos apagado", "Cuenta de trabajo: depende del administrador", "Ayuda oficial de tu versión"], cta: "Guárdalo"}
+fuentes:
+  - url: "https://help.openai.com/articles/7730893-data-controls-in-chatgpt"
+    titulo: "Data controls in ChatGPT (OpenAI Help Center)"
+    fecha_consulta: 2026-10-11
+    respalda: "En la web, desde el menú de la cuenta: Settings, Data controls, y desactivar 'Improve the model for everyone'; en iOS y Android, desde la barra lateral y el perfil hasta Settings, Data controls."
+  - url: "https://help.openai.com/en/articles/8914046-temporary-chat-in-chatgpt"
+    titulo: "Temporary Chat in ChatGPT (OpenAI Help Center)"
+    fecha_consulta: 2026-10-11
+    respalda: "Los chats temporales no se usan para mejorar los modelos y OpenAI puede conservar una copia por motivos de seguridad por un tiempo limitado."
+  - url: "https://support.google.com/gemini/answer/13278892?hl=en"
+    titulo: "Manage & delete your activity in Gemini Apps (Gemini Apps Help)"
+    fecha_consulta: 2026-10-11
+    respalda: "En el escritorio: gemini.google.com, Settings & help, Activity, y desactivar Keep Activity (antes llamado Gemini Apps Activity); en cuentas de trabajo o escuela, el administrador controla estos ajustes."
+riesgos:
+  derechos: "bajo — gráficos propios, sin logotipos"
+  exactitud: "alto — menús y nombres de ajustes cambian con frecuencia y varían por plan, idioma y plataforma. Verificar en vivo, en cada app, antes de publicar. Los nombres en español de los menús no están verificados; en pantalla se muestran también los nombres oficiales en inglés"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["ChatGPT", "Gemini", "Activity", "Improve", "Keep", "Settings", "Turn", "controls", "everyone", "for", "help", "model", "num", "off", "the"]

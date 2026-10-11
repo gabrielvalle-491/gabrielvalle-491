@@ -72,10 +72,12 @@ def validar(spec: dict) -> list[str]:
         if v.get("plantilla") not in PLANTILLAS:
             err.append(f"escena {i+1}: plantilla desconocida '{v.get('plantilla')}'")
     for f in spec["fuentes"]:
-        if not f.get("url") and not f.get("calculo"):
-            err.append("cada fuente necesita 'url' o 'calculo' (cálculo propio reproducible)")
+        if not f.get("url") and not f.get("calculo") and not f.get("metodo_propio"):
+            err.append("cada fuente necesita 'url', 'calculo' (cálculo propio reproducible) o 'metodo_propio: true'")
         if not f.get("respalda"):
             err.append(f"fuente sin campo 'respalda': {f.get('url') or f.get('calculo')}")
+        if f.get("metodo_propio") and len(str(f.get("respalda", ""))) < 30:
+            err.append("'metodo_propio' requiere explicar en 'respalda' por qué no hay afirmaciones externas")
     if spec["formato"] == "short":
         palabras = len(narracion_completa(spec).split())
         if palabras > 190:

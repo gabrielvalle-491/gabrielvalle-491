@@ -13,7 +13,8 @@ persona o un asistente de IA para producir nuevas tandas. Toda ficha se valida c
 3. **Cero invenciones.** No inventar estadísticas, testimonios, casos de éxito, credenciales
    ni experiencias personales ("en mi experiencia", "yo uso..."). El narrador no se presenta
    como persona ni como experto humano.
-4. **Toda cifra mayor que 10 en la narración** debe estar respaldada por:
+4. **Nunca uses cálculos de relleno** para cumplir el requisito de fuente: si no hay afirmaciones externas, declara `metodo_propio: true`.
+5. **Toda cifra mayor que 10 en la narración** debe estar respaldada por:
    - un `calculo` reproducible (expresión Python con `resultado`), o
    - una fuente con `url` real + campo `cifras` con esos números.
    Solo se citan URL que hayas visto realmente en resultados de búsqueda o documentación
@@ -145,6 +146,8 @@ fuentes:
     fecha_consulta: 2026-10-11
     respalda: "Qué afirmación respalda"
     cifras: [16]                                    # números de la narración que respalda
+  - metodo_propio: true                           # SOLO si el video no hace afirmaciones externas ni da cifras
+    respalda: "Explica por qué: técnica o método del canal, sin datos externos."
   - calculo: "round(1000*1.07**10, 2)"             # Python seguro: + - * / ** round abs min max sum log exp sqrt REDONDEAR PAGO VF VA NPER
     resultado: 1967.15
     respalda: "Saldo tras 10 años al 7 %"

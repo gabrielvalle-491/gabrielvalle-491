@@ -45,6 +45,8 @@ def descripcion_final(spec: dict) -> str:
     for f in spec.get("fuentes", []):
         if f.get("url"):
             fuentes.append(f"• {f.get('titulo') or f['url']}: {f['url']} (consultado {f.get('fecha_consulta', '')})")
+        elif f.get("metodo_propio"):
+            fuentes.append("• Método propio del canal (sin datos externos)")
         elif f.get("calculo") and f.get("resultado") is not None:
             fuentes.append(f"• Cálculo propio: {f['respalda']}")
     if fuentes:

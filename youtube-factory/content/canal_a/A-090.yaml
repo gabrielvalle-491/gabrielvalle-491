@@ -1,0 +1,75 @@
+id: A-090
+canal: canal_a
+fecha: 2027-01-16
+formato: short
+serie: Historia rápida
+episodio: "#03"
+pilar: historia
+tipo_editorial: historia
+idea: "En 1950 Alan Turing cambió la pregunta '¿pueden pensar las máquinas?' por un juego de imitación; la prueba sigue en debate porque pasarla no demuestra, para algunos, comprensión."
+objetivo: "Contar el origen del test de Turing con datos verificados y explicar por qué sigue discutiéndose, sin afirmar que alguna IA actual lo haya superado."
+publico: "Curiosos de la IA que oyen hablar del test de Turing y quieren saber qué proponía realmente."
+hipotesis: "Formato 'historia' en pilar 'historia': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Puede una máquina pensar? En 1950, Alan Turing cambió esa pregunta por un juego."
+duracion_objetivo: "35-55 s"
+titulo: "El test de Turing (1950): qué proponía y por qué sigue en debate"
+titulos_alternativos:
+  - "¿Puede pensar una máquina? La pregunta de Turing en 1950"
+  - "El juego de la imitación: el origen del test de Turing"
+  - "Qué mide (y qué no) el test de Turing"
+criterio_titulo: "Incluye el término buscable (test de Turing) y el año; promete origen y debate, que es lo que el video entrega."
+descripcion: |
+  En 1950, Alan Turing publicó en la revista Mind el artículo "Computing Machinery and Intelligence". Cambió la pregunta "¿pueden pensar las máquinas?" por el juego de la imitación, que hoy conocemos como test de Turing.
+  Su resultado sigue discutiéndose: en 1980 John Searle propuso el experimento de la habitación china para cuestionar que pasarlo demuestre comprensión. Versión simplificada.
+cta: "Guárdalo para cuando alguien hable del test de Turing."
+comentario_fijado: "¿Crees que conversar bien demuestra que alguien entiende? Cuéntanos tu postura."
+hashtags: ["#IA", "#AlanTuring", "#HistoriaDeLaIA"]
+palabras_clave: ["test de Turing", "Alan Turing", "juego de la imitación", "historia de la inteligencia artificial"]
+escenas:
+  - narracion: "¿Puede una máquina pensar? En 1950, Alan Turing cambió esa pregunta por un juego."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Historia rápida", titulo: "¿Puede una máquina *pensar*?", sub: "Turing, 1950", numero: {valor: 1950, desde: 1900}}
+  - narracion: "En la versión más conocida, un interrogador conversa por escrito con una persona y con una máquina. Si no distingue cuál es cuál, la máquina pasa la prueba."
+    visual:
+      plantilla: dato
+      datos: {kicker: "El juego de la imitación", dato: "Conversar por *escrito*", contexto: "Persona o máquina: el interrogador debe adivinar", fuente: "Turing, Mind, 1950"}
+  - narracion: "Turing calculó que, en unos cincuenta años, una máquina lograría que el interrogador acertara como máximo el 70 % de las veces tras cinco minutos."
+    visual:
+      plantilla: texto
+      datos: {kicker: "Su predicción", titulo: "Cinco minutos de charla", texto: "Acierto de a lo sumo *70 %*", nota: "Una predicción, no una medida de inteligencia"}
+  - narracion: "Y el debate sigue: en 1980, John Searle sostuvo que seguir un programa que conversa bien no prueba que haya comprensión."
+    visual:
+      plantilla: texto
+      datos: {kicker: "El debate", titulo: "¿Conversar es entender?", texto: "Searle, 1980: *no necesariamente*", nota: "La habitación china"}
+  - narracion: "La prueba mide cómo conversa una máquina, no si entiende."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Conversar *no es* entender", puntos: ["Turing propuso un juego, no una definición", "Sigue en debate"], cta: "Guárdalo"}
+fuentes:
+  - url: "https://web-archive.southampton.ac.uk/cogprints.org/499/"
+    titulo: "Turing, A. M. (1950) Computing Machinery and Intelligence (Mind, copia en archivo de Southampton)"
+    fecha_consulta: 2026-10-11
+    respalda: "Artículo publicado en Mind en 1950 que reemplaza la pregunta '¿pueden pensar las máquinas?' por el juego de la imitación."
+    cifras: [1950]
+  - url: "https://plato.stanford.edu/archives/spr2004/entries/turing-test/"
+    titulo: "The Turing Test (Stanford Encyclopedia of Philosophy, versión archivada 2004)"
+    fecha_consulta: 2026-10-11
+    respalda: "Turing creía que en unos cincuenta años sería posible programar computadoras para que un interrogador promedio no tuviera más de 70 % de probabilidad de identificar correctamente tras cinco minutos de preguntas."
+    cifras: [70]
+  - url: "https://zoo.cs.yale.edu/classes/cs458/materials/minds-brains-and-programs.pdf"
+    titulo: "Searle, J. (1980) Minds, Brains, and Programs (Behavioral and Brain Sciences)"
+    fecha_consulta: 2026-10-11
+    respalda: "Searle sostiene que ejecutar un programa nunca es por sí solo condición suficiente de comprensión (intencionalidad), aunque la máquina supere el test de Turing."
+    cifras: [1980]
+riesgos:
+  derechos: "bajo — texto y gráficos propios; no se reproducen pasajes del artículo"
+  exactitud: "medio — versión simplificada: el juego original usa a un hombre y una mujer y la máquina ocupa el lugar del hombre; la versión 'persona contra máquina' es la divulgada. La cifra del 70 % corresponde a la predicción de Turing según la fuente (SEP archivada). Verificar redacción contra el texto original"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Turing", "Searle", "Alan", "Computing", "Intelligence", "John", "Machinery", "Mind", "and"]

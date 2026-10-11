@@ -47,3 +47,6 @@ pero las rutas de menú de aplicaciones de terceros cambian y no siempre tienen 
 | B-044 | INT.EFECTIVO(24%;12) = 26,82 % | Verificar nombre de la función en español |
 | B-047 | Regla 50/30/20 | Fuente no oficial; se presenta como guía popular |
 | B-048 | Insertar > Segmentación (Excel); "control de filtros" (Sheets) | Nombres según plataforma |
+| A-089 | Rutas de privacidad: ChatGPT (Controles de datos > "Improve the model for everyone") y Gemini (Actividad > "Keep Activity") | **Prioritario**: probar en vivo; nombres en español no verificados |
+| A-088 | Simplificación de RAG ("no se reentrena, consulta en cada pregunta") | Productos concretos funcionan distinto |
+| A-090 | 70 % y cinco minutos (predicción de Turing) según la SEP | Verificar contra el artículo original |
