@@ -31,7 +31,7 @@ escenas:
       plantilla: hook
       datos: {kicker: "Fórmula en 40 segundos", titulo: "Ranking que se *ordena solo*", sub: "Función ORDENARPOR · Excel 365 y 2021"}
     edicion: "Corte rápido; el subtítulo entra al final de la frase."
-  - narracion: "ORDENARPOR lo hace con una sola fórmula. Primero, los nombres que quieres devolver. Luego, las ventas por las que ordena. Y al final, menos uno: de mayor a menor."
+  - narracion: "[[ordenar por|ORDENARPOR]] lo hace con una sola fórmula. Primero, los nombres que quieres devolver. Luego, las ventas por las que ordena. Y al final, menos uno: de mayor a menor."
     visual:
       plantilla: formula
       datos:
@@ -57,7 +57,7 @@ escenas:
           - {rango: "B2:B5", beat: 1}
         resultado: {celda: "C2", valor: "Luis", beat: 2}
         nota: "Ventas ilustrativas"
-  - narracion: "ORDENAR hace algo parecido, pero usa un número de columna, que puede quedar desactualizado si cambias columnas. Ambas funcionan en Excel 365 y 2021. En Google Sheets, usa [[sort|SORT]]."
+  - narracion: "[[ordenar|ORDENAR]] hace algo parecido, pero usa un número de columna, que puede quedar desactualizado si cambias columnas. Ambas funcionan en Excel 365 y 2021. En Google Sheets, usa [[sort|SORT]]."
     visual:
       plantilla: cierre
       datos:
@@ -69,6 +69,7 @@ fuentes:
     titulo: "Función ORDENARPOR / SORTBY (Microsoft Support)"
     fecha_consulta: 2026-10-11
     respalda: "ORDENARPOR ordena un rango según los valores de otro rango; orden 1 ascendente y -1 descendente; disponible en Excel para Microsoft 365, 2024 y 2021."
+    cifras: [365]
   - url: "https://support.microsoft.com/es-es/Excel/functions/sort-function"
     titulo: "Función ORDENAR (Microsoft Support)"
     fecha_consulta: 2026-10-11
@@ -90,4 +91,4 @@ declaracion_sintetica:
   decision: "declarar"
   motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
 costo_estimado_usd: 0
-palabras_validas: ["ORDENARPOR", "derrama"]
+palabras_validas: ["ORDENARPOR", "derrama", "Escríbela", "Ranking", "ranking", "desactualizado"]

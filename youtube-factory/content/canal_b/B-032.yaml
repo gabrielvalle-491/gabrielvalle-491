@@ -30,14 +30,14 @@ escenas:
     visual:
       plantilla: hook
       datos: {kicker: "Fórmula en 40 segundos", titulo: "Buscar a la *izquierda* en Excel", sub: "INDICE + COINCIDIR vs BUSCARV"}
-  - narracion: "BUSCARV necesita el dato buscado en la primera columna y usa un número de columna. INDICE y COINCIDIR trabajan con rangos, así que devuelven de cualquier columna. Si insertas una columna, los rangos se ajustan; un número fijo, no."
+  - narracion: "BUSCARV necesita el dato buscado en la primera columna y usa un número de columna. [[índice|INDICE]] y [[coincidir|COINCIDIR]] trabajan con rangos, así que devuelven de cualquier columna. Si insertas una columna, los rangos se ajustan; un número fijo, no."
     visual:
       plantilla: versus
       datos:
         izq: {etiqueta: "Límite", titulo: "BUSCARV", items: ["Busca solo en la primera columna", "Usa un número de columna"]}
         der: {etiqueta: "Flexible", titulo: "INDICE + COINCIDIR", items: ["Devuelve de cualquier columna", "Usa rangos que se ajustan"]}
         veredicto: "Ejemplo: del *producto* al código"
-  - narracion: "Para sacar el código a partir del producto, la fórmula es esta. INDICE devuelve de la columna de códigos. COINCIDIR halla la posición del producto; el cero pide coincidencia exacta."
+  - narracion: "Para sacar el código a partir del producto, la fórmula es esta. [[índice|INDICE]] devuelve de la columna de códigos. [[coincidir|COINCIDIR]] halla la posición del producto; el cero pide coincidencia exacta."
     visual:
       plantilla: formula
       datos:
@@ -57,7 +57,8 @@ fuentes:
   - url: "https://support.microsoft.com/es-es/Excel/functions/xlookup-function"
     titulo: "Función BUSCARX (Microsoft Support)"
     fecha_consulta: 2026-10-11
-    respalda: "BUSCARX es una versión mejorada de BUSCARV que funciona en cualquier dirección y no está disponible en Excel 2016 ni 2019."
+    respalda: "BUSCARX es una versión mejorada de BUSCARV que funciona en cualquier dirección y no está disponible en Excel 2016 ni 2019. Nombre del producto: Microsoft 365."
+    cifras: [365]
 riesgos:
   derechos: "bajo"
   exactitud: "bajo — comportamiento documentado por Microsoft"

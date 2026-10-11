@@ -20,7 +20,7 @@ titulos_alternativos:
 criterio_titulo: "Describe el sistema y el resultado (alerta de stock mínimo) con la función clave."
 descripcion: |
   Una columna con la función SI compara el stock actual con el mínimo que defines y muestra Reponer cuando llegó o bajó de ese nivel. Ejemplo con productos y cantidades ilustrativas.
-  Funciona igual en Excel y Google Sheets; en Excel en español, SI y los demás nombres son los mismos.
+  La función SI existe en Excel y en Google Sheets.
 cta: "Arma tu columna Reponer con tus productos."
 comentario_fijado: "Fórmula (en D2, copiada hacia abajo): =SI(B2<=C2;\"Reponer\";\"OK\"), con el stock en B y el mínimo en C. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;)."
 hashtags: ["#Excel", "#Inventario", "#Emprendimiento"]
@@ -46,7 +46,7 @@ escenas:
           - {rango: "B2:C5", beat: 1}
         resultado: {celda: "D2", valor: "Reponer", beat: 2}
         nota: "Cantidades ilustrativas"
-  - narracion: "La fórmula compara dos celdas. Si el stock es menor o igual al mínimo, muestra Reponer. Si no, muestra OK."
+  - narracion: "La fórmula compara dos celdas. Si el stock es menor o igual al mínimo, muestra Reponer. Si no, muestra [[okey|OK]]."
     visual:
       plantilla: formula
       datos:
@@ -62,10 +62,6 @@ escenas:
 fuentes:
   - calculo: "[12, 20, 35, 15, 8, 10, 22, 18]"
     respalda: "Cantidades ilustrativas del inventario del ejemplo (stock y mínimo de cada producto)."
-  - url: "https://support.microsoft.com/es-es/excel/functions/ifs-function"
-    titulo: "Función SI.CONJUNTO / IFS (Microsoft Support)"
-    fecha_consulta: 2026-10-11
-    respalda: "Referencia sobre pruebas lógicas condicionales en Excel (la función SI es la base de la condición simple usada aquí)."
 riesgos:
   derechos: "bajo"
   exactitud: "bajo — fórmula SI estándar"
@@ -76,4 +72,4 @@ declaracion_sintetica:
   decision: "declarar"
   motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
 costo_estimado_usd: 0
-palabras_validas: []
+palabras_validas: ["Cópiala", "Mini", "Mouse", "Stock", "stock"]

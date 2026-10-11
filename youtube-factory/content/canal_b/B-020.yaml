@@ -30,7 +30,7 @@ escenas:
     visual:
       plantilla: hook
       datos: {kicker: "Error que todos cometen", titulo: "Esa fecha *no es* una fecha", sub: "Es texto con forma de fecha"}
-  - narracion: "Prueba esta fórmula en la celda de al lado. Fíjate: las fechas pegadas a la izquierda suelen ser texto. ESNUMERO responde FALSO: no es una fecha de verdad."
+  - narracion: "Prueba esta fórmula en la celda de al lado. Fíjate: las fechas pegadas a la izquierda suelen ser texto. [[es número|ESNUMERO]] responde FALSO: no es una fecha de verdad."
     visual:
       plantilla: planilla
       datos:
@@ -45,7 +45,7 @@ escenas:
           - {rango: "A2:A4", beat: 1}
         resultado: {celda: "B2", valor: "FALSO", beat: 2}
         nota: "Texto a la izquierda, número a la derecha"
-  - narracion: "Primero, detecta: alineada a la izquierda o ESNUMERO en FALSO. Segundo, conviértela con FECHANUMERO, que devuelve un número de serie, como 46 096. Tercero, dale formato de fecha a la celda."
+  - narracion: "Primero, detecta: alineada a la izquierda o [[es número|ESNUMERO]] en FALSO. Segundo, conviértela con [[fecha número|FECHANUMERO]], que devuelve un número de serie, como 46 096. Tercero, dale formato de fecha a la celda."
     visual:
       plantilla: pasos
       datos:

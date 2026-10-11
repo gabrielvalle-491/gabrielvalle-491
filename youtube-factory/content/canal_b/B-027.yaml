@@ -26,11 +26,11 @@ comentario_fijado: "Evítalo: en vez de =B2+B3+B4 usa =SUMA(B2:B4). Si acabas de
 hashtags: ["#Excel", "#ErroresDeExcel", "#Fórmulas"]
 palabras_clave: ["#¡REF! Excel", "error REF al borrar fila", "suma con rango"]
 escenas:
-  - narracion: "Borraste una fila y tu total ahora dice #¡REF!. Esto fue lo que pasó."
+  - narracion: "Borraste una fila y tu total ahora dice [[ere e efe|#¡REF!]]. Esto fue lo que pasó."
     visual:
       plantilla: hook
       datos: {kicker: "Error que todos cometen", titulo: "Borras una fila y aparece *#¡REF!*", sub: "Por qué pasa y cómo evitarlo"}
-  - narracion: "La suma tomaba celdas sueltas. Al borrar febrero, desaparece una de esas celdas. Y el total muestra #¡REF!."
+  - narracion: "La suma tomaba celdas sueltas. Al borrar febrero, desaparece una de esas celdas. Y el total muestra [[ere e efe|#¡REF!]]."
     visual:
       plantilla: planilla
       datos:
@@ -45,7 +45,7 @@ escenas:
           - {rango: "A2:B3", beat: 1}
         resultado: {celda: "B4", valor: "#¡REF!", beat: 2}
         nota: "La fórmula original era =B2+B3+B4"
-  - narracion: "Primero, si acabas de borrar, prueba deshacer con Ctrl + Z. Segundo, usa un rango: SUMA de B2 a B4 se ajusta sola. Tercero, convierte tus datos en tabla: sus referencias se actualizan al agregar o quitar filas."
+  - narracion: "Primero, si acabas de borrar, prueba deshacer con Ctrl + Z. Segundo, usa un rango: [[suma|SUMA]] de [[be dos|B2]] a [[be cuatro|B4]] se ajusta sola. Tercero, convierte tus datos en tabla: sus referencias se actualizan al agregar o quitar filas."
     visual:
       plantilla: pasos
       datos:

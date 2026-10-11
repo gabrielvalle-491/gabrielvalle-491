@@ -22,7 +22,7 @@ descripcion: |
   Dar formato de dos decimales no cambia el número guardado: la barra de fórmulas muestra el valor completo y los cálculos usan ese valor. Para cambiar el valor real se usa REDONDEAR.
   El ejemplo usa tres celdas con 1,234, mostradas como 1,23. Los datos son ilustrativos.
 cta: "Revisa en la barra de fórmulas qué hay en tus celdas."
-comentario_fijado: "Fórmula: =REDONDEAR(A2;2). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos. Ojo: redondear antes de sumar y sumar antes de redondear pueden dar totales distintos; elige según lo que necesites reportar."
+comentario_fijado: "Fórmula: =REDONDEAR(A3;2). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos. Ojo: redondear antes de sumar y sumar antes de redondear pueden dar totales distintos; elige según lo que necesites reportar."
 hashtags: ["#Excel", "#Fórmulas", "#Errores"]
 palabras_clave: ["REDONDEAR excel", "suma no coincide excel", "formato decimales vs redondear"]
 escenas:
@@ -52,15 +52,15 @@ escenas:
       plantilla: versus
       datos:
         izq: {etiqueta: "Solo formato", titulo: "Muestra 1,23", items: ["Guarda 1,234", "Suma: 3,70"]}
-        der: {etiqueta: "REDONDEAR", titulo: "Guarda 1,23", items: ["=REDONDEAR(A2;2)", "Suma: 3,69"]}
+        der: {etiqueta: "REDONDEAR", titulo: "Guarda 1,23", items: ["=REDONDEAR(A3;2)", "Suma: 3,69"]}
         veredicto: "El formato no cambia el valor"
   - narracion: "Escribe REDONDEAR. Primero, el número. Luego, cuántos decimales conservar."
     visual:
       plantilla: formula
       datos:
-        formula: "=REDONDEAR(A2;2)"
+        formula: "=REDONDEAR(A3;2)"
         partes:
-          - {token: "A2", explica: "el número a redondear"}
+          - {token: "A3", explica: "el número a redondear"}
           - {token: "2", explica: "decimales que conservas"}
   - narracion: "Revisa la barra de fórmulas: ahí está el valor real. Es el que usan tus cálculos. Si el total debe coincidir con lo que muestras, redondea antes de sumar."
     visual:

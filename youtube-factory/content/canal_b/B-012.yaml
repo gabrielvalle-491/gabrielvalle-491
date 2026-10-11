@@ -1,0 +1,83 @@
+id: B-012
+canal: canal_b
+fecha: 2026-10-30
+formato: short
+serie: Fórmula en 40 segundos
+episodio: "#03"
+pilar: formulas
+tipo_editorial: tutorial
+idea: "IZQUIERDA toma las primeras letras de un código y EXTRAE toma una parte desde una posición: así se separan el prefijo de sucursal y el número de pedido."
+objetivo: "Tutorial corto y buscable que desmonta el mito de separar códigos a mano y deja dos fórmulas reutilizables."
+publico: "Personas que trabajan con códigos de pedido, producto o cliente en Excel y los separan manualmente."
+hipotesis: "Gancho 'mito' + duración corta + visual 'comparación': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "Mito: para separar un código, hay que cortarlo a mano."
+duracion_objetivo: "20-32 s (≈55-80 palabras)"
+titulo: "Separar códigos en Excel: IZQUIERDA y EXTRAE en 30 s"
+titulos_alternativos:
+  - "Cómo separar texto en Excel sin cortarlo a mano"
+  - "IZQUIERDA y EXTRAE: parte un código en dos columnas"
+  - "Prefijo y número de pedido: separa el código con fórmulas"
+criterio_titulo: "Nombra las dos funciones y el problema concreto (separar códigos), que es lo que la gente busca."
+descripcion: |
+  IZQUIERDA devuelve las primeras letras de un texto; EXTRAE devuelve una parte desde la posición que indiques. Con ellas separas el prefijo de sucursal y el número de pedido de un código como CENT-04512.
+  El resultado de EXTRAE es texto. Los códigos del ejemplo son ficticios.
+cta: "Guárdalo para tu próxima base de pedidos."
+comentario_fijado: "Fórmulas: =IZQUIERDA(A2;4) y =EXTRAE(A2;6;5). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos."
+hashtags: ["#Excel", "#Fórmulas", "#GoogleSheets"]
+palabras_clave: ["IZQUIERDA y EXTRAE", "separar texto excel", "extraer parte de un código"]
+escenas:
+  - narracion: "Mito: para separar un código, hay que cortarlo a mano. Realidad: dos funciones lo hacen."
+    visual:
+      plantilla: mito
+      datos:
+        mito: "Separar un código exige cortarlo a mano"
+        realidad: "*IZQUIERDA* y *EXTRAE* lo separan con fórmulas"
+  - narracion: "Para la sucursal, usa IZQUIERDA. Primero, la celda. Luego, cuántos caracteres tomar: cuatro."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=IZQUIERDA(A2;4)"
+        partes:
+          - {token: "A2", explica: "celda con el código"}
+          - {token: "4", explica: "caracteres que se toman"}
+  - narracion: "Para el número de pedido, EXTRAE. Pide el texto, dónde empieza y cuántos caracteres. Empieza en la posición seis y toma cinco."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=EXTRAE(A2;6;5)"
+        celda_formula: "C2"
+        filas:
+          - ["Código", "Sucursal", "Pedido"]
+          - ["CENT-04512", "CENT", ""]
+          - ["NORT-00871", "NORT", ""]
+          - ["SURE-10230", "SURE", ""]
+        resaltar:
+          - {rango: "A2:A4", beat: 1}
+        resultado: {celda: "C2", valor: "04512", beat: 2}
+  - narracion: "Dos funciones, y cada parte del código queda en su columna."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Un código, *dos* columnas"
+        puntos: ["IZQUIERDA: el inicio", "EXTRAE: una parte del medio"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/office/funci%C3%B3n-izquierda-9203d2d2-7960-479b-84c6-1ea52b99640c"
+    titulo: "Función IZQUIERDA (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "IZQUIERDA(texto; [núm_de_caracteres]) devuelve los primeros caracteres de un texto."
+  - url: "https://support.microsoft.com/es-es/excel/functions/mid-function"
+    titulo: "EXTRAE (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "EXTRAE(texto; posición_inicial; núm_de_caracteres) devuelve caracteres desde la posición indicada."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — sintaxis documentada por Microsoft; posiciones del ejemplo verificadas a mano (C=1 … -=5, el número empieza en 6)"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["CENT", "NORT", "SURE"]

@@ -56,6 +56,9 @@ escenas:
 fuentes:
   - calculo: "[100, 10]"
     respalda: "Datos ilustrativos del ejemplo (precio base e inflación anual)."
+  - calculo: "10 + 10"
+    resultado: 20
+    respalda: "Suma (incorrecta) de dos inflaciones de 10 %, que se contrasta con el 21 % real."
   - calculo: "100 * 1.10"
     resultado: 110
     respalda: "Precio tras el primer año."

@@ -30,7 +30,7 @@ escenas:
     visual:
       plantilla: hook
       datos: {kicker: "Fórmula en 40 segundos", titulo: "SI anidado *vs* SI.CONJUNTO", sub: "Misma clasificación de notas"}
-  - narracion: "El SI anidado mete un SI dentro de otro, y cada condición suma un paréntesis. SI.CONJUNTO pone las condiciones en fila, de dos en dos. Mismo resultado, mucho más legible."
+  - narracion: "El [[si|SI]] anidado mete un [[si|SI]] dentro de otro, y cada condición suma un paréntesis. SI.CONJUNTO pone las condiciones en fila, de dos en dos. Mismo resultado, mucho más legible."
     visual:
       plantilla: versus
       datos:
@@ -55,6 +55,7 @@ fuentes:
     titulo: "Función SI.CONJUNTO / IFS (Microsoft Support)"
     fecha_consulta: 2026-10-11
     respalda: "SI.CONJUNTO evalúa condiciones en orden y devuelve el resultado de la primera verdadera; puede sustituir varios SI anidados; para un resultado por defecto se usa VERDADERO en la última prueba; disponible en Office 2019 y Microsoft 365."
+    cifras: [365]
   - calculo: "[90, 70]"
     respalda: "Umbrales ilustrativos de nota usados en el ejemplo."
 riesgos:
