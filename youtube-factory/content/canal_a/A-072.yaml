@@ -51,7 +51,7 @@ escenas:
     visual:
       plantilla: texto
       datos: {titulo: "¿Por qué dos dígitos?", texto: "Con *v02* y *v10*, el orden alfabético acierta. Con *v2* y *v10*, no."}
-  - narracion: "Así tus archivos se ordenan solos."
+  - narracion: "Así tus archivos se ordenan solos, sin tocar nada. Pruébalo hoy con una sola carpeta."
     visual:
       plantilla: cierre
       datos:

@@ -54,7 +54,7 @@ escenas:
         titulo: "Para que *funcione*"
         estilo: check
         items: ["Solo experiencias reales", "Practica en voz alta", "La IA no sabe qué te preguntarán"]
-  - narracion: "Practicar no garantiza el puesto, pero llegas con la respuesta ordenada."
+  - narracion: "Practicar no garantiza el puesto, pero llegas con la respuesta ordenada y menos nervios por improvisar."
     visual:
       plantilla: cierre
       datos:

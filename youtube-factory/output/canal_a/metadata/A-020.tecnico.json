@@ -1,0 +1,75 @@
+{
+  "id": "A-020",
+  "duracion_s": 37.566,
+  "frases": 10,
+  "subtitulos": 31,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.805,
+      "beats": [
+        -5.0,
+        2.13
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.805,
+      "fin": 18.278,
+      "beats": [
+        0.0,
+        7.725,
+        10.48
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 18.278,
+      "fin": 30.414,
+      "beats": [
+        0.0,
+        4.334,
+        6.868
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 30.414,
+      "fin": 37.566,
+      "beats": [
+        0.0,
+        2.528
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.24",
+    "input_tp": "-6.95",
+    "input_lra": "1.60",
+    "input_thresh": "-31.49",
+    "output_i": "-14.13",
+    "output_tp": "-1.50",
+    "output_lra": "1.30",
+    "output_thresh": "-24.32",
+    "normalization_type": "dynamic",
+    "target_offset": "0.13"
+  },
+  "fotogramas_unicos": 264,
+  "tts_cache": 0,
+  "spec_hash": "c0d6debc5eab3416",
+  "segundos_produccion": 110.5,
+  "texto_hablado": [
+    "¿Vale la pena pagar por una i a?",
+    "Primero mira qué cambia.",
+    "En el plan gratis hay límites de uso, y las funciones avanzadas, como subir archivos o crear imágenes, tienen topes más estrictos.",
+    "En el plan de pago, los límites son más altos.",
+    "Así que la diferencia principal, en general, es cuánto puedes usar.",
+    "Antes de pagar, usa el plan gratis con tu tarea real durante una semana.",
+    "Anota cada vez que chocas con un límite.",
+    "Y revisa la página oficial del plan, porque los modelos y los límites cambian con el tiempo.",
+    "Paga solo si el límite te frena de verdad.",
+    "Y a la fecha, confirma precios y condiciones en el sitio oficial."
+  ]
+}

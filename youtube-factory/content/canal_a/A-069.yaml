@@ -30,7 +30,7 @@ escenas:
     visual:
       plantilla: hook
       datos: {kicker: "Glosario rápido", titulo: "Un LLM no busca: *predice* texto", sub: "Modelo de lenguaje grande"}
-  - narracion: "Primero, lee muchísimo texto. Luego aprende patrones de cómo se combinan las palabras. Y al responder, predice un trozo tras otro hasta completar la respuesta."
+  - narracion: "Primero, lee muchísimo texto escrito por personas. Luego aprende patrones de cómo se combinan las palabras. Y al responder, predice un trozo tras otro hasta completar la respuesta."
     visual:
       plantilla: pasos
       datos:
@@ -39,11 +39,11 @@ escenas:
           - {titulo: "Lee mucho texto", detalle: "Su entrenamiento"}
           - {titulo: "Aprende patrones", detalle: "Cómo se combinan las palabras"}
           - {titulo: "Predice el siguiente trozo", detalle: "Uno tras otro, hasta terminar"}
-  - narracion: "LLM significa modelo de lenguaje grande. Por eso puede sonar seguro y aun así equivocarse. Predecir texto probable no es lo mismo que verificar un hecho."
+  - narracion: "LLM significa modelo de lenguaje grande. Por eso puede sonar seguro y aun así equivocarse. Predecir texto probable no es lo mismo que comprobar un hecho."
     visual:
       plantilla: texto
       datos: {titulo: "Consecuencia práctica", texto: "Texto *probable* no es un hecho *verificado*.", nota: "Revisa los datos importantes"}
-  - narracion: "Úsalo para redactar y ordenar. Los datos, verifícalos."
+  - narracion: "Úsalo para redactar, resumir y ordenar ideas. Los datos, verifícalos."
     visual:
       plantilla: cierre
       datos:

@@ -1,0 +1,73 @@
+{
+  "id": "A-015",
+  "duracion_s": 31.114,
+  "frases": 10,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.877,
+      "beats": [
+        -5.0,
+        3.28
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.877,
+      "fin": 14.082,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 14.082,
+      "fin": 22.278,
+      "beats": [
+        0.0,
+        1.971,
+        5.126
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 22.278,
+      "fin": 31.114,
+      "beats": [
+        0.0,
+        3.429
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.03",
+    "input_tp": "-6.93",
+    "input_lra": "1.70",
+    "input_thresh": "-31.31",
+    "output_i": "-14.17",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.37",
+    "normalization_type": "dynamic",
+    "target_offset": "0.17"
+  },
+  "fotogramas_unicos": 303,
+  "tts_cache": 0,
+  "spec_hash": "3f1d5af2771cabf7",
+  "segundos_produccion": 118.5,
+  "texto_hablado": [
+    "¿Qué publicas esta semana en las redes de tu negocio?",
+    "Un prompt te arma el plan; tú lo revisas.",
+    "Dale a la i a cuatro datos: tipo de negocio, público, objetivo y tono.",
+    "Y pide una tabla de cuatro semanas, con tres publicaciones por semana.",
+    "Pega la tabla en tu planilla.",
+    "Son doce publicaciones, con fecha, tema y formato.",
+    "Marca cada una como pendiente hasta revisarla.",
+    "Antes de publicar, revisa datos, precios y promociones.",
+    "La i a no conoce tu negocio como tú.",
+    "Ajusta el tono a tu forma de hablar."
+  ]
+}

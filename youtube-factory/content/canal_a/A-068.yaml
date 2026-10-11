@@ -27,14 +27,14 @@ comentario_fijado: |
 hashtags: ["#WhatsApp", "#Pymes", "#IA", "#AtencionAlCliente"]
 palabras_clave: ["preguntas frecuentes WhatsApp", "respuestas para clientes", "atención al cliente con IA", "WhatsApp para negocios"]
 escenas:
-  - narracion: "Imagina 20 consultas repetidas en el WhatsApp de tu negocio. Pueden quedar en 6 respuestas claras."
+  - narracion: "Imagina 20 consultas repetidas en el WhatsApp de tu negocio. Con un poco de orden, pueden quedar en 6 respuestas claras, listas para copiar."
     visual:
       plantilla: hook
       datos:
         kicker: "Caso pyme"
         titulo: "De *20* consultas a *6* respuestas"
         sub: "Ejemplo ilustrativo"
-  - narracion: "Primero, agrúpalas por tema: horarios, pagos, envíos, precios, cambios y ubicación. Así ves qué preguntan más."
+  - narracion: "Primero, agrúpalas por tema: horarios, pagos, envíos, precios, cambios y ubicación. Así ves qué preguntan más y qué respuesta te ahorra más tiempo."
     visual:
       plantilla: barras
       datos:
@@ -55,7 +55,7 @@ escenas:
         etiqueta: "Plantilla de prompt"
         texto: "Estas son consultas de clientes: [PEGA LAS CONSULTAS]. Agrúpalas en máximo 6 temas y escribe 2-3 líneas de respuesta por tema, tono [TONO]. Si falta un dato, escribe [COMPLETAR]; no inventes."
         nota: "Quita nombres y teléfonos antes de pegar"
-  - narracion: "Cada respuesta: el dato directo, dos líneas y un siguiente paso."
+  - narracion: "Cada respuesta lleva el dato directo, dos líneas como máximo y un siguiente paso para el cliente."
     visual:
       plantilla: texto
       datos: {titulo: "Una buena respuesta", texto: "Dato *directo*, dos líneas y un siguiente paso."}

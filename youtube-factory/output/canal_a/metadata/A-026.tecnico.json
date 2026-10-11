@@ -1,0 +1,75 @@
+{
+  "id": "A-026",
+  "duracion_s": 28.851,
+  "frases": 11,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.616,
+      "beats": [
+        -5.0,
+        3.402
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.616,
+      "fin": 15.352,
+      "beats": [
+        0.0,
+        4.009,
+        4.911,
+        7.092
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 15.352,
+      "fin": 20.61,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 20.61,
+      "fin": 28.851,
+      "beats": [
+        0.0,
+        2.805
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.01",
+    "input_tp": "-6.65",
+    "input_lra": "1.70",
+    "input_thresh": "-31.28",
+    "output_i": "-14.06",
+    "output_tp": "-1.50",
+    "output_lra": "1.20",
+    "output_thresh": "-24.29",
+    "normalization_type": "dynamic",
+    "target_offset": "0.06"
+  },
+  "fotogramas_unicos": 223,
+  "tts_cache": 0,
+  "spec_hash": "8e031d17f2584eb7",
+  "segundos_produccion": 91.6,
+  "texto_hablado": [
+    "¿Un cliente te escribe de noche y no sabes qué responder?",
+    "Que responda tu guatsap Business.",
+    "Abre las herramientas de empresa de la ap y busca el mensaje de ausencia.",
+    "Actívalo.",
+    "Elige el horario y a quién se envía.",
+    "Y pruébalo escribiendo desde otro número.",
+    "El texto importa.",
+    "Di que estás fuera de horario, cuándo vuelves y qué hacer mientras tanto.",
+    "A la fecha, es una función de la ap para empresas.",
+    "Revisa el menú de tu versión.",
+    "Y si cambias tu horario, actualiza el texto."
+  ]
+}

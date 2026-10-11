@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:04,339
+Si envías cada correo a mano desde tu planilla, estás repitiendo trabajo.
+
+2
+00:00:04,499 --> 00:00:06,084
+Apps Script lo hace por ti.
+
+3
+00:00:06,364 --> 00:00:09,458
+Tu hoja lleva tres columnas: correo, asunto y mensaje.
+
+4
+00:00:09,618 --> 00:00:11,109
+Cada fila es un correo.
+
+5
+00:00:11,389 --> 00:00:13,332
+Esta función lee todas las filas.
+
+6
+00:00:13,492 --> 00:00:14,800
+Salta el encabezado.
+
+7
+00:00:14,960 --> 00:00:18,856
+Y envía un correo con el destinatario, el asunto y el texto de cada fila.
+
+8
+00:00:19,136 --> 00:00:22,444
+Ojo con el límite: según la documentación de Apps Script, a
+
+9
+00:00:22,444 --> 00:00:26,480
+la fecha, una cuenta personal puede enviar a 100 destinatarios por día.
+
+10
+00:00:26,760 --> 00:00:28,864
+Prueba primero con tu propio correo.

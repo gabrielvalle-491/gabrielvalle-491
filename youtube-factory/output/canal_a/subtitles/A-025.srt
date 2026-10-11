@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:03,965
+Un mismo texto no se resume igual para tu jefe que para tu cliente.
+
+2
+00:00:04,125 --> 00:00:05,432
+Pide tres versiones.
+
+3
+00:00:05,712 --> 00:00:08,753
+Nivel uno: una línea, para quien solo necesita la idea.
+
+4
+00:00:08,913 --> 00:00:11,832
+Nivel dos: un párrafo, para quien necesita contexto.
+
+5
+00:00:11,992 --> 00:00:14,612
+Nivel tres: una página, para quien va a decidir.
+
+6
+00:00:14,892 --> 00:00:16,870
+Pídelos todos en un solo prompt.
+
+7
+00:00:17,030 --> 00:00:19,378
+Así puedes comparar los tres de una vez.
+
+8
+00:00:19,658 --> 00:00:21,629
+Elige el nivel según quién lo lee.
+
+9
+00:00:21,789 --> 00:00:24,857
+Y compara los tres con el original antes de enviarlos.
+
+10
+00:00:25,017 --> 00:00:29,183
+Un resumen corto no reemplaza al texto completo, solo te ayuda a entrar.

@@ -42,7 +42,7 @@ escenas:
           - {texto: "Solución", detalle: "Diapositivas 3 y 4"}
           - {texto: "Prueba", detalle: "Diapositivas 5 a 8"}
           - {texto: "Próximo paso", detalle: "Diapositivas 9 y 10"}
-  - narracion: "Pídele a la IA solo el esquema. Y que marque lo que falte, para que no invente datos."
+  - narracion: "Pídele a la IA solo el esquema, no el contenido final. Y que marque lo que falte, para que no invente datos."
     visual:
       plantilla: prompt
       datos:
@@ -52,7 +52,7 @@ escenas:
     visual:
       plantilla: texto
       datos: {titulo: "Revisión", texto: "Una *sola idea* por diapositiva. Si hay dos, se divide."}
-  - narracion: "La estructura primero. El diseño, después."
+  - narracion: "La estructura primero. El diseño, después. Así no pierdes tiempo en colores antes de tener el mensaje."
     visual:
       plantilla: cierre
       datos:

@@ -26,11 +26,11 @@ comentario_fijado: "¿Cuál de las cuatro preguntas olvidas más seguido: datos,
 hashtags: ["#IA", "#Trabajo", "#Productividad"]
 palabras_clave: ["usar IA en el trabajo", "checklist de IA", "buenas prácticas con IA", "IA responsable en la empresa"]
 escenas:
-  - narracion: "Antes de pegar nada en una IA, hazte cuatro preguntas."
+  - narracion: "Antes de pegar nada en una IA, hazte cuatro preguntas. Toman unos segundos y sirven con cualquier herramienta."
     visual:
       plantilla: hook
       datos: {kicker: "El Atajo", titulo: "*4 preguntas* antes de usar IA", sub: "Checklist para el trabajo"}
-  - narracion: "Datos: ¿puedo compartir esto fuera de mi empresa? Verificación: ¿revisaré cifras, nombres y fuentes? Privacidad: ¿conozco los ajustes y la política de mi empresa? Responsabilidad: ¿firmaría este resultado como mío?"
+  - narracion: "Datos: ¿puedo compartir esto fuera de mi empresa, o es confidencial? Verificación: ¿revisaré cifras, nombres y fuentes antes de usarlo? Privacidad: ¿conozco los ajustes de la herramienta y la política de mi empresa? Responsabilidad: ¿firmaría este resultado como mío?"
     visual:
       plantilla: lista
       datos:
@@ -41,11 +41,11 @@ escenas:
           - {texto: "Verificación", detalle: "¿Revisaré cifras y fuentes?"}
           - {texto: "Privacidad", detalle: "¿Conozco ajustes y política?"}
           - {texto: "Responsabilidad", detalle: "¿Lo firmaría como mío?"}
-  - narracion: "Si alguna respuesta es no, detente y consulta antes de enviar."
+  - narracion: "Si alguna respuesta es no, detente. Consulta con tu jefe o con el área responsable antes de enviar."
     visual:
       plantilla: texto
       datos: {titulo: "La regla", texto: "Un *no* en cualquiera: detente y consulta."}
-  - narracion: "La IA ayuda. La responsabilidad sigue siendo tuya."
+  - narracion: "La IA ayuda a redactar, resumir y ordenar. La responsabilidad sigue siendo tuya."
     visual:
       plantilla: cierre
       datos:

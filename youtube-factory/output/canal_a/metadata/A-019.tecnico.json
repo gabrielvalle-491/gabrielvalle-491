@@ -1,0 +1,72 @@
+{
+  "id": "A-019",
+  "duracion_s": 32.422,
+  "frases": 10,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.607,
+      "beats": [
+        -5.0,
+        3.203
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.607,
+      "fin": 15.287,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 15.287,
+      "fin": 24.282,
+      "beats": [
+        0.0,
+        1.988
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 24.282,
+      "fin": 32.422,
+      "beats": [
+        0.0,
+        4.534
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.04",
+    "input_tp": "-7.22",
+    "input_lra": "1.80",
+    "input_thresh": "-31.31",
+    "output_i": "-14.44",
+    "output_tp": "-1.50",
+    "output_lra": "1.40",
+    "output_thresh": "-24.62",
+    "normalization_type": "dynamic",
+    "target_offset": "0.44"
+  },
+  "fotogramas_unicos": 269,
+  "tts_cache": 0,
+  "spec_hash": "de3a106d9d4b865d",
+  "segundos_produccion": 97.4,
+  "texto_hablado": [
+    "¿Sigues copiando la respuesta de la i a dato por dato?",
+    "Una línea extra en tu prompt lo evita.",
+    "Agrega esto al final de tu pedido.",
+    "Una fila por línea, columnas separadas por punto y coma y nada de texto adicional.",
+    "Así la respuesta llega lista para pegar.",
+    "Pega todo en la celda A uno.",
+    "Luego ve a Datos, Texto en columnas, elige Delimitado y marca Punto y coma.",
+    "Cada dato cae en su propia columna.",
+    "Antes de sumar, comprueba que los montos quedaron como números y no como texto.",
+    "Y revisa los datos: la i a puede equivocarse."
+  ]
+}

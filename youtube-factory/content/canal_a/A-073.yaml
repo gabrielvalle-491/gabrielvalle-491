@@ -26,7 +26,7 @@ comentario_fijado: "Fuente: OpenAI Help Center, «What is ChatGPT?» (recomendac
 hashtags: ["#IA", "#Privacidad", "#Seguridad"]
 palabras_clave: ["qué no pegar en ChatGPT", "privacidad en chatbots", "anonimizar datos", "datos sensibles IA"]
 escenas:
-  - narracion: "Error común: pegar en un chatbot datos que no deberías compartir."
+  - narracion: "Error común: pegar en un chatbot datos que no deberías compartir. Veamos cuáles son."
     visual:
       plantilla: hook
       datos: {kicker: "Error común", titulo: "No pegues esto en un *chatbot*", sub: "Y qué hacer en su lugar"}
@@ -37,14 +37,14 @@ escenas:
         titulo: "*Nunca* pegues"
         estilo: x
         items: ["Contraseñas y claves", "Tarjetas y cuentas", "Identidad, salud y clientes", "Información confidencial"]
-  - narracion: "Si necesitas ayuda con un texto real, cambia lo identificable por etiquetas. Así la IA entiende la estructura sin ver los datos."
+  - narracion: "Si necesitas ayuda con un texto real, cambia lo identificable por etiquetas. Así la IA entiende la estructura sin ver los datos reales. Toma solo unos segundos."
     visual:
       plantilla: versus
       datos:
         izq: {etiqueta: "Antes", titulo: "Datos reales", items: ["Juan Pérez", "Cuenta 0123-4567", "Debe $2 500"]}
         der: {etiqueta: "Después", titulo: "Con etiquetas", items: ["[CLIENTE]", "[CUENTA]", "[MONTO]"]}
         veredicto: "Anonimiza en 10 segundos"
-  - narracion: "Si dudas, no lo pegues. Y sigue la política de IA de tu empresa."
+  - narracion: "Si dudas, no lo pegues y pregunta primero. Y sigue la política de IA de tu empresa."
     visual:
       plantilla: cierre
       datos:

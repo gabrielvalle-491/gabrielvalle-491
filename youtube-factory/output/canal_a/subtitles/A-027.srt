@@ -1,0 +1,43 @@
+1
+00:00:00,120 --> 00:00:01,876
+Un cliente molesto te escribe.
+
+2
+00:00:02,036 --> 00:00:03,645
+Respóndele en tres pasos.
+
+3
+00:00:03,925 --> 00:00:08,669
+Imagina este reclamo, ficticio: pidió una silla hace diez días y todavía no llega.
+
+4
+00:00:08,949 --> 00:00:11,868
+Primero, calma: reconoce el problema sin discutir.
+
+5
+00:00:12,028 --> 00:00:14,947
+Segundo, resuelve: ofrece una solución concreta.
+
+6
+00:00:15,107 --> 00:00:18,102
+Tercero, cierra: confirma el siguiente paso y la fecha.
+
+7
+00:00:18,382 --> 00:00:20,752
+Pídele a la IA el borrador con ese orden.
+
+8
+00:00:20,912 --> 00:00:22,400
+La solución la pones tú.
+
+9
+00:00:22,680 --> 00:00:25,324
+Nunca prometas algo que no puedas cumplir.
+
+10
+00:00:25,484 --> 00:00:28,469
+Y no pegues datos personales del cliente en la IA.
+
+11
+00:00:28,629 --> 00:00:31,473
+Revisa el borrador y ajústalo a tu forma de hablar.

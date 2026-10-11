@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:02,244
+Un evento repetido en tu calendario te
+
+2
+00:00:02,244 --> 00:00:05,040
+recuerda cada pago, sin que tengas que acordarte.
+
+3
+00:00:05,320 --> 00:00:07,438
+Crea un evento con el nombre del pago.
+
+4
+00:00:07,598 --> 00:00:09,873
+Haz que se repita, por ejemplo cada mes.
+
+5
+00:00:10,033 --> 00:00:13,676
+Y agrega una notificación con uno o dos días de anticipación.
+
+6
+00:00:13,956 --> 00:00:19,895
+Según la ayuda oficial, a la fecha, una serie repetida admite hasta 730 apariciones.
+
+7
+00:00:20,055 --> 00:00:23,270
+Con un pago mensual, alcanza para más de 60 años.
+
+8
+00:00:23,550 --> 00:00:28,119
+Si cambias el evento, Calendar te pregunta a cuáles de la serie aplicas el cambio.
+
+9
+00:00:28,279 --> 00:00:29,131
+Elige bien.
+
+10
+00:00:29,411 --> 00:00:31,582
+Empieza con el pago que más olvidas.

@@ -28,7 +28,7 @@ comentario_fijado: |
 hashtags: ["#Excel", "#RedesSociales", "#IA", "#Pymes"]
 palabras_clave: ["calendario de publicaciones", "planificar redes sociales", "CONTAR.SI", "IA para ideas de contenido"]
 escenas:
-  - narracion: "La IA propone ideas de publicaciones. La planilla las ordena."
+  - narracion: "La IA propone ideas de publicaciones. La planilla las ordena por fecha y por estado."
     visual:
       plantilla: hook
       datos: {kicker: "Caso pyme", titulo: "IA para *ideas*, planilla para *orden*", sub: "Calendario de publicaciones"}
@@ -55,14 +55,14 @@ escenas:
         resaltar:
           - {rango: "D2:D5", beat: 1}
         resultado: {celda: "D6", valor: "2", beat: 2}
-  - narracion: "Usa estados fijos: idea, redactado, listo y publicado. Y revisa cada idea antes de programarla."
+  - narracion: "Usa estados fijos: idea, redactado, listo y publicado. Y revisa cada idea antes de programarla, para que encaje con tu negocio."
     visual:
       plantilla: lista
       datos:
         titulo: "Reglas del *calendario*"
         estilo: check
         items: ["Estados fijos: Idea, Redactado, Listo, Publicado", "Revisa cada idea antes de programarla"]
-  - narracion: "La IA no conoce tu inventario. Tú sí."
+  - narracion: "La IA no conoce tu inventario ni tus promociones. Tú sí, y tú decides qué se publica."
     visual:
       plantilla: cierre
       datos:

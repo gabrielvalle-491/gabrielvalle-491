@@ -1,0 +1,74 @@
+id: A-086
+canal: canal_a
+fecha: 2027-01-12
+formato: short
+serie: Error común
+episodio: "#09"
+pilar: ia_sin_humo
+tipo_editorial: error_comun
+idea: "Revisar un texto escrito con IA en tres pasadas: datos, tono y llamada a la acción, antes de enviarlo."
+objetivo: "Dar un método corto y repetible de revisión que evita errores visibles ante clientes o jefes, con un prompt de apoyo."
+publico: "Trabajadores y emprendedores que redactan correos, propuestas o mensajes con ayuda de IA."
+hipotesis: "Formato 'error_comun' en pilar 'ia_sin_humo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Error común: enviar el texto de la IA sin revisarlo."
+duracion_objetivo: "35-55 s"
+titulo: "No envíes el texto de la IA sin revisar: método de 3 pasadas"
+titulos_alternativos:
+  - "Revisa en 3 pasadas antes de enviar un texto hecho con IA"
+  - "El error de copiar y pegar lo que escribe la IA"
+  - "Datos, tono y llamada a la acción: tu revisión en 1 minuto"
+criterio_titulo: "Nombra el error y la solución concreta (tres pasadas); promete lo que el video entrega."
+descripcion: |
+  Un texto hecho con IA puede traer datos equivocados, un tono que no encaja o una petición poco clara. Revísalo en tres pasadas: primero datos, luego tono y al final la llamada a la acción.
+  Según la ayuda de OpenAI, conviene tratar la salida como un primer borrador y comprobar nombres, datos y referencias. No pegues información confidencial en el prompt.
+cta: "Guárdalo antes de tu próximo correo."
+comentario_fijado: "¿Qué suele fallar más en los textos de IA que te toca revisar: datos, tono o la petición final?"
+hashtags: ["#IA", "#Productividad", "#IAsinHumo"]
+palabras_clave: ["revisar texto de IA", "errores al usar ChatGPT", "correos con IA", "verificar datos"]
+escenas:
+  - narracion: "Error común: enviar el texto de la IA sin revisarlo. Un dato mal puesto o un tono equivocado se notan."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Error común", titulo: "No envíes el texto de la IA *sin revisar*", sub: "Revisión en tres pasadas"}
+  - narracion: "Primera pasada: los datos, comparados con el original. Segunda: el tono, que suene a ti y encaje con quien lo lee. Tercera: la llamada a la acción, que quede claro qué hacer y para cuándo."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Tres pasadas, *en este orden*"
+        pasos:
+          - {titulo: "Datos", detalle: "Compara con el original"}
+          - {titulo: "Tono", detalle: "Suena a ti y encaja con el lector"}
+          - {titulo: "Llamada a la acción", detalle: "Qué hacer y para cuándo"}
+  - narracion: "Revisa que los nombres y cargos estén bien escritos. Revisa que fechas, horas y montos coincidan con el original. Y que los enlaces y adjuntos existan."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Pasada 1: los *datos*"
+        estilo: check
+        items: ["Nombres y cargos", "Fechas, horas y montos", "Enlaces y adjuntos"]
+  - narracion: "Para la primera pasada, pídele a la IA una lista de lo que debes comprobar."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Lee este borrador y lista cada nombre, fecha, cifra y enlace que aparezca, para que yo los compruebe. No corrijas nada. Borrador: [PEGA AQUÍ, SIN DATOS CONFIDENCIALES]"
+  - narracion: "La IA puede equivocarse en datos y referencias, y sonar muy segura. Tú firmas el mensaje: revísalo."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Tú *firmas* el mensaje", puntos: ["Datos", "Tono", "Llamada a la acción"], cta: "Guárdalo"}
+fuentes:
+  - url: "https://help.openai.com/en/articles/8313428-does-chatgpt-tell-the-truth"
+    titulo: "Does ChatGPT tell the truth? (OpenAI Help Center)"
+    fecha_consulta: 2026-10-11
+    respalda: "El modelo puede producir datos, citas o referencias incorrectos o inexistentes y expresar confianza aun estando equivocado; OpenAI recomienda tratar la salida como un primer borrador y comprobar citas, datos y referencias."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — método de revisión propio del canal; la advertencia sobre errores se apoya en la ayuda oficial de OpenAI"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

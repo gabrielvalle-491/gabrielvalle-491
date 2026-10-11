@@ -1,0 +1,74 @@
+{
+  "id": "A-016",
+  "duracion_s": 32.425,
+  "frases": 11,
+  "subtitulos": 23,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.837,
+      "beats": [
+        -5.0,
+        2.875
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.837,
+      "fin": 15.841,
+      "beats": [
+        0.0,
+        3.561,
+        6.538
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 15.841,
+      "fin": 21.877,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 21.877,
+      "fin": 32.425,
+      "beats": [
+        0.0,
+        1.868
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.09",
+    "input_tp": "-6.03",
+    "input_lra": "2.20",
+    "input_thresh": "-31.41",
+    "output_i": "-14.25",
+    "output_tp": "-1.50",
+    "output_lra": "1.40",
+    "output_thresh": "-24.45",
+    "normalization_type": "dynamic",
+    "target_offset": "0.25"
+  },
+  "fotogramas_unicos": 241,
+  "tts_cache": 0,
+  "spec_hash": "f75f761abc07ab2c",
+  "segundos_produccion": 103.9,
+  "texto_hablado": [
+    "¿'No uses jerga' o 'usa palabras de uso diario'?",
+    "Prueba cuál funciona mejor.",
+    "Una instrucción en negativo dice qué evitar, pero no qué hacer.",
+    "Una en positivo describe el resultado que quieres.",
+    "La documentación de clod, a la fecha, recomienda decir qué hacer, no qué evitar.",
+    "Haz el experimento con el mismo tema.",
+    "Primero la versión en positivo.",
+    "Después, la de los noes.",
+    "Compara las dos respuestas.",
+    "Las instrucciones en positivo suelen ser más claras, pero tu caso puede variar.",
+    "Y para un límite claro, un no explícito sigue sirviendo."
+  ]
+}

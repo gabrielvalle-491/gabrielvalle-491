@@ -1,0 +1,82 @@
+{
+  "id": "A-018",
+  "duracion_s": 34.338,
+  "frases": 12,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.789,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.789,
+      "fin": 12.665,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 12.665,
+      "fin": 21.364,
+      "beats": [
+        0.0,
+        2.136,
+        5.735
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 21.364,
+      "fin": 26.002,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 26.002,
+      "fin": 34.338,
+      "beats": [
+        0.0,
+        3.405
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.24",
+    "input_tp": "-6.77",
+    "input_lra": "2.30",
+    "input_thresh": "-31.47",
+    "output_i": "-14.30",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.50",
+    "normalization_type": "dynamic",
+    "target_offset": "0.30"
+  },
+  "fotogramas_unicos": 271,
+  "tts_cache": 0,
+  "spec_hash": "d30dbe038ee6d0da",
+  "segundos_produccion": 113.7,
+  "texto_hablado": [
+    "Un FODA que dice 'buena atención' no sirve.",
+    "Uno con datos y acciones, sí.",
+    "Fortalezas y debilidades son internas.",
+    "Oportunidades y amenazas vienen de afuera.",
+    "Los cuatro cuadrantes necesitan datos.",
+    "El FODA vago lista adjetivos.",
+    "El útil parte de datos reales y termina en acciones medibles.",
+    "Dale tus cifras y pide acciones, no adjetivos.",
+    "Pídelo así.",
+    "Pega cifras reales de tu negocio dentro de los corchetes.",
+    "Pega cifras del negocio, no datos personales de clientes.",
+    "Y revisa cada acción: tú decides cuáles tienen sentido para tu caso."
+  ]
+}
