@@ -1,0 +1,81 @@
+id: B-018
+canal: canal_b
+fecha: 2026-11-05
+formato: short
+serie: Tu dinero en una planilla
+episodio: "#07"
+pilar: dinero
+tipo_editorial: experimento
+idea: "Comparar el precio de contado con la suma de las cuotas (cuota × número de cuotas − contado) muestra cuánto cuesta financiar la compra; ejemplo ilustrativo con 12 cuotas de US$ 117."
+objetivo: "Enseñar una cuenta simple para ver el costo de pagar en cuotas, sin decir si conviene ni recomendar productos financieros."
+publico: "Personas que van a comprar algo en cuotas y quieren saber cuánto pagan de más respecto del precio de contado."
+hipotesis: "Formato 'experimento' en pilar 'dinero': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Contado: US$ 1 200. O 12 cuotas de US$ 117. ¿Cuánto cuesta financiar?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Compra en cuotas: cuánto pagas de más (cálculo en planilla)"
+titulos_alternativos:
+  - "Contado vs cuotas: la resta que muestra el costo real"
+  - "¿Cuánto cuestan de verdad 12 cuotas de US$ 117?"
+  - "Cuotas con interés: cómo calcular la diferencia en Excel"
+criterio_titulo: "Plantea la duda real (cuánto pago de más) y anticipa que el método es una cuenta en planilla."
+descripcion: |
+  Ejemplo ilustrativo: un producto cuesta US$ 1 200 al contado o 12 cuotas de US$ 117. La suma de las cuotas es US$ 1 404, es decir, US$ 204 más (un 17 %). Esa diferencia es el costo de pagar en cuotas.
+  Si la diferencia es cero, no hay costo extra. El video no dice si te conviene: solo cómo calcular cuánto cuesta. Cifras inventadas para el ejemplo.
+cta: "Calcula la diferencia antes de aceptar las cuotas."
+comentario_fijado: "Fórmula: =cuota*número_de_cuotas-contado, por ejemplo =117*12-1200. Pregunta siempre si el total incluye intereses y otros cargos. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos."
+hashtags: ["#FinanzasPersonales", "#Excel", "#Cuotas"]
+palabras_clave: ["compra en cuotas costo real", "contado vs cuotas", "calcular intereses de cuotas"]
+escenas:
+  - narracion: "Contado: US$ 1 200. O 12 cuotas de US$ 117. ¿Cuánto cuesta financiar?"
+    visual:
+      plantilla: hook
+      datos: {kicker: "Tu dinero en una planilla", titulo: "Contado o *12 cuotas*: ¿cuánto pagas de más?", sub: "Cifras ilustrativas"}
+  - narracion: "Al contado, 1 200. En 12 cuotas de 117, se pagan 1 404."
+    visual:
+      plantilla: barras
+      datos:
+        titulo: "Precio total (ilustrativo)"
+        prefijo: "US$ "
+        maximo: 1500
+        items:
+          - {etiqueta: "Al contado", valor: 1200, tenue: true}
+          - {etiqueta: "En 12 cuotas", valor: 1404, destacado: true}
+  - narracion: "Multiplica la cuota por el número de cuotas: 117 por 12. Réstale el precio de contado: 1 404 menos 1 200. La diferencia es 204. Eso es un 17 % más que el contado."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Cuánto cuesta financiar"
+        lineas:
+          - {izq: "Cuotas: 117 × 12", der: "US$ 1 404"}
+          - {izq: "Contado", der: "US$ 1 200"}
+        resultado: {izq: "Costo extra", der: "US$ 204"}
+  - narracion: "Si la diferencia es cero, no hay costo extra. Esto no dice si conviene, solo cuánto cuesta. Pregunta siempre si el total incluye intereses y cargos."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Cuota × cuotas − *contado*"
+        puntos: ["=117*12-1200", "Pregunta por intereses y cargos"]
+        cta: "Haz tu cuenta"
+fuentes:
+  - calculo: "[1200, 117, 12]"
+    respalda: "Datos ilustrativos del ejemplo (precio de contado, cuota y número de cuotas)."
+  - calculo: "117 * 12"
+    resultado: 1404
+    respalda: "Suma de las 12 cuotas."
+  - calculo: "117 * 12 - 1200"
+    resultado: 204
+    respalda: "Diferencia entre la suma de cuotas y el precio de contado."
+  - calculo: "(117 * 12 - 1200) / 1200 * 100"
+    resultado: 17
+    respalda: "Costo extra como porcentaje del precio de contado."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — aritmética verificada; cifras ilustrativas declaradas"
+  monetizacion: "medio — tema de crédito; se evita recomendar productos o decir si conviene, y se aclara que el costo real depende de intereses y cargos"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

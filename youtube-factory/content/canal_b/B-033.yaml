@@ -26,11 +26,11 @@ comentario_fijado: "Fórmula (en D2, copiada hacia abajo): =SI(B2<=C2;\"Reponer\
 hashtags: ["#Excel", "#Inventario", "#Emprendimiento"]
 palabras_clave: ["inventario Excel stock mínimo", "alerta de reposición", "fórmula SI inventario"]
 escenas:
-  - narracion: "Haz que tu inventario te avise solo cuándo reponer."
+  - narracion: "Haz que tu inventario te avise solo cuándo reponer. Sin revisar producto por producto."
     visual:
       plantilla: hook
       datos: {kicker: "Mini sistema", titulo: "Inventario que *avisa* cuándo reponer", sub: "Una columna, una fórmula"}
-  - narracion: "Anota el stock actual y el mínimo de cada producto. Resalta esas dos columnas. La columna Reponer lo decide por ti."
+  - narracion: "Anota el stock actual y el mínimo de cada producto. Resalta esas dos columnas. Esas dos columnas son las que la fórmula compara. Con 12 de stock contra 20 de mínimo, el cable queda en [[reponer|Reponer]]."
     visual:
       plantilla: planilla
       datos:
@@ -55,7 +55,16 @@ escenas:
           - {token: "B2<=C2", explica: "stock menor o igual al mínimo"}
           - {token: "\"Reponer\"", explica: "si se cumple"}
           - {token: "\"OK\"", explica: "si no se cumple"}
-  - narracion: "Cópiala hacia abajo y revisa solo lo que dice Reponer."
+  - narracion: "Primero, escribe producto, stock y mínimo. Segundo, pon la fórmula en la columna Estado. Tercero, cópiala hacia abajo."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Tu inventario en 3 pasos"
+        pasos:
+          - {titulo: "Producto, stock y mínimo", detalle: "Una fila por producto"}
+          - {titulo: "Fórmula SI en Estado", detalle: "Compara stock con mínimo"}
+          - {titulo: "Cópiala hacia abajo", detalle: "Revisa solo lo que dice Reponer"}
+  - narracion: "Cambia un stock o un mínimo y el aviso se actualiza solo."
     visual:
       plantilla: cierre
       datos: {titulo: "Una columna que *decide por ti*", puntos: ["Stock y mínimo en columnas", "SI compara y avisa"], cta: "Guárdalo"}

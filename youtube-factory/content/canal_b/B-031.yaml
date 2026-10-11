@@ -26,10 +26,14 @@ comentario_fijado: "Fórmula: =B1/B2 con el ahorro disponible en B1 y los gastos
 hashtags: ["#FinanzasPersonales", "#FondoDeEmergencia", "#Excel"]
 palabras_clave: ["fondo de emergencia cálculo", "meses de cobertura", "gastos esenciales planilla"]
 escenas:
-  - narracion: "¿Cuántos meses podrías cubrir tus gastos esenciales con lo que tienes ahorrado?"
+  - narracion: "¿Cuántos meses podrías cubrir tus gastos esenciales con lo que tienes ahorrado? La respuesta sale de una división."
     visual:
       plantilla: hook
       datos: {kicker: "Tu dinero en una planilla", titulo: "Tus *meses de cobertura*", sub: "Ejemplo con cifras ilustrativas"}
+  - narracion: "Primero, define qué es esencial. Es lo que necesitas pagar cada mes para vivir: vivienda, comida, transporte y servicios."
+    visual:
+      plantilla: texto
+      datos: {titulo: "Qué cuenta como *esencial*", texto: "Lo que *necesitas pagar* cada mes para vivir"}
   - narracion: "Vivienda, 800. Comida, 450. Transporte, 200. Servicios, 150."
     visual:
       plantilla: barras
@@ -50,7 +54,7 @@ escenas:
           - {izq: "Gastos esenciales por mes", der: "1 600"}
           - {izq: "Ahorro disponible", der: "6 400"}
         resultado: {izq: "6 400 ÷ 1 600", der: "4 meses"}
-  - narracion: "Cada persona define qué es esencial y cuánta cobertura quiere."
+  - narracion: "Cada persona define qué es esencial y cuánta cobertura quiere. En la planilla es una sola división: ahorro entre gastos."
     visual:
       plantilla: cierre
       datos: {titulo: "Ahorro ÷ gastos *esenciales*", puntos: ["Suma solo lo esencial", "Divide tu ahorro disponible", "Tú decides tu meta"], cta: "Haz tu cálculo"}

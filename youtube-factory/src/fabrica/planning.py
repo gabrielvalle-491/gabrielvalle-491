@@ -56,7 +56,7 @@ LARGOS = {
         ("Excel vs Google Sheets: guía para elegir", "excel_vs_sheets"),
         ("Resumen de ventas mensual con tabla dinámica y gráficos", "trabajo"),
         ("Cotizaciones y control de cobros para freelancers", "trabajo"),
-        ("Funciones dinámicas: BUSCARX, FILTRO, UNICOS y ORDENAR", "formulas"),
+        ("Funciones dinámicas: BUSCARX, FILTRAR, UNICOS y ORDENAR", "formulas"),
     ],
 }
 

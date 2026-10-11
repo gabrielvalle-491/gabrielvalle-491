@@ -26,7 +26,7 @@ comentario_fijado: "Fórmula: =(1+A2)*(1+A3)-1 con la inflación de cada año en
 hashtags: ["#FinanzasPersonales", "#Inflación", "#Excel"]
 palabras_clave: ["inflación acumulada", "cómo calcular inflación de varios años", "porcentajes compuestos"]
 escenas:
-  - narracion: "Dos años seguidos de 10 % de inflación no suman 20 %."
+  - narracion: "Dos años seguidos de 10 % de inflación no suman 20 %. ¿Cuánto suman, entonces?"
     visual:
       plantilla: hook
       datos: {kicker: "Tu dinero en una planilla", titulo: "10 % y 10 % *no son* 20 %", sub: "Ejemplo ilustrativo de inflación acumulada"}
@@ -49,7 +49,7 @@ escenas:
           - {token: "(1+A2)", explica: "factor del año 1"}
           - {token: "(1+A3)", explica: "factor del año 2"}
           - {token: "-1", explica: "convierte el factor en porcentaje"}
-  - narracion: "Con tres años de 10 % serían 33,1 %. Los porcentajes se multiplican, no se suman."
+  - narracion: "Con tres años de 10 % serían 33,1 %. Los porcentajes se multiplican, no se suman. Pruébalo en tu planilla con la inflación de tu país."
     visual:
       plantilla: cierre
       datos: {titulo: "Porcentajes: *multiplica*, no sumes", puntos: ["2 años de 10 %: 21 %", "3 años de 10 %: 33,1 %"], cta: "Guárdalo"}

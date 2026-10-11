@@ -11,7 +11,7 @@
 10|dinero|Tu dinero en una planilla|tutorial|Cuota de un préstamo con la función PAGO|Monto, tasa y plazo → cuota mensual|hook,formula,calculo,cierre|latam
 11|errores|Error que todos cometen|error_comun|Referencias relativas vs absolutas|El signo $ fija la celda al copiar la fórmula|hook,planilla,versus,cierre|latam
 12|dinero|Tu dinero en una planilla|tutorial|Control de gastos con 5 columnas|Fecha, concepto, categoría, medio de pago, monto|hook,planilla,lista,cierre|latam
-13|formulas|Fórmula en 40 segundos|tutorial|FILTRO: ver solo lo pendiente|Una fórmula devuelve todas las filas que cumplen|hook,formula,planilla,cierre|latam
+13|formulas|Fórmula en 40 segundos|tutorial|FILTRAR: ver solo lo pendiente|Una fórmula devuelve todas las filas que cumplen|hook,formula,planilla,cierre|latam
 14|dinero|Tu dinero en una planilla|contraintuitivo|Cuánto pierde tu dinero con la inflación|Poder de compra tras 5 años con inflación anual del 5 %|hook,linea,calculo,cierre|latam
 15|formulas|Fórmula en 40 segundos|comparacion|SI anidado vs SI.CONJUNTO|Misma clasificación, fórmula más legible|hook,versus,formula,cierre|latam
 16|trabajo|Mini sistema|tutorial|Inventario con alerta de stock mínimo|Una columna calcula "Reponer" automáticamente|hook,planilla,formula,cierre|latam

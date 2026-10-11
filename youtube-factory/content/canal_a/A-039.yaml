@@ -1,0 +1,70 @@
+id: A-039
+canal: canal_a
+fecha: 2026-11-26
+formato: short
+serie: IA sin humo
+episodio: "#02"
+pilar: ia_sin_humo
+tipo_editorial: mito
+idea: "Una respuesta de IA no es neutral por ser de una máquina: aprende de textos humanos y puede repetir sesgos. Hay hábitos concretos para detectarlos."
+objetivo: "Desmontar el mito de la neutralidad de la IA y dar hábitos prácticos, sin alarmismo."
+publico: "Personas que usan IA para redactar, filtrar o decidir y asumen que sus respuestas son objetivas."
+hipotesis: "Formato 'mito' en pilar 'ia_sin_humo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "«Lo dijo la IA, así que es neutral.» Eso no es cierto."
+duracion_objetivo: "35-55 s"
+titulo: "Mito: «si lo dice la IA, es neutral»"
+titulos_alternativos:
+  - "¿Es neutral la inteligencia artificial? Spoiler: no siempre"
+  - "Sesgos de la IA: qué son y cómo detectarlos"
+  - "Por qué no debes dar por objetiva una respuesta de IA"
+criterio_titulo: "Formula el mito exacto que el público repite; claro y buscable."
+descripcion: |
+  Los modelos de IA aprenden de textos y datos producidos por personas, así que pueden repetir sesgos. NIST, el instituto de estándares de EE. UU., explica que el sesgo en IA tiene origen técnico y también humano y sistémico.
+  Pide varias perspectivas, revisa los supuestos y no uses una respuesta de IA como único criterio en decisiones sobre personas.
+cta: "Compártelo con alguien que usa IA para decidir."
+comentario_fijado: "Prompt: Responde a [PREGUNTA] con tres perspectivas distintas y señala qué supuestos haces en cada una."
+hashtags: ["#IA", "#SesgosIA", "#IASinHumo"]
+palabras_clave: ["sesgo en la IA", "IA neutral mito", "sesgos algorítmicos", "uso responsable de la IA"]
+escenas:
+  - narracion: "Mito: si lo dice la IA, es neutral. Falso: aprende de textos hechos por personas y puede repetir sus sesgos."
+    visual:
+      plantilla: mito
+      datos: {mito: "Si lo dice la IA, es *neutral*", realidad: "Aprende de textos humanos y puede *repetir sesgos*", fuente: "NIST, SP 1270"}
+  - narracion: "El sesgo no solo viene de los datos. NIST explica que también influyen factores humanos y sistémicos en cómo se diseña y se usa un sistema."
+    visual:
+      plantilla: texto
+      datos: {kicker: "Según NIST", titulo: "No solo son los datos", texto: "El sesgo tiene origen *técnico*, *humano* y *sistémico*.", nota: "NIST SP 1270"}
+  - narracion: "Pídele varias perspectivas. Pídele que explique los supuestos que hace. Y contrasta con personas o fuentes distintas."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Cómo *reducir* el riesgo"
+        estilo: num
+        items: ["Pide varias perspectivas", "Pide que explique sus supuestos", "Contrasta con otras fuentes"]
+  - narracion: "En decisiones sobre personas, nunca uses la IA como único criterio."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Útil, pero no *neutral*"
+        puntos: ["Aprende de textos humanos", "Puede repetir sesgos", "La decisión es tuya"]
+        cta: "Compártelo con quien usa IA"
+fuentes:
+  - url: "https://www.nist.gov/publications/towards-standard-identifying-and-managing-bias-artificial-intelligence"
+    titulo: "Towards a Standard for Identifying and Managing Bias in Artificial Intelligence (NIST SP 1270)"
+    fecha_consulta: 2026-10-11
+    respalda: "El sesgo en IA no proviene solo de los datos y procesos técnicos: también refleja factores humanos y sistémicos que influyen en cómo se desarrolla y despliega la tecnología."
+  - url: "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf"
+    titulo: "NIST SP 1270 (PDF)"
+    fecha_consulta: 2026-10-11
+    respalda: "Documento completo sobre identificación y gestión del sesgo en IA, con taxonomía de sesgos estadísticos, humanos y sistémicos."
+riesgos:
+  derechos: "bajo — contenido y gráficos creados por el canal"
+  exactitud: "medio — solo se tuvo acceso al resumen de NIST en búsqueda; revisar el texto de SP 1270 antes de publicar"
+  monetizacion: "bajo — tema educativo, sin ejemplos de grupos concretos"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["NIST", "sesgos"]

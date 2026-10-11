@@ -37,8 +37,7 @@
       "inicio": 28.227,
       "fin": 33.76,
       "beats": [
-        0.0,
-        1.093
+        0.0
       ],
       "plantilla": "prompt"
     },
@@ -65,10 +64,10 @@
     "normalization_type": "dynamic",
     "target_offset": "0.36"
   },
-  "fotogramas_unicos": 344,
-  "tts_cache": 0,
-  "spec_hash": "6ccc5da2886a1ac3",
-  "segundos_produccion": 165.2,
+  "fotogramas_unicos": 342,
+  "tts_cache": 12,
+  "spec_hash": "1dfba05c304d67ce",
+  "segundos_produccion": 146.7,
   "texto_hablado": [
     "¿Cómo eliges proveedor si uno es más barato y el otro entrega más rápido?",
     "Con una matriz de puntaje.",

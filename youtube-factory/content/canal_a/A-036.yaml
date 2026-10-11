@@ -1,0 +1,66 @@
+id: A-036
+canal: canal_a
+fecha: 2026-11-23
+formato: short
+serie: Truco rápido
+episodio: "#03"
+pilar: prompts
+tipo_editorial: tutorial
+idea: "Pedirle a la IA que actúe como abogado del diablo muestra objeciones a tu idea antes de presentarla; tú eliges cuáles son reales y preparas respuestas."
+objetivo: "Dar un prompt reutilizable para anticipar críticas y evitar el uso de la IA como simple validador."
+publico: "Profesionales y emprendedores que van a presentar una propuesta a un jefe, cliente o socio."
+hipotesis: "Formato 'tutorial' en pilar 'prompts': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Antes de presentar tu idea, pídele a la IA que la ataque."
+duracion_objetivo: "35-55 s"
+titulo: "Prompt abogado del diablo: anticipa objeciones a tu idea"
+titulos_alternativos:
+  - "Pídele a la IA que critique tu propuesta antes de presentarla"
+  - "No pidas elogios: pide objeciones (prompt incluido)"
+  - "El truco para llegar preparado a una reunión con IA"
+criterio_titulo: "Nombra la técnica buscable (abogado del diablo) y el beneficio (anticipar objeciones)."
+descripcion: |
+  Un prompt de abogado del diablo le pide a la IA objeciones fuertes a tu idea, ordenadas por peligro, y qué dato respondería cada una.
+  La IA no conoce a tu jefe ni a tu cliente: úsalo como punto de partida y decide tú qué objeciones son reales.
+cta: "Guárdalo antes de tu próxima presentación."
+comentario_fijado: "Prompt: Actúa como abogado del diablo. Mi idea: [IDEA]. Dame 5 objeciones fuertes que pondría [QUIÉN: jefe, cliente, socio], de la más a la menos peligrosa. Para cada una, indica qué dato la respondería. No me elogies."
+hashtags: ["#Prompts", "#IA", "#Productividad"]
+palabras_clave: ["abogado del diablo", "prompt para criticar ideas", "preparar una presentación", "IA en el trabajo"]
+escenas:
+  - narracion: "Antes de presentar tu idea, pídele a la IA que la *ataque*."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Truco rápido", titulo: "Pide objeciones, *no elogios*", sub: "Prompt abogado del diablo"}
+  - narracion: "Dile quién escucha tu idea y pide cinco objeciones, de la más peligrosa a la menos. Y que cada una venga con el dato que la respondería."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Actúa como abogado del diablo. Mi idea: [IDEA]. Dame 5 objeciones fuertes que pondría [JEFE, CLIENTE O SOCIO], de la más a la menos peligrosa. Indica qué dato respondería cada una. No me elogies."
+  - narracion: "Elige las dos objeciones más probables. Prepara una respuesta con datos reales. Y descarta las que no aplican a tu caso."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Qué hacer con la *respuesta*"
+        estilo: num
+        items: ["Elige las 2 más probables", "Responde con datos reales", "Descarta las que no aplican"]
+  - narracion: "La IA no conoce a tu jefe: úsala como punto de partida. Tú decides qué objeciones son reales."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Llega *preparado*"
+        puntos: ["Pide objeciones", "Responde con datos", "Decide tú"]
+        cta: "Guárdalo para tu próxima presentación"
+fuentes:
+  - calculo: "[5, 2]"
+    respalda: "Estructura de prompt propia del canal (cinco objeciones, elegir dos); técnica general sin datos ni afirmaciones externas."
+riesgos:
+  derechos: "bajo — prompt y gráficos creados por el canal"
+  exactitud: "bajo — técnica general; se advierte que la IA no conoce al interlocutor"
+  monetizacion: "bajo — contenido educativo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

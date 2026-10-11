@@ -1,0 +1,73 @@
+id: A-034
+canal: canal_a
+fecha: 2026-11-21
+formato: short
+serie: El Atajo
+episodio: "#07"
+pilar: prompts
+tipo_editorial: tutorial
+idea: "Dividir una tarea grande en tres prompts encadenados (esquema, borrador, revisión) da más control que un solo pedido gigante."
+objetivo: "Enseñar una técnica reutilizable de encadenado de prompts con un flujo claro que el espectador pueda copiar en su próximo informe."
+publico: "Trabajadores y emprendedores que piden informes o textos largos a una IA en un solo mensaje y obtienen resultados flojos."
+hipotesis: "Formato 'tutorial' en pilar 'prompts': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Un solo prompt gigante suele salir flojo."
+duracion_objetivo: "35-55 s"
+titulo: "Prompt gigante vs. 3 pasos: cómo dividir una tarea con IA"
+titulos_alternativos:
+  - "Esquema, borrador y revisión: el truco de encadenar prompts"
+  - "Deja de pedirle todo a la IA en un solo mensaje"
+  - "Cómo pedir un informe largo a la IA sin que salga flojo"
+criterio_titulo: "Plantea el contraste (un prompt vs. pasos) y nombra la acción concreta (dividir una tarea); términos buscables."
+descripcion: |
+  En vez de un prompt gigante, divide el trabajo en tres pasos: primero el esquema, luego el borrador sección por sección y al final una revisión con criterios claros.
+  La guía oficial de Anthropic recomienda encadenar prompts para tareas de varios pasos. Revisa siempre el resultado antes de usarlo.
+cta: "Guárdalo y pruébalo con tu próximo informe."
+comentario_fijado: "Paso 1: Propón un esquema de [DOCUMENTO] para [PÚBLICO] con 5 secciones. No lo redactes todavía. | Paso 2: Con este esquema, redacta solo la sección [N]. | Paso 3: Revisa el borrador: ¿es claro, está completo y tiene el tono [TONO]? Lista los problemas."
+hashtags: ["#Prompts", "#IA", "#Productividad"]
+palabras_clave: ["encadenar prompts", "prompt chaining", "cómo escribir prompts", "IA para informes"]
+escenas:
+  - narracion: "Un solo prompt gigante suele salir flojo. Para un informe, divide la tarea en *tres pasos*."
+    visual:
+      plantilla: hook
+      datos: {kicker: "El Atajo", titulo: "Un prompt gigante vs. *tres pasos*", sub: "Esquema, borrador y revisión"}
+  - narracion: "Primero, pide solo el esquema y corrígelo tú. Después, pide el borrador de una sección a la vez, siguiendo ese esquema. Por último, pide una revisión con criterios claros: claridad, orden y tono."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Tres prompts encadenados"
+        pasos:
+          - {titulo: "Esquema", detalle: "Solo la estructura; tú la ajustas"}
+          - {titulo: "Borrador", detalle: "Una sección a la vez"}
+          - {titulo: "Revisión", detalle: "Claridad, orden y tono"}
+  - narracion: "Con un prompt gigante, es más probable que la IA omita o debilite partes, según la guía de Anthropic. Con tres pasos, cada uno tiene una sola meta. Y corriges antes de seguir."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Un solo prompt", titulo: "Todo de golpe", items: ["Partes que se omiten", "Difícil ver qué falló"]}
+        der: {etiqueta: "Tres pasos", titulo: "Paso a paso", items: ["Una meta por paso", "Corriges en el camino"]}
+        veredicto: "Más control, menos retrabajo"
+  - narracion: "Prueba con tu próximo informe: esquema, borrador y revisión. Y lee el resultado final antes de enviarlo."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Divide la tarea, *conserva* el control"
+        puntos: ["Esquema primero", "Borrador por secciones", "Revisión con criterios"]
+        cta: "Pruébalo con tu próximo informe"
+fuentes:
+  - url: "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/chain-prompts"
+    titulo: "Chain complex prompts for stronger performance (Anthropic)"
+    fecha_consulta: 2026-10-11
+    respalda: "La guía recomienda dividir tareas de varios pasos en subtareas encadenadas, con una meta clara por subtarea; poner muchas tareas en un solo prompt hace más probable que se omitan o debiliten."
+  - calculo: "[3, 1]"
+    respalda: "Estructura propia del canal: tres pasos (esquema, borrador, revisión); una meta por paso. Sin datos externos."
+riesgos:
+  derechos: "bajo — prompts y gráficos creados por el canal"
+  exactitud: "bajo — técnica respaldada por la guía oficial; se advierte revisar el resultado"
+  monetizacion: "bajo — contenido educativo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Anthropic"]

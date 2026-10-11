@@ -20,13 +20,13 @@ titulos_alternativos:
 criterio_titulo: "Nombre exacto de la función en español más el caso de uso cotidiano."
 descripcion: |
   La función FILTRAR devuelve solo las filas que cumplen la condición que defines, y se actualiza cuando cambian los datos. Ejemplo con una lista de tareas ilustrativa.
-  Según la ayuda oficial de Microsoft, FILTRAR forma parte de las funciones de matriz dinámica de Excel para Microsoft 365 y Excel 2021 o posterior. En Google Sheets existe la función FILTER.
+  FILTRAR es una función de matriz dinámica: requiere Excel para Microsoft 365 o Excel 2021 o posterior. En Google Sheets existe la función FILTER.
 cta: "Pruébala con tu propia lista de tareas."
 comentario_fijado: "Fórmula: =FILTRAR(A2:A6;B2:B6=\"Pendiente\";\"Nada pendiente\"). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;). Nota: en Excel en español el nombre es FILTRAR."
 hashtags: ["#Excel", "#Fórmulas", "#ExcelTips"]
 palabras_clave: ["función FILTRAR Excel", "filtrar con fórmula", "lista de pendientes Excel"]
 escenas:
-  - narracion: "Muestra solo lo pendiente con una fórmula, sin tocar el filtro."
+  - narracion: "Muestra solo lo pendiente con una fórmula, sin tocar el filtro. Y se actualiza sola."
     visual:
       plantilla: hook
       datos: {kicker: "Fórmula en 40 segundos", titulo: "Solo lo *pendiente*, con una fórmula", sub: "Función FILTRAR · Excel 365 y 2021"}
@@ -48,7 +48,7 @@ escenas:
         resultado: {celda: "C2", valor: "Informe", beat: 3}
         nota: "Tareas ilustrativas"
         beat_formula: 1
-  - narracion: "La fórmula tiene tres partes. Primero, lo que quieres devolver. Luego, la condición. Y al final, qué mostrar si no hay nada."
+  - narracion: "La fórmula tiene tres partes. Primero, el rango que quieres devolver. Luego, la condición: el estado debe ser Pendiente. Y al final, qué mostrar si no queda nada pendiente."
     visual:
       plantilla: formula
       datos:
@@ -57,7 +57,7 @@ escenas:
           - {token: "A2:A6", explica: "lo que se devuelve"}
           - {token: "B2:B6=\"Pendiente\"", explica: "la condición a cumplir"}
           - {token: "\"Nada pendiente\"", explica: "texto si nada cumple"}
-  - narracion: "Cambia un estado a Listo y la lista se actualiza sola."
+  - narracion: "Cambia un estado a Listo y esa tarea desaparece de la lista. Funciona en Excel 365 y 2021, y en Google Sheets existe [[fílter|FILTER]]."
     visual:
       plantilla: cierre
       datos: {titulo: "Una fórmula, lista *siempre al día*", puntos: ["Condición dentro de la fórmula", "Resultado dinámico", "Excel 365 y 2021"], cta: "Guárdalo"}
@@ -65,7 +65,8 @@ fuentes:
   - url: "https://support.microsoft.com/es-es/Excel/functions/filter-function"
     titulo: "Función FILTRAR (Microsoft Support)"
     fecha_consulta: 2026-10-11
-    respalda: "Sintaxis =FILTRAR(matriz;incluir;[si_vacío]): filtra un rango según los criterios definidos y permite indicar qué devolver si no hay resultados."
+    respalda: "Sintaxis =FILTRAR(matriz;incluir;[si_vacío]): filtra un rango según los criterios definidos y permite indicar qué devolver si no hay resultados. Nombre del producto: Microsoft 365."
+    cifras: [365]
   - calculo: "sum([1, 0, 1, 0, 1])"
     resultado: 3
     respalda: "Tres de las cinco tareas del ejemplo ilustrativo están pendientes."

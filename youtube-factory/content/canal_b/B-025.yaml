@@ -26,7 +26,7 @@ comentario_fijado: "SI anidado: =SI(B2>=90;\"Excelente\";SI(B2>=70;\"Bueno\";\"B
 hashtags: ["#Excel", "#Fórmulas", "#ExcelTips"]
 palabras_clave: ["SI.CONJUNTO", "SI anidado Excel", "clasificar con varias condiciones"]
 escenas:
-  - narracion: "Dos fórmulas dan el mismo resultado, pero una es mucho más fácil de leer."
+  - narracion: "Dos fórmulas dan el mismo resultado, pero una es mucho más fácil de leer. Veamos una clasificación de notas."
     visual:
       plantilla: hook
       datos: {kicker: "Fórmula en 40 segundos", titulo: "SI anidado *vs* SI.CONJUNTO", sub: "Misma clasificación de notas"}
@@ -46,7 +46,7 @@ escenas:
           - {token: "B2>=90;\"Excelente\"", explica: "primera condición y su resultado"}
           - {token: "B2>=70;\"Bueno\"", explica: "segunda condición y su resultado"}
           - {token: "VERDADERO;\"Bajo\"", explica: "todo lo demás"}
-  - narracion: "Disponible en Excel 2019 y Microsoft 365, según la ayuda oficial."
+  - narracion: "Disponible en Excel 2019 y Microsoft 365, según la ayuda oficial. Si usas una versión anterior, sigue con el [[si|SI]] anidado."
     visual:
       plantilla: cierre
       datos: {titulo: "Condiciones en fila, *no* anidadas", puntos: ["Pares condición-resultado", "VERDADERO al final = el resto"], cta: "Guárdalo"}

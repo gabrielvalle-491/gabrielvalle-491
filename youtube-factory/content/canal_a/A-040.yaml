@@ -1,0 +1,72 @@
+id: A-040
+canal: canal_a
+fecha: 2026-11-27
+formato: short
+serie: Truco rápido
+episodio: "#04"
+pilar: prompts
+tipo_editorial: tutorial
+idea: "Encerrar el texto que pegas entre delimitadores (etiquetas o comillas triples) separa tus instrucciones del contenido y reduce confusiones."
+objetivo: "Enseñar un hábito simple de estructura de prompt, aplicable a resúmenes, traducciones y análisis de texto."
+publico: "Personas que pegan correos, artículos o reseñas en un chatbot y obtienen resultados que mezclan instrucciones con contenido."
+hipotesis: "Formato 'tutorial' en pilar 'prompts': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Si pegas un texto en tu prompt, márcalo con etiquetas."
+duracion_objetivo: "35-55 s"
+titulo: "Delimitadores en prompts: separa instrucciones del texto"
+titulos_alternativos:
+  - "El truco de las etiquetas para pegar texto en un prompt"
+  - "Por qué la IA se confunde cuando pegas un texto largo"
+  - "Prompt con etiquetas: ordena instrucciones y contenido"
+criterio_titulo: "Nombra la técnica con el término buscable (delimitadores) y su beneficio."
+descripcion: |
+  Cuando pegas un texto dentro de un prompt, la IA puede confundir el contenido con tus instrucciones. Encerrarlo entre etiquetas (por ejemplo <texto> y </texto>) o entre comillas triples marca dónde empieza y dónde termina.
+  La guía de Anthropic recomienda etiquetas para separar instrucciones, ejemplos y datos. No es una protección infalible: revisa el resultado.
+cta: "Guárdalo y úsalo en tu próximo resumen."
+comentario_fijado: "Prompt: Resume en tres viñetas el texto dentro de las etiquetas <texto>. <texto> [PEGA AQUÍ EL TEXTO] </texto>"
+hashtags: ["#Prompts", "#IA", "#Productividad"]
+palabras_clave: ["delimitadores en prompts", "etiquetas XML en prompts", "cómo pegar texto en un prompt", "prompt para resumir"]
+escenas:
+  - narracion: "Si pegas un texto en tu prompt, márcalo con *etiquetas*."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Truco rápido", titulo: "Separa tus órdenes del *texto*", sub: "Delimitadores en prompts"}
+  - narracion: "Escribe la instrucción primero. Luego, encierra el texto entre etiquetas, y di en la instrucción cuáles son."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Resume en tres viñetas el texto dentro de las etiquetas <texto>.\n<texto>\n[PEGA AQUÍ EL TEXTO]\n</texto>"
+  - narracion: "Sin marcas, la instrucción y el texto se mezclan. Con etiquetas, la IA ve dónde empieza y dónde termina el contenido. Funcionan etiquetas o comillas triples."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Sin delimitadores", titulo: "Todo mezclado", items: ["Texto y orden se confunden", "Resultados impredecibles"]}
+        der: {etiqueta: "Con delimitadores", titulo: "Límites claros", items: ["Instrucción separada", "Contenido bien acotado"]}
+        veredicto: "Más claridad, menos errores"
+  - narracion: "No es una protección infalible. Revisa siempre el resultado."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Marca dónde *empieza* el texto"
+        puntos: ["Instrucción primero", "Texto entre etiquetas", "Revisa el resultado"]
+        cta: "Guárdalo para tu próximo resumen"
+fuentes:
+  - url: "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/use-xml-tags"
+    titulo: "Use XML tags to structure your prompts (Anthropic)"
+    fecha_consulta: 2026-10-11
+    respalda: "Las etiquetas XML ayudan a separar partes del prompt (instrucciones, ejemplos, datos variables) y mejoran claridad y precisión."
+  - url: "https://learn.deeplearning.ai/chatgpt-prompt-eng/lesson/2/guidelines"
+    titulo: "ChatGPT Prompt Engineering for Developers: Guidelines (DeepLearning.AI)"
+    fecha_consulta: 2026-10-11
+    respalda: "Los delimitadores (comillas triples, etiquetas u otros signos) separan partes específicas del texto del resto del prompt."
+riesgos:
+  derechos: "bajo — prompt y gráficos creados por el canal"
+  exactitud: "bajo — técnica documentada por Anthropic; la mención de comillas triples se apoya en el curso de DeepLearning.AI"
+  monetizacion: "bajo — contenido educativo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Anthropic", "delimitadores", "viñetas"]

@@ -22,7 +22,7 @@
 - Los montos se dan en US$ o en "tu moneda", con tasas declaradas como ilustrativas.
 
 ## Pilares temáticos
-1. **Fórmulas esenciales:** BUSCARX, SUMAR.SI.CONJUNTO, FILTRO, UNICOS, SI.ERROR, TEXTO, fechas.
+1. **Fórmulas esenciales:** BUSCARX, SUMAR.SI.CONJUNTO, FILTRAR, UNICOS, SI.ERROR, TEXTO, fechas.
 2. **Tu dinero en una planilla:** presupuesto 50/30/20, deudas, interés compuesto, inflación, metas, suscripciones.
 3. **Mini sistemas para el trabajo:** inventario, cotizaciones, asistencia, comisiones, tablas dinámicas.
 4. **Errores que todos cometen:** números como texto, referencias $, fechas falsas, celdas combinadas.

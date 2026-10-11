@@ -1,0 +1,74 @@
+id: A-041
+canal: canal_a
+fecha: 2026-11-28
+formato: short
+serie: Glosario rápido
+episodio: "#01"
+pilar: conceptos
+tipo_editorial: contraintuitivo
+idea: "Los modelos de lenguaje procesan tokens (trozos de texto), no palabras ni letras; esto es una de las explicaciones de por qué pueden fallar al contar letras."
+objetivo: "Explicar qué es un token con una equivalencia verificada y una consecuencia práctica."
+publico: "Usuarios curiosos de IA que ven límites en «tokens» y no saben qué significan."
+hipotesis: "Formato 'contraintuitivo' en pilar 'conceptos': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "La IA no lee palabras: lee trozos llamados tokens."
+duracion_objetivo: "35-55 s"
+titulo: "Qué es un token: la IA no lee palabras, lee trozos"
+titulos_alternativos:
+  - "Tokens explicados: por qué la IA cuenta mal las letras"
+  - "¿Cuántas palabras son 100 tokens?"
+  - "El concepto de IA que debes entender: qué es un token"
+criterio_titulo: "Define el concepto buscable (token) con el contraste que sorprende (no lee palabras)."
+descripcion: |
+  Un token es la unidad de texto que procesa un modelo: puede ser una palabra, una parte de una palabra o un carácter. Según la ayuda de OpenAI, en inglés 100 tokens equivalen a unas 75 palabras; la equivalencia varía según el idioma y el modelo.
+  Entre las explicaciones de por qué la IA falla al contar letras está que no ve letras sueltas, sino trozos.
+cta: "Guárdalo y compártelo si usabas «token» sin saber qué era."
+comentario_fijado: "Para contar letras o palabras con exactitud, usa una planilla o un contador de texto y no le preguntes a la IA."
+hashtags: ["#IA", "#Tokens", "#GlosarioIA"]
+palabras_clave: ["qué es un token", "tokens en inteligencia artificial", "cuántas palabras es un token", "ventana de contexto"]
+escenas:
+  - narracion: "La IA no lee palabras: lee trozos llamados *tokens*."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Glosario rápido", titulo: "La IA lee *tokens*, no palabras", sub: "Qué es un token"}
+  - narracion: "Un token puede ser una palabra entera, una parte de una palabra o un solo carácter. Depende del idioma y del modelo."
+    visual:
+      plantilla: texto
+      datos: {titulo: "Qué es un token", texto: "Un *trozo de texto*: una palabra, una parte de ella o un carácter."}
+  - narracion: "Como referencia, según OpenAI, 100 tokens en inglés equivalen a unas 75 palabras. Siempre hay más tokens que palabras."
+    visual:
+      plantilla: barras
+      datos:
+        titulo: "Referencia en inglés (aprox.)"
+        maximo: 100
+        items:
+          - {etiqueta: "Tokens", valor: 100, destacado: true}
+          - {etiqueta: "Palabras", valor: 75}
+        nota: "Aproximado, según la ayuda de OpenAI"
+  - narracion: "Por eso contar letras puede fallar: el modelo no recibe letras sueltas, sino trozos. Para contar con exactitud, usa una planilla."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Trozos, no *letras*"
+        puntos: ["Token = trozo de texto", "100 tokens ≈ 75 palabras en inglés", "Para contar, usa una planilla"]
+        cta: "Guárdalo para entender los límites"
+fuentes:
+  - url: "https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them"
+    titulo: "What are tokens and how to count them? (OpenAI Help Center)"
+    fecha_consulta: 2026-10-11
+    respalda: "Un token puede ser desde un carácter hasta una palabra según idioma y contexto; en inglés, aproximadamente 4 caracteres, 3/4 de palabra y 75 palabras por cada 100 tokens; la tokenización varía por modelo."
+    cifras: [100, 75]
+  - url: "https://arxiv.org/abs/2412.18626"
+    titulo: "Why Do Large Language Models (LLMs) Struggle to Count Letters? (arXiv 2412.18626)"
+    fecha_consulta: 2026-10-11
+    respalda: "La tokenización figura entre las explicaciones propuestas para los errores al contar letras, junto con otros factores; el estudio indica que la causa no es solo esa."
+riesgos:
+  derechos: "bajo — contenido y gráficos creados por el canal"
+  exactitud: "medio — la relación token-letras es una explicación parcial según la literatura; mantener redacción matizada («puede fallar»)"
+  monetizacion: "bajo — contenido educativo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["tokens", "OpenAI"]

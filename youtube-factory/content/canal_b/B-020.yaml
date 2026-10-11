@@ -10,7 +10,7 @@ idea: "Una fecha guardada como texto no se comporta como fecha: se alinea a la i
 objetivo: "Que la persona detecte fechas-texto en segundos y las convierta; contenido de alta búsqueda ('fechas no funcionan en Excel')."
 publico: "Quien importa datos de otros sistemas o pega fechas y obtiene errores al calcular con ellas."
 hipotesis: "Formato 'error_comun' en pilar 'errores': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
-gancho: "Tu fórmula de fechas falla. Quizá esas fechas son solo texto."
+gancho: "Tu fórmula de fechas falla o da un resultado raro. Quizá esas fechas son solo texto."
 duracion_objetivo: "35-55 s (≈85-140 palabras)"
 titulo: "Fechas que son texto en Excel: cómo detectarlas y arreglarlas"
 titulos_alternativos:
@@ -26,7 +26,7 @@ comentario_fijado: "Fórmulas: =ESNUMERO(A2) para detectar y =FECHANUMERO(A2) pa
 hashtags: ["#Excel", "#ErroresDeExcel", "#Fechas"]
 palabras_clave: ["fechas como texto Excel", "FECHANUMERO", "ESNUMERO"]
 escenas:
-  - narracion: "Tu fórmula de fechas falla. Quizá esas fechas son solo texto."
+  - narracion: "Tu fórmula de fechas falla o da un resultado raro. Quizá esas fechas son solo texto."
     visual:
       plantilla: hook
       datos: {kicker: "Error que todos cometen", titulo: "Esa fecha *no es* una fecha", sub: "Es texto con forma de fecha"}
@@ -54,7 +54,7 @@ escenas:
           - {titulo: "Detecta", detalle: "A la izquierda o ESNUMERO = FALSO"}
           - {titulo: "Convierte con FECHANUMERO", detalle: "=FECHANUMERO(A2)"}
           - {titulo: "Aplica formato de fecha", detalle: "El resultado sale como número de serie"}
-  - narracion: "Con fechas reales, ya puedes calcular con ellas."
+  - narracion: "Con fechas reales, ya puedes restarlas, ordenarlas y filtrarlas por mes. Primero comprueba, después calcula."
     visual:
       plantilla: cierre
       datos: {titulo: "Primero *comprueba*, luego calcula", cta: "Guárdalo"}

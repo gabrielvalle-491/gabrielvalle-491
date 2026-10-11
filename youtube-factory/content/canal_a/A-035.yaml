@@ -1,0 +1,69 @@
+id: A-035
+canal: canal_a
+fecha: 2026-11-22
+formato: short
+serie: IA sin humo
+episodio: "#01"
+pilar: ia_sin_humo
+tipo_editorial: contraintuitivo
+idea: "Las alucinaciones no son mentiras: el modelo genera texto probable y a veces rellena huecos. Darle permiso explícito para decir 'no lo sé' y verificar reduce el problema, pero no lo elimina."
+objetivo: "Explicar sin tecnicismos por qué la IA inventa datos y dar un prompt reutilizable más hábitos de verificación."
+publico: "Personas que usan chatbots para investigar o redactar y se han encontrado con datos inventados."
+hipotesis: "Formato 'contraintuitivo' en pilar 'ia_sin_humo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "La IA no te miente: completa con lo más probable."
+duracion_objetivo: "35-55 s"
+titulo: "Por qué la IA inventa datos y cómo lograr que diga «no sé»"
+titulos_alternativos:
+  - "La IA no miente: predice (y por eso inventa datos)"
+  - "Alucinaciones de la IA: qué son y cómo reducirlas"
+  - "Un prompt para que la IA admita cuando no sabe"
+criterio_titulo: "Responde la duda del público (por qué inventa) y promete algo concreto (el 'no sé'); términos buscables."
+descripcion: |
+  Los modelos de lenguaje generan texto que suena razonable; si les falta información, pueden rellenar el hueco con datos inventados. Darles permiso explícito para decir "no lo sé" ayuda, y verificar nombres, cifras y fuentes sigue siendo tu trabajo.
+  Estos métodos reducen los errores, pero no los eliminan.
+cta: "Guárdalo y pruébalo en tu próxima consulta."
+comentario_fijado: "Prompt: Responde solo si estás seguro. Si no tienes información suficiente, di «No lo sé». No inventes datos, cifras ni enlaces. Pregunta: [PREGUNTA]"
+hashtags: ["#IA", "#Alucinaciones", "#Prompts"]
+palabras_clave: ["alucinaciones de la IA", "por qué la IA inventa datos", "cómo evitar que la IA invente", "prompt para ChatGPT"]
+escenas:
+  - narracion: "La IA no te miente: completa con lo más *probable*. Por eso a veces inventa datos."
+    visual:
+      plantilla: hook
+      datos: {kicker: "IA sin humo", titulo: "La IA no miente: *predice*", sub: "Y por eso puede inventar"}
+  - narracion: "Un modelo de lenguaje genera texto que suena razonable. Según OpenAI, el entrenamiento y las pruebas suelen premiar adivinar más que admitir que no se sabe."
+    visual:
+      plantilla: texto
+      datos: {kicker: "Por qué pasa", titulo: "Adivinar *conviene*", texto: "Responder algo suma más que decir *no lo sé*. Así el modelo aprende a rellenar huecos.", nota: "Según OpenAI"}
+  - narracion: "Dale permiso para dudar. Pídele que responda solo si está seguro y que diga no lo sé."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Responde solo si estás seguro. Si no tienes información suficiente, di \"No lo sé\". No inventes datos, cifras ni enlaces.\nPregunta: [PREGUNTA]"
+  - narracion: "Después, pide fuentes que puedas abrir. Comprueba nombres y cifras. Desconfía de lo que suena demasiado exacto. Esto reduce los errores, pero no los elimina."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Verifica *tú*"
+        estilo: check
+        items: ["Fuentes que puedas abrir", "Nombres y cifras comprobados", "Cuidado con lo demasiado exacto", "Reduce errores, no los elimina"]
+fuentes:
+  - url: "https://openai.com/index/why-language-models-hallucinate/"
+    titulo: "Why language models hallucinate (OpenAI)"
+    fecha_consulta: 2026-10-11
+    respalda: "OpenAI sostiene que los procedimientos de entrenamiento y evaluación premian adivinar sobre reconocer incertidumbre; las alucinaciones siguen ocurriendo."
+  - url: "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations"
+    titulo: "Reduce hallucinations (Anthropic)"
+    fecha_consulta: 2026-10-11
+    respalda: "Permitir explícitamente que el modelo admita incertidumbre reduce la información falsa; las técnicas reducen pero no eliminan las alucinaciones."
+riesgos:
+  derechos: "bajo — prompt y gráficos creados por el canal"
+  exactitud: "medio — la explicación causal se simplifica; verificar redacción final contra la entrada de blog de OpenAI y la guía de Anthropic"
+  monetizacion: "bajo — contenido educativo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["OpenAI"]

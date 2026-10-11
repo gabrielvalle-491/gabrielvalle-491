@@ -1,0 +1,66 @@
+id: A-038
+canal: canal_a
+fecha: 2026-11-25
+formato: short
+serie: Error común
+episodio: "#02"
+pilar: prompts
+tipo_editorial: error_comun
+idea: "Sin rubro, cliente ideal ni tono, la IA responde de forma genérica, para cualquiera; cuatro datos de contexto lo corrigen."
+objetivo: "Mostrar el error de no dar contexto del negocio y entregar una plantilla con las piezas de contexto mínimas."
+publico: "Dueños de pymes y responsables de marketing que piden textos a la IA y los reciben genéricos."
+hipotesis: "Formato 'error_comun' en pilar 'prompts': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Si la IA te responde para «cualquiera», el error está en tu prompt."
+duracion_objetivo: "35-55 s"
+titulo: "Sin contexto, la IA responde genérico: dale datos de tu negocio"
+titulos_alternativos:
+  - "El error de prompt que vuelve genérico todo lo que escribe la IA"
+  - "Datos de tu negocio que debes darle a la IA siempre"
+  - "Prompt con contexto: rubro, cliente, tono y límites"
+criterio_titulo: "Nombra el síntoma que el público reconoce (textos genéricos) y promete la solución."
+descripcion: |
+  Si pides un texto sin decir el rubro, el cliente ideal ni el tono, la IA tiene que adivinar y responde para "cualquiera". Con cuatro datos de contexto, el resultado se acerca a tu negocio.
+  Revisa siempre el texto antes de publicarlo y no incluyas datos confidenciales de clientes.
+cta: "Guárdalo y complétalo con los datos de tu negocio."
+comentario_fijado: "Prompt: Eres redactor para [RUBRO]. Mi cliente ideal es [CLIENTE]. Mi tono es [TONO]. Escribe [TAREA]. Evita [LO QUE NO QUIERES]."
+hashtags: ["#Prompts", "#IA", "#Pymes"]
+palabras_clave: ["contexto en prompts", "textos genéricos IA", "prompt para negocios", "marketing con IA"]
+escenas:
+  - narracion: "Si la IA te responde para *cualquiera*, el error está en tu prompt."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Error común", titulo: "Sin contexto, responde para *cualquiera*"}
+  - narracion: "Un pedido sin contexto: escribe un texto para redes. La IA tiene que adivinar tu rubro y tu cliente. Con contexto: el texto sale pensado para tu negocio."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Sin contexto", titulo: "«Escribe un texto para redes»", items: ["Adivina el rubro", "Tono genérico"]}
+        der: {etiqueta: "Con contexto", titulo: "Rubro, cliente y tono", items: ["Habla a tu cliente", "Evita lo que no quieres"]}
+        veredicto: "Más datos tuyos, menos adivinar"
+  - narracion: "Esta es la plantilla. Dile el rubro, el cliente ideal, el tono y qué quieres evitar."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Eres redactor para [RUBRO]. Mi cliente ideal es [CLIENTE]. Mi tono es [TONO]. Escribe [TAREA]. Evita [LO QUE NO QUIERES]."
+  - narracion: "Rubro, cliente, tono y límites. Cuatro datos, y la respuesta deja de ser para cualquiera. Revisa el texto antes de publicar."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Cuatro datos de *contexto*"
+        estilo: check
+        items: ["Rubro del negocio", "Cliente ideal", "Tono de la marca", "Qué evitar"]
+fuentes:
+  - calculo: "[4]"
+    respalda: "Estructura de prompt propia del canal (cuatro datos de contexto); técnica general sin datos ni afirmaciones externas."
+riesgos:
+  derechos: "bajo — prompt y gráficos creados por el canal"
+  exactitud: "bajo — técnica general; se advierte revisar el texto"
+  monetizacion: "bajo — contenido educativo para negocios"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

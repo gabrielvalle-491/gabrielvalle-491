@@ -26,15 +26,15 @@ comentario_fijado: "Atajo del video: Ctrl + 1 abre Formato de celdas; en Alineac
 hashtags: ["#Excel", "#ErroresDeExcel", "#ExcelTips"]
 palabras_clave: ["combinar celdas Excel problemas", "centrar en la selección", "error al ordenar celdas combinadas"]
 escenas:
-  - narracion: "Ese botón de combinar celdas te dará problemas cuando quieras ordenar."
+  - narracion: "Ese botón de combinar celdas te dará problemas cuando quieras ordenar. Se ve ordenado, pero esconde un costo."
     visual:
       plantilla: hook
       datos: {kicker: "Error que todos cometen", titulo: "Combinar celdas *rompe* tu tabla", sub: "Hay una alternativa que se ve igual"}
-  - narracion: "Con celdas combinadas de distinto tamaño, ordenar puede dar error. Centrar en la selección se ve igual, pero cada celda sigue separada. Mismo aspecto, sin ese problema."
+  - narracion: "Combinar deja solo el contenido de la celda superior izquierda, y con celdas de distinto tamaño ordenar puede dar error. Centrar en la selección se ve igual, pero cada celda sigue separada. Mismo aspecto, sin esos problemas."
     visual:
       plantilla: versus
       datos:
-        izq: {etiqueta: "Evita", titulo: "Combinar y centrar", items: ["Une varias celdas en una", "Ordenar puede dar error"]}
+        izq: {etiqueta: "Evita", titulo: "Combinar y centrar", items: ["Solo conserva la celda de arriba a la izquierda", "Ordenar puede dar error"]}
         der: {etiqueta: "Usa", titulo: "Centrar en la selección", items: ["Se ve centrado igual", "Cada celda sigue separada"]}
         veredicto: "Mismo aspecto, *sin* problemas al ordenar"
   - narracion: "Selecciona las celdas del título. Abre Formato de celdas con Ctrl + 1. En Alineación, elige Centrar en la selección."
@@ -46,7 +46,7 @@ escenas:
           - {titulo: "Selecciona las celdas del título", detalle: "El texto va en la celda de la izquierda"}
           - {titulo: "Ctrl + 1", detalle: "Abre Formato de celdas"}
           - {titulo: "Alineación → Horizontal", detalle: "Elige Centrar en la selección"}
-  - narracion: "Tu tabla se ve igual y se ordena sin quejas."
+  - narracion: "Tu tabla se ve igual, se ordena sin quejas y no pierdes datos."
     visual:
       plantilla: cierre
       datos: {titulo: "Diseño *sin* celdas combinadas", puntos: ["Centrar en la selección", "Tabla lista para ordenar"], cta: "Guárdalo"}

@@ -39,7 +39,7 @@ breve, y rotulada en pantalla "Respuesta de ejemplo generada con IA"; preferir d
 No prometer resultados de negocio. Seguridad y privacidad: consejos generales verificados.
 
 **Celda Clara (canal_b):** Excel y Google Sheets. Nombres de funciones en español verificados
-(Excel en español: BUSCARX, SUMAR.SI.CONJUNTO, SI.ERROR, UNICOS, FILTRO, ORDENAR, TEXTO, DIAS.LAB, PAGO,
+(Excel en español: BUSCARX, SUMAR.SI.CONJUNTO, SI.ERROR, UNICOS, FILTRAR, ORDENAR, TEXTO, DIAS.LAB, PAGO,
 VF, VA, NPER, TASA, SIFECHA, REDONDEAR, CONTAR.SI, UNIRCADENAS, etc.). Separador `;`. Si una función
 existe solo en Excel 365/2021+ o solo en Sheets, dilo. Dinero: educación general, cifras "ilustrativas",
 cero recomendaciones de inversión o productos financieros. Resultados de planillas respaldados por `calculo`.

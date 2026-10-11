@@ -10,7 +10,7 @@ idea: "Relleno rápido (Ctrl + E) detecta un patrón a partir de un ejemplo que 
 objetivo: "Presentar un atajo poco usado que ahorra fórmulas, con la advertencia de revisar el resultado."
 publico: "Personas que separan o combinan nombres y otros textos en Excel con fórmulas largas o a mano."
 hipotesis: "Gancho 'error' + duración media + visual 'lista': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
-gancho: "Estás separando nombres y apellidos con fórmulas, y Excel lo hace con un ejemplo."
+gancho: "Estás separando nombres y apellidos con fórmulas, y Excel lo hace con un ejemplo. Se llama Relleno rápido."
 duracion_objetivo: "35-55 s (≈85-140 palabras)"
 titulo: "Ctrl + E en Excel: separa nombres y apellidos con un ejemplo"
 titulos_alternativos:
@@ -53,7 +53,7 @@ escenas:
         resaltar:
           - {rango: "B2", beat: 1}
           - {rango: "B3:B4", beat: 2, alterno: true}
-  - narracion: "Relleno rápido copia un patrón, no entiende reglas. Con nombres compuestos, revisa fila por fila."
+  - narracion: "Relleno rápido copia un patrón, no entiende reglas. Con nombres compuestos, revisa fila por fila. Es una función de Excel."
     visual:
       plantilla: cierre
       datos:

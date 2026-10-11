@@ -26,7 +26,7 @@ comentario_fijado: "Windows: Ctrl + flecha abajo (borde de los datos) y Ctrl + S
 hashtags: ["#Excel", "#AtajosDeTeclado", "#ExcelTips"]
 palabras_clave: ["atajo ir al final de datos Excel", "Ctrl flecha abajo Excel", "seleccionar columna completa de datos"]
 escenas:
-  - narracion: "Llega al final de tus datos en un solo toque."
+  - narracion: "Llega al final de tus datos en un solo toque. Sin rueda del mouse, sin arrastrar."
     visual:
       plantilla: hook
       datos: {kicker: "Atajo de teclado", titulo: "Al final de tus datos, *en un toque*", sub: "Ctrl + flecha"}
@@ -39,6 +39,12 @@ escenas:
           - {titulo: "Haz clic en una celda con datos", detalle: "En la columna que quieres recorrer"}
           - {titulo: "Ctrl + flecha abajo", detalle: "Salta al borde de los datos"}
           - {titulo: "Llegas a la última celda", detalle: "Se detiene antes de un hueco"}
+  - narracion: "Si hay una celda vacía en medio, el salto se detiene ahí. Pulsa de nuevo y pasa al siguiente bloque."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Ojo con los huecos"
+        items: ["Una celda vacía detiene el salto", "Pulsa otra vez: sigue al siguiente bloque"]
   - narracion: "Ctrl y flecha te mueve al borde. Si sumas Shift, seleccionas todo el bloque hasta ahí."
     visual:
       plantilla: versus
@@ -49,7 +55,7 @@ escenas:
   - narracion: "En Mac, usa [[comand|Cmd]] en lugar de Ctrl."
     visual:
       plantilla: cierre
-      datos: {titulo: "Menos scroll, *más* trabajo", puntos: ["Windows: Ctrl + flecha", "Mac: Cmd + flecha"], cta: "Guárdalo"}
+      datos: {titulo: "Menos desplazamiento, *más* trabajo", puntos: ["Windows: Ctrl + flecha", "Mac: Cmd + flecha"], cta: "Guárdalo"}
 fuentes:
   - url: "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
     titulo: "Keyboard shortcuts in Excel (Microsoft Support)"
@@ -65,4 +71,4 @@ declaracion_sintetica:
   decision: "declarar"
   motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
 costo_estimado_usd: 0
-palabras_validas: ["Cmd"]
+palabras_validas: ["Cmd", "Mac", "mouse"]

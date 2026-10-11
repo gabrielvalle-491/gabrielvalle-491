@@ -1,0 +1,66 @@
+id: A-037
+canal: canal_a
+fecha: 2026-11-24
+formato: short
+serie: Caso pyme
+episodio: "#11"
+pilar: negocio
+tipo_editorial: caso_practico
+idea: "Preparar con IA respuestas a las objeciones 'está caro' y 'lo pienso' que empiecen con una pregunta en vez de un descuento."
+objetivo: "Dar un prompt para ensayar objeciones de ventas, con honestidad y sin presión, y reforzar que la persona adapta y practica."
+publico: "Dueños de pymes y vendedores que reciben objeciones de precio o dudas en llamadas."
+hipotesis: "Formato 'caso_practico' en pilar 'negocio': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Cuando te dicen «está caro», ¿bajas el precio o preguntas?"
+duracion_objetivo: "35-55 s"
+titulo: "Qué responder a «está caro» y «lo pienso» (prompt con IA)"
+titulos_alternativos:
+  - "Guion de ventas: objeciones de precio preparadas con IA"
+  - "Deja de bajar el precio al primer «está caro»"
+  - "Ensaya tus objeciones de venta antes de la llamada"
+criterio_titulo: "Usa las dos frases reales que el público escucha y nombra la herramienta (prompt con IA)."
+descripcion: |
+  Dos objeciones muy comunes, «está caro» y «lo pienso», se pueden ensayar antes de la llamada. El prompt pide respuestas breves y honestas que empiezan con una pregunta, para entender qué preocupa al cliente.
+  La IA propone; tú adaptas el texto a tu producto y a tu estilo. No prometas resultados que no puedas cumplir.
+cta: "Guárdalo antes de tu próxima llamada."
+comentario_fijado: "Prompt: Soy [ROL] en un negocio de [RUBRO]. Mi cliente típico es [CLIENTE]. Escribe 3 respuestas breves y honestas a «está caro» y 3 a «lo pienso». Empieza cada una con una pregunta. No prometas resultados ni uses presión."
+hashtags: ["#Ventas", "#Pymes", "#IA"]
+palabras_clave: ["objeciones de ventas", "está caro cómo responder", "guion de ventas con IA", "IA para pymes"]
+escenas:
+  - narracion: "Cuando te dicen *está caro*, ¿bajas el precio o preguntas?"
+    visual:
+      plantilla: hook
+      datos: {kicker: "Caso pyme", titulo: "«Está caro» y «lo pienso»", sub: "Prepara tus respuestas con IA"}
+  - narracion: "Bajar el precio al instante cierra la conversación. Preguntar por qué le parece caro abre la conversación. Así entiendes qué compara el cliente."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Reacción", titulo: "Bajar el precio", items: ["No sabes qué preocupa", "Pierdes margen"]}
+        der: {etiqueta: "Mejor", titulo: "Preguntar primero", items: ["¿Caro comparado con qué?", "Entiendes la duda real"]}
+        veredicto: "Primero entiende la objeción"
+  - narracion: "Pídele a la IA varias respuestas que empiecen con una pregunta, adaptadas a tu rubro. Y que sean honestas, sin presión."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Soy [ROL] en un negocio de [RUBRO]. Mi cliente típico es [CLIENTE]. Escribe 3 respuestas breves y honestas a \"está caro\" y 3 a \"lo pienso\". Empieza con una pregunta. Sin presión."
+  - narracion: "Elige las que suenen a ti, ensáyalas en voz alta y no prometas lo que no puedes cumplir."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Ensaya *antes* de la llamada"
+        puntos: ["Pregunta antes de descontar", "Adapta a tu estilo", "No prometas de más"]
+        cta: "Guárdalo para tu próxima llamada"
+fuentes:
+  - calculo: "[3, 2]"
+    respalda: "Estructura de prompt propia del canal (tres respuestas por objeción, dos objeciones); técnica de ventas general, sin datos ni afirmaciones externas."
+riesgos:
+  derechos: "bajo — prompt y gráficos creados por el canal"
+  exactitud: "bajo — consejo general; no se afirman resultados de ventas"
+  monetizacion: "bajo — contenido educativo para negocios"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

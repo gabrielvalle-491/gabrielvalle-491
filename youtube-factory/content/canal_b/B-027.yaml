@@ -30,7 +30,7 @@ escenas:
     visual:
       plantilla: hook
       datos: {kicker: "Error que todos cometen", titulo: "Borras una fila y aparece *#¡REF!*", sub: "Por qué pasa y cómo evitarlo"}
-  - narracion: "La suma tomaba celdas sueltas. Al borrar febrero, desaparece una de esas celdas. Y el total muestra [[ere e efe|#¡REF!]]."
+  - narracion: "La suma tomaba celdas sueltas, una por una. Al borrar febrero, desaparece una de esas celdas. Y el total muestra [[ere e efe|#¡REF!]]."
     visual:
       plantilla: planilla
       datos:
@@ -54,7 +54,7 @@ escenas:
           - {titulo: "Deshaz con Ctrl + Z", detalle: "Si acabas de borrar"}
           - {titulo: "Usa rangos", detalle: "=SUMA(B2:B4), no B2+B3+B4"}
           - {titulo: "Convierte los datos en tabla", detalle: "Las referencias se ajustan solas"}
-  - narracion: "Rangos y tablas, y adiós al error."
+  - narracion: "Rangos y tablas, y adiós al error. Revisa tus sumas antes de borrar filas."
     visual:
       plantilla: cierre
       datos: {titulo: "Rangos *mejor* que celdas sueltas", cta: "Guárdalo"}

@@ -26,11 +26,11 @@ comentario_fijado: "Tip: ordena la tabla de mayor a menor ANTES de insertar el g
 hashtags: ["#Excel", "#Presupuesto", "#FinanzasPersonales"]
 palabras_clave: ["gráfico de gastos Excel", "gráfico de barras ordenado", "presupuesto personal gráfico"]
 escenas:
-  - narracion: "Un gráfico de gastos se entiende al instante si ordenas las barras así."
+  - narracion: "Un gráfico de gastos se entiende al instante si ordenas las barras así. Lo más grande va primero."
     visual:
       plantilla: hook
       datos: {kicker: "Gráficos que se entienden", titulo: "Gastos por categoría, *de mayor a menor*", sub: "Cifras ilustrativas"}
-  - narracion: "Vivienda lidera con 450. Comida, 320. Transporte, 180. Ocio, 90."
+  - narracion: "Vivienda lidera con 450. Comida, 320. Transporte, 180. Ocio, 90. Otros, 60."
     visual:
       plantilla: barras
       datos:
@@ -41,7 +41,15 @@ escenas:
           - {etiqueta: "Comida", valor: 320}
           - {etiqueta: "Transporte", valor: 180}
           - {etiqueta: "Ocio", valor: 90}
+          - {etiqueta: "Otros", valor: 60, tenue: true}
         nota: "Montos ilustrativos"
+  - narracion: "Sin orden, tu ojo tiene que buscar la barra más grande. Con orden, la comparación es inmediata. Y el gráfico respeta el orden de tu tabla."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Sin orden", titulo: "Hay que buscar", items: ["La barra mayor puede estar en cualquier lugar", "Comparar cuesta más"]}
+        der: {etiqueta: "Con orden", titulo: "Se lee de un vistazo", items: ["Lo más grande, primero", "Comparar es inmediato"]}
+        veredicto: "Ordena la tabla *antes* de graficar"
   - narracion: "Primero, ordena la tabla de mayor a menor. Segundo, selecciónala y ve a Insertar, Gráficos recomendados. Tercero, elige columnas y ponle un título que diga qué mide."
     visual:
       plantilla: pasos
@@ -60,7 +68,7 @@ fuentes:
     titulo: "Create a chart from start to finish (Microsoft Support)"
     fecha_consulta: 2026-10-11
     respalda: "Para crear un gráfico: seleccionar los datos y usar Insertar > Gráficos recomendados; luego se pueden personalizar títulos y etiquetas. Los menús pueden variar según la versión."
-  - calculo: "[450, 320, 180, 90]"
+  - calculo: "[450, 320, 180, 90, 60]"
     respalda: "Montos ilustrativos del ejemplo, ya ordenados de mayor a menor."
 riesgos:
   derechos: "bajo"

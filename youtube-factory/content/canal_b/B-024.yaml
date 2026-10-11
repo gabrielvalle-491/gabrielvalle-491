@@ -26,11 +26,11 @@ comentario_fijado: "Fórmula (en D2, copiada hacia abajo): =B2/$B$4*$D$4, con lo
 hashtags: ["#FinanzasPersonales", "#Excel", "#Presupuesto"]
 palabras_clave: ["dividir gastos pareja proporcional", "gastos del hogar según ingreso", "referencias absolutas Excel"]
 escenas:
-  - narracion: "Gasto del hogar de 1 500. Dos ingresos distintos. ¿Cómo se reparte?"
+  - narracion: "Gasto del hogar de 1 500. Dos ingresos distintos. ¿Cómo se reparte? Una opción: según lo que gana cada uno."
     visual:
       plantilla: hook
       datos: {kicker: "Tu dinero en una planilla", titulo: "Cada persona aporta *según lo que gana*", sub: "Cifras ilustrativas"}
-  - narracion: "Anota cada ingreso y suma el total. La fórmula divide cada ingreso entre el total y lo multiplica por el gasto. Ana aporta 900."
+  - narracion: "Anota cada ingreso y suma el total. La fórmula divide cada ingreso entre el total y lo multiplica por el gasto; los signos [[dólar|$]] fijan el total al copiar. Ana aporta 900."
     visual:
       plantilla: planilla
       datos:
@@ -45,7 +45,7 @@ escenas:
           - {rango: "B2:B4", beat: 1}
         resultado: {celda: "D2", valor: "900", beat: 2}
         nota: "El signo $ fija el total al copiar la fórmula"
-  - narracion: "Ana gana 1 800, un 60 % del total, y aporta 900. Luis gana 1 200, un 40 %, y aporta 600."
+  - narracion: "Ana gana 1 800, un 60 % del total, y aporta 900. Luis gana 1 200, un 40 %, y aporta 600. Resultado: los dos aportan el mismo 50 % de su ingreso."
     visual:
       plantilla: donut
       datos:
@@ -54,7 +54,7 @@ escenas:
         segmentos:
           - {etiqueta: "Ana · 60 %", valor: 900, texto: "900"}
           - {etiqueta: "Luis · 40 %", valor: 600, texto: "600"}
-  - narracion: "Es una forma de repartir; cada hogar decide su acuerdo."
+  - narracion: "Es una forma de repartir; cada hogar decide su acuerdo. Cambia los ingresos y los aportes se recalculan solos."
     visual:
       plantilla: cierre
       datos: {titulo: "Aporte *proporcional* al ingreso", puntos: ["Ingreso ÷ total de ingresos", "× gasto compartido", "Usa $ para fijar el total"], cta: "Guárdalo"}
@@ -70,6 +70,9 @@ fuentes:
   - calculo: "1200 / 3000 * 100"
     resultado: 40
     respalda: "Porcentaje del ingreso total que representa Luis."
+  - calculo: "1500 / 3000 * 100"
+    resultado: 50
+    respalda: "Cada persona aporta el 50 % de su ingreso (900 de 1 800 y 600 de 1 200)."
   - calculo: "1800 / 3000 * 1500"
     resultado: 900
     respalda: "Aporte de Ana al gasto compartido."

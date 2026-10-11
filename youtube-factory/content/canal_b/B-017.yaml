@@ -1,0 +1,85 @@
+id: B-017
+canal: canal_b
+fecha: 2026-11-04
+formato: short
+serie: Error que todos cometen
+episodio: "#04"
+pilar: errores
+tipo_editorial: error_comun
+idea: "La variación porcentual se calcula dividiendo la diferencia entre el valor inicial, no entre el final: de 80 a 100 es +25 %, no 20 %."
+objetivo: "Corregir un error frecuente en reportes y dar la fórmula (nuevo − antiguo) ÷ antiguo con un ejemplo verificable."
+publico: "Personas que comparan ventas, gastos o precios entre dos periodos y calculan porcentajes de cambio."
+hipotesis: "Formato 'error_comun' en pilar 'errores': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Las ventas pasan de 80 a 100. ¿Subieron 20 % o 25 %?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Porcentaje de variación: divide por el valor inicial"
+titulos_alternativos:
+  - "De 80 a 100 no es 20 %: cómo calcular la variación"
+  - "Cómo calcular el cambio porcentual en Excel (sin errores)"
+  - "El error de porcentajes que arruina tus reportes"
+criterio_titulo: "Usa el término buscable (porcentaje de variación) y da la regla en el propio título."
+descripcion: |
+  La variación porcentual es (valor nuevo − valor inicial) ÷ valor inicial. De 80 a 100 sube 25 %; si divides entre el valor final (100) sale 20 %, que es incorrecto.
+  Y al revés, de 100 a 80 la baja es de 20 %: la base siempre es el valor de partida. Los números del ejemplo son ilustrativos.
+cta: "Revisa en tu planilla qué valor usas como base."
+comentario_fijado: "Fórmula: =(B2-A2)/A2 con el valor inicial en A2 y el nuevo en B2, con formato de porcentaje. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos."
+hashtags: ["#Excel", "#Porcentajes", "#Errores"]
+palabras_clave: ["porcentaje de variación", "cambio porcentual excel", "calcular aumento porcentual"]
+escenas:
+  - narracion: "Las ventas pasan de 80 a 100. ¿Subieron 20 % o 25 %?"
+    visual:
+      plantilla: hook
+      datos: {kicker: "Error que todos cometen", titulo: "De 80 a 100: ¿*20 %* o *25 %*?"}
+  - narracion: "Primero, la diferencia: 100 menos 80, es 20. Segundo, divídela entre el valor inicial: 20 entre 80. La variación es de 25 %."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Variación de 80 a 100"
+        lineas:
+          - {izq: "Diferencia: 100 − 80", der: "20"}
+          - {izq: "Entre el inicial: 20 ÷ 80", der: "0,25"}
+        resultado: {izq: "Variación", der: "+25 %"}
+  - narracion: "Si divides entre el valor final, 20 entre 100, sale 20 %: es el error. Dividiendo entre el inicial, sale 25 %: es lo correcto. La base es siempre el valor de partida."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Incorrecto", titulo: "Entre el final", items: ["20 ÷ 100", "= 20 %"]}
+        der: {etiqueta: "Correcto", titulo: "Entre el inicial", items: ["20 ÷ 80", "= 25 %"]}
+        veredicto: "La base es el valor inicial"
+  - narracion: "En la planilla: nuevo menos antiguo, dividido entre antiguo, con formato de porcentaje. Y si baja de 100 a 80, la caída es de 20 %."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "(Nuevo − antiguo) ÷ *antiguo*"
+        puntos: ["=(B2-A2)/A2", "Formato de porcentaje"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/excel/calculate-percentages"
+    titulo: "Calcular porcentajes (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "El cambio porcentual se calcula restando el valor original del nuevo y dividiendo entre el valor original; se muestra con el estilo porcentual."
+  - calculo: "[80, 100]"
+    respalda: "Valores ilustrativos del ejemplo (ventas inicial y final)."
+  - calculo: "100 - 80"
+    resultado: 20
+    respalda: "Diferencia entre el valor final y el inicial."
+  - calculo: "(100 - 80) / 80 * 100"
+    resultado: 25
+    respalda: "Variación porcentual correcta (base: valor inicial)."
+  - calculo: "(100 - 80) / 100 * 100"
+    resultado: 20
+    respalda: "Resultado incorrecto al dividir entre el valor final."
+  - calculo: "(80 - 100) / 100 * 100"
+    resultado: -20
+    respalda: "Caída porcentual de 100 a 80 (base: 100)."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — aritmética verificada y método documentado por Microsoft"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []
