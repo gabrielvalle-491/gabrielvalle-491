@@ -52,7 +52,7 @@ escenas:
         resaltar:
           - {rango: "D2:D6", beat: 2, alterno: true}
         nota: "Ejemplo ficticio · 5 de las 12 publicaciones"
-  - narracion: "Antes de publicar, revisa datos, precios y promociones. La IA no conoce tu negocio como tú."
+  - narracion: "Antes de publicar, revisa datos, precios y promociones. La IA no conoce tu negocio como tú. Ajusta el tono a tu forma de hablar."
     visual:
       plantilla: cierre
       datos:

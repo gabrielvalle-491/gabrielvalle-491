@@ -26,7 +26,7 @@ comentario_fijado: "¿Qué tipo de documento resumes más con IA: informes, cont
 hashtags: ["#IA", "#Productividad", "#Resumen"]
 palabras_clave: ["resumir con IA", "resumen vs leer", "leer documentos largos", "productividad"]
 escenas:
-  - narracion: "Un resumen con IA ahorra tiempo, o te hace perder justo el detalle que importaba."
+  - narracion: "Un resumen con IA ahorra tiempo, o te hace perder justo el detalle que importaba. Depende de qué busques."
     visual:
       plantilla: hook
       datos: {kicker: "¿Cuál uso?", titulo: "Resumen con IA: *ahorra*… o te hace perder", sub: "Depende de lo que busques"}
@@ -47,7 +47,7 @@ escenas:
           - {texto: "Idea general: resumen", detalle: "Rápido y suficiente"}
           - {texto: "¿Vale la pena leerlo?: resumen", detalle: "Para decidir"}
           - {texto: "Cifras, plazos, condiciones: índice", detalle: "Y lee las secciones clave"}
-  - narracion: "Si el documento es importante, lee las secciones clave completas."
+  - narracion: "Si el documento es importante, lee las secciones clave completas. El resumen te dice por dónde empezar; no reemplaza la lectura."
     visual:
       plantilla: cierre
       datos: {titulo: "Resume para *decidir*", puntos: ["Idea general: resumen", "Detalles que importan: índice y texto"], cta: "Guárdalo"}

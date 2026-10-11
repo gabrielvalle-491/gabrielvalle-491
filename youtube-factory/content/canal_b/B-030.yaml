@@ -1,0 +1,68 @@
+id: B-030
+canal: canal_b
+fecha: 2026-11-17
+formato: short
+serie: Atajo de teclado
+episodio: "#02"
+pilar: trabajo
+tipo_editorial: herramienta
+idea: "Ctrl + flecha lleva la selección al borde de los datos; con Shift también selecciona hasta ahí. Sirve para tablas largas."
+objetivo: "Atajo de alto valor y búsqueda constante; aumenta la velocidad de trabajo en tablas largas."
+publico: "Quien trabaja con tablas largas y se desplaza con la rueda del mouse."
+hipotesis: "Formato 'herramienta' en pilar 'trabajo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Llega al final de tus datos en un solo toque."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Ctrl + flechas en Excel: ir al final de los datos al instante"
+titulos_alternativos:
+  - "Atajo de Excel para llegar al final de una tabla larga"
+  - "Ctrl + Shift + flecha: selecciona toda una columna de datos"
+  - "Deja de bajar con el mouse: el atajo que ahorra minutos"
+criterio_titulo: "Incluye el atajo exacto y el resultado (ir al final), con término de búsqueda frecuente."
+descripcion: |
+  Ctrl más una flecha mueve la celda activa al borde de la región de datos en esa dirección. Si le sumas Shift, extiendes la selección hasta ese borde. En Mac se usa la tecla Cmd en lugar de Ctrl.
+  Un espacio en blanco dentro de los datos detiene el salto.
+cta: "Pruébalo hoy en tu tabla más larga."
+comentario_fijado: "Windows: Ctrl + flecha abajo (borde de los datos) y Ctrl + Shift + flecha abajo (seleccionar hasta el borde). Mac: Cmd en lugar de Ctrl."
+hashtags: ["#Excel", "#AtajosDeTeclado", "#ExcelTips"]
+palabras_clave: ["atajo ir al final de datos Excel", "Ctrl flecha abajo Excel", "seleccionar columna completa de datos"]
+escenas:
+  - narracion: "Llega al final de tus datos en un solo toque."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Atajo de teclado", titulo: "Al final de tus datos, *en un toque*", sub: "Ctrl + flecha"}
+  - narracion: "Haz clic en una celda de la columna con datos. Pulsa Ctrl y la flecha hacia abajo. Llegas a la última celda con datos, antes del primer hueco."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Del inicio al final"
+        pasos:
+          - {titulo: "Haz clic en una celda con datos", detalle: "En la columna que quieres recorrer"}
+          - {titulo: "Ctrl + flecha abajo", detalle: "Salta al borde de los datos"}
+          - {titulo: "Llegas a la última celda", detalle: "Se detiene antes de un hueco"}
+  - narracion: "Ctrl y flecha te mueve al borde. Si sumas Shift, seleccionas todo el bloque hasta ahí."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Moverte", titulo: "Ctrl + flecha", items: ["Salta al borde de los datos", "Sirve en las 4 direcciones"]}
+        der: {etiqueta: "Seleccionar", titulo: "Ctrl + Shift + flecha", items: ["Selecciona hasta el borde", "Ideal para copiar o dar formato"]}
+        veredicto: "Misma idea, *con o sin selección*"
+  - narracion: "En Mac, usa [[comand|Cmd]] en lugar de Ctrl."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Menos scroll, *más* trabajo", puntos: ["Windows: Ctrl + flecha", "Mac: Cmd + flecha"], cta: "Guárdalo"}
+fuentes:
+  - url: "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+    titulo: "Keyboard shortcuts in Excel (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Ctrl + tecla de flecha mueve al borde de la región de datos actual; Ctrl + Shift + flecha extiende la selección hasta la última celda no vacía; en Mac se usa Cmd."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — atajo documentado por Microsoft"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Cmd"]

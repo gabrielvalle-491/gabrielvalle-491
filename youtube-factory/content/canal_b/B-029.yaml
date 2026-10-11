@@ -30,7 +30,7 @@ escenas:
     visual:
       plantilla: hook
       datos: {kicker: "Fórmula en 40 segundos", titulo: "Clientes *sin repetir*", sub: "Función UNICOS · Excel 365 y 2021"}
-  - narracion: "Se escribe UNICOS y el rango de clientes. Eso es todo. El rango con repetidos es el único dato que necesita."
+  - narracion: "La fórmula es corta. Solo necesita el rango con los repetidos."
     visual:
       plantilla: formula
       datos:
@@ -63,7 +63,7 @@ fuentes:
   - url: "https://support.microsoft.com/es-es/excel/functions/unique-function"
     titulo: "Función UNICOS / UNIQUE (Microsoft Support)"
     fecha_consulta: 2026-10-11
-    respalda: "Sintaxis UNICOS(matriz;[por_col];[occurrences_once]): devuelve valores únicos de un rango; con el tercer argumento en VERDADERO devuelve solo los valores que aparecen una vez; disponible en Excel para Microsoft 365, 2024 y 2021."
+    respalda: "Sintaxis UNICOS(matriz;[por_col];[exactly_once]) (en inglés UNIQUE): devuelve valores únicos de un rango; con el tercer argumento en VERDADERO devuelve solo los valores que aparecen una vez; disponible en Excel para Microsoft 365, 2024 y 2021."
 riesgos:
   derechos: "bajo"
   exactitud: "medio — requiere Excel 365 o 2021; el nombre en inglés es UNIQUE (también existe en Google Sheets)"

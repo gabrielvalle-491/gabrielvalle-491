@@ -26,7 +26,7 @@ comentario_fijado: "¿Qué pedido te cuesta más rechazar: descuentos, plazos o 
 hashtags: ["#Pymes", "#AtenciónAlCliente", "#IA"]
 palabras_clave: ["cómo decir que no a un cliente", "correo para rechazar un pedido", "comunicación con clientes"]
 escenas:
-  - narracion: "Puedes decir que no a un cliente sin cerrar la puerta."
+  - narracion: "Puedes decir que no a un cliente sin cerrar la puerta. Solo necesitas tres pasos y un buen tono."
     visual:
       plantilla: hook
       datos: {kicker: "Caso pyme", titulo: "Un *no* que no cierra la puerta"}
@@ -40,13 +40,13 @@ escenas:
           - {titulo: "Agradece", detalle: "Su interés y su confianza"}
           - {titulo: "Explica", detalle: "El motivo, en una frase"}
           - {titulo: "Ofrece", detalle: "Una alternativa real"}
-  - narracion: "Pídele el borrador a la IA con este prompt."
+  - narracion: "Pídele el borrador a la IA con este prompt, y pon tus datos entre corchetes."
     visual:
       plantilla: prompt
       datos:
         etiqueta: "Plantilla de prompt"
         texto: "Redacta un correo cortés para decir que no a [PEDIDO DEL CLIENTE]. Agradece, explica en una frase [MOTIVO] y ofrece [ALTERNATIVA]. Tono cordial, máximo cinco líneas."
-  - narracion: "Léelo antes de enviarlo: debe sonar como tú."
+  - narracion: "Léelo antes de enviarlo: debe sonar como tú. Y la alternativa debe ser algo que de verdad puedas cumplir."
     visual:
       plantilla: cierre
       datos: {titulo: "Agradece, explica, *ofrece*", puntos: ["Un motivo claro", "Una alternativa real", "Revisa el tono"], cta: "Guárdalo para tu próximo no"}

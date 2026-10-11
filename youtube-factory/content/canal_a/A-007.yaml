@@ -45,13 +45,13 @@ escenas:
         izq: {etiqueta: "Opinión", titulo: "¿Qué te parece?", items: ["Respuesta vaga", "Tiende a aplaudir"]}
         der: {etiqueta: "Crítica", titulo: "Señala 3 debilidades", items: ["Puntos concretos", "Algo que corregir"]}
         veredicto: "Pide *críticas*, no opiniones"
-  - narracion: "Usa esta plantilla, con tu texto entre corchetes."
+  - narracion: "Usa esta plantilla, con tu texto entre corchetes. Cambia el número de debilidades si necesitas más."
     visual:
       plantilla: prompt
       datos:
         etiqueta: "Plantilla de prompt"
         texto: "Actúa como revisor crítico. Señala 3 debilidades de [MI PLAN], de más a menos grave, y propón una mejora para cada una. Empieza directo por las debilidades."
-  - narracion: "Revisa cada crítica: tú decides cuáles aceptar."
+  - narracion: "Revisa cada crítica: tú decides cuáles aceptar. Si alguna no tiene sentido en tu caso, pide que la explique."
     visual:
       plantilla: cierre
       datos: {titulo: "Pide *críticas* concretas", puntos: ["Cuántas debilidades quieres", "Una mejora por cada una", "Tú decides qué aceptar"], cta: "Pruébalo hoy"}

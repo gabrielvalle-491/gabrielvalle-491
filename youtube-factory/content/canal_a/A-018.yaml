@@ -30,7 +30,7 @@ escenas:
     visual:
       plantilla: hook
       datos: {kicker: "Caso pyme", titulo: "Un FODA con *datos*, no con adjetivos"}
-  - narracion: "Fortalezas y debilidades son internas. Oportunidades y amenazas vienen de afuera."
+  - narracion: "Fortalezas y debilidades son internas. Oportunidades y amenazas vienen de afuera. Los cuatro cuadrantes necesitan datos."
     visual:
       plantilla: texto
       datos:
@@ -44,13 +44,13 @@ escenas:
         izq: {etiqueta: "FODA vago", titulo: "Adjetivos", items: ["'Buena atención'", "'Precios competitivos'"]}
         der: {etiqueta: "FODA útil", titulo: "Datos y acciones", items: ["Cifras del negocio", "Acción y forma de medirla"]}
         veredicto: "Pide *acciones*, no adjetivos"
-  - narracion: "Pídelo así."
+  - narracion: "Pídelo así. Pega cifras reales de tu negocio dentro de los corchetes."
     visual:
       plantilla: prompt
       datos:
         etiqueta: "Plantilla de prompt"
         texto: "Haz un FODA de mi negocio usando solo estos datos: [VENTAS], [CLIENTES], [COMPETENCIA], [COSTOS]. Para cada punto, da una acción concreta y cómo medirla."
-  - narracion: "Pega cifras del negocio, no datos personales de clientes. Y revisa cada acción: tú decides."
+  - narracion: "Pega cifras del negocio, no datos personales de clientes. Y revisa cada acción: tú decides cuáles tienen sentido para tu caso."
     visual:
       plantilla: cierre
       datos: {titulo: "Datos reales, *acciones medibles*", puntos: ["Cifras de tu negocio", "Una acción por punto", "Sin datos personales de clientes"], cta: "Haz tu FODA"}

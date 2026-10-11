@@ -66,6 +66,8 @@ fuentes:
     titulo: "Función SUMAR.SI.CONJUNTO (Microsoft Support)"
     fecha_consulta: 2026-10-11
     respalda: "SUMAR.SI.CONJUNTO(rango_suma; rango_criterios1; criterios1; ...) suma los valores que cumplen varias condiciones."
+  - calculo: "[120, 80]"
+    respalda: "Ventas ficticias del caso de prueba: 120 el lunes y 80 el martes."
   - calculo: "120 + 80"
     resultado: 200
     respalda: "Caso de prueba ficticio: Café en el Norte vendió 120 el lunes y 80 el martes; la suma esperada es 200."

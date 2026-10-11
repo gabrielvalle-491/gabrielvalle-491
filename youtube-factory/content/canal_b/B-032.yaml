@@ -1,0 +1,71 @@
+id: B-032
+canal: canal_b
+fecha: 2026-11-19
+formato: short
+serie: Fórmula en 40 segundos
+episodio: "#09"
+pilar: formulas
+tipo_editorial: comparacion
+idea: "INDICE + COINCIDIR busca en cualquier columna, incluso hacia la izquierda, y no depende de un número de columna como BUSCARV."
+objetivo: "Comparación de alto valor para quien usa BUSCARV y se topa con sus límites; menciona BUSCARX como alternativa moderna."
+publico: "Usuarios de BUSCARV que necesitan devolver una columna a la izquierda de la búsqueda o que insertan columnas con frecuencia."
+hipotesis: "Formato 'comparacion' en pilar 'formulas': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "BUSCARV no puede mirar a la izquierda. Esta pareja de funciones sí."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "INDICE + COINCIDIR vs BUSCARV: buscar a la izquierda en Excel"
+titulos_alternativos:
+  - "BUSCARV no mira a la izquierda: la solución con INDICE y COINCIDIR"
+  - "Por qué INDICE + COINCIDIR no se rompe al insertar columnas"
+  - "Alternativa a BUSCARV que funciona en cualquier columna"
+criterio_titulo: "Nombra las funciones comparadas y el caso concreto (buscar a la izquierda)."
+descripcion: |
+  BUSCARV exige que el valor buscado esté en la primera columna del rango y usa un número de columna. INDICE y COINCIDIR trabajan con rangos, así que pueden devolver una columna a la izquierda del dato buscado.
+  En Excel 365 y 2021, BUSCARX resuelve lo mismo de forma más corta; no está disponible en Excel 2016 ni 2019, según la documentación de Microsoft.
+cta: "Reemplaza un BUSCARV tuyo y compara."
+comentario_fijado: "Fórmula: =INDICE(A2:A5;COINCIDIR(E2;B2:B5;0)) devuelve el código (columna A) del producto escrito en E2 (columna B). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;)."
+hashtags: ["#Excel", "#Fórmulas", "#BUSCARV"]
+palabras_clave: ["INDICE COINCIDIR", "buscar a la izquierda Excel", "alternativa a BUSCARV"]
+escenas:
+  - narracion: "BUSCARV no puede mirar a la izquierda. Esta pareja de funciones sí."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Fórmula en 40 segundos", titulo: "Buscar a la *izquierda* en Excel", sub: "INDICE + COINCIDIR vs BUSCARV"}
+  - narracion: "BUSCARV necesita el dato buscado en la primera columna y usa un número de columna. INDICE y COINCIDIR trabajan con rangos, así que devuelven de cualquier columna. Si insertas una columna, los rangos se ajustan; un número fijo, no."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Límite", titulo: "BUSCARV", items: ["Busca solo en la primera columna", "Usa un número de columna"]}
+        der: {etiqueta: "Flexible", titulo: "INDICE + COINCIDIR", items: ["Devuelve de cualquier columna", "Usa rangos que se ajustan"]}
+        veredicto: "Ejemplo: del *producto* al código"
+  - narracion: "Para sacar el código a partir del producto, la fórmula es esta. INDICE devuelve de la columna de códigos. COINCIDIR halla la posición del producto; el cero pide coincidencia exacta."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=INDICE(A2:A5;COINCIDIR(E2;B2:B5;0))"
+        partes:
+          - {token: "A2:A5", explica: "la columna que devuelves: los *códigos*"}
+          - {token: "COINCIDIR(E2;B2:B5;0)", explica: "posición del producto; 0 = exacta"}
+  - narracion: "En Excel 365 y 2021, BUSCARX hace lo mismo todavía más corto."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Buscar *en cualquier dirección*", puntos: ["INDICE + COINCIDIR: cualquier columna", "BUSCARX: Excel 365 y 2021"], cta: "Guárdalo"}
+fuentes:
+  - url: "https://support.microsoft.com/es-es/office/buscarv-funci%c3%b3n-buscarv-0bbc8083-26fe-4963-8ab8-93a18ad188a1"
+    titulo: "Función BUSCARV (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "En BUSCARV el valor buscado debe estar en la primera columna del rango; INDICE y COINCIDIR pueden buscar en cualquier columna; se usa un número de columna para el resultado."
+  - url: "https://support.microsoft.com/es-es/Excel/functions/xlookup-function"
+    titulo: "Función BUSCARX (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "BUSCARX es una versión mejorada de BUSCARV que funciona en cualquier dirección y no está disponible en Excel 2016 ni 2019."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — comportamiento documentado por Microsoft"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["INDICE", "COINCIDIR"]

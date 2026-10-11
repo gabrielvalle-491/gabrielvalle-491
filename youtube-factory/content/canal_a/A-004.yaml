@@ -43,7 +43,7 @@ escenas:
         titulo: "Tres piezas *clave*"
         estilo: check
         items: ["Tu rol y tu rubro", "El tono que prefieres", "El formato de respuesta"]
-  - narracion: "Se aplican a todos tus chats. Revísalas de vez en cuando."
+  - narracion: "Se aplican a todos tus chats, y los cambios rigen de inmediato. Revísalas de vez en cuando, y no pongas datos sensibles."
     visual:
       plantilla: cierre
       datos:

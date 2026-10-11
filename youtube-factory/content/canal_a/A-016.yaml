@@ -43,7 +43,7 @@ escenas:
       datos:
         etiqueta: "Versión en positivo"
         texto: "Explica [TEMA]. Usa palabras de uso diario, escribe tres frases como máximo y termina con un ejemplo."
-  - narracion: "Compara las dos respuestas. Las instrucciones en positivo suelen ser más claras, pero tu caso puede variar."
+  - narracion: "Compara las dos respuestas. Las instrucciones en positivo suelen ser más claras, pero tu caso puede variar. Y para un límite claro, un no explícito sigue sirviendo."
     visual:
       plantilla: cierre
       datos: {titulo: "Di qué *sí* hacer", puntos: ["Describe el resultado", "Compara las dos versiones", "Tu caso puede variar"], cta: "Haz el reto"}
