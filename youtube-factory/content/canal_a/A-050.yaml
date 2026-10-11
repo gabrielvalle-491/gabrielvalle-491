@@ -1,0 +1,75 @@
+id: A-050
+canal: canal_a
+fecha: 2026-12-07
+formato: short
+serie: Error común
+episodio: "#05"
+pilar: prompts
+tipo_editorial: error_comun
+idea: "Pedir resumir, traducir y redactar en un solo mensaje mezcla objetivos; dividir en un mensaje por tarea permite revisar cada resultado antes de seguir."
+objetivo: "Enseñar la técnica de encadenar prompts de forma simple y reutilizable, con un ejemplo de tres pasos."
+publico: "Trabajadores que usan asistentes de IA y reciben respuestas desordenadas cuando piden varias cosas a la vez."
+hipotesis: "Formato 'error_comun' en pilar 'prompts': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Si le pides tres cosas a la IA en un solo mensaje, estás cometiendo un error común."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Error común con la IA: pedir todo en un solo mensaje"
+titulos_alternativos:
+  - "Una tarea por mensaje: el truco para respuestas más claras"
+  - "Por qué tu prompt largo con tres pedidos sale desordenado"
+  - "Resumir, traducir y redactar: hazlo en tres mensajes, no en uno"
+criterio_titulo: "Nombra el error exacto que comete el público y es buscable ('un solo mensaje', 'IA')."
+descripcion: |
+  Mezclar varias tareas en un mismo mensaje hace más difícil controlar el resultado. Con una tarea por mensaje puedes revisar cada paso antes de usarlo en el siguiente.
+  Ejemplo en tres pasos: resumir, revisar el resumen y redactar el correo a partir de ese resumen aprobado. Según la documentación de Anthropic, encadenar prompts es útil cuando necesitas inspeccionar resultados intermedios.
+cta: "Pruébalo hoy con una tarea de tu trabajo."
+comentario_fijado: "¿Qué tres tareas sueles pedir juntas? Cuéntalas y las separamos en pasos."
+hashtags: ["#Prompts", "#IA", "#Productividad"]
+palabras_clave: ["cómo escribir prompts", "encadenar prompts", "errores al usar ChatGPT", "IA en el trabajo"]
+escenas:
+  - narracion: "¿Le pides a la IA resumir, traducir y redactar el correo, todo en un solo mensaje? Ese es el error."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Error común", titulo: "Tres pedidos en *un* mensaje", sub: "Resumir + traducir + redactar"}
+  - narracion: "Todo junto, no puedes revisar nada a mitad de camino. Una tarea por mensaje te deja corregir cada resultado. Así el error no se arrastra al siguiente paso."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Un solo mensaje", titulo: "Todo mezclado", items: ["Resume, traduce y redacta", "Sin revisión intermedia"]}
+        der: {etiqueta: "Un mensaje por tarea", titulo: "Paso a paso", items: ["Una tarea clara", "Revisas antes de seguir"]}
+        veredicto: "Corriges antes de que el error se arrastre"
+  - narracion: "Primero, pide solo el resumen del texto. Segundo, revísalo y corrígelo. Tercero, pide el correo usando ese resumen ya aprobado."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Tres mensajes, *tres* tareas"
+        pasos:
+          - {titulo: "Resumir", detalle: "Solo el resumen"}
+          - {titulo: "Revisar", detalle: "Corrige lo que falle"}
+          - {titulo: "Redactar", detalle: "Usa el resumen aprobado"}
+  - narracion: "Dividir cuesta un mensaje más, pero ganas control."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Una tarea por *mensaje*"
+        puntos: ["Cada resultado se revisa", "El error no se arrastra", "Más control, un mensaje más"]
+        cta: "Pruébalo hoy"
+fuentes:
+  - url: "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/chain-prompts"
+    titulo: "Prompting best practices - chain prompts (Claude Platform Docs)"
+    fecha_consulta: 2026-10-11
+    respalda: "Encadenar prompts (pasos secuenciales) sigue siendo útil cuando necesitas inspeccionar los resultados intermedios."
+  - url: "https://arxiv.org/pdf/2406.06608"
+    titulo: "The Prompt Report: A Systematic Survey of Prompt Engineering Techniques"
+    fecha_consulta: 2026-10-11
+    respalda: "Descompone tareas complejas en subtareas (encadenamiento de prompts) como técnica descrita en la literatura."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — la mejora depende de la tarea y del modelo; se presenta como técnica de control y revisión, no como garantía de precisión"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

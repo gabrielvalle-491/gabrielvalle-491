@@ -1,0 +1,71 @@
+id: A-047
+canal: canal_a
+fecha: 2026-12-04
+formato: short
+serie: Glosario rápido
+episodio: "#02"
+pilar: conceptos
+tipo_editorial: contraintuitivo
+idea: "Los asistentes multimodales aceptan imágenes (un ticket, una pizarra) además de texto; transcribir primero y pasar a tabla después facilita revisar, porque la lectura puede fallar con texto pequeño, torcido o borroso."
+objetivo: "Explicar qué es la IA multimodal con un uso cotidiano y las verificaciones necesarias."
+publico: "Trabajadores y emprendedores que fotografían tickets, facturas o pizarras para pasar los datos a una planilla."
+hipotesis: "Formato 'contraintuitivo' en pilar 'conceptos': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Puedes pasarle a la IA la foto de un ticket o de una pizarra."
+duracion_objetivo: "35-55 s"
+titulo: "IA multimodal: fotos de tickets y pizarras a texto y tabla"
+titulos_alternativos:
+  - "Qué es una IA multimodal (con un ejemplo útil)"
+  - "Fotografía una pizarra y conviértela en tabla con IA"
+  - "Pasar un ticket a texto con IA: lo que debes revisar"
+criterio_titulo: "Define el concepto buscable (multimodal) y el uso concreto para el público."
+descripcion: |
+  Una IA multimodal acepta más de un tipo de entrada, como texto e imágenes. Con una foto de un ticket o una pizarra puede transcribir y ordenar el contenido en una tabla.
+  Según la ayuda de OpenAI, la precisión baja con texto pequeño, torcido o en algunos alfabetos. Revisa cada número y no subas fotos con datos sensibles.
+cta: "Guárdalo antes de fotografiar tu próximo ticket."
+comentario_fijado: "Prompt 1: Transcribe el texto de la imagen tal cual, sin interpretar. Prompt 2: Pasa la transcripción a una tabla con las columnas [COLUMNAS]. Marca como [ILEGIBLE] lo que no se lea."
+hashtags: ["#IA", "#IAMultimodal", "#Productividad"]
+palabras_clave: ["IA multimodal", "foto de ticket a texto", "pizarra a tabla con IA", "qué es multimodal"]
+escenas:
+  - narracion: "Puedes pasarle a la IA la foto de un ticket o de una *pizarra*."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Glosario rápido", titulo: "IA *multimodal*: texto e imagen", sub: "Fotos de tickets y pizarras"}
+  - narracion: "Toma la foto de frente y con buena luz. Pide primero que transcriba tal cual, sin interpretar. Y después, que lo pase a una tabla con tus columnas."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "De la foto a la tabla"
+        pasos:
+          - {titulo: "Foto de frente y con buena luz"}
+          - {titulo: "Pide transcribir tal cual"}
+          - {titulo: "Pásalo a tabla con tus columnas"}
+  - narracion: "Revisa los números y los decimales. Revisa los nombres propios. Y el texto pequeño, torcido o borroso, porque la ayuda de OpenAI advierte que ahí la precisión baja."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Revisa *siempre*"
+        estilo: check
+        items: ["Números y decimales", "Nombres propios", "Texto pequeño, torcido o borroso"]
+  - narracion: "Y no subas fotos con datos sensibles. Pide marcar como ilegible lo que no se lea."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Foto, transcripción, *revisión*"
+        puntos: ["Transcribe primero", "Revisa cada número", "Sin datos sensibles"]
+        cta: "Guárdalo para tu próximo ticket"
+fuentes:
+  - url: "https://help.openai.com/en/articles/8400551-image-inputs-for-chatgpt-faq"
+    titulo: "Image inputs for ChatGPT FAQ (OpenAI Help Center)"
+    fecha_consulta: 2026-10-11
+    respalda: "ChatGPT acepta imágenes como entrada; la ayuda advierte menor precisión con texto en alfabetos no latinos, texto rotado o muy pequeño, e imágenes ambiguas, y no recomienda usarlo para imágenes médicas especializadas."
+riesgos:
+  derechos: "bajo — contenido y gráficos creados por el canal; sin imágenes de terceros"
+  exactitud: "medio — se resumió la ayuda de OpenAI a partir de un resultado de búsqueda (varias copias con distinta fecha); confirmar el texto vigente. Otros asistentes tienen sus propias limitaciones"
+  monetizacion: "bajo — contenido educativo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["multimodal", "OpenAI", "ticket", "tickets", "pasarle", "check"]

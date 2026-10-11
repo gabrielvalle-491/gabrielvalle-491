@@ -382,10 +382,18 @@ def t_planilla(d):
 
 def t_formula(d):
     colores = ["var(--ac)", "var(--ac2)", "var(--ok)", "#f2c14e", "#c084fc"]
-    f = esc(d["formula"])
+    # Resalta cada token en orden, de izquierda a derecha, sobre el texto original (nunca dentro del HTML ya generado)
+    raw, f, cursor = d["formula"], "", 0
     for k, p in enumerate(d.get("partes", [])):
-        tok = esc(p["token"])
-        f = f.replace(tok, f'<span class="tok" style="background:color-mix(in srgb,{colores[k%5]} 30%,transparent)">{tok}</span>', 1)
+        i = raw.find(p["token"], cursor)
+        if i < 0:
+            i = raw.find(p["token"])
+            if i < cursor:
+                continue
+        f += esc(raw[cursor:i]) + (f'<span class="tok" style="background:color-mix(in srgb,{colores[k%5]} 30%,transparent)">'
+                                   f'{esc(p["token"])}</span>')
+        cursor = i + len(p["token"])
+    f += esc(raw[cursor:])
     out = _bloque_titulo(d)
     out += f'<div class="formula-big" data-b="0" data-a="up">{f}</div><div class="parts">'
     for k, p in enumerate(d.get("partes", [])):

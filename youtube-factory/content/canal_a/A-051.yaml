@@ -1,0 +1,71 @@
+id: A-051
+canal: canal_a
+fecha: 2026-12-08
+formato: short
+serie: Glosario rápido
+episodio: "#03"
+pilar: conceptos
+tipo_editorial: contraintuitivo
+idea: "La IA no 'olvida' por descuido: la ventana de contexto es un espacio limitado donde cabe toda la conversación; en chats muy largos conviene pedir un resumen y empezar uno nuevo."
+objetivo: "Explicar el concepto de ventana de contexto con una solución práctica de tres pasos."
+publico: "Usuarios de asistentes de IA que notan que el chat 'se olvida' de instrucciones del inicio."
+hipotesis: "Formato 'contraintuitivo' en pilar 'conceptos': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Si la IA parece olvidar lo que dijiste al inicio del chat, no es descuido."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Ventana de contexto: por qué la IA 'olvida' en chats largos"
+titulos_alternativos:
+  - "Por qué tu chat con la IA se vuelve torpe (y cómo arreglarlo)"
+  - "Qué es la ventana de contexto en 40 segundos"
+  - "Chat largo con IA: resume y reinicia"
+criterio_titulo: "Plantea el síntoma que reconoce el público ('olvida') y nombra el término técnico buscable."
+descripcion: |
+  La ventana de contexto es el texto que un modelo puede considerar a la vez: incluye tus mensajes, sus respuestas y los archivos. Según la documentación de Anthropic, a más texto, la precisión y el recuerdo pueden bajar.
+  Solución práctica: pide un resumen de lo decidido, abre un chat nuevo y pega el resumen. Los límites exactos dependen del modelo y de la aplicación.
+cta: "Guárdalo para tu próximo chat largo."
+comentario_fijado: "Plantilla: Resume en 10 viñetas lo que decidimos hasta ahora: objetivo, reglas, formato y datos clave. Luego la pegas en un chat nuevo."
+hashtags: ["#IA", "#Prompts", "#Glosario"]
+palabras_clave: ["ventana de contexto", "por qué la IA olvida", "chat largo con IA", "memoria de la IA"]
+escenas:
+  - narracion: "Si la IA parece olvidar lo que dijiste al inicio del chat, no es descuido. Es un límite."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Glosario rápido", titulo: "¿Por qué la IA *olvida* en chats largos?", sub: "Ventana de contexto"}
+  - narracion: "La ventana de contexto es el texto que el modelo puede considerar a la vez. Incluye tus mensajes, sus respuestas y los archivos. Y según la documentación de Anthropic, con más texto, baja la precisión y el recuerdo."
+    visual:
+      plantilla: texto
+      datos:
+        kicker: "Definición"
+        titulo: "Ventana de contexto"
+        texto: "Todo el texto que el modelo puede *considerar a la vez*: tus mensajes, sus respuestas y los archivos."
+        nota: "Más texto puede significar menos precisión"
+        beat_texto: 0
+  - narracion: "Entonces, primero pide que resuma lo decidido hasta ahora. Luego abre un chat nuevo. Pega el resumen y continúa desde ahí."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Chat largo: *resume y reinicia*"
+        estilo: num
+        items: ["Pide un resumen de lo decidido", "Abre un chat nuevo", "Pega el resumen y continúa"]
+  - narracion: "Revisa que el resumen conserve tus reglas y datos clave."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Un resumen *vale* más que un chat eterno"
+        puntos: ["Objetivo y reglas", "Formato pedido", "Datos clave"]
+        cta: "Guárdalo para tu próximo chat largo"
+fuentes:
+  - url: "https://platform.claude.com/docs/en/build-with-claude/context-windows"
+    titulo: "Context windows (Claude Platform Docs)"
+    fecha_consulta: 2026-10-11
+    respalda: "Todo lo que se envía al modelo (instrucciones, mensajes, resultados de herramientas, imágenes y documentos) cuenta dentro de la ventana de contexto; a medida que crece el número de tokens, la precisión y el recuerdo se degradan (context rot)."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — cada aplicación gestiona el historial de forma distinta (resumen automático, recorte o memoria); el video describe el principio general y recomienda resumir y reiniciar"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

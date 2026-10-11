@@ -1,0 +1,77 @@
+id: A-044
+canal: canal_a
+fecha: 2026-12-01
+formato: short
+serie: El Atajo
+episodio: "#08"
+pilar: prompts
+tipo_editorial: tutorial
+idea: "Un prompt con cuatro piezas (rol, tarea, contexto y formato) da instrucciones más claras que un pedido de una línea."
+objetivo: "Entregar una estructura simple y memorizable, con un antes y después, que el espectador pueda reutilizar."
+publico: "Trabajadores que escriben pedidos cortos a la IA y reciben respuestas poco útiles."
+hipotesis: "Formato 'tutorial' en pilar 'prompts': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Mismo pedido a la IA, dos formas de escribirlo."
+duracion_objetivo: "35-55 s"
+titulo: "Estructura de prompt: rol, tarea, contexto y formato"
+titulos_alternativos:
+  - "Antes y después: un prompt con 4 piezas"
+  - "La plantilla de prompt que ordena tus pedidos a la IA"
+  - "Cómo escribir un buen prompt en 4 pasos"
+criterio_titulo: "Nombra la estructura con términos buscables (prompt, rol, tarea, contexto, formato)."
+descripcion: |
+  Un prompt claro tiene cuatro piezas: rol (quién es la IA), tarea (qué debe hacer), contexto (datos de tu caso) y formato (cómo quieres la respuesta).
+  El ejemplo es una plantilla; reemplaza las variables entre corchetes con tus datos y revisa siempre el resultado antes de enviarlo.
+cta: "Guárdalo como tu plantilla base."
+comentario_fijado: "Prompt: Rol: eres [ROL]. Tarea: [TAREA]. Contexto: [DATOS DE TU CASO]. Formato: [LONGITUD Y ESTILO]."
+hashtags: ["#Prompts", "#IA", "#Productividad"]
+palabras_clave: ["estructura de un prompt", "rol tarea contexto formato", "cómo escribir prompts", "plantilla de prompt"]
+escenas:
+  - narracion: "Mismo pedido a la IA, dos formas de escribirlo."
+    visual:
+      plantilla: hook
+      datos: {kicker: "El Atajo", titulo: "Un pedido, *cuatro piezas*", sub: "Rol, tarea, contexto y formato"}
+  - narracion: "Antes: escribe un correo para un cliente. Después: el mismo pedido con rol, tarea, contexto y formato. La segunda versión deja menos que adivinar."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Antes", titulo: "Una línea", items: ["«Escribe un correo para un cliente»"]}
+        der: {etiqueta: "Después", titulo: "Cuatro piezas", items: ["Rol, tarea, contexto y formato"]}
+        veredicto: "Menos que adivinar"
+  - narracion: "El rol dice quién es la IA. La tarea, qué hace. El contexto, tus datos. Y el formato, cómo quieres la respuesta."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Las cuatro *piezas*"
+        estilo: num
+        items: ["Rol: quién es la IA", "Tarea: qué debe hacer", "Contexto: tus datos", "Formato: cómo responder"]
+  - narracion: "Así queda el ejemplo completo. Cambia las variables por tus datos."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Rol: eres asesor de atención al cliente. Tarea: redacta un correo de disculpa por un retraso. Contexto: el pedido [PEDIDO] llegará en [DÍAS] días. Formato: cinco líneas, tono cordial."
+  - narracion: "Guárdalo como plantilla base. Y revisa siempre el correo antes de enviarlo."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Rol, tarea, contexto, *formato*"
+        puntos: ["Menos adivinar", "Más control", "Revisa antes de enviar"]
+        cta: "Guárdalo como tu plantilla base"
+fuentes:
+  - url: "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/be-clear-and-direct"
+    titulo: "Be clear and direct (Anthropic)"
+    fecha_consulta: 2026-10-11
+    respalda: "La guía de Anthropic abre sus principios con instrucciones claras y directas; el enfoque de rol, tarea, contexto y formato es una plantilla propia del canal basada en ese principio."
+  - calculo: "[4]"
+    respalda: "Estructura propia del canal: cuatro piezas (rol, tarea, contexto, formato)."
+riesgos:
+  derechos: "bajo — prompt y gráficos creados por el canal"
+  exactitud: "bajo — la estructura de cuatro piezas es una convención didáctica, no un estándar oficial; no se afirma que lo sea"
+  monetizacion: "bajo — contenido educativo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []
