@@ -26,11 +26,11 @@ comentario_fijado: "Prompt: Resume en tres viñetas el texto dentro de las etiqu
 hashtags: ["#Prompts", "#IA", "#Productividad"]
 palabras_clave: ["delimitadores en prompts", "etiquetas XML en prompts", "cómo pegar texto en un prompt", "prompt para resumir"]
 escenas:
-  - narracion: "Si pegas un texto en tu prompt, márcalo con *etiquetas*."
+  - narracion: "Si pegas un texto en tu prompt, márcalo con *etiquetas*. Así la IA no confunde tus órdenes con el contenido."
     visual:
       plantilla: hook
       datos: {kicker: "Truco rápido", titulo: "Separa tus órdenes del *texto*", sub: "Delimitadores en prompts"}
-  - narracion: "Escribe la instrucción primero. Luego, encierra el texto entre etiquetas, y di en la instrucción cuáles son."
+  - narracion: "Escribe la instrucción primero. Luego, encierra el texto entre etiquetas, y di en la instrucción cuáles son. Sirve para resumir, traducir o analizar un correo."
     visual:
       plantilla: prompt
       datos:
@@ -43,7 +43,7 @@ escenas:
         izq: {etiqueta: "Sin delimitadores", titulo: "Todo mezclado", items: ["Texto y orden se confunden", "Resultados impredecibles"]}
         der: {etiqueta: "Con delimitadores", titulo: "Límites claros", items: ["Instrucción separada", "Contenido bien acotado"]}
         veredicto: "Más claridad, menos errores"
-  - narracion: "No es una protección infalible. Revisa siempre el resultado."
+  - narracion: "No es una protección infalible. Revisa siempre el resultado. Y usa nombres de etiqueta que describan el contenido."
     visual:
       plantilla: cierre
       datos:

@@ -26,7 +26,7 @@ comentario_fijado: "Prompt: Responde a [PREGUNTA] con tres perspectivas distinta
 hashtags: ["#IA", "#SesgosIA", "#IASinHumo"]
 palabras_clave: ["sesgo en la IA", "IA neutral mito", "sesgos algorítmicos", "uso responsable de la IA"]
 escenas:
-  - narracion: "Mito: si lo dice la IA, es neutral. Falso: aprende de textos hechos por personas y puede repetir sus sesgos."
+  - narracion: "Mito: si lo dice la IA, es neutral. Falso: aprende de textos hechos por personas y puede repetir sus sesgos. Que suene segura no la hace imparcial."
     visual:
       plantilla: mito
       datos: {mito: "Si lo dice la IA, es *neutral*", realidad: "Aprende de textos humanos y puede *repetir sesgos*", fuente: "NIST, SP 1270"}
@@ -41,7 +41,7 @@ escenas:
         titulo: "Cómo *reducir* el riesgo"
         estilo: num
         items: ["Pide varias perspectivas", "Pide que explique sus supuestos", "Contrasta con otras fuentes"]
-  - narracion: "En decisiones sobre personas, nunca uses la IA como único criterio."
+  - narracion: "En decisiones sobre personas, nunca uses la IA como único criterio. Úsala para ordenar ideas, y decide tú."
     visual:
       plantilla: cierre
       datos:

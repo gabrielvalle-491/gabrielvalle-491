@@ -1,0 +1,72 @@
+id: A-062
+canal: canal_a
+fecha: 2026-12-19
+formato: short
+serie: El Atajo
+episodio: "#12"
+pilar: prompts
+tipo_editorial: tutorial
+idea: "Pedir a la IA que convierta notas desordenadas en una tabla con tarea, responsable, fecha y estado, marcando 'POR DEFINIR' lo que falte, evita perder acuerdos y evita que se inventen datos."
+objetivo: "Dar un prompt reutilizable para actas de reunión que protege contra la invención de responsables y fechas."
+publico: "Administrativos, líderes de equipo y dueños de pymes que toman notas desordenadas en reuniones."
+hipotesis: "Formato 'tutorial' en pilar 'prompts': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Notas de reunión desordenadas y nadie sabe quién hace qué."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Notas de reunión a acta con tareas: prompt con responsables y fechas"
+titulos_alternativos:
+  - "Convierte tus notas de reunión en una tabla de tareas con IA"
+  - "Que ningún acuerdo se pierda: tabla de responsables y fechas"
+  - "El prompt para pasar notas desordenadas a acta"
+criterio_titulo: "Nombra el dolor y el resultado concreto (acta con tareas); es buscable y práctico."
+descripcion: |
+  Pega tus notas y pide una tabla con columnas fijas: tarea, responsable, fecha y estado. Si falta un dato, la IA debe escribir POR DEFINIR en lugar de inventarlo.
+  Los datos del ejemplo son ficticios. Revisa la tabla contra tus notas y confirma los pendientes con el equipo. Si las notas incluyen información confidencial, sigue las políticas de tu organización antes de pegarlas en una herramienta de IA.
+cta: "Guárdalo para tu próxima reunión."
+comentario_fijado: |
+  Prompt: Convierte estas notas en una tabla con columnas: Tarea, Responsable, Fecha, Estado. Si falta responsable o fecha, escribe POR DEFINIR; no inventes. Notas: [PEGA AQUÍ]
+hashtags: ["#Productividad", "#IA", "#Reuniones"]
+palabras_clave: ["acta de reunión con IA", "notas de reunión a tareas", "prompt para actas", "responsables y fechas"]
+escenas:
+  - narracion: "Notas de reunión desordenadas y nadie sabe quién hace qué."
+    visual:
+      plantilla: hook
+      datos: {kicker: "El Atajo", titulo: "Notas desordenadas → *acta con tareas*", sub: "Responsables y fechas"}
+  - narracion: "Pega tus notas y pide una tabla con tarea, responsable, fecha y estado. Si falta un dato, que escriba por definir."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Convierte estas notas en una tabla con columnas: Tarea, Responsable, Fecha, Estado. Si falta responsable o fecha, escribe POR DEFINIR; no inventes.\nNotas: [PEGA AQUÍ]"
+  - narracion: "Así se vería el resultado, con datos ficticios. Lo que falta queda marcado, no inventado. Y tú decides qué completar."
+    visual:
+      plantilla: planilla
+      datos:
+        titulo: "Acta de ejemplo (ficticia)"
+        filas:
+          - ["Tarea", "Responsable", "Fecha", "Estado"]
+          - ["Enviar cotización", "Ana", "22/12", "Pendiente"]
+          - ["Actualizar lista", "Luis", "23/12", "Pendiente"]
+          - ["Revisar contrato", "POR DEFINIR", "POR DEFINIR", "Pendiente"]
+        resaltar:
+          - {rango: "B4:C4", beat: 1}
+  - narracion: "Revisa la tabla contra tus notas y confirma los pendientes."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Ningún acuerdo *se pierde*"
+        puntos: ["Columnas fijas", "POR DEFINIR en vez de inventar", "Revisión contra tus notas"]
+        cta: "Guárdalo para tu próxima reunión"
+fuentes:
+  - calculo: "[3]"
+    respalda: "Ejemplo de acta con tres filas ficticias (nombres, fechas y tareas inventados para ilustrar). No contiene afirmaciones factuales externas; la instrucción 'POR DEFINIR; no inventes' es una buena práctica de prompting, no una garantía."
+riesgos:
+  derechos: "bajo — material propio; datos ficticios"
+  exactitud: "bajo — sin afirmaciones factuales externas; se advierte revisar contra las notas. La IA puede ignorar la instrucción de no inventar: por eso la revisión humana."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Luis", "Ana"]

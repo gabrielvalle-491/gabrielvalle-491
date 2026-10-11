@@ -50,7 +50,7 @@ escenas:
       datos:
         etiqueta: "Plantilla de prompt"
         texto: "Rol: eres asesor de atención al cliente. Tarea: redacta un correo de disculpa por un retraso. Contexto: el pedido [PEDIDO] llegará en [DÍAS] días. Formato: cinco líneas, tono cordial."
-  - narracion: "Guárdalo como plantilla base. Y revisa siempre el correo antes de enviarlo."
+  - narracion: "Guárdalo como plantilla base. Y revisa siempre el correo antes de enviarlo. Con estas cuatro piezas, tus pedidos dejan menos cosas a la suerte."
     visual:
       plantilla: cierre
       datos:

@@ -1,0 +1,80 @@
+id: A-055
+canal: canal_a
+fecha: 2026-12-12
+formato: short
+serie: El Atajo
+episodio: "#10"
+pilar: negocio
+tipo_editorial: tutorial
+idea: "Un mismo anuncio puede sonar ajeno en otro país: el trato (tú o vos) y el vocabulario cambian; se le pide a la IA que adapte y liste lo que cambió, y una persona del país lo revisa."
+objetivo: "Enseñar a adaptar mensajes comerciales a varios países de Latinoamérica con un prompt que explicita los cambios, evitando errores de trato y vocabulario."
+publico: "Dueños de pymes y community managers que venden en México, Argentina y Colombia."
+hipotesis: "Formato 'tutorial' en pilar 'negocio': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Tu anuncio suena igual en México, Argentina y Colombia?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Adapta un anuncio a México, Argentina y Colombia con IA"
+titulos_alternativos:
+  - "Un anuncio, tres países: qué palabras y trato cambiar"
+  - "Vos o tú: cómo adaptar tu mensaje a cada país"
+  - "Español neutro no basta: adapta tu mensaje por país"
+criterio_titulo: "Nombra los tres países y la herramienta; el público busca soluciones concretas para vender en varios mercados."
+descripcion: |
+  Un mismo mensaje puede necesitar cambios de trato y vocabulario según el país. Según el Diccionario panhispánico de dudas, en Argentina el trato informal usa vos, mientras que en la América no voseante se usa tú; y computador se usa mayoritariamente en Chile y Colombia, mientras que computadora predomina en la mayor parte de América.
+  Pide a la IA que adapte el texto y liste los cambios, y que una persona del país lo revise antes de publicar.
+cta: "Guárdalo antes de lanzar tu próxima campaña."
+comentario_fijado: |
+  Prompt: Adapta este anuncio para [PAÍS]: usa trato [tú / vos], vocabulario local y la moneda [MONEDA]. Conserva el sentido y lista las palabras que cambiaste. Anuncio: [PEGA AQUÍ]
+hashtags: ["#Marketing", "#Pymes", "#IA", "#Latinoamérica"]
+palabras_clave: ["adaptar mensaje por país", "vos o tú", "marketing en Latinoamérica", "localización de textos con IA"]
+escenas:
+  - narracion: "¿Tu anuncio suena igual en México, Argentina y Colombia? Casi nunca."
+    visual:
+      plantilla: hook
+      datos: {kicker: "El Atajo", titulo: "Un anuncio, *tres* países", sub: "México · Argentina · Colombia"}
+  - narracion: "En Argentina, el trato informal usa vos. En México, tú. Mismo idioma, distinto trato."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Argentina", titulo: "Trato informal", items: ["Se usa vos"]}
+        der: {etiqueta: "México", titulo: "Trato informal", items: ["Se usa tú"]}
+        veredicto: "Mismo idioma, distinto trato"
+  - narracion: "También cambian las palabras. En Colombia se usa más computador. En México, computadora. Y los tres usan pesos, pero cada país tiene el suyo."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Palabras y *moneda*"
+        estilo: check
+        items: ["Colombia: computador", "México: computadora", "Tres países, tres pesos distintos"]
+  - narracion: "Pídele a la IA que adapte el texto y liste lo que cambió."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Adapta este anuncio para [PAÍS]: usa trato [TÚ / VOS], vocabulario local y la moneda [MONEDA]. Conserva el sentido y lista las palabras que cambiaste.\nAnuncio: [PEGA AQUÍ]"
+  - narracion: "Después, que lo revise una persona de ese país."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Adapta, lista y *revisa*"
+        puntos: ["Trato: tú o vos", "Vocabulario local", "Revisión de alguien del país"]
+        cta: "Guárdalo para tu campaña"
+fuentes:
+  - url: "https://www.rae.es/dpd/vos"
+    titulo: "vos (Diccionario panhispánico de dudas, RAE y ASALE)"
+    fecha_consulta: 2026-10-11
+    respalda: "En Argentina, Paraguay y parte de Uruguay, vos es la forma de tratamiento informal; en la América no voseante se usa tú."
+  - url: "https://www.rae.es/dpd/computador"
+    titulo: "computador (Diccionario panhispánico de dudas, RAE y ASALE)"
+    fecha_consulta: 2026-10-11
+    respalda: "Computadora es lo preferido en la mayoría de los países de América; computador es de uso mayoritario en Chile y Colombia."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — se afirma solo el contraste vos/tú (Argentina/México) y computador/computadora (Colombia/México) según el DPD; en la práctica hay variación regional dentro de cada país (p. ej., voseo regional en Colombia). Pedir revisión de hablantes de cada país antes de publicar."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

@@ -26,7 +26,7 @@ comentario_fijado: "Prompt: Eres redactor para [RUBRO]. Mi cliente ideal es [CLI
 hashtags: ["#Prompts", "#IA", "#Pymes"]
 palabras_clave: ["contexto en prompts", "textos genéricos IA", "prompt para negocios", "marketing con IA"]
 escenas:
-  - narracion: "Si la IA te responde para *cualquiera*, el error está en tu prompt."
+  - narracion: "Si la IA te responde para *cualquiera*, el error está en tu prompt. Así sale un texto genérico, igual para todos."
     visual:
       plantilla: hook
       datos: {kicker: "Error común", titulo: "Sin contexto, responde para *cualquiera*"}
@@ -43,7 +43,7 @@ escenas:
       datos:
         etiqueta: "Plantilla de prompt"
         texto: "Eres redactor para [RUBRO]. Mi cliente ideal es [CLIENTE]. Mi tono es [TONO]. Escribe [TAREA]. Evita [LO QUE NO QUIERES]."
-  - narracion: "Rubro, cliente, tono y límites. Cuatro datos, y la respuesta deja de ser para cualquiera. Revisa el texto antes de publicar."
+  - narracion: "Rubro, cliente, tono y límites. Cuatro datos, y la respuesta deja de ser para cualquiera. Revisa el texto antes de publicar. Dáselos una vez y guarda la plantilla."
     visual:
       plantilla: lista
       datos:

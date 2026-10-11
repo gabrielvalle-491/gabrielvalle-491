@@ -14,3 +14,10 @@ pero las rutas de menú de aplicaciones de terceros cambian y no siempre tienen 
 | B-013 | Nombre "Relleno rápido" y atajo Ctrl + E en Excel en español | Documentación consultada en inglés |
 | B-014 | Texto del aviso del triángulo verde ("Convertir en número") | No se confirmó el texto exacto del menú; el guion lo describe sin nombrar el botón |
 | B-007 | Nombre de TEXTJOIN en Google Sheets en español | Se usó el nombre en inglés |
+| A-035 | Explicación causal de alucinaciones (OpenAI, "Why language models hallucinate") | Leída solo en resultados de búsqueda |
+| A-039 | Resumen de NIST SP 1270 (sesgo técnico, humano y sistémico) | Leído solo en resúmenes |
+| A-041 | "100 tokens ≈ 75 palabras en inglés" y relación tokens-conteo de letras | Explicación parcial; se mantiene "puede fallar" |
+| A-045 | Preprint arXiv 2603.03299 citado como fuente | Confirmar disponibilidad y contenido |
+| A-046 | Guía de OpenAI sobre modelos de razonamiento ("a la fecha") | Puede haber cambiado |
+| A-047 | Limitaciones de lectura de imágenes según ayuda de OpenAI | Varias versiones de la página |
+| A-040 | "Comillas triples" (curso DeepLearning.AI) | La fuente oficial verificada habla de etiquetas XML |

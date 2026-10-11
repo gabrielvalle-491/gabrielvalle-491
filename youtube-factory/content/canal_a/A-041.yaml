@@ -26,7 +26,7 @@ comentario_fijado: "Para contar letras o palabras con exactitud, usa una planill
 hashtags: ["#IA", "#Tokens", "#GlosarioIA"]
 palabras_clave: ["qué es un token", "tokens en inteligencia artificial", "cuántas palabras es un token", "ventana de contexto"]
 escenas:
-  - narracion: "La IA no lee palabras: lee trozos llamados *tokens*."
+  - narracion: "La IA no lee palabras: lee trozos llamados *tokens*. Y eso explica varias cosas raras."
     visual:
       plantilla: hook
       datos: {kicker: "Glosario rápido", titulo: "La IA lee *tokens*, no palabras", sub: "Qué es un token"}
@@ -44,7 +44,7 @@ escenas:
           - {etiqueta: "Tokens", valor: 100, destacado: true}
           - {etiqueta: "Palabras", valor: 75}
         nota: "Aproximado, según la ayuda de OpenAI"
-  - narracion: "Por eso contar letras puede fallar: el modelo no recibe letras sueltas, sino trozos. Para contar con exactitud, usa una planilla."
+  - narracion: "Por eso contar letras puede fallar: el modelo no recibe letras sueltas, sino trozos. Para contar con exactitud, usa una planilla. Y cuando una herramienta hable de límites de tokens, piensa en trozos, no en palabras."
     visual:
       plantilla: cierre
       datos:

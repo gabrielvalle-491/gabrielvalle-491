@@ -1,0 +1,71 @@
+id: A-054
+canal: canal_a
+fecha: 2026-12-11
+formato: short
+serie: Glosario rápido
+episodio: "#04"
+pilar: conceptos
+tipo_editorial: contraintuitivo
+idea: "Un agente de IA no es un chatbot más listo: recibe un objetivo, decide los pasos y usa herramientas; por eso necesita permisos acotados y revisión humana."
+objetivo: "Definir 'agente' con la distinción de Anthropic (el modelo dirige su propio proceso y uso de herramientas) y dar una regla de prudencia."
+publico: "Profesionales que escuchan 'agentes de IA' en noticias y herramientas y no tienen claro qué cambia respecto de un chatbot."
+hipotesis: "Formato 'contraintuitivo' en pilar 'conceptos': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Un agente de IA no es un chatbot más inteligente."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Qué es un agente de IA (y en qué se diferencia de un chatbot)"
+titulos_alternativos:
+  - "Agente de IA vs chatbot: la diferencia en 40 segundos"
+  - "Un chatbot responde; un agente ejecuta pasos con herramientas"
+  - "Agentes de IA explicados sin tecnicismos"
+criterio_titulo: "Nombra el término en auge y la comparación que el público busca; es claro y buscable."
+descripcion: |
+  Un chatbot responde con texto a lo que le escribes. Un agente recibe un objetivo, decide qué pasos dar y usa herramientas (buscar, leer archivos, ejecutar acciones) para cumplirlo.
+  Según Anthropic, en los agentes el modelo dirige su propio proceso y uso de herramientas. Más autonomía exige más cuidado: da permisos acotados y revisa lo que hizo.
+cta: "Guárdalo para cuando te ofrezcan un agente."
+comentario_fijado: "Fuente de la definición: 'Building effective agents' (Anthropic). ¿Qué tarea repetitiva le delegarías a un agente, con revisión tuya al final?"
+hashtags: ["#AgentesDeIA", "#IA", "#Glosario"]
+palabras_clave: ["qué es un agente de IA", "agente vs chatbot", "agentes de IA explicados", "herramientas de IA"]
+escenas:
+  - narracion: "Un agente de IA no es un chatbot más inteligente. Es otra cosa."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Glosario rápido", titulo: "Agente de IA ≠ *chatbot* listo", sub: "Cuál es la diferencia"}
+  - narracion: "Un chatbot responde con texto a lo que le escribes. Un agente recibe un objetivo y decide los pasos, usando herramientas. Según Anthropic, el modelo dirige su propio proceso y cómo cumple la tarea."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Chatbot", titulo: "Responde", items: ["Texto a tu pregunta", "Tú das cada paso"]}
+        der: {etiqueta: "Agente", titulo: "Ejecuta", items: ["Recibe un objetivo", "Decide pasos y usa herramientas"]}
+        veredicto: "El modelo dirige su proceso (Anthropic)"
+  - narracion: "Primero, planea los pasos. Luego usa herramientas, como buscar o leer archivos. Y revisa el resultado hasta cumplir el objetivo."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Cómo *trabaja* un agente"
+        pasos:
+          - {titulo: "Planea", detalle: "Divide el objetivo en pasos"}
+          - {titulo: "Usa herramientas", detalle: "Buscar, leer archivos, ejecutar"}
+          - {titulo: "Revisa", detalle: "Repite hasta cumplir el objetivo"}
+  - narracion: "Más autonomía exige más cuidado: da permisos acotados y revisa lo que hizo."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Más autonomía, más *cuidado*"
+        puntos: ["Objetivo claro", "Permisos acotados", "Revisión humana al final"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://www.anthropic.com/research/building-effective-agents"
+    titulo: "Building effective agents (Anthropic)"
+    fecha_consulta: 2026-10-11
+    respalda: "Anthropic distingue workflows (modelos y herramientas orquestados por rutas de código predefinidas) de agentes (el modelo dirige dinámicamente su propio proceso y uso de herramientas, manteniendo el control sobre cómo cumple las tareas); recomienda la solución más simple posible y señala que los sistemas agénticos suelen intercambiar latencia y costo por mejor desempeño."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — la definición de 'agente' varía entre empresas; el video usa la de Anthropic y lo declara. Verificar redacción antes de publicar."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

@@ -1,0 +1,66 @@
+id: A-057
+canal: canal_a
+fecha: 2026-12-14
+formato: short
+serie: Truco rápido
+episodio: "#05"
+pilar: prompts
+tipo_editorial: tutorial
+idea: "Terminar el prompt con 'antes de responder, hazme hasta 5 preguntas' hace que la IA pida los datos que le faltan y la respuesta final sea más específica; el límite de preguntas evita interrogatorios."
+objetivo: "Dar una frase reutilizable que mejora cualquier consulta compleja y enseñar a responder las preguntas de forma eficiente."
+publico: "Usuarios de IA que reciben respuestas genéricas porque no saben qué contexto aportar."
+hipotesis: "Formato 'tutorial' en pilar 'prompts': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Termina tu prompt con una frase y la IA te pide lo que le falta."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Truco: que la IA te haga preguntas antes de responder"
+titulos_alternativos:
+  - "Una frase final para respuestas de IA menos genéricas"
+  - "Si la IA te responde genérico, usa esta frase"
+  - "Deja que la IA te entreviste antes de escribir"
+criterio_titulo: "Describe el truco y el beneficio con lenguaje cotidiano; promete exactamente lo que se enseña."
+descripcion: |
+  Agrega al final de tu prompt: "Antes de responder, hazme hasta 5 preguntas que necesites, en una lista numerada". La IA te pedirá los datos que faltan y luego dará una respuesta más específica.
+  Es una técnica práctica: el resultado varía según el asistente y la tarea. No compartas datos sensibles al responder.
+cta: "Pruébalo hoy en tu próxima consulta."
+comentario_fijado: "Frase para copiar: Antes de responder, hazme hasta 5 preguntas que necesites para hacerlo bien, en una lista numerada."
+hashtags: ["#Prompts", "#IA", "#TrucoRápido"]
+palabras_clave: ["prompt para que la IA pregunte", "respuestas genéricas de IA", "cómo escribir prompts", "truco de IA"]
+escenas:
+  - narracion: "Termina tu prompt con una frase y la IA te pide lo que le falta."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Truco rápido", titulo: "Que la IA te haga *preguntas*", sub: "Antes de responder"}
+  - narracion: "La frase es esta: antes de responder, hazme hasta cinco preguntas. Ponle un límite, para que no sea un interrogatorio."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Necesito [OBJETIVO] para [PÚBLICO]. Antes de responder, hazme hasta 5 preguntas que necesites para hacerlo bien, en una lista numerada."
+  - narracion: "Contesta cada pregunta en una línea. Si no sabes algo, dilo y pídele que proponga un supuesto. Y no compartas datos sensibles."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Al *responder* sus preguntas"
+        estilo: check
+        items: ["Una línea por pregunta", "Si no sabes, pide un supuesto", "Sin datos sensibles"]
+  - narracion: "Con tus respuestas, la salida deja de ser genérica."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Preguntas primero, *respuesta* después"
+        puntos: ["Límite de preguntas", "Respuestas breves", "Resultado más específico"]
+        cta: "Pruébalo hoy"
+fuentes:
+  - calculo: "[5]"
+    respalda: "Técnica de prompting sin cifras factuales: el límite de 5 preguntas es una elección práctica del ejemplo. Los resultados varían según el asistente y la tarea; no se afirma un porcentaje de mejora."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — la afirmación 'respuestas más específicas' es una técnica práctica sin fuente citada; el comportamiento varía entre asistentes. Probar el prompt en al menos dos asistentes antes de publicar."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

@@ -26,7 +26,7 @@ comentario_fijado: "Prompt: Estas son transcripciones de llamadas con clientes. 
 hashtags: ["#Pymes", "#AtenciónAlCliente", "#IA"]
 palabras_clave: ["preguntas frecuentes con IA", "crear FAQ", "transcripción de llamadas", "IA para atención al cliente"]
 escenas:
-  - narracion: "¿Tus clientes preguntan siempre lo mismo? Conviértelo en una *FAQ*."
+  - narracion: "¿Tus clientes preguntan siempre lo mismo? Conviértelo en una *FAQ*. Esas llamadas ya traen las preguntas reales."
     visual:
       plantilla: hook
       datos: {kicker: "Caso pyme", titulo: "De llamadas a *preguntas frecuentes*", sub: "Con IA y sin inventar"}
@@ -43,7 +43,7 @@ escenas:
         titulo: "Antes y después del *prompt*"
         estilo: check
         items: ["Quita datos personales", "Revisa cada respuesta", "Confirma precios y políticas"]
-  - narracion: "Publica la FAQ en tu web o tu WhatsApp, y actualízala cuando cambien las preguntas."
+  - narracion: "Publica la FAQ en tu web o tu WhatsApp, y actualízala cuando cambien las preguntas. Cada mes, revisa si aparecen preguntas nuevas."
     visual:
       plantilla: cierre
       datos:

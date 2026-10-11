@@ -26,7 +26,7 @@ comentario_fijado: "Prompt: Soy [ROL] en un negocio de [RUBRO]. Mi cliente típi
 hashtags: ["#Ventas", "#Pymes", "#IA"]
 palabras_clave: ["objeciones de ventas", "está caro cómo responder", "guion de ventas con IA", "IA para pymes"]
 escenas:
-  - narracion: "Cuando te dicen *está caro*, ¿bajas el precio o preguntas?"
+  - narracion: "Cuando te dicen *está caro*, ¿bajas el precio o preguntas? Prepara tus respuestas antes de la llamada."
     visual:
       plantilla: hook
       datos: {kicker: "Caso pyme", titulo: "«Está caro» y «lo pienso»", sub: "Prepara tus respuestas con IA"}
@@ -43,7 +43,7 @@ escenas:
       datos:
         etiqueta: "Plantilla de prompt"
         texto: "Soy [ROL] en un negocio de [RUBRO]. Mi cliente típico es [CLIENTE]. Escribe 3 respuestas breves y honestas a \"está caro\" y 3 a \"lo pienso\". Empieza con una pregunta. Sin presión."
-  - narracion: "Elige las que suenen a ti, ensáyalas en voz alta y no prometas lo que no puedes cumplir."
+  - narracion: "Elige las que suenen a ti, ensáyalas en voz alta y no prometas lo que no puedes cumplir. Con *lo pienso*, pregunta qué información le falta para decidir."
     visual:
       plantilla: cierre
       datos:

@@ -26,11 +26,11 @@ comentario_fijado: "Prompt: Reescribe el texto de abajo. Criterio: [MÁS CORTO /
 hashtags: ["#Prompts", "#IA", "#Productividad"]
 palabras_clave: ["cómo mejorar un texto con IA", "errores al escribir prompts", "prompt para reescribir", "mejorar respuestas de ChatGPT"]
 escenas:
-  - narracion: "Pedirle *hazlo mejor* a la IA es pedirle que adivine."
+  - narracion: "Pedirle *hazlo mejor* a la IA es pedirle que adivine. ¿Mejor es más corto, más formal o con datos?"
     visual:
       plantilla: hook
       datos: {kicker: "Error común", titulo: "«Hazlo mejor» no dice *qué* mejorar"}
-  - narracion: "Con hazlo mejor, la IA decide qué es mejor. Con un criterio, sabe qué cambiar. Por ejemplo: redúcelo a tres líneas, con tono formal."
+  - narracion: "Con hazlo mejor, la IA decide qué es mejor. Con un criterio, sabe qué cambiar. Por ejemplo: redúcelo a tres líneas, con tono formal. Y tú puedes comprobar si lo cumplió."
     visual:
       plantilla: versus
       datos:
@@ -44,7 +44,7 @@ escenas:
         titulo: "Define qué es *mejor*"
         estilo: num
         items: ["Largo: más corto o más largo", "Tono: formal o cercano", "Contenido: con datos o ejemplos", "Público: para quién lo lees"]
-  - narracion: "Dile también qué no debe cambiar. Y compara con tu versión original."
+  - narracion: "Dile también qué no debe cambiar. Y compara con tu versión original. Así sabes si de verdad mejoró."
     visual:
       plantilla: cierre
       datos:

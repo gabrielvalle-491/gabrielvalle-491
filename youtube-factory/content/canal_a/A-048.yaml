@@ -26,7 +26,7 @@ comentario_fijado: "Prompt: Lee este correo y redacta 3 respuestas: 1) formal, 2
 hashtags: ["#Prompts", "#IA", "#Productividad"]
 palabras_clave: ["responder correos con IA", "prompt para correos", "borrador de respuesta", "IA para el trabajo"]
 escenas:
-  - narracion: "¿Un correo largo y poco tiempo? Pide *tres respuestas* distintas."
+  - narracion: "¿Un correo largo y poco tiempo? Pide *tres respuestas* distintas. Tú eliges y ajustas."
     visual:
       plantilla: hook
       datos: {kicker: "El Atajo", titulo: "Un correo largo, *tres respuestas*", sub: "Formal, breve y con propuesta"}
@@ -37,13 +37,13 @@ escenas:
         izq: {etiqueta: "Formal", titulo: "Tono cuidado", items: ["Saludo y cierre completos", "Para contactos nuevos"]}
         der: {etiqueta: "Breve", titulo: "Directa", items: ["Una idea por línea", "Para contactos frecuentes"]}
         veredicto: "La tercera añade una propuesta"
-  - narracion: "Este es el prompt. Pega el correo y cambia tu propuesta, por ejemplo, una fecha para reunirse."
+  - narracion: "Este es el prompt. Pega el correo y cambia tu propuesta, por ejemplo, una fecha para reunirse. La IA solo debe usar datos del correo."
     visual:
       plantilla: prompt
       datos:
         etiqueta: "Plantilla de prompt"
         texto: "Lee este correo y redacta 3 respuestas: 1) formal, 2) breve de 3 líneas, 3) con una propuesta concreta: [PROPUESTA]. Usa solo datos del correo.\nCorreo: [PEGA AQUÍ]"
-  - narracion: "Elige una, ajusta el tono a tu estilo y revisa nombres, fechas y compromisos. Quita datos personales antes de pegar."
+  - narracion: "Elige una, ajusta el tono a tu estilo y revisa nombres, fechas y compromisos. Quita datos personales antes de pegar. Así respondes más rápido, sin enviar nada que no hayas leído."
     visual:
       plantilla: cierre
       datos:

@@ -26,7 +26,7 @@ comentario_fijado: "Prompt: Actúa como abogado del diablo. Mi idea: [IDEA]. Dam
 hashtags: ["#Prompts", "#IA", "#Productividad"]
 palabras_clave: ["abogado del diablo", "prompt para criticar ideas", "preparar una presentación", "IA en el trabajo"]
 escenas:
-  - narracion: "Antes de presentar tu idea, pídele a la IA que la *ataque*."
+  - narracion: "Antes de presentar tu idea, pídele a la IA que la *ataque*. Así llegas sabiendo qué te van a objetar."
     visual:
       plantilla: hook
       datos: {kicker: "Truco rápido", titulo: "Pide objeciones, *no elogios*", sub: "Prompt abogado del diablo"}
@@ -36,7 +36,7 @@ escenas:
       datos:
         etiqueta: "Plantilla de prompt"
         texto: "Actúa como abogado del diablo. Mi idea: [IDEA]. Dame 5 objeciones fuertes que pondría [JEFE, CLIENTE O SOCIO], de la más a la menos peligrosa. Indica qué dato respondería cada una. No me elogies."
-  - narracion: "Elige las dos objeciones más probables. Prepara una respuesta con datos reales. Y descarta las que no aplican a tu caso."
+  - narracion: "Elige las dos objeciones más probables. Prepara una respuesta con datos reales, no con adjetivos. Y descarta las que no aplican a tu caso."
     visual:
       plantilla: lista
       datos:

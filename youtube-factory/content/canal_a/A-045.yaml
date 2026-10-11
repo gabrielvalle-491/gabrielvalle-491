@@ -26,7 +26,7 @@ comentario_fijado: "Checklist: 1) ¿El enlace abre? 2) ¿La página dice lo que 
 hashtags: ["#IA", "#Verificación", "#IASinHumo"]
 palabras_clave: ["IA inventa citas", "referencias falsas ChatGPT", "verificar fuentes de la IA", "alucinaciones en enlaces"]
 escenas:
-  - narracion: "Ese enlace que te dio la IA puede *no existir*."
+  - narracion: "Ese enlace que te dio la IA puede *no existir*. O no decir lo que afirma."
     visual:
       plantilla: hook
       datos: {kicker: "Error común", titulo: "¿El enlace de la IA es *real*?", sub: "Compruébalo antes de citarlo"}
@@ -51,7 +51,7 @@ escenas:
         titulo: "Señales de *alerta*"
         estilo: x
         items: ["Enlace que no abre", "Autor que no aparece", "Cita demasiado perfecta"]
-  - narracion: "Si no puedes comprobarla, no la cites."
+  - narracion: "Si no puedes comprobarla, no la cites. Es mejor una fuente verificada que diez dudosas."
     visual:
       plantilla: cierre
       datos:

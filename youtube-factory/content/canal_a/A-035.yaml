@@ -26,7 +26,7 @@ comentario_fijado: "Prompt: Responde solo si estás seguro. Si no tienes informa
 hashtags: ["#IA", "#Alucinaciones", "#Prompts"]
 palabras_clave: ["alucinaciones de la IA", "por qué la IA inventa datos", "cómo evitar que la IA invente", "prompt para ChatGPT"]
 escenas:
-  - narracion: "La IA no te miente: completa con lo más *probable*. Por eso a veces inventa datos."
+  - narracion: "La IA no te miente: completa con lo más *probable*. Por eso a veces inventa datos que suenan muy convincentes."
     visual:
       plantilla: hook
       datos: {kicker: "IA sin humo", titulo: "La IA no miente: *predice*", sub: "Y por eso puede inventar"}
