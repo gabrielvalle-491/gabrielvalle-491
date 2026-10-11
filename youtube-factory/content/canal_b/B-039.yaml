@@ -1,0 +1,125 @@
+id: B-039
+canal: canal_b
+fecha: '2026-11-26'
+formato: short
+serie: Truco de formato
+episodio: '#02'
+pilar: trabajo
+tipo_editorial: tutorial
+idea: Un formato de número personalizado muestra 1 500 como 1,5 k sin cambiar el valor de la celda, y el código depende de la configuración regional (coma o punto decimal).
+objetivo: Truco de formato buscable que además aclara la diferencia de códigos según la región.
+publico: Personas que arman reportes con cifras grandes y quieren verlas compactas.
+hipotesis: 'Formato ''tutorial'' en pilar ''trabajo'': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje).'
+gancho: Haz que 1 500 se vea como 1,5 k, sin cambiar el valor.
+duracion_objetivo: 35-55 s (≈85-140 palabras)
+titulo: Mostrar miles como 1,5 k en Excel sin cambiar el valor
+titulos_alternativos:
+- 'Formato personalizado de Excel: números en miles (k)'
+- Cómo abreviar miles en Excel sin perder el valor real
+- '1 500 se ve como 1,5 k: el código de formato'
+criterio_titulo: Promete un resultado visual concreto (1,5 k) y aclara que el valor no cambia.
+descripcion: |-
+  Con un formato de número personalizado, Excel muestra 1 500 como 1,5 k mientras la celda conserva el valor 1 500 para tus fórmulas. El signo final del código (punto o coma) divide lo que se ve entre mil, y cuál usar depende de la configuración regional de tu Excel.
+  El formato solo cambia cómo se ve el número, no su valor.
+cta: Pruébalo en una columna de ventas.
+comentario_fijado: 'Excel con coma decimal (AR, CO, CL, ES): 0,0. " k"   |   Excel con punto decimal (MX, EE. UU.): 0.0, " k". Selecciona las celdas > Formato de celdas > Personalizada.'
+hashtags:
+- '#Excel'
+- '#TrucosDeExcel'
+- '#Formato'
+palabras_clave:
+- formato personalizado Excel
+- mostrar miles con k
+- formato de número Excel
+escenas:
+- narracion: Haz que 1 500 se vea como 1,5 k, sin cambiar el valor.
+  visual:
+    plantilla: hook
+    datos:
+      kicker: Truco de formato
+      titulo: 1 500 se ve como *1,5 k*
+      sub: Sin cambiar el valor de la celda
+- narracion: La celda [[be dos|B2]] guarda 1 500. Resáltala. Con el formato personalizado se ve 1,5 k, pero la barra de fórmulas sigue mostrando 1 500.
+  visual:
+    plantilla: planilla
+    datos:
+      titulo: Ventas por mes
+      filas:
+      - - Mes
+        - Ventas
+      - - Ene
+        - 1,5 k
+      - - Feb
+        - 2,3 k
+      - - Mar
+        - 0,9 k
+      resaltar:
+      - rango: B2:B2
+        beat: 1
+      resultado:
+        celda: B2
+        valor: 1,5 k
+        beat: 2
+      nota: B2 guarda 1 500 · valores ilustrativos
+- narracion: Selecciona las celdas. Abre Formato de celdas con clic derecho. Elige Personalizada y pega el código.
+  visual:
+    plantilla: pasos
+    datos:
+      titulo: Cómo aplicarlo
+      pasos:
+      - titulo: Selecciona las celdas
+        detalle: La columna de cifras
+      - titulo: Formato de celdas
+        detalle: Clic derecho en la selección
+      - titulo: Personalizada
+        detalle: Pega el código en Tipo
+- narracion: Si tu Excel usa coma decimal, el código es este. Si usa punto decimal, como en México y EE. UU., es este otro. El signo del final divide lo que se ve entre mil.
+  visual:
+    plantilla: versus
+    datos:
+      titulo: El código según tu región
+      izq:
+        etiqueta: Coma decimal
+        titulo: AR, CO, CL, ES
+        items:
+        - 0,0. " k"
+      der:
+        etiqueta: Punto decimal
+        titulo: MX, EE. UU.
+        items:
+        - 0.0, " k"
+      veredicto: El signo final divide entre mil
+- narracion: El valor real sigue siendo 1 500, y tus fórmulas lo usan completo.
+  visual:
+    plantilla: cierre
+    datos:
+      titulo: Solo cambia *cómo se ve*
+      puntos:
+      - La celda sigue valiendo 1 500
+      - Tus fórmulas usan el valor completo
+      cta: Guárdalo
+fuentes:
+- url: https://support.microsoft.com/es-es/office/revisar-las-instrucciones-para-personalizar-un-formato-de-n%C3%BAmero-c0a1d1fa-d3f4-4018-96b7-9c9354dd99f5
+  titulo: Revisar las instrucciones para personalizar un formato de número (Microsoft Support)
+  fecha_consulta: '2026-10-11'
+  respalda: Un separador después de un marcador de dígito escala el número por 1 000; el símbolo depende de la configuración regional; el formato no cambia el valor real de la celda.
+- calculo: '[1500]'
+  respalda: Valor ilustrativo de la celda.
+- calculo: 1500 / 1000
+  resultado: 1.5
+  respalda: 'Lo que se ve tras dividir entre mil: 1,5 k.'
+riesgos:
+  derechos: bajo — material propio
+  exactitud: medio — el código exacto depende de la configuración regional de Excel (Windows/Mac) y no se pudo probar en cada país; revisar en un Excel con coma decimal y en otro con punto decimal antes de publicar.
+  monetizacion: bajo — educación general, sin recomendar productos
+recursos:
+- nombre: Música y efectos originales generados por la fábrica
+  licencia: propia
+declaracion_sintetica:
+  decision: declarar
+  motivo: Voz sintética realista; gráficos no realistas. Se declara por prudencia.
+costo_estimado_usd: 0
+palabras_validas:
+- Ene
+- Feb
+- Mar

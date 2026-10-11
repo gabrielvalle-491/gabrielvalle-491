@@ -1,0 +1,135 @@
+id: B-037
+canal: canal_b
+fecha: '2026-11-24'
+formato: short
+serie: Mini sistema
+episodio: '#03'
+pilar: trabajo
+tipo_editorial: tutorial
+idea: 'Un control de stock sencillo: saldo = inicial + entradas − salidas por producto, y SUMAR.SI para traer los totales desde listas de movimientos.'
+objetivo: Mini sistema práctico para pequeños negocios que llevan inventario en una planilla.
+publico: Emprendedores y encargados de tienda que quieren saber cuánto stock queda de cada producto.
+hipotesis: 'Formato ''tutorial'' en pilar ''trabajo'': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje).'
+gancho: Calcula el saldo de cada producto con una sola fórmula.
+duracion_objetivo: 35-55 s (≈85-140 palabras)
+titulo: 'Control de stock en Excel: entradas, salidas y saldo (fórmula)'
+titulos_alternativos:
+- 'Inventario en Excel: saldo = inicial + entradas − salidas'
+- Cómo llevar el stock de tu negocio en una planilla
+- Entradas y salidas de inventario con SUMAR.SI
+criterio_titulo: Describe el sistema (stock con entradas y salidas) y la herramienta (Excel), con la fórmula del saldo.
+descripcion: |-
+  Control de stock básico: stock inicial más entradas menos salidas da el saldo de cada producto. Si registras cada movimiento en otra hoja, la función SUMAR.SI trae el total por producto.
+  Cantidades ilustrativas.
+cta: Arma tu hoja de stock con tus productos.
+comentario_fijado: 'Saldo en E2: =B2+C2-D2 (inicial, entradas y salidas). Entradas desde otra hoja: =SUMAR.SI(Entradas!A:A;A2;Entradas!B:B). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;).'
+hashtags:
+- '#Excel'
+- '#Inventario'
+- '#Emprendimiento'
+palabras_clave:
+- control de stock Excel
+- inventario entradas y salidas
+- función SUMAR.SI
+escenas:
+- narracion: Calcula el saldo de cada producto con una sola fórmula. Sin recontar el almacén.
+  visual:
+    plantilla: hook
+    datos:
+      kicker: Mini sistema
+      titulo: Stock *siempre al día*
+      sub: Inicial + entradas − salidas
+- narracion: 'Anota el stock inicial, las entradas y las salidas. Resalta esas tres columnas. El cable parte con 20, entran 15 y salen 12: queda en 23.'
+  visual:
+    plantilla: planilla
+    datos:
+      formula: =B2+C2-D2
+      celda_formula: E2
+      titulo: Stock por producto
+      filas:
+      - - Producto
+        - Inicial
+        - Entradas
+        - Salidas
+        - Saldo
+      - - Cable
+        - 20
+        - 15
+        - 12
+        - ''
+      - - Mouse
+        - 30
+        - 0
+        - 18
+        - ''
+      - - Teclado
+        - 10
+        - 20
+        - 8
+        - ''
+      resaltar:
+      - rango: B2:D4
+        beat: 1
+      resultado:
+        celda: E2
+        valor: '23'
+        beat: 2
+      nota: Cantidades ilustrativas
+- narracion: El saldo es una suma y una resta. Parte del stock inicial. Suma las entradas. Y resta las salidas.
+  visual:
+    plantilla: formula
+    datos:
+      formula: =B2+C2-D2
+      titulo: Saldo
+      partes:
+      - token: B2
+        explica: stock inicial
+      - token: +C2
+        explica: más las entradas
+      - token: -D2
+        explica: menos las salidas
+- narracion: Si anotas cada movimiento en otra hoja, SUMAR.SI trae el total de entradas de cada producto.
+  visual:
+    plantilla: dato
+    datos:
+      kicker: Si registras cada movimiento
+      dato: '*SUMAR.SI* trae el total por producto'
+      contexto: =SUMAR.SI(Entradas!A:A;A2;Entradas!B:B)
+- narracion: Cambia una entrada o una salida y el saldo se actualiza solo.
+  visual:
+    plantilla: cierre
+    datos:
+      titulo: Un saldo que *se actualiza solo*
+      puntos:
+      - Inicial + entradas − salidas
+      - SUMAR.SI para listas largas
+      cta: Guárdalo
+fuentes:
+- url: https://support.microsoft.com/es-es/office/sumar-si-funci%C3%B3n-sumar-si-169b8c99-c05c-4483-a712-1697a653039b
+  titulo: SUMAR.SI (Microsoft Support)
+  fecha_consulta: '2026-10-11'
+  respalda: SUMAR.SI suma los valores de un rango que cumplen un criterio.
+- calculo: '[20, 15, 12, 30, 0, 18, 10, 20, 8]'
+  respalda: Cantidades ilustrativas del inventario del ejemplo.
+- calculo: 20 + 15 - 12
+  resultado: 23
+  respalda: 'Saldo del cable: inicial más entradas menos salidas.'
+riesgos:
+  derechos: bajo — material propio
+  exactitud: bajo — aritmética verificada automáticamente; SUMAR.SI documentada por Microsoft.
+  monetizacion: bajo — educación general, sin recomendar productos
+recursos:
+- nombre: Música y efectos originales generados por la fábrica
+  licencia: propia
+declaracion_sintetica:
+  decision: declarar
+  motivo: Voz sintética realista; gráficos no realistas. Se declara por prudencia.
+costo_estimado_usd: 0
+palabras_validas:
+- Mouse
+- SUMAR.SI
+- Stock
+- stock
+- Inicial
+- Entradas
+- Salidas

@@ -1,0 +1,99 @@
+id: B-046
+canal: canal_b
+fecha: '2026-12-03'
+formato: short
+serie: Error que todos cometen
+episodio: '#09'
+pilar: errores
+tipo_editorial: error_comun
+idea: Tener datos, cálculos y reporte en la misma hoja facilita pisar fórmulas y dificulta revisar; separar en hojas Datos, Cálculos y Reporte ordena el libro.
+objetivo: Enseñar una estructura de libro simple que previene errores y facilita el mantenimiento.
+publico: Personas que arman planillas que crecen con el tiempo (ventas, gastos, inventario).
+hipotesis: 'Formato ''error_comun'' en pilar ''errores'': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje).'
+gancho: Todo en una sola hoja es cómodo, hasta que pisas una fórmula.
+duracion_objetivo: 35-55 s (≈85-140 palabras)
+titulo: 'Datos, cálculos y reporte en hojas separadas: ordena tu Excel'
+titulos_alternativos:
+- Por qué no debes mezclar datos y fórmulas en la misma hoja
+- 'Estructura de un libro de Excel: Datos, Cálculos y Reporte'
+- El error de las planillas desordenadas y cómo evitarlo
+criterio_titulo: Nombra el error y promete la estructura que lo evita.
+descripcion: |-
+  Una estructura simple para tus libros de Excel: una hoja Datos (lo que escribes o importas, una fila por registro), una hoja Cálculos (fórmulas y supuestos como tasas) y una hoja Reporte (lo que lees o compartes).
+  Es una práctica de orden, no una regla obligatoria: adáptala al tamaño de tu planilla.
+cta: Crea hoy las tres hojas en tu próximo libro.
+comentario_fijado: 'Estructura sugerida: hoja Datos, hoja Cálculos, hoja Reporte. Las fórmulas del reporte leen de Cálculos, y estas leen de Datos.'
+hashtags:
+- '#Excel'
+- '#Planillas'
+- '#ErroresDeExcel'
+palabras_clave:
+- ordenar libro de Excel
+- separar datos y cálculos
+- buenas prácticas planillas
+escenas:
+- narracion: Todo en una sola hoja es cómodo, hasta que pisas una fórmula. Hay una forma más segura.
+  visual:
+    plantilla: hook
+    datos:
+      kicker: Error que todos cometen
+      titulo: Datos y cálculos *en la misma hoja*
+      sub: Un día, algo se rompe
+- narracion: 'Hoja Datos: lo que escribes o importas, una fila por registro. Hoja Cálculos: fórmulas y supuestos, como tasas. Hoja Reporte: lo que lees o compartes.'
+  visual:
+    plantilla: lista
+    datos:
+      titulo: Tres hojas, tres funciones
+      estilo: num
+      items:
+      - texto: Datos
+        detalle: Lo que escribes o importas
+      - texto: Cálculos
+        detalle: Fórmulas y tasas
+      - texto: Reporte
+        detalle: Lo que lees o compartes
+- narracion: Todo junto, al pegar datos nuevos puedes pisar una fórmula. Separado, pegas solo en Datos y el resto se recalcula. Así encuentras errores más rápido.
+  visual:
+    plantilla: versus
+    datos:
+      titulo: Pegar datos nuevos
+      izq:
+        etiqueta: Todo junto
+        titulo: Una sola hoja
+        items:
+        - Puedes pisar una fórmula
+        - Cuesta ver de dónde viene un número
+      der:
+        etiqueta: Separado
+        titulo: Tres hojas
+        items:
+        - Pegas solo en Datos
+        - El resto se recalcula
+      veredicto: Menos errores, más fácil de revisar
+- narracion: 'Empieza hoy: crea las tres hojas con esos nombres y mueve tus fórmulas a Cálculos.'
+  visual:
+    plantilla: cierre
+    datos:
+      titulo: Entradas, cálculos y *reportes*
+      puntos:
+      - Crea las tres hojas
+      - Mueve las fórmulas a Cálculos
+      cta: Guárdalo
+fuentes:
+- url: https://support.microsoft.com/es-es/office/instrucciones-para-organizar-y-dar-formato-a-datos-en-una-hoja-de-c%C3%A1lculo-90895cad-6c85-4e02-90d3-8798660166e3
+  titulo: Instrucciones para organizar y dar formato a los datos de una hoja de cálculo (Microsoft Support)
+  fecha_consulta: '2026-10-11'
+  respalda: Los datos tabulares se organizan con una fila de encabezados y un registro por fila; evitar filas en blanco dentro del rango.
+riesgos:
+  derechos: bajo — material propio
+  exactitud: bajo — es una práctica de organización, presentada como tal (no como norma); sin cifras.
+  monetizacion: bajo — educación general, sin recomendar productos
+recursos:
+- nombre: Música y efectos originales generados por la fábrica
+  licencia: propia
+declaracion_sintetica:
+  decision: declarar
+  motivo: Voz sintética realista; gráficos no realistas. Se declara por prudencia.
+costo_estimado_usd: 0
+palabras_validas:
+- Cálculos

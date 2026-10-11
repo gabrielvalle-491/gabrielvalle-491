@@ -30,3 +30,11 @@ pero las rutas de menú de aplicaciones de terceros cambian y no siempre tienen 
 | A-061 | Disponibilidad de modelos por plataforma | Cambia con frecuencia |
 | A-063 | 26 % de aciertos, 9 % falsos positivos y retiro del clasificador de OpenAI (20-jul-2023) | Visto en resumen de búsqueda; revisar el original |
 | A-052 | Script Python de renombrado en Windows/macOS | Probado solo en Linux (modo simulación por defecto) |
+| B-049 | Equivalencias VLOOKUP=BUSCARV, COUNTIFS=CONTAR.SI.CONJUNTO, NETWORKDAYS=DIAS.LAB | Comprobar en un Excel en español |
+| B-052 | GOOGLEFINANCE("CURRENCY:USDMXN") y demora de hasta 20 min | Probar la fórmula en una hoja real |
+| B-053 | Menús Insertar > gráfico de barras apiladas en español | No verificado en interfaz en español |
+| B-056 | Roles y botón Compartir en Sheets (cuenta personal vs Workspace) | Puede variar |
+| B-057 | DIAS.LAB cuenta ambos extremos; resultado esperado 7 | Probar con las fechas del ejemplo |
+| B-060 | Disponibilidad de TRADUCIR/STOCKHISTORY en Excel | Cambia por versión |
+| B-061 | La validación no siempre actúa sobre datos pegados | Sin página oficial |
+| B-063 | Inicio > Formato condicional > Barras de datos (nombres en español) | Ayuda consultada en inglés |

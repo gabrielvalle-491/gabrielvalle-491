@@ -1,0 +1,76 @@
+id: A-070
+canal: canal_a
+fecha: 2026-12-27
+formato: short
+serie: El Atajo
+episodio: "#14"
+pilar: prompts
+tipo_editorial: tutorial
+idea: "Para pasar un mensaje o correo desordenado a una tabla de tareas, fija las columnas, el formato de fecha y los valores permitidos de estado; así la salida se puede filtrar y pegar en una planilla."
+objetivo: "Dar un prompt reutilizable con columnas y valores fijos que produce una tabla consistente, y recordar la revisión contra el texto original."
+publico: "Administrativos, coordinadores y dueños de pymes que reciben tareas en mensajes o correos largos."
+hipotesis: "Formato 'tutorial' en pilar 'prompts': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Un mensaje largo con tareas sueltas y nadie sabe quién hace qué."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "De un mensaje a tabla de tareas con IA: columnas fijas"
+titulos_alternativos:
+  - "Prompt para convertir correos en tareas con responsable y fecha"
+  - "Tabla de tareas con IA: estados que sí se pueden filtrar"
+  - "Que la IA te devuelva siempre la misma tabla"
+criterio_titulo: "Nombra el resultado (tabla de tareas) y el truco diferencial (columnas fijas); es buscable y práctico."
+descripcion: |
+  Pide a la IA una tabla con cuatro columnas fijas (tarea, responsable, fecha y estado), la fecha en formato AAAA-MM-DD y solo tres estados permitidos. Así puedes filtrar y pegar el resultado en una planilla.
+  Los datos del ejemplo son ficticios. Si falta responsable o fecha, pide que escriba POR DEFINIR en lugar de inventar. Revisa cada fila contra el mensaje original y evita pegar información confidencial.
+cta: "Guárdalo para tu próximo correo largo."
+comentario_fijado: |
+  Prompt: Del siguiente texto, extrae las tareas en una tabla con columnas fijas: Tarea | Responsable | Fecha (AAAA-MM-DD) | Estado (Pendiente, En curso o Hecho). Una fila por tarea. Si falta un dato, escribe POR DEFINIR; no inventes. Texto: [PEGA AQUÍ]
+hashtags: ["#Productividad", "#IA", "#Prompts"]
+palabras_clave: ["texto a tabla con IA", "tabla de tareas", "prompt para extraer tareas", "responsables y fechas"]
+escenas:
+  - narracion: "Un mensaje largo, tareas sueltas y nadie sabe quién hace qué. Conviértelo en una tabla."
+    visual:
+      plantilla: hook
+      datos: {kicker: "El Atajo", titulo: "Mensaje desordenado → *tabla de tareas*", sub: "Columnas fijas"}
+  - narracion: "Parte de un texto así: Ana envía la cotización, Luis revisa el contrato, falta quién actualice la lista."
+    visual:
+      plantilla: texto
+      datos: {titulo: "Mensaje de ejemplo (ficticio)", texto: "«Ana envía la cotización, Luis revisa el contrato y falta alguien que actualice la lista.»"}
+  - narracion: "En el prompt, fija las cuatro columnas y el formato de fecha. Limita el estado a tres valores. Y que escriba POR DEFINIR lo que falte."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Extrae las tareas en una tabla: Tarea | Responsable | Fecha (AAAA-MM-DD) | Estado (Pendiente, En curso o Hecho). Una fila por tarea. Si falta un dato, escribe POR DEFINIR; no inventes.\nTexto: [PEGA AQUÍ]"
+  - narracion: "Así queda, con datos ficticios. Una fila por tarea, y los estados se pueden filtrar. Lo que falta aparece marcado."
+    visual:
+      plantilla: planilla
+      datos:
+        titulo: "Tabla de ejemplo (ficticia)"
+        filas:
+          - ["Tarea", "Responsable", "Fecha", "Estado"]
+          - ["Enviar cotización", "Ana", "2027-01-11", "Pendiente"]
+          - ["Revisar contrato", "Luis", "POR DEFINIR", "En curso"]
+          - ["Actualizar lista", "POR DEFINIR", "POR DEFINIR", "Pendiente"]
+        resaltar:
+          - {rango: "B3:C4", beat: 2}
+  - narracion: "Revisa cada fila contra el mensaje original."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Columnas fijas, *revisión* humana"
+        puntos: ["Cuatro columnas fijas", "Fecha AAAA-MM-DD", "Tres estados permitidos"]
+        cta: "Guárdalo para tu próximo correo largo"
+fuentes:
+  - calculo: "[3]"
+    respalda: "Ejemplo de tabla con tres filas ficticias (nombres, tareas y fechas inventados para ilustrar). Sin afirmaciones factuales externas; 'no inventes' y 'POR DEFINIR' son buenas prácticas de prompting, no garantías: la IA puede ignorarlas."
+riesgos:
+  derechos: "bajo — material propio; datos ficticios"
+  exactitud: "bajo — sin afirmaciones factuales externas; se advierte revisar contra el texto original. El ejemplo se parece temáticamente a A-062 (acta de reunión), pero el ángulo es distinto: valores fijos para filtrar en una planilla."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Ana", "Luis", "AAAA"]

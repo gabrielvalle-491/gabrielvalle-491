@@ -1,0 +1,75 @@
+id: A-073
+canal: canal_a
+fecha: 2026-12-30
+formato: short
+serie: Error común
+episodio: "#06"
+pilar: seguridad
+tipo_editorial: error_comun
+idea: "Pegar datos sensibles en un chatbot es un error común: OpenAI pide no compartir información sensible; antes de pegar, reemplaza lo identificable por etiquetas."
+objetivo: "Dar una regla clara de qué no pegar y una técnica de anonimización de 10 segundos que cualquiera puede aplicar."
+publico: "Trabajadores y dueños de pymes que usan chatbots con documentos, correos o datos de clientes."
+hipotesis: "Formato 'error_comun' en pilar 'seguridad': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Error común: pegar en un chatbot datos que no deberías compartir."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Error común con la IA: pegar datos sensibles (y cómo evitarlo)"
+titulos_alternativos:
+  - "Qué no pegar nunca en un chatbot (y qué hacer en 10 segundos)"
+  - "Anonimiza antes de pegar: el truco de las etiquetas"
+  - "No le des a la IA lo que no darías a un desconocido"
+criterio_titulo: "Nombra el error y promete la solución concreta; es buscable por quien usa IA en el trabajo."
+descripcion: |
+  OpenAI pide en su ayuda oficial no compartir información sensible en las conversaciones. Evita pegar contraseñas, números de tarjeta o cuenta, documentos de identidad, datos médicos o de clientes e información confidencial de tu empresa.
+  Si necesitas ayuda con un texto real, reemplaza nombres, documentos y montos por etiquetas como [CLIENTE] o [MONTO]. Sigue siempre la política de IA de tu organización. Es una guía general, no asesoría legal.
+cta: "Guárdalo antes de pegar tu próximo documento."
+comentario_fijado: "Fuente: OpenAI Help Center, «What is ChatGPT?» (recomendación de no compartir información sensible). ¿Tu empresa tiene una política de uso de IA?"
+hashtags: ["#IA", "#Privacidad", "#Seguridad"]
+palabras_clave: ["qué no pegar en ChatGPT", "privacidad en chatbots", "anonimizar datos", "datos sensibles IA"]
+escenas:
+  - narracion: "Error común: pegar en un chatbot datos que no deberías compartir."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Error común", titulo: "No pegues esto en un *chatbot*", sub: "Y qué hacer en su lugar"}
+  - narracion: "No pegues contraseñas ni claves. Tampoco números de tarjeta o de cuenta. Ni documentos de identidad, datos médicos o de clientes. Ni información confidencial de tu empresa."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "*Nunca* pegues"
+        estilo: x
+        items: ["Contraseñas y claves", "Tarjetas y cuentas", "Identidad, salud y clientes", "Información confidencial"]
+  - narracion: "Si necesitas ayuda con un texto real, cambia lo identificable por etiquetas. Así la IA entiende la estructura sin ver los datos."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Antes", titulo: "Datos reales", items: ["Juan Pérez", "Cuenta 0123-4567", "Debe $2 500"]}
+        der: {etiqueta: "Después", titulo: "Con etiquetas", items: ["[CLIENTE]", "[CUENTA]", "[MONTO]"]}
+        veredicto: "Anonimiza en 10 segundos"
+  - narracion: "Si dudas, no lo pegues. Y sigue la política de IA de tu empresa."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Si dudas, *no lo pegues*"
+        puntos: ["Nada sensible", "Etiquetas en vez de datos", "Sigue la política de tu empresa"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://help.openai.com/en/articles/6783457-what-is-chatgpt"
+    titulo: "What is ChatGPT? (OpenAI Help Center)"
+    fecha_consulta: 2026-10-11
+    respalda: "La ayuda de OpenAI indica que no puede eliminar prompts individuales del historial y pide no compartir información sensible en las conversaciones."
+  - url: "https://help.openai.com/en/articles/8590148-memory-faq"
+    titulo: "Memory FAQ (OpenAI Help Center)"
+    fecha_consulta: 2026-10-11
+    respalda: "Lo sensible que se comparte con ChatGPT puede terminar guardado en la memoria."
+  - calculo: "[10]"
+    respalda: "Los '10 segundos' del título son una referencia aproximada al tiempo de reemplazar datos por etiquetas; no es una medición."
+riesgos:
+  derechos: "bajo — material propio; los nombres y cuentas del ejemplo son ficticios"
+  exactitud: "medio — la frase de OpenAI proviene de un resultado de búsqueda sobre su página de ayuda (puede haber cambiado, la página es de hace tiempo); las categorías de datos son consejo general de seguridad, no una lista oficial. Verificar la ayuda de OpenAI vigente antes de publicar."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

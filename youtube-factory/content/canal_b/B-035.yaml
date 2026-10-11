@@ -1,0 +1,106 @@
+id: B-035
+canal: canal_b
+fecha: '2026-11-22'
+formato: short
+serie: Truco de formato
+episodio: '#01'
+pilar: trabajo
+tipo_editorial: tutorial
+idea: Inmovilizar la fila de encabezados para que siga visible al bajar en una tabla larga, en Excel y en Google Sheets.
+objetivo: Tutorial rápido y buscable que resuelve una molestia diaria al trabajar con tablas largas.
+publico: Personas que trabajan con listas largas en Excel o Google Sheets y pierden de vista los encabezados.
+hipotesis: 'Formato ''tutorial'' en pilar ''trabajo'': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje).'
+gancho: ¿Bajas en tu tabla y los encabezados desaparecen?
+duracion_objetivo: 35-55 s (≈85-140 palabras)
+titulo: 'Inmovilizar paneles: encabezados siempre visibles en Excel'
+titulos_alternativos:
+- Cómo fijar la primera fila en Excel y Google Sheets
+- Tu tabla es larga y no ves los títulos? Haz esto
+- Inmovilizar fila superior en 15 segundos
+criterio_titulo: Usa el nombre exacto de la función en español ('Inmovilizar paneles') y promete el resultado.
+descripcion: |-
+  Cómo dejar fija la fila de encabezados al desplazarte por una tabla larga. En Excel: pestaña Vista, Inmovilizar paneles. En Google Sheets: menú Ver, Inmovilizar.
+  Los nombres de menús pueden cambiar según la versión del programa y el idioma.
+cta: Pruébalo en tu tabla más larga.
+comentario_fijado: 'Excel: Vista > Inmovilizar paneles > Inmovilizar fila superior. Google Sheets: Ver > Inmovilizar > 1 fila. Para quitarlo: Movilizar paneles (Excel) o Ninguna fila (Sheets).'
+hashtags:
+- '#Excel'
+- '#GoogleSheets'
+- '#TrucosDeExcel'
+palabras_clave:
+- inmovilizar paneles Excel
+- fijar fila encabezado
+- congelar fila Google Sheets
+escenas:
+- narracion: ¿Bajas en tu tabla y los encabezados desaparecen? Déjalos fijos en pocos clics.
+  visual:
+    plantilla: hook
+    datos:
+      kicker: Truco de formato
+      titulo: Encabezados que *no desaparecen*
+      sub: Excel y Google Sheets
+- narracion: En Excel, abre la pestaña Vista. Elige Inmovilizar paneles. Y pulsa Inmovilizar fila superior.
+  visual:
+    plantilla: pasos
+    datos:
+      titulo: En Excel
+      pasos:
+      - titulo: Pestaña Vista
+        detalle: Arriba, en la cinta
+      - titulo: Inmovilizar paneles
+        detalle: Abre el menú
+      - titulo: Inmovilizar fila superior
+        detalle: Si tus títulos están en la fila 1
+- narracion: Si tus títulos ocupan varias filas, en Excel selecciona la fila de abajo y elige Inmovilizar paneles. En Google Sheets, abre Ver, Inmovilizar y elige cuántas filas. En ambos, los títulos quedan fijos.
+  visual:
+    plantilla: versus
+    datos:
+      titulo: Varias filas de títulos
+      izq:
+        etiqueta: Excel
+        titulo: Selecciona la fila de abajo
+        items:
+        - Vista → Inmovilizar paneles
+        - Se fijan las filas de arriba
+      der:
+        etiqueta: Google Sheets
+        titulo: Ver → Inmovilizar
+        items:
+        - Elige cuántas filas
+        - 'Por ejemplo: 2 filas'
+      veredicto: En ambos, los títulos quedan fijos al bajar
+- narracion: Para quitarlos, usa Movilizar paneles en Excel, o Ninguna fila en Google Sheets.
+  visual:
+    plantilla: cierre
+    datos:
+      titulo: Títulos siempre *a la vista*
+      puntos:
+      - 'Excel: Movilizar paneles'
+      - 'Sheets: Ninguna fila'
+      cta: Guárdalo
+fuentes:
+- url: https://support.microsoft.com/es-es/office/inmovilizar-paneles-para-bloquear-filas-y-columnas-dab2ffc9-020d-4026-8121-67dd25f2508f
+  titulo: Inmovilizar paneles para bloquear filas y columnas (Microsoft Support)
+  fecha_consulta: '2026-10-11'
+  respalda: Pestaña Vista > Inmovilizar paneles; inmovilizar fila superior; seleccionar la celda/fila debajo de lo que se quiere fijar; Movilizar paneles para desbloquear.
+- url: https://support.google.com/docs/answer/9060449?hl=es-419&co=GENIE.Platform%3DDesktop
+  titulo: Inmoviliza, agrupa, oculta o combina filas y columnas (Ayuda de Editores de Documentos de Google)
+  fecha_consulta: '2026-10-11'
+  respalda: 'En Hojas de cálculo de Google: Ver > Inmovilizar, elegir cuántas filas; Ninguna fila para desbloquear.'
+riesgos:
+  derechos: bajo — material propio
+  exactitud: medio — nombres de menús y opciones documentados por Microsoft y Google, pero pueden variar por versión e idioma; revisar en ambos programas antes de publicar.
+  monetizacion: bajo — educación general, sin recomendar productos
+recursos:
+- nombre: Música y efectos originales generados por la fábrica
+  licencia: propia
+declaracion_sintetica:
+  decision: declarar
+  motivo: Voz sintética realista; gráficos no realistas. Se declara por prudencia.
+costo_estimado_usd: 0
+palabras_validas:
+- Movilizar
+- movilizar
+- Inmovilizar
+- inmovilizar
+- Sheets

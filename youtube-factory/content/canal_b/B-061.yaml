@@ -1,0 +1,88 @@
+id: B-061
+canal: canal_b
+fecha: 2026-12-18
+formato: short
+serie: Mini sistema
+episodio: "#08"
+pilar: trabajo
+tipo_editorial: tutorial
+idea: "CONTAR.SI cuenta cuántas veces aparece un valor; si el resultado es mayor que 1, hay un duplicado. La misma lógica, dentro de la validación de datos personalizada, avisa al escribir un valor repetido."
+objetivo: "Enseñar a detectar y prevenir duplicados al cargar datos (pedidos, códigos, clientes) con una fórmula simple, con la advertencia de sus límites."
+publico: "Personas que cargan pedidos, códigos o clientes a mano en una planilla."
+hipotesis: "Formato 'tutorial' en pilar 'trabajo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Y si cargas el mismo pedido dos veces? CONTAR.SI lo detecta."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Evita duplicados en Excel con CONTAR.SI y validación de datos"
+titulos_alternativos:
+  - "Cómo detectar valores repetidos al cargar datos en Excel"
+  - "Bloquea pedidos duplicados con una fórmula"
+  - "CONTAR.SI + validación de datos: planilla sin repetidos"
+criterio_titulo: "Nombra el problema (duplicados) y la solución (CONTAR.SI + validación) que se entrega."
+descripcion: |
+  CONTAR.SI cuenta cuántas veces aparece un valor en un rango: si da más de 1, está repetido. Con la misma lógica, la validación de datos personalizada puede rechazar un valor repetido al escribirlo.
+  Ojo: la validación no siempre se aplica a datos pegados, así que revisa también con una columna de control. Datos del ejemplo ilustrativos.
+cta: "Agrega una columna de control a tu próxima lista."
+comentario_fijado: "Control: =CONTAR.SI($A$2:$A$5;A2) (si da 2 o más, está repetido). Validación: Datos > Validación de datos > Permitir: Personalizada > =CONTAR.SI($A$2:$A$100;A2)=1. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos."
+hashtags: ["#Excel", "#Fórmulas", "#Productividad"]
+palabras_clave: ["evitar duplicados Excel", "CONTAR.SI duplicados", "validación de datos personalizada"]
+escenas:
+  - narracion: "¿Y si cargas el mismo pedido dos veces? CONTAR.SI lo detecta."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Mini sistema", titulo: "Sin pedidos *duplicados*", sub: "CONTAR.SI como control"}
+  - narracion: "CONTAR.SI cuenta cuántas veces aparece un valor en el rango. En la columna de control, P-101 aparece una vez. P-102 aparece dos: está repetido."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=CONTAR.SI($A$2:$A$5;A3)"
+        celda_formula: "B3"
+        filas:
+          - ["Pedido", "Veces"]
+          - ["P-101", 1]
+          - ["P-102", 2]
+          - ["P-103", 1]
+          - ["P-102", 2]
+        resaltar:
+          - {rango: "A3:A3", beat: 2}
+          - {rango: "A5:A5", beat: 2, alterno: true}
+        resultado: {celda: "B3", valor: "2", beat: 2}
+  - narracion: "Para bloquearlo al escribir, ve a Datos, Validación de datos. Elige Personalizada. Y usa CONTAR.SI igual a uno."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Validación de datos"
+        pasos:
+          - {titulo: "Datos → Validación de datos", detalle: "selecciona el rango"}
+          - {titulo: "Permitir: Personalizada", detalle: "en la lista de criterios"}
+          - {titulo: "=CONTAR.SI($A$2:$A$100;A2)=1", detalle: "solo acepta valores únicos"}
+  - narracion: "Ojo: la validación no siempre actúa sobre datos pegados. Deja también la columna de control."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Control *y* validación"
+        puntos: ["Columna con CONTAR.SI", "Validación personalizada", "Revisa los datos pegados"]
+        cta: "Agrégalo a tu lista"
+fuentes:
+  - url: "https://support.microsoft.com/en-us/excel/get-started/apply-data-validation-to-cells"
+    titulo: "Apply data validation to cells (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Datos > Validación de datos > Permitir: Personalizada permite una fórmula, por ejemplo =CONTAR.SI para mantener valores únicos (=COUNTIF($A$2:$A$10,A2)=1)."
+  - url: "https://support.microsoft.com/en-us/office/use-the-countif-function-in-microsoft-excel-e0de10c6-f885-4e71-abb4-1f464816df34"
+    titulo: "Use the COUNTIF function in Microsoft Excel (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "CONTAR.SI (COUNTIF) cuenta cuántas veces aparece un valor en un rango."
+  - calculo: "[101, 102, 103]"
+    respalda: "Códigos de pedido ilustrativos del ejemplo (P-101, P-102, P-103)."
+  - calculo: "[2, 100]"
+    respalda: "Cifras del comentario fijado (veces que aparece P-102 y último renglón del rango de validación)."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — la limitación de la validación con datos pegados es conocida pero no se confirmó con una página oficial en la búsqueda; verificar antes de publicar. Los nombres de menú en español (Datos, Validación de datos, Personalizada) deben comprobarse en un Excel en español."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Personalizada"]

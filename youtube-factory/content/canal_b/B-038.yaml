@@ -1,0 +1,109 @@
+id: B-038
+canal: canal_b
+fecha: '2026-11-25'
+formato: short
+serie: Tu dinero en una planilla
+episodio: '#13'
+pilar: dinero
+tipo_editorial: comparacion
+idea: Con el mismo dinero mensual, pagar primero la deuda de mayor tasa (avalancha) genera menos intereses que pagar primero la de menor saldo (bola de nieve); ejemplo ilustrativo calculado mes a mes.
+objetivo: 'Educación financiera general: entender la diferencia entre ambos órdenes de pago y cómo comprobarla en una planilla.'
+publico: Personas con varias deudas que quieren decidir en qué orden pagarlas.
+hipotesis: 'Formato ''comparacion'' en pilar ''dinero'': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje).'
+gancho: 'Mismas deudas, mismo dinero: el orden de pago cambia US$ 263 de intereses.'
+duracion_objetivo: 35-55 s (≈85-140 palabras)
+titulo: 'Bola de nieve vs avalancha: cuánto interés cambia (con números)'
+titulos_alternativos:
+- 'Deudas: pagar la más chica o la más cara primero'
+- Método avalancha vs bola de nieve, calculado mes a mes
+- 'Mismo dinero, menos intereses: el orden de pago importa'
+criterio_titulo: Nombra los dos métodos y promete una comparación numérica concreta.
+descripcion: |-
+  Ejemplo ilustrativo: dos deudas, de US$ 800 al 1 % mensual (mínimo US$ 25) y de US$ 2 400 al 4 % mensual (mínimo US$ 80), con US$ 300 al mes en total. Con bola de nieve (primero la más pequeña) los intereses suman unos US$ 961; con avalancha (primero la de mayor tasa) unos US$ 698.
+  Las tasas y montos son inventados para el ejemplo y no representan ningún producto. Contenido educativo general, no es asesoramiento financiero.
+cta: Haz la cuenta con tus propios saldos y tasas.
+comentario_fijado: 'Plan: pagar el mínimo de todas las deudas y mandar el resto al objetivo; al liquidar una deuda, su pago pasa a la siguiente. Puedes simularlo mes a mes con =SALDO*(1+TASA)-PAGO en cada columna. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;).'
+hashtags:
+- '#FinanzasPersonales'
+- '#Deudas'
+- '#Excel'
+palabras_clave:
+- bola de nieve vs avalancha
+- pagar deudas orden
+- método avalancha deudas
+escenas:
+- narracion: 'Mismas deudas, mismo dinero: el orden de pago cambia US$ 263 de intereses. Ejemplo ilustrativo: deudas de US$ 800 al 1 % mensual y de US$ 2 400 al 4 %, con US$ 300 al mes.'
+  visual:
+    plantilla: hook
+    datos:
+      kicker: Tu dinero en una planilla
+      titulo: Mismo dinero, *distinto interés*
+      sub: US$ 800 al 1 % y US$ 2 400 al 4 % mensual · US$ 300 al mes
+- narracion: 'Bola de nieve: pagas primero la deuda más pequeña. Avalancha: pagas primero la de mayor tasa. En ambas, pagas el mínimo de las demás y mandas el resto a la elegida.'
+  visual:
+    plantilla: versus
+    datos:
+      titulo: Dos órdenes de pago
+      izq:
+        etiqueta: Bola de nieve
+        titulo: Primero la más pequeña
+        items:
+        - Cierras una deuda antes
+        - Pagas mínimo en las demás
+      der:
+        etiqueta: Avalancha
+        titulo: Primero la de mayor tasa
+        items:
+        - Menos intereses totales
+        - Pagas mínimo en las demás
+      veredicto: Mismo dinero, distinto orden
+- narracion: 'Bola de nieve: unos US$ 961 en intereses. Avalancha: unos US$ 698. Mismo dinero, menos intereses.'
+  visual:
+    plantilla: barras
+    datos:
+      titulo: Intereses totales pagados
+      prefijo: 'US$ '
+      maximo: 1100
+      items:
+      - etiqueta: Bola de nieve
+        valor: 961
+        tenue: true
+      - etiqueta: Avalancha
+        valor: 698
+        destacado: true
+      nota: Cifras ilustrativas · cálculo mes a mes
+- narracion: La avalancha reduce los intereses. La bola de nieve liquida una deuda antes. Haz la cuenta con tus saldos y tus tasas.
+  visual:
+    plantilla: cierre
+    datos:
+      titulo: El orden *sí cambia* el costo
+      puntos:
+      - 'Avalancha: menos intereses'
+      - 'Bola de nieve: cierras una deuda antes'
+      cta: Haz tu cuenta
+fuentes:
+- calculo: '[800, 2400, 300]'
+  respalda: 'Datos ilustrativos: saldos de las dos deudas y pago mensual total.'
+- calculo: (800)*0.01+((800)*1.01-220)*0.01+(((800)*1.01-220)*1.01-220)*0.01+((((800)*1.01-220)*1.01-220)*1.01-220)*0.01+(((((800)*1.01-220)*1.01-220)*1.01-220)*1.01-159.19)*0.01+(2400)*0.04+((2400)*1.04-80)*0.04+(((2400)*1.04-80)*1.04-80)*0.04+((((2400)*1.04-80)*1.04-80)*1.04-80)*0.04+(((((2400)*1.04-80)*1.04-80)*1.04-80)*1.04-140.81)*0.04+((((((2400)*1.04-80)*1.04-80)*1.04-80)*1.04-140.81)*1.04-300)*0.04+(((((((2400)*1.04-80)*1.04-80)*1.04-80)*1.04-140.81)*1.04-300)*1.04-300)*0.04+((((((((2400)*1.04-80)*1.04-80)*1.04-80)*1.04-140.81)*1.04-300)*1.04-300)*1.04-300)*0.04+(((((((((2400)*1.04-80)*1.04-80)*1.04-80)*1.04-140.81)*1.04-300)*1.04-300)*1.04-300)*1.04-300)*0.04+((((((((((2400)*1.04-80)*1.04-80)*1.04-80)*1.04-140.81)*1.04-300)*1.04-300)*1.04-300)*1.04-300)*1.04-300)*0.04+(((((((((((2400)*1.04-80)*1.04-80)*1.04-80)*1.04-140.81)*1.04-300)*1.04-300)*1.04-300)*1.04-300)*1.04-300)*1.04-300)*0.04+((((((((((((2400)*1.04-80)*1.04-80)*1.04-80)*1.04-140.81)*1.04-300)*1.04-300)*1.04-300)*1.04-300)*1.04-300)*1.04-300)*1.04-300)*0.04+(((((((((((((2400)*1.04-80)*1.04-80)*1.04-80)*1.04-140.81)*1.04-300)*1.04-300)*1.04-300)*1.04-300)*1.04-300)*1.04-300)*1.04-300)*1.04-300)*0.04+((((((((((((((2400)*1.04-80)*1.04-80)*1.04-80)*1.04-140.81)*1.04-300)*1.04-300)*1.04-300)*1.04-300)*1.04-300)*1.04-300)*1.04-300)*1.04-300)*1.04-300)*0.04
+  resultado: 961.32
+  respalda: 'Intereses totales con bola de nieve: suma de los intereses mensuales de ambas deudas (pagos mensuales redondeados al centavo; mínimos 25 y 80, resto a la deuda más pequeña, luego a la grande).'
+- calculo: (800)*0.01+((800)*1.01-25)*0.01+(((800)*1.01-25)*1.01-25)*0.01+((((800)*1.01-25)*1.01-25)*1.01-25)*0.01+(((((800)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*0.01+((((((800)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*0.01+(((((((800)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*0.01+((((((((800)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*0.01+(((((((((800)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*0.01+((((((((((800)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*0.01+(((((((((((800)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*0.01+((((((((((((800)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-39.06)*0.01+(((((((((((((800)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-25)*1.01-39.06)*1.01-300)*0.01+(2400)*0.04+((2400)*1.04-275)*0.04+(((2400)*1.04-275)*1.04-275)*0.04+((((2400)*1.04-275)*1.04-275)*1.04-275)*0.04+(((((2400)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*0.04+((((((2400)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*0.04+(((((((2400)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*0.04+((((((((2400)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*0.04+(((((((((2400)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*0.04+((((((((((2400)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*0.04+(((((((((((2400)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*0.04+((((((((((((2400)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-275)*1.04-260.94)*0.04
+  resultado: 698.15
+  respalda: 'Intereses totales con avalancha: igual cálculo, pero el resto del dinero va primero a la deuda del 4 % mensual.'
+- calculo: 961.32 - 698.15
+  resultado: 263.17
+  respalda: Diferencia de intereses entre ambos métodos.
+riesgos:
+  derechos: bajo — material propio
+  exactitud: medio — cálculo mensual de dos deudas con pagos redondeados al centavo; conviene replicarlo en una planilla antes de publicar. Tasas y montos ilustrativos.
+  monetizacion: bajo — educación general, sin recomendar productos
+recursos:
+- nombre: Música y efectos originales generados por la fábrica
+  licencia: propia
+declaracion_sintetica:
+  decision: declarar
+  motivo: Voz sintética realista; gráficos no realistas. Se declara por prudencia.
+costo_estimado_usd: 0
+palabras_validas:
+- avalancha
+- Avalancha

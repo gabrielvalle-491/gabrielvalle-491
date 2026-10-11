@@ -1,0 +1,80 @@
+id: A-072
+canal: canal_a
+fecha: 2026-12-29
+formato: short
+serie: Truco rápido
+episodio: "#07"
+pilar: productividad
+tipo_editorial: tutorial
+idea: "Un nombre de archivo que empieza por la fecha en formato AAAA-MM-DD (con ceros) se ordena cronológicamente solo; la versión va al final con dos dígitos."
+objetivo: "Dar una convención de nombres simple y verificable que cualquiera puede aplicar hoy."
+publico: "Trabajadores y estudiantes con carpetas llenas de archivos con nombres como «informe final 2» que no se ordenan."
+hipotesis: "Formato 'tutorial' en pilar 'productividad': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Tus archivos no se ordenan por fecha por cómo los nombras."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Nombra tus archivos así y se ordenan solos por fecha"
+titulos_alternativos:
+  - "Fecha AAAA-MM-DD al inicio: el truco para ordenar archivos"
+  - "Por qué «informe final 2» siempre se pierde (y cómo evitarlo)"
+  - "La convención de nombres que usan los que nunca pierden un archivo"
+criterio_titulo: "Promete un resultado inmediato (se ordenan solos) y es buscable (nombrar archivos, ordenar por fecha)."
+descripcion: |
+  Si empiezas el nombre con la fecha en formato AAAA-MM-DD (año, mes y día, con ceros), la lista alfabética coincide con el orden cronológico. Es el formato de fecha del estándar ISO 8601.
+  Agrega una descripción corta y, al final, la versión con dos dígitos (v01, v02...). Los ejemplos son ilustrativos.
+cta: "Pruébalo hoy con una carpeta."
+comentario_fijado: "Plantilla: AAAA-MM-DD_descripcion-corta_v01. Ejemplo: 2027-01-15_informe-ventas_v02. ¿Cómo nombras tus archivos hoy?"
+hashtags: ["#Productividad", "#Organización", "#Archivos"]
+palabras_clave: ["nombres de archivos", "ordenar archivos por fecha", "formato de fecha ISO 8601", "versiones de archivos"]
+escenas:
+  - narracion: "Tus archivos no se ordenan por fecha por cómo los nombras."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Truco rápido", titulo: "Nombres que se *ordenan solos*", sub: "Fecha al inicio, versión al final"}
+  - narracion: "Si empiezas por el día, la lista se ordena por día y no por fecha. Con año, mes y día, queda en orden cronológico."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Día primero", titulo: "Orden alfabético", items: ["03-feb_ventas", "15-ene_ventas", "28-dic_ventas"]}
+        der: {etiqueta: "Año primero", titulo: "Orden cronológico", items: ["2026-12-28_ventas", "2027-01-15_ventas", "2027-02-03_ventas"]}
+        veredicto: "Año, mes, día"
+  - narracion: "Tres reglas. Primero, la fecha: [[año, mes y día|AAAA-MM-DD]], con ceros. Después, una descripción corta. Al final, la versión con dos dígitos, como [[ve cero dos|v02]]."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Tres *reglas*"
+        estilo: num
+        items:
+          - {texto: "Fecha: AAAA-MM-DD", detalle: "Con ceros"}
+          - {texto: "Descripción corta", detalle: "informe-ventas"}
+          - {texto: "Versión: v01, v02...", detalle: "Dos dígitos"}
+  - narracion: "Con dos dígitos, la versión diez queda después de la dos y no antes."
+    visual:
+      plantilla: texto
+      datos: {titulo: "¿Por qué dos dígitos?", texto: "Con *v02* y *v10*, el orden alfabético acierta. Con *v2* y *v10*, no."}
+  - narracion: "Así tus archivos se ordenan solos."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Nombra una vez, *ordena siempre*"
+        puntos: ["AAAA-MM-DD al inicio", "Descripción corta", "Versión al final"]
+        cta: "Pruébalo hoy"
+fuentes:
+  - url: "https://www.iso.org/iso-8601-date-and-time-format.html"
+    titulo: "ISO 8601 — Date and time format (ISO)"
+    fecha_consulta: 2026-10-11
+    respalda: "ISO presenta YYYY-MM-DD (año, mes, día) como el formato de fecha acordado internacionalmente."
+  - url: "https://www.w3.org/QA/Tips/iso-date"
+    titulo: "Use international date format (ISO) (W3C Quality Web Tips)"
+    fecha_consulta: 2026-10-11
+    respalda: "W3C recomienda el formato ISO AAAA-MM-DD por su claridad frente a formatos ambiguos."
+riesgos:
+  derechos: "bajo — material propio; nombres de archivo ficticios"
+  exactitud: "bajo — el orden alfabético de nombres con año-mes-día con ceros coincide con el cronológico (verificable); la mayoría de gestores de archivos ordena así, pero algunos (p. ej. el Finder de macOS) usan orden numérico natural, por eso el video habla de «orden alfabético» en términos generales"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["AAAA", "ISO"]

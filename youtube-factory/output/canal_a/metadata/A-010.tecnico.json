@@ -1,0 +1,87 @@
+{
+  "id": "A-010",
+  "duracion_s": 31.783,
+  "frases": 13,
+  "subtitulos": 28,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.443,
+      "beats": [
+        -5.0,
+        3.378
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.443,
+      "fin": 10.16,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 10.16,
+      "fin": 17.604,
+      "beats": [
+        0.0,
+        2.33,
+        4.317,
+        5.767
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 17.604,
+      "fin": 27.254,
+      "beats": [
+        0.0,
+        3.329,
+        6.036
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 27.254,
+      "fin": 31.783,
+      "beats": [
+        0.0,
+        1.515
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.20",
+    "input_tp": "-5.24",
+    "input_lra": "1.70",
+    "input_thresh": "-31.45",
+    "output_i": "-14.16",
+    "output_tp": "-1.50",
+    "output_lra": "1.20",
+    "output_thresh": "-24.33",
+    "normalization_type": "dynamic",
+    "target_offset": "0.16"
+  },
+  "fotogramas_unicos": 333,
+  "tts_cache": 0,
+  "spec_hash": "0382dc49fffe2e67",
+  "segundos_produccion": 147.9,
+  "texto_hablado": [
+    "¿Por qué la fórmula que te da la i a no funciona en tu éxcel?",
+    "Casi siempre, faltó contexto.",
+    "Describe tus columnas, lo que quieres obtener y tu idioma de éxcel.",
+    "Así.",
+    "La i a debería devolver algo así.",
+    "Primero, el rango que se suma.",
+    "Luego, el producto.",
+    "Y al final, la región.",
+    "Antes de usarla, pruébala con un caso que ya conoces.",
+    "El lunes, Café en el Norte vendió ciento veinte.",
+    "El martes, ochenta.",
+    "La fórmula debe dar doscientos.",
+    "Si da otra cifra, cuéntale a la i a qué obtuviste y qué esperabas."
+  ]
+}

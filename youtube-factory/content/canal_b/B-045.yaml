@@ -1,0 +1,117 @@
+id: B-045
+canal: canal_b
+fecha: '2026-12-02'
+formato: short
+serie: Mini sistema
+episodio: '#04'
+pilar: trabajo
+tipo_editorial: tutorial
+idea: 'Una cotización con subtotal, impuesto y total donde la tasa vive en una celda: cambiarla actualiza todo.'
+objetivo: Mini sistema reutilizable para pequeños negocios y freelancers.
+publico: Freelancers y emprendedores que arman cotizaciones en una planilla.
+hipotesis: 'Formato ''tutorial'' en pilar ''trabajo'': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje).'
+gancho: Haz una cotización donde cambiar el impuesto toma un segundo.
+duracion_objetivo: 35-55 s (≈85-140 palabras)
+titulo: Cotización en Excel con subtotal, impuesto y total (plantilla)
+titulos_alternativos:
+- Plantilla de cotización en Excel con IVA en una celda
+- Cómo calcular impuesto y total en una cotización
+- 'Cotización reutilizable: cambia la tasa y todo se actualiza'
+criterio_titulo: Describe la plantilla y su ventaja (tasa en una celda).
+descripcion: |-
+  Cotización con tres fórmulas: impuesto = subtotal × tasa, y total = subtotal + impuesto. La tasa vive en una celda, así que puedes cambiarla para otro país o producto.
+  Las cifras y tasas del ejemplo son ilustrativas: usa la tasa que corresponda a tu caso.
+cta: Guárdala como plantilla y reutilízala.
+comentario_fijado: 'Impuesto en B4: =B2*B3. Total en B5: =B2+B4. Con la tasa en B3 (formato porcentaje). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;).'
+hashtags:
+- '#Excel'
+- '#Emprendimiento'
+- '#Plantillas'
+palabras_clave:
+- cotización Excel
+- calcular impuesto y total
+- plantilla de cotización
+escenas:
+- narracion: Haz una cotización donde cambiar el impuesto toma un segundo.
+  visual:
+    plantilla: hook
+    datos:
+      kicker: Mini sistema
+      titulo: Cotización con *tasa en una celda*
+      sub: Subtotal, impuesto y total
+- narracion: 'Escribe el subtotal y la tasa en celdas separadas. Resalta esas dos celdas. El impuesto es el subtotal por la tasa: 80.'
+  visual:
+    plantilla: planilla
+    datos:
+      titulo: Cotización
+      formula: =B2*B3
+      celda_formula: B4
+      filas:
+      - - Concepto
+        - Monto
+      - - Subtotal
+        - 500
+      - - Tasa
+        - 16 %
+      - - Impuesto
+        - ''
+      - - Total
+        - ''
+      resaltar:
+      - rango: B2:B3
+        beat: 1
+      resultado:
+        celda: B4
+        valor: '80'
+        beat: 2
+      nota: Cifras y tasa ilustrativas
+- narracion: 'Subtotal: 500. Impuesto al 16 %: 80. Total: 580. Si cambias la tasa a 19 %, el impuesto pasa a 95 y el total a 595.'
+  visual:
+    plantilla: calculo
+    datos:
+      titulo: Mismo subtotal, otra tasa
+      lineas:
+      - izq: Subtotal
+        der: '500'
+      - izq: Impuesto al 16 %
+        der: '80'
+      resultado:
+        izq: Total
+        der: '580'
+- narracion: Cambia solo la tasa y toda la cotización se actualiza. Guarda el archivo como plantilla y reutilízalo.
+  visual:
+    plantilla: cierre
+    datos:
+      titulo: Cambia *una celda*, cambia todo
+      puntos:
+      - Tasa en una celda
+      - Impuesto = subtotal × tasa
+      - Total = subtotal + impuesto
+      cta: Guárdala
+fuentes:
+- calculo: '[500, 16, 19]'
+  respalda: 'Datos ilustrativos: subtotal y tasas de ejemplo.'
+- calculo: 500 * 0.16
+  resultado: 80
+  respalda: Impuesto al 16 %.
+- calculo: 500 + 500 * 0.16
+  resultado: 580
+  respalda: Total con tasa de 16 %.
+- calculo: 500 * 0.19
+  resultado: 95
+  respalda: Impuesto al 19 %.
+- calculo: 500 + 500 * 0.19
+  resultado: 595
+  respalda: Total con tasa de 19 %.
+riesgos:
+  derechos: bajo — material propio
+  exactitud: bajo — aritmética verificada automáticamente; las tasas son ilustrativas.
+  monetizacion: bajo — educación general, sin recomendar productos
+recursos:
+- nombre: Música y efectos originales generados por la fábrica
+  licencia: propia
+declaracion_sintetica:
+  decision: declarar
+  motivo: Voz sintética realista; gráficos no realistas. Se declara por prudencia.
+costo_estimado_usd: 0
+palabras_validas: []

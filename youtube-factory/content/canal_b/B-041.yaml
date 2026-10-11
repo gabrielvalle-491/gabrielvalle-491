@@ -1,0 +1,132 @@
+id: B-041
+canal: canal_b
+fecha: '2026-11-28'
+formato: short
+serie: Tu dinero en una planilla
+episodio: '#14'
+pilar: dinero
+tipo_editorial: tutorial
+idea: 'Dividir una cuenta entre amigos cuando pagaron personas distintas: la cuota por persona y el saldo de cada uno dicen quién debe a quién.'
+objetivo: Utilidad cotidiana con una fórmula simple; atrae búsquedas prácticas y es fácil de compartir.
+publico: Grupos de amigos o compañeros que comparten gastos de salidas o viajes.
+hipotesis: 'Formato ''tutorial'' en pilar ''dinero'': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje).'
+gancho: Cuatro amigos, una cuenta de 240 y nadie sabe quién debe a quién.
+duracion_objetivo: 35-55 s (≈85-140 palabras)
+titulo: 'Dividir una cuenta entre amigos en Excel: quién debe a quién'
+titulos_alternativos:
+- Planilla para dividir gastos entre amigos (con fórmula)
+- Cómo saber cuánto debe cada uno cuando pagaron varios
+- 'Cuenta compartida en Excel: saldo por persona'
+criterio_titulo: Plantea la situación cotidiana y promete la respuesta clara (quién debe a quién).
+descripcion: |-
+  Planilla simple para repartir una cuenta: se anota cuánto pagó cada persona, se calcula la cuota y el saldo de cada una. Ejemplo ilustrativo con cuatro personas y una cuenta de 240.
+  Saldo positivo: le deben dinero. Saldo negativo: debe dinero.
+cta: Úsalo la próxima vez que salgan en grupo.
+comentario_fijado: 'Saldo en C2, copiada hacia abajo: =B2-SUMA(B$2:B$5)/4 (el 4 es el número de personas). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;).'
+hashtags:
+- '#Excel'
+- '#Planillas'
+- '#GastosCompartidos'
+palabras_clave:
+- dividir cuenta entre amigos
+- planilla de gastos compartidos
+- quién debe a quién Excel
+escenas:
+- narracion: Cuatro amigos, una cuenta de 240 y nadie sabe quién debe a quién. Una planilla simple lo resuelve.
+  visual:
+    plantilla: hook
+    datos:
+      kicker: Tu dinero en una planilla
+      titulo: ¿Quién *debe a quién*?
+      sub: Cuenta de 240 entre 4 personas
+- narracion: Anota cuánto pagó cada persona. Resalta esos pagos. La fórmula resta la cuota de 60, y Ana queda con 90 a favor.
+  visual:
+    plantilla: planilla
+    datos:
+      titulo: Saldo por persona
+      formula: =B2-SUMA(B$2:B$5)/4
+      celda_formula: C2
+      filas:
+      - - Persona
+        - Pagó
+        - Saldo
+      - - Ana
+        - 150
+        - ''
+      - - Beto
+        - 90
+        - ''
+      - - Carla
+        - 0
+        - ''
+      - - Diego
+        - 0
+        - ''
+      resaltar:
+      - rango: B2:B5
+        beat: 1
+      resultado:
+        celda: C2
+        valor: '90'
+        beat: 2
+      nota: Cantidades ilustrativas
+- narracion: 'La cuota es 240 entre 4: 60 por persona. Carla y Diego deben 60 cada uno. Ana recibe 90 y Beto 30.'
+  visual:
+    plantilla: calculo
+    datos:
+      titulo: Saldo de cada uno
+      lineas:
+      - izq: 'Cuota: 240 ÷ 4'
+        der: '60'
+      - izq: Carla y Diego deben
+        der: 60 c/u
+      resultado:
+        izq: Ana y Beto reciben
+        der: 90 y 30
+- narracion: Carla paga 60 a Ana. Diego paga 30 a Ana y 30 a Beto. Y todos quedan en cero.
+  visual:
+    plantilla: cierre
+    datos:
+      titulo: Cuentas *saldadas*
+      puntos:
+      - Carla paga 60 a Ana
+      - Diego paga 30 a Ana
+      - Diego paga 30 a Beto
+      cta: Guárdalo
+fuentes:
+- calculo: '[150, 90, 0, 0]'
+  respalda: Lo que pagó cada persona (ilustrativo).
+- calculo: 150 + 90 + 0 + 0
+  resultado: 240
+  respalda: Total de la cuenta.
+- calculo: 240 / 4
+  resultado: 60
+  respalda: Cuota por persona.
+- calculo: 150 - 240 / 4
+  resultado: 90
+  respalda: Saldo de Ana (a favor).
+- calculo: 90 - 240 / 4
+  resultado: 30
+  respalda: Saldo de Beto (a favor).
+- calculo: 0 - 240 / 4
+  resultado: -60
+  respalda: Saldo de Carla y de Diego (deben 60 cada uno).
+- calculo: 60 + 60
+  resultado: 120
+  respalda: Lo que deben en total Carla y Diego = lo que reciben Ana y Beto (90 + 30).
+riesgos:
+  derechos: bajo — material propio
+  exactitud: bajo — aritmética verificada automáticamente.
+  monetizacion: bajo — educación general, sin recomendar productos
+recursos:
+- nombre: Música y efectos originales generados por la fábrica
+  licencia: propia
+declaracion_sintetica:
+  decision: declarar
+  motivo: Voz sintética realista; gráficos no realistas. Se declara por prudencia.
+costo_estimado_usd: 0
+palabras_validas:
+- Ana
+- Beto
+- Carla
+- Diego

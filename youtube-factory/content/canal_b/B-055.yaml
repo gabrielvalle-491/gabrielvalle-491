@@ -1,0 +1,107 @@
+id: B-055
+canal: canal_b
+fecha: 2026-12-12
+formato: short
+serie: Tu dinero en una planilla
+episodio: "#18"
+pilar: dinero
+tipo_editorial: tutorial
+idea: "Una tabla de amortización con PAGOINT y PAGOPRIN muestra cuánto de cada cuota es interés y cuánto capital: al inicio pesa más el interés y con el tiempo domina el capital (ejemplo ilustrativo)."
+objetivo: "Que la persona arme su propia tabla de amortización y entienda por qué las primeras cuotas amortizan menos capital."
+publico: "Personas con un préstamo de cuota fija que quieren entender cómo se reparte cada pago."
+hipotesis: "Formato 'tutorial' en pilar 'dinero': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "En tu cuota fija, ¿cuánto es interés y cuánto es capital? Una tabla lo muestra."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Tabla de amortización en Excel: interés y capital de cada cuota"
+titulos_alternativos:
+  - "Cuánto de tu cuota es interés (tabla de amortización en Excel)"
+  - "PAGOINT y PAGOPRIN: separa interés y capital en una planilla"
+  - "Por qué las primeras cuotas amortizan tan poco capital"
+criterio_titulo: "Nombra la tabla y promete exactamente la separación interés/capital que se muestra."
+descripcion: |
+  Ejemplo ilustrativo: préstamo de 1 000 con interés de 1 % mensual a 5 cuotas fijas. La cuota es de unos 206,04; en la primera, 10 son interés y unos 196,04 son capital. En la última, el interés baja a unos 2,04.
+  PAGOINT devuelve el interés de un período y PAGOPRIN, el capital. Tasa y montos ilustrativos; las condiciones reales de un préstamo varían y se revisan en su contrato. Contenido educativo general.
+cta: "Arma tu tabla con los datos de tu préstamo."
+comentario_fijado: "Fórmulas con tasa 1 % mensual, 5 cuotas y préstamo de 1 000: cuota =PAGO(1%;5;-1000); interés del mes n =PAGOINT(1%;n;5;-1000); capital del mes n =PAGOPRIN(1%;n;5;-1000). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos."
+hashtags: ["#Excel", "#FinanzasPersonales", "#Préstamos"]
+palabras_clave: ["tabla de amortización Excel", "PAGOINT PAGOPRIN", "interés y capital de la cuota"]
+escenas:
+  - narracion: "En tu cuota fija, ¿cuánto es interés y cuánto es capital? Una tabla lo muestra."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Tu dinero en una planilla", titulo: "Tabla de *amortización*", sub: "Ejemplo ilustrativo: 1 % mensual"}
+  - narracion: "Préstamo de 1 000 a cinco cuotas, con interés ilustrativo de 1 % mensual. La función PAGOINT devuelve el interés de cada mes. En el mes uno, 10. Y la columna de capital usa PAGOPRIN."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=PAGOINT(1%;A2;5;-1000)"
+        celda_formula: "B2"
+        titulo: "Cuota fija: 206,04"
+        decimales: [0, 2, 2, 2]
+        filas:
+          - ["Mes", "Interés", "Capital", "Saldo"]
+          - [1, 10.00, 196.04, 803.96]
+          - [2, 8.04, 198.00, 605.96]
+          - [3, 6.06, 199.98, 405.98]
+          - [4, 4.06, 201.98, 204.00]
+          - [5, 2.04, 204.00, 0]
+        resaltar:
+          - {rango: "B2:C2", beat: 2}
+        resultado: {celda: "B2", valor: "10,00", beat: 2}
+  - narracion: "Mira cómo cambia. En el mes uno, 10 de interés. En el mes cinco, solo 2,04. La cuota es la misma, pero cada vez va más a capital."
+    visual:
+      plantilla: barras
+      datos:
+        titulo: "Interés dentro de la cuota"
+        prefijo: "US$ "
+        decimales: 2
+        items:
+          - {etiqueta: "Mes 1", valor: 10, destacado: true}
+          - {etiqueta: "Mes 3", valor: 6.06}
+          - {etiqueta: "Mes 5", valor: 2.04, tenue: true}
+        nota: "Tasa 1 % mensual, ilustrativa"
+  - narracion: "Con tu tasa y tu plazo, arma tu tabla."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Cada cuota: *interés + capital*"
+        puntos: ["PAGOINT: interés del mes", "PAGOPRIN: capital del mes", "Tasa y plazo ilustrativos"]
+        cta: "Arma tu tabla"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/office/funci%C3%B3n-pagoint-5cce0ad6-8402-4a41-8d29-61a0b054cb6f"
+    titulo: "Función PAGOINT (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "PAGOINT devuelve el interés pagado en un período con pagos constantes y tasa constante; sintaxis PAGOINT(tasa; período; nper; va; [vf]; [tipo])."
+  - url: "https://support.microsoft.com/es-es/excel/functions/ppmt-function"
+    titulo: "PAGOPRIN (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "PAGOPRIN devuelve el pago del capital en un período."
+  - url: "https://support.microsoft.com/es-es/office/funci%C3%B3n-pago-0214da64-9a63-4996-bc20-214433fa6441"
+    titulo: "Función PAGO (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "PAGO calcula la cuota de un préstamo con pagos y tasa constantes; la tasa y los períodos deben usar las mismas unidades."
+  - calculo: "[1000, 5]"
+    respalda: "Datos ilustrativos del ejemplo (préstamo y número de cuotas)."
+  - calculo: "PAGO(0.01, 5, -1000)"
+    resultado: 206.04
+    respalda: "Cuota fija mensual del ejemplo."
+  - calculo: "1000 * 0.01"
+    resultado: 10
+    respalda: "Interés del mes 1."
+  - calculo: "round(PAGO(0.01, 5, -1000) - 1000 * 0.01, 2)"
+    resultado: 196.04
+    respalda: "Capital de la cuota del mes 1."
+  - calculo: "round(204.00 * 0.01, 2)"
+    resultado: 2.04
+    respalda: "Interés del mes 5 (saldo inicial de 204,00 al 1 %)."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — aritmética verificada; funciones documentadas por Microsoft. Redondeos de centavos pueden diferir en 1 centavo según el redondeo de cada fila."
+  monetizacion: "bajo — educación general, tasa ilustrativa, sin recomendar productos"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["PAGOINT", "PAGOPRIN", "amortización"]

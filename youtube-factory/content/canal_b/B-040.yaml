@@ -1,0 +1,111 @@
+id: B-040
+canal: canal_b
+fecha: '2026-11-27'
+formato: short
+serie: Excel vs Sheets
+episodio: '#01'
+pilar: excel_vs_sheets
+tipo_editorial: comparacion
+idea: 'Recuperar una versión anterior de un archivo: en Excel requiere archivo en OneDrive o SharePoint; en Google Sheets se abre desde Última edición > Historial de versiones.'
+objetivo: Comparación práctica que evita perder trabajo y aclara una condición que mucha gente desconoce.
+publico: Personas que trabajan en equipo o editan por error y necesitan volver atrás.
+hipotesis: 'Formato ''comparacion'' en pilar ''excel_vs_sheets'': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje).'
+gancho: ¿Borraste algo por error y ya guardaste? Vuelve a una versión anterior.
+duracion_objetivo: 35-55 s (≈85-140 palabras)
+titulo: 'Historial de versiones: recuperar un archivo en Excel y Sheets'
+titulos_alternativos:
+- Recupera una versión anterior en Excel y Google Sheets
+- 'Borré datos por error: cómo volver atrás en Excel y Sheets'
+- 'Excel vs Google Sheets: historial de versiones'
+criterio_titulo: Plantea el problema real (borrar por error) y nombra ambos programas.
+descripcion: |-
+  Cómo volver a una versión anterior. En Excel, según la ayuda de Microsoft, el historial de versiones funciona con archivos guardados en OneDrive o SharePoint. En Google Sheets, abre Última edición y luego Historial de versiones.
+  Los nombres de los menús pueden variar según la versión y el idioma.
+cta: Revisa dónde guardas tus archivos importantes.
+comentario_fijado: 'Excel: clic en el título del archivo > Historial de versiones > elige versión > Restaurar. Sheets: Última edición > Historial de versiones > Restablecer esta versión.'
+hashtags:
+- '#Excel'
+- '#GoogleSheets'
+- '#ExcelVsSheets'
+palabras_clave:
+- historial de versiones Excel
+- recuperar versión anterior Google Sheets
+- restaurar archivo Excel
+escenas:
+- narracion: ¿Borraste algo por error y ya guardaste? Vuelve a una versión anterior.
+  visual:
+    plantilla: hook
+    datos:
+      kicker: Excel vs Sheets
+      titulo: Vuelve a una *versión anterior*
+      sub: Historial de versiones
+- narracion: En Excel, el historial funciona con archivos guardados en OneDrive o SharePoint. En Google Sheets, necesitas permiso para editar el archivo. En Excel, primero guarda en la nube.
+  visual:
+    plantilla: versus
+    datos:
+      titulo: Lo que necesitas
+      izq:
+        etiqueta: Excel
+        titulo: Archivo en la nube
+        items:
+        - OneDrive o SharePoint
+        - 'Cuenta personal: últimas 25'
+      der:
+        etiqueta: Google Sheets
+        titulo: Permiso de edición
+        items:
+        - Última edición
+        - Historial de versiones
+      veredicto: En Excel, guarda primero en la nube
+- narracion: En Excel, haz clic en el título del archivo. Elige Historial de versiones. Selecciona una versión y pulsa Restaurar.
+  visual:
+    plantilla: pasos
+    datos:
+      titulo: En Excel
+      pasos:
+      - titulo: Clic en el título del archivo
+      - titulo: Historial de versiones
+      - titulo: Elige una versión y Restaurar
+        detalle: Se abre en otra ventana
+- narracion: En Google Sheets, abre Última edición. Elige Historial de versiones. Y pulsa Restablecer esta versión.
+  visual:
+    plantilla: lista
+    datos:
+      titulo: En Google Sheets
+      estilo: num
+      items:
+      - Abre Última edición
+      - Elige Historial de versiones
+      - Pulsa Restablecer esta versión
+- narracion: 'Revisa la versión antes de restaurar: así no pisas cambios buenos.'
+  visual:
+    plantilla: cierre
+    datos:
+      titulo: Antes de perder trabajo, *guarda en la nube*
+      puntos:
+      - Revisa la versión antes de restaurar
+      cta: Guárdalo
+fuentes:
+- url: https://support.microsoft.com/es-es/office/ver-versiones-anteriores-de-los-archivos-de-office-5c1e076f-a9c9-41b8-8ace-f77b9642e2c2
+  titulo: Ver versiones anteriores de los archivos de Office (Microsoft Support)
+  fecha_consulta: '2026-10-11'
+  respalda: El historial de versiones funciona con archivos en OneDrive o SharePoint; clic en el título del archivo > Historial de versiones; abrir una versión y Restaurar; con cuenta personal se recuperan las últimas 25 versiones.
+  cifras:
+  - 25
+- url: https://support.google.com/docs/answer/190843?hl=es-419&co=GENIE.Platform%3DDesktop
+  titulo: Cómo ver los cambios de un archivo (Ayuda de Editores de Documentos de Google)
+  fecha_consulta: '2026-10-11'
+  respalda: Última edición > Historial de versiones; elegir versión y Restablecer esta versión; hace falta permiso de edición.
+riesgos:
+  derechos: bajo — material propio
+  exactitud: medio — los menús ('Última edición', 'Historial de versiones') y el límite de 25 versiones pueden cambiar; probar ambos flujos con cuentas reales antes de publicar.
+  monetizacion: bajo — educación general, sin recomendar productos
+recursos:
+- nombre: Música y efectos originales generados por la fábrica
+  licencia: propia
+declaracion_sintetica:
+  decision: declarar
+  motivo: Voz sintética realista; gráficos no realistas. Se declara por prudencia.
+costo_estimado_usd: 0
+palabras_validas:
+- Restablecer

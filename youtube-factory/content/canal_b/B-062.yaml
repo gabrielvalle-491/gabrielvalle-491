@@ -1,0 +1,77 @@
+id: B-062
+canal: canal_b
+fecha: 2026-12-19
+formato: short
+serie: Reto de la celda
+episodio: "#02"
+pilar: quiz
+tipo_editorial: quiz
+idea: "REDONDEAR(2,5;0) devuelve 3: Excel redondea la mitad alejándose de cero, también con negativos (−2,5 da −3)."
+objetivo: "Quiz corto que enseña la regla de redondeo de Excel y corrige la idea de que 'la mitad se redondea al par'."
+publico: "Personas que usan Excel para cuentas, precios y reportes y quieren evitar diferencias de redondeo."
+hipotesis: "Formato 'quiz' en pilar 'quiz': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Qué devuelve REDONDEAR(2,5;0)? ¿Dos o tres?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "¿Qué devuelve REDONDEAR(2,5;0)? Reto de la celda"
+titulos_alternativos:
+  - "Excel redondea 2,5 a 3, y -2,5 a -3: la regla de la mitad"
+  - "REDONDEAR en Excel: qué pasa justo en el .5"
+  - "Quiz de Excel: ¿2 o 3?"
+criterio_titulo: "Plantea la pregunta exacta del reto y usa el nombre de la función."
+descripcion: |
+  REDONDEAR(2,5;0) devuelve 3: cuando el dígito siguiente es 5, Excel redondea alejándose de cero. Con −2,5 devuelve −3.
+  Otros programas pueden redondear la mitad al par más cercano, así que compara resultados antes de mezclar herramientas.
+cta: "Comenta tu respuesta y desafía a un colega."
+comentario_fijado: "=REDONDEAR(2,5;0) da 3 y =REDONDEAR(-2,5;0) da -3. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos."
+hashtags: ["#Excel", "#Quiz", "#Fórmulas"]
+palabras_clave: ["REDONDEAR Excel", "redondear 2,5", "redondeo de la mitad"]
+escenas:
+  - narracion: "¿Qué devuelve REDONDEAR de 2,5 con cero decimales? ¿Dos, tres o 2,5? La respuesta es tres."
+    visual:
+      plantilla: pregunta
+      datos:
+        pregunta: "¿Qué devuelve REDONDEAR(2,5;0)?"
+        opciones: ["2", "3", "2,5"]
+        correcta: 1
+        explicacion: "La mitad se aleja de cero"
+  - narracion: "Excel redondea la mitad alejándose de cero. Así, 2,5 pasa a 3. 3,5 pasa a 4. Y con negativos, menos 2,5 pasa a menos 3."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Regla de la mitad"
+        lineas:
+          - {izq: "REDONDEAR(2,5;0)", der: "3"}
+          - {izq: "REDONDEAR(3,5;0)", der: "4"}
+        resultado: {izq: "REDONDEAR(-2,5;0)", der: "-3"}
+  - narracion: "Otros programas pueden redondear la mitad al par más cercano. Compara antes de mezclar herramientas."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "La mitad *se aleja* de cero"
+        puntos: ["2,5 → 3", "−2,5 → −3", "Compara entre programas"]
+        cta: "Comenta tu respuesta"
+fuentes:
+  - url: "https://support.microsoft.com/es-ES/Excel/functions/round-function"
+    titulo: "Función REDONDEAR / ROUND (Microsoft Support, versión es-ES)"
+    fecha_consulta: 2026-10-11
+    respalda: "REDONDEAR redondea un número a una cantidad de decimales; ejemplos de la ayuda: ROUND(2.15;1) = 2,2 y ROUND(-1.475;2) = -1,48 (la mitad se aleja de cero)."
+  - calculo: "REDONDEAR(2.5, 0)"
+    resultado: 3
+    respalda: "REDONDEAR(2,5;0) con la regla de Excel (la mitad se aleja de cero)."
+  - calculo: "REDONDEAR(3.5, 0)"
+    resultado: 4
+    respalda: "REDONDEAR(3,5;0)."
+  - calculo: "REDONDEAR(-2.5, 0)"
+    resultado: -3
+    respalda: "REDONDEAR(-2,5;0): con negativos también se aleja de cero."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — comportamiento estándar de ROUND en Excel; ejemplos de la ayuda de Microsoft consistentes con la regla. La frase sobre otros programas se mantiene general (algunos redondean al par)."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["REDONDEAR"]

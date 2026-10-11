@@ -1,0 +1,138 @@
+id: B-036
+canal: canal_b
+fecha: '2026-11-23'
+formato: short
+serie: Error que todos cometen
+episodio: '#08'
+pilar: errores
+tipo_editorial: error_comun
+idea: Un subtotal puesto en medio de una columna de datos hace que la suma cuente de más; los datos deben ir continuos y los totales aparte.
+objetivo: Corregir un hábito común con una demostración numérica y reglas simples de orden de datos.
+publico: Personas que arman listas de ventas o gastos en Excel y agregan subtotales entre filas.
+hipotesis: 'Formato ''error_comun'' en pilar ''errores'': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje).'
+gancho: Un subtotal en medio de tus datos hace que sumes de más.
+duracion_objetivo: 35-55 s (≈85-140 palabras)
+titulo: 'Subtotal en medio de los datos: por qué tu suma sale mal'
+titulos_alternativos:
+- 'Filas vacías y totales en medio: el error que rompe tus planillas'
+- Por qué tu suma de Excel da más de lo vendido
+- 'Datos limpios arriba, cálculos aparte: regla de oro de Excel'
+criterio_titulo: Describe el error concreto y su consecuencia (suma incorrecta), que es lo que la persona busca.
+descripcion: |-
+  Si pones un subtotal en medio de una columna de datos y luego sumas toda la columna, el subtotal se cuenta dos veces. Ejemplo ilustrativo: ventas de 120, 80 y 150 con un subtotal de 200 dan 550 en vez de 350.
+  Microsoft recomienda evitar filas y columnas en blanco dentro de un rango de datos para que ordenar, filtrar y las tablas dinámicas detecten bien el rango.
+cta: Revisa hoy si tu planilla tiene totales mezclados con los datos.
+comentario_fijado: 'Fórmula del ejemplo: =SUMA(B2:B5). Mejor: deja los datos continuos y pon el total en otra celda o en otra hoja. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;).'
+hashtags:
+- '#Excel'
+- '#ErroresDeExcel'
+- '#Planillas'
+palabras_clave:
+- subtotal en medio de los datos
+- filas vacías Excel
+- suma incorrecta Excel
+escenas:
+- narracion: Un subtotal en medio de tus datos hace que sumes de más. Mira este caso.
+  visual:
+    plantilla: hook
+    datos:
+      kicker: Error que todos cometen
+      titulo: Un subtotal en medio *te hace sumar de más*
+      sub: Ejemplo ilustrativo
+- narracion: Estas ventas tienen un subtotal en medio. Resalta toda la columna. Al sumarla da 550, pero lo vendido es 350.
+  visual:
+    plantilla: planilla
+    datos:
+      titulo: Ventas con subtotal en medio
+      formula: =SUMA(B2:B5)
+      celda_formula: B6
+      filas:
+      - - Mes
+        - Ventas
+      - - Ene
+        - 120
+      - - Feb
+        - 80
+      - - Subtotal
+        - 200
+      - - Mar
+        - 150
+      - - Total
+        - ''
+      resaltar:
+      - rango: B2:B5
+        beat: 1
+      resultado:
+        celda: B6
+        valor: '550'
+        beat: 2
+      nota: Cantidades ilustrativas
+- narracion: Mezclado, los datos y el subtotal comparten columna. Separado, los datos van seguidos y el total vive aparte. Así cada fórmula lee solo registros.
+  visual:
+    plantilla: versus
+    datos:
+      titulo: Cómo ordenar los datos
+      izq:
+        etiqueta: Mezclado
+        titulo: Datos y subtotal juntos
+        items:
+        - Ene y Feb
+        - Subtotal en medio
+        - Mar
+      der:
+        etiqueta: Separado
+        titulo: Datos continuos
+        items:
+        - Ene, Feb y Mar seguidos
+        - Total en otra celda
+      veredicto: Cada fórmula lee solo registros
+- narracion: Una fila por cada registro. Ninguna fila vacía dentro del rango. Y los totales, en otra zona o en otra hoja.
+  visual:
+    plantilla: lista
+    datos:
+      titulo: Reglas para datos limpios
+      estilo: check
+      items:
+      - Una fila por registro
+      - Sin filas vacías en el rango
+      - Totales en otra zona u hoja
+- narracion: Con datos continuos, ordenar, filtrar y las tablas dinámicas leen el rango completo.
+  visual:
+    plantilla: cierre
+    datos:
+      titulo: Datos *limpios*, cálculos aparte
+      puntos:
+      - Ordenar y filtrar leen todo el rango
+      - Las tablas dinámicas también
+      cta: Guárdalo
+fuentes:
+- url: https://support.microsoft.com/es-es/office/instrucciones-para-organizar-y-dar-formato-a-datos-en-una-hoja-de-c%C3%A1lculo-90895cad-6c85-4e02-90d3-8798660166e3
+  titulo: Instrucciones para organizar y dar formato a los datos de una hoja de cálculo (Microsoft Support)
+  fecha_consulta: '2026-10-11'
+  respalda: Evitar filas y columnas en blanco dentro de un rango de datos; el origen de una tabla dinámica no debe tener filas en blanco; Excel detecta mejor el rango al ordenar y filtrar.
+- calculo: '[120, 80, 200, 150]'
+  respalda: Datos ilustrativos del ejemplo (ventas y subtotal).
+- calculo: 120 + 80 + 200 + 150
+  resultado: 550
+  respalda: Suma de toda la columna, con el subtotal incluido.
+- calculo: 120 + 80 + 150
+  resultado: 350
+  respalda: Ventas reales, sin contar el subtotal.
+riesgos:
+  derechos: bajo — material propio
+  exactitud: bajo — el comportamiento de SUMA es aritmético; la recomendación de evitar filas vacías está en la ayuda oficial de Microsoft.
+  monetizacion: bajo — educación general, sin recomendar productos
+recursos:
+- nombre: Música y efectos originales generados por la fábrica
+  licencia: propia
+declaracion_sintetica:
+  decision: declarar
+  motivo: Voz sintética realista; gráficos no realistas. Se declara por prudencia.
+costo_estimado_usd: 0
+palabras_validas:
+- subtotal
+- Subtotal
+- Mezclado
+- Ene
+- Feb
+- Mar

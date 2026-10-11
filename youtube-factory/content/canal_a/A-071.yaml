@@ -1,0 +1,90 @@
+id: A-071
+canal: canal_a
+fecha: 2026-12-28
+formato: short
+serie: Caso pyme
+episodio: "#14"
+pilar: puente_excel
+tipo_editorial: caso_practico
+idea: "La IA propone ideas de publicaciones y la planilla las ordena: una fila por publicación con fecha, idea, formato y estado, y CONTAR.SI cuenta cuántas están listas."
+objetivo: "Mostrar la división de tareas correcta entre IA (ideas) y planilla (orden y seguimiento), con una función verificada de Excel."
+publico: "Dueños de pymes y encargados de redes sociales que planifican publicaciones sin una herramienta especializada."
+hipotesis: "Formato 'caso_practico' en pilar 'puente_excel': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "La IA propone ideas de publicaciones; la planilla las ordena."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Calendario de publicaciones en planilla con ideas de IA"
+titulos_alternativos:
+  - "Cómo planificar tus redes con una planilla y un poco de IA"
+  - "La IA da ideas, la planilla da orden: calendario en 4 columnas"
+  - "Cuenta tus publicaciones listas con CONTAR.SI"
+criterio_titulo: "Nombra el entregable (calendario de publicaciones), la herramienta (planilla) y el apoyo (IA); es buscable por pymes."
+descripcion: |
+  Usa la IA para proponer ideas de publicaciones y una planilla para ordenarlas: una fila por publicación con fecha, idea, formato y estado. La función CONTAR.SI de Excel cuenta cuántas tienen el estado «Listo».
+  Los datos del ejemplo son ficticios. Revisa cada idea antes de programarla: la IA no conoce tu inventario, tus precios ni tus promociones.
+cta: "Guárdalo para planificar tu próximo mes."
+comentario_fijado: |
+  Fórmula del video (Excel): =CONTAR.SI(D2:D5;"Listo")
+  Nota: si tu Excel usa coma como separador de argumentos (México, EE. UU.), escribe =CONTAR.SI(D2:D5,"Listo").
+hashtags: ["#Excel", "#RedesSociales", "#IA", "#Pymes"]
+palabras_clave: ["calendario de publicaciones", "planificar redes sociales", "CONTAR.SI", "IA para ideas de contenido"]
+escenas:
+  - narracion: "La IA propone ideas de publicaciones. La planilla las ordena."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Caso pyme", titulo: "IA para *ideas*, planilla para *orden*", sub: "Calendario de publicaciones"}
+  - narracion: "Pídele a la IA ideas con formato y objetivo. Sin promociones ni precios inventados."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Tengo [NEGOCIO] en [CIUDAD]. Propón 8 ideas de publicaciones para [MES], con formato (foto, video corto o texto) y objetivo. Una idea por línea. No inventes promociones ni precios."
+  - narracion: "En la planilla, una fila por publicación: fecha, idea, formato y estado. Con [[contar si|CONTAR.SI]] cuentas cuántas están listas. Aquí, dos de cuatro."
+    visual:
+      plantilla: planilla
+      datos:
+        titulo: "Calendario de ejemplo (ficticio)"
+        formula: "=CONTAR.SI(D2:D5;\"Listo\")"
+        celda_formula: "D6"
+        filas:
+          - ["Fecha", "Idea", "Formato", "Estado"]
+          - ["2027-01-11", "Tips de uso", "Video corto", "Listo"]
+          - ["2027-01-13", "Detrás de escena", "Foto", "Idea"]
+          - ["2027-01-15", "Pregunta al público", "Texto", "Listo"]
+          - ["2027-01-18", "Producto del mes", "Foto", "Idea"]
+          - ["", "Listas", "", ""]
+        resaltar:
+          - {rango: "D2:D5", beat: 1}
+        resultado: {celda: "D6", valor: "2", beat: 2}
+  - narracion: "Usa estados fijos: idea, redactado, listo y publicado. Y revisa cada idea antes de programarla."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Reglas del *calendario*"
+        estilo: check
+        items: ["Estados fijos: Idea, Redactado, Listo, Publicado", "Revisa cada idea antes de programarla"]
+  - narracion: "La IA no conoce tu inventario. Tú sí."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Ideas de la IA, *decisión* tuya"
+        puntos: ["Una fila por publicación", "Estados fijos", "CONTAR.SI cuenta las listas"]
+        cta: "Guárdalo para tu próximo mes"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/office/funci%C3%B3n-contar-si-e0de10c6-f885-4e71-abb4-1f464816df34"
+    titulo: "Use la función CONTAR.SI en Microsoft Excel (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "CONTAR.SI cuenta el número de celdas de un rango que cumplen un criterio; sintaxis CONTAR.SI(rango;criterios)."
+  - calculo: "1 + 0 + 1 + 0"
+    resultado: 2
+    respalda: "Publicaciones con estado «Listo» en el ejemplo ficticio (filas 2 y 4): 2 de 4."
+riesgos:
+  derechos: "bajo — planilla, gráficos y prompt creados por el canal; datos ficticios"
+  exactitud: "bajo — función CONTAR.SI respaldada por Microsoft Support; resultado respaldado por cálculo; se afirma solo para Excel"
+  monetizacion: "bajo — contenido educativo para negocios"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["CONTAR.SI"]

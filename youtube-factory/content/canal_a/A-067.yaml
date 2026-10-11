@@ -1,0 +1,76 @@
+id: A-067
+canal: canal_a
+fecha: 2026-12-24
+formato: short
+serie: IA sin humo
+episodio: "#07"
+pilar: ia_sin_humo
+tipo_editorial: mito
+idea: "La IA no recuerda automáticamente todo lo que le dijiste: dentro de un chat usa lo escrito allí, entre chats solo puede recordar si la memoria está activa, y tú puedes controlarla."
+objetivo: "Corregir una creencia común con información de la ayuda oficial y dar tres hábitos de privacidad."
+publico: "Usuarios de asistentes de IA que se preguntan qué conserva el asistente de sus conversaciones."
+hipotesis: "Formato 'mito' en pilar 'ia_sin_humo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Mito: la IA recuerda todo lo que le dijiste."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Mito: la IA recuerda todo lo que le dijiste (qué guarda y qué no)"
+titulos_alternativos:
+  - "¿Tu asistente de IA te recuerda entre chats? Depende de esto"
+  - "Memoria de la IA: cómo revisarla y cómo evitarla"
+  - "Apagar la memoria de la IA no borra lo que ya guardó"
+criterio_titulo: "Plantea el mito literal y promete aclarar qué guarda y qué no, con intención de búsqueda sobre memoria e IA."
+descripcion: |
+  Según la ayuda oficial de OpenAI y de Claude (a la fecha), la memoria entre conversaciones es una función que puedes controlar: revisarla, pausarla o apagarla y borrar lo guardado. Los chats temporales o incógnito no la usan.
+  Apagar la memoria no borra lo que ya se guardó, y lo sensible que compartas puede terminar guardado. Las opciones cambian según la app, el plan y la versión: revisa los ajustes de tu asistente.
+cta: "Revisa hoy los ajustes de memoria de tu asistente."
+comentario_fijado: "Fuentes: OpenAI, «Memory FAQ», y Claude, «Use Claude's chat search and memory to build on previous context». Las opciones varían según plan y versión. ¿Ya revisaste la memoria de tu asistente?"
+hashtags: ["#IA", "#IASinHumo", "#Privacidad"]
+palabras_clave: ["memoria de la IA", "memoria de ChatGPT", "la IA recuerda mis chats", "privacidad en chatbots"]
+escenas:
+  - narracion: "Mito: la IA recuerda todo lo que le dijiste. Realidad: depende del chat y de tus ajustes."
+    visual:
+      plantilla: mito
+      datos:
+        mito: "La IA recuerda *todo* lo que le dijiste"
+        realidad: "Depende del chat y de tus *ajustes*"
+        fuente: "Ayuda oficial de OpenAI y Claude, a la fecha"
+  - narracion: "En el mismo chat, usa lo que está escrito ahí, hasta un límite. Entre chats, solo puede recordar si la memoria está activa. Y, según la ayuda oficial, tú puedes controlarla."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "En un chat", titulo: "Usa lo escrito ahí", items: ["Con un límite de longitud", "Se acaba al cerrar el tema"]}
+        der: {etiqueta: "Entre chats", titulo: "Solo con memoria activa", items: ["Se puede revisar", "Se puede apagar o borrar"]}
+        veredicto: "Tú controlas la memoria"
+  - narracion: "Revisa en los ajustes si la memoria está activa. Usa un chat temporal para temas privados. Apagarla no borra lo que ya guardó. Y lo sensible puede terminar guardado."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Haz esto *hoy*"
+        estilo: check
+        items: ["Revisa si la memoria está activa", "Chat temporal para temas privados", "Apagarla no borra lo guardado", "Lo sensible puede quedar guardado"]
+  - narracion: "La memoria es una función, no un destino. Tú decides si la usas."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "La memoria es *opcional*"
+        puntos: ["Revisa tus ajustes", "Chat temporal si es privado", "No compartas lo sensible"]
+        cta: "Revisa hoy tus ajustes"
+fuentes:
+  - url: "https://help.openai.com/en/articles/8590148-memory-faq"
+    titulo: "Memory FAQ (OpenAI Help Center)"
+    fecha_consulta: 2026-10-11
+    respalda: "ChatGPT tiene controles para referenciar memorias guardadas y el historial de chats; se pueden apagar en los ajustes de personalización; apagar la memoria no borra lo ya almacenado; los chats temporales no usan ni crean memorias; lo sensible que compartas puede terminar en la memoria."
+  - url: "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context"
+    titulo: "Use Claude's chat search and memory to build on previous context (Claude Help Center)"
+    fecha_consulta: 2026-10-11
+    respalda: "En Claude la memoria se puede pausar (conserva lo existente pero deja de usarlo y crear nuevos recuerdos) o restablecer (borra todo), se puede desactivar por chat y los chats incógnito no se guardan en el historial ni en la memoria."
+riesgos:
+  derechos: "bajo — se parafrasea ayuda pública; sin logotipos"
+  exactitud: "medio — las funciones de memoria cambian por plan, versión y país; la información proviene de resúmenes de resultados de búsqueda de las páginas de ayuda de OpenAI y Claude (hay copias con versiones distintas). Verificar la redacción vigente en ambas páginas antes de publicar."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []
