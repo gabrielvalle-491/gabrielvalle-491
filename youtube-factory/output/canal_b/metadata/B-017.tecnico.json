@@ -1,0 +1,74 @@
+{
+  "id": "B-017",
+  "duracion_s": 36.709,
+  "frases": 10,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.716,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.716,
+      "fin": 15.601,
+      "beats": [
+        0.0,
+        3.474,
+        7.187
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 15.601,
+      "fin": 27.206,
+      "beats": [
+        0.0,
+        5.03,
+        9.184
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 27.206,
+      "fin": 36.709,
+      "beats": [
+        0.0,
+        5.148
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.13",
+    "input_tp": "-6.25",
+    "input_lra": "2.30",
+    "input_thresh": "-32.43",
+    "output_i": "-14.55",
+    "output_tp": "-1.50",
+    "output_lra": "1.50",
+    "output_thresh": "-24.75",
+    "normalization_type": "dynamic",
+    "target_offset": "0.55"
+  },
+  "fotogramas_unicos": 225,
+  "tts_cache": 0,
+  "spec_hash": "aba5c9dded9e7285",
+  "segundos_produccion": 123.2,
+  "texto_hablado": [
+    "Las ventas pasan de ochenta a cien.",
+    "¿Subieron veinte por ciento o veinticinco por ciento?",
+    "Primero, la diferencia: cien menos ochenta, es veinte.",
+    "Segundo, divídela entre el valor inicial: veinte entre ochenta.",
+    "La variación es de veinticinco por ciento.",
+    "Si divides entre el valor final, veinte entre cien, sale veinte por ciento: es el error.",
+    "Dividiendo entre el inicial, sale veinticinco por ciento: es lo correcto.",
+    "La base es siempre el valor de partida.",
+    "En la planilla: nuevo menos antiguo, dividido entre antiguo, con formato de porcentaje.",
+    "Y si baja de cien a ochenta, la caída es de veinte por ciento."
+  ]
+}
