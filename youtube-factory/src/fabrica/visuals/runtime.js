@@ -76,6 +76,17 @@
       el.dataset.fitted = size;
     });
   }
+  // Planillas y tarjetas: reducir la letra hasta que el contenido entre a lo ancho
+  function fitWidth() {
+    document.querySelectorAll('.fitw').forEach(el => {
+      const box = el.parentElement;
+      let size = parseFloat(getComputedStyle(el).fontSize), guard = 0;
+      const min = parseFloat(el.dataset.min || '22');
+      while (el.scrollWidth > box.clientWidth + 2 && size > min && guard < 60) {
+        size -= 1; el.style.fontSize = size + 'px'; guard++;
+      }
+    });
+  }
   window.__over = over;
 
   window.setup = function () {
@@ -87,6 +98,7 @@
       if (el.getTotalLength) el.dataset.len = Math.ceil(el.getTotalLength()) + 2;
     });
     fit();
+    fitWidth();
     const beats = {};
     document.querySelectorAll('[data-b]').forEach(el => {
       const b = parseInt(el.dataset.b, 10);
@@ -96,6 +108,10 @@
     const overflow = [];
     document.querySelectorAll('.fit').forEach(el => {
       if (over(el)) overflow.push(el.className + ': ' + el.textContent.slice(0, 40));
+    });
+    document.querySelectorAll('.fitw, .vs .card, .calc .l, .opt, .li').forEach(el => {
+      const box = el.classList.contains('fitw') ? el.parentElement : el;
+      if (box.scrollWidth > box.clientWidth + 4) overflow.push('ancho ' + el.className + ': ' + el.textContent.slice(0, 40));
     });
     return { beats, overflow };
   };

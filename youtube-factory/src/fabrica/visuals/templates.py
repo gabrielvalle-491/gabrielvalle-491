@@ -135,7 +135,9 @@ table.g td.res{{font-weight:800;color:#0b0b0b}}
 .vs .card{{flex:1;padding:34px 32px}}
 .vs .t{{font:800 54px/1.08 var(--fh);margin-bottom:22px}}
 .vs ul{{list-style:none;display:flex;flex-direction:column;gap:16px;font:500 40px/1.25 var(--fb)}}
-.vs li::before{{content:"";display:inline-block;width:14px;height:14px;border-radius:50%;background:var(--ac);margin-right:14px;vertical-align:.2em}}
+.vs .card{{min-width:0;overflow-wrap:anywhere;hyphens:auto}}
+.vs li{{display:flex;gap:12px;align-items:baseline}} .vs li::before{{flex:none}}
+.vs li::before{{content:"";display:inline-block;width:14px;height:14px;border-radius:50%;background:var(--ac);margin-right:2px;transform:translateY(-.15em)}}
 .vs .r li::before{{background:var(--ac2)}}
 .vs .tag{{display:inline-block;font:700 26px/1 var(--fb);letter-spacing:.06em;text-transform:uppercase;padding:10px 16px;border-radius:999px;background:color-mix(in srgb,var(--fg) 10%,transparent);margin-bottom:18px}}
 .verdict{{font:700 42px/1.25 var(--fb);text-align:center}}
@@ -374,7 +376,7 @@ def t_planilla(d):
                 v_html = esc(v)
             celdas.append(f'<td class="{" ".join(tdcls)}">{v_html}{mk}</td>')
         cuerpo.append(f"<tr{cls}>" + "".join(celdas) + "</tr>")
-    out += f'<div class="sheet" data-b="0" data-a="up">{fx}<table class="g">{head}{"".join(cuerpo)}</table></div>'
+    out += f'<div class="sheet" data-b="0" data-a="up">{fx}<table class="g fitw" data-min="22">{head}{"".join(cuerpo)}</table></div>'
     if d.get("nota"):
         out += f'<div class="small" data-b="{d.get("beat_nota", 1)}" data-a="up">{md(d["nota"])}</div>'
     return out
@@ -425,7 +427,10 @@ def t_lista(d):
 def t_versus(d):
     def lado(x, cls, b):
         tag = f'<div class="tag">{md(x["etiqueta"])}</div>' if x.get("etiqueta") else ""
+        larga = max((len(w) for i in x.get("items", []) for w in re.sub(r"[*\[\]|]", " ", str(i)).split()), default=0)
+        tam = "" if larga <= 12 else (' style="font-size:34px"' if larga <= 15 else ' style="font-size:29px"')
         items = "".join(f"<li>{md(i)}</li>" for i in x.get("items", []))
+        items = items.replace("<li>", f"<li{tam}>")
         return f'<div class="card {cls}" data-b="{b}" data-a="{"left" if cls=="l" else "right"}">{tag}<div class="t">{md(x["titulo"])}</div><ul>{items}</ul></div>'
     out = _bloque_titulo(d)
     out += f'<div class="vs">{lado(d["izq"], "l", d.get("beat_izq", 0))}{lado(d["der"], "r", d.get("beat_der", 1))}</div>'
