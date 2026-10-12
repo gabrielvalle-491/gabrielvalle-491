@@ -39,7 +39,7 @@ escenas:
           - {izq: "Sin interés: 6 000 ÷ 24", der: "250,00"}
           - {izq: "PAGO(0,5%;24;0;-6000)", der: "235,92"}
         resultado: {izq: "Diferencia por mes", der: "14,08"}
-  - narracion: "El plazo cambia todo. A 12 meses, apartas 486,40. A 24, 235,92. A 36, 152,53."
+  - narracion: "El plazo cambia todo. A 12 meses, apartas 486,40. A 24, 235,92. A 36, 152,53. Más tiempo, aporte menor."
     visual:
       plantilla: barras
       datos:
@@ -50,7 +50,7 @@ escenas:
           - {etiqueta: "24 meses", valor: 235.92, texto: "235,92", destacado: true}
           - {etiqueta: "36 meses", valor: 152.53, texto: "152,53"}
         nota: "Tasa ilustrativa de 0,5 % mensual"
-  - narracion: "Cambia la meta, el plazo y la tasa de tu cuenta, y obtén tu aporte."
+  - narracion: "Cambia la meta, el plazo y la tasa de tu cuenta, y obtén tu aporte. La tasa del ejemplo es ilustrativa: tu cuenta puede pagar otra, o ninguna."
     visual:
       plantilla: cierre
       datos:

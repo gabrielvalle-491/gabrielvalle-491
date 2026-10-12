@@ -55,7 +55,7 @@ escenas:
           - {rango: "A2:A4", beat: 1}
         resultado: {celda: "C5", valor: "340", beat: 2}
         nota: "Precios de ejemplo"
-  - narracion: "Por defecto busca coincidencia exacta. Y si no encuentra el código, puedes añadir un texto como cuarto argumento. Disponible en Excel 2021, 2024 y Microsoft 365."
+  - narracion: "Por defecto busca coincidencia exacta. Y si no encuentra el código, puedes añadir un texto como cuarto argumento. Disponible en Excel 2021, 2024 y Microsoft 365. Pruébalo con tu lista de precios."
     visual:
       plantilla: cierre
       datos:

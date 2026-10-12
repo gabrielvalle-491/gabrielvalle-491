@@ -45,7 +45,7 @@ escenas:
           - {rango: "B2:C2", beat: 1}
         resultado: {celda: "D2", valor: "75 %", beat: 2}
         nota: "Cifras de ejemplo"
-  - narracion: "Ventas va en 75 %. Clientes, en 85 %. Reuniones ya superó el objetivo, con 115 %."
+  - narracion: "Ventas va en 75 %. Clientes, en 85 %. Reuniones ya superó el objetivo, con 115 %. Así ves de un vistazo qué meta necesita atención."
     visual:
       plantilla: barras
       datos:
@@ -56,7 +56,7 @@ escenas:
           - {etiqueta: "Ventas", valor: 75}
           - {etiqueta: "Clientes", valor: 85}
           - {etiqueta: "Reuniones", valor: 115, destacado: true}
-  - narracion: "Con formato condicional, el color avisa. Por debajo de 80 %, rojo. De 80 a 99, amarillo. Desde 100, verde. Tú eliges los cortes."
+  - narracion: "Con formato condicional, el color avisa. Por debajo de 80 %, rojo. De 80 a 99, amarillo. Desde 100, verde. Tú eliges los cortes, según tu equipo y tus metas."
     visual:
       plantilla: cierre
       datos:

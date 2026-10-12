@@ -26,7 +26,7 @@ comentario_fijado: "Conteo del ejemplo: =CONTAR.SI(B2:B4;\"Comida\"). Pasos en E
 hashtags: ["#Excel", "#GoogleSheets", "#Productividad"]
 palabras_clave: ["lista desplegable Excel", "validación de datos", "evitar errores de escritura"]
 escenas:
-  - narracion: "Comida, Comdia y Comidas: tres categorías para Excel. Una lista desplegable evita ese error."
+  - narracion: "Comida, Comdia y Comidas: tres categorías para Excel. Una lista desplegable evita ese error, porque limita las opciones."
     visual:
       plantilla: hook
       datos: {kicker: "Mini sistema", titulo: "Categorías sin errores de escritura: *lista desplegable*"}
@@ -55,7 +55,7 @@ escenas:
           - {titulo: "Datos → Validación de datos"}
           - {titulo: "Permitir: Lista"}
           - {titulo: "Origen: tu rango de categorías"}
-  - narracion: "Ahora la celda solo acepta lo que está en tu lista. Google Sheets también tiene listas desplegables."
+  - narracion: "Ahora la celda solo acepta lo que está en tu lista, y tus conteos cuadran. Google Sheets también tiene listas desplegables."
     visual:
       plantilla: cierre
       datos:

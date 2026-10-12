@@ -59,7 +59,7 @@ escenas:
           - {izq: "CONTAR(A2:A5)", der: "2"}
           - {izq: "CONTARA(A2:A5)", der: "3"}
         resultado: {izq: "Diferencia", der: "1 celda de texto"}
-  - narracion: "Elige según lo que necesites contar, y comenta tu respuesta."
+  - narracion: "Elige según lo que necesites contar: números con CONTAR, cualquier dato con [[contar a|CONTARA]]. Comenta tu respuesta."
     visual:
       plantilla: cierre
       datos:
