@@ -184,3 +184,42 @@ def evaluar_y_registrar(spec: dict, biblioteca: list[dict] | None = None) -> dic
     db.registrar_evento(spec["id"], "qa", f"{estado} ({inf.puntaje:.0f}/100) " + "; ".join(motivos)[:900],
                         "info" if aprobado else "aviso")
     return datos
+
+
+def informe_control_final() -> str:
+    """Control final de la biblioteca: aprobados, pendientes con motivo y estadísticas reales."""
+    import statistics
+
+    from .config import cargar_canales
+    lineas = ["# Control final de la biblioteca", ""]
+    for clave, canal in cargar_canales().items():
+        fichas = [f for f in listar_fichas(clave) if not f["id"].endswith("TEST")]
+        vids = {v["id"]: v for v in db.listar_videos(clave)}
+        aprob = [f for f in fichas if vids.get(f["id"], {}).get("estado") == "aprobado"]
+        pend = [f for f in fichas if f not in aprob]
+        durs = [vids[f["id"]]["duracion_s"] for f in aprob if vids[f["id"]].get("duracion_s")]
+        segs = [vids[f["id"]]["segundos_produccion"] for f in aprob if vids[f["id"]].get("segundos_produccion")]
+        lineas += [f"## {canal.nombre} ({clave})", "",
+                   f"- Guiones: {len(fichas)} · **aprobados: {len(aprob)}** · pendientes: {len(pend)}"]
+        if durs:
+            lineas.append(f"- Duración de los aprobados: mín {min(durs):.1f} s · mediana {statistics.median(durs):.1f} s · máx {max(durs):.1f} s")
+        if segs:
+            lineas.append(f"- Tiempo de producción por video (mediana): {statistics.median(segs):.0f} s")
+        tipos = {}
+        for f in fichas:
+            tipos[f["tipo_editorial"]] = tipos.get(f["tipo_editorial"], 0) + 1
+        lineas.append("- Mezcla editorial: " + ", ".join(f"{k} {v}" for k, v in sorted(tipos.items(), key=lambda x: -x[1])))
+        lineas += ["", "| ID | Fecha | Estado | QA | Título / motivo |", "|---|---|---|---|---|"]
+        for f in fichas:
+            v = vids.get(f["id"], {})
+            est = v.get("estado", "sin_producir")
+            det = f["titulo"]
+            if est != "aprobado":
+                motivos = json.loads(v["qa_detalle"]) if v.get("qa_detalle") else [v.get("error") or "no producido todavía"]
+                det = "; ".join(m for m in motivos if m)[:180]
+            lineas.append(f"| {f['id']} | {f['fecha']} | {est} | {v.get('qa_puntaje') or ''} | {det.replace('|', '/')} |")
+        lineas.append("")
+    lineas += ["Ver también `reports/verificar_antes_de_publicar.md` (verificaciones manuales recomendadas).", ""]
+    texto = "\n".join(lineas)
+    ruta("reports", "control_final.md").write_text(texto, encoding="utf-8")
+    return texto

@@ -1,0 +1,51 @@
+1
+00:00:00,120 --> 00:00:03,409
+Estas tres suscripciones suman US$ 17 al mes.
+
+2
+00:00:03,569 --> 00:00:04,546
+Parece poco.
+
+3
+00:00:04,706 --> 00:00:06,796
+Al año son US$ 204.
+
+4
+00:00:07,076 --> 00:00:09,547
+Anota cada servicio con su costo mensual.
+
+5
+00:00:09,707 --> 00:00:13,147
+Multiplícalo por 12, los meses del año, en la columna C.
+
+6
+00:00:13,307 --> 00:00:16,151
+El primer resultado aparece en la celda C2.
+
+7
+00:00:16,431 --> 00:00:19,751
+Con todos los servicios al año: el video, 114.
+
+8
+00:00:19,911 --> 00:00:21,225
+La música, 60.
+
+9
+00:00:21,385 --> 00:00:23,145
+Y el almacenamiento, 30.
+
+10
+00:00:23,305 --> 00:00:25,776
+Cada barra es el costo mensual por 12.
+
+11
+00:00:26,056 --> 00:00:29,899
+En total son 204 al año, aunque cada mes parezca poco.
+
+12
+00:00:30,059 --> 00:00:32,568
+Revisa cuáles sigues usando y cuáles ya no.
+
+13
+00:00:32,728 --> 00:00:34,927
+Ese es el truco: lo mensual, por 12.

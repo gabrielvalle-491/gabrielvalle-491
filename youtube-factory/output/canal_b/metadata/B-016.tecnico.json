@@ -1,0 +1,73 @@
+{
+  "id": "B-016",
+  "duracion_s": 31.895,
+  "frases": 9,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.364,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.364,
+      "fin": 13.685,
+      "beats": [
+        0.0,
+        1.607,
+        5.45
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 13.685,
+      "fin": 21.206,
+      "beats": [
+        0.0,
+        2.979,
+        5.509
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 21.206,
+      "fin": 31.895,
+      "beats": [
+        0.0,
+        6.608
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.80",
+    "input_tp": "-6.82",
+    "input_lra": "2.00",
+    "input_thresh": "-32.06",
+    "output_i": "-14.08",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.25",
+    "normalization_type": "dynamic",
+    "target_offset": "0.08"
+  },
+  "fotogramas_unicos": 226,
+  "tts_cache": 0,
+  "spec_hash": "972609a73b9a42c5",
+  "segundos_produccion": 135.2,
+  "texto_hablado": [
+    "De juan PÉREZ, con espacios de sobra, a Juan Pérez en una sola fórmula.",
+    "Combina dos funciones.",
+    "ESPACIOS quita los espacios de sobra y deja uno entre palabras.",
+    "nom propio pone la primera letra de cada palabra en mayúscula.",
+    "Escríbela en la primera fila y copia hacia abajo.",
+    "La fórmula toma cada nombre original.",
+    "El primero queda en Juan Pérez.",
+    "Ojo: nom propio también pone mayúscula en palabras como de o la, y ESPACIOS no quita los espacios de no separación.",
+    "Revisa los resultados antes de usarlos en un reporte."
+  ]
+}

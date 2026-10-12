@@ -1,0 +1,78 @@
+{
+  "id": "B-015",
+  "duracion_s": 35.787,
+  "frases": 13,
+  "subtitulos": 26,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.996,
+      "beats": [
+        -5.0,
+        3.519
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.996,
+      "fin": 16.351,
+      "beats": [
+        0.0,
+        2.662,
+        6.262
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 16.351,
+      "fin": 25.976,
+      "beats": [
+        0.0,
+        3.51,
+        4.983
+      ],
+      "plantilla": "barras"
+    },
+    {
+      "inicio": 25.976,
+      "fin": 35.787,
+      "beats": [
+        0.0,
+        4.033
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.93",
+    "input_tp": "-6.39",
+    "input_lra": "1.60",
+    "input_thresh": "-32.11",
+    "output_i": "-14.00",
+    "output_tp": "-1.50",
+    "output_lra": "1.50",
+    "output_thresh": "-24.12",
+    "normalization_type": "dynamic",
+    "target_offset": "0.00"
+  },
+  "fotogramas_unicos": 278,
+  "tts_cache": 0,
+  "spec_hash": "4f2e13acaacd8d30",
+  "segundos_produccion": 148.4,
+  "texto_hablado": [
+    "Estas tres suscripciones suman diecisiete dólares al mes.",
+    "Parece poco.",
+    "Al año son doscientos cuatro dólares.",
+    "Anota cada servicio con su costo mensual.",
+    "Multiplícalo por doce, los meses del año, en la columna C.",
+    "El primer resultado aparece en la celda ce dos.",
+    "Con todos los servicios al año: el video, ciento catorce.",
+    "La música, sesenta.",
+    "Y el almacenamiento, treinta.",
+    "Cada barra es el costo mensual por doce.",
+    "En total son doscientos cuatro al año, aunque cada mes parezca poco.",
+    "Revisa cuáles sigues usando y cuáles ya no.",
+    "Ese es el truco: lo mensual, por doce."
+  ]
+}

@@ -39,6 +39,7 @@ En Linux o macOS usa `./instalar.sh` y luego `./fabrica.sh <comando>`.
 | Subir y programar (opcional; simula si no agregas `--confirmar`) | `fabrica.bat publicar canal_a --desde 2026-10-19 --hasta 2026-10-25` |
 | Cargar métricas | `fabrica.bat metricas canal_a` (API) o `fabrica.bat metricas canal_a --csv "Datos de la tabla.csv"` (exportación de Studio) |
 | Informe semanal | `fabrica.bat informe canal_a` |
+| Control final (aprobados y pendientes con motivo) | `fabrica.bat control` |
 | Ver costos | `fabrica.bat costos` |
 
 ## Publicar (lo más simple)

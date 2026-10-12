@@ -141,6 +141,13 @@ def cmd_informe(a):
     print(informe_semanal(a.canal, a.fin))
 
 
+def cmd_control(a):
+    from .quality import informe_control_final
+    texto = informe_control_final()
+    print("\n".join(l for l in texto.splitlines() if not l.startswith("| ")))
+    print("Informe completo: reports/control_final.md")
+
+
 def cmd_costos(a):
     from .diagnostics import informe_costos
     print(informe_costos())
@@ -183,6 +190,7 @@ def main(argv=None):
     s.add_argument("canal"); s.add_argument("--dias", type=int, default=28); s.add_argument("--csv")
     s = add("informe", cmd_informe, "Genera el informe semanal por canal (qué funcionó, qué no, próximas hipótesis)")
     s.add_argument("canal"); s.add_argument("--fin")
+    s = add("control", cmd_control, "Control final: aprobados, pendientes con motivo y estadísticas (reports/control_final.md)")
     s = add("costos", cmd_costos, "Informe de costos medidos y estimados")
     a = p.parse_args(argv)
     cargar_env()
