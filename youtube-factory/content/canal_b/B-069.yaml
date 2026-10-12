@@ -1,0 +1,92 @@
+id: B-069
+canal: canal_b
+fecha: 2026-12-26
+formato: short
+serie: Tu dinero en una planilla
+episodio: "#21"
+pilar: dinero
+tipo_editorial: tutorial
+idea: "Con PAGO y el valor futuro como meta se calcula el aporte mensual para juntar una cifra en un plazo dado; un plazo más largo baja el aporte (ejemplo ilustrativo con tasa de 0,5 % mensual)."
+objetivo: "Tutorial práctico: que la persona calcule el aporte mensual de su propia meta y compare plazos."
+publico: "Personas que quieren juntar dinero para una meta (viaje, equipo, fondo) y no saben cuánto apartar."
+hipotesis: "Formato 'tutorial' en pilar 'dinero': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Quieres juntar 6 000 en dos años. ¿Cuánto apartas cada mes?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Cuánto ahorrar por mes para llegar a una meta (con PAGO)"
+titulos_alternativos:
+  - "Meta de ahorro: cuánto apartar cada mes según el plazo"
+  - "La función PAGO también sirve para ahorrar"
+  - "Ahorrar 6 000 en 24 meses: la cuenta en una celda"
+criterio_titulo: "Plantea la pregunta práctica y revela que se resuelve con una función de planilla."
+descripcion: |
+  Ejemplo ilustrativo: meta de 6 000 en 24 meses. Sin interés se aparta 250 por mes; con una tasa ilustrativa de 0,5 % mensual, la función PAGO da 235,92. Con más plazo, el aporte baja.
+  La tasa real de tu cuenta puede ser distinta o inexistente. Contenido educativo general, no es una recomendación de ahorro ni de productos financieros.
+cta: "Cambia la meta y el plazo, y mira tu aporte."
+comentario_fijado: "Fórmula: =PAGO(0,5%;24;0;-6000). El valor futuro va en negativo para que el aporte salga positivo. Sin interés: =6000/24. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;)."
+hashtags: ["#Excel", "#Ahorro", "#FinanzasPersonales"]
+palabras_clave: ["cuánto ahorrar por mes", "meta de ahorro Excel", "función PAGO ahorro"]
+escenas:
+  - narracion: "Quieres juntar 6 000 en dos años. ¿Cuánto apartas cada mes?"
+    visual:
+      plantilla: hook
+      datos: {kicker: "Tu dinero en una planilla", titulo: "Una meta de *6 000* en 24 meses", sub: "Ejemplo ilustrativo"}
+  - narracion: "Sin interés, divides: 6 000 entre 24 meses son 250. Con una tasa ilustrativa de 0,5 % mensual, la función PAGO da 235,92. Es 14,08 menos al mes."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Aporte mensual para 6 000"
+        lineas:
+          - {izq: "Sin interés: 6 000 ÷ 24", der: "250,00"}
+          - {izq: "PAGO(0,5%;24;0;-6000)", der: "235,92"}
+        resultado: {izq: "Diferencia por mes", der: "14,08"}
+  - narracion: "El plazo cambia todo. A 12 meses, apartas 486,40. A 24, 235,92. A 36, 152,53."
+    visual:
+      plantilla: barras
+      datos:
+        titulo: "Aporte mensual según el plazo"
+        maximo: 500
+        items:
+          - {etiqueta: "12 meses", valor: 486.4, texto: "486,40"}
+          - {etiqueta: "24 meses", valor: 235.92, texto: "235,92", destacado: true}
+          - {etiqueta: "36 meses", valor: 152.53, texto: "152,53"}
+        nota: "Tasa ilustrativa de 0,5 % mensual"
+  - narracion: "Cambia la meta, el plazo y la tasa de tu cuenta, y obtén tu aporte."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Más plazo, *menos aporte*"
+        puntos: ["Define meta y plazo", "Usa la tasa de tu cuenta", "Calcula con PAGO"]
+        cta: "Haz tu cuenta"
+fuentes:
+  - url: "https://support.microsoft.com/es-ES/Excel/functions/pmt-function"
+    titulo: "Función PAGO (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "PAGO calcula el pago periódico constante con tasa constante; el argumento vf permite fijar un valor futuro como meta."
+  - calculo: "[6000, 24, 12, 36]"
+    respalda: "Datos ilustrativos del ejemplo (meta y plazos)."
+  - calculo: "6000 / 24"
+    resultado: 250
+    respalda: "Aporte sin interés."
+  - calculo: "PAGO(0.005, 24, 0, -6000)"
+    resultado: 235.92
+    respalda: "Aporte mensual a 24 meses con 0,5 % mensual."
+  - calculo: "6000 / 24 - PAGO(0.005, 24, 0, -6000)"
+    resultado: 14.08
+    respalda: "Diferencia mensual."
+  - calculo: "PAGO(0.005, 12, 0, -6000)"
+    resultado: 486.40
+    respalda: "Aporte a 12 meses."
+  - calculo: "PAGO(0.005, 36, 0, -6000)"
+    resultado: 152.53
+    respalda: "Aporte a 36 meses."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — fórmula documentada; resultados con cálculo reproducible. Tasa ilustrativa, se aclara en pantalla."
+  monetizacion: "bajo — educación financiera general, sin productos"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["PAGO"]

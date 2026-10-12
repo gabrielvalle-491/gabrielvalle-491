@@ -1,0 +1,94 @@
+id: B-079
+canal: canal_b
+fecha: 2027-01-05
+formato: short
+serie: Tu dinero en una planilla
+episodio: "#23"
+pilar: dinero
+tipo_editorial: tutorial
+idea: "Un plan de pagos de deuda en planilla: la fecha de cada cuota con FECHA.MES y el saldo pendiente restando cada cuota al saldo anterior (ejemplo ilustrativo sin intereses)."
+objetivo: "Que la persona arme su propio calendario de cuotas con fechas y saldo, y vea de un vistazo cuánto le falta pagar."
+publico: "Personas con una deuda en cuotas fijas que quieren ordenar fechas y saldo en una planilla."
+hipotesis: "Formato 'tutorial' en pilar 'dinero': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Debes US$ 1 000 en cuatro cuotas de US$ 250. ¿Cuándo vence cada una y cuánto te queda?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Plan de pagos de deudas en Excel: fechas y saldo pendiente"
+titulos_alternativos:
+  - "Calendario de cuotas en una planilla (con FECHA.MES)"
+  - "Cómo saber cuánto te queda por pagar, cuota a cuota"
+  - "Organiza tus deudas: fechas de pago y saldo en Excel"
+criterio_titulo: "Nombra el resultado (plan de pagos con fechas y saldo) y la herramienta, con palabras que la gente busca."
+descripcion: |
+  Armamos un calendario de cuotas con FECHA.MES, que suma meses a una fecha, y calculamos el saldo pendiente restando cada cuota al saldo anterior.
+  Ejemplo ilustrativo: deuda de US$ 1 000 en cuatro cuotas de US$ 250, sin intereses ni comisiones. Si tu deuda tiene intereses, revisa el detalle de tu contrato. Contenido educativo general, no es asesoramiento financiero.
+cta: "Cambia los datos por los de tu deuda y guarda la planilla."
+comentario_fijado: "Fórmulas: fecha de la cuota 2 en B3 =FECHA.MES(B2;1) y saldo en D3 =D2-C3. Cópialas hacia abajo. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;)."
+hashtags: ["#Excel", "#FinanzasPersonales", "#Deudas"]
+palabras_clave: ["plan de pagos deuda excel", "calendario de cuotas", "FECHA.MES"]
+escenas:
+  - narracion: "Debes US$ 1 000 en cuatro cuotas de US$ 250. ¿Cuándo vence cada una y cuánto te queda?"
+    visual:
+      plantilla: hook
+      datos: {kicker: "Tu dinero en una planilla", titulo: "Tu plan de pagos, con *fechas*", sub: "Ejemplo ilustrativo, sin intereses"}
+  - narracion: "Escribe la fecha de la primera cuota y usa [[fecha mes|FECHA.MES]] para las siguientes. Toma la fecha de arriba y le suma un mes. Así aparece el 5 de febrero."
+    visual:
+      plantilla: planilla
+      datos:
+        titulo: "Cuotas y fechas"
+        formula: "=FECHA.MES(B2;1)"
+        celda_formula: "B3"
+        filas:
+          - ["Cuota", "Fecha", "Monto", "Saldo"]
+          - [1, "05/01/2027", 250, 750]
+          - [2, "", 250, ""]
+          - [3, "", 250, ""]
+        resaltar:
+          - {rango: "B2:B2", beat: 1}
+        resultado: {celda: "B3", valor: "05/02/2027", beat: 2}
+  - narracion: "El 5 de enero pagas la primera y quedan 750. El 5 de febrero, la segunda: quedan 500. El 5 de marzo, quedan 250. El 5 de abril terminas: saldo cero."
+    visual:
+      plantilla: timeline
+      datos:
+        titulo: "Calendario de 4 cuotas"
+        eventos:
+          - {fecha: "5 ene", texto: "Cuota 1 · saldo 750"}
+          - {fecha: "5 feb", texto: "Cuota 2 · saldo 500"}
+          - {fecha: "5 mar", texto: "Cuota 3 · saldo 250"}
+          - {fecha: "5 abr", texto: "Cuota 4 · saldo 0"}
+  - narracion: "Para el saldo, resta cada cuota al saldo anterior. Y cambia estos datos por los de tu deuda."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Fecha y saldo, *siempre a la vista*"
+        puntos: ["Fecha: FECHA.MES(fecha anterior; 1)", "Saldo = saldo anterior − cuota", "Ejemplo sin intereses"]
+        cta: "Úsalo con tus datos"
+fuentes:
+  - url: "https://support.microsoft.com/es-ES/Excel/add-or-subtract-dates"
+    titulo: "Agregar o restar fechas (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "FECHA.MES(fecha; meses) suma o resta meses a una fecha; según el formato de la celda, Excel puede mostrar un número de serie en lugar de una fecha."
+  - calculo: "[1000, 250]"
+    respalda: "Datos ilustrativos del ejemplo: deuda y cuota."
+  - calculo: "1000 - 250"
+    resultado: 750
+    respalda: "Saldo tras la cuota 1."
+  - calculo: "1000 - 2 * 250"
+    resultado: 500
+    respalda: "Saldo tras la cuota 2."
+  - calculo: "1000 - 3 * 250"
+    resultado: 250
+    respalda: "Saldo tras la cuota 3."
+  - calculo: "1000 - 4 * 250"
+    resultado: 0
+    respalda: "Saldo tras la cuota 4: deuda saldada."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — aritmética verificada; el ejemplo no incluye intereses y así se declara. FECHA.MES respaldada por Microsoft."
+  monetizacion: "bajo — educación financiera general, sin recomendar productos"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

@@ -1,0 +1,77 @@
+{
+  "id": "B-010",
+  "duracion_s": 34.737,
+  "frases": 11,
+  "subtitulos": 23,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.507,
+      "beats": [
+        -5.0,
+        2.163
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.507,
+      "fin": 17.565,
+      "beats": [
+        0.0,
+        1.26,
+        4.889
+      ],
+      "plantilla": "barras"
+    },
+    {
+      "inicio": 17.565,
+      "fin": 26.974,
+      "beats": [
+        0.0,
+        2.611,
+        4.571,
+        5.915
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 26.974,
+      "fin": 34.737,
+      "beats": [
+        0.0,
+        3.91
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.23",
+    "input_tp": "-6.78",
+    "input_lra": "2.30",
+    "input_thresh": "-32.44",
+    "output_i": "-14.02",
+    "output_tp": "-1.50",
+    "output_lra": "1.90",
+    "output_thresh": "-24.15",
+    "normalization_type": "dynamic",
+    "target_offset": "0.02"
+  },
+  "fotogramas_unicos": 270,
+  "tts_cache": 0,
+  "spec_hash": "3a760cfa25bd947e",
+  "segundos_produccion": 113.5,
+  "texto_hablado": [
+    "¿En cuánto se convierten mil dólares en diez años, con siete por ciento anual ilustrativo?",
+    "Al inicio, mil.",
+    "En el año cinco, mil cuatrocientos dos coma cincuenta y cinco.",
+    "En el año diez, mil novecientos sesenta y siete coma quince.",
+    "Cada año, el interés se calcula sobre el saldo anterior.",
+    "La función uve efe lo calcula de una vez.",
+    "Primero, la tasa por periodo.",
+    "Luego, los años.",
+    "Y por último, cero aportes y el monto inicial, en negativo.",
+    "Es un ejemplo con tasa ilustrativa, no una promesa de rendimiento.",
+    "Cambia la tasa y los años en tu planilla y compara."
+  ]
+}

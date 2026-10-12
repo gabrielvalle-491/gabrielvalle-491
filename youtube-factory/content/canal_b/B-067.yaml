@@ -1,0 +1,96 @@
+id: B-067
+canal: canal_b
+fecha: 2026-12-24
+formato: short
+serie: Mini sistema
+episodio: "#09"
+pilar: trabajo
+tipo_editorial: tutorial
+idea: "El avance de una meta es real dividido entre objetivo; con formato condicional el color indica si va atrasada, cerca o cumplida."
+objetivo: "Tutorial práctico para armar un tablero simple de metas trimestrales que cualquier equipo pueda copiar."
+publico: "Responsables de equipo, emprendedores y personas que siguen metas trimestrales en una planilla."
+hipotesis: "Formato 'tutorial' en pilar 'trabajo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Tres metas del trimestre. ¿Cuál va atrasada? Que el color te lo diga."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Metas trimestrales en Excel: avance con colores automáticos"
+titulos_alternativos:
+  - "Porcentaje de avance de una meta: real entre objetivo"
+  - "Formato condicional para ver qué meta va atrasada"
+  - "Tablero de metas en una planilla (con cifras de ejemplo)"
+criterio_titulo: "Combina la intención de búsqueda (metas trimestrales) con el resultado visible (colores automáticos)."
+descripcion: |
+  El avance de una meta es el valor real dividido entre el objetivo. Con formato condicional, la celda se pinta sola: rojo por debajo de un corte, amarillo en el medio y verde al llegar al 100 %.
+  Cifras de ejemplo; define tus propios cortes según tu equipo.
+cta: "Guárdalo para tu próximo trimestre."
+comentario_fijado: "Avance: =C2/B2 con la celda en formato porcentaje. Reglas de formato condicional (valor de la celda): menor que 0,8 rojo; entre 0,8 y 0,99 amarillo; 1 o más verde. Los cortes son ejemplo."
+hashtags: ["#Excel", "#GoogleSheets", "#Productividad"]
+palabras_clave: ["porcentaje de avance Excel", "formato condicional metas", "seguimiento de metas planilla"]
+escenas:
+  - narracion: "Tres metas del trimestre. ¿Cuál va atrasada? Que el color te lo diga."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Mini sistema", titulo: "Metas del trimestre: *avance* en una planilla"}
+  - narracion: "Divide lo real entre el objetivo y obtienes el avance. Aquí, ventas: 150 entre 200. Da 75 %."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=C2/B2"
+        celda_formula: "D2"
+        filas:
+          - ["Meta", "Objetivo", "Real", "Avance"]
+          - ["Ventas", 200, 150, ""]
+          - ["Clientes", 40, 34, "85 %"]
+          - ["Reuniones", 20, 23, "115 %"]
+        resaltar:
+          - {rango: "B2:C2", beat: 1}
+        resultado: {celda: "D2", valor: "75 %", beat: 2}
+        nota: "Cifras de ejemplo"
+  - narracion: "Ventas va en 75 %. Clientes, en 85 %. Reuniones ya superó el objetivo, con 115 %."
+    visual:
+      plantilla: barras
+      datos:
+        titulo: "Avance por meta"
+        sufijo: " %"
+        maximo: 120
+        items:
+          - {etiqueta: "Ventas", valor: 75}
+          - {etiqueta: "Clientes", valor: 85}
+          - {etiqueta: "Reuniones", valor: 115, destacado: true}
+  - narracion: "Con formato condicional, el color avisa. Por debajo de 80 %, rojo. De 80 a 99, amarillo. Desde 100, verde. Tú eliges los cortes."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "El color *avisa* por ti"
+        puntos: ["Menos de 80 %: rojo", "De 80 a 99 %: amarillo", "100 % o más: verde"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/excel/use-conditional-formatting-to-highlight-information-in-excel"
+    titulo: "Utilice el formato condicional para resaltar la información en Excel (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Excel permite aplicar formato condicional para resaltar celdas según reglas."
+  - url: "https://support.google.com/docs/answer/78413?hl=en&co=GENIE.Platform%3DDesktop"
+    titulo: "Use conditional formatting rules in Google Sheets (Google Docs Editors Help)"
+    fecha_consulta: 2026-10-11
+    respalda: "Google Sheets permite reglas de formato condicional, incluidas fórmulas personalizadas."
+  - calculo: "[200, 150, 40, 34, 20, 23, 80, 99, 100, 115]"
+    respalda: "Cifras de ejemplo y cortes de las reglas (ilustrativos)."
+  - calculo: "150 / 200 * 100"
+    resultado: 75
+    respalda: "Avance de Ventas en %."
+  - calculo: "34 / 40 * 100"
+    resultado: 85
+    respalda: "Avance de Clientes en %."
+  - calculo: "23 / 20 * 100"
+    resultado: 115
+    respalda: "Avance de Reuniones en %."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — aritmética verificada automáticamente; los cortes de color son una decisión de ejemplo, no una norma."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

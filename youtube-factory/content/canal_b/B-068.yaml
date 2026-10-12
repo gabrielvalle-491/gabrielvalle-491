@@ -1,0 +1,77 @@
+id: B-068
+canal: canal_b
+fecha: 2026-12-25
+formato: short
+serie: Excel vs Sheets
+episodio: "#04"
+pilar: excel_vs_sheets
+tipo_editorial: comparacion
+idea: "Sin internet, Google Sheets exige activar el acceso sin conexión de antemano; Excel de escritorio trabaja con archivos locales y sincroniza los de OneDrive al reconectar. En ambos casos conviene preparar el archivo con conexión."
+objetivo: "Comparación práctica y honesta de qué se puede hacer sin conexión en cada herramienta y cómo prepararse antes de viajar o perder señal."
+publico: "Personas que trabajan en planillas desde lugares con internet inestable o que viajan."
+hipotesis: "Formato 'comparacion' en pilar 'excel_vs_sheets': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Puedes seguir editando tu planilla si se cae el internet?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Excel y Google Sheets sin internet: qué debes preparar antes"
+titulos_alternativos:
+  - "Planillas sin conexión: Excel vs Google Sheets"
+  - "Antes de quedarte sin señal, haz esto con tu planilla"
+  - "¿Google Sheets funciona sin internet? Lo que dice la ayuda oficial"
+criterio_titulo: "Responde la duda exacta que se busca y promete una acción concreta (preparar antes)."
+descripcion: |
+  En Google Sheets debes activar el acceso sin conexión estando en línea (con Chrome o Edge) y marcar el archivo como disponible sin conexión. Excel de escritorio trabaja con archivos guardados en tu equipo; los de OneDrive se sincronizan al volver la conexión.
+  Los pasos y requisitos pueden cambiar: revisa la ayuda oficial de tu versión.
+cta: "Prepara tu archivo hoy, no cuando falle el internet."
+comentario_fijado: "Ayuda oficial: Google (trabajar sin conexión en Docs, Sheets y Slides) y Microsoft (¿Puedo trabajar sin conexión?). Prepara el archivo con conexión antes de viajar."
+hashtags: ["#Excel", "#GoogleSheets", "#TrabajoRemoto"]
+palabras_clave: ["Google Sheets sin conexión", "Excel sin internet", "trabajar offline planilla"]
+escenas:
+  - narracion: "¿Puedes seguir editando tu planilla si se cae el internet?"
+    visual:
+      plantilla: hook
+      datos: {kicker: "Excel vs Sheets", titulo: "Planilla *sin internet*: ¿qué permite cada uno?"}
+  - narracion: "Google Sheets: debes activar el acceso sin conexión estando en línea, con Chrome o Edge. Excel de escritorio: trabaja con archivos guardados en tu equipo, y los de OneDrive se sincronizan al volver la conexión. En los dos casos, conviene preparar el archivo con conexión."
+    visual:
+      plantilla: versus
+      datos:
+        titulo: "Sin conexión"
+        izq: {etiqueta: "Google Sheets", titulo: "Se activa de antemano", items: ["Hacerlo con internet", "Chrome o Edge", "Extensión Google Docs Offline"]}
+        der: {etiqueta: "Excel", titulo: "Escritorio", items: ["Archivos guardados en tu equipo", "OneDrive: sincroniza al reconectar", "Abrir en línea al menos una vez"]}
+        veredicto: "Prepara el archivo con conexión"
+  - narracion: "Antes de salir, abre el archivo con conexión al menos una vez. En Sheets, márcalo como disponible sin conexión desde Drive. Al volver la conexión, revisa que tus cambios se hayan sincronizado."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Antes de quedarte sin señal"
+        estilo: check
+        items:
+          - "Abre el archivo con conexión"
+          - "En Sheets: disponible sin conexión"
+          - "Al volver, revisa la sincronización"
+  - narracion: "Y recuerda: tus cambios se combinan cuando vuelve la conexión. Prepárate hoy."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Prepara el archivo *antes*"
+        puntos: ["Activa y marca el archivo", "Abre una vez en línea", "Verifica al reconectar"]
+        cta: "Guárdalo para tu viaje"
+fuentes:
+  - url: "https://support.google.com/docs/answer/6388102?hl=en&co=GENIE.Platform%3DDesktop"
+    titulo: "Work on Google Docs, Sheets, & Slides offline (Google Docs Editors Help)"
+    fecha_consulta: 2026-10-11
+    respalda: "Para usar Sheets sin conexión hay que activar el acceso sin conexión estando en línea, con Chrome o Edge (no en modo privado) y con la extensión Google Docs Offline; el archivo se marca como disponible sin conexión en Drive."
+  - url: "https://support.microsoft.com/en-us/office/can-i-work-offline-3cdc0690-7332-4d4b-8884-ba2a353a42d8"
+    titulo: "Can I work offline? (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Los cambios hechos sin conexión se guardan y se sincronizan al restablecer la conexión en archivos de OneDrive; un archivo de OneDrive debe abrirse en línea al menos una vez antes de poder trabajar sin conexión."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — los requisitos de trabajo sin conexión cambian (extensión, navegadores, menús). La narración evita nombres de botones salvo 'disponible sin conexión'. Verificar la ayuda vigente de Google y Microsoft antes de publicar."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["OneDrive", "Offline", "Chrome", "Docs", "Drive", "Edge", "check", "márcalo", "reconectar"]

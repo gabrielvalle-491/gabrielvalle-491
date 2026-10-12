@@ -50,3 +50,11 @@ pero las rutas de menú de aplicaciones de terceros cambian y no siempre tienen 
 | A-089 | Rutas de privacidad: ChatGPT (Controles de datos > "Improve the model for everyone") y Gemini (Actividad > "Keep Activity") | **Prioritario**: probar en vivo; nombres en español no verificados |
 | A-088 | Simplificación de RAG ("no se reentrena, consulta en cada pregunta") | Productos concretos funcionan distinto |
 | A-090 | 70 % y cinco minutos (predicción de Turing) según la SEP | Verificar contra el artículo original |
+| B-090 | TNA → TEA (base 365 días, fórmula del BCRA) | **Prioritario**: tema financiero; confirmar en el PDF del BCRA |
+| B-087 | Monotributo: ARCA, recategorización semestral, últimos 12 meses | **Prioritario**: tema impositivo; confirmar vigencia en argentina.gob.ar / ARCA |
+| B-082 | =BUSCARX(C2;A2:A4;B2:B4;0;-1)*C2 (modo -1) | Probar en Excel 2021/365 en español |
+| B-085 | BUSCARX con dos condiciones concatenadas con & | Fuentes no oficiales; probar la fórmula |
+| B-080 | SECUENCIA (Excel 2021/365) y formato de fecha | Confirmar en Excel en español |
+| B-084, B-089 | Tablas dinámicas: rótulos en español, agrupar fechas | Probar el paso 2 (agrupación automática en algunas versiones) |
+| B-086 | Formato de celdas > Proteger > Bloqueada; Revisar > Proteger hoja | Nombres de menú en español |
+| B-088 | =SIFECHA(A2;B2;"Y") devuelve 7 | Probar |

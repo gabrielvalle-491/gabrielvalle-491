@@ -1,0 +1,95 @@
+id: B-085
+canal: canal_b
+fecha: 2027-01-11
+formato: short
+serie: Fórmula en 40 segundos
+episodio: "#13"
+pilar: formulas
+tipo_editorial: tutorial
+idea: "BUSCARX puede buscar con dos condiciones si unes los criterios con & tanto en el valor buscado como en el rango donde se busca."
+objetivo: "Resolver una duda muy frecuente (buscar por producto y talla, por ejemplo) con una fórmula corta."
+publico: "Personas que usan BUSCARX o BUSCARV y necesitan encontrar un dato que depende de dos columnas."
+hipotesis: "Formato 'tutorial' en pilar 'formulas': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "BUSCARX busca un solo valor. Pero puedes pasarle dos."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "BUSCARX con dos condiciones: la fórmula que lo resuelve"
+titulos_alternativos:
+  - "Buscar por producto y talla en Excel con una sola fórmula"
+  - "BUSCARX con varios criterios (concatenando con &)"
+  - "Cómo buscar con dos columnas a la vez en Excel"
+criterio_titulo: "Nombra la función y el problema exacto (dos condiciones), tal como se busca."
+descripcion: |
+  Para buscar con dos condiciones en BUSCARX, une los dos criterios con & y haz lo mismo con las dos columnas donde buscas. En el ejemplo ilustrativo buscamos el precio de un pantalón talla M.
+  Si la combinación aparece repetida, BUSCARX devuelve la primera coincidencia. BUSCARX requiere Excel 2021 o Microsoft 365.
+cta: "Guárdalo para tu próxima búsqueda con dos criterios."
+comentario_fijado: "Fórmula: =BUSCARX(\"Pantalón\"&\"M\";A2:A5&B2:B5;C2:C5). Con los criterios en celdas, por ejemplo F2 y G2: =BUSCARX(F2&G2;A2:A5&B2:B5;C2:C5). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;)."
+hashtags: ["#Excel", "#BUSCARX", "#Fórmulas"]
+palabras_clave: ["BUSCARX varios criterios", "buscar con dos condiciones excel", "BUSCARX concatenar"]
+escenas:
+  - narracion: "BUSCARX busca un solo valor. Pero puedes pasarle dos."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Fórmula en 40 segundos", titulo: "BUSCARX con *dos condiciones*"}
+  - narracion: "Une los dos criterios con el símbolo &. Haz lo mismo con las dos columnas. Y al final, la columna con el precio."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=BUSCARX(\"Pantalón\"&\"M\";A2:A5&B2:B5;C2:C5)"
+        partes:
+          - {token: "\"Pantalón\"&\"M\"", explica: "los dos criterios unidos"}
+          - {token: "A2:A5&B2:B5", explica: "las dos columnas unidas"}
+          - {token: "C2:C5", explica: "el precio que se devuelve"}
+  - narracion: "En esta tabla, el pantalón talla M cuesta 38. La fórmula lo encuentra aunque haya otro pantalón en otra talla."
+    visual:
+      plantilla: planilla
+      datos:
+        titulo: "Precios (ilustrativos)"
+        formula: "=BUSCARX(\"Pantalón\"&\"M\";A2:A5&B2:B5;C2:C5)"
+        celda_formula: "D2"
+        filas:
+          - ["Producto", "Talla", "Precio", "Resultado"]
+          - ["Camisa", "S", 20, ""]
+          - ["Camisa", "M", 22, ""]
+          - ["Pantalón", "S", 35, ""]
+          - ["Pantalón", "M", 38, ""]
+        resaltar:
+          - {rango: "A5:B5", beat: 1}
+        resultado: {celda: "D2", valor: "38", beat: 2}
+  - narracion: "Si la combinación se repite, devuelve la primera. Y requiere Excel 2021 o Microsoft 365."
+    visual:
+      plantilla: dato
+      datos: {kicker: "Ten en cuenta", dato: "Si hay combinaciones repetidas, devuelve la *primera*", contexto: "BUSCARX: Excel 2021 o Microsoft 365"}
+  - narracion: "Dos columnas unidas con ampersand, un solo resultado. Cambia el producto y la talla, y la fórmula encuentra el precio."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Dos condiciones, *una fórmula*"
+        puntos: ["Criterios unidos con &", "Columnas unidas con &", "Devuelve la primera coincidencia"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://exceljet.net/formula/xlookup-with-multiple-criteria"
+    titulo: "XLOOKUP with multiple criteria (Exceljet)"
+    fecha_consulta: 2026-10-11
+    respalda: "Patrón =XLOOKUP(valor1&valor2; rango1&rango2; resultados): BUSCARX maneja matrices de forma nativa, sin Ctrl+Mayús+Entrar. Fuente no oficial (sitio de formación en Excel)."
+  - url: "https://www.datacamp.com/tutorial/how-to-use-the-xlookup-excel-function-with-multiple-criteria"
+    titulo: "How to Use the XLOOKUP Excel Function With Multiple Criteria (DataCamp)"
+    fecha_consulta: 2026-10-11
+    respalda: "BUSCARX devuelve el elemento de la primera coincidencia; la concatenación es el método más simple y legible. Fuente no oficial."
+  - url: "https://support.microsoft.com/es-es/Excel/functions/xlookup-function"
+    titulo: "Función BUSCARX (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Sintaxis de BUSCARX y disponibilidad en Excel 2021 y Microsoft 365."
+    cifras: [365]
+  - calculo: "[38]"
+    respalda: "Precio ilustrativo de la tabla de ejemplo (pantalón talla M)."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — el patrón de concatenación se respalda en fuentes no oficiales (Exceljet, DataCamp); probar la fórmula en un Excel en español antes de publicar."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["ampersand"]

@@ -1,0 +1,77 @@
+{
+  "id": "B-006",
+  "duracion_s": 29.022,
+  "frases": 11,
+  "subtitulos": 20,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 8.432,
+      "beats": [
+        -5.0,
+        4.192,
+        5.763
+      ],
+      "plantilla": "pregunta"
+    },
+    {
+      "inicio": 8.432,
+      "fin": 15.278,
+      "beats": [
+        0.0,
+        2.661,
+        5.665
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 15.278,
+      "fin": 24.777,
+      "beats": [
+        0.0,
+        2.262,
+        4.078
+      ],
+      "plantilla": "barras"
+    },
+    {
+      "inicio": 24.777,
+      "fin": 29.022,
+      "beats": [
+        0.0,
+        1.402
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.15",
+    "input_tp": "-7.23",
+    "input_lra": "3.20",
+    "input_thresh": "-32.42",
+    "output_i": "-14.42",
+    "output_tp": "-1.50",
+    "output_lra": "2.60",
+    "output_thresh": "-24.61",
+    "normalization_type": "dynamic",
+    "target_offset": "0.42"
+  },
+  "fotogramas_unicos": 268,
+  "tts_cache": 0,
+  "spec_hash": "e935c0997ce6c6e4",
+  "segundos_produccion": 90.3,
+  "texto_hablado": [
+    "¿En cuántos años se duplica algo que crece ocho por ciento al año?",
+    "¿Seis, nueve o doce?",
+    "Nueve: setenta y dos dividido entre ocho.",
+    "Atajo: setenta y dos entre ocho, da nueve.",
+    "Exacto, con logaritmos: da nueve coma cero uno.",
+    "Casi igual.",
+    "Con seis por ciento, doce años.",
+    "Con ocho por ciento, nueve.",
+    "Con doce por ciento, seis.",
+    "Con tasas muy altas, el atajo se aleja del valor exacto.",
+    "Tasas ilustrativas: es una estimación, no una predicción."
+  ]
+}

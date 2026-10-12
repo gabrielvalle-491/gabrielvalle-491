@@ -1,0 +1,93 @@
+id: B-084
+canal: canal_b
+fecha: 2027-01-10
+formato: short
+serie: Mini sistema
+episodio: "#15"
+pilar: trabajo
+tipo_editorial: tutorial
+idea: "Una tabla dinámica resume las ventas por vendedor en tres pasos, sin escribir fórmulas: elegir los datos, insertar la tabla y arrastrar dos campos."
+objetivo: "Tutorial rápido para quienes suman a mano o con fórmulas largas y no conocen las tablas dinámicas."
+publico: "Personas que manejan listas de ventas en Excel y necesitan totales por persona sin fórmulas."
+hipotesis: "Formato 'tutorial' en pilar 'trabajo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Totales por vendedor sin escribir ni una fórmula."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Tabla dinámica en 3 pasos: ventas por vendedor sin fórmulas"
+titulos_alternativos:
+  - "Cómo hacer una tabla dinámica en Excel (paso a paso)"
+  - "Resume tus ventas por persona en menos de un minuto"
+  - "Tabla dinámica para principiantes: 3 pasos"
+criterio_titulo: "Promete un resultado concreto (ventas por vendedor) y un método simple (3 pasos), con el término que la gente busca."
+descripcion: |
+  Paso a paso para crear una tabla dinámica en Excel: seleccionas tus datos (con una sola fila de títulos), vas a Insertar > Tabla dinámica y arrastras los campos Vendedor y Venta. Excel calcula los totales por vendedor.
+  Datos del ejemplo ilustrativos. Los nombres de los menús pueden variar según tu versión de Excel.
+cta: "Pruébalo con tu propia lista de ventas."
+comentario_fijado: "Ruta en Excel: selecciona tus datos > Insertar > Tabla dinámica > Aceptar. Luego marca o arrastra Vendedor a Filas y Venta a Valores. Si agregas datos nuevos, actualiza la tabla dinámica."
+hashtags: ["#Excel", "#TablaDinámica", "#Productividad"]
+palabras_clave: ["tabla dinámica excel", "cómo hacer una tabla dinámica", "resumen de ventas por vendedor"]
+escenas:
+  - narracion: "Totales por vendedor sin escribir ni una fórmula."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Mini sistema", titulo: "Ventas por vendedor, *sin fórmulas*"}
+  - narracion: "Empieza con una lista: una fila por venta y una sola fila de títulos, sin filas en blanco. Aquí hay tres vendedores y cinco ventas."
+    visual:
+      plantilla: planilla
+      datos:
+        titulo: "Datos de ventas (ilustrativos)"
+        filas:
+          - ["Vendedor", "Producto", "Venta"]
+          - ["Ana", "Café", 120]
+          - ["Luis", "Té", 90]
+          - ["Ana", "Jugo", 80]
+          - ["Marta", "Café", 100]
+          - ["Luis", "Agua", 60]
+        resaltar:
+          - {rango: "A1:C1", beat: 1}
+  - narracion: "Primero, selecciona tus datos. Segundo, ve a Insertar y elige Tabla dinámica. Tercero, arrastra Vendedor a Filas y Venta a Valores."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Tres pasos"
+        pasos:
+          - {titulo: "Selecciona tus datos", detalle: "con la fila de títulos"}
+          - {titulo: "Insertar → Tabla dinámica", detalle: "y acepta el cuadro"}
+          - {titulo: "Arrastra los campos", detalle: "Vendedor a Filas, Venta a Valores"}
+  - narracion: "Y listo: cada vendedor aparece una sola vez, con su total. Ana, por ejemplo, suma 200, sin escribir ninguna fórmula."
+    visual:
+      plantilla: planilla
+      datos:
+        titulo: "Tabla dinámica"
+        filas:
+          - ["Vendedor", "Total ventas"]
+          - ["Ana", 200]
+          - ["Luis", 150]
+          - ["Marta", 100]
+        resaltar:
+          - {rango: "B2:B4", beat: 1}
+  - narracion: "Si cambian los datos, actualiza la tabla dinámica. Así tus totales siempre reflejan la lista."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Resumen *sin fórmulas*"
+        puntos: ["Una fila de títulos", "Insertar → Tabla dinámica", "Vendedor en Filas, Venta en Valores"]
+        cta: "Pruébalo"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/Excel/get-started/create-a-pivottable-to-analyze-worksheet-data"
+    titulo: "Crear una tabla dinámica para analizar datos de una hoja de cálculo (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Los datos deben estar organizados en columnas con una sola fila de encabezado; pestaña Insertar > tabla dinámica; elegir la ubicación y aceptar; en la lista de campos se marcan o arrastran los campos a las áreas de filas, columnas y valores."
+  - calculo: "120 + 80"
+    resultado: 200
+    respalda: "Total de Ana en el ejemplo ilustrativo (filas 2 y 4)."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — la ruta Insertar > Tabla dinámica está respaldada por Microsoft; que Excel sume por defecto un campo numérico en Valores y el rótulo del cuadro de diálogo en español conviene confirmarlos en un Excel real."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

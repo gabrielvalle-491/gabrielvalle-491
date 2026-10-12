@@ -1,0 +1,35 @@
+1
+00:00:00,120 --> 00:00:03,165
+Mito: para separar un código, hay que cortarlo a mano.
+
+2
+00:00:03,325 --> 00:00:05,272
+Realidad: dos funciones lo hacen.
+
+3
+00:00:05,552 --> 00:00:07,399
+Para la sucursal, usa IZQUIERDA.
+
+4
+00:00:07,559 --> 00:00:08,726
+Primero, la celda.
+
+5
+00:00:08,886 --> 00:00:11,096
+Luego, cuántos caracteres tomar: cuatro.
+
+6
+00:00:11,376 --> 00:00:13,192
+Para el número de pedido, EXTRAE.
+
+7
+00:00:13,352 --> 00:00:16,190
+Pide el texto, dónde empieza y cuántos caracteres.
+
+8
+00:00:16,350 --> 00:00:18,819
+Empieza en la posición seis y toma cinco.
+
+9
+00:00:19,099 --> 00:00:22,293
+Dos funciones, y cada parte del código queda en su columna.

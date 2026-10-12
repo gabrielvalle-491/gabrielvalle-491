@@ -1,0 +1,97 @@
+id: B-081
+canal: canal_b
+fecha: 2027-01-07
+formato: short
+serie: Fórmula en 40 segundos
+episodio: "#12"
+pilar: formulas
+tipo_editorial: tutorial
+idea: "SUMAR.SI.CONJUNTO suma solo las filas que cumplen dos condiciones a la vez; ejemplo: gastos de una categoría en un mes."
+objetivo: "Tutorial rápido y buscable de una de las funciones más útiles para llevar gastos y reportes por mes y categoría."
+publico: "Personas que llevan gastos o ventas en una planilla y necesitan totales por categoría y por mes."
+hipotesis: "Formato 'tutorial' en pilar 'formulas': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Cuánto gastaste en comida solo en enero? Dos condiciones, un total."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "SUMAR.SI.CONJUNTO: gastos por categoría y por mes"
+titulos_alternativos:
+  - "Suma con dos condiciones en Excel (paso a paso)"
+  - "Cuánto gastaste en comida en enero: una fórmula"
+  - "SUMAR.SI.CONJUNTO en 40 segundos"
+criterio_titulo: "Nombra la función y el caso práctico más buscado (gastos por categoría y mes)."
+descripcion: |
+  SUMAR.SI.CONJUNTO suma los valores de un rango solo en las filas que cumplen todas las condiciones. En el ejemplo, con cifras ilustrativas, sumamos los gastos de la categoría Comida del mes de enero.
+  Primero va el rango que se suma y después cada par de rango y criterio. Todos los rangos deben tener el mismo tamaño. En Google Sheets existe SUMIFS, con el mismo orden de argumentos.
+cta: "Guárdalo para tu control de gastos."
+comentario_fijado: "Fórmula: =SUMAR.SI.CONJUNTO(C2:C6;A2:A6;\"Enero\";B2:B6;\"Comida\"). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;). En Google Sheets en inglés: SUMIFS."
+hashtags: ["#Excel", "#GoogleSheets", "#Fórmulas"]
+palabras_clave: ["SUMAR.SI.CONJUNTO", "sumar con dos condiciones", "gastos por categoría excel"]
+escenas:
+  - narracion: "¿Cuánto gastaste en comida solo en enero? Dos condiciones, un total."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Fórmula en 40 segundos", titulo: "Un total con *dos condiciones*"}
+  - narracion: "Esta es la fórmula. Primero, el rango que se suma. Luego, el mes que buscas. Y por último, la categoría."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=SUMAR.SI.CONJUNTO(C2:C6;A2:A6;\"Enero\";B2:B6;\"Comida\")"
+        partes:
+          - {token: "C2:C6", explica: "rango que se suma"}
+          - {token: "A2:A6;\"Enero\"", explica: "condición 1: el mes"}
+          - {token: "B2:B6;\"Comida\"", explica: "condición 2: la categoría"}
+  - narracion: "Con gastos de varios meses y categorías, la función suma solo las filas que cumplen ambas. Aquí son dos. El total: 200."
+    visual:
+      plantilla: planilla
+      datos:
+        titulo: "Gastos (cifras ilustrativas)"
+        formula: "=SUMAR.SI.CONJUNTO(C2:C6;A2:A6;\"Enero\";B2:B6;\"Comida\")"
+        celda_formula: "D2"
+        filas:
+          - ["Mes", "Categoría", "Monto", "Total"]
+          - ["Enero", "Comida", 120, ""]
+          - ["Enero", "Transporte", 40, ""]
+          - ["Febrero", "Comida", 150, ""]
+          - ["Enero", "Comida", 80, ""]
+          - ["Febrero", "Transporte", 60, ""]
+        resaltar:
+          - {rango: "A2:C2", beat: 1}
+          - {rango: "A5:C5", beat: 1, alterno: true}
+        resultado: {celda: "D2", valor: "200", beat: 2}
+  - narracion: "Ojo: todos los rangos deben medir lo mismo. Si no, aparece un error de valor."
+    visual:
+      plantilla: dato
+      datos: {kicker: "Ojo", dato: "Los rangos deben tener el *mismo tamaño*", contexto: "Si no, Excel devuelve #¡VALOR!"}
+  - narracion: "Cambia el mes o la categoría y el total se actualiza. Úsalo en tu control de gastos de cada mes."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Dos condiciones, *un total*"
+        puntos: ["Primero, el rango que se suma", "Después, cada rango y su criterio", "Google Sheets: SUMIFS"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/excel/sum-values-based-on-multiple-conditions"
+    titulo: "Sumar valores según varias condiciones (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "SUMAR.SI.CONJUNTO: el primer argumento es el rango de números que se suma, seguido de pares rango de criterios y criterio."
+  - url: "https://support.microsoft.com/es-es/office/c%C3%B3mo-corregir-un-error-valor-en-la-funci%C3%B3n-sumar-si-sumar-si-conjunto-e65ce689-978e-44b1-a649-160ed5f13b5a"
+    titulo: "Cómo corregir un error #¡VALOR! en la función SUMAR.SI/SUMAR.SI.CONJUNTO (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Los rangos de criterios y el rango de suma deben tener el mismo número de filas y columnas; si no, se produce un error #¡VALOR!."
+  - url: "https://support.google.com/docs/answer/3238496?hl=en"
+    titulo: "SUMIFS function (Google Docs Editors Help)"
+    fecha_consulta: 2026-10-11
+    respalda: "En Google Sheets, SUMIFS(sum_range, criteria_range1, criterion1, ...) suma un rango según varios criterios; el rango de suma va primero."
+  - calculo: "120 + 80"
+    resultado: 200
+    respalda: "Gastos de Comida en enero del ejemplo (filas 2 y 5)."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — sintaxis respaldada por Microsoft y Google; el total es aritmética verificada."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

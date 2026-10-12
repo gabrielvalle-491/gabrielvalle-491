@@ -1,0 +1,85 @@
+id: B-089
+canal: canal_b
+fecha: 2027-01-15
+formato: short
+serie: Mini sistema
+episodio: "#17"
+pilar: trabajo
+tipo_editorial: tutorial
+idea: "En una tabla dinámica, el campo de fechas se puede agrupar por meses con clic derecho > Agrupar, para ver las ventas mes a mes en lugar de día por día."
+objetivo: "Tutorial rápido para pasar de una lista de ventas diarias a un resumen mensual con una tabla dinámica."
+publico: "Personas con listas de ventas por fecha que necesitan totales mensuales en Excel."
+hipotesis: "Formato 'tutorial' en pilar 'trabajo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Tus ventas diarias, convertidas en totales por mes en segundos."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Tabla dinámica: agrupar ventas por mes en Excel"
+titulos_alternativos:
+  - "Cómo agrupar fechas por mes en una tabla dinámica"
+  - "De ventas diarias a totales mensuales sin fórmulas"
+  - "Tabla dinámica por mes: clic derecho y Agrupar"
+criterio_titulo: "Nombra el problema exacto (agrupar fechas por mes) y la herramienta, que es lo que se busca."
+descripcion: |
+  Si tu tabla dinámica muestra cada fecha por separado, puedes agruparlas: clic derecho sobre una fecha, Agrupar y elegir Meses. Si tus datos abarcan más de un año, elige también Años para no mezclar el mismo mes de años distintos.
+  Los datos del ejemplo son ilustrativos. Los nombres de menú pueden variar según tu versión de Excel; si Agrupar no aparece, revisa que la columna tenga fechas reales.
+cta: "Pruébalo con tus propias ventas diarias."
+comentario_fijado: "Ruta: en la tabla dinámica, clic derecho sobre una fecha > Agrupar > elige Meses (y Años si hay más de un año) > Aceptar. Para deshacerlo: clic derecho > Desagrupar."
+hashtags: ["#Excel", "#TablaDinámica", "#Ventas"]
+palabras_clave: ["tabla dinámica agrupar por mes", "agrupar fechas excel", "ventas mensuales excel"]
+escenas:
+  - narracion: "Tus ventas diarias, convertidas en totales por mes en segundos."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Mini sistema", titulo: "Ventas *por mes* en una tabla dinámica"}
+  - narracion: "Primero, crea la tabla dinámica con la fecha en Filas y la venta en Valores. Segundo, haz clic derecho sobre una fecha y elige Agrupar. Tercero, marca Meses y acepta."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Tres pasos"
+        pasos:
+          - {titulo: "Fecha en Filas, venta en Valores", detalle: "en la tabla dinámica"}
+          - {titulo: "Clic derecho en una fecha", detalle: "elige Agrupar"}
+          - {titulo: "Marca Meses y acepta", detalle: "se agrupa por mes"}
+  - narracion: "Y cada fila pasa de ser un día a ser un mes. Aquí, enero, febrero y marzo."
+    visual:
+      plantilla: barras
+      datos:
+        titulo: "Ventas por mes (ilustrativo)"
+        prefijo: "$ "
+        items:
+          - {etiqueta: "Enero", valor: 400}
+          - {etiqueta: "Febrero", valor: 350}
+          - {etiqueta: "Marzo", valor: 500, destacado: true}
+        nota: "Datos ilustrativos"
+  - narracion: "Si tus datos abarcan más de un año, marca también Años. Así no se mezclan los meses iguales de años distintos."
+    visual:
+      plantilla: texto
+      datos: {kicker: "Ojo", titulo: "Más de un año: marca *Años* también", texto: "Si no, enero de un año se suma con enero del siguiente."}
+  - narracion: "Si Agrupar no aparece, revisa que la columna tenga fechas reales."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "De días a *meses*"
+        puntos: ["Clic derecho → Agrupar", "Marca Meses (y Años)", "Revisa que sean fechas reales"]
+        cta: "Pruébalo"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/office/agrupar-o-desagrupar-datos-en-una-tabla-din%C3%A1mica-c9d1ddd0-6580-47d1-82bc-c84a5a340725"
+    titulo: "Agrupar o desagrupar datos en una tabla dinámica (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Clic derecho sobre un valor y Agrupar; los campos de fecha pueden agruparse en períodos como trimestres y meses; Desagrupar revierte la agrupación."
+  - url: "https://support.microsoft.com/es-es/Excel/get-started/create-a-pivottable-to-analyze-worksheet-data"
+    titulo: "Crear una tabla dinámica para analizar datos de una hoja de cálculo (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Creación de la tabla dinámica y asignación de campos a las áreas de filas y valores."
+  - calculo: "[400, 350, 500]"
+    respalda: "Ventas mensuales ilustrativas del gráfico de barras."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — la advertencia de marcar Años y el requisito de fechas reales provienen de la práctica general y de fuentes no oficiales; confirmar en un Excel en español. Algunas versiones de Excel agrupan las fechas automáticamente al arrastrarlas a Filas (no verificado en la ayuda oficial); si es el caso en la versión de prueba, ajustar el paso 2."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

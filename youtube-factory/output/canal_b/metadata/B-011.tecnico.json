@@ -1,0 +1,69 @@
+{
+  "id": "B-011",
+  "duracion_s": 28.159,
+  "frases": 6,
+  "subtitulos": 16,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.559,
+      "beats": [
+        -5.0,
+        2.216
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.559,
+      "fin": 19.975,
+      "beats": [
+        0.0,
+        6.823,
+        11.622
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 19.975,
+      "fin": 23.325,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "barras"
+    },
+    {
+      "inicio": 23.325,
+      "fin": 28.159,
+      "beats": [
+        0.0,
+        1.638
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.80",
+    "input_tp": "-6.01",
+    "input_lra": "3.30",
+    "input_thresh": "-33.10",
+    "output_i": "-14.29",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.49",
+    "normalization_type": "dynamic",
+    "target_offset": "0.29"
+  },
+  "fotogramas_unicos": 178,
+  "tts_cache": 0,
+  "spec_hash": "bf34f5ab1e8e07f5",
+  "segundos_produccion": 76.8,
+  "texto_hablado": [
+    "Un café diario y dos suscripciones suman mil sesenta y ocho coma cincuenta dólares al año.",
+    "El café cuesta dos coma cincuenta por día, por trescientos sesenta y cinco días: novecientos doce coma cincuenta.",
+    "Las dos suscripciones suman trece al mes, por doce meses: ciento cincuenta y seis.",
+    "Total: mil sesenta y ocho coma cincuenta.",
+    "Lo pequeño que se repite cada día es lo que más pesa.",
+    "Anota tus gastos repetidos y multiplícalos: así ves cuánto suman."
+  ]
+}

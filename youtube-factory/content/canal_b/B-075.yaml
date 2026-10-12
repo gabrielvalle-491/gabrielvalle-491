@@ -1,0 +1,87 @@
+id: B-075
+canal: canal_b
+fecha: 2027-01-01
+formato: short
+serie: Mini sistema
+episodio: "#11"
+pilar: trabajo
+tipo_editorial: tutorial
+idea: "Una lista desplegable con validación de datos evita que cada persona escriba una categoría distinta (Comida, Comdia, Comidas) y rompa los conteos."
+objetivo: "Tutorial práctico que muestra el problema con un conteo real y los pasos documentados para crear la lista desplegable."
+publico: "Personas y equipos que cargan datos en planillas compartidas y obtienen categorías inconsistentes."
+hipotesis: "Formato 'tutorial' en pilar 'trabajo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Comida, Comdia y Comidas: tres categorías para Excel."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Lista desplegable en Excel con validación de datos"
+titulos_alternativos:
+  - "Evita errores de escritura en tus categorías (lista desplegable)"
+  - "Por qué tu CONTAR.SI da menos de lo esperado"
+  - "Validación de datos en 4 pasos"
+criterio_titulo: "Usa el nombre exacto de la función que se busca y anticipa el beneficio."
+descripcion: |
+  Si cada persona escribe la categoría a su manera, Excel las trata como textos distintos y los conteos no cuadran. Una lista desplegable con validación de datos limita las opciones a las que tú defines.
+  Pasos para Excel según la ayuda de Microsoft; Google Sheets también tiene listas desplegables en su propia ayuda.
+cta: "Guárdalo para tu próxima planilla compartida."
+comentario_fijado: "Conteo del ejemplo: =CONTAR.SI(B2:B4;\"Comida\"). Pasos en Excel: selecciona las celdas > Datos > Validación de datos > Permitir: Lista > Origen: tu rango de categorías. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;)."
+hashtags: ["#Excel", "#GoogleSheets", "#Productividad"]
+palabras_clave: ["lista desplegable Excel", "validación de datos", "evitar errores de escritura"]
+escenas:
+  - narracion: "Comida, Comdia y Comidas: tres categorías para Excel. Una lista desplegable evita ese error."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Mini sistema", titulo: "Categorías sin errores de escritura: *lista desplegable*"}
+  - narracion: "Sin lista, cada persona escribe como quiere, y contamos Comida con CONTAR.SI. Solo una celda coincide con Comida. El resultado es 1, no 3."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=CONTAR.SI(B2:B4;\"Comida\")"
+        celda_formula: "B5"
+        filas:
+          - ["Gasto", "Categoría"]
+          - ["Almuerzo", "Comida"]
+          - ["Cena", "Comdia"]
+          - ["Pan", "Comidas"]
+          - ["Total Comida", ""]
+        resaltar:
+          - {rango: "B2:B4", beat: 1}
+        resultado: {celda: "B5", valor: "1", beat: 2}
+  - narracion: "Selecciona las celdas de la categoría. Abre la pestaña Datos y elige Validación de datos. En Permitir, elige Lista. En Origen, selecciona el rango con tus categorías."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Crear la lista"
+        pasos:
+          - {titulo: "Selecciona las celdas"}
+          - {titulo: "Datos → Validación de datos"}
+          - {titulo: "Permitir: Lista"}
+          - {titulo: "Origen: tu rango de categorías"}
+  - narracion: "Ahora la celda solo acepta lo que está en tu lista. Google Sheets también tiene listas desplegables."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Solo se acepta *lo que tú defines*"
+        puntos: ["Categorías iguales para todos", "Conteos que cuadran", "También existe en Sheets"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/office/crear-una-lista-desplegable-7693307a-59ef-400a-b769-c5402dce407b"
+    titulo: "Crear una lista desplegable (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Las listas desplegables se crean con Datos > Validación de datos; en Permitir se elige Lista y en Origen el rango de la lista."
+  - url: "https://support.google.com/docs/answer/186103?hl=es"
+    titulo: "Crear una lista desplegable en una celda (Ayuda de Editores de Documentos de Google)"
+    fecha_consulta: 2026-10-11
+    respalda: "Google Sheets permite crear listas desplegables en una celda."
+  - calculo: "1"
+    resultado: 1
+    respalda: "CONTAR.SI(B2:B4;\"Comida\") cuenta solo la celda con 'Comida' exacto (Comdia y Comidas no coinciden)."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — pasos documentados por Microsoft; no se describen menús de Google Sheets, solo se indica que existe la función. Verificar nombres de pestañas en la versión de Excel en español."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Comdia", "CONTAR.SI"]

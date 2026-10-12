@@ -1,0 +1,87 @@
+id: B-065
+canal: canal_b
+fecha: 2026-12-22
+formato: short
+serie: Tu dinero en una planilla
+episodio: "#20"
+pilar: dinero
+tipo_editorial: tutorial
+idea: "La función PAGO calcula la cuota fija de un préstamo a partir de tasa mensual, número de pagos y monto; con la cuota se obtiene el total pagado y los intereses (ejemplo ilustrativo)."
+objetivo: "Tutorial buscable y práctico: que la persona calcule la cuota de su propio préstamo y vea cuánto paga de más en total."
+publico: "Personas que evalúan un préstamo personal o una compra financiada en Latinoamérica."
+hipotesis: "Formato 'tutorial' en pilar 'dinero': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Pides 12 000 prestados a 24 meses. ¿De cuánto es la cuota?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Cómo calcular la cuota de un préstamo con la función PAGO"
+titulos_alternativos:
+  - "PAGO en Excel: cuota mensual de un préstamo en 3 datos"
+  - "Cuánto pagas de intereses en un préstamo (con Excel)"
+  - "Monto, tasa y plazo: la fórmula de la cuota"
+criterio_titulo: "Usa el nombre de la función y la intención de búsqueda exacta (cuota de un préstamo)."
+descripcion: |
+  Ejemplo ilustrativo: préstamo de 12 000 a 24 meses con una tasa del 12 % anual (1 % mensual). Con la función PAGO se obtiene la cuota, el total pagado y los intereses.
+  PAGO no incluye impuestos, seguros ni comisiones. Las condiciones reales dependen del contrato: revísalo. Contenido educativo general, no es asesoramiento financiero.
+cta: "Prueba con tu monto y tu plazo."
+comentario_fijado: "Fórmula: =PAGO(12%/12;24;12000). Excel la muestra en negativo porque es dinero que sale. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;)."
+hashtags: ["#Excel", "#FinanzasPersonales", "#Prestamos"]
+palabras_clave: ["función PAGO Excel", "calcular cuota préstamo", "cuota mensual Excel"]
+escenas:
+  - narracion: "Pides 12 000 prestados a 24 meses. ¿De cuánto es la cuota?"
+    visual:
+      plantilla: hook
+      datos: {kicker: "Tu dinero en una planilla", titulo: "La cuota de un préstamo, con *PAGO*", sub: "Ejemplo ilustrativo: 12 % anual"}
+  - narracion: "La función PAGO calcula la cuota fija de un préstamo. Primero, la tasa de cada mes: 12 % anual entre 12. Luego, cuántos pagos hay: 24. Y al final, el monto prestado."
+    visual:
+      plantilla: formula
+      datos:
+        titulo: "PAGO"
+        formula: "=PAGO(12%/12;24;12000)"
+        partes:
+          - {token: "12%/12", explica: "tasa de cada mes"}
+          - {token: "24", explica: "número de pagos"}
+          - {token: "12000", explica: "monto prestado"}
+        nota: "Tasa ilustrativa"
+  - narracion: "El resultado es una cuota de 564,88 por mes; Excel la muestra en negativo porque es dinero que sale. Por 24 meses, pagas 13 557,16 en total. Los intereses suman 1 557,16."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Resultado ilustrativo"
+        lineas:
+          - {izq: "Cuota mensual", der: "564,88"}
+          - {izq: "Total en 24 meses", der: "13 557,16"}
+        resultado: {izq: "Solo en intereses", der: "1 557,16"}
+  - narracion: "Ojo: PAGO no incluye impuestos ni comisiones. Revisa el contrato y prueba con tu propio monto."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Monto, tasa y plazo → *cuota*"
+        puntos: ["Tasa mensual = anual ÷ 12", "PAGO no incluye comisiones", "Prueba con tus datos"]
+        cta: "Haz tu cuenta"
+fuentes:
+  - url: "https://support.microsoft.com/es-ES/Excel/functions/pmt-function"
+    titulo: "Función PAGO (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "PAGO calcula el pago de un préstamo con pagos constantes y tasa constante; el resultado incluye capital e intereses, pero no impuestos ni comisiones; para tasa anual y pagos mensuales se usa tasa/12 y años*12; el total se obtiene multiplicando el pago por nper."
+    cifras: [12, 24]
+  - calculo: "[12000, 24, 12]"
+    respalda: "Datos ilustrativos del ejemplo (monto, plazo y tasa anual en %)."
+  - calculo: "-PAGO(0.01, 24, 12000)"
+    resultado: 564.88
+    respalda: "Cuota mensual con 1 % mensual a 24 meses."
+  - calculo: "round(-24 * PAGO(0.01, 24, 12000), 2)"
+    resultado: 13557.16
+    respalda: "Total pagado en 24 cuotas."
+  - calculo: "round(-24 * PAGO(0.01, 24, 12000) - 12000, 2)"
+    resultado: 1557.16
+    respalda: "Intereses totales."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — fórmula documentada por Microsoft; resultados verificados con cálculo reproducible. Tasa nominal ilustrativa (anual/12)."
+  monetizacion: "bajo — educación financiera general, sin recomendar productos"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["PAGO"]

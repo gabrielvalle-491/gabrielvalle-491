@@ -1,0 +1,93 @@
+id: B-070
+canal: canal_b
+fecha: 2026-12-27
+formato: short
+serie: Reto de la celda
+episodio: "#04"
+pilar: quiz
+tipo_editorial: quiz
+idea: "Comparar 110 al contado con 3 cuotas de 40 no se resuelve sumando: las cuotas suman 120, equivalen a una tasa implícita de unos 4,5 % mensual, y con la función VA se comparan en valor de hoy."
+objetivo: "Quiz que enseña a comparar pagos en el tiempo (valor actual) y a ver la tasa implícita de una oferta en cuotas."
+publico: "Personas que comparan pagar de contado o en cuotas y quieren una forma objetiva de decidir."
+hipotesis: "Formato 'quiz' en pilar 'quiz': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Una tienda ofrece 110 al contado o tres cuotas de 40. ¿Qué conviene?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "¿3 cuotas de 40 o 110 al contado? Reto de la celda"
+titulos_alternativos:
+  - "Cuotas o contado: cómo compararlos con valor actual"
+  - "La tasa escondida en las cuotas (calculada con Excel)"
+  - "Quiz de Excel: ¿contado, cuotas o depende?"
+criterio_titulo: "Plantea el dilema con las cifras exactas del reto."
+descripcion: |
+  Ejemplo ilustrativo: 110 al contado o 3 cuotas de 40, pagadas al final de cada mes. Las cuotas suman 120; la diferencia equivale a una tasa implícita de unos 4,5 % mensual (función TASA). Con la función VA se comparan en valor de hoy.
+  Las tasas del ejemplo son ilustrativas. Contenido educativo general, no es asesoramiento financiero.
+cta: "Comenta tu respuesta."
+comentario_fijado: "Tasa implícita: =TASA(3;-40;110). Valor de las cuotas hoy a 1 % mensual: =VA(1%;3;-40). Supuesto: cuotas al final de cada mes. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;)."
+hashtags: ["#Excel", "#Quiz", "#FinanzasPersonales"]
+palabras_clave: ["cuotas o contado", "función VA Excel", "tasa implícita cuotas"]
+escenas:
+  - narracion: "Una tienda ofrece 110 al contado o tres cuotas de 40. ¿Qué conviene? ¿Siempre el contado, siempre las cuotas, o depende? Depende de la tasa."
+    visual:
+      plantilla: pregunta
+      datos:
+        pregunta: "110 al contado o 3 cuotas de 40: ¿qué conviene?"
+        opciones: ["Siempre el contado", "Siempre las cuotas", "Depende de la tasa"]
+        correcta: 2
+        explicacion: "Compáralas en valor de hoy"
+  - narracion: "Tres cuotas de 40 suman 120. El contado cuesta 110. La diferencia equivale a una tasa de unos 4,5 % mensual, con la función TASA."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Lo que esconden las cuotas"
+        lineas:
+          - {izq: "3 cuotas × 40", der: "120"}
+          - {izq: "Precio al contado", der: "110"}
+        resultado: {izq: "TASA(3;-40;110)", der: "≈ 4,5 % mensual"}
+        nota: "Cuotas al final de cada mes"
+  - narracion: "La función VA lleva las cuotas a valor de hoy. A 1 % mensual valen 117,64. A 8 % mensual, 103,08. Compara con 110 al contado: la tasa decide."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Valor de hoy de las cuotas"
+        lineas:
+          - {izq: "VA a 1 % mensual", der: "117,64"}
+          - {izq: "VA a 8 % mensual", der: "103,08"}
+        resultado: {izq: "Contado, para comparar", der: "110"}
+        nota: "Tasas ilustrativas"
+  - narracion: "Haz la cuenta con tu propia tasa antes de decidir."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Cuotas o contado: *depende de la tasa*"
+        puntos: ["Suma las cuotas", "Calcula la tasa implícita", "Compara en valor de hoy"]
+        cta: "Comenta tu respuesta"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/office/funci%C3%B3n-tasa-4d1af90d-4eb1-4372-a1e1-b99e4832621e?ad=es&rs=es-es&ui=es-es"
+    titulo: "Función TASA (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "TASA devuelve la tasa de interés por período de una anualidad."
+  - calculo: "[110, 40, 120]"
+    respalda: "Datos del ejemplo (contado, cuota y suma de cuotas)."
+  - calculo: "3 * 40"
+    resultado: 120
+    respalda: "Suma de las cuotas."
+  - calculo: "VA(0.0448, 3, -40)"
+    resultado: 110
+    respalda: "Con 4,48 % mensual, el valor de hoy de las cuotas iguala los 110 (tasa implícita, ≈ 4,5 %)."
+  - calculo: "VA(0.01, 3, -40)"
+    resultado: 117.64
+    respalda: "Valor de hoy de las cuotas a 1 % mensual."
+  - calculo: "VA(0.08, 3, -40)"
+    resultado: 103.08
+    respalda: "Valor de hoy de las cuotas a 8 % mensual."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — cálculos reproducibles; supuesto declarado (cuotas al final de cada mes). Las tasas de 1 % y 8 % mensual son ilustrativas, no tasas de mercado."
+  monetizacion: "bajo — educación financiera general, sin productos"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["TASA"]

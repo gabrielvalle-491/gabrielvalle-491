@@ -1,0 +1,92 @@
+id: B-078
+canal: canal_b
+fecha: 2027-01-04
+formato: short
+serie: Mini sistema
+episodio: "#12"
+pilar: trabajo
+tipo_editorial: tutorial
+idea: "Dos reglas de formato condicional con fórmula marcan en rojo lo vencido y en amarillo lo que vence en 7 días, usando la función HOY."
+objetivo: "Tutorial práctico y reutilizable para controlar vencimientos (facturas, entregas, trámites) sin revisar fila por fila."
+publico: "Personas que llevan vencimientos de facturas, tareas o contratos en una planilla."
+hipotesis: "Formato 'tutorial' en pilar 'trabajo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Rojo si ya venció. Amarillo si vence en siete días."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Formato condicional para vencimientos: rojo y amarillo"
+titulos_alternativos:
+  - "Alerta de vencimientos en Excel con la función HOY"
+  - "Facturas vencidas en rojo, por vencer en amarillo"
+  - "Cómo resaltar fechas que vencen en 7 días"
+criterio_titulo: "Describe el resultado visible (rojo y amarillo) y la herramienta que se busca."
+descripcion: |
+  Dos reglas de formato condicional con fórmula: una pinta de rojo las fechas vencidas y otra de amarillo las que vencen en los próximos 7 días. Usan la función HOY, que se actualiza al abrir o recalcular el libro.
+  En Google Sheets existe el formato condicional con fórmula personalizada.
+cta: "Guárdalo para tu control de pagos."
+comentario_fijado: "Rojo: =Y(B2<>\"\";B2<HOY()). Amarillo: =Y(B2>=HOY();B2<=HOY()+7). Se aplican a las fechas de la columna B (desde B2). En Sheets: Formato condicional > Fórmula personalizada. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;)."
+hashtags: ["#Excel", "#GoogleSheets", "#FormatoCondicional"]
+palabras_clave: ["formato condicional fechas", "resaltar vencimientos Excel", "función HOY"]
+escenas:
+  - narracion: "Rojo si ya venció. Amarillo si vence en siete días."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Mini sistema", titulo: "Vencimientos en *rojo* y *amarillo*"}
+  - narracion: "Imagina que hoy es 10 de enero. La factura F-1 venció el 5. La F-2 vence el 14, en cuatro días. La F-3 vence el 30."
+    visual:
+      plantilla: planilla
+      datos:
+        titulo: "Hoy: 10 de enero"
+        filas:
+          - ["Factura", "Vence", "Estado"]
+          - ["F-1", "05/01", "vencida"]
+          - ["F-2", "14/01", "vence pronto"]
+          - ["F-3", "30/01", "al día"]
+        resaltar:
+          - {rango: "B2", beat: 1}
+          - {rango: "B3", beat: 2, alterno: true}
+        nota: "Fechas de ejemplo"
+  - narracion: "Selecciona las fechas. En Inicio, abre Formato condicional y crea una regla nueva con una fórmula: [[con la función Y, la fecha no vacía y menor que hoy|Y(B2<>\"\";B2<HOY())]], con formato rojo. Otra regla: [[con la función Y, la fecha mayor o igual que hoy y menor o igual que hoy más siete|Y(B2>=HOY();B2<=HOY()+7)]], en amarillo."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Dos reglas con fórmula"
+        pasos:
+          - {titulo: "Selecciona las fechas"}
+          - {titulo: "Inicio → Formato condicional", detalle: "Nueva regla → usar una fórmula"}
+          - {titulo: "Rojo: vencidas", detalle: "Y(B2<>\"\";B2<HOY())"}
+          - {titulo: "Amarillo: en 7 días", detalle: "Y(B2>=HOY();B2<=HOY()+7)"}
+  - narracion: "HOY se actualiza al abrir o recalcular el libro. Y cuando una factura se pague, cambia su fecha o bórrala."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Los vencimientos *se avisan solos*"
+        puntos: ["Rojo: ya venció", "Amarillo: vence en 7 días", "HOY se actualiza al abrir"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/excel/use-conditional-formatting-to-highlight-information-in-excel"
+    titulo: "Utilice el formato condicional para resaltar la información en Excel (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "En Inicio, Formato condicional > Nueva regla > 'Usar una fórmula que determine las celdas para aplicar formato'; la fórmula debe devolver verdadero o falso."
+  - url: "https://support.microsoft.com/es-es/office/hoy-funci%C3%B3n-hoy-5eb3078d-a82c-4736-8930-2f51a028fdd9"
+    titulo: "Función HOY (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "HOY devuelve la fecha actual y se actualiza cuando se recalcula la hoja."
+  - url: "https://support.google.com/docs/answer/78413?hl=en&co=GENIE.Platform%3DDesktop"
+    titulo: "Use conditional formatting rules in Google Sheets (Google Docs Editors Help)"
+    fecha_consulta: 2026-10-11
+    respalda: "Sheets permite reglas de formato condicional con 'Custom formula is'."
+  - calculo: "[14, 30]"
+    respalda: "Fechas de ejemplo (días del mes)."
+  - calculo: "14 - 10"
+    resultado: 4
+    respalda: "Días que faltan para el 14 si hoy es el 10."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — rutas de menú en español (Inicio, Formato condicional, Nueva regla) tomadas de la ayuda de Microsoft; confirmar en Excel en español. Las fórmulas deben probarse con fechas reales (formato de fecha, no texto) antes de publicar."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["HOY", "Mini", "bórrala", "recalcular"]

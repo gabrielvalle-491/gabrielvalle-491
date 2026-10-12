@@ -1,0 +1,88 @@
+id: B-073
+canal: canal_b
+fecha: 2026-12-30
+formato: short
+serie: Tu dinero en una planilla
+episodio: "#22"
+pilar: dinero
+tipo_editorial: tutorial
+idea: "La función VF calcula cuánto se acumula con aportes mensuales iguales y una tasa constante; ejemplo ilustrativo de 100 por mes durante 10 años a 6 % anual."
+objetivo: "Tutorial que enseña a proyectar un ahorro con aportes periódicos y a distinguir lo aportado de lo que aportan los intereses (siempre con tasa ilustrativa)."
+publico: "Personas que ahorran una cantidad fija cada mes y quieren ver cómo crece en el tiempo."
+hipotesis: "Formato 'tutorial' en pilar 'dinero': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Ahorras 100 al mes durante 10 años. ¿Cuánto tendrás al final?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Proyección de ahorro con aportes mensuales (función VF)"
+titulos_alternativos:
+  - "Ahorrar 100 por mes durante 10 años: la cuenta con VF"
+  - "VF en Excel: cuánto acumulas con aportes mensuales"
+  - "Lo aportado vs lo que suman los intereses (ejemplo)"
+criterio_titulo: "Combina la intención de búsqueda (proyección de ahorro) con el nombre de la función."
+descripcion: |
+  Ejemplo ilustrativo: aportes de 100 por mes durante 10 años con una tasa ilustrativa del 6 % anual (0,5 % mensual). La función VF da el saldo final; la diferencia con lo aportado es lo que suman los intereses.
+  La tasa real de tu cuenta puede ser distinta y los rendimientos pueden variar. Contenido educativo general, no es una recomendación de ahorro ni de inversión.
+cta: "Prueba con tu aporte y tu plazo."
+comentario_fijado: "Fórmula: =VF(0,5%;120;-100). Tasa mensual = tasa anual ÷ 12; 120 = 12 meses × 10 años; el aporte va en negativo porque sale de tu bolsillo. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;)."
+hashtags: ["#Excel", "#Ahorro", "#FinanzasPersonales"]
+palabras_clave: ["función VF Excel", "proyección de ahorro", "aportes mensuales"]
+escenas:
+  - narracion: "Ahorras 100 al mes durante 10 años. ¿Cuánto tendrás al final?"
+    visual:
+      plantilla: hook
+      datos: {kicker: "Tu dinero en una planilla", titulo: "Ahorro mensual: ¿cuánto *acumulas*?", sub: "Ejemplo ilustrativo: 6 % anual"}
+  - narracion: "Aportas 100 por mes, 12 000 en total. Con una tasa ilustrativa de 6 % anual, el saldo crece más rápido que lo aportado. Y la diferencia se nota más con los años."
+    visual:
+      plantilla: linea
+      datos:
+        titulo: "Saldo vs lo aportado"
+        series:
+          - {nombre: "Saldo", valores: [0, 2543.2, 5409.78, 8640.89, 12282.85, 16387.93], etiqueta_final: "16 388"}
+          - {nombre: "Aportado", valores: [0, 2400, 4800, 7200, 9600, 12000], etiqueta_final: "12 000"}
+        etiquetas_x: ["0", "2", "4", "6", "8", "10"]
+        nota: "Años · 100 por mes · tasa ilustrativa"
+  - narracion: "En la planilla, usa VF. Primero, la tasa de cada mes: 6 % anual entre 12, o sea 0,5 %. Luego, 120 pagos: 12 meses por 10 años. Y el aporte, en negativo porque sale de tu bolsillo."
+    visual:
+      plantilla: formula
+      datos:
+        titulo: "VF"
+        formula: "=VF(0,5%;120;-100)"
+        partes:
+          - {token: "0,5%", explica: "tasa de cada mes"}
+          - {token: "120", explica: "número de aportes"}
+          - {token: "-100", explica: "aporte mensual (sale)"}
+  - narracion: "Resultado: 16 387,93. De eso, 4 387,93 son intereses. La tasa es ilustrativa; la real puede ser distinta."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Aportado *12 000*, saldo *16 387,93*"
+        puntos: ["Intereses ilustrativos: 4 387,93", "Cambia aporte y plazo", "Usa la tasa de tu cuenta"]
+        cta: "Haz tu cuenta"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/excel/functions/fv-function"
+    titulo: "Función VF (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "VF devuelve el valor futuro de una inversión a partir de pagos periódicos constantes y una tasa constante; tasa y número de períodos deben estar en la misma unidad (tasa/12 para pagos mensuales); los pagos que salen se ingresan como negativos."
+  - calculo: "[100, 12, 10, 120, 6]"
+    respalda: "Datos ilustrativos del ejemplo (aporte, meses, años, pagos y tasa anual en %)."
+  - calculo: "100 * 12 * 10"
+    resultado: 12000
+    respalda: "Total aportado en 10 años."
+  - calculo: "VF(0.005, 120, -100)"
+    resultado: 16387.93
+    respalda: "Saldo final con 0,5 % mensual."
+  - calculo: "VF(0.005, 120, -100) - 1200 * 10"
+    resultado: 4387.93
+    respalda: "Intereses ilustrativos acumulados."
+  - calculo: "[VF(0.005, 24, -100), VF(0.005, 48, -100), VF(0.005, 72, -100), VF(0.005, 96, -100)]"
+    respalda: "Saldos de la serie del gráfico en los años 2, 4, 6 y 8."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — fórmula documentada; resultados con cálculo reproducible. Tasa nominal ilustrativa (6 % anual / 12), sin garantía de rendimiento."
+  monetizacion: "bajo — educación financiera general, sin productos ni promesas"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["VF"]
