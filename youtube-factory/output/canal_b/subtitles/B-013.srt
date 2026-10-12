@@ -1,0 +1,43 @@
+1
+00:00:00,120 --> 00:00:04,613
+Estás separando nombres y apellidos con fórmulas, y Excel lo hace con un ejemplo.
+
+2
+00:00:04,893 --> 00:00:07,454
+Primero, escribe a mano el primer resultado, solo
+
+3
+00:00:07,454 --> 00:00:09,387
+el nombre, en la columna de al lado.
+
+4
+00:00:09,547 --> 00:00:13,086
+Después, pasa a la celda siguiente y presiona Ctrl + E.
+
+5
+00:00:13,246 --> 00:00:16,137
+Por último, revisa que todas las filas queden bien.
+
+6
+00:00:16,417 --> 00:00:18,790
+Aquí escribiste Ana al lado de Ana Ruiz.
+
+7
+00:00:18,950 --> 00:00:20,489
+Excel detecta el patrón.
+
+8
+00:00:20,649 --> 00:00:22,198
+Y completa Luis y Eva.
+
+9
+00:00:22,478 --> 00:00:25,298
+Relleno rápido copia un patrón, no entiende reglas.
+
+10
+00:00:25,458 --> 00:00:28,178
+Con nombres compuestos, revisa fila por fila.
+
+11
+00:00:28,338 --> 00:00:29,730
+Es una función de Excel.

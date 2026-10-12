@@ -1,0 +1,75 @@
+{
+  "id": "B-013",
+  "duracion_s": 30.59,
+  "frases": 10,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.813,
+      "beats": [
+        -5.0,
+        1.917
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.813,
+      "fin": 16.337,
+      "beats": [
+        0.0,
+        4.684,
+        8.382
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 16.337,
+      "fin": 22.398,
+      "beats": [
+        0.0,
+        2.563,
+        4.262
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 22.398,
+      "fin": 30.59,
+      "beats": [
+        0.0,
+        3.01
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.70",
+    "input_tp": "-5.44",
+    "input_lra": "3.60",
+    "input_thresh": "-31.87",
+    "output_i": "-13.99",
+    "output_tp": "-1.50",
+    "output_lra": "2.10",
+    "output_thresh": "-24.13",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.01"
+  },
+  "fotogramas_unicos": 239,
+  "tts_cache": 0,
+  "spec_hash": "62398f718975999a",
+  "segundos_produccion": 113.0,
+  "texto_hablado": [
+    "Estás separando nombres y apellidos con fórmulas, y éxcel lo hace con un ejemplo.",
+    "Primero, escribe a mano el primer resultado, solo el nombre, en la columna de al lado.",
+    "Después, pasa a la celda siguiente y presiona control + E.",
+    "Por último, revisa que todas las filas queden bien.",
+    "Aquí escribiste Ana al lado de Ana Ruiz.",
+    "éxcel detecta el patrón.",
+    "Y completa Luis y Eva.",
+    "Relleno rápido copia un patrón, no entiende reglas.",
+    "Con nombres compuestos, revisa fila por fila.",
+    "Es una función de éxcel."
+  ]
+}

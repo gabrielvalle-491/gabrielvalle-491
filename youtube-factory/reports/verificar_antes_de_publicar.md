@@ -58,3 +58,11 @@ pero las rutas de menú de aplicaciones de terceros cambian y no siempre tienen 
 | B-084, B-089 | Tablas dinámicas: rótulos en español, agrupar fechas | Probar el paso 2 (agrupación automática en algunas versiones) |
 | B-086 | Formato de celdas > Proteger > Bloqueada; Revisar > Proteger hoja | Nombres de menú en español |
 | B-088 | =SIFECHA(A2;B2;"Y") devuelve 7 | Probar |
+| B-072 | Caso Reinhart-Rogoff: cinco países, −0,1 % vs 2,2 %, deuda > 90 % del PIB | **Prioritario**: fuentes de prensa; contrastar con Herndon, Ash y Pollin (2013) |
+| B-076 | VisiCalc: prototipo 1978, 32 KB, Software Arts / Personal Software, 1979 | Confirmar con el Computer History Museum |
+| B-068 | Google Docs Offline, "Disponible sin conexión", OneDrive sin conexión | Ayuda vigente |
+| B-071 | Archivo > Información > Comprobar si hay problemas > Inspeccionar documento | Etiquetas en español |
+| B-078 | Fórmulas Y(B2<>"";B2<HOY()) y Y(B2>=HOY();B2<=HOY()+7) | Probar con fechas reales |
+| B-075 | Datos > Validación de datos > Permitir: Lista > Origen | Etiquetas en español |
+| B-064 | Requisitos de coautoría de Excel y permisos de Sheets | Ayuda vigente |
+| B-065, B-069, B-070, B-073 | Tasas ilustrativas en temas de dinero | Revisión editorial del tono |

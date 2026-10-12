@@ -1,0 +1,75 @@
+{
+  "id": "B-014",
+  "duracion_s": 33.406,
+  "frases": 11,
+  "subtitulos": 28,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.025,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.025,
+      "fin": 16.634,
+      "beats": [
+        0.0,
+        2.69,
+        5.97
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 16.634,
+      "fin": 25.89,
+      "beats": [
+        0.0,
+        2.308,
+        6.562
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 25.89,
+      "fin": 33.406,
+      "beats": [
+        0.0,
+        4.334
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.47",
+    "input_tp": "-4.69",
+    "input_lra": "1.50",
+    "input_thresh": "-31.68",
+    "output_i": "-14.26",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.40",
+    "normalization_type": "dynamic",
+    "target_offset": "0.26"
+  },
+  "fotogramas_unicos": 240,
+  "tts_cache": 0,
+  "spec_hash": "64fe08a6f37b7b98",
+  "segundos_produccion": 119.8,
+  "texto_hablado": [
+    "Ves tres números en la columna, pero SUMA da cero.",
+    "Y no es un error de la fórmula.",
+    "Esos números están guardados como texto.",
+    "SUMA ignora el texto de las celdas, aunque parezca un número.",
+    "Por eso el total es cero.",
+    "Cada número queda pegado a la izquierda de la celda: esa es la pista.",
+    "Para arreglarlo, selecciona las celdas.",
+    "Si aparece un triángulo verde, abre el aviso y elige convertir en número.",
+    "Ahora la suma da doscientos cuarenta y cinco.",
+    "Para detectarlos: se alinean a la izquierda y pueden llevar un triángulo verde.",
+    "Revísalo antes de culpar a la fórmula."
+  ]
+}
