@@ -1,0 +1,22 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:03.609
+Convierte este error en un mensaje claro con una sola fórmula.
+
+00:00:03.889 --> 00:00:06.879
+Cuando BUSCARV no encuentra un código, devuelve #N/A.
+
+00:00:07.159 --> 00:00:08.681
+Envuélvela con SI.ERROR.
+
+00:00:08.841 --> 00:00:10.859
+Primero va tu fórmula original.
+
+00:00:11.019 --> 00:00:13.340
+Después, lo que quieres mostrar si falla.
+
+00:00:13.620 --> 00:00:17.139
+Y si usas BUSCARX, ya trae su propio argumento para esto.
+
+00:00:17.419 --> 00:00:20.909
+Ojo: ocultar errores también puede ocultar datos mal cargados.

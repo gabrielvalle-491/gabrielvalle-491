@@ -1,0 +1,76 @@
+id: A-056
+canal: canal_a
+fecha: 2026-12-13
+formato: short
+serie: IA sin humo
+episodio: "#05"
+pilar: ia_sin_humo
+tipo_editorial: mito
+idea: "Un prompt más largo no es mejor por serlo: importa que incluya objetivo, público, datos y formato, y que no tenga relleno; un estudio de 2024 mostró que añadir texto irrelevante empeora el razonamiento de los modelos."
+objetivo: "Cambiar el criterio del espectador de 'cantidad de palabras' a 'información útil' con una revisión de tres puntos."
+publico: "Usuarios de asistentes de IA que escriben prompts enormes o repiten instrucciones esperando mejores respuestas."
+hipotesis: "Formato 'mito' en pilar 'ia_sin_humo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Mito: un prompt más largo siempre es mejor."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Mito: un prompt más largo siempre da mejores respuestas"
+titulos_alternativos:
+  - "Prompt largo o prompt útil: qué importa de verdad"
+  - "Por qué más palabras no mejoran tu prompt"
+  - "Revisa tu prompt en 3 puntos antes de enviarlo"
+criterio_titulo: "Plantea el mito exacto y promete la aclaración; 'prompt' es término de búsqueda frecuente."
+descripcion: |
+  Un prompt mejor no es un prompt más largo: es uno con la información útil. Incluye objetivo y público, los datos necesarios y el formato pedido; quita saludos, repeticiones y rodeos.
+  Un estudio presentado en ACL 2024 (Levy, Jacoby y Goldberg) halló que los modelos empeoran su razonamiento al añadir texto irrelevante, incluso con entradas mucho menores que su límite técnico. Es un resultado en condiciones controladas: úsalo como pista, no como regla universal.
+cta: "Revisa tu último prompt con estos tres puntos."
+comentario_fijado: "Checklist: 1) ¿Dije el objetivo y para quién es? 2) ¿Di los datos necesarios y el formato? 3) ¿Quité saludos, repeticiones y rodeos?"
+hashtags: ["#Prompts", "#IA", "#IASinHumo"]
+palabras_clave: ["prompt largo o corto", "cómo escribir un buen prompt", "mitos de la IA", "prompts efectivos"]
+escenas:
+  - narracion: "Mito: un prompt más largo siempre es mejor. Realidad: importa la información útil, no la cantidad de palabras."
+    visual:
+      plantilla: mito
+      datos:
+        mito: "Un prompt *más largo* siempre es mejor"
+        realidad: "Importa la *información útil*, no las palabras"
+  - narracion: "Un prompt largo con relleno diluye lo importante. Uno corto, con objetivo, datos y formato, dice más. Un estudio de 2024 halló que el texto irrelevante empeora el razonamiento de los modelos."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Largo con relleno", titulo: "Diluye lo importante", items: ["Saludos y rodeos", "Instrucciones repetidas"]}
+        der: {etiqueta: "Corto y útil", titulo: "Dice más", items: ["Objetivo y público", "Datos y formato"]}
+        veredicto: "Más texto irrelevante, peor razonamiento (ACL 2024)"
+  - narracion: "Antes de enviar, incluye el objetivo y para quién es. Pon los datos necesarios y el formato. Quita saludos, repeticiones y rodeos."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Revisa tu prompt en *tres* puntos"
+        estilo: check
+        items: ["Objetivo y para quién es", "Datos necesarios y formato", "Sin saludos ni repeticiones"]
+  - narracion: "Cuenta la información, no las palabras. Si tu prompt necesita ser largo, que sea porque contiene datos útiles."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Cuenta *información*, no palabras"
+        puntos: ["Objetivo y público", "Datos y formato", "Cero relleno"]
+        cta: "Revisa tu último prompt"
+fuentes:
+  - url: "https://aclanthology.org/2024.acl-long.818"
+    titulo: "Same Task, More Tokens: the Impact of Input Length on the Reasoning Performance of Large Language Models (ACL 2024)"
+    fecha_consulta: 2026-10-11
+    respalda: "Con la misma tarea de razonamiento y texto irrelevante añadido de distinta longitud, el desempeño de los modelos baja a longitudes muy inferiores a su máximo técnico (conjunto de datos FLenQA, ACL 2024)."
+    cifras: [2024]
+  - url: "https://platform.claude.com/docs/en/build-with-claude/context-windows"
+    titulo: "Context windows (Claude Platform Docs)"
+    fecha_consulta: 2026-10-11
+    respalda: "A medida que crece el número de tokens, la precisión y el recuerdo se degradan (context rot)."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — el estudio mide razonamiento con relleno irrelevante en condiciones controladas; no prueba que un prompt corto siempre supere a uno largo. El texto lo plantea como 'texto irrelevante' y no como regla universal. Revisar la redacción antes de publicar."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Goldberg", "Jacoby", "Levy", "check"]

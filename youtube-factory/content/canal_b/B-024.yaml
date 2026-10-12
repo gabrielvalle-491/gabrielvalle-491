@@ -1,0 +1,92 @@
+id: B-024
+canal: canal_b
+fecha: 2026-11-11
+formato: short
+serie: Tu dinero en una planilla
+episodio: "#09"
+pilar: dinero
+tipo_editorial: tutorial
+idea: "Repartir un gasto compartido en proporción al ingreso de cada persona con una fórmula de porcentaje y referencias absolutas."
+objetivo: "Tutorial práctico de dinero doméstico que enseña referencias absolutas con un caso cotidiano (cifras ilustrativas)."
+publico: "Parejas, familias o compañeros de casa con ingresos distintos que comparten gastos."
+hipotesis: "Formato 'tutorial' en pilar 'dinero': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Gasto del hogar de 1 500. Dos ingresos distintos. ¿Cómo se reparte?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Gastos del hogar según el ingreso de cada uno (con fórmula)"
+titulos_alternativos:
+  - "Cómo repartir gastos compartidos en proporción al ingreso"
+  - "Planilla para dividir gastos de pareja según lo que gana cada uno"
+  - "Cada quien aporta según su ingreso: la fórmula en Excel"
+criterio_titulo: "Describe el resultado práctico y menciona la fórmula; términos buscables (gastos de pareja, ingreso)."
+descripcion: |
+  Una forma de repartir un gasto compartido es que cada persona aporte el mismo porcentaje del total que representa su ingreso. Ejemplo con cifras ilustrativas y una fórmula con referencias absolutas.
+  Es una opción entre varias; cada hogar decide su acuerdo. Contenido educativo general, no asesoramiento financiero.
+cta: "Prueba la fórmula con los ingresos de tu hogar."
+comentario_fijado: "Fórmula (en D2, copiada hacia abajo): =B2/$B$4*$D$4, con los ingresos en B2:B3, el total de ingresos en B4 y el gasto total en D4. En México y EE. UU. Excel suele usar coma (,) como separador."
+hashtags: ["#FinanzasPersonales", "#Excel", "#Presupuesto"]
+palabras_clave: ["dividir gastos pareja proporcional", "gastos del hogar según ingreso", "referencias absolutas Excel"]
+escenas:
+  - narracion: "Gasto del hogar de 1 500. Dos ingresos distintos. ¿Cómo se reparte? Una opción: según lo que gana cada uno."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Tu dinero en una planilla", titulo: "Cada persona aporta *según lo que gana*", sub: "Cifras ilustrativas"}
+  - narracion: "Anota cada ingreso y suma el total. La fórmula divide cada ingreso entre el total y lo multiplica por el gasto; los signos [[dólar|$]] fijan el total al copiar. Ana aporta 900."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=B2/$B$4*$D$4"
+        celda_formula: "D2"
+        filas:
+          - ["Persona", "Ingreso", "%", "Aporte"]
+          - ["Ana", 1800, "60 %", 900]
+          - ["Luis", 1200, "40 %", 600]
+          - ["Total", 3000, "100 %", 1500]
+        resaltar:
+          - {rango: "B2:B4", beat: 1}
+        resultado: {celda: "D2", valor: "900", beat: 2}
+        nota: "El signo $ fija el total al copiar la fórmula"
+  - narracion: "Ana gana 1 800, un 60 % del total, y aporta 900. Luis gana 1 200, un 40 %, y aporta 600. Resultado: los dos aportan el mismo 50 % de su ingreso."
+    visual:
+      plantilla: donut
+      datos:
+        titulo: "Reparto del gasto"
+        centro: "1 500"
+        segmentos:
+          - {etiqueta: "Ana · 60 %", valor: 900, texto: "900"}
+          - {etiqueta: "Luis · 40 %", valor: 600, texto: "600"}
+  - narracion: "Es una forma de repartir; cada hogar decide su acuerdo. Cambia los ingresos y los aportes se recalculan solos."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Aporte *proporcional* al ingreso", puntos: ["Ingreso ÷ total de ingresos", "× gasto compartido", "Usa $ para fijar el total"], cta: "Guárdalo"}
+fuentes:
+  - calculo: "[1500, 1800, 1200]"
+    respalda: "Cifras ilustrativas del ejemplo (gasto compartido e ingresos)."
+  - calculo: "1800 + 1200"
+    resultado: 3000
+    respalda: "Ingreso total del hogar."
+  - calculo: "1800 / 3000 * 100"
+    resultado: 60
+    respalda: "Porcentaje del ingreso total que representa Ana."
+  - calculo: "1200 / 3000 * 100"
+    resultado: 40
+    respalda: "Porcentaje del ingreso total que representa Luis."
+  - calculo: "1500 / 3000 * 100"
+    resultado: 50
+    respalda: "Cada persona aporta el 50 % de su ingreso (900 de 1 800 y 600 de 1 200)."
+  - calculo: "1800 / 3000 * 1500"
+    resultado: 900
+    respalda: "Aporte de Ana al gasto compartido."
+  - calculo: "1200 / 3000 * 1500"
+    resultado: 600
+    respalda: "Aporte de Luis al gasto compartido."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — aritmética verificada automáticamente"
+  monetizacion: "bajo — educación financiera general"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

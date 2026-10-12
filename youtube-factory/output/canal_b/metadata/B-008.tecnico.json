@@ -1,0 +1,74 @@
+{
+  "id": "B-008",
+  "duracion_s": 25.52,
+  "frases": 11,
+  "subtitulos": 18,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.739,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.739,
+      "fin": 14.419,
+      "beats": [
+        0.0,
+        2.339,
+        4.18,
+        6.241
+      ],
+      "plantilla": "donut"
+    },
+    {
+      "inicio": 14.419,
+      "fin": 19.926,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "barras"
+    },
+    {
+      "inicio": 19.926,
+      "fin": 25.52,
+      "beats": [
+        0.0,
+        2.063
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.77",
+    "input_tp": "-5.92",
+    "input_lra": "1.90",
+    "input_thresh": "-32.00",
+    "output_i": "-14.11",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.25",
+    "normalization_type": "dynamic",
+    "target_offset": "0.11"
+  },
+  "fotogramas_unicos": 189,
+  "tts_cache": 0,
+  "spec_hash": "27ca36036b076735",
+  "segundos_produccion": 70.3,
+  "texto_hablado": [
+    "Error de gráfico: usar torta cuando las porciones se parecen.",
+    "Norte vende veintiocho por ciento.",
+    "Sur, veintiséis por ciento.",
+    "Este, veinticuatro por ciento.",
+    "Oeste, veintidós por ciento.",
+    "¿Cuál es la mayor?",
+    "Cuesta verlo.",
+    "En barras ordenadas, la diferencia se ve al instante.",
+    "Se comparan alturas, no ángulos.",
+    "Si quieres comparar, usa barras.",
+    "Deja la torta para pocas partes muy distintas."
+  ]
+}

@@ -1,0 +1,83 @@
+id: A-076
+canal: canal_a
+fecha: 2027-01-02
+formato: short
+serie: Caso práctico
+episodio: "#02"
+pilar: empleo
+tipo_editorial: caso_practico
+idea: "Practicar una entrevista de trabajo con IA como entrevistador, respondiendo con el método STAR (situación, tarea, acción, resultado) y pidiendo que señale qué parte falta en cada respuesta."
+objetivo: "Dar un prompt de simulación de entrevista y una estructura de respuesta reconocida, sin inventar logros."
+publico: "Personas que buscan empleo y se preparan para entrevistas con preguntas sobre experiencias pasadas."
+hipotesis: "Formato 'caso_practico' en pilar 'empleo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Practica tu entrevista de trabajo con IA: que pregunte, y tú respondes con el método STAR."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Simula tu entrevista de trabajo con IA usando el método STAR"
+titulos_alternativos:
+  - "Prompt para practicar entrevistas: la IA pregunta, tú respondes"
+  - "El método STAR en 4 pasos (y cómo practicarlo con IA)"
+  - "Cómo prepararte para preguntas de «cuéntame de una vez que...»"
+criterio_titulo: "Combina dos términos buscables (entrevista de trabajo y método STAR) con la herramienta (IA) y promete una práctica concreta."
+descripcion: |
+  El método STAR estructura tus respuestas a preguntas sobre experiencias pasadas en cuatro partes: Situación, Tarea, Acción y Resultado. Pídele a una IA que haga de entrevistador, una pregunta a la vez, y que te diga qué parte de STAR te falta.
+  Usa solo experiencias reales: la IA no sabe qué te preguntarán y puede inventar mejoras que no son ciertas. Practica en voz alta. Evita pegar datos personales innecesarios.
+cta: "Guárdalo para tu próxima entrevista."
+comentario_fijado: |
+  Prompt: Actúa como entrevistador para el puesto de [CARGO]. Hazme una pregunta a la vez sobre experiencias pasadas. Espera mi respuesta y dime si usé Situación, Tarea, Acción y Resultado, y qué falta. No inventes ni mejores mis logros.
+hashtags: ["#Entrevista", "#Empleo", "#IA"]
+palabras_clave: ["método STAR", "preparar entrevista de trabajo", "simulador de entrevista con IA", "preguntas de entrevista"]
+escenas:
+  - narracion: "Practica tu entrevista de trabajo con IA. Ella pregunta; tú respondes con el método [[estar|STAR]]."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Caso práctico", titulo: "Entrevista simulada con IA y método *STAR*", sub: "Ella pregunta, tú respondes"}
+  - narracion: "Situación: explica el contexto. Tarea: cuál era tu responsabilidad. Acción: lo que hiciste tú. Resultado: qué cambió."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Método *STAR*"
+        pasos:
+          - {titulo: "Situación", detalle: "El contexto"}
+          - {titulo: "Tarea", detalle: "Tu responsabilidad"}
+          - {titulo: "Acción", detalle: "Lo que hiciste tú"}
+          - {titulo: "Resultado", detalle: "Qué cambió"}
+  - narracion: "Ahora pídele a la IA que haga de entrevistador, una pregunta a la vez. Y que te diga qué parte falta."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Actúa como entrevistador para el puesto de [CARGO]. Hazme una pregunta a la vez sobre experiencias pasadas. Espera mi respuesta y dime si usé Situación, Tarea, Acción y Resultado, y qué falta. No inventes ni mejores mis logros."
+  - narracion: "Cuenta solo experiencias reales. Practica en voz alta. Y recuerda que la IA no sabe qué te preguntarán de verdad."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Para que *funcione*"
+        estilo: check
+        items: ["Solo experiencias reales", "Practica en voz alta", "La IA no sabe qué te preguntarán"]
+  - narracion: "Practicar no garantiza el puesto, pero llegas con la respuesta ordenada y menos nervios por improvisar."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Llega con la respuesta *ordenada*"
+        puntos: ["Preguntas una a una", "Estructura STAR", "Solo hechos reales"]
+        cta: "Guárdalo para tu entrevista"
+fuentes:
+  - url: "https://careers.uw.edu/resources/star-method-of-interviewing/"
+    titulo: "STAR Method of Interviewing (University of Washington Career & Internship Center)"
+    fecha_consulta: 2026-10-11
+    respalda: "STAR es una forma estructurada de responder preguntas de entrevista conductuales: Situación, Tarea, Acción y Resultado; las guías enfatizan centrar la respuesta en las acciones propias."
+  - url: "https://losalamos.unm.edu/campus-life/career-services/interviewing-guide.html"
+    titulo: "Interviewing Guide: STAR Method (UNM Los Alamos Career Services)"
+    fecha_consulta: 2026-10-11
+    respalda: "Descripción del método STAR como respuesta estructurada a preguntas de entrevista basadas en comportamiento."
+riesgos:
+  derechos: "bajo — material propio; sin logotipos"
+  exactitud: "medio — el significado de STAR está en varias guías universitarias, pero se verificó solo con resúmenes de resultados de búsqueda (no se abrieron las páginas). Revisar la redacción antes de publicar."
+  monetizacion: "bajo — contenido educativo; no promete conseguir empleo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["STAR"]

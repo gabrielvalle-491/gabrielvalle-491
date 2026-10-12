@@ -1,0 +1,65 @@
+id: A-088
+canal: canal_a
+fecha: 2027-01-14
+formato: short
+serie: Glosario rápido
+episodio: "#10"
+pilar: conceptos
+tipo_editorial: contraintuitivo
+idea: "RAG (generación aumentada por recuperación) permite que una IA responda con tus documentos sin reentrenarla: busca fragmentos relevantes y los usa al responder, como un estudiante que consulta sus apuntes."
+objetivo: "Explicar RAG con una analogía simple, corregir la idea de que hay que 'entrenar' la IA con tus documentos y dejar una regla de verificación."
+publico: "Personas y equipos que usan o evalúan asistentes de IA con sus propios documentos (manuales, políticas, notas) y oyen el término RAG."
+hipotesis: "Formato 'contraintuitivo' en pilar 'conceptos': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Para que la IA responda con tus documentos hay que entrenarla?"
+duracion_objetivo: "35-55 s"
+titulo: "Qué es RAG: la IA que consulta tus documentos"
+titulos_alternativos:
+  - "¿Hay que entrenar la IA para que use tus documentos? No"
+  - "RAG explicado con un estudiante y sus apuntes"
+  - "Cómo responde una IA con tus archivos (sin reentrenarla)"
+criterio_titulo: "Nombra el término buscable (RAG) y su beneficio práctico; las alternativas atacan la idea errónea y la analogía."
+descripcion: |
+  RAG significa generación aumentada por recuperación: antes de responder, el sistema busca fragmentos relevantes en tus documentos y la IA los usa para redactar. No hace falta reentrenar el modelo con tus archivos.
+  Reduce errores pero no los elimina: pide que cite el pasaje y compáralo con el original. Explicación simplificada.
+cta: "Guárdalo para cuando te hablen de RAG."
+comentario_fijado: "¿Qué documentos te gustaría poder consultar con una IA: manuales, contratos, notas de clase?"
+hashtags: ["#IA", "#RAG", "#InteligenciaArtificial"]
+palabras_clave: ["qué es RAG", "generación aumentada por recuperación", "IA con tus documentos", "glosario de IA"]
+escenas:
+  - narracion: "¿Para que la IA responda con tus documentos hay que entrenarla? No. Usa RAG: busca primero y responde después."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Glosario rápido", titulo: "¿Entrenar la IA con tus *documentos*?", sub: "No: se llama *RAG*"}
+  - narracion: "Haces una pregunta. El sistema busca los fragmentos relevantes en tus documentos. Y la IA redacta la respuesta usando esos fragmentos."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "RAG en *tres pasos*"
+        pasos:
+          - {titulo: "Preguntas", detalle: "Tú planteas la consulta"}
+          - {titulo: "Se buscan fragmentos", detalle: "En tus documentos"}
+          - {titulo: "La IA responde", detalle: "Usando esos fragmentos"}
+  - narracion: "Es como un estudiante que mira sus apuntes antes de contestar. No los memoriza: los consulta cada vez."
+    visual:
+      plantilla: texto
+      datos: {kicker: "La analogía", titulo: "Estudiante y apuntes", texto: "No memoriza tus documentos: los *consulta* en cada pregunta", nota: "Explicación simplificada"}
+  - narracion: "Ojo: puede buscar el fragmento equivocado. Pide que cite el pasaje y compáralo con tu original."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Consulta no es *garantía*", puntos: ["Pide el pasaje citado", "Compáralo con el original"], cta: "Guárdalo"}
+fuentes:
+  - url: "https://arxiv.org/abs/2005.11401v4"
+    titulo: "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (Lewis et al., arXiv / NeurIPS 2020)"
+    fecha_consulta: 2026-10-11
+    respalda: "El artículo que introdujo el término RAG combina un modelo de lenguaje preentrenado (memoria paramétrica) con un recuperador que consulta un índice de documentos (memoria no paramétrica); los autores reportan respuestas más específicas y factuales que un modelo sin recuperación."
+riesgos:
+  derechos: "bajo — todo el material visual es generado por el canal"
+  exactitud: "medio — explicación simplificada; en la práctica hay variantes (índices vectoriales, reordenamiento, citas) y los productos concretos funcionan distinto. Verificar la redacción de 'no se reentrena' frente a la fuente antes de publicar"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["RAG"]

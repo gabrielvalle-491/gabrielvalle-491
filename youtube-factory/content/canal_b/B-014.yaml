@@ -1,0 +1,89 @@
+id: B-014
+canal: canal_b
+fecha: 2026-11-01
+formato: short
+serie: Error que todos cometen
+episodio: "#03"
+pilar: errores
+tipo_editorial: error_comun
+idea: "Si los números están guardados como texto, SUMA los ignora y el total da cero; se detectan por la alineación a la izquierda y el triángulo verde, y se convierten en número."
+objetivo: "Resolver una consulta muy frecuente (la suma da 0) con un diagnóstico y una solución verificables."
+publico: "Personas que importan o copian datos a Excel y obtienen totales en cero o incompletos."
+hipotesis: "Gancho 'contraste' + duración media + visual 'demo': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "Ves tres números en la columna, pero SUMA da cero."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "SUMA da 0 en Excel: números guardados como texto"
+titulos_alternativos:
+  - "Por qué Excel no suma mis números (y cómo arreglarlo)"
+  - "Números como texto en Excel: detéctalos y conviértelos"
+  - "El triángulo verde de Excel: qué significa de verdad"
+criterio_titulo: "Usa la frase exacta del problema (SUMA da 0) y su causa, ambas muy buscadas."
+descripcion: |
+  Cuando los números se guardan como texto, SUMA los ignora aunque parezcan números. Suelen verse alineados a la izquierda y, a veces, con un triángulo verde en la esquina de la celda.
+  Una forma de arreglarlo es usar el aviso del triángulo verde y elegir convertir en número. Los datos del ejemplo son ilustrativos.
+cta: "Revisa la alineación de tus números antes de sumar."
+comentario_fijado: "Señales de números como texto: se alinean a la izquierda y pueden mostrar un triángulo verde. Fórmula del ejemplo: =SUMA(A2:A4). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos."
+hashtags: ["#Excel", "#Errores", "#Fórmulas"]
+palabras_clave: ["SUMA da 0", "números como texto excel", "excel no suma"]
+escenas:
+  - narracion: "Ves tres números en la columna, pero SUMA da cero. Y no es un error de la fórmula."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Error que todos cometen", titulo: "Tres números, y la suma da *0*"}
+  - narracion: "Esos números están guardados como texto. SUMA ignora el texto de las celdas, aunque parezca un número. Por eso el total es cero. Cada número queda pegado a la izquierda de la celda: esa es la pista."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=SUMA(A2:A4)"
+        celda_formula: "A5"
+        filas:
+          - ["Monto"]
+          - ["120"]
+          - ["80"]
+          - ["45"]
+          - [""]
+        resaltar:
+          - {rango: "A2:A4", beat: 1}
+        resultado: {celda: "A5", valor: "0", beat: 2}
+        nota: "Guardados como texto"
+  - narracion: "Para arreglarlo, selecciona las celdas. Si aparece un triángulo verde, abre el aviso y elige convertir en número. Ahora la suma da 245."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Cómo convertirlos"
+        pasos:
+          - {titulo: "Selecciona las celdas", detalle: "Las que no suman"}
+          - {titulo: "Abre el triángulo verde", detalle: "Elige convertir en número"}
+          - {titulo: "Revisa la suma", detalle: "Ahora da 245"}
+  - narracion: "Para detectarlos: se alinean a la izquierda y pueden llevar un triángulo verde. Revísalo antes de culpar a la fórmula."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "¿Número o *texto*?"
+        puntos: ["Alineado a la izquierda", "Triángulo verde"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://support.microsoft.com/excel/fix-text-formatted-numbers-by-applying-a-number-format"
+    titulo: "Fix text-formatted numbers by applying a number format (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Los números con formato de texto se alinean a la izquierda y pueden mostrar un indicador de error (triángulo verde) tras importar o copiar datos; la comprobación de errores permite convertirlos en número."
+  - url: "https://support.microsoft.com/es-es/office/suma-funci%C3%B3n-suma-043e1c7d-7726-4e80-8f32-07b23e057f89"
+    titulo: "Función SUMA (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "SUMA ignora los valores de texto de las celdas referenciadas, aunque parezcan números."
+  - calculo: "[120, 80, 45]"
+    respalda: "Datos ilustrativos del ejemplo."
+  - calculo: "120 + 80 + 45"
+    resultado: 245
+    respalda: "Suma correcta una vez convertidos a número."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — comportamiento documentado por Microsoft; el nombre exacto del menú se describe en general"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

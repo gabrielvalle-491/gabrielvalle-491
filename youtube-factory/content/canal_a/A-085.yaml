@@ -1,0 +1,85 @@
+id: A-085
+canal: canal_a
+fecha: 2027-01-11
+formato: short
+serie: Historia rápida
+episodio: "#02"
+pilar: historia
+tipo_editorial: historia
+idea: "ELIZA, creada por Joseph Weizenbaum en el MIT, seguía reglas simples y aun así muchos usuarios sentían que los entendía."
+objetivo: "Contar una historia clave de la IA conversacional y enlazarla con una lección actual: que suene humano no prueba que entienda."
+publico: "Curiosos de IA y usuarios de asistentes que quieren entender de dónde vienen los chatbots."
+hipotesis: "Formato 'historia' en pilar 'historia': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "ELIZA era un programa muy simple, y aun así muchos usuarios sentían que los entendía."
+duracion_objetivo: "35-55 s"
+titulo: "ELIZA, el primer chatbot famoso: un truco simple que engañó a todos"
+titulos_alternativos:
+  - "ELIZA (1966): el chatbot que parecía entenderte"
+  - "El primer chatbot de la historia tenía solo reglas"
+  - "Que suene humano no significa que entienda: la lección de ELIZA"
+criterio_titulo: "Nombra el hito y plantea la paradoja (simple pero convincente) que mantiene la curiosidad."
+descripcion: |
+  ELIZA fue un programa de conversación creado por Joseph Weizenbaum en el MIT entre 1964 y 1966. Su guion más conocido imitaba a un psicoterapeuta y respondía comparando tu texto con reglas.
+  Aun así, muchos usuarios le atribuían comprensión. La lección sigue vigente con los chatbots actuales. El diálogo que se muestra es un ejemplo ilustrativo, no una transcripción real.
+cta: "Guárdalo para recordar la lección."
+comentario_fijado: "¿Alguna vez una IA te sonó tan humana que olvidaste que era un programa?"
+hashtags: ["#HistoriaDeLaIA", "#Chatbots", "#ELIZA"]
+palabras_clave: ["ELIZA", "primer chatbot", "Joseph Weizenbaum", "historia de la inteligencia artificial"]
+escenas:
+  - narracion: "[[Elisa|ELIZA]] era un programa muy simple, y aun así muchos usuarios sentían que los entendía."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Historia rápida", titulo: "Un programa *simple* que parecía *entenderte*", sub: "ELIZA, 1960"}
+  - narracion: "Entre 1964 y 1966, Joseph Weizenbaum la creó en el MIT. Su guion más famoso imitaba a un psicoterapeuta. Y muchos usuarios le atribuían comprensión."
+    visual:
+      plantilla: timeline
+      datos:
+        titulo: "Nace un *chatbot*"
+        eventos:
+          - {fecha: "1964-1966", texto: "Weizenbaum crea ELIZA en el MIT"}
+          - {fecha: "Guion DOCTOR", texto: "Imita a un psicoterapeuta"}
+          - {fecha: "Reacción", texto: "Usuarios le atribuyen comprensión"}
+  - narracion: "Tú escribes algo personal. El programa devuelve tus palabras como pregunta. Parece que escucha, pero solo sigue reglas."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Tú escribes", titulo: "Algo personal", items: ["«Me siento cansado»"]}
+        der: {etiqueta: "Respuesta tipo ELIZA", titulo: "Tus palabras, en pregunta", items: ["«¿Por qué te sientes cansado?»"]}
+        veredicto: "Ejemplo *ilustrativo*, no una transcripción real"
+  - narracion: "Por dentro, comparaba tu texto con reglas y armaba una respuesta. Según Britannica, no tenía inteligencia real."
+    visual:
+      plantilla: dato
+      datos:
+        kicker: "Por dentro"
+        dato: "Reglas, *no comprensión*"
+        contexto: "Comparaba lo que escribías con reglas para generar respuestas"
+        fuente: "britannica.com/technology/Eliza"
+  - narracion: "Hoy los chatbots son mucho más capaces. Pero la lección sigue vigente: que suene humano no prueba que entienda."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Sonar humano *no es* entender", puntos: ["ELIZA: reglas simples", "Efecto: parecía comprensiva", "Hoy: verifica igual"], cta: "Guárdalo"}
+fuentes:
+  - url: "https://www.britannica.com/technology/Eliza"
+    titulo: "Eliza (Encyclopaedia Britannica)"
+    fecha_consulta: 2026-10-11
+    respalda: "ELIZA fue un programa de conversación creado por Joseph Weizenbaum entre 1964 y 1966; comparaba la entrada con reglas para generar respuestas, imitaba a un psicoterapeuta rogeriano y no poseía inteligencia real."
+    cifras: [1964, 1966]
+  - url: "https://en.wikipedia.org/wiki/ELIZA"
+    titulo: "ELIZA (Wikipedia)"
+    fecha_consulta: 2026-10-11
+    respalda: "Los usuarios atribuyeron comprensión y emociones al programa (conocido luego como efecto ELIZA); el guion DOCTOR devolvía las palabras del usuario como preguntas."
+  - url: "https://plato.stanford.edu/entries/turing-test/"
+    titulo: "The Turing Test (Stanford Encyclopedia of Philosophy)"
+    fecha_consulta: 2026-10-11
+    respalda: "Programas poco inteligentes como ELIZA pueden parecer inteligentes a observadores comunes durante periodos prolongados."
+riesgos:
+  derechos: "bajo — material propio; el diálogo de ejemplo es ilustrativo y está rotulado como tal"
+  exactitud: "bajo — fechas según Britannica (otras fuentes sitúan la publicación del artículo en 1966); el diálogo mostrado no es una transcripción real y se rotula así. Verificar si se prefiere citar el artículo original de Weizenbaum (1966)"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["ELIZA", "Weizenbaum", "MIT"]

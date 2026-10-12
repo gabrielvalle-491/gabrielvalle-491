@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:04.462
+Mito: para saber qué molesta a tus clientes, tienes que leer todos los comentarios.
+
+00:00:04.622 --> 00:00:07.667
+Realidad: la IA los etiqueta y tu planilla los cuenta.
+
+00:00:07.947 --> 00:00:12.290
+Primero, pídele a la IA una sola categoría por comentario, de una lista cerrada.
+
+00:00:12.450 --> 00:00:14.922
+Así todas las etiquetas se escriben igual.
+
+00:00:15.202 --> 00:00:18.366
+Pega las categorías en una columna y escribe CONTAR.SI.
+
+00:00:18.526 --> 00:00:22.415
+El rango es la columna de categorías; el criterio, el nombre a contar.
+
+00:00:22.575 --> 00:00:25.738
+En este ejemplo ficticio, Entrega aparece tres veces.
+
+00:00:26.018 --> 00:00:28.187
+Ordenadas por cantidad, se ven así.
+
+00:00:28.347 --> 00:00:29.928
+Entrega lidera, con tres.
+
+00:00:30.088 --> 00:00:32.084
+Precio y atención, una cada una.
+
+00:00:32.364 --> 00:00:36.832
+Antes de decidir, lee algunos comentarios a mano: la IA puede etiquetar mal.

@@ -1,0 +1,80 @@
+{
+  "id": "A-006",
+  "duracion_s": 24.514,
+  "frases": 13,
+  "subtitulos": 22,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.491,
+      "beats": [
+        -5.0,
+        4.023
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.491,
+      "fin": 13.337,
+      "beats": [
+        2.287,
+        3.276,
+        4.156,
+        5.052,
+        5.811
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 13.337,
+      "fin": 20.631,
+      "beats": [
+        0.0,
+        1.013,
+        4.768
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 20.631,
+      "fin": 24.514,
+      "beats": [
+        0.0,
+        1.608
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-20.59",
+    "input_tp": "-6.38",
+    "input_lra": "1.50",
+    "input_thresh": "-30.94",
+    "output_i": "-14.02",
+    "output_tp": "-1.50",
+    "output_lra": "0.90",
+    "output_thresh": "-24.27",
+    "normalization_type": "dynamic",
+    "target_offset": "0.02"
+  },
+  "fotogramas_unicos": 242,
+  "tts_cache": 0,
+  "spec_hash": "85c3b5ede4554b45",
+  "segundos_produccion": 101.7,
+  "texto_hablado": [
+    "¿Cuántos asuntos pruebas antes de enviar un correo a tus clientes?",
+    "Con i a, puedes tener cinco en un minuto.",
+    "Pide cinco asuntos, uno por ángulo.",
+    "Beneficio.",
+    "Pregunta.",
+    "Urgencia.",
+    "Número.",
+    "Curiosidad.",
+    "Elige dos.",
+    "Envía el primero a la mitad de tu lista y el segundo a la otra mitad.",
+    "Compara cuántos abren o hacen clic.",
+    "Cambia solo el asunto.",
+    "Todo lo demás, igual."
+  ]
+}

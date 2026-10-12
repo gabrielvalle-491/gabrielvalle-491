@@ -1,0 +1,83 @@
+id: B-007
+canal: canal_b
+fecha: 2026-10-25
+formato: short
+serie: Fórmula en 40 segundos
+episodio: "#02"
+pilar: formulas
+tipo_editorial: tutorial
+idea: "UNIRCADENAS junta los valores de un rango en una sola celda con el separador que elijas, útil para armar una lista de correos separada por comas."
+objetivo: "Tutorial rápido y buscable de una función poco conocida, con un caso práctico (lista de correos) y aclaración de disponibilidad por versión."
+publico: "Personas que arman listas de correos, etiquetas o códigos en Excel y los copian uno por uno."
+hipotesis: "Gancho 'resultado' + duración media + visual 'gráfico': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "Esta columna de correos, convertida en una sola celda separada por comas."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "UNIRCADENAS: junta una columna en una celda con comas"
+titulos_alternativos:
+  - "Cómo unir celdas con comas en Excel (sin copiar una por una)"
+  - "Lista de correos separada por comas con una fórmula"
+  - "TEXTJOIN en español: la función UNIRCADENAS"
+criterio_titulo: "Nombra la función en español y el resultado concreto que la persona busca (unir con comas)."
+descripcion: |
+  UNIRCADENAS une el texto de varias celdas o rangos y pone entre cada valor el separador que elijas. El segundo argumento permite ignorar las celdas vacías.
+  Según la ayuda oficial de Microsoft, está en Excel 2019 y en Microsoft 365; las versiones anteriores no la tienen. Los correos del ejemplo son ficticios.
+cta: "Guárdalo para tu próxima lista."
+comentario_fijado: "Fórmula: =UNIRCADENAS(\", \";VERDADERO;A2:A4). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos. En Google Sheets la función se llama TEXTJOIN."
+hashtags: ["#Excel", "#GoogleSheets", "#Fórmulas"]
+palabras_clave: ["UNIRCADENAS", "TEXTJOIN en español", "unir celdas con coma excel"]
+escenas:
+  - narracion: "Esta columna de correos, convertida en una sola celda separada por comas."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Fórmula en 40 segundos", titulo: "Una columna, una celda, con *comas*"}
+  - narracion: "La función es [[unir cadenas|UNIRCADENAS]]. Primero, el separador entre comillas: una coma y un espacio. Luego, VERDADERO, para ignorar las celdas vacías. Y al final, el rango con los correos."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=UNIRCADENAS(\", \";VERDADERO;A2:A4)"
+        partes:
+          - {token: "\", \"", explica: "separador: coma y espacio"}
+          - {token: "VERDADERO", explica: "ignora celdas vacías"}
+          - {token: "A2:A4", explica: "rango con los correos"}
+  - narracion: "En la planilla, escribe la fórmula en otra celda. El rango toma los tres correos. Resultado: todos juntos, listos para pegar. Si hay una celda vacía, no deja comas de más."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=UNIRCADENAS(\", \";VERDADERO;A2:A4)"
+        celda_formula: "C2"
+        filas:
+          - ["Correo", "", "Lista"]
+          - ["ana@ej.com", "", ""]
+          - ["leo@ej.com", "", ""]
+          - ["eva@ej.com", "", ""]
+        resaltar:
+          - {rango: "A2:A4", beat: 1}
+        resultado: {celda: "C2", valor: "ana@ej.com, leo@ej.com, eva@ej.com", beat: 2}
+  - narracion: "Está en Excel 2019 y Microsoft 365. En Google Sheets existe con el nombre [[tékst yóin|TEXTJOIN]]."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Une con *UNIRCADENAS*"
+        puntos: ["Excel 2019 y Microsoft 365", "Sheets: TEXTJOIN"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/Excel/functions/textjoin-function"
+    titulo: "UNIRCADENAS (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "UNIRCADENAS(delimitador; ignorar_vacío; texto1; ...) une texto de varios rangos o cadenas con un delimitador; disponible con Office 2019 o suscripción a Microsoft 365."
+    cifras: [365, 2019]
+  - url: "https://support.google.com/docs/answer/7013992?hl=en"
+    titulo: "TEXTJOIN (Google Docs Editors Help)"
+    fecha_consulta: 2026-10-11
+    respalda: "Google Sheets tiene TEXTJOIN(delimiter, ignore_empty, text1, ...) con la misma lógica."
+riesgos:
+  derechos: "bajo — correos ficticios con dominio de ejemplo"
+  exactitud: "bajo — sintaxis y disponibilidad documentadas por Microsoft y Google"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["UNIRCADENAS", "TEXTJOIN", "ana", "leo", "eva", "ej.com"]

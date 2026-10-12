@@ -1,0 +1,83 @@
+id: B-021
+canal: canal_b
+fecha: 2026-11-08
+formato: short
+serie: Tu dinero en una planilla
+episodio: "#08"
+pilar: dinero
+tipo_editorial: contraintuitivo
+idea: "Con inflación constante, el dinero guardado sin rendimiento mantiene su monto pero pierde poder de compra: 1 000 hoy compran como 784 dentro de 5 años (ejemplo ilustrativo al 5 % anual)."
+objetivo: "Educación financiera general: entender el efecto de la inflación con un cálculo que el espectador puede replicar en su planilla."
+publico: "Personas que guardan efectivo o saldo sin rendimiento y no han calculado el efecto de la inflación."
+hipotesis: "Formato 'contraintuitivo' en pilar 'dinero': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Guardas US$ 1 000 sin moverlos. ¿Cuánto compran dentro de 5 años?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Cuánto pierde tu dinero con la inflación en 5 años (con números)"
+titulos_alternativos:
+  - "US$ 1 000 guardados 5 años con inflación del 5 %: el cálculo"
+  - "Poder de compra: por qué el mismo dinero alcanza para menos"
+  - "La cuenta que muestra qué hace la inflación a tu dinero"
+criterio_titulo: "Plantea una pregunta concreta y promete un cálculo; 'con números' anticipa la demostración."
+descripcion: |
+  Ejemplo ilustrativo con inflación constante de 5 % anual: US$ 1 000 guardados sin rendimiento durante 5 años conservan su monto, pero compran lo que hoy compran unos US$ 784.
+  La inflación real cambia según el país y el año. Contenido educativo general: no es asesoramiento financiero ni una recomendación de inversión.
+cta: "Haz la cuenta con la inflación de tu país."
+comentario_fijado: "Fórmula: =A2/(1+B2)^C2 con el monto en A2, la inflación anual en B2 (5 %) y los años en C2. En México y EE. UU. Excel suele usar coma (,) como separador de argumentos."
+hashtags: ["#FinanzasPersonales", "#Inflación", "#Excel"]
+palabras_clave: ["poder de compra inflación", "cuánto pierde el dinero con la inflación", "calcular inflación Excel"]
+escenas:
+  - narracion: "Guardas US$ 1 000 sin moverlos. ¿Cuánto compran dentro de 5 años?"
+    visual:
+      plantilla: hook
+      datos: {kicker: "Tu dinero en una planilla", titulo: "Tus US$ 1 000, ¿cuánto *compran*?", sub: "Ejemplo ilustrativo: inflación de 5 % anual"}
+  - narracion: "Con una inflación ilustrativa de 5 % anual, el poder de compra cae año tras año. Al final del año 5, tus US$ 1 000 compran lo que hoy compran unos US$ 784."
+    visual:
+      plantilla: linea
+      datos:
+        titulo: "Poder de compra de tus US$ 1 000"
+        prefijo: "US$ "
+        series:
+          - {nombre: "Poder de compra", valores: [1000, 952.38, 907.03, 863.84, 822.7, 783.53], etiqueta_final: "US$ 784"}
+        etiquetas_x: ["Hoy", "1", "2", "3", "4", "5"]
+        minimo: 600
+        maximo: 1000
+        nota: "Años · inflación constante de 5 % (ilustrativo)"
+  - narracion: "Lo que hoy cuesta 1 000, en 5 años costará unos 1 276. Divide tus 1 000 entre 1,276 y obtienes unos 784. Es una pérdida de unos 216 en poder de compra."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "La cuenta"
+        lineas:
+          - {izq: "Precio en 5 años (1 000 × 1,05⁵)", der: "≈ 1 276"}
+          - {izq: "Poder de compra (1 000 ÷ 1,276)", der: "≈ 784"}
+        resultado: {izq: "Pérdida de poder de compra", der: "≈ 216"}
+  - narracion: "El monto sigue siendo 1 000, pero alcanza para menos. Haz la cuenta con la inflación de tu país."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Mismo monto, *menos* poder de compra"
+        puntos: ["Inflación = precios que suben", "Fórmula: monto ÷ (1 + inflación)^años", "Usa la cifra de tu país"]
+        cta: "Haz tu cuenta"
+fuentes:
+  - calculo: "[1000, 5]"
+    respalda: "Datos ilustrativos del ejemplo (monto e inflación anual)."
+  - calculo: "round(1000 * 1.05 ** 5, 2)"
+    resultado: 1276.28
+    respalda: "Lo que costará dentro de 5 años algo que hoy cuesta 1 000, con inflación de 5 % anual constante."
+  - calculo: "round(1000 / 1.05 ** 5, 2)"
+    resultado: 783.53
+    respalda: "Poder de compra de 1 000 tras 5 años, expresado en dinero de hoy."
+  - calculo: "round(1000 - 1000 / 1.05 ** 5, 2)"
+    resultado: 216.47
+    respalda: "Pérdida de poder de compra en dinero de hoy."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — aritmética verificada automáticamente; la tasa se declara ilustrativa"
+  monetizacion: "bajo — educación financiera general, sin recomendar productos"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

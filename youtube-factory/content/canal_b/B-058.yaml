@@ -1,0 +1,75 @@
+id: B-058
+canal: canal_b
+fecha: 2026-12-15
+formato: short
+serie: Error que todos cometen
+episodio: "#10"
+pilar: errores
+tipo_editorial: error_comun
+idea: "Si omites el último argumento de BUSCARV, la búsqueda es aproximada: puede devolver el dato de otro código sin avisar. Con FALSO la coincidencia es exacta."
+objetivo: "Evitar un error silencioso muy frecuente con una regla simple y un ejemplo reproducible."
+publico: "Personas que usan BUSCARV en listas de precios, códigos o clientes."
+hipotesis: "Formato 'error_comun' en pilar 'errores': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Tu BUSCARV devuelve un precio que no existe, y no muestra ningún error."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "BUSCARV sin FALSO: el error silencioso que da datos incorrectos"
+titulos_alternativos:
+  - "Por qué BUSCARV te devuelve el valor equivocado (y no da error)"
+  - "El cuarto argumento de BUSCARV: FALSO para coincidencia exacta"
+  - "BUSCARV aproximada vs exacta en 30 segundos"
+criterio_titulo: "Describe el síntoma (dato incorrecto sin error) y la causa buscable (BUSCARV sin FALSO)."
+descripcion: |
+  Si no escribes el último argumento, BUSCARV busca de forma aproximada y asume que la primera columna está ordenada. Con el código 104 puede devolver el precio del 101 en vez de avisar que no existe.
+  Para coincidencia exacta, termina la fórmula con FALSO. Según Microsoft, la mayoría de las veces conviene FALSO. Datos del ejemplo ilustrativos.
+cta: "Revisa tus BUSCARV: ¿todas terminan en FALSO?"
+comentario_fijado: "Exacta: =BUSCARV(104;A2:B4;2;FALSO) devuelve #N/A si el código no existe. Aproximada (sin el cuarto argumento): =BUSCARV(104;A2:B4;2) devuelve el precio del código 101. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos."
+hashtags: ["#Excel", "#BUSCARV", "#Errores"]
+palabras_clave: ["BUSCARV coincidencia exacta", "BUSCARV valor incorrecto", "BUSCARV FALSO"]
+escenas:
+  - narracion: "Tu BUSCARV devuelve un precio que no existe, y no muestra ningún error."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Error que todos cometen", titulo: "BUSCARV *sin FALSO*", sub: "Devuelve datos incorrectos sin avisar"}
+  - narracion: "BUSCARV lleva cuatro argumentos. Primero, el código que buscas. Luego, la tabla y la columna que quieres devolver. Y al final, FALSO: eso pide coincidencia exacta."
+    visual:
+      plantilla: formula
+      datos:
+        titulo: "El último argumento"
+        formula: "=BUSCARV(104;A2:B4;2;FALSO)"
+        partes:
+          - {token: "104", explica: "código que buscas"}
+          - {token: "A2:B4;2", explica: "tabla y columna a devolver"}
+          - {token: "FALSO", explica: "coincidencia exacta"}
+  - narracion: "Sin el cuarto argumento, buscar 104 devuelve el precio del 101, porque la búsqueda es aproximada. Con FALSO, avisa que el código no existe. Para coincidencia exacta, escribe siempre FALSO."
+    visual:
+      plantilla: versus
+      datos:
+        titulo: "Códigos: 101, 105 y 110"
+        izq: {etiqueta: "Sin FALSO", titulo: "Aproximada", items: ["=BUSCARV(104;A2:B4;2)", "Devuelve el precio del 101"]}
+        der: {etiqueta: "Con FALSO", titulo: "Exacta", items: ["=BUSCARV(104;A2:B4;2;FALSO)", "Devuelve #N/A: no existe"]}
+        veredicto: "Coincidencia exacta: termina en FALSO"
+  - narracion: "Revisa tus fórmulas: ¿terminan en FALSO?"
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Exacta *siempre* con FALSO"
+        puntos: ["Sin él, la búsqueda es aproximada", "Puede dar un dato de otro código", "FALSO avisa con #N/A"]
+        cta: "Revisa tus fórmulas"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/office/buscarv-funci%c3%b3n-buscarv-0bbc8083-26fe-4963-8ab8-93a18ad188a1"
+    titulo: "BUSCARV (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Si no se especifica el último argumento, la coincidencia es aproximada (VERDADERO) y la primera columna debe estar ordenada; FALSO busca el valor exacto. Microsoft indica que la mayoría de las veces conviene usar FALSO."
+  - calculo: "[101, 104, 105, 110]"
+    respalda: "Códigos ilustrativos del ejemplo (101, 105 y 110 en la tabla; 104 es el código buscado)."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — comportamiento documentado por Microsoft: con búsqueda aproximada sobre una columna ordenada de forma ascendente, 104 coincide con el mayor valor menor o igual, el 101. Probar en una planilla antes de publicar."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

@@ -1,0 +1,83 @@
+id: B-083
+canal: canal_b
+fecha: 2027-01-09
+formato: short
+serie: Tu dinero en una planilla
+episodio: "#24"
+pilar: dinero
+tipo_editorial: tutorial
+idea: "Un control de gastos útil necesita solo cinco columnas: fecha, concepto, categoría, medio de pago y monto, con una fila por gasto."
+objetivo: "Dar una estructura simple y reutilizable para empezar a llevar gastos, que luego permita sumar por categoría y por mes."
+publico: "Personas que quieren empezar a registrar sus gastos en una planilla sin complicarse."
+hipotesis: "Formato 'tutorial' en pilar 'dinero': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Controla todos tus gastos con solo cinco columnas."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Control de gastos en Excel con solo 5 columnas"
+titulos_alternativos:
+  - "Planilla de gastos simple: qué columnas necesitas"
+  - "Cómo empezar a registrar tus gastos (sin complicarte)"
+  - "Las 5 columnas de una planilla de gastos que sí se puede analizar"
+criterio_titulo: "Promete una estructura concreta (5 columnas) y la herramienta, con términos de búsqueda frecuentes."
+descripcion: |
+  Una estructura simple para registrar gastos: una fila por gasto y cinco columnas (fecha, concepto, categoría, medio de pago y monto). Con los datos así ordenados, después puedes sumar por categoría y por mes.
+  Los montos del ejemplo son ilustrativos. Usa siempre los mismos nombres de categoría y escribe el monto como número.
+cta: "Copia esta estructura y empieza con tu primer gasto."
+comentario_fijado: "Columnas: Fecha | Concepto | Categoría | Medio de pago | Monto. Primera fila con los títulos, una fila por gasto y sin filas ni columnas en blanco dentro de los datos."
+hashtags: ["#Excel", "#FinanzasPersonales", "#Presupuesto"]
+palabras_clave: ["control de gastos excel", "planilla de gastos", "registro de gastos personales"]
+escenas:
+  - narracion: "Controla todos tus gastos con solo cinco columnas."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Tu dinero en una planilla", titulo: "Tus gastos en *5 columnas*", sub: "Una fila por gasto"}
+  - narracion: "Una fila por gasto, sin filas en blanco, para que Excel lea bien el rango. La categoría, siempre con los mismos nombres. Y el monto, solo el número."
+    visual:
+      plantilla: planilla
+      datos:
+        titulo: "Registro de gastos (ilustrativo)"
+        filas:
+          - ["Fecha", "Concepto", "Categoría", "Pago", "Monto"]
+          - ["03/01", "Súper", "Comida", "Débito", 45]
+          - ["04/01", "Bus", "Transporte", "Efectivo", 3]
+          - ["06/01", "Internet", "Hogar", "Crédito", 28]
+          - ["07/01", "Almuerzo", "Comida", "Efectivo", 9]
+        resaltar:
+          - {rango: "C2:C5", beat: 1}
+          - {rango: "E2:E5", beat: 2}
+  - narracion: "Fecha, para ordenar y agrupar por mes. Concepto, qué fue, en pocas palabras. Categoría, para sumar por tipo de gasto. Medio de pago, para ver cuánto va a crédito. Y monto, el valor."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Para qué sirve cada columna"
+        estilo: num
+        items:
+          - {texto: "Fecha", detalle: "ordenar y agrupar por mes"}
+          - {texto: "Concepto", detalle: "qué fue, en pocas palabras"}
+          - {texto: "Categoría", detalle: "sumar por tipo de gasto"}
+          - {texto: "Medio de pago", detalle: "efectivo, débito o crédito"}
+          - {texto: "Monto", detalle: "solo el número"}
+  - narracion: "Con los datos así, después sumas por categoría y por mes. Copia esta estructura y registra hoy tu primer gasto."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Datos *ordenados*, análisis fácil"
+        puntos: ["Una fila por gasto", "Mismos nombres de categoría", "Monto como número"]
+        cta: "Empieza hoy"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/excel/guidelines-for-organizing-and-formatting-data-on-a-worksheet"
+    titulo: "Instrucciones para organizar y dar formato a los datos de una hoja de cálculo (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Usar la primera fila como etiquetas de columna y evitar filas y columnas en blanco dentro de un rango de datos."
+  - calculo: "[5]"
+    respalda: "Número de columnas de la estructura propuesta (criterio editorial del canal, no una cifra externa)."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — recomendación de organización de datos; los montos son ilustrativos y no se suman en pantalla."
+  monetizacion: "bajo — educación financiera general"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

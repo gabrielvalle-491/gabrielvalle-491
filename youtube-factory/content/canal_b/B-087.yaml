@@ -1,0 +1,102 @@
+id: B-087
+canal: canal_b
+fecha: 2027-01-13
+formato: short
+serie: Tu dinero en una planilla
+episodio: "#25"
+pilar: dinero
+tipo_editorial: tutorial
+idea: "Una planilla con la facturación mensual y una suma móvil de 12 meses permite ver cuánto margen queda frente al tope de tu categoría del Monotributo (Argentina); ejemplo con cifras ilustrativas."
+objetivo: "Educación general: que una persona monotributista aprenda a seguir su facturación acumulada de 12 meses con SUMA y a comparar con el tope que ella consulte en ARCA."
+publico: "Monotributistas de Argentina que quieren seguir su facturación de los últimos 12 meses en una planilla."
+hipotesis: "Formato 'tutorial' en pilar 'dinero': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Cuánto facturaste en los últimos 12 meses? Tu categoría del Monotributo lo mira."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Monotributo: controla tu facturación de 12 meses en Excel"
+titulos_alternativos:
+  - "Suma móvil de 12 meses en Excel (ideal para el Monotributo)"
+  - "Cómo no pasarte del tope de tu categoría: planilla simple"
+  - "Facturación de los últimos 12 meses: la fórmula que se mueve sola"
+criterio_titulo: "Nombra el problema (controlar 12 meses de facturación) y el contexto (Monotributo), con términos buscables en Argentina."
+descripcion: |
+  Planilla para seguir la facturación mensual y calcular la suma móvil de los últimos 12 meses con SUMA. Al copiar la fórmula hacia abajo, la ventana se mueve un mes.
+  Cifras ilustrativas. El tope de tu categoría y las demás condiciones (energía eléctrica, superficie, alquiler) debes consultarlos en el sitio oficial de ARCA. Contenido educativo general, no es asesoramiento impositivo ni contable.
+cta: "Consulta tu tope en ARCA y úsalo en tu planilla."
+comentario_fijado: "Fórmula (suma móvil): en la fila del mes 12 =SUMA(B2:B13); al copiarla hacia abajo, la ventana avanza un mes. Margen: =tope-suma. El tope de tu categoría y las reglas vigentes están en el sitio oficial de ARCA. En Argentina Excel suele usar punto y coma (;) entre argumentos."
+hashtags: ["#Monotributo", "#Excel", "#FinanzasPersonales"]
+palabras_clave: ["monotributo facturación 12 meses", "suma móvil excel", "planilla monotributo"]
+escenas:
+  - narracion: "¿Cuánto facturaste en los últimos 12 meses? Tu categoría del Monotributo lo mira."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Tu dinero en una planilla", titulo: "Tus *12 meses* de facturación", sub: "Monotributo · Argentina · cifras ilustrativas"}
+  - narracion: "Anota lo que facturas cada mes. ARCA evalúa la facturación acumulada de los últimos 12 meses, y la recategorización se hace cada seis meses."
+    visual:
+      plantilla: linea
+      datos:
+        titulo: "Facturado por mes (ilustrativo)"
+        prefijo: "$ "
+        series:
+          - {nombre: "Facturado", valores: [820, 860, 900, 880, 940, 960, 1000, 980, 1020, 1000, 1020, 1020], etiqueta_final: "$ 1 020"}
+        etiquetas_x: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+        nota: "Mes 1 al 12 · montos ilustrativos"
+  - narracion: "La suma de los doce meses va con la función SUMA. Al copiarla hacia abajo, el rango se mueve un mes."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=SUMA(B2:B13)"
+        titulo: "Suma móvil"
+        partes:
+          - {token: "B2:B13", explica: "los últimos 12 meses"}
+        nota: "Copia hacia abajo: B3:B14, B4:B15..."
+  - narracion: "Con los datos del ejemplo, la suma da 11 400. Si el tope de tu categoría fuera 12 000, el margen sería 600."
+    visual:
+      plantilla: planilla
+      datos:
+        titulo: "Margen frente al tope (ilustrativo)"
+        formula: "=B3-B2"
+        celda_formula: "B4"
+        filas:
+          - ["Concepto", "Monto"]
+          - ["Suma 12 meses", 11400]
+          - ["Tope (ilustrativo)", 12000]
+          - ["Margen", ""]
+        resaltar:
+          - {rango: "B2:B3", beat: 1}
+        resultado: {celda: "B4", valor: "600", beat: 2}
+  - narracion: "El tope real de tu categoría, búscalo en ARCA. También cuentan energía, superficie y alquiler."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Tu planilla, *tu tope real*"
+        puntos: ["Suma móvil de 12 meses", "Tope: consúltalo en ARCA", "Hay otros parámetros además de la facturación"]
+        cta: "Verifica en ARCA"
+fuentes:
+  - url: "https://servicioscf.afip.gob.ar/publico/abc/ABCpaso2.aspx?id_nivel1=1395&id_nivel2=1458&id_nivel3=2469&p=Recategorizaci%C3%B3n+semestral"
+    titulo: "Recategorización semestral (AFIP/ARCA, consultas frecuentes)"
+    fecha_consulta: 2026-10-11
+    respalda: "La recategorización es obligatoria y se hace cada seis meses; se consideran los parámetros acumulados en los últimos 12 meses (ingresos brutos, energía eléctrica, superficie y alquileres)."
+    cifras: [12]
+  - url: "https://www.argentina.gob.ar/servicio/recategorizarme-en-el-monotributo"
+    titulo: "Recategorizarme en el Monotributo (argentina.gob.ar)"
+    fecha_consulta: 2026-10-11
+    respalda: "Trámite de recategorización del Monotributo; las categorías y topes vigentes se consultan en el sitio oficial."
+  - calculo: "sum([820, 860, 900, 880, 940, 960, 1000, 980, 1020, 1000, 1020, 1020])"
+    resultado: 11400
+    respalda: "Suma de los 12 meses del ejemplo ilustrativo."
+  - calculo: "[12000]"
+    respalda: "Tope ilustrativo inventado para el ejemplo (no corresponde a ninguna categoría real)."
+  - calculo: "12000 - 11400"
+    resultado: 600
+    respalda: "Margen frente a un tope ilustrativo de 12 000."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "alto — normativa y topes del Monotributo cambian; el video no cita montos reales de categorías (solo un tope inventado y rotulado como ilustrativo). Verificar antes de publicar que sigue vigente: recategorización semestral, ventana de 12 meses, y que ARCA es el organismo actual."
+  monetizacion: "medio — tema impositivo; se aclara que es educación general, sin asesoramiento"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["recategorización"]

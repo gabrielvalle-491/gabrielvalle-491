@@ -1,0 +1,68 @@
+id: A-075
+canal: canal_a
+fecha: 2027-01-01
+formato: short
+serie: El Atajo
+episodio: "#15"
+pilar: ia_sin_humo
+tipo_editorial: tutorial
+idea: "Cuatro preguntas rápidas antes de usar IA en el trabajo: datos, verificación, privacidad y responsabilidad."
+objetivo: "Dar un checklist breve y memorable para un uso responsable de la IA en el trabajo."
+publico: "Empleados, líderes de equipo y dueños de pymes que empiezan a usar IA en sus tareas."
+hipotesis: "Formato 'tutorial' en pilar 'ia_sin_humo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Antes de pegar nada en una IA, hazte cuatro preguntas."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Checklist de 4 preguntas antes de usar IA en el trabajo"
+titulos_alternativos:
+  - "Usar IA en el trabajo sin meterte en problemas: 4 preguntas"
+  - "Datos, verificación, privacidad y responsabilidad: tu checklist"
+  - "Lo que debes revisar antes de enviar algo hecho con IA"
+criterio_titulo: "Promete un checklist concreto (4 preguntas) para un público amplio; es buscable (usar IA en el trabajo)."
+descripcion: |
+  Cuatro preguntas antes de usar IA en el trabajo: ¿puedo compartir estos datos?, ¿verificaré cifras, nombres y fuentes?, ¿conozco los ajustes de privacidad y la política de mi empresa?, ¿firmaría este resultado como mío?
+  Es una guía general de buenas prácticas, no asesoría legal ni de cumplimiento. Sigue siempre las normas de tu organización.
+cta: "Guárdalo y compártelo con tu equipo."
+comentario_fijado: "¿Cuál de las cuatro preguntas olvidas más seguido: datos, verificación, privacidad o responsabilidad?"
+hashtags: ["#IA", "#Trabajo", "#Productividad"]
+palabras_clave: ["usar IA en el trabajo", "checklist de IA", "buenas prácticas con IA", "IA responsable en la empresa"]
+escenas:
+  - narracion: "Antes de pegar nada en una IA, hazte cuatro preguntas. Toman unos segundos y sirven con cualquier herramienta."
+    visual:
+      plantilla: hook
+      datos: {kicker: "El Atajo", titulo: "*4 preguntas* antes de usar IA", sub: "Checklist para el trabajo"}
+  - narracion: "Datos: ¿puedo compartir esto fuera de mi empresa, o es confidencial? Verificación: ¿revisaré cifras, nombres y fuentes antes de usarlo? Privacidad: ¿conozco los ajustes de la herramienta y la política de mi empresa? Responsabilidad: ¿firmaría este resultado como mío?"
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Tu *checklist*"
+        estilo: num
+        items:
+          - {texto: "Datos", detalle: "¿Puedo compartir esto?"}
+          - {texto: "Verificación", detalle: "¿Revisaré cifras y fuentes?"}
+          - {texto: "Privacidad", detalle: "¿Conozco ajustes y política?"}
+          - {texto: "Responsabilidad", detalle: "¿Lo firmaría como mío?"}
+  - narracion: "Si alguna respuesta es no, detente. Consulta con tu jefe o con el área responsable antes de enviar."
+    visual:
+      plantilla: texto
+      datos: {titulo: "La regla", texto: "Un *no* en cualquiera: detente y consulta."}
+  - narracion: "La IA ayuda a redactar, resumir y ordenar. La responsabilidad sigue siendo tuya."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "La IA ayuda, *tú respondes*"
+        puntos: ["Datos", "Verificación", "Privacidad", "Responsabilidad"]
+        cta: "Guárdalo y compártelo"
+fuentes:
+  - calculo: "[4]"
+    respalda: "Checklist propio de cuatro preguntas (datos, verificación, privacidad, responsabilidad). Es una guía general de buenas prácticas, no una norma ni una afirmación factual externa."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — sin afirmaciones factuales externas; guía general. Cada organización tiene políticas propias, y así se indica"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

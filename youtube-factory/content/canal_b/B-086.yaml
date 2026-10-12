@@ -1,0 +1,82 @@
+id: B-086
+canal: canal_b
+fecha: 2027-01-12
+formato: short
+serie: Mini sistema
+episodio: "#16"
+pilar: trabajo
+tipo_editorial: tutorial
+idea: "En Excel todas las celdas están bloqueadas por defecto, pero el bloqueo solo funciona al proteger la hoja: desbloquea las celdas de datos y protege la hoja para resguardar las fórmulas."
+objetivo: "Evitar que se borren fórmulas por accidente en planillas compartidas, aclarando que no es una medida de seguridad fuerte."
+publico: "Personas que comparten planillas con fórmulas y temen que alguien las borre o las sobrescriba sin querer."
+hipotesis: "Formato 'tutorial' en pilar 'trabajo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Alguien borró tu fórmula y nadie sabe cuándo. Evítalo en tres pasos."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Proteger celdas con fórmulas en Excel (en 3 pasos)"
+titulos_alternativos:
+  - "Cómo evitar que borren tus fórmulas por accidente"
+  - "Bloquear solo las fórmulas y dejar el resto editable"
+  - "Proteger hoja en Excel: lo que casi nadie explica"
+criterio_titulo: "Nombra el problema real (fórmulas borradas) y el método concreto, con términos de búsqueda."
+descripcion: |
+  Por defecto, todas las celdas de Excel están bloqueadas, pero ese bloqueo solo se aplica cuando proteges la hoja. Por eso el truco es desbloquear primero las celdas donde otras personas pueden escribir, y luego proteger la hoja.
+  Importante: según Microsoft, la protección de una hoja no es una característica de seguridad; solo evita cambios accidentales. Los nombres de menú pueden variar según tu versión de Excel.
+cta: "Protege tus fórmulas antes de compartir la planilla."
+comentario_fijado: "Ruta: selecciona las celdas editables > clic derecho > Formato de celdas > pestaña Proteger > desmarca Bloqueada. Luego: Revisar > Proteger hoja. Si pones contraseña y la pierdes, no hay forma de desproteger la hoja."
+hashtags: ["#Excel", "#Productividad", "#Fórmulas"]
+palabras_clave: ["proteger celdas con fórmulas", "bloquear celdas excel", "proteger hoja excel"]
+escenas:
+  - narracion: "Alguien borró tu fórmula y nadie sabe cuándo. Evítalo en tres pasos."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Mini sistema", titulo: "Que nadie borre tus *fórmulas*"}
+  - narracion: "Dato clave: en Excel todas las celdas ya están bloqueadas. Pero ese bloqueo solo funciona cuando proteges la hoja."
+    visual:
+      plantilla: mito
+      datos:
+        mito: "Si bloqueas una celda, ya está protegida"
+        realidad: "El bloqueo *solo* funciona al proteger la hoja"
+  - narracion: "Primero, selecciona las celdas donde sí se puede escribir. Segundo, en Formato de celdas, pestaña Proteger, desmarca Bloqueada. Tercero, en Revisar, elige Proteger hoja."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Tres pasos"
+        pasos:
+          - {titulo: "Selecciona las celdas editables", detalle: "donde otros pueden escribir"}
+          - {titulo: "Formato de celdas → Proteger", detalle: "desmarca Bloqueada"}
+          - {titulo: "Revisar → Proteger hoja", detalle: "las fórmulas quedan bloqueadas"}
+  - narracion: "Ojo: según Microsoft, proteger una hoja no es una medida de seguridad. Solo evita cambios accidentales."
+    visual:
+      plantilla: dato
+      datos: {kicker: "Ojo", dato: "Evita cambios *accidentales*, no protege datos sensibles", contexto: "Según la ayuda de Microsoft"}
+  - narracion: "Protege tus fórmulas antes de compartir la planilla. Así nadie las borra por accidente mientras trabaja en ella."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Fórmulas a salvo de *accidentes*"
+        puntos: ["Desbloquea las celdas editables", "Protege la hoja", "No es seguridad fuerte"]
+        cta: "Compártela tranquilo"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/Excel/get-started/lock-or-unlock-specific-areas-of-a-protected-worksheet"
+    titulo: "Bloquear o desbloquear áreas específicas de una hoja de cálculo protegida (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Por defecto, proteger una hoja bloquea todas las celdas; para permitir la edición hay que desbloquear antes las celdas (Formato de celdas > Proteger > Bloqueada) y luego proteger la hoja."
+  - url: "https://support.microsoft.com/es-es/office/proteger-una-hoja-de-c%C3%A1lculo-3179efdb-1285-4d49-a9c3-f4ca36276de6"
+    titulo: "Proteger una hoja de cálculo (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Revisar > Proteger hoja; en una hoja protegida sin contraseña conocida no hay forma de desprotegerla."
+  - url: "https://support.microsoft.com/es-es/excel/protection-and-security-in-excel"
+    titulo: "Protección y seguridad en Excel (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "La protección de nivel de hoja no está pensada como característica de seguridad; simplemente impide modificar las celdas bloqueadas."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — los nombres de menú en español (Formato de celdas, pestaña Proteger, casilla Bloqueada, Revisar > Proteger hoja) deben comprobarse en un Excel en español; la frase 'todas las celdas están bloqueadas por defecto' se basa en la ayuda oficial."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Evítalo", "editables", "Mini"]

@@ -1,0 +1,86 @@
+id: B-011
+canal: canal_b
+fecha: 2026-10-29
+formato: short
+serie: Tu dinero en una planilla
+episodio: "#05"
+pilar: dinero
+tipo_editorial: experimento
+idea: "Los gastos pequeños y repetidos se ven inofensivos, pero multiplicados por 365 días o 12 meses suman una cifra relevante (ejemplo ilustrativo: un café diario y dos suscripciones)."
+objetivo: "Enseñar a anualizar gastos repetidos con una multiplicación simple, sin juzgar y sin recomendar productos."
+publico: "Personas que quieren ordenar su presupuesto y no saben cuánto suman sus gastos pequeños."
+hipotesis: "Gancho 'resultado' + duración corta + visual 'tipografía': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "Un café diario y dos suscripciones suman US$ 1 068,50 al año."
+duracion_objetivo: "20-32 s (≈55-80 palabras)"
+titulo: "Gastos hormiga: cuánto suman en un año (con la cuenta)"
+titulos_alternativos:
+  - "Un café al día cuesta más de lo que crees: la cuenta anual"
+  - "Cómo calcular tus gastos hormiga en una planilla"
+  - "Multiplica por 365: el truco para ver gastos pequeños"
+criterio_titulo: "Anticipa la cuenta concreta y usa el término que la gente busca (gastos hormiga)."
+descripcion: |
+  Ejemplo ilustrativo: un café de US$ 2,50 cada día y dos suscripciones que suman US$ 13 al mes. Multiplicados por 365 y por 12, el total anual es de US$ 1 068,50.
+  Las cifras son inventadas para el ejemplo: usa las tuyas. Contenido educativo general, sin juicio sobre cómo gastas.
+cta: "Anota tus gastos repetidos y multiplícalos."
+comentario_fijado: "Fórmulas: =2,5*365 para el gasto diario y =13*12 para el mensual (con coma decimal). En México y EE. UU. Excel suele usar punto decimal y coma (,) entre argumentos."
+hashtags: ["#GastosHormiga", "#Excel", "#FinanzasPersonales"]
+palabras_clave: ["gastos hormiga", "cuánto gasto al año", "presupuesto en excel"]
+escenas:
+  - narracion: "Un café diario y dos suscripciones suman US$ 1 068,50 al año."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Tu dinero en una planilla", titulo: "Café + 2 suscripciones = *US$ 1 068,50* al año", sub: "Cifras ilustrativas"}
+  - narracion: "El café cuesta 2,50 por día, por 365 días: 912,50. Las dos suscripciones suman 13 al mes, por 12 meses: 156. Total: 1 068,50."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Gastos hormiga, al año"
+        lineas:
+          - {izq: "Café: 2,50 × 365", der: "US$ 912,50"}
+          - {izq: "Suscripciones: 13 × 12", der: "US$ 156"}
+        resultado: {izq: "Total al año", der: "US$ 1 068,50"}
+  - narracion: "Lo pequeño que se repite cada día es lo que más pesa."
+    visual:
+      plantilla: barras
+      datos:
+        titulo: "Dónde está el peso (ilustrativo)"
+        prefijo: "US$ "
+        decimales: 2
+        maximo: 1000
+        todas_juntas: true
+        items:
+          - {etiqueta: "Café diario", valor: 912.5, destacado: true}
+          - {etiqueta: "Suscripciones", valor: 156, tenue: true}
+  - narracion: "Anota tus gastos repetidos y multiplícalos: así ves cuánto suman."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Multiplica lo *repetido*"
+        puntos: ["Diario × 365", "Mensual × 12"]
+        cta: "Haz tu cuenta"
+fuentes:
+  - calculo: "[365, 12]"
+    respalda: "Días de un año común y meses del año, usados como multiplicadores."
+  - calculo: "2.5 * 365"
+    resultado: 912.5
+    respalda: "Gasto anual en café (2,50 por día durante 365 días)."
+  - calculo: "5 + 8"
+    resultado: 13
+    respalda: "Dos suscripciones ilustrativas (5 y 8) suman 13 al mes."
+  - calculo: "(5 + 8) * 12"
+    resultado: 156
+    respalda: "Gasto anual en suscripciones."
+  - calculo: "2.5 * 365 + (5 + 8) * 12"
+    resultado: 1068.5
+    respalda: "Total anual del ejemplo."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — aritmética verificada; cifras ilustrativas declaradas"
+  monetizacion: "bajo — educación general, sin recomendar productos"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

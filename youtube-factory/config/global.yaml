@@ -1,0 +1,47 @@
+# Configuración global de la fábrica. Editable sin programar.
+proyecto: "Fábrica de contenido YouTube"
+base_operativa: "Villa Mercedes, San Luis, Argentina"
+zona_horaria: "America/Argentina/San_Luis"   # UTC-3, sin horario de verano
+idioma: "es-419"                               # español latinoamericano neutro
+
+presupuesto:
+  mensual_usd: 50          # tope. La configuración por defecto cuesta USD 0
+  alerta_porcentaje: 80     # aviso al llegar al 80 % del tope
+  costo_kwh_usd: 0.08        # estimación para electricidad local (ajustable)
+  potencia_pc_w: 120         # consumo medio estimado de la PC al renderizar
+
+voz:
+  motor: kokoro             # kokoro (local, Apache-2.0) | piper (local) | espeak (solo pruebas)
+  modelo: models/kokoro-v1.0.onnx
+  voces: models/voices-v1.0.bin
+  idioma_fonetico: es-419    # seseo latinoamericano (evita la "z" española)
+  pausa_frase_s: 0.16
+  pausa_escena_s: 0.28
+
+render:
+  short: {ancho: 1080, alto: 1920, fps: 30}
+  largo: {ancho: 1920, alto: 1080, fps: 30}
+  crf: 18
+  preset: medium
+  audio_bitrate: 192k
+  audio_hz: 48000
+  lufs_objetivo: -14.0
+  pico_verdadero_db: -1.5
+  duracion_animacion_s: 0.45
+  musica_db: -27            # música de fondo muy por debajo de la voz
+  sfx_db: -24
+
+concurrencia:
+  render_paralelo: 2        # videos a la vez (subilo si tu PC tiene 8+ núcleos)
+  reintentos: 2
+
+calidad:
+  puntaje_minimo: 85         # de 100. Por debajo -> carpeta de revisión
+  short_max_s: 60            # objetivo editorial (YouTube admite hasta 3 min)
+  short_min_s: 15
+  similitud_maxima: 0.55      # contra el resto de la biblioteca (0-1)
+
+publicacion:
+  auto_publicar: false       # por defecto NO se publica nada sin tu revisión
+  privacidad_inicial: private
+  limite_diario_subidas: 5   # margen dentro de la cuota diaria de la API

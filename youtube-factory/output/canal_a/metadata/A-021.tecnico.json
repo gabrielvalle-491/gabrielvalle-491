@@ -1,0 +1,76 @@
+{
+  "id": "A-021",
+  "duracion_s": 32.06,
+  "frases": 11,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.302,
+      "beats": [
+        -5.0,
+        3.181
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.302,
+      "fin": 19.991,
+      "beats": [
+        0.0,
+        2.61,
+        6.387,
+        8.465,
+        11.096
+      ],
+      "plantilla": "timeline"
+    },
+    {
+      "inicio": 19.991,
+      "fin": 25.353,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 25.353,
+      "fin": 32.06,
+      "beats": [
+        0.0,
+        2.762
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.16",
+    "input_tp": "-6.45",
+    "input_lra": "1.60",
+    "input_thresh": "-31.46",
+    "output_i": "-14.27",
+    "output_tp": "-1.50",
+    "output_lra": "1.50",
+    "output_thresh": "-24.47",
+    "normalization_type": "dynamic",
+    "target_offset": "0.27"
+  },
+  "fotogramas_unicos": 311,
+  "tts_cache": 0,
+  "spec_hash": "c15b4c76555f31a4",
+  "segundos_produccion": 114.6,
+  "texto_hablado": [
+    "¿Qué le escribes a un cliente nuevo después de comprar?",
+    "Cinco correos, cinco momentos.",
+    "El día uno, agradece y explica qué sigue.",
+    "El día tres, envía un consejo para empezar a usar lo que compró.",
+    "El día siete, pregunta cómo va.",
+    "El día catorce, comparte un recurso útil.",
+    "Y el día treinta, pide su opinión y ofrece el siguiente paso.",
+    "Pídele a la i a el borrador de cada correo, uno por vez.",
+    "Tú le das el objetivo del día.",
+    "Revisa cada borrador y ajústalo a tu voz.",
+    "Y envía solo a quien aceptó recibir tus mensajes."
+  ]
+}

@@ -1,0 +1,68 @@
+id: A-012
+canal: canal_a
+fecha: 2026-10-30
+formato: short
+serie: Reto 5 minutos
+episodio: "#03"
+pilar: prompts
+tipo_editorial: experimento
+idea: "Incluir uno o dos ejemplos de lo que quieres dentro del prompt (few-shot) ayuda a la IA a copiar el estilo y el formato mejor que una descripción larga."
+objetivo: "Enseñar una técnica de prompts muy aplicable (few-shot) con un experimento que el público puede repetir en cinco minutos."
+publico: "Personas que usan la IA para redactar textos con un formato fijo (fichas, descripciones, respuestas) y no logran el estilo que quieren."
+hipotesis: "Gancho 'mito' + duración corta + visual 'comparación': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "Mito: para que la IA copie tu estilo, hay que describirlo con muchas palabras."
+duracion_objetivo: "20-32 s (≈55-80 palabras)"
+titulo: "Dos ejemplos en tu prompt: que la IA copie tu estilo"
+titulos_alternativos:
+  - "Few-shot explicado fácil: enseña con ejemplos, no con descripciones"
+  - "Mito: describir tu estilo basta (y qué funciona mejor)"
+  - "Reto 5 minutos: pega dos ejemplos y mira la diferencia"
+criterio_titulo: "Describe la técnica en lenguaje cotidiano ('dos ejemplos') con el beneficio (copiar tu estilo); la variante 1 aporta el término técnico buscable."
+descripcion: |
+  Reto de cinco minutos: pide un texto con solo una descripción de tu estilo y luego pide lo mismo pegando dos ejemplos tuyos. Compara. La documentación de Anthropic recomienda incluir ejemplos relevantes y variados, y señala que son especialmente efectivos para formatos concretos.
+  Elige ejemplos distintos entre sí y revisa que la respuesta no los copie al pie de la letra.
+cta: "Haz el reto con un texto tuyo."
+comentario_fijado: "Estructura del video: 'Ejemplo 1: [tu texto]. Ejemplo 2: [tu texto]. Ahora escribe uno nuevo sobre [tema].' ¿Para qué texto lo vas a probar?"
+hashtags: ["#Prompts", "#IA", "#Productividad"]
+palabras_clave: ["few-shot", "ejemplos en el prompt", "cómo escribir prompts"]
+escenas:
+  - narracion: "Mito: para que la IA copie tu estilo, hay que describirlo con muchas palabras. Realidad: unos pocos ejemplos suelen funcionar mejor."
+    visual:
+      plantilla: mito
+      datos:
+        mito: "Describir tu estilo con *muchas palabras*"
+        realidad: "Unos pocos *ejemplos* suelen funcionar mejor"
+        fuente: "Documentación de Anthropic"
+  - narracion: "Solo describir el estilo deja mucho a la interpretación. Con dos ejemplos tuyos, la IA ve el formato exacto. Eso se llama [[fiu chot|few-shot]]."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Solo descripción", titulo: "Mucho a la interpretación", items: ["'Tono cercano y breve'", "Formato impreciso"]}
+        der: {etiqueta: "Con 2 ejemplos", titulo: "Ve el formato exacto", items: ["Estilo a la vista", "Few-shot"]}
+        veredicto: "Mostrar *supera* a describir"
+  - narracion: "Pega dos ejemplos y, después, tu pedido nuevo."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla few-shot"
+        texto: "Escribe un texto en el mismo formato y estilo que estos ejemplos.\nEjemplo 1: [TU TEXTO 1]\nEjemplo 2: [TU TEXTO 2]\nAhora escribe uno sobre: [TEMA NUEVO]"
+  - narracion: "Elige ejemplos distintos entre sí, y revisa que la IA no los copie al pie de la letra."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Enseña con *ejemplos*", puntos: ["Dos ejemplos tuyos", "Distintos entre sí", "Revisa el resultado"], cta: "Haz el reto"}
+fuentes:
+  - url: "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/multishot-prompting"
+    titulo: "Use examples (multishot prompting) to guide Claude's behavior (Anthropic)"
+    fecha_consulta: 2026-10-11
+    respalda: "La documentación recomienda incluir ejemplos relevantes y variados en el prompt (few-shot o multishot) y los describe como especialmente efectivos para salidas estructuradas y formatos específicos."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — se dice 'suelen funcionar mejor', sin cifras; los resultados varían según el modelo"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["few-shot", "Few-shot", "Anthropic", "Few", "few", "shot"]

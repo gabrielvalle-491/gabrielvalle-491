@@ -1,0 +1,80 @@
+id: B-004
+canal: canal_b
+fecha: 2026-10-22
+formato: short
+serie: Error que todos cometen
+episodio: "#01"
+pilar: errores
+tipo_editorial: error_comun
+idea: "Al copiar una fórmula hacia abajo, las referencias relativas se desplazan; el signo $ (referencia absoluta) fija la celda de la tasa para que no se mueva."
+objetivo: "Evitar uno de los errores más frecuentes al copiar fórmulas y dar una regla simple (relativa se mueve, absoluta se queda) con el atajo F4."
+publico: "Personas que usan Excel en el trabajo o en sus finanzas y ven ceros o resultados raros al copiar una fórmula."
+hipotesis: "Gancho 'contraste' + duración corta + visual 'comparación': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "Misma fórmula, copiada hacia abajo: la primera fila sale bien y la segunda da cero."
+duracion_objetivo: "20-32 s (≈55-80 palabras)"
+titulo: "Por qué tu fórmula da cero al copiarla (el signo $)"
+titulos_alternativos:
+  - "Referencia absoluta en Excel: cuándo usar el signo $"
+  - "F4 en Excel: fija una celda al copiar fórmulas"
+  - "El error de copiar fórmulas que todos cometen"
+criterio_titulo: "Describe el síntoma que la persona busca (la fórmula da cero al copiar) y nombra la solución (signo $)."
+descripcion: |
+  Al copiar una fórmula, las referencias relativas se mueven con ella. Si una celda debe quedarse quieta, como una tasa, se vuelve absoluta con el signo $ (por ejemplo $D$2).
+  En Excel para Windows, F4 agrega o cambia los signos $ de la referencia. Los datos del ejemplo son ilustrativos.
+cta: "Guárdalo para tu próxima planilla."
+comentario_fijado: "Fórmula del ejemplo: =A2*$D$2 (precio por la tasa fija en D2). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos."
+hashtags: ["#Excel", "#Fórmulas", "#GoogleSheets"]
+palabras_clave: ["referencia absoluta excel", "signo $ excel", "F4 excel", "fórmula da cero al copiar"]
+escenas:
+  - narracion: "Misma fórmula, copiada hacia abajo: la primera fila sale bien y la segunda da cero."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Error que todos cometen", titulo: "Copias la fórmula y da *cero*"}
+  - narracion: "El impuesto usa la tasa de la celda [[de dos|D2]]. Al copiar, la fórmula se mueve a [[de tres|D3]], que está vacía."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=A3*D3"
+        celda_formula: "B3"
+        filas:
+          - ["Precio", "Impuesto", "", "Tasa"]
+          - [200, 40, "", "20 %"]
+          - [350, "", "", ""]
+          - [500, 0, "", ""]
+        resaltar:
+          - {rango: "D3", beat: 1}
+        resultado: {celda: "B3", valor: "0", beat: 1}
+        nota: "La tasa quedó una fila más arriba"
+  - narracion: "Sin signo de dólar, la referencia es relativa y se mueve. Con el signo de dólar, es absoluta y se queda. Para ponerlo, usa [[efe cuatro|F4]]."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Relativa", titulo: "Se mueve", items: ["=A2*D2", "D2 pasa a D3"]}
+        der: {etiqueta: "Absoluta", titulo: "Se queda", items: ["=A2*$D$2", "Siempre apunta a D2"]}
+        veredicto: "F4 pone los signos $"
+  - narracion: "Antes de copiar, pregúntate: ¿esta celda debe moverse o quedarse?"
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "¿Se *mueve* o se *queda*?"
+        puntos: ["Relativa: A2", "Absoluta: $A$2"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://support.microsoft.com/en-us/Excel/switch-between-relative-absolute-and-mixed-references"
+    titulo: "Switch between relative, absolute, and mixed references (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Las referencias relativas cambian al copiar la fórmula; las absolutas llevan $ ($A$1) y no cambian; F4 recorre los tipos de referencia."
+  - calculo: "200 * 0.20"
+    resultado: 40
+    respalda: "Impuesto de la primera fila del ejemplo (precio 200, tasa ilustrativa 20 %)."
+riesgos:
+  derechos: "bajo — todo el material visual es generado por el canal"
+  exactitud: "bajo — comportamiento documentado por Microsoft; F4 se indica para Excel en Windows"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

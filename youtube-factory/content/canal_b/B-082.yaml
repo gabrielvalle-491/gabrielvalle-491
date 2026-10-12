@@ -1,0 +1,89 @@
+id: B-082
+canal: canal_b
+fecha: 2027-01-08
+formato: short
+serie: Mini sistema
+episodio: "#14"
+pilar: trabajo
+tipo_editorial: tutorial
+idea: "Una tabla de tramos y BUSCARX con modo de coincidencia -1 devuelven la comisión correcta aunque la venta no coincida exactamente con ningún tramo."
+objetivo: "Tutorial práctico para calcular comisiones, descuentos o tarifas por tramos sin anidar muchos SI."
+publico: "Personas que calculan comisiones, descuentos por volumen o tarifas por rangos en Excel."
+hipotesis: "Formato 'tutorial' en pilar 'trabajo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Una venta de 3 200 cae entre dos tramos. ¿Qué comisión le toca?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Comisión por tramos en Excel con BUSCARX (sin anidar SI)"
+titulos_alternativos:
+  - "BUSCARX con coincidencia aproximada: comisión por tramos"
+  - "Cómo calcular una comisión según el monto vendido"
+  - "Tabla de tramos + BUSCARX: la comisión, automática"
+criterio_titulo: "Nombra la función, el caso práctico y el beneficio (sin anidar SI), con palabras buscables."
+descripcion: |
+  Con una tabla donde cada fila indica desde qué venta aplica una tasa, BUSCARX con el modo de coincidencia -1 devuelve la coincidencia exacta o, si no existe, el siguiente valor más pequeño. Así la venta de 3 200 toma el tramo que empieza en 1 000.
+  Ejemplo con tasas ilustrativas. Esta fórmula aplica una sola tasa a toda la venta, no solo al excedente de cada tramo. BUSCARX requiere Excel 2021 o Microsoft 365.
+cta: "Guárdalo para tu tabla de comisiones."
+comentario_fijado: "Fórmula: =BUSCARX(C2;A2:A4;B2:B4;0;-1)*C2, con los inicios de tramo en A2:A4, las tasas en B2:B4 y la venta en C2. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;)."
+hashtags: ["#Excel", "#BUSCARX", "#Fórmulas"]
+palabras_clave: ["BUSCARX coincidencia aproximada", "comisión por tramos excel", "tabla de tramos"]
+escenas:
+  - narracion: "Una venta de 3 200 cae entre dos tramos. ¿Qué comisión le toca?"
+    visual:
+      plantilla: hook
+      datos: {kicker: "Mini sistema", titulo: "Comisión por *tramos*", sub: "Tasas ilustrativas"}
+  - narracion: "Arma una tabla con el inicio de cada tramo y su tasa. BUSCARX busca la venta en esa columna. Para 3 200 devuelve el tramo de 1 000, con 3 %, y la comisión es 96."
+    visual:
+      plantilla: planilla
+      datos:
+        titulo: "Tramos de comisión"
+        formula: "=BUSCARX(C2;A2:A4;B2:B4;0;-1)*C2"
+        celda_formula: "D2"
+        filas:
+          - ["Desde", "Tasa", "Venta", "Comisión"]
+          - [0, "2 %", 3200, ""]
+          - [1000, "3 %", "", ""]
+          - [5000, "5 %", "", ""]
+        resaltar:
+          - {rango: "A3:B3", beat: 1}
+        resultado: {celda: "D2", valor: "96", beat: 2}
+  - narracion: "Esta es la fórmula. Busca la venta. Dentro de los inicios de tramo. Devuelve la tasa. Y el menos uno pide el valor exacto o el menor más cercano."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=BUSCARX(C2;A2:A4;B2:B4;0;-1)"
+        partes:
+          - {token: "C2", explica: "la venta que buscas"}
+          - {token: "A2:A4", explica: "inicio de cada tramo"}
+          - {token: "B2:B4", explica: "tasa que se devuelve"}
+          - {token: "-1", explica: "exacto o el menor más cercano"}
+  - narracion: "Ojo: esta tasa se aplica a toda la venta, no solo al excedente de cada tramo."
+    visual:
+      plantilla: texto
+      datos: {kicker: "Ojo", titulo: "Una tasa para *toda* la venta", texto: "Si tu esquema paga distinto por cada parte, necesitas otra fórmula.", nota: "BUSCARX: Excel 2021 o Microsoft 365"}
+  - narracion: "Cambia la venta y la comisión se ajusta sola."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Tramos sin *anidar SI*"
+        puntos: ["Tabla: inicio de tramo y tasa", "Modo de coincidencia: -1", "Una tasa para toda la venta"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/Excel/functions/xlookup-function"
+    titulo: "Función BUSCARX (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "BUSCARX(valor_buscado; matriz_buscada; matriz_devuelta; [si_no_se_encuentra]; [modo_de_coincidencia]); el modo -1 devuelve la coincidencia exacta o, si no existe, el siguiente elemento más pequeño."
+  - calculo: "[3200, 1000]"
+    respalda: "Datos ilustrativos del ejemplo: venta y comienzo del tramo."
+  - calculo: "3200 * 0.03"
+    resultado: 96
+    respalda: "Comisión de 3 % sobre una venta de 3 200."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — la redacción exacta del modo -1 en la página en español de Microsoft no pudo leerse completa en la búsqueda (confirmada por documentación de terceros y por el conocimiento general de la función); probar la fórmula en un Excel real antes de publicar."
+  monetizacion: "bajo — sin recomendaciones financieras"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

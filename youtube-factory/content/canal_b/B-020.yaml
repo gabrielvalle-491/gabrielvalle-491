@@ -1,0 +1,84 @@
+id: B-020
+canal: canal_b
+fecha: 2026-11-07
+formato: short
+serie: Error que todos cometen
+episodio: "#05"
+pilar: errores
+tipo_editorial: error_comun
+idea: "Una fecha guardada como texto no se comporta como fecha: se alinea a la izquierda, ESNUMERO da FALSO y se arregla con FECHANUMERO."
+objetivo: "Que la persona detecte fechas-texto en segundos y las convierta; contenido de alta búsqueda ('fechas no funcionan en Excel')."
+publico: "Quien importa datos de otros sistemas o pega fechas y obtiene errores al calcular con ellas."
+hipotesis: "Formato 'error_comun' en pilar 'errores': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Tu fórmula de fechas falla o da un resultado raro. Quizá esas fechas son solo texto."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Fechas que son texto en Excel: cómo detectarlas y arreglarlas"
+titulos_alternativos:
+  - "Por qué no puedes restar fechas en Excel (y cómo solucionarlo)"
+  - "ESNUMERO y FECHANUMERO: el truco para fechas que no funcionan"
+  - "Fecha alineada a la izquierda en Excel: es texto"
+criterio_titulo: "Usa la queja real ('fechas que no funcionan') y promete detección y arreglo."
+descripcion: |
+  Si una fecha aparece alineada a la izquierda, puede ser texto y no una fecha real. Con ESNUMERO lo compruebas y con FECHANUMERO la conviertes en un número de serie al que luego das formato de fecha.
+  En Excel de España, FECHANUMERO se llama VALFECHA. Revisa siempre el resultado con tus propios datos.
+cta: "Revisa tus fechas con ESNUMERO antes de calcular."
+comentario_fijado: "Fórmulas: =ESNUMERO(A2) para detectar y =FECHANUMERO(A2) para convertir (en España: VALFECHA). Después, aplica formato de fecha a la celda. Si tu Excel usa coma como separador, cambia los ; por ,."
+hashtags: ["#Excel", "#ErroresDeExcel", "#Fechas"]
+palabras_clave: ["fechas como texto Excel", "FECHANUMERO", "ESNUMERO"]
+escenas:
+  - narracion: "Tu fórmula de fechas falla o da un resultado raro. Quizá esas fechas son solo texto."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Error que todos cometen", titulo: "Esa fecha *no es* una fecha", sub: "Es texto con forma de fecha"}
+  - narracion: "Prueba esta fórmula en la celda de al lado. Fíjate: las fechas pegadas a la izquierda suelen ser texto. [[es número|ESNUMERO]] responde FALSO: no es una fecha de verdad."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=ESNUMERO(A2)"
+        celda_formula: "B2"
+        filas:
+          - ["Entrega", "¿Número?"]
+          - ["15/03/2026", "FALSO"]
+          - ["22/03/2026", "FALSO"]
+          - ["29/03/2026", "FALSO"]
+        resaltar:
+          - {rango: "A2:A4", beat: 1}
+        resultado: {celda: "B2", valor: "FALSO", beat: 2}
+        nota: "Texto a la izquierda, número a la derecha"
+  - narracion: "Primero, detecta: alineada a la izquierda o [[es número|ESNUMERO]] en FALSO. Segundo, conviértela con [[fecha número|FECHANUMERO]], que devuelve un número de serie, como 46 096. Tercero, dale formato de fecha a la celda."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "De texto a fecha real"
+        pasos:
+          - {titulo: "Detecta", detalle: "A la izquierda o ESNUMERO = FALSO"}
+          - {titulo: "Convierte con FECHANUMERO", detalle: "=FECHANUMERO(A2)"}
+          - {titulo: "Aplica formato de fecha", detalle: "El resultado sale como número de serie"}
+  - narracion: "Con fechas reales, ya puedes restarlas, ordenarlas y filtrarlas por mes. Primero comprueba, después calcula."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Primero *comprueba*, luego calcula", cta: "Guárdalo"}
+fuentes:
+  - url: "https://support.microsoft.com/es-ES/Excel/convert-dates-stored-as-text-to-dates"
+    titulo: "Convertir fechas almacenadas como texto en fechas (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Las fechas con formato de texto se alinean a la izquierda; FECHANUMERO convierte una fecha en texto en un número de serie y después hay que aplicar formato de fecha a la celda."
+    cifras: []
+  - url: "https://support.microsoft.com/es-es/Excel/functions/datevalue-function"
+    titulo: "Función VALFECHA / DATEVALUE (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "La misma función DATEVALUE se documenta en español de España como VALFECHA."
+  - calculo: "46096"
+    resultado: 46096
+    respalda: "Número de serie de 15/03/2026 (días desde el 30/12/1899, sistema de fechas 1900 de Excel): la diferencia de calendario da 46 096."
+riesgos:
+  derechos: "bajo"
+  exactitud: "medio — el nombre de la función varía entre España (VALFECHA) y Latinoamérica (FECHANUMERO); se aclara. La conversión depende de la configuración regional."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["ESNUMERO", "FECHANUMERO", "VALFECHA"]

@@ -1,0 +1,74 @@
+id: A-063
+canal: canal_a
+fecha: 2026-12-20
+formato: short
+serie: IA sin humo
+episodio: "#06"
+pilar: ia_sin_humo
+tipo_editorial: mito
+idea: "Los detectores de texto con IA no son infalibles: OpenAI retiró su propio clasificador en julio de 2023 por su baja precisión; no deben usarse como prueba única."
+objetivo: "Desmontar la confianza ciega en detectores con un dato oficial y dar criterios prácticos para quien evalúa textos."
+publico: "Docentes, editores y empleadores que usan detectores de IA, y personas que temen ser acusadas por uno."
+hipotesis: "Formato 'mito' en pilar 'ia_sin_humo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Mito: los detectores de texto con IA son infalibles."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Mito: los detectores de IA son infalibles (OpenAI retiró el suyo)"
+titulos_alternativos:
+  - "¿Se puede detectar texto hecho con IA? Lo que dice OpenAI"
+  - "Por qué un detector de IA no debe ser tu única prueba"
+  - "El clasificador de OpenAI acertó 26 %: qué enseña"
+criterio_titulo: "Plantea el mito y ofrece un dato verificable y sorprendente (OpenAI retiró su propio detector)."
+descripcion: |
+  OpenAI publicó en enero de 2023 un clasificador de texto escrito con IA, y lo retiró el 20 de julio de 2023 por su baja precisión. En su evaluación, detectó correctamente el 26 % de textos hechos con IA y marcó como IA el 9 % de los escritos por personas.
+  Por eso un detector no debe ser prueba única: combina otras señales, conversa con la persona y decide con criterio humano.
+cta: "Guárdalo antes de confiar en un detector."
+comentario_fijado: "Fuente: 'New AI classifier for indicating AI-written text' (OpenAI), con la nota de retiro de julio de 2023. ¿Has usado un detector alguna vez? Cuéntanos qué te pareció."
+hashtags: ["#IA", "#IASinHumo", "#Educación"]
+palabras_clave: ["detectores de texto con IA", "OpenAI clasificador retirado", "detectar texto hecho con IA", "falsos positivos IA"]
+escenas:
+  - narracion: "Mito: los detectores de texto con IA son infalibles. Realidad: OpenAI retiró el suyo por baja precisión."
+    visual:
+      plantilla: mito
+      datos:
+        mito: "Los detectores de texto con IA son *infalibles*"
+        realidad: "OpenAI retiró el suyo por *baja precisión*"
+        fuente: "OpenAI, 2023"
+  - narracion: "En 2023, OpenAI dejó de ofrecer su clasificador. En su prueba, acertó en solo 26 % de los textos hechos por IA, y marcó como IA al 9 % de los escritos por personas."
+    visual:
+      plantilla: dato
+      datos:
+        kicker: "Datos de OpenAI"
+        dato: "Solo *26 %* de aciertos en textos hechos con IA"
+        contexto: "Y marcó como IA el 9 % de textos escritos por personas"
+        fuente: "OpenAI, conjunto de prueba en inglés"
+  - narracion: "Por eso, no uses un detector como prueba única. Combina otras señales, como borradores previos o una conversación. Y decide con criterio humano."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Si evalúas un texto, *no* decidas solo con un detector"
+        estilo: check
+        items: ["No es prueba única", "Pide borradores o conversa", "Decide con criterio humano"]
+  - narracion: "Una puntuación no es una prueba. Un detector puede orientar, pero la decisión final es de una persona."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Un puntaje *no* es una prueba"
+        puntos: ["Hay falsos positivos", "Combina señales", "Decide con criterio humano"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text/"
+    titulo: "New AI classifier for indicating AI-written text (OpenAI)"
+    fecha_consulta: 2026-10-11
+    respalda: "OpenAI publicó el clasificador el 31 de enero de 2023; en su conjunto de prueba en inglés identificó correctamente el 26 % de los textos escritos por IA (verdaderos positivos) y etiquetó erróneamente como IA el 9 % de textos humanos; OpenAI señaló que no debía ser la herramienta principal de decisión; la nota indica que desde el 20 de julio de 2023 el clasificador ya no está disponible por su baja tasa de precisión."
+    cifras: [2023, 26, 20]
+riesgos:
+  derechos: "bajo — se cita una publicación pública; sin logotipos"
+  exactitud: "medio — las cifras 26 % y 9 % y la fecha de retiro provienen de la página de OpenAI según los resultados de búsqueda (resumen); no se pudo abrir la página para verificar la redacción exacta. Revisar el original antes de publicar. Es un conjunto de prueba en inglés y no representa a todos los detectores actuales."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

@@ -1,0 +1,76 @@
+{
+  "id": "A-022",
+  "duracion_s": 37.446,
+  "frases": 11,
+  "subtitulos": 29,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.441,
+      "beats": [
+        -5.0,
+        3.769
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.441,
+      "fin": 17.394,
+      "beats": [
+        0.0,
+        4.934,
+        8.062
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 17.394,
+      "fin": 22.903,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 22.903,
+      "fin": 37.446,
+      "beats": [
+        0.0,
+        3.359,
+        7.387,
+        9.092
+      ],
+      "plantilla": "lista"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.27",
+    "input_tp": "-7.03",
+    "input_lra": "1.80",
+    "input_thresh": "-31.54",
+    "output_i": "-13.99",
+    "output_tp": "-1.50",
+    "output_lra": "1.40",
+    "output_thresh": "-24.16",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.01"
+  },
+  "fotogramas_unicos": 321,
+  "tts_cache": 0,
+  "spec_hash": "5aab6dbedaa4f5e9",
+  "segundos_produccion": 129.5,
+  "texto_hablado": [
+    "Un resumen de i a puede sonar perfecto y traer una cifra mal.",
+    "Mira cómo pedirlo para poder comprobarlo.",
+    "Primero, entrega el documento a tu asistente: si no acepta pe de efe, pega el texto.",
+    "Segundo, pide el resumen con la página de cada punto.",
+    "Tercero, revisa esas páginas en el original.",
+    "Este prompt hace que cada punto diga dónde sale.",
+    "Y si algo no está en el texto, que lo diga.",
+    "Revisa las cifras, fechas y nombres contra el original.",
+    "Comprueba que cada página citada diga lo que el resumen afirma.",
+    "Pregunta qué dejó fuera.",
+    "Y no subas documentos confidenciales sin revisar la privacidad de la herramienta."
+  ]
+}

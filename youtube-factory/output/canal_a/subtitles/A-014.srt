@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:04,640
+Un resumen con IA ahorra tiempo, o te hace perder justo el detalle que importaba.
+
+2
+00:00:04,800 --> 00:00:06,193
+Depende de qué busques.
+
+3
+00:00:06,473 --> 00:00:09,570
+El resumen te sirve para decidir si un texto te interesa.
+
+4
+00:00:09,730 --> 00:00:13,045
+El índice te muestra cómo está organizado y dónde buscar.
+
+5
+00:00:13,205 --> 00:00:16,174
+Resume para decidir; usa el índice para verificar.
+
+6
+00:00:16,454 --> 00:00:18,723
+Resumen si quieres una idea general.
+
+7
+00:00:18,883 --> 00:00:21,003
+Resumen si debes decidir si leer.
+
+8
+00:00:21,163 --> 00:00:24,778
+Índice y texto cuando importan cifras, plazos o condiciones.
+
+9
+00:00:25,058 --> 00:00:28,698
+Si el documento es importante, lee las secciones clave completas.
+
+10
+00:00:28,858 --> 00:00:32,405
+El resumen te dice por dónde empezar; no reemplaza la lectura.

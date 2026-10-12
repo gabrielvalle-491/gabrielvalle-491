@@ -1,0 +1,79 @@
+id: B-071
+canal: canal_b
+fecha: 2026-12-28
+formato: short
+serie: Mini sistema
+episodio: "#10"
+pilar: trabajo
+tipo_editorial: tutorial
+idea: "Revisión de cinco puntos antes de enviar una planilla: errores visibles, filas, columnas y hojas ocultas, un total comprobado, datos personales con el inspector de documentos y permisos."
+objetivo: "Checklist práctico y guardable que evita errores y filtraciones de datos al compartir un archivo de Excel."
+publico: "Personas que envían planillas a clientes, jefes o equipos y quieren evitar errores y datos ocultos."
+hipotesis: "Formato 'tutorial' en pilar 'trabajo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Tu planilla está lista. Antes de enviarla, haz esta revisión."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Checklist antes de enviar una planilla de Excel"
+titulos_alternativos:
+  - "5 revisiones antes de compartir una planilla"
+  - "Datos ocultos en tu Excel: cómo revisarlos antes de enviar"
+  - "Evita el error vergonzoso: checklist de envío en Excel"
+criterio_titulo: "Promete un recurso concreto y guardable con el verbo de la intención de búsqueda."
+descripcion: |
+  Cinco revisiones antes de enviar una planilla: buscar errores como #N/A o #¡REF!, mostrar filas, columnas y hojas ocultas, comprobar un total a mano, inspeccionar el documento en una copia y definir si quien recibe puede ver, comentar o editar.
+  El inspector de documentos no detecta todo; revisa tu archivo con calma.
+cta: "Guárdalo para tu próximo envío."
+comentario_fijado: "Checklist: 1) errores (#N/A, #¡REF!), 2) filas, columnas y hojas ocultas, 3) un total comprobado a mano, 4) Archivo > Información > Comprobar si hay problemas > Inspeccionar documento (en una copia), 5) permisos: ver, comentar o editar."
+hashtags: ["#Excel", "#Productividad", "#TrabajoEnOficina"]
+palabras_clave: ["revisar Excel antes de enviar", "inspeccionar documento Excel", "datos ocultos Excel"]
+escenas:
+  - narracion: "Tu planilla está lista. Antes de enviarla, haz esta revisión."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Mini sistema", titulo: "Antes de enviar una planilla, *revisa esto*"}
+  - narracion: "Primero, busca errores como [[ene a|#N/A]] o [[ref|#¡REF!]]. Segundo, muestra lo oculto: filas, columnas y hojas viajan con el archivo. Tercero, comprueba un total sumando a mano unas pocas filas."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Revisa el contenido"
+        estilo: check
+        items:
+          - {texto: "Errores como #N/A o #¡REF!"}
+          - {texto: "Filas, columnas y hojas ocultas"}
+          - {texto: "Un total comprobado a mano"}
+  - narracion: "Haz una copia: lo que quita el inspector puede no recuperarse. Abre Archivo, Información. Elige Comprobar si hay problemas, Inspeccionar documento. Revisa cada resultado antes de quitar algo."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Inspecciona el archivo"
+        pasos:
+          - {titulo: "Haz una copia", detalle: "lo quitado puede no recuperarse"}
+          - {titulo: "Archivo → Información"}
+          - {titulo: "Comprobar si hay problemas", detalle: "→ Inspeccionar documento"}
+          - {titulo: "Revisa antes de quitar"}
+  - narracion: "Y define si quien recibe puede ver, comentar o editar. Un archivo limpio y con permisos claros se nota."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Archivo *limpio* y permisos claros"
+        puntos: ["Errores y ocultos revisados", "Copia inspeccionada", "Permisos definidos"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://support.microsoft.com/en-us/office/remove-hidden-data-and-personal-information-by-inspecting-documents-presentations-or-workbooks-356b7b5d-77af-44fe-a07f-9aa4d085966f"
+    titulo: "Remove hidden data and personal information by inspecting documents, presentations, or workbooks (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "El inspector de documentos (Archivo > Información > Check for Issues > Inspect Document) busca comentarios, propiedades y datos personales, filas, columnas y hojas ocultas, entre otros; se recomienda usarlo en una copia porque lo eliminado puede no recuperarse; no detecta todo (p. ej. texto oculto por otros métodos)."
+  - url: "https://support.google.com/docs/answer/9331169?hl=en"
+    titulo: "Collaborate in Sheets (Google Docs Editors Help)"
+    fecha_consulta: 2026-10-11
+    respalda: "Al compartir una hoja de cálculo se elige el nivel de acceso (ver, comentar o editar)."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — los nombres de menú en español (Archivo, Información, Comprobar si hay problemas, Inspeccionar documento) provienen de la página en inglés; verificar la etiqueta exacta en Excel en español antes de publicar."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Mini", "check"]

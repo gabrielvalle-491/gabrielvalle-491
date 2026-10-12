@@ -1,0 +1,72 @@
+id: A-069
+canal: canal_a
+fecha: 2026-12-26
+formato: short
+serie: Glosario rápido
+episodio: "#08"
+pilar: conceptos
+tipo_editorial: contraintuitivo
+idea: "Un LLM (modelo de lenguaje grande) no busca respuestas ni las consulta en una base de datos: aprende patrones de muchísimo texto y predice el siguiente trozo, una y otra vez."
+objetivo: "Explicar el concepto base de la IA generativa en lenguaje simple y derivar la consecuencia práctica: puede sonar seguro y equivocarse, así que se verifica."
+publico: "Personas sin formación técnica que usan asistentes de IA y quieren entender qué hay detrás."
+hipotesis: "Formato 'contraintuitivo' en pilar 'conceptos': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Un LLM no busca respuestas: predice el siguiente trozo de texto."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Qué es un LLM (modelo de lenguaje grande), explicado simple"
+titulos_alternativos:
+  - "Un LLM no busca respuestas: predice texto. Esto cambia cómo lo usas"
+  - "Por qué la IA puede sonar segura y equivocarse"
+  - "LLM en tres pasos: cómo funciona el cerebro de un chatbot"
+criterio_titulo: "Incluye el término buscable (LLM) con su traducción y promete una explicación simple."
+descripcion: |
+  Un LLM (large language model, modelo de lenguaje grande) es un modelo de IA entrenado con enormes cantidades de texto que genera respuestas prediciendo, paso a paso, el siguiente fragmento más probable.
+  Por eso puede escribir con fluidez, pero también equivocarse con seguridad: predecir texto probable no es verificar un hecho. Revisa los datos importantes. Es una explicación simplificada.
+cta: "Guárdalo para explicárselo a alguien."
+comentario_fijado: "Fuentes: IBM, «What Are Large Language Models (LLMs)?». Es una explicación simplificada. ¿Qué otro término de IA quieres que expliquemos?"
+hashtags: ["#IA", "#LLM", "#InteligenciaArtificial"]
+palabras_clave: ["qué es un LLM", "modelo de lenguaje grande", "cómo funciona ChatGPT", "IA generativa explicada"]
+escenas:
+  - narracion: "Un LLM no busca respuestas: predice el siguiente trozo de texto."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Glosario rápido", titulo: "Un LLM no busca: *predice* texto", sub: "Modelo de lenguaje grande"}
+  - narracion: "Primero, lee muchísimo texto escrito por personas. Luego aprende patrones de cómo se combinan las palabras. Y al responder, predice un trozo tras otro hasta completar la respuesta."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Así *funciona*, en simple"
+        pasos:
+          - {titulo: "Lee mucho texto", detalle: "Su entrenamiento"}
+          - {titulo: "Aprende patrones", detalle: "Cómo se combinan las palabras"}
+          - {titulo: "Predice el siguiente trozo", detalle: "Uno tras otro, hasta terminar"}
+  - narracion: "LLM significa modelo de lenguaje grande. Por eso puede sonar seguro y aun así equivocarse. Predecir texto probable no es lo mismo que comprobar un hecho."
+    visual:
+      plantilla: texto
+      datos: {titulo: "Consecuencia práctica", texto: "Texto *probable* no es un hecho *verificado*.", nota: "Revisa los datos importantes"}
+  - narracion: "Úsalo para redactar, resumir y ordenar ideas. Los datos, verifícalos."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Redacta con IA, *verifica* los datos"
+        puntos: ["Aprende patrones de texto", "Predice trozo a trozo", "Puede equivocarse con seguridad"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://www.ibm.com/think/topics/large-language-models"
+    titulo: "What Are Large Language Models (LLMs)? (IBM)"
+    fecha_consulta: 2026-10-11
+    respalda: "Un LLM es un modelo de IA entrenado con enormes cantidades de texto, capaz de comprender y generar lenguaje; funciona prediciendo repetidamente la siguiente palabra (token) de una secuencia."
+  - url: "https://cloud.google.com/ai/llms"
+    titulo: "Large Language Models (LLMs) with Google AI"
+    fecha_consulta: 2026-10-11
+    respalda: "Definición general de los LLM como modelos entrenados con grandes cantidades de texto, basados en la arquitectura Transformer."
+riesgos:
+  derechos: "bajo — explicación propia; sin logotipos"
+  exactitud: "medio — explicación deliberadamente simplificada (omite tokens, ajuste posterior con instrucciones y herramientas externas); las páginas de IBM y Google se verificaron solo por resúmenes de resultados de búsqueda. Revisar la redacción antes de publicar."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["language", "large", "model", "verifícalos"]

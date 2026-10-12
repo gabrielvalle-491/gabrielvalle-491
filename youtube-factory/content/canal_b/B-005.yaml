@@ -1,0 +1,83 @@
+id: B-005
+canal: canal_b
+fecha: 2026-10-23
+formato: short
+serie: Tu dinero en una planilla
+episodio: "#02"
+pilar: dinero
+tipo_editorial: experimento
+idea: "Comparar el precio por unidad (precio ÷ cantidad) muestra que el envase más grande no siempre es el más barato; ejemplo ilustrativo con tres tamaños."
+objetivo: "Enseñar un cálculo cotidiano reutilizable (precio por unidad) con una fórmula de una línea y desmontar un mito de compra."
+publico: "Personas que quieren gastar mejor en el supermercado y están aprendiendo a usar la planilla para sus compras."
+hipotesis: "Gancho 'mito' + duración media + visual 'tipografía': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "Mito: el envase más grande siempre sale más barato por kilo."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Envase grande vs chico: calcula el precio por unidad"
+titulos_alternativos:
+  - "¿El envase grande siempre es más barato? Haz la cuenta"
+  - "Precio por kilo en Excel: la fórmula para comparar"
+  - "El mito del envase grande (con números de ejemplo)"
+criterio_titulo: "Nombra la comparación que la persona hace en la tienda y promete el método (precio por unidad), sin afirmar nada absoluto."
+descripcion: |
+  Para comparar envases, divide el precio entre la cantidad y mira el precio por kilo (o por litro, o por unidad). A veces el tamaño mediano gana al grande.
+  Los precios del ejemplo son ilustrativos: en la tienda, usa los tuyos y la misma unidad en todos.
+cta: "Haz la cuenta antes de llenar el carrito."
+comentario_fijado: "Fórmula: =B2/C2 con el precio en B2 y los kilos en C2; cópiala hacia abajo. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos."
+hashtags: ["#Excel", "#FinanzasPersonales", "#Ahorro"]
+palabras_clave: ["precio por unidad", "comparar precios supermercado", "fórmula precio por kilo"]
+escenas:
+  - narracion: "Mito: el envase más grande siempre sale más barato por kilo."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Tu dinero en una planilla", titulo: "¿El envase grande *siempre* es más barato?", sub: "Precios ilustrativos"}
+  - narracion: "El chico cuesta 2,10 por medio kilo: 4,20 el kilo. El mediano cuesta 3 por tres cuartos de kilo: 4 el kilo. El grande cuesta 4,40 por un kilo: 4,40 el kilo. El más barato por kilo es el mediano."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Precio ÷ kilos"
+        lineas:
+          - {izq: "Chico: 2,10 ÷ 0,5", der: "4,20 por kg"}
+          - {izq: "Mediano: 3,00 ÷ 0,75", der: "4,00 por kg"}
+          - {izq: "Grande: 4,40 ÷ 1", der: "4,40 por kg"}
+        resultado: {izq: "Más barato por kg", der: "El mediano"}
+  - narracion: "Comparados por kilo, el grande es el más caro de los tres. No es una regla: depende de cada oferta."
+    visual:
+      plantilla: barras
+      datos:
+        titulo: "Precio por kilo (ilustrativo)"
+        prefijo: "$ "
+        decimales: 2
+        maximo: 5
+        todas_juntas: true
+        items:
+          - {etiqueta: "Chico", valor: 4.2, tenue: true}
+          - {etiqueta: "Mediano", valor: 4.0, destacado: true}
+          - {etiqueta: "Grande", valor: 4.4, tenue: true}
+  - narracion: "Antes de comprar, calcula el precio por unidad: precio dividido entre cantidad. Usa la misma unidad en todos."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Compara por *unidad*, no por tamaño"
+        puntos: ["Misma unidad en todos", "=B2/C2 y copia hacia abajo"]
+        cta: "Guárdalo"
+fuentes:
+  - calculo: "2.10 / 0.5"
+    resultado: 4.20
+    respalda: "Precio por kilo del envase chico (2,10 por 0,5 kg)."
+  - calculo: "3.00 / 0.75"
+    resultado: 4.00
+    respalda: "Precio por kilo del envase mediano (3,00 por 0,75 kg)."
+  - calculo: "4.40 / 1"
+    resultado: 4.40
+    respalda: "Precio por kilo del envase grande (4,40 por 1 kg)."
+riesgos:
+  derechos: "bajo — material propio, sin marcas"
+  exactitud: "bajo — aritmética verificada; los precios son inventados a propósito y se declaran ilustrativos"
+  monetizacion: "bajo — educación general, sin recomendar productos ni tiendas"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

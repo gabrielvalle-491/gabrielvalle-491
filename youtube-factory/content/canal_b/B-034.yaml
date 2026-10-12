@@ -1,0 +1,138 @@
+id: B-034
+canal: canal_b
+fecha: '2026-11-21'
+formato: short
+serie: Tu dinero en una planilla
+episodio: '#12'
+pilar: dinero
+tipo_editorial: comparacion
+idea: Comparar la tasa general de IVA de México, Colombia, Chile y Argentina y mostrar la fórmula para sumar y quitar el impuesto de un precio con la tasa en una celda.
+objetivo: 'Educación práctica: que la persona calcule precios con y sin IVA en una planilla reutilizable, aplicable a cualquier país.'
+publico: Personas y pequeños negocios de Latinoamérica que fijan o revisan precios en distintos países.
+hipotesis: 'Formato ''comparacion'' en pilar ''dinero'': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje).'
+gancho: ¿Cuánto IVA pagas en México, Colombia, Chile y Argentina?
+duracion_objetivo: 35-55 s (≈85-140 palabras)
+titulo: 'IVA en México, Colombia, Chile y Argentina: tasas y fórmula'
+titulos_alternativos:
+- Cómo calcular el precio con IVA y sin IVA en Excel
+- 'IVA 16 %, 19 % y 21 %: comparación por país y cuenta en planilla'
+- 'Precio con y sin impuesto: la fórmula que sirve para cualquier país'
+criterio_titulo: Nombra los cuatro países y promete tasas más la fórmula; es buscable por 'IVA' y 'Excel'.
+descripcion: |-
+  Tasas generales de IVA a la fecha: México 16 %, Colombia 19 %, Chile 19 % y Argentina 21 %. Hay tasas reducidas, exenciones y regímenes especiales según el producto, así que confirma tu caso con el organismo tributario de tu país.
+  Fórmula del video: precio con IVA = precio sin IVA × (1 + tasa). Para quitar el IVA, divide el precio con IVA entre (1 + tasa). Cifras de precios ilustrativas. Contenido educativo general, no es asesoría tributaria.
+cta: Guarda la fórmula y cambia la tasa según tu país.
+comentario_fijado: 'Fórmula: =A2*(1+B2) con el precio sin IVA en A2 y la tasa en B2 (formato porcentaje). Para quitar el IVA: =C2/(1+B2). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;).'
+hashtags:
+- '#Excel'
+- '#IVA'
+- '#GoogleSheets'
+palabras_clave:
+- IVA por país
+- calcular precio con IVA Excel
+- quitar IVA fórmula
+escenas:
+- narracion: ¿Cuánto IVA pagas en México, Colombia, Chile y Argentina? Cada país tiene su propia tasa general.
+  visual:
+    plantilla: hook
+    datos:
+      kicker: Tu dinero en una planilla
+      titulo: ¿Cuánto *IVA* pagas en cada país?
+      sub: Tasas generales, a la fecha
+- narracion: Según la normativa de cada país, México aplica una tasa general de 16 %. Colombia, 19 %. Chile, 19 %. Argentina, 21 %. Hay tasas reducidas y exenciones, así que confirma tu caso.
+  visual:
+    plantilla: barras
+    datos:
+      titulo: Tasa general de IVA
+      sufijo: ' %'
+      maximo: 25
+      items:
+      - etiqueta: México
+        valor: 16
+      - etiqueta: Colombia
+        valor: 19
+      - etiqueta: Chile
+        valor: 19
+      - etiqueta: Argentina
+        valor: 21
+        destacado: true
+      nota: Tasa general · hay reducidas, exenciones y regímenes especiales
+- narracion: Parte de un precio sin IVA de 1 000. Con una tasa de 19 %, multiplicas por 1,19 y queda en 1 190. Para quitar el IVA, divide 1 190 entre 1,19 y vuelves a 1 000.
+  visual:
+    plantilla: calculo
+    datos:
+      titulo: Ejemplo con 19 %
+      lineas:
+      - izq: Precio sin IVA
+        der: 1 000
+      - izq: 'Con IVA: 1 000 × 1,19'
+        der: 1 190
+      resultado:
+        izq: 'Sin IVA: 1 190 ÷ 1,19'
+        der: 1 000
+- narracion: En la planilla, usa esta fórmula. El precio sin IVA va en [[a dos|A2]]. Y uno más la tasa, que vive en [[be dos|B2]].
+  visual:
+    plantilla: formula
+    datos:
+      titulo: Precio con IVA
+      formula: =A2*(1+B2)
+      partes:
+      - token: A2
+        explica: precio sin IVA
+      - token: (1+B2)
+        explica: uno más la tasa de la celda B2
+- narracion: Para quitar el IVA, divide entre ese mismo factor. Cambia la tasa en [[be dos|B2]] y sirve para cualquier país.
+  visual:
+    plantilla: cierre
+    datos:
+      titulo: Una tasa, *cualquier país*
+      puntos:
+      - 'Con IVA: precio × (1 + tasa)'
+      - 'Sin IVA: precio ÷ (1 + tasa)'
+      cta: Guárdalo
+fuentes:
+- url: https://wwwmat.sat.gob.mx/articulo/19848/articulo-1
+  titulo: Artículo 1o. de la Ley del IVA (SAT)
+  fecha_consulta: '2026-10-11'
+  respalda: 'México: tasa general del IVA de 16 %.'
+  cifras:
+  - 16
+- url: https://normograma.dian.gov.co/dian/compilacion/docs/oficio_dian_8857_2025.htm
+  titulo: Concepto 8857 de 2025 (DIAN)
+  fecha_consulta: '2026-10-11'
+  respalda: 'Colombia: el artículo 468 del Estatuto Tributario fija la tarifa general del IVA en 19 %.'
+  cifras:
+  - 19
+- url: https://www.sii.cl/preguntas_frecuentes/impuestos_mensuales/001_130_0572.htm
+  titulo: ¿Cuál es la tasa del IVA? (SII Chile)
+  fecha_consulta: '2026-10-11'
+  respalda: 'Chile: la tasa del IVA es 19 %.'
+  cifras:
+  - 19
+- url: https://biblioteca.arca.gob.ar/cuadroslegislativos/getAdjunto.aspx?i=7833
+  titulo: Ley 23.349, texto ordenado (ARCA)
+  fecha_consulta: '2026-10-11'
+  respalda: 'Argentina: alícuota general del IVA de 21 %.'
+  cifras:
+  - 21
+- calculo: '[1000, 1.19]'
+  respalda: Datos ilustrativos del ejemplo (precio y factor 1 + 19 %).
+- calculo: 1000 * 1.19
+  resultado: 1190
+  respalda: Precio con IVA al 19 %.
+- calculo: 1190 / 1.19
+  resultado: 1000
+  respalda: Precio sin IVA a partir del precio con IVA.
+riesgos:
+  derechos: bajo — material propio
+  exactitud: medio — las tasas generales pueden cambiar por reformas; verificar en SAT, DIAN, SII y ARCA el día de publicar. Las fuentes de Argentina y México son textos de ley que pueden no estar actualizados.
+  monetizacion: bajo — educación general, sin recomendar productos
+recursos:
+- nombre: Música y efectos originales generados por la fábrica
+  licencia: propia
+declaracion_sintetica:
+  decision: declarar
+  motivo: Voz sintética realista; gráficos no realistas. Se declara por prudencia.
+costo_estimado_usd: 0
+palabras_validas:
+- IVA

@@ -1,0 +1,99 @@
+id: B-090
+canal: canal_b
+fecha: 2027-01-16
+formato: short
+serie: Tu dinero en una planilla
+episodio: "#26"
+pilar: dinero
+tipo_editorial: tutorial
+idea: "La TEA equivale a la TNA solo si hay una única capitalización al año; con plazos más cortos que se renuevan, la TEA es mayor. Fórmula en planilla con un ejemplo ilustrativo (TNA de 30 % a 30 días)."
+objetivo: "Educación financiera general: que la persona entienda la diferencia entre TNA y TEA y pueda comparar tasas con la misma vara en una planilla."
+publico: "Personas de Argentina que ven tasas nominales anuales (TNA) en depósitos a plazo y quieren entender su equivalente efectivo."
+hipotesis: "Formato 'tutorial' en pilar 'dinero': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Una TNA de 30 % no es lo mismo que una TEA de 30 %."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "De TNA a TEA en Excel: la fórmula para comparar tasas"
+titulos_alternativos:
+  - "TNA vs TEA: por qué 30 % no es 30 % (con la cuenta)"
+  - "Convertir TNA a TEA en una planilla (ejemplo a 30 días)"
+  - "Cómo comparar tasas de plazo fijo usando la TEA"
+criterio_titulo: "Nombra las dos siglas que la gente busca y el entregable (fórmula en planilla)."
+descripcion: |
+  La TNA es una tasa nominal de referencia; la TEA refleja la capitalización de los intereses a lo largo del año, por eso es mayor cuando el plazo es menor a un año. Fórmula: TEA = (1 + TNA × días / 365) ^ (365 / días) − 1.
+  Ejemplo con tasa ilustrativa: TNA de 30 % a 30 días da una TEA cercana a 34,5 %. Las tasas reales cambian y dependen de cada entidad; esto no es una oferta, recomendación ni asesoramiento financiero. Revisa las condiciones de cada producto.
+cta: "Haz la cuenta con la tasa y el plazo que quieras comparar."
+comentario_fijado: "Fórmula: =(1+A2*B2/365)^(365/B2)-1, con la TNA en A2 (como porcentaje, por ejemplo 30 %) y los días en B2. Aplica formato de porcentaje al resultado. Tasa ilustrativa."
+hashtags: ["#Excel", "#FinanzasPersonales", "#TNA"]
+palabras_clave: ["TNA a TEA", "convertir TNA a TEA excel", "tasa efectiva anual fórmula"]
+escenas:
+  - narracion: "Una TNA de 30 % no es lo mismo que una TEA de 30 %."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Tu dinero en una planilla", titulo: "*TNA* no es *TEA*", sub: "Ejemplo ilustrativo · Argentina"}
+  - narracion: "Ejemplo ilustrativo: TNA de 30 % a 30 días. Interés del período: 30 % por 30 entre 365, es 2,47 %. Ese plazo cabe 12,17 veces en un año. Si en cada período se renueva con los intereses, la TEA es 34,5 %."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "De TNA a TEA (ilustrativo)"
+        lineas:
+          - {izq: "TNA · plazo", der: "30 % · 30 días"}
+          - {izq: "Interés del período", der: "30 % × 30 ÷ 365 = 2,47 %"}
+          - {izq: "Períodos en un año", der: "365 ÷ 30 ≈ 12,17"}
+        resultado: {izq: "TEA", der: "≈ 34,5 %"}
+  - narracion: "Con la TNA en A dos y los días en B dos, esta es la fórmula. Primero, el interés del período. Luego, cuántas veces cabe en un año. Y se resta uno, que es el capital."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=(1+A2*B2/365)^(365/B2)-1"
+        partes:
+          - {token: "A2*B2/365", explica: "interés del período"}
+          - {token: "365/B2", explica: "períodos que caben en un año"}
+          - {token: "-1", explica: "se resta el capital inicial"}
+        nota: "Resultado con formato de porcentaje"
+  - narracion: "Tasas ilustrativas: esto no es una oferta ni una recomendación."
+    visual:
+      plantilla: texto
+      datos: {kicker: "Ojo", titulo: "Solo *educación*", texto: "Las tasas reales cambian y dependen de cada entidad. Revisa las condiciones de cada producto."}
+  - narracion: "Así comparas tasas con el mismo criterio."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Compara en *TEA*"
+        puntos: ["TNA: valor de referencia", "TEA: incluye la capitalización", "Fórmula: (1 + TNA × días ÷ 365) ^ (365 ÷ días) − 1"]
+        cta: "Haz tu cuenta"
+fuentes:
+  - url: "https://www.bcra.gob.ar/archivos/Pdfs/BCRAyVos/Diccionario_Financiero.pdf"
+    titulo: "Diccionario de términos económicos y financieros (BCRA)"
+    fecha_consulta: 2026-10-11
+    respalda: "La TNA es un valor de referencia; lo que realmente se paga o cobra es la tasa efectiva. La TEA refleja la capitalización de intereses varias veces al año y es mayor que la nominal."
+  - url: "https://www.bcra.gob.ar/Pdfs/PublicacionesEstadisticas/Metodologia_Series.pdf"
+    titulo: "Metodología de series (BCRA)"
+    fecha_consulta: 2026-10-11
+    respalda: "La TEA se obtiene elevando (1 + TNA/365 × días) a 365/días y restando 1 (texto extraído deteriorado; confirmar en el documento original)."
+    cifras: [365]
+  - url: "https://www.argentina.gob.ar/economia/inclusion-financiera/tarjeta-de-credito"
+    titulo: "Tarjeta de crédito (argentina.gob.ar, Inclusión financiera)"
+    fecha_consulta: 2026-10-11
+    respalda: "La TNA solo coincide con la tasa efectiva cuando los intereses se pagan una vez al año."
+  - calculo: "[30, 365]"
+    respalda: "Datos ilustrativos del ejemplo: TNA de 30 %, plazo de 30 días y base de 365 días."
+  - calculo: "0.30 * 30 / 365 * 100"
+    resultado: 2.47
+    respalda: "Interés del período de 30 días, en porcentaje."
+  - calculo: "365 / 30"
+    resultado: 12.17
+    respalda: "Cantidad de períodos de 30 días que caben en un año."
+  - calculo: "((1 + 0.30 * 30 / 365) ** (365 / 30) - 1) * 100"
+    resultado: 34.5
+    respalda: "TEA aproximada, en porcentaje, para una TNA de 30 % a 30 días."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "alto — la fórmula TEA = (1 + TNA·días/365)^(365/días) − 1 y la base de 365 días se respaldan en documentos del BCRA con texto extraído deteriorado y en calculadoras no oficiales; verificar en el documento original del BCRA antes de publicar."
+  monetizacion: "medio — tema financiero; se declara tasa ilustrativa y que no es oferta ni recomendación"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

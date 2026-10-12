@@ -1,0 +1,83 @@
+id: B-026
+canal: canal_b
+fecha: 2026-11-13
+formato: short
+serie: Gráficos que se entienden
+episodio: "#02"
+pilar: dinero
+tipo_editorial: tutorial
+idea: "Un gráfico de gastos por categoría se entiende mejor si los datos se ordenan de mayor a menor antes de graficar."
+objetivo: "Enseñar una práctica de visualización simple y el paso a paso para insertar el gráfico en Excel."
+publico: "Quien lleva su presupuesto en planilla y quiere ver en qué se va el dinero."
+hipotesis: "Formato 'tutorial' en pilar 'dinero': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Un gráfico de gastos se entiende al instante si ordenas las barras así."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Gráfico de gastos por categoría en Excel: ordenado de mayor a menor"
+titulos_alternativos:
+  - "Cómo graficar tus gastos para ver en qué se va el dinero"
+  - "El truco para que tu gráfico de gastos se lea de un vistazo"
+  - "Gráfico de barras ordenado en Excel en 3 pasos"
+criterio_titulo: "Combina la tarea (gráfico de gastos por categoría) con el truco diferencial (orden)."
+descripcion: |
+  Ordena tus categorías de gasto de mayor a menor y luego inserta un gráfico de columnas: lo más importante queda a la izquierda y se lee primero. Ejemplo con cifras ilustrativas.
+  Los nombres de los menús pueden variar según tu versión de Excel.
+cta: "Ordena tus datos y grafica tu mes."
+comentario_fijado: "Tip: ordena la tabla de mayor a menor ANTES de insertar el gráfico; el gráfico respeta el orden de la tabla. Los menús pueden variar según tu versión de Excel."
+hashtags: ["#Excel", "#Presupuesto", "#FinanzasPersonales"]
+palabras_clave: ["gráfico de gastos Excel", "gráfico de barras ordenado", "presupuesto personal gráfico"]
+escenas:
+  - narracion: "Un gráfico de gastos se entiende al instante si ordenas las barras así. Lo más grande va primero."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Gráficos que se entienden", titulo: "Gastos por categoría, *de mayor a menor*", sub: "Cifras ilustrativas"}
+  - narracion: "Vivienda lidera con 450. Comida, 320. Transporte, 180. Ocio, 90. Otros, 60."
+    visual:
+      plantilla: barras
+      datos:
+        titulo: "Gasto del mes por categoría"
+        prefijo: "$ "
+        items:
+          - {etiqueta: "Vivienda", valor: 450, destacado: true}
+          - {etiqueta: "Comida", valor: 320}
+          - {etiqueta: "Transporte", valor: 180}
+          - {etiqueta: "Ocio", valor: 90}
+          - {etiqueta: "Otros", valor: 60, tenue: true}
+        nota: "Montos ilustrativos"
+  - narracion: "Sin orden, tu ojo tiene que buscar la barra más grande. Con orden, la comparación es inmediata. Y el gráfico respeta el orden de tu tabla."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Sin orden", titulo: "Hay que buscar", items: ["La barra mayor puede estar en cualquier lugar", "Comparar cuesta más"]}
+        der: {etiqueta: "Con orden", titulo: "Se lee de un vistazo", items: ["Lo más grande, primero", "Comparar es inmediato"]}
+        veredicto: "Ordena la tabla *antes* de graficar"
+  - narracion: "Primero, ordena la tabla de mayor a menor. Segundo, selecciónala y ve a Insertar, Gráficos recomendados. Tercero, elige columnas y ponle un título que diga qué mide."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Del dato al gráfico"
+        pasos:
+          - {titulo: "Ordena de mayor a menor", detalle: "El gráfico respeta el orden de la tabla"}
+          - {titulo: "Insertar → Gráficos recomendados", detalle: "Elige columnas"}
+          - {titulo: "Pon un título claro", detalle: "Qué mide y en qué período"}
+  - narracion: "Lo más grande, a la izquierda y a la vista."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Orden primero, gráfico *después*", puntos: ["Datos ordenados", "Gráfico de columnas", "Título claro"], cta: "Guárdalo"}
+fuentes:
+  - url: "https://support.microsoft.com/en-us/excel/get-started/create-a-chart-from-start-to-finish"
+    titulo: "Create a chart from start to finish (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Para crear un gráfico: seleccionar los datos y usar Insertar > Gráficos recomendados; luego se pueden personalizar títulos y etiquetas. Los menús pueden variar según la versión."
+  - calculo: "[450, 320, 180, 90, 60]"
+    respalda: "Montos ilustrativos del ejemplo, ya ordenados de mayor a menor."
+riesgos:
+  derechos: "bajo"
+  exactitud: "medio — los nombres de menús varían según versión de Excel; se aclara"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

@@ -1,0 +1,80 @@
+{
+  "id": "A-013",
+  "duracion_s": 29.724,
+  "frases": 9,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.284,
+      "beats": [
+        -5.0,
+        4.449
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.284,
+      "fin": 11.309,
+      "beats": [
+        0.0,
+        3.284
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 11.309,
+      "fin": 19.056,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "codigo"
+    },
+    {
+      "inicio": 19.056,
+      "fin": 26.68,
+      "beats": [
+        0.0,
+        3.017
+      ],
+      "plantilla": "dato"
+    },
+    {
+      "inicio": 26.68,
+      "fin": 29.724,
+      "beats": [
+        0.0,
+        0.922
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.17",
+    "input_tp": "-5.56",
+    "input_lra": "2.20",
+    "input_thresh": "-31.48",
+    "output_i": "-14.14",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.38",
+    "normalization_type": "dynamic",
+    "target_offset": "0.14"
+  },
+  "fotogramas_unicos": 328,
+  "tts_cache": 0,
+  "spec_hash": "22ac7184a155e5d5",
+  "segundos_produccion": 164.1,
+  "texto_hablado": [
+    "Si envías cada correo a mano desde tu planilla, estás repitiendo trabajo.",
+    "aps script lo hace por ti.",
+    "Tu hoja lleva tres columnas: correo, asunto y mensaje.",
+    "Cada fila es un correo.",
+    "Esta función lee todas las filas.",
+    "Salta el encabezado.",
+    "Y envía un correo con el destinatario, el asunto y el texto de cada fila.",
+    "Ojo con el límite: según la documentación de aps script, a la fecha, una cuenta personal puede enviar a cien destinatarios por día.",
+    "Prueba primero con tu propio correo."
+  ]
+}

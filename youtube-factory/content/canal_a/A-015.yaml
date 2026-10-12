@@ -1,0 +1,76 @@
+id: A-015
+canal: canal_a
+fecha: 2026-11-02
+formato: short
+serie: Caso pyme
+episodio: "#04"
+pilar: negocio
+tipo_editorial: caso_practico
+idea: "Un prompt con tipo de negocio, público, objetivo y tono genera un plan de publicaciones de cuatro semanas en forma de tabla que se pega en una planilla y se revisa a mano."
+objetivo: "Mostrar un flujo completo y reutilizable (prompt, planilla, revisión humana) para el calendario de redes de un negocio pequeño."
+publico: "Dueños de pequeños negocios que manejan sus propias redes sociales y no saben qué publicar cada semana."
+hipotesis: "Formato 'caso_practico' en pilar 'negocio': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Qué publicas esta semana en las redes de tu negocio?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Plan de publicaciones para redes con IA y una planilla"
+titulos_alternativos:
+  - "Qué publicar en redes: un plan de 4 semanas en un prompt"
+  - "Calendario de contenido para tu negocio: IA propone, tú revisas"
+  - "Deja de improvisar tus publicaciones: usa este prompt"
+criterio_titulo: "Describe el entregable (plan de publicaciones) y las dos herramientas; términos buscables para dueños de negocio."
+descripcion: |
+  Dale a la IA cuatro datos (tipo de negocio, público, objetivo y tono) y pide una tabla de cuatro semanas con tres publicaciones por semana: doce en total. Pega la tabla en una planilla y marca cada publicación como pendiente hasta revisarla.
+  La IA no conoce tu negocio como tú: revisa datos, precios y promociones antes de publicar. El ejemplo es ficticio.
+cta: "Arma tu plan de esta semana con este prompt."
+comentario_fijado: "Prompt del video: Soy [TIPO DE NEGOCIO] en [CIUDAD]. Público: [PÚBLICO]. Objetivo: [OBJETIVO]. Tono: [TONO]. Arma un plan de 4 semanas con 3 publicaciones por semana, en tabla: fecha, tema, formato y estado. ¿Qué red social usas más?"
+hashtags: ["#Pymes", "#RedesSociales", "#IA"]
+palabras_clave: ["plan de publicaciones", "calendario de contenido", "IA para redes sociales", "marketing para pymes"]
+escenas:
+  - narracion: "¿Qué publicas esta semana en las redes de tu negocio? Un prompt te arma el plan; tú lo revisas."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Caso pyme", titulo: "¿Qué *publicas* esta semana?", sub: "La IA propone, tú revisas"}
+  - narracion: "Dale a la IA cuatro datos: tipo de negocio, público, objetivo y tono. Y pide una tabla de cuatro semanas, con tres publicaciones por semana."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Soy [TIPO DE NEGOCIO] en [CIUDAD]. Público: [PÚBLICO]. Objetivo: [OBJETIVO]. Tono: [TONO]. Arma un plan de 4 semanas con 3 publicaciones por semana, en tabla: fecha, tema, formato y estado."
+  - narracion: "Pega la tabla en tu planilla. Son doce publicaciones, con fecha, tema y formato. Marca cada una como pendiente hasta revisarla."
+    visual:
+      plantilla: planilla
+      datos:
+        titulo: "Plan de *publicaciones*"
+        decimales: 0
+        filas:
+          - ["Fecha", "Tema", "Formato", "Estado"]
+          - ["Lun 2 nov", "Producto", "Foto", "Pendiente"]
+          - ["Mié 4 nov", "Cómo se hace", "Video", "Pendiente"]
+          - ["Vie 6 nov", "Promo", "Historia", "Pendiente"]
+          - ["Lun 9 nov", "Equipo", "Foto", "Pendiente"]
+          - ["Mié 11 nov", "Pregunta", "Historia", "Pendiente"]
+        resaltar:
+          - {rango: "D2:D6", beat: 2, alterno: true}
+        nota: "Ejemplo ficticio · 5 de las 12 publicaciones"
+  - narracion: "Antes de publicar, revisa datos, precios y promociones. La IA no conoce tu negocio como tú. Ajusta el tono a tu forma de hablar."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "La IA *propone*, tú *decides*"
+        puntos: ["Cuatro datos en el prompt", "Tabla en tu planilla", "Revisa antes de publicar"]
+        cta: "Arma tu plan hoy"
+fuentes:
+  - calculo: "4 * 3"
+    resultado: 12
+    respalda: "Cuatro semanas por tres publicaciones semanales: doce publicaciones en el plan."
+riesgos:
+  derechos: "bajo — planilla y prompt creados por el canal; negocio y datos ficticios"
+  exactitud: "bajo — método general; sin cifras de resultados"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Lun", "Promo", "Vie", "nov", "Mié"]

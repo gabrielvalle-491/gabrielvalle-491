@@ -1,0 +1,94 @@
+id: B-015
+canal: canal_b
+fecha: 2026-11-02
+formato: short
+serie: Tu dinero en una planilla
+episodio: "#06"
+pilar: dinero
+tipo_editorial: experimento
+idea: "Un costo mensual que parece pequeño se ve distinto al multiplicarlo por 12; una columna 'Anual' en la planilla lo muestra (ejemplo ilustrativo con tres suscripciones)."
+objetivo: "Enseñar a anualizar gastos recurrentes con una multiplicación y una columna extra, sin juzgar ni recomendar productos."
+publico: "Personas que quieren revisar sus gastos fijos y tienen varias suscripciones mensuales."
+hipotesis: "Formato 'experimento' en pilar 'dinero': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Estas tres suscripciones suman US$ 17 al mes. Parece poco. Al año son US$ 204."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Suscripciones: cuánto cuestan al año (multiplica por 12)"
+titulos_alternativos:
+  - "Tus suscripciones al año: la cuenta que casi nadie hace"
+  - "Cómo calcular el costo anual de tus suscripciones en Excel"
+  - "US$ 17 al mes parece poco: haz la cuenta anual"
+criterio_titulo: "Promete una cuenta concreta y práctica (costo anual) con el truco en el título (multiplica por 12)."
+descripcion: |
+  Para ver el costo real de un gasto mensual, multiplícalo por 12 en una columna aparte. Con tres suscripciones ilustrativas de US$ 9,50, US$ 5 y US$ 2,50 al mes, el total anual es de US$ 204.
+  Las cifras son inventadas para el ejemplo: usa las tuyas. Contenido educativo general, sin juicio sobre en qué gastas.
+cta: "Haz la lista de tus suscripciones y multiplícalas por 12."
+comentario_fijado: "Fórmula: =B2*12 (costo mensual por 12) y copia hacia abajo. Para el total: =SUMA(C2:C4). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos."
+hashtags: ["#Suscripciones", "#Excel", "#FinanzasPersonales"]
+palabras_clave: ["costo anual suscripciones", "controlar suscripciones excel", "gastos fijos planilla"]
+escenas:
+  - narracion: "Estas tres suscripciones suman US$ 17 al mes. Parece poco. Al año son US$ 204."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Tu dinero en una planilla", titulo: "US$ 17 al mes parece poco. *¿Y al año?*", sub: "Cifras ilustrativas"}
+  - narracion: "Anota cada servicio con su costo mensual. Multiplícalo por 12, los meses del año, en la columna C. El primer resultado aparece en la celda [[ce dos|C2]]."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=B2*12"
+        celda_formula: "C2"
+        decimales: [0, 2, 0]
+        filas:
+          - ["Servicio", "Mensual", "Anual"]
+          - ["Video", 9.5, ""]
+          - ["Música", 5, ""]
+          - ["Nube", 2.5, ""]
+        resaltar:
+          - {rango: "B2:B4", beat: 1}
+        resultado: {celda: "C2", valor: "114", beat: 2}
+  - narracion: "Con todos los servicios al año: el video, 114. La música, 60. Y el almacenamiento, 30. Cada barra es el costo mensual por 12."
+    visual:
+      plantilla: barras
+      datos:
+        titulo: "Costo anual por servicio (ilustrativo)"
+        prefijo: "US$ "
+        maximo: 130
+        items:
+          - {etiqueta: "Video", valor: 114, destacado: true}
+          - {etiqueta: "Música", valor: 60}
+          - {etiqueta: "Almacenamiento", valor: 30}
+  - narracion: "En total son 204 al año, aunque cada mes parezca poco. Revisa cuáles sigues usando y cuáles ya no. Ese es el truco: lo mensual, por 12."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Mensual × *12*"
+        puntos: ["Anota cada suscripción", "Multiplica por 12", "Revisa si la usas"]
+        cta: "Haz tu lista"
+fuentes:
+  - calculo: "[12]"
+    respalda: "Meses del año, usados como multiplicador."
+  - calculo: "9.5 + 5 + 2.5"
+    resultado: 17
+    respalda: "Suma mensual de las tres suscripciones ilustrativas."
+  - calculo: "(9.5 + 5 + 2.5) * 12"
+    resultado: 204
+    respalda: "Total anual."
+  - calculo: "9.5 * 12"
+    resultado: 114
+    respalda: "Costo anual del servicio de video (9,50 al mes)."
+  - calculo: "5 * 12"
+    resultado: 60
+    respalda: "Costo anual del servicio de música (5 al mes)."
+  - calculo: "2.5 * 12"
+    resultado: 30
+    respalda: "Costo anual del almacenamiento (2,50 al mes)."
+riesgos:
+  derechos: "bajo — sin marcas"
+  exactitud: "bajo — aritmética verificada; cifras ilustrativas declaradas"
+  monetizacion: "bajo — educación general, sin recomendar productos"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

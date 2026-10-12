@@ -1,0 +1,87 @@
+{
+  "id": "B-009",
+  "duracion_s": 37.98,
+  "frases": 12,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.422,
+      "beats": [
+        -5.0,
+        2.561
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.422,
+      "fin": 15.399,
+      "beats": [
+        0.0,
+        4.634,
+        7.088
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 15.399,
+      "fin": 23.047,
+      "beats": [
+        0.0,
+        2.583,
+        4.559
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 23.047,
+      "fin": 28.129,
+      "beats": [
+        0.0,
+        1.383,
+        2.71
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 28.129,
+      "fin": 37.98,
+      "beats": [
+        0.0,
+        3.009
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.74",
+    "input_tp": "-6.25",
+    "input_lra": "1.80",
+    "input_thresh": "-31.95",
+    "output_i": "-13.96",
+    "output_tp": "-1.50",
+    "output_lra": "1.40",
+    "output_thresh": "-24.09",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.04"
+  },
+  "fotogramas_unicos": 272,
+  "tts_cache": 0,
+  "spec_hash": "de5ef4f6b7b49800",
+  "segundos_produccion": 107.5,
+  "texto_hablado": [
+    "Tres celdas muestran uno coma veintitrés, pero su suma da tres coma setenta y no tres coma sesenta y nueve.",
+    "Las celdas tienen formato de dos decimales, pero guardan uno coma dos tres cuatro.",
+    "La suma usa el valor real, no el que ves.",
+    "Total: tres coma setenta.",
+    "Dar formato cambia lo que ves, no lo que hay.",
+    "REDONDEAR cambia el valor guardado, y entonces la suma da tres coma sesenta y nueve.",
+    "Escribe REDONDEAR.",
+    "Primero, el número.",
+    "Luego, cuántos decimales conservar.",
+    "Revisa la barra de fórmulas: ahí está el valor real.",
+    "Es el que usan tus cálculos.",
+    "Si el total debe coincidir con lo que muestras, redondea antes de sumar."
+  ]
+}

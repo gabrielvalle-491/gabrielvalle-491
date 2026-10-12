@@ -1,0 +1,12 @@
+# Núcleo (todo gratuito y de código abierto)
+PyYAML>=6.0
+Jinja2>=3.1
+numpy>=1.26
+soundfile>=0.12
+playwright==1.56.0
+kokoro-onnx>=0.4
+num2words>=0.5.13
+pyspellchecker>=0.8
+requests>=2.31
+pytest>=8.0
+spylls>=0.1.7

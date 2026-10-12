@@ -1,0 +1,84 @@
+id: B-051
+canal: canal_b
+fecha: 2026-12-08
+formato: short
+serie: Mini sistema
+episodio: "#06"
+pilar: trabajo
+tipo_editorial: tutorial
+idea: "CONTAR.SI.CONJUNTO cuenta las filas que cumplen varias condiciones a la vez; sirve para contar los presentes de una persona en un mes."
+objetivo: "Tutorial práctico para llevar asistencia en una planilla con una sola fórmula, apto para docentes, coordinadores y equipos."
+publico: "Docentes, coordinadores y encargados de equipos que registran asistencia en Excel o Sheets."
+hipotesis: "Formato 'tutorial' en pilar 'trabajo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Cuántas veces vino Ana en octubre? Una fórmula lo cuenta por ti."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "CONTAR.SI.CONJUNTO: asistencia por persona y por mes"
+titulos_alternativos:
+  - "Cómo contar presentes por mes en Excel con una sola fórmula"
+  - "Control de asistencia en Excel: la fórmula que cuenta con 3 condiciones"
+  - "CONTAR.SI.CONJUNTO explicado con un ejemplo de asistencia"
+criterio_titulo: "Nombra la función y el caso de uso exacto que busca la gente (asistencia por mes)."
+descripcion: |
+  CONTAR.SI.CONJUNTO cuenta las filas que cumplen todas las condiciones que indiques. En el ejemplo: nombre, mes y estado "Presente", para saber cuántas veces asistió una persona.
+  Los datos del ejemplo son ilustrativos. La función está en Excel; en Google Sheets existe su equivalente COUNTIFS.
+cta: "Guárdalo para tu próximo control de asistencia."
+comentario_fijado: "Fórmula: =CONTAR.SI.CONJUNTO(A2:A6;\"Ana\";B2:B6;\"Oct\";C2:C6;\"Presente\"). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos."
+hashtags: ["#Excel", "#Fórmulas", "#Asistencia"]
+palabras_clave: ["CONTAR.SI.CONJUNTO", "control de asistencia Excel", "contar con varias condiciones"]
+escenas:
+  - narracion: "¿Cuántas veces vino Ana en octubre? Una fórmula lo cuenta por ti."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Mini sistema", titulo: "Asistencia con *CONTAR.SI.CONJUNTO*"}
+  - narracion: "CONTAR.SI.CONJUNTO recibe pares de rango y condición. Primero, la persona. Luego, el mes. Y al final, el estado: Presente."
+    visual:
+      plantilla: formula
+      datos:
+        titulo: "Rango + condición, en pares"
+        formula: "=CONTAR.SI.CONJUNTO(A2:A6;\"Ana\";B2:B6;\"Oct\";C2:C6;\"Presente\")"
+        partes:
+          - {token: "A2:A6;\"Ana\"", explica: "nombre = Ana"}
+          - {token: "B2:B6;\"Oct\"", explica: "mes = octubre"}
+          - {token: "C2:C6;\"Presente\"", explica: "estado = presente"}
+  - narracion: "En la tabla, Ana aparece tres veces en octubre. Solo dos son Presente. La fórmula cuenta únicamente las filas que cumplen las tres condiciones."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=CONTAR.SI.CONJUNTO(A2:A6;\"Ana\";B2:B6;\"Oct\";C2:C6;\"Presente\")"
+        celda_formula: "D2"
+        filas:
+          - ["Nombre", "Mes", "Estado", "Presentes"]
+          - ["Ana", "Oct", "Presente", ""]
+          - ["Ana", "Oct", "Falta", ""]
+          - ["Ana", "Oct", "Presente", ""]
+          - ["Luis", "Oct", "Presente", ""]
+          - ["Ana", "Nov", "Presente", ""]
+        resaltar:
+          - {rango: "A2:C4", beat: 1}
+        resultado: {celda: "D2", valor: "2", beat: 2}
+  - narracion: "Cambia el nombre o el mes y obtienes cada total."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Varias condiciones, *un* total"
+        puntos: ["Persona", "Mes", "Estado"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/office/funci%C3%B3n-contar-si-conjunto-dda3dc6e-f74e-4aee-88bc-aa8c2a866842"
+    titulo: "CONTAR.SI.CONJUNTO (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "CONTAR.SI.CONJUNTO cuenta cuántas veces se cumplen todos los criterios a la vez; recibe pares de rango y criterio y cada rango debe tener el mismo tamaño que el primero."
+  - calculo: "sum([1, 0, 1])"
+    resultado: 2
+    respalda: "Presentes de Ana en octubre en la tabla ilustrativa (2 presentes y 1 falta)."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — función documentada por Microsoft; datos del ejemplo ilustrativos. La mención de COUNTIFS en Sheets es nombre en inglés estándar."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["COUNTIFS", "Mini", "Oct", "Nov"]

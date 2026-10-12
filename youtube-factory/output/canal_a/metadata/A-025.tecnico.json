@@ -1,0 +1,73 @@
+{
+  "id": "A-025",
+  "duracion_s": 30.043,
+  "frases": 10,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.632,
+      "beats": [
+        -5.0,
+        4.075
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.632,
+      "fin": 14.812,
+      "beats": [
+        0.0,
+        3.231,
+        6.31
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 14.812,
+      "fin": 19.578,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 19.578,
+      "fin": 30.043,
+      "beats": [
+        0.0,
+        2.16
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.22",
+    "input_tp": "-6.34",
+    "input_lra": "2.10",
+    "input_thresh": "-31.44",
+    "output_i": "-14.18",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.33",
+    "normalization_type": "dynamic",
+    "target_offset": "0.18"
+  },
+  "fotogramas_unicos": 287,
+  "tts_cache": 0,
+  "spec_hash": "085b0c8e7a36b0ff",
+  "segundos_produccion": 109.1,
+  "texto_hablado": [
+    "Un mismo texto no se resume igual para tu jefe que para tu cliente.",
+    "Pide tres versiones.",
+    "Nivel uno: una línea, para quien solo necesita la idea.",
+    "Nivel dos: un párrafo, para quien necesita contexto.",
+    "Nivel tres: una página, para quien va a decidir.",
+    "Pídelos todos en un solo prompt.",
+    "Así puedes comparar los tres de una vez.",
+    "Elige el nivel según quién lo lee.",
+    "Y compara los tres con el original antes de enviarlos.",
+    "Un resumen corto no reemplaza al texto completo, solo te ayuda a entrar."
+  ]
+}

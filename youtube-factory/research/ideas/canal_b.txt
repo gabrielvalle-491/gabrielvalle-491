@@ -1,0 +1,93 @@
+# n|pilar|serie|tipo|tema|angulo/promesa|plantillas sugeridas|mercado
+1|formulas|Fórmula en 40 segundos|tutorial|BUSCARX básico|Busca un precio por código sin contar columnas|hook,formula,planilla,cierre|latam
+2|dinero|Tu dinero en una planilla|tutorial|Presupuesto 50/30/20 en una planilla|Ingreso → tres montos automáticos con una fórmula|hook,donut,planilla,cierre|latam
+3|errores|Error que todos cometen|error_comun|Números guardados como texto que no suman|Por qué SUMA da 0 y cómo convertirlos|hook,planilla,pasos,cierre|latam
+4|formulas|Fórmula en 40 segundos|tutorial|SUMAR.SI.CONJUNTO: gastos por categoría y mes|Dos condiciones, un total|hook,formula,planilla,cierre|latam
+5|dinero|Tu dinero en una planilla|experimento|Interés compuesto con la función VF|Mil al 7 % anual durante 10 años, calculado celda por celda|hook,barras,formula,cierre|latam
+6|excel_vs_sheets|Excel vs Sheets|comparacion|Colaboración en tiempo real|Cuándo conviene cada uno para trabajar en equipo|hook,versus,lista,cierre|latam
+7|trabajo|Mini sistema|tutorial|Formato condicional para vencimientos|Rojo si venció, amarillo si vence en 7 días|hook,planilla,pasos,cierre|latam
+8|quiz|Reto de la celda|quiz|¿Qué devuelve REDONDEAR(2,5;0)?|Excel redondea la mitad alejándose de cero|pregunta,calculo,cierre|latam
+9|trabajo|Mini sistema|tutorial|Lista desplegable con validación de datos|Evita errores de escritura en categorías|hook,pasos,planilla,cierre|latam
+10|dinero|Tu dinero en una planilla|tutorial|Cuota de un préstamo con la función PAGO|Monto, tasa y plazo → cuota mensual|hook,formula,calculo,cierre|latam
+11|errores|Error que todos cometen|error_comun|Referencias relativas vs absolutas|El signo $ fija la celda al copiar la fórmula|hook,planilla,versus,cierre|latam
+12|dinero|Tu dinero en una planilla|tutorial|Control de gastos con 5 columnas|Fecha, concepto, categoría, medio de pago, monto|hook,planilla,lista,cierre|latam
+13|formulas|Fórmula en 40 segundos|tutorial|FILTRAR: ver solo lo pendiente|Una fórmula devuelve todas las filas que cumplen|hook,formula,planilla,cierre|latam
+14|dinero|Tu dinero en una planilla|contraintuitivo|Cuánto pierde tu dinero con la inflación|Poder de compra tras 5 años con inflación anual del 5 %|hook,linea,calculo,cierre|latam
+15|formulas|Fórmula en 40 segundos|comparacion|SI anidado vs SI.CONJUNTO|Misma clasificación, fórmula más legible|hook,versus,formula,cierre|latam
+16|trabajo|Mini sistema|tutorial|Inventario con alerta de stock mínimo|Una columna calcula "Reponer" automáticamente|hook,planilla,formula,cierre|latam
+17|trabajo|Atajo de teclado|herramienta|Ctrl + T: convertir datos en tabla|Fórmulas que se extienden solas y filtros listos|hook,pasos,planilla,cierre|latam
+18|dinero|Tu dinero en una planilla|comparacion|Deudas: bola de nieve vs avalancha|Mismo dinero, distinto orden de pago, distinto interés total|hook,versus,barras,cierre|latam
+19|trabajo|Mini sistema|tutorial|CONTAR.SI.CONJUNTO para asistencia|Presentes por persona y por mes|hook,formula,planilla,cierre|latam
+20|errores|Error que todos cometen|error_comun|Fechas que en realidad son texto|Por qué no puedes restarlas y cómo detectarlo|hook,planilla,pasos,cierre|latam
+21|dinero|Tu dinero en una planilla|tutorial|Fondo de emergencia: meses de cobertura|Ahorro disponible dividido gastos esenciales|hook,calculo,barras,cierre|latam
+22|formulas|Fórmula en 40 segundos|tutorial|UNICOS: lista sin duplicados|Clientes únicos en una fórmula|hook,formula,planilla,cierre|latam
+23|excel_vs_sheets|Excel vs Sheets|comparacion|Funciones que solo tiene Google Sheets|GOOGLETRANSLATE, IMPORTRANGE y GOOGLEFINANCE|hook,lista,versus,cierre|latam
+24|trabajo|Mini sistema|tutorial|Tabla dinámica en 3 pasos|Resumen de ventas por vendedor sin fórmulas|hook,pasos,planilla,cierre|latam
+25|quiz|Reto de la celda|quiz|Días entre dos fechas|Restar fechas devuelve días: ¿cuántos hay entre estas dos?|pregunta,calculo,cierre|latam
+26|dinero|Tu dinero en una planilla|contraintuitivo|Tarjeta: pagar el mínimo vs el total|Ejemplo ilustrativo de cómo crece el saldo con interés|hook,linea,calculo,cierre|latam
+27|formulas|Fórmula en 40 segundos|tutorial|TEXTO para mostrar fechas con el día|"lunes, 5 de enero" sin escribirlo a mano|hook,formula,planilla,cierre|latam
+28|errores|Error que todos cometen|error_comun|Combinar celdas|Rompe ordenar y filtrar; alternativa: centrar en la selección|hook,versus,pasos,cierre|latam
+29|dinero|Tu dinero en una planilla|tutorial|Cuánto ahorrar por mes para una meta|Meta, plazo y aporte mensual|hook,calculo,barras,cierre|latam
+30|formulas|Fórmula en 40 segundos|tutorial|SI.ERROR para limpiar #N/A|Mensaje claro en vez de error|hook,formula,planilla,cierre|latam
+31|trabajo|Mini sistema|tutorial|Cotización con subtotal, impuesto y total|Plantilla reutilizable con la tasa en una celda|hook,planilla,calculo,cierre|latam
+32|dinero|Tu dinero en una planilla|comparacion|IVA en México, Colombia, Chile y Argentina|Tasa general por país y cómo calcular precio con y sin impuesto|hook,barras,calculo,cierre|latam
+33|trabajo|Atajo de teclado|herramienta|Relleno rápido (Ctrl + E)|Separa nombres y apellidos mostrando un ejemplo|hook,planilla,pasos,cierre|latam
+34|trabajo|Mini sistema|tutorial|DIAS.LAB: días hábiles hasta una entrega|Excluye fines de semana y feriados|hook,formula,calculo,cierre|latam
+35|dinero|Tu dinero en una planilla|experimento|Gastos hormiga: cuánto suman al año|Un café diario y dos suscripciones, multiplicados por 365|hook,calculo,barras,cierre|latam
+36|trabajo|Gráficos que se entienden|comparacion|Barras vs torta|Cuándo un gráfico de torta confunde|hook,versus,barras,cierre|latam
+37|formulas|Fórmula en 40 segundos|tutorial|ESPACIOS y NOMPROPIO para limpiar nombres|"  juan  PÉREZ " → "Juan Pérez"|hook,formula,planilla,cierre|latam
+38|errores|Error que todos cometen|error_comun|#¡REF! al borrar filas|Por qué aparece y cómo evitarlo con rangos y tablas|hook,planilla,pasos,cierre|latam
+39|dinero|Tu dinero en una planilla|experimento|Precio por unidad en el súper|El envase grande no siempre es más barato|hook,calculo,barras,cierre|latam
+40|formulas|Fórmula en 40 segundos|comparacion|INDICE + COINCIDIR vs BUSCARV|Buscar hacia la izquierda y no romperse al insertar columnas|hook,versus,formula,cierre|latam
+41|trabajo|Mini sistema|tutorial|Horas trabajadas y pago por hora|Restar horas y multiplicar por 24|hook,planilla,formula,cierre|latam
+42|quiz|Reto de la celda|quiz|¿Qué cuenta CONTAR?|CONTAR solo cuenta números; CONTARA cuenta lo no vacío|pregunta,planilla,cierre|latam
+43|dinero|Tu dinero en una planilla|tutorial|Proyección de ahorro con aportes mensuales|VF con pago periódico|hook,linea,formula,cierre|latam
+44|trabajo|Truco de formato|tutorial|Formato personalizado para miles|Mostrar 1,5 k sin cambiar el valor|hook,planilla,versus,cierre|latam
+45|excel_vs_sheets|Excel vs Sheets|comparacion|Historial de versiones|Recuperar una versión anterior en cada programa|hook,versus,pasos,cierre|latam
+46|dinero|Tu dinero en una planilla|tutorial|Tabla de amortización|Cuánto de cada cuota es interés y cuánto capital|hook,planilla,barras,cierre|latam
+47|errores|Error que todos cometen|error_comun|BUSCARV con coincidencia aproximada sin querer|El último argumento: FALSO para exacta|hook,formula,versus,cierre|latam
+48|dinero|Tu dinero en una planilla|experimento|Suscripciones: costo anual real|Lo mensual parece poco; multiplícalo por 12|hook,planilla,barras,cierre|latam
+49|formulas|Fórmula en 40 segundos|tutorial|UNIRCADENAS para juntar textos|Lista de correos separada por comas en una celda|hook,formula,planilla,cierre|latam
+50|trabajo|Mini sistema|herramienta|Segmentaciones para filtrar con botones|Filtros visuales en tablas y tablas dinámicas|hook,pasos,cierre|latam
+51|dinero|Tu dinero en una planilla|contraintuitivo|Regla del 72|Atajo mental vs cálculo exacto con logaritmos|hook,calculo,barras,cierre|latam
+52|trabajo|Mini sistema|tutorial|Evitar duplicados al cargar datos|Validación con CONTAR.SI|hook,formula,planilla,cierre|latam
+53|formulas|Fórmula en 40 segundos|tutorial|Edad o antigüedad con SIFECHA|Años completos entre dos fechas|hook,formula,planilla,cierre|latam
+54|dinero|Tu dinero en una planilla|mito|Mito: tasa mensual × 12 = tasa anual efectiva|Nominal vs efectiva: el interés sobre interés|mito,calculo,cierre|latam
+55|trabajo|Gráficos que se entienden|tutorial|Gráfico de avance hacia una meta|Barra de progreso con porcentaje logrado|hook,barras,pasos,cierre|latam
+56|excel_vs_sheets|Funciones de Sheets|herramienta|GOOGLEFINANCE para tipo de cambio|Útil para referencia; datos con posible demora|hook,formula,pasos,cierre|latam
+57|trabajo|Truco de formato|tutorial|Inmovilizar paneles|Encabezados visibles al bajar|hook,pasos,versus,cierre|latam
+58|trabajo|Mini sistema|tutorial|Comisión por tramos con búsqueda aproximada|Tabla de tramos y BUSCARX con coincidencia aproximada|hook,planilla,formula,cierre|latam
+59|dinero|Tu dinero en una planilla|tutorial|Dividir una cuenta entre amigos|Quién debe a quién, con una planilla simple|hook,planilla,calculo,cierre|latam
+60|formulas|Fórmula en 40 segundos|tutorial|ORDENAR y ORDENARPOR|Ranking de ventas que se actualiza solo|hook,formula,planilla,cierre|latam
+61|dinero|Tu dinero en una planilla|tutorial|Plan de pagos de deudas con fechas|Calendario de cuotas y saldo pendiente|hook,planilla,timeline,cierre|latam
+62|quiz|Reto de la celda|contraintuitivo|Sube 50 % y baja 50 %: ¿vuelves al inicio?|Los porcentajes no se compensan|pregunta,calculo,cierre|latam
+63|trabajo|Gráficos que se entienden|tutorial|Barras de datos dentro de las celdas|Formato condicional que dibuja|hook,planilla,pasos,cierre|latam
+64|excel_vs_sheets|Excel vs Sheets|comparacion|Trabajar sin internet|Qué permite cada uno sin conexión|hook,versus,lista,cierre|latam
+65|trabajo|Mini sistema|contraintuitivo|Margen vs recargo (markup)|30 % de recargo no es 30 % de margen|hook,calculo,versus,cierre|latam
+66|errores|Error que todos cometen|error_comun|Porcentajes de variación mal calculados|Divide por el valor inicial, no por el final|hook,calculo,versus,cierre|latam
+67|trabajo|Mini sistema|tutorial|Tabla dinámica: ventas por mes|Agrupar fechas por mes|hook,pasos,barras,cierre|latam
+68|dinero|Tu dinero en una planilla|experimento|Compra en cuotas con interés: costo real|Precio contado vs suma de cuotas|hook,calculo,barras,cierre|latam
+69|trabajo|Mini sistema|tutorial|Proteger celdas con fórmulas|Que nadie borre tus cálculos por accidente|hook,pasos,cierre|latam
+70|formulas|Fórmula en 40 segundos|tutorial|IZQUIERDA y EXTRAE para separar códigos|Prefijo de sucursal y número de pedido|hook,formula,planilla,cierre|latam
+71|trabajo|Mini sistema|tutorial|Metas trimestrales con porcentaje de avance|Real / objetivo con formato condicional|hook,planilla,barras,cierre|latam
+72|errores|Error que todos cometen|contraintuitivo|Ver 2 decimales no es tener 2 decimales|El formato oculta el valor real; REDONDEAR lo cambia|hook,planilla,versus,cierre|latam
+73|formulas|Fórmula en 40 segundos|tutorial|LET para fórmulas legibles|Nombra cálculos intermedios dentro de la fórmula|hook,formula,versus,cierre|latam
+74|dinero|Tu dinero en una planilla|tutorial|Gastos del hogar proporcionales al ingreso|Cada persona aporta según lo que gana|hook,planilla,donut,cierre|latam
+75|errores|Error que todos cometen|error_comun|Filas vacías y totales en medio de los datos|Datos limpios arriba, cálculos aparte|hook,versus,lista,cierre|latam
+76|excel_vs_sheets|Funciones de Sheets|herramienta|Compartir en modo lector o comentarista|Permisos para no perder el control del archivo|hook,pasos,lista,cierre|latam
+77|dinero|Tu dinero en una planilla|tutorial|Cuánto tardas en pagar una deuda (NPER)|Cuota fija → número de meses|hook,formula,calculo,cierre|latam
+78|trabajo|Mini sistema|tutorial|Lista de fechas del mes con SECUENCIA|Un mes completo de fechas con una sola fórmula|hook,formula,planilla,cierre|latam
+79|quiz|Reto de la celda|quiz|¿3 cuotas de 40 o 110 al contado?|Depende de la tasa: comparar con valor actual|pregunta,calculo,cierre|latam
+80|dinero|Tu dinero en una planilla|contraintuitivo|Inflación acumulada no se suma|Se multiplica: 10 % y 10 % no son 20 %|hook,calculo,cierre|latam
+81|trabajo|Atajo de teclado|herramienta|Ctrl + flechas para moverte rápido|Ir al final de los datos en un toque|hook,pasos,cierre|latam
+82|historia|Historia de la planilla|historia|VisiCalc (1979)|La primera hoja de cálculo para computadoras personales|hook,timeline,dato,cierre|latam
+83|historia|Historia de la planilla|historia|El error de Excel de Reinhart y Rogoff|Un estudiante encontró un rango mal seleccionado en 2013|hook,dato,planilla,cierre|latam
+84|trabajo|Mini sistema|tutorial|Control de stock con entradas y salidas|Saldo = inicial + entradas − salidas por producto|hook,planilla,formula,cierre|latam
+85|dinero|Gráficos que se entienden|tutorial|Gráfico de gastos por categoría|Barras ordenadas de mayor a menor|hook,barras,pasos,cierre|latam
+86|errores|Error que todos cometen|error_comun|Mezclar datos y cálculos en la misma hoja|Separa entradas, cálculos y reportes|hook,lista,versus,cierre|latam
+87|formulas|Fórmula en 40 segundos|tutorial|BUSCARX con dos condiciones|Concatenar criterios dentro de la búsqueda|hook,formula,planilla,cierre|latam
+88|dinero|Tu dinero en una planilla|experimento|Tu precio por hora real como freelancer|Restar horas no facturables y gastos|hook,calculo,barras,cierre|latam
+89|trabajo|Mini sistema|tutorial|Checklist antes de enviar una planilla|Errores, formatos, nombres y permisos|hook,lista,cierre|latam
+90|dinero|Tu dinero en una planilla|tutorial|Monotributo: controla tu facturación de 12 meses|Suma móvil para no pasarte de categoría (Argentina)|hook,planilla,formula,cierre|ar
+91|formulas|Excel bilingüe|tutorial|Nombres de funciones en inglés y español|VLOOKUP es BUSCARV: guía para trabajar en EE. UU.|hook,versus,lista,cierre|us
+92|dinero|Tu dinero en una planilla|tutorial|De TNA a TEA en un plazo fijo|Fórmula para comparar tasas (Argentina)|hook,calculo,formula,cierre|ar

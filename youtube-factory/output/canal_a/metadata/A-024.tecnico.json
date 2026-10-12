@@ -1,0 +1,74 @@
+{
+  "id": "A-024",
+  "duracion_s": 31.092,
+  "frases": 11,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.419,
+      "beats": [
+        -5.0,
+        3.675
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.419,
+      "fin": 13.534,
+      "beats": [
+        0.0,
+        2.085,
+        4.593
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 13.534,
+      "fin": 20.697,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 20.697,
+      "fin": 31.092,
+      "beats": [
+        0.0,
+        4.135
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-20.97",
+    "input_tp": "-5.97",
+    "input_lra": "1.80",
+    "input_thresh": "-31.23",
+    "output_i": "-14.11",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.31",
+    "normalization_type": "dynamic",
+    "target_offset": "0.11"
+  },
+  "fotogramas_unicos": 291,
+  "tts_cache": 0,
+  "spec_hash": "e0aa59fd94754f2c",
+  "segundos_produccion": 111.0,
+  "texto_hablado": [
+    "La i a redacta tu cotización, pero la suma la hace la planilla.",
+    "Así evitas errores de cálculo en el correo.",
+    "Los números van en una planilla.",
+    "Cantidad por precio da cada subtotal.",
+    "Y SUMA junta todo y entrega el total.",
+    "El texto lo redacta la i a.",
+    "Dale los datos y pide un correo corto y claro.",
+    "Así no tiene que inventar ninguna cifra.",
+    "Antes de enviar, comprueba que el total del correo coincida con la planilla.",
+    "Así el cliente recibe el mismo número en todas partes.",
+    "Los impuestos dependen de tu país."
+  ]
+}

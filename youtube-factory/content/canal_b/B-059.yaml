@@ -1,0 +1,84 @@
+id: B-059
+canal: canal_b
+fecha: 2026-12-16
+formato: short
+serie: Tu dinero en una planilla
+episodio: "#19"
+pilar: dinero
+tipo_editorial: tutorial
+idea: "NPER calcula cuántas cuotas fijas necesita un préstamo; la tasa anual debe convertirse a mensual (dividir entre 12) para que coincida con la cuota mensual (ejemplo ilustrativo)."
+objetivo: "Que la persona calcule el plazo de un préstamo de cuota fija con NPER y evite el error de mezclar tasa anual con cuota mensual."
+publico: "Personas con un préstamo personal de cuota fija que quieren saber cuántas cuotas les faltan."
+hipotesis: "Formato 'tutorial' en pilar 'dinero': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Préstamo de US$ 5 000, tasa anual de 12 % y cuota de US$ 300. ¿Cuántas cuotas son?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Cuántas cuotas tiene tu préstamo: la función NPER en Excel"
+titulos_alternativos:
+  - "NPER y la tasa anual: el error de unidades que cambia el plazo"
+  - "Cuota fija a meses: calcula el plazo de un préstamo en Excel"
+  - "Préstamo de US$ 5 000 y cuota de US$ 300: cuántas cuotas son"
+criterio_titulo: "Plantea la pregunta práctica (cuántas cuotas) y nombra la función buscada."
+descripcion: |
+  Ejemplo ilustrativo: préstamo de US$ 5 000, tasa anual de 12 % (1 % mensual) y cuota fija de US$ 300. NPER da unos 18,3 meses: 19 cuotas, la última menor.
+  NPER devuelve el número de períodos con pagos constantes y tasa constante; tasa y pago deben estar en la misma unidad. Tasas y montos ilustrativos: las condiciones reales de un préstamo se revisan en su contrato. Contenido educativo general, no es asesoramiento financiero.
+cta: "Calcula tu préstamo con tus propios datos."
+comentario_fijado: "Fórmula: =NPER(12%/12;-300;5000). Si quieres cuotas enteras: =REDONDEAR.MAS(NPER(12%/12;-300;5000);0). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos."
+hashtags: ["#Excel", "#FinanzasPersonales", "#Préstamos"]
+palabras_clave: ["función NPER", "cuántas cuotas tiene un préstamo", "calcular plazo de un préstamo"]
+escenas:
+  - narracion: "Préstamo de US$ 5 000, tasa anual de 12 % y cuota de US$ 300. ¿Cuántas cuotas son?"
+    visual:
+      plantilla: hook
+      datos: {kicker: "Tu dinero en una planilla", titulo: "¿Cuántas *cuotas* son?", sub: "Ejemplo ilustrativo: 12 % anual"}
+  - narracion: "En NPER, la tasa va por período. Si la cuota es mensual, divide la tasa anual entre doce. Luego, el pago en negativo. Y al final, el préstamo."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=NPER(12%/12;-300;5000)"
+        partes:
+          - {token: "12%/12", explica: "tasa mensual (anual ÷ 12)"}
+          - {token: "-300", explica: "cuota mensual (negativa: sale)"}
+          - {token: "5000", explica: "monto del préstamo"}
+  - narracion: "Tasa anual de 12 %. Dividida entre doce, queda 1 % mensual. NPER devuelve 18,3 meses: son 19 cuotas, con la última más pequeña."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "De tasa anual a cuotas"
+        lineas:
+          - {izq: "Tasa anual", der: "12 %"}
+          - {izq: "Tasa mensual (12 % ÷ 12)", der: "1 %"}
+        resultado: {izq: "NPER", der: "≈ 18,3 meses"}
+  - narracion: "Si la cuota no cubre ni el interés mensual, NPER da error."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Tasa y cuota, *misma unidad*"
+        puntos: ["Anual ÷ 12 si la cuota es mensual", "Pago en negativo", "Tasa del ejemplo: ilustrativa"]
+        cta: "Prueba tu caso"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/excel/functions/nper-function"
+    titulo: "Función NPER (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "NPER devuelve el número de períodos de una inversión o préstamo con pagos periódicos constantes y tasa constante; sintaxis NPER(tasa; pago; va; [vf]; [tipo]); tasa y pago deben estar en la misma unidad (por ejemplo, tasa anual dividida entre 12 para pagos mensuales) y los pagos salientes se ingresan como negativos."
+  - calculo: "[5000, 300, 12]"
+    respalda: "Datos ilustrativos del ejemplo (préstamo, cuota y tasa anual)."
+  - calculo: "12 / 12"
+    resultado: 1
+    respalda: "Tasa mensual en porcentaje (12 % anual dividido entre 12)."
+  - calculo: "round(NPER(0.12 / 12, -300, 5000), 1)"
+    resultado: 18.3
+    respalda: "Meses para saldar el préstamo con cuota de 300."
+  - calculo: "ceil(NPER(0.12 / 12, -300, 5000))"
+    resultado: 19
+    respalda: "Cuotas necesarias (la última es menor)."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — aritmética verificada con la fórmula NPER; función documentada por Microsoft. La mención de REDONDEAR.MAS en el comentario fijado es nombre estándar de ROUNDUP en español; probar en Excel."
+  monetizacion: "bajo — educación general, tasa ilustrativa, sin recomendar productos"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["NPER"]

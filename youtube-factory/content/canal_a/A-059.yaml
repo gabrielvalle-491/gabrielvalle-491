@@ -1,0 +1,92 @@
+id: A-059
+canal: canal_a
+fecha: 2026-12-16
+formato: short
+serie: El Atajo
+episodio: "#11"
+pilar: puente_excel
+tipo_editorial: tutorial
+idea: "Pasar datos de facturas a una tabla con IA es rápido, pero hay que validarlo: la suma de la columna de montos debe coincidir con el total del documento (suma de control)."
+objetivo: "Enseñar un flujo de extracción con validación numérica simple que evita confiar a ciegas en la lectura de la IA."
+publico: "Administrativos y contadores de pymes que cargan facturas a planillas."
+hipotesis: "Formato 'tutorial' en pilar 'puente_excel': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "La IA pasó tus facturas a una tabla, pero ¿cómo sabes que no se equivocó?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Facturas a una tabla con IA: cómo validar que no se equivocó"
+titulos_alternativos:
+  - "Suma de control: el truco para revisar datos extraídos por IA"
+  - "Pasar facturas a Excel con IA sin errores ocultos"
+  - "No confíes a ciegas: valida los totales de tus facturas"
+criterio_titulo: "Nombra el caso de uso y el valor diferencial (validar), buscable por administrativos."
+descripcion: |
+  Pide a la IA una tabla con columnas fijas (factura, proveedor, monto) y luego suma la columna con SUMA. Compara esa suma con el total que figura en tus documentos: si no coincide, hay un error de lectura.
+  Aunque coincida, revisa una muestra: dos errores pueden compensarse. Los datos del ejemplo son ficticios. Antes de subir facturas a una herramienta de IA, elimina o anonimiza datos personales y fiscales que no necesites.
+cta: "Guárdalo para tu próximo cierre del mes."
+comentario_fijado: |
+  Fórmula en Excel en español: =SUMA(C2:C4)
+  Con separador de argumentos coma (Excel en inglés, México/EE. UU.): =SUM(C2:C4)
+  Prompt: Pasa estas facturas a una tabla con columnas Factura, Proveedor y Monto. Usa solo los datos del texto; si falta uno, escribe VACÍO.
+hashtags: ["#Excel", "#IA", "#Pymes"]
+palabras_clave: ["facturas a Excel con IA", "extraer datos de facturas", "suma de control", "validar datos"]
+escenas:
+  - narracion: "La IA pasó tus facturas a una tabla. ¿Cómo sabes que no se equivocó?"
+    visual:
+      plantilla: hook
+      datos: {kicker: "El Atajo", titulo: "Facturas a tabla: *valida* antes de confiar", sub: "Suma de control"}
+  - narracion: "Pide una tabla con columnas fijas: factura, proveedor y monto. Luego suma la columna de montos con SUMA. Te da 3 460."
+    visual:
+      plantilla: planilla
+      datos:
+        titulo: "Datos de ejemplo (ficticios)"
+        formula: "=SUMA(C2:C4)"
+        celda_formula: "C5"
+        decimales: 0
+        filas:
+          - ["Factura", "Proveedor", "Monto"]
+          - ["F-101", "Prov. A", 1250]
+          - ["F-102", "Prov. B", 480]
+          - ["F-103", "Prov. C", 1730]
+          - ["Total", "", ""]
+        resaltar:
+          - {rango: "C2:C4", beat: 1}
+        resultado: {celda: "C5", valor: "3 460", beat: 2}
+  - narracion: "Ahora compara con el total que figura en tus documentos. 1 250 más 480 más 1 730 da 3 460. Si el total fuera 3 640, hay un error de lectura."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Suma de *control*"
+        lineas:
+          - {izq: "F-101", der: "1 250"}
+          - {izq: "F-102", der: "480"}
+          - {izq: "F-103", der: "1 730"}
+        resultado: {izq: "Suma de la tabla", der: "3 460"}
+  - narracion: "Si no coincide, revisa fila por fila contra el original. Y aunque coincida, revisa una muestra, porque dos errores pueden compensarse."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Valida *antes* de usar los datos"
+        puntos: ["Columnas fijas", "Suma de control", "Revisión de una muestra"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/excel/functions/sum-function"
+    titulo: "Función SUMA (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "SUMA suma valores individuales, referencias o rangos de celdas; ejemplo =SUMA(A2:A10)."
+  - calculo: "[1250, 480, 1730, 3460]"
+    respalda: "Montos de las tres facturas del ejemplo y su suma (datos ficticios)."
+  - calculo: "1250 + 480 + 1730"
+    resultado: 3460
+    respalda: "Suma de control del ejemplo (datos ficticios)."
+  - calculo: "[3640]"
+    respalda: "Total impreso hipotético del ejemplo: 3 460 con dos dígitos intercambiados; ilustra un error de lectura."
+riesgos:
+  derechos: "bajo — datos ficticios; planilla y gráficos creados por el canal"
+  exactitud: "bajo — suma verificada automáticamente; la limitación (errores que se compensan) se menciona. Revisar el comentario fijado con la fórmula en su versión con coma."
+  monetizacion: "bajo — contenido educativo para pymes"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

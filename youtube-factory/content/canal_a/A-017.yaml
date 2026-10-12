@@ -1,0 +1,84 @@
+id: A-017
+canal: canal_a
+fecha: 2026-11-04
+formato: short
+serie: Sin código
+episodio: "#02"
+pilar: automatizacion
+tipo_editorial: herramienta
+idea: "Un evento repetido en Google Calendar con una notificación anticipada funciona como recordatorio automático de pagos mensuales."
+objetivo: "Enseñar una automatización cotidiana y sin código, basada en funciones documentadas de Google Calendar."
+publico: "Personas y pequeños negocios que olvidan fechas de pago de servicios, alquileres, impuestos o proveedores."
+hipotesis: "Formato 'herramienta' en pilar 'automatizacion': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Un evento repetido en tu calendario te recuerda cada pago, sin que tengas que acordarte."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Recordatorios de pago automáticos con Google Calendar"
+titulos_alternativos:
+  - "No olvides un pago más: evento repetido con aviso"
+  - "Google Calendar como sistema de recordatorios (sin código)"
+  - "El truco del evento mensual para pagar a tiempo"
+criterio_titulo: "Producto, beneficio y automatización en pocas palabras; 'recordatorios de pago' es una necesidad cotidiana buscable."
+descripcion: |
+  Crea un evento con el nombre del pago, haz que se repita (por ejemplo, cada mes) y agrega una notificación con anticipación. Según la ayuda oficial de Google Calendar, a la fecha, una serie repetida admite hasta 730 apariciones.
+  Los nombres de las opciones pueden cambiar según tu dispositivo y versión; consulta la ayuda de Google Calendar si no coinciden. Estas notificaciones son una ayuda, no reemplazan revisar tus cuentas.
+cta: "Crea hoy el recordatorio del pago que más olvidas."
+comentario_fijado: "¿Qué pago te cuesta más recordar: servicios, alquiler o proveedores? Cuéntanos y armamos la lista."
+hashtags: ["#GoogleCalendar", "#Productividad", "#Automatización"]
+palabras_clave: ["recordatorios de pago", "evento repetido Google Calendar", "notificaciones Google Calendar"]
+escenas:
+  - narracion: "Un evento repetido en tu calendario te recuerda cada pago, sin que tengas que acordarte."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Sin código", titulo: "Que el calendario te *recuerde* cada pago", sub: "Evento repetido + notificación"}
+  - narracion: "Crea un evento con el nombre del pago. Haz que se repita, por ejemplo cada mes. Y agrega una notificación con uno o dos días de anticipación."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Tu recordatorio en *tres pasos*"
+        pasos:
+          - {titulo: "Crea el evento", detalle: "Con el nombre del pago"}
+          - {titulo: "Hazlo repetir", detalle: "Por ejemplo, cada mes"}
+          - {titulo: "Agrega una notificación", detalle: "Con días de anticipación"}
+  - narracion: "Según la ayuda oficial, a la fecha, una serie repetida admite hasta 730 apariciones. Con un pago mensual, alcanza para más de 60 años."
+    visual:
+      plantilla: dato
+      datos:
+        kicker: "Límite de la serie"
+        dato: "Hasta *730* apariciones"
+        contexto: "Con un pago mensual: más de 60 años"
+        fuente: "Ayuda de Google Calendar, a la fecha"
+  - narracion: "Si cambias el evento, Calendar te pregunta a cuáles de la serie aplicas el cambio. Elige bien."
+    visual:
+      plantilla: texto
+      datos:
+        titulo: "Al editar la serie"
+        texto: "Calendar te pregunta a *cuáles eventos* aplicar el cambio."
+        beat_texto: 0
+  - narracion: "Empieza con el pago que más olvidas."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Un evento, *todos los meses*", puntos: ["Repetición mensual", "Aviso anticipado", "Revisa al editar la serie"], cta: "Créalo hoy"}
+fuentes:
+  - url: "https://support.google.com/calendar/answer/37115"
+    titulo: "Create a recurring event (Google Calendar Help)"
+    fecha_consulta: 2026-10-11
+    respalda: "Se crea un evento y se elige la frecuencia de repetición; las series repetidas tienen un máximo de 730 apariciones; al editar una serie se elige a qué eventos se aplican los cambios."
+    cifras: [730]
+  - url: "https://support.google.com/calendar/answer/37242?hl=es-419&co=GENIE.Platform%3DDesktop"
+    titulo: "Cómo cambiar las notificaciones de Google Calendar (Ayuda de Calendario de Google)"
+    fecha_consulta: 2026-10-11
+    respalda: "En un evento se puede elegir entre notificación o correo y con cuánta antelación recibir el aviso."
+  - calculo: "round(730 / 12, 1)"
+    resultado: 60.8
+    respalda: "730 apariciones con un evento mensual equivalen a unos 60,8 años: más de 60 años."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — nombres de opciones de Calendar cambian; no se nombran botones no verificados y se remite a la ayuda oficial"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

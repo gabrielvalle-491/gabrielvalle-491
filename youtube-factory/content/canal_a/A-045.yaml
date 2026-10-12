@@ -1,0 +1,82 @@
+id: A-045
+canal: canal_a
+fecha: 2026-12-02
+formato: short
+serie: Error común
+episodio: "#04"
+pilar: ia_sin_humo
+tipo_editorial: error_comun
+idea: "Una IA puede generar enlaces y citas que parecen reales pero no existen o no dicen lo que afirma; hay que abrir cada fuente y buscar la cita."
+objetivo: "Crear el hábito de verificar fuentes y citas antes de usarlas en un trabajo o una decisión."
+publico: "Estudiantes, profesionales y redactores que piden fuentes a un chatbot y las copian directamente."
+hipotesis: "Formato 'error_comun' en pilar 'ia_sin_humo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Ese enlace que te dio la IA puede no existir."
+duracion_objetivo: "35-55 s"
+titulo: "Enlaces y citas que inventa la IA: cómo comprobarlos"
+titulos_alternativos:
+  - "No copies la fuente que te da la IA sin hacer esto"
+  - "Citas falsas de la IA: 4 pasos para verificarlas"
+  - "El error de confiar en los enlaces de un chatbot"
+criterio_titulo: "Nombra el problema concreto (enlaces y citas inventados) y promete el método de verificación."
+descripcion: |
+  Los modelos de lenguaje pueden producir referencias que parecen reales pero no existen, o enlaces que no dicen lo que se afirma. Auditorías académicas han documentado referencias fabricadas en distintos modelos.
+  Abre cada enlace, comprueba que la página existe, busca la cita en el texto y confirma autor y fecha.
+cta: "Guárdalo antes de citar una fuente de IA."
+comentario_fijado: "Checklist: 1) ¿El enlace abre? 2) ¿La página dice lo que afirma la IA? 3) ¿Puedes encontrar la cita textual? 4) ¿Autor y fecha coinciden?"
+hashtags: ["#IA", "#Verificación", "#IASinHumo"]
+palabras_clave: ["IA inventa citas", "referencias falsas ChatGPT", "verificar fuentes de la IA", "alucinaciones en enlaces"]
+escenas:
+  - narracion: "Ese enlace que te dio la IA puede *no existir*. O no decir lo que afirma."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Error común", titulo: "¿El enlace de la IA es *real*?", sub: "Compruébalo antes de citarlo"}
+  - narracion: "Los modelos pueden generar referencias que parecen reales, con autor, título y enlace, pero que no existen. Por eso verifica cada una."
+    visual:
+      plantilla: texto
+      datos: {kicker: "El riesgo", titulo: "Suena real, no *lo es*", texto: "Una cita con autor, título y enlace puede estar *inventada* o no decir lo que se afirma."}
+  - narracion: "Abre el enlace. Comprueba que la página existe. Busca la cita en el texto. Y confirma autor y fecha."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Cómo *verificar*"
+        pasos:
+          - {titulo: "Abre el enlace"}
+          - {titulo: "Comprueba que la página existe"}
+          - {titulo: "Busca la cita en el texto"}
+          - {titulo: "Confirma autor y fecha"}
+  - narracion: "Desconfía de enlaces que no abren, de autores que no encuentras y de citas demasiado perfectas."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Señales de *alerta*"
+        estilo: x
+        items: ["Enlace que no abre", "Autor que no aparece", "Cita demasiado perfecta"]
+  - narracion: "Si no puedes comprobarla, no la cites. Es mejor una fuente verificada que diez dudosas."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Sin comprobar, *no cites*"
+        puntos: ["Abre cada enlace", "Busca la cita", "Confirma autor y fecha"]
+        cta: "Guárdalo antes de citar"
+fuentes:
+  - url: "https://arxiv.org/pdf/2603.03299"
+    titulo: "How LLMs Cite and Why It Matters: A Cross-Model Audit of Reference Fabrication in AI-Assisted Academic Writing (arXiv 2603.03299)"
+    fecha_consulta: 2026-10-11
+    respalda: "Auditoría entre modelos que documenta referencias fabricadas por LLMs en escritura académica."
+  - url: "https://openai.com/index/why-language-models-hallucinate/"
+    titulo: "Why language models hallucinate (OpenAI)"
+    fecha_consulta: 2026-10-11
+    respalda: "Las alucinaciones (afirmaciones plausibles pero falsas) siguen ocurriendo aun en modelos recientes."
+  - calculo: "[4, 3]"
+    respalda: "Estructura propia del canal: cuatro pasos de verificación y tres señales de alerta; sin datos externos."
+riesgos:
+  derechos: "bajo — contenido y gráficos creados por el canal"
+  exactitud: "medio — la fuente principal es un preprint (2026) hallado en búsqueda sin acceso al texto completo; se evitan cifras. Confirmar que sigue disponible antes de publicar"
+  monetizacion: "bajo — contenido educativo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

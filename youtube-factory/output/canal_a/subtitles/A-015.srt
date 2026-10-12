@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:03,090
+¿Qué publicas esta semana en las redes de tu negocio?
+
+2
+00:00:03,330 --> 00:00:05,677
+Un prompt te arma el plan; tú lo revisas.
+
+3
+00:00:05,957 --> 00:00:09,827
+Dale a la IA cuatro datos: tipo de negocio, público, objetivo y tono.
+
+4
+00:00:09,987 --> 00:00:13,882
+Y pide una tabla de cuatro semanas, con tres publicaciones por semana.
+
+5
+00:00:14,162 --> 00:00:15,943
+Pega la tabla en tu planilla.
+
+6
+00:00:16,103 --> 00:00:19,098
+Son doce publicaciones, con fecha, tema y formato.
+
+7
+00:00:19,258 --> 00:00:22,078
+Marca cada una como pendiente hasta revisarla.
+
+8
+00:00:22,358 --> 00:00:25,597
+Antes de publicar, revisa datos, precios y promociones.
+
+9
+00:00:25,757 --> 00:00:27,997
+La IA no conoce tu negocio como tú.
+
+10
+00:00:28,157 --> 00:00:30,254
+Ajusta el tono a tu forma de hablar.

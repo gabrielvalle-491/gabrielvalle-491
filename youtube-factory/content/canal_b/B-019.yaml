@@ -1,0 +1,94 @@
+id: B-019
+canal: canal_b
+fecha: 2026-11-06
+formato: short
+serie: Fórmula en 40 segundos
+episodio: "#05"
+pilar: formulas
+tipo_editorial: tutorial
+idea: "ORDENARPOR devuelve una lista ordenada por otra columna y se actualiza sola cuando cambian los datos: ideal para un ranking de ventas."
+objetivo: "Tutorial buscable que enseña una función moderna de Excel y la diferencia entre ORDENAR y ORDENARPOR."
+publico: "Personas que arman reportes de ventas o resultados en Excel y ordenan a mano cada vez que cambian los datos."
+hipotesis: "Formato 'tutorial' en pilar 'formulas': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Y si tu ranking de ventas se ordenara solo cada vez que cambian los datos?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Ranking que se ordena solo con ORDENARPOR (Excel)"
+titulos_alternativos:
+  - "ORDENARPOR: ordena una lista sin tocar el botón de ordenar"
+  - "Cómo hacer un ranking automático en Excel con una fórmula"
+  - "ORDENAR vs ORDENARPOR: cuál usar y por qué"
+criterio_titulo: "Incluye el nombre de la función y el resultado deseado (ranking automático), que es lo que la gente busca."
+descripcion: |
+  ORDENARPOR devuelve los datos ordenados según los valores de otra columna, y el resultado se actualiza solo cuando cambian las ventas. Ejemplo con cifras ilustrativas.
+  Según la ayuda oficial de Microsoft, ORDENAR y ORDENARPOR están disponibles en Excel para Microsoft 365, Excel 2024 y Excel 2021. En Google Sheets existe SORT, con otra sintaxis.
+cta: "Pruébala con tu propia lista de ventas."
+comentario_fijado: "Fórmula del video: =ORDENARPOR(A2:A5;B2:B5;-1). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;)."
+hashtags: ["#Excel", "#Fórmulas", "#ExcelTips"]
+palabras_clave: ["ORDENARPOR", "ordenar automáticamente en Excel", "ranking de ventas Excel"]
+escenas:
+  - narracion: "¿Y si tu ranking de ventas se ordenara solo cada vez que cambian los datos?"
+    visual:
+      plantilla: hook
+      datos: {kicker: "Fórmula en 40 segundos", titulo: "Ranking que se *ordena solo*", sub: "Función ORDENARPOR · Excel 365 y 2021"}
+    edicion: "Corte rápido; el subtítulo entra al final de la frase."
+  - narracion: "[[ordenar por|ORDENARPOR]] lo hace con una sola fórmula. Primero, los nombres que quieres devolver. Luego, las ventas por las que ordena. Y al final, menos uno: de mayor a menor."
+    visual:
+      plantilla: formula
+      datos:
+        titulo: "Una fórmula, ranking completo"
+        formula: "=ORDENARPOR(A2:A5;B2:B5;-1)"
+        partes:
+          - {token: "A2:A5", explica: "lo que se devuelve: los nombres"}
+          - {token: "B2:B5", explica: "la columna por la que se ordena"}
+          - {token: "-1", explica: "orden de *mayor a menor*"}
+  - narracion: "Escríbela en una celda libre y el resultado se derrama hacia abajo. Ordena por las ventas, no por el nombre. Primero aparece Luis, con 1 850. Si cambias una venta, el ranking se reordena solo."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=ORDENARPOR(A2:A5;B2:B5;-1)"
+        celda_formula: "C2"
+        filas:
+          - ["Vendedor", "Ventas", "Ranking"]
+          - ["Ana", 1200, "Luis"]
+          - ["Luis", 1850, "Pedro"]
+          - ["Marta", 950, "Ana"]
+          - ["Pedro", 1500, "Marta"]
+        resaltar:
+          - {rango: "B2:B5", beat: 1}
+        resultado: {celda: "C2", valor: "Luis", beat: 2}
+        nota: "Ventas ilustrativas"
+  - narracion: "[[ordenar|ORDENAR]] hace algo parecido, pero usa un número de columna, que puede quedar desactualizado si cambias columnas. Ambas funcionan en Excel 365 y 2021. En Google Sheets, usa [[sort|SORT]]."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "ORDENARPOR: ordena por *otro rango*"
+        puntos: ["ORDENAR: usa número de columna", "ORDENARPOR: usa un rango", "Google Sheets: SORT"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://support.microsoft.com/es-ES/Excel/functions/sortby-function"
+    titulo: "Función ORDENARPOR / SORTBY (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "ORDENARPOR ordena un rango según los valores de otro rango; orden 1 ascendente y -1 descendente; disponible en Excel para Microsoft 365, 2024 y 2021."
+    cifras: [365]
+  - url: "https://support.microsoft.com/es-es/Excel/functions/sort-function"
+    titulo: "Función ORDENAR (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "ORDENAR usa un número de índice de columna; ORDENARPOR hace referencia a un rango y respeta añadir o quitar columnas."
+  - url: "https://support.google.com/docs/answer/3093150?hl=en"
+    titulo: "SORT function (Google Docs Editors Help)"
+    fecha_consulta: 2026-10-11
+    respalda: "Google Sheets ofrece la función SORT, con rango, columna de orden y indicador ascendente/descendente."
+  - calculo: "max([1200, 1850, 950, 1500])"
+    resultado: 1850
+    respalda: "La venta más alta del ejemplo ilustrativo (Luis) encabeza el ranking."
+riesgos:
+  derechos: "bajo — todo el material visual es generado por el canal"
+  exactitud: "bajo — comportamiento documentado por Microsoft y Google; se aclara la disponibilidad por versión"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["ORDENARPOR", "derrama", "Escríbela", "Ranking", "ranking", "desactualizado"]

@@ -1,0 +1,71 @@
+id: A-058
+canal: canal_a
+fecha: 2026-12-15
+formato: short
+serie: Glosario rápido
+episodio: "#05"
+pilar: conceptos
+tipo_editorial: contraintuitivo
+idea: "Con el mismo modelo conviene pedir variedad para ideas y precisión para datos; la 'temperatura' de la API controla este equilibrio, pero en los chats se maneja con la redacción del prompt."
+objetivo: "Explicar la diferencia entre tareas creativas y de precisión y dar frases concretas para cada caso."
+publico: "Usuarios de IA que reciben respuestas repetitivas para ideas o 'creativas' para datos."
+hipotesis: "Formato 'contraintuitivo' en pilar 'conceptos': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "La misma IA puede ser creativa o exacta. Depende de lo que le pidas."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Creatividad vs precisión: cómo pedirle a la IA cada cosa"
+titulos_alternativos:
+  - "¿Qué es la temperatura de la IA? Creatividad vs exactitud"
+  - "Ideas o datos: pide la IA de forma distinta"
+  - "Por qué la IA inventa cuando le pides precisión"
+criterio_titulo: "Presenta el contraste que resuelve la duda y promete una forma práctica de pedir cada cosa."
+descripcion: |
+  Para ideas conviene pedir variedad; para cifras y fechas, precisión y verificación. En la API de Anthropic existe un parámetro llamado temperatura: según su documentación, cerca de 0 para tareas analíticas y cerca de 1 para tareas creativas.
+  En los chats normalmente no se ve, y la documentación indica que algunos modelos nuevos ya no permiten ajustarlo; por eso se controla con la redacción del prompt. Verifica siempre cifras y fechas.
+cta: "Guárdalo para tu próximo prompt."
+comentario_fijado: "Creatividad: 'Dame 10 opciones muy distintas entre sí'. Precisión: 'Si no sabes, dilo; no inventes datos'. En ambos casos, verifica cifras y fechas."
+hashtags: ["#IA", "#Prompts", "#Glosario"]
+palabras_clave: ["temperatura de la IA", "creatividad vs precisión IA", "cómo pedir ideas a la IA", "evitar que la IA invente"]
+escenas:
+  - narracion: "La misma IA puede ser creativa o exacta. Depende de lo que le pidas."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Glosario rápido", titulo: "*Creatividad* o *precisión*", sub: "Mismo modelo, tareas distintas"}
+  - narracion: "Para ideas, pide variedad, como diez nombres muy distintos. Para cifras o fechas, pide precisión y verifica. Misma IA, tarea distinta, instrucción distinta."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Ideas", titulo: "Pide variedad", items: ["Nombres, eslóganes, enfoques", "Opciones muy distintas"]}
+        der: {etiqueta: "Datos", titulo: "Pide precisión", items: ["Cifras, fechas, citas", "Verifica con la fuente"]}
+        veredicto: "Tarea distinta, instrucción distinta"
+  - narracion: "En la API existe un ajuste llamado temperatura: según Anthropic, cerca de 0 para tareas analíticas y cerca de 1 para creativas. En los chats casi nunca se ve, y algunos modelos nuevos ya no lo permiten."
+    visual:
+      plantilla: texto
+      datos:
+        kicker: "Un ajuste de la API"
+        titulo: "Temperatura"
+        texto: "Cerca de *0*: tareas analíticas. Cerca de *1*: tareas creativas."
+        nota: "Documentación de Anthropic; en chats casi nunca se ve"
+        beat_texto: 0
+  - narracion: "En el chat, usa palabras. Para creatividad: dame opciones muy distintas. Para precisión: si no sabes, dilo."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "En el chat, *con palabras*"
+        estilo: check
+        items: ["Creatividad: opciones muy distintas", "Precisión: si no sabes, dilo", "Cifras y fechas: verifícalas"]
+fuentes:
+  - url: "https://platform.claude.com/docs/en/api/messages/create"
+    titulo: "Create a Message - Claude API Reference (Anthropic)"
+    fecha_consulta: 2026-10-11
+    respalda: "El parámetro temperature va de 0.0 a 1.0; usar valores cercanos a 0.0 para tareas analíticas o de opción múltiple y cercanos a 1.0 para tareas creativas. Según la documentación de Anthropic, los modelos más recientes ya no admiten ajustar la temperatura."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — la guía 0/1 proviene de la referencia de la API de Anthropic y otros proveedores usan otros rangos; algunos modelos ya no permiten ajustar la temperatura (la documentación cambia). Revisar la referencia vigente antes de publicar."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Anthropic", "check", "verifícalas"]

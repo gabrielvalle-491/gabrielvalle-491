@@ -1,0 +1,113 @@
+id: B-044
+canal: canal_b
+fecha: '2026-12-01'
+formato: short
+serie: Tu dinero en una planilla
+episodio: '#15'
+pilar: dinero
+tipo_editorial: mito
+idea: 'Multiplicar una tasa mensual por 12 no da la tasa anual efectiva cuando el interés se capitaliza cada mes: 2 % mensual da 26,82 % anual, no 24 %. La función INT.EFECTIVO lo calcula.'
+objetivo: Desmentir un error frecuente con un ejemplo mínimo y la función de planilla que lo resuelve.
+publico: Personas que comparan tasas mensuales y anuales de créditos o ahorros.
+hipotesis: 'Formato ''mito'' en pilar ''dinero'': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje).'
+gancho: 'Mito: 2 % mensual por 12 son 24 % anual.'
+duracion_objetivo: 35-55 s (≈85-140 palabras)
+titulo: 'Tasa mensual × 12 no es la tasa anual: la cuenta real'
+titulos_alternativos:
+- '2 % mensual no es 24 % anual: interés sobre interés'
+- Tasa nominal vs efectiva explicada con Excel (INT.EFECTIVO)
+- El error al convertir tasa mensual a anual
+criterio_titulo: Plantea el mito con cifras concretas y promete la corrección calculada.
+descripcion: |-
+  Si el interés se capitaliza cada mes, multiplicar la tasa mensual por 12 da la tasa nominal anual, no la efectiva. Con 2 % mensual (ilustrativo), 100 pasan a 126,82 en 12 meses: 26,82 % efectivo, no 24 %.
+  La función INT.EFECTIVO de Excel calcula la tasa efectiva a partir de la nominal y las capitalizaciones por año. Educativo, no es asesoramiento financiero.
+cta: Compara siempre tasas con la misma base.
+comentario_fijado: 'Fórmula: =INT.EFECTIVO(24%;12) devuelve 26,82 %. Alternativa: =(1+2%)^12-1. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;).'
+hashtags:
+- '#FinanzasPersonales'
+- '#Excel'
+- '#Intereses'
+palabras_clave:
+- tasa nominal vs efectiva
+- interés compuesto mensual
+- función INT.EFECTIVO
+escenas:
+- narracion: 'Mito: si el interés es de 2 % mensual, la tasa anual es de 24 %. Realidad: con interés sobre interés, es de 26,82 %.'
+  visual:
+    plantilla: mito
+    datos:
+      mito: 2 % mensual × 12 = *24 %* anual
+      realidad: Con interés sobre interés, son *26,82 %* anual
+      fuente: Cálculo con tasa ilustrativa
+- narracion: 'Mes uno: 100 pasan a 102. Mes dos: 102 pasan a 104,04. Al mes doce, 100 pasan a 126,82. Eso es interés sobre interés.'
+  visual:
+    plantilla: calculo
+    datos:
+      titulo: Interés sobre interés al 2 % mensual
+      lineas:
+      - izq: 'Mes 1: 100 × 1,02'
+        der: '102'
+      - izq: 'Mes 2: 102 × 1,02'
+        der: 104,04
+      resultado:
+        izq: 'Mes 12: 100 × 1,02¹²'
+        der: 126,82
+- narracion: 'En Excel, la función [[interés efectivo|INT.EFECTIVO]] hace la cuenta. Primero, la tasa nominal anual: 24 %. Después, las capitalizaciones por año: 12. Resultado: 26,82 %.'
+  visual:
+    plantilla: formula
+    datos:
+      titulo: Tasa efectiva anual
+      formula: =INT.EFECTIVO(24%;12)
+      partes:
+      - token: 24%
+        explica: tasa nominal anual (2 % × 12)
+      - token: '12'
+        explica: capitalizaciones por año
+- narracion: 'Por eso, compara tasas con la misma base: nominal con nominal, o efectiva con efectiva.'
+  visual:
+    plantilla: cierre
+    datos:
+      titulo: Compara con la *misma base*
+      puntos:
+      - Nominal con nominal
+      - Efectiva con efectiva
+      cta: Guárdalo
+fuentes:
+- url: https://support.microsoft.com/es-es/office/funci%C3%B3n-int-efectivo-910d4e4c-79e2-4009-95e6-507e04f11bc4
+  titulo: Función INT.EFECTIVO (Microsoft Support)
+  fecha_consulta: '2026-10-11'
+  respalda: INT.EFECTIVO devuelve la tasa de interés anual efectiva a partir de la tasa nominal y el número de períodos de capitalización por año.
+- calculo: '[2, 12, 100]'
+  respalda: 'Datos ilustrativos: tasa mensual, meses y saldo inicial.'
+- calculo: round((1.02 ** 12 - 1) * 100, 2)
+  resultado: 26.82
+  respalda: 'Tasa efectiva anual con 2 % mensual capitalizado: 26,82 %.'
+- calculo: 2 * 12
+  resultado: 24
+  respalda: Tasa nominal anual (mito).
+- calculo: 100 * 1.02
+  resultado: 102
+  respalda: Saldo tras el mes 1.
+- calculo: 100 * 1.02 * 1.02
+  resultado: 104.04
+  respalda: Saldo tras el mes 2.
+- calculo: 100 * 1.02 ** 12
+  resultado: 126.82
+  respalda: Saldo tras 12 meses.
+- calculo: (1 + 0.24 / 12) ** 12 - 1
+  resultado: 0.2682
+  respalda: Tasa efectiva anual equivalente a INT.EFECTIVO(24%;12), es decir 26,82 %.
+riesgos:
+  derechos: bajo — material propio
+  exactitud: medio — el cálculo es exacto, pero la equivalencia depende de que el interés se capitalice cada mes (se aclara en el video); verificar INT.EFECTIVO en Excel con configuración en español.
+  monetizacion: bajo — educación general, sin recomendar productos
+recursos:
+- nombre: Música y efectos originales generados por la fábrica
+  licencia: propia
+declaracion_sintetica:
+  decision: declarar
+  motivo: Voz sintética realista; gráficos no realistas. Se declara por prudencia.
+costo_estimado_usd: 0
+palabras_validas:
+- INT.EFECTIVO
+- num

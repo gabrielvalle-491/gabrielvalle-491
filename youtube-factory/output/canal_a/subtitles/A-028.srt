@@ -1,0 +1,47 @@
+1
+00:00:00,120 --> 00:00:03,012
+¿Escribes el mismo prompt desde cero cada semana?
+
+2
+00:00:03,252 --> 00:00:06,545
+Guárdalo como plantilla, y mejóralo cada vez que lo uses.
+
+3
+00:00:06,825 --> 00:00:08,473
+Así se ve una plantilla.
+
+4
+00:00:08,633 --> 00:00:11,202
+Lo que cambia cada vez va entre corchetes.
+
+5
+00:00:11,362 --> 00:00:13,631
+El resto queda fijo, y no lo reescribes.
+
+6
+00:00:13,911 --> 00:00:16,700
+Crea una carpeta o un documento llamado Prompts.
+
+7
+00:00:16,860 --> 00:00:19,303
+Guarda cada plantilla con un nombre claro.
+
+8
+00:00:19,463 --> 00:00:21,836
+Cambia los datos variables por corchetes.
+
+9
+00:00:21,996 --> 00:00:24,196
+Y anota qué ajustar después de usarla.
+
+10
+00:00:24,476 --> 00:00:26,996
+Empieza con los tres prompts que más repites.
+
+11
+00:00:27,156 --> 00:00:30,893
+Con el tiempo tendrás una biblioteca hecha con tus tareas reales.
+
+12
+00:00:31,053 --> 00:00:33,424
+Y recuerda revisar siempre la respuesta.

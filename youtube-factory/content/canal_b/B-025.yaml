@@ -1,0 +1,71 @@
+id: B-025
+canal: canal_b
+fecha: 2026-11-12
+formato: short
+serie: Fórmula en 40 segundos
+episodio: "#07"
+pilar: formulas
+tipo_editorial: comparacion
+idea: "La misma clasificación de notas hecha con SI anidado y con SI.CONJUNTO: el resultado es igual, pero SI.CONJUNTO se lee en fila."
+objetivo: "Comparación buscable que enseña SI.CONJUNTO y cuándo conviene frente a SI anidado."
+publico: "Personas que clasifican notas, comisiones o niveles con varios SI uno dentro de otro."
+hipotesis: "Formato 'comparacion' en pilar 'formulas': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Dos fórmulas dan el mismo resultado, pero una es mucho más fácil de leer."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "SI anidado vs SI.CONJUNTO: misma clasificación, más legible"
+titulos_alternativos:
+  - "Cómo evitar los SI anidados en Excel con SI.CONJUNTO"
+  - "SI.CONJUNTO: clasifica con varias condiciones sin paréntesis de más"
+  - "Deja de anidar SI: usa esta función"
+criterio_titulo: "Incluye las dos funciones comparadas y el beneficio (legibilidad)."
+descripcion: |
+  Ejemplo con umbrales ilustrativos: 90 o más es Excelente, 70 o más es Bueno y el resto es Bajo. Se compara una fórmula con SI anidado y otra con SI.CONJUNTO.
+  Según la ayuda oficial de Microsoft, SI.CONJUNTO está disponible en Excel 2019 y Microsoft 365. Si usas una versión anterior, sigue con SI anidado.
+cta: "Reemplaza tu SI más largo y compara."
+comentario_fijado: "SI anidado: =SI(B2>=90;\"Excelente\";SI(B2>=70;\"Bueno\";\"Bajo\")). SI.CONJUNTO: =SI.CONJUNTO(B2>=90;\"Excelente\";B2>=70;\"Bueno\";VERDADERO;\"Bajo\"). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;)."
+hashtags: ["#Excel", "#Fórmulas", "#ExcelTips"]
+palabras_clave: ["SI.CONJUNTO", "SI anidado Excel", "clasificar con varias condiciones"]
+escenas:
+  - narracion: "Dos fórmulas dan el mismo resultado, pero una es mucho más fácil de leer. Veamos una clasificación de notas."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Fórmula en 40 segundos", titulo: "SI anidado *vs* SI.CONJUNTO", sub: "Misma clasificación de notas"}
+  - narracion: "El [[si|SI]] anidado mete un [[si|SI]] dentro de otro, y cada condición suma un paréntesis. SI.CONJUNTO pone las condiciones en fila, de dos en dos. Mismo resultado, mucho más legible."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Antes", titulo: "SI anidado", items: ["Un SI dentro de otro SI", "Cada nivel suma un paréntesis"]}
+        der: {etiqueta: "Ahora", titulo: "SI.CONJUNTO", items: ["Condición y resultado, en fila", "Se lee de izquierda a derecha"]}
+        veredicto: "Mismo resultado, *más legible*"
+  - narracion: "Así queda la clasificación. Si la nota es 90 o más, Excelente. Si es 70 o más, Bueno. Y el último VERDADERO cubre todo lo demás."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=SI.CONJUNTO(B2>=90;\"Excelente\";B2>=70;\"Bueno\";VERDADERO;\"Bajo\")"
+        partes:
+          - {token: "B2>=90;\"Excelente\"", explica: "primera condición y su resultado"}
+          - {token: "B2>=70;\"Bueno\"", explica: "segunda condición y su resultado"}
+          - {token: "VERDADERO;\"Bajo\"", explica: "todo lo demás"}
+  - narracion: "Disponible en Excel 2019 y Microsoft 365, según la ayuda oficial. Si usas una versión anterior, sigue con el [[si|SI]] anidado."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Condiciones en fila, *no* anidadas", puntos: ["Pares condición-resultado", "VERDADERO al final = el resto"], cta: "Guárdalo"}
+fuentes:
+  - url: "https://support.microsoft.com/es-es/excel/functions/ifs-function"
+    titulo: "Función SI.CONJUNTO / IFS (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "SI.CONJUNTO evalúa condiciones en orden y devuelve el resultado de la primera verdadera; puede sustituir varios SI anidados; para un resultado por defecto se usa VERDADERO en la última prueba; disponible en Office 2019 y Microsoft 365."
+    cifras: [365]
+  - calculo: "[90, 70]"
+    respalda: "Umbrales ilustrativos de nota usados en el ejemplo."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — comportamiento documentado por Microsoft; disponibilidad por versión aclarada"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

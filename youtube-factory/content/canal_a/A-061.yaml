@@ -1,0 +1,79 @@
+id: A-061
+canal: canal_a
+fecha: 2026-12-18
+formato: short
+serie: Glosario rápido
+episodio: "#06"
+pilar: conceptos
+tipo_editorial: contraintuitivo
+idea: "El modelo es el sistema entrenado que genera el texto; la aplicación es el producto completo (chat, historial, archivos, herramientas, instrucciones del sistema). El mismo modelo puede vivir en aplicaciones distintas y dar resultados distintos."
+objetivo: "Aclarar un malentendido frecuente y dar el hábito de nombrar modelo y aplicación al comparar o reportar resultados."
+publico: "Usuarios de IA que comparan 'ChatGPT contra Claude' sin distinguir modelo y aplicación."
+hipotesis: "Formato 'contraintuitivo' en pilar 'conceptos': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Modelo de IA y aplicación de IA no son lo mismo."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Modelo vs aplicación de IA: el motor y el auto completo"
+titulos_alternativos:
+  - "No es lo mismo el modelo que la app: la diferencia en 40 segundos"
+  - "Por qué dos apps con el mismo modelo responden distinto"
+  - "Qué es un modelo de IA y qué es la aplicación"
+criterio_titulo: "Presenta la distinción con una imagen clara (motor y auto) y es buscable."
+descripcion: |
+  El modelo es el sistema entrenado que genera el texto. La aplicación es el producto que lo rodea: chat, historial, archivos, herramientas de búsqueda e instrucciones del sistema.
+  Según Anthropic, sus modelos se ofrecen en sus apps, en su API y en plataformas de nube de terceros; la ayuda de OpenAI describe la búsqueda web como una herramienta de la aplicación. Cuando compares resultados, anota modelo y aplicación. La disponibilidad cambia con el tiempo.
+cta: "Al comparar IA, di modelo y aplicación."
+comentario_fijado: "Al comparar o preguntar en foros, indica: 1) el modelo, 2) la aplicación, 3) si tenía búsqueda web activada."
+hashtags: ["#IA", "#Glosario", "#InteligenciaArtificial"]
+palabras_clave: ["modelo vs aplicación IA", "qué es un modelo de IA", "diferencia entre modelo y chatbot", "glosario de IA"]
+escenas:
+  - narracion: "Modelo de IA y aplicación de IA no son lo mismo."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Glosario rápido", titulo: "Modelo ≠ *aplicación*", sub: "El motor y el auto completo"}
+  - narracion: "El modelo es el motor: el sistema entrenado que genera el texto. La aplicación es el auto completo, con chat, historial, archivos y herramientas. El mismo motor puede ir en autos distintos."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Modelo", titulo: "El motor", items: ["Sistema entrenado", "Genera el texto"]}
+        der: {etiqueta: "Aplicación", titulo: "El auto completo", items: ["Chat e historial", "Archivos y herramientas"]}
+        veredicto: "El mismo motor, autos distintos"
+  - narracion: "Según Anthropic, sus modelos se ofrecen en sus apps, en su API y en nubes de terceros. Y la ayuda de OpenAI trata la búsqueda web como una herramienta que se habilita. Por eso, la misma pregunta puede dar respuestas distintas."
+    visual:
+      plantilla: texto
+      datos:
+        kicker: "Por qué importa"
+        titulo: "Mismo modelo, *respuestas distintas*"
+        texto: "Cambian las instrucciones del sistema, las herramientas (como la búsqueda web) y la configuración de cada aplicación."
+        nota: "Según Anthropic y OpenAI, a la fecha"
+        beat_texto: 0
+  - narracion: "Al comparar, di qué modelo y qué aplicación usaste."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Nombra *modelo* y aplicación"
+        puntos: ["Cuál modelo", "Cuál aplicación", "Con o sin búsqueda web"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://www.anthropic.com/news/claude-opus-4-7"
+    titulo: "Introducing Claude Opus 4.7 (Anthropic)"
+    fecha_consulta: 2026-10-11
+    respalda: "Anthropic indica que ese modelo estaba disponible en todos los productos de Claude y en su API, en Amazon Bedrock, Google Cloud Vertex AI y Microsoft Foundry: un mismo modelo en varios productos."
+  - url: "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-5"
+    titulo: "Claude Sonnet 5 system prompts (Claude Platform Docs)"
+    fecha_consulta: 2026-10-11
+    respalda: "Anthropic publica las instrucciones del sistema (system prompts) que usan sus aplicaciones: son parte de la aplicación, no del modelo."
+  - url: "https://help.openai.com/en/articles/8313428-does-chatgpt-tell-the-truth"
+    titulo: "Does ChatGPT tell the truth? (OpenAI Help Center)"
+    fecha_consulta: 2026-10-11
+    respalda: "La búsqueda web de ChatGPT funciona cuando la herramienta de búsqueda está habilitada."
+riesgos:
+  derechos: "bajo — se nombran productos sin logotipos"
+  exactitud: "medio — la analogía motor/auto simplifica; la disponibilidad de modelos por plataforma cambia con frecuencia y las fuentes mencionan un modelo concreto que no se nombra en el video. Revisar la redacción de las afirmaciones sobre Anthropic y OpenAI antes de publicar."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

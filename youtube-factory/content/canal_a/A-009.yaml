@@ -1,0 +1,74 @@
+id: A-009
+canal: canal_a
+fecha: 2026-10-27
+formato: short
+serie: ¿Cuál uso?
+episodio: "#01"
+pilar: herramientas
+tipo_editorial: comparacion
+idea: "Buscador para datos recientes y fuentes que puedes abrir; chatbot para redactar, resumir y transformar textos que ya tienes."
+objetivo: "Dar una regla simple de decisión entre buscador y chatbot que reduzca errores por usar la herramienta equivocada."
+publico: "Trabajadores y estudiantes que usan un chatbot para todo, incluso para datos que cambian, como precios, fechas o trámites."
+hipotesis: "Gancho 'contraste' + duración media + visual 'gráfico': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "Un buscador te muestra fuentes. Un chatbot te escribe una respuesta."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Buscador o chatbot: cuándo usar cada uno"
+titulos_alternativos:
+  - "¿Google o ChatGPT? Una regla simple para elegir"
+  - "No uses el chatbot para esto (y sí para esto otro)"
+  - "Datos recientes: buscador. Redactar: chatbot"
+criterio_titulo: "Plantea la duda real del público con una pregunta de comparación; es claro y buscable."
+descripcion: |
+  Regla práctica: si necesitas un dato actual (precios, fechas, noticias, trámites), empieza por un buscador y abre las fuentes. Si necesitas redactar, resumir, traducir o reformular un texto tuyo, usa un chatbot.
+  Algunos chatbots también pueden buscar en la web. Según la ayuda de OpenAI, los resultados y las citas pueden ser incompletos o incorrectos, así que abre siempre la fuente.
+cta: "Guárdalo para la próxima vez que dudes."
+comentario_fijado: "¿Qué sueles hacer con un chatbot que quizá sería mejor buscar directamente? Cuéntanos."
+hashtags: ["#IA", "#Productividad", "#Buscadores"]
+palabras_clave: ["buscador vs chatbot", "cuándo usar ChatGPT", "verificar información"]
+escenas:
+  - narracion: "Un buscador te muestra fuentes. Un chatbot te escribe una respuesta. No son lo mismo."
+    visual:
+      plantilla: hook
+      datos: {kicker: "¿Cuál uso?", titulo: "Buscador o chatbot: *no es lo mismo*"}
+  - narracion: "El buscador te lleva a páginas que tú lees. El chatbot te entrega un texto ya armado. Para datos que cambian, empieza por las fuentes."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Buscador", titulo: "Te lleva a fuentes", items: ["Tú lees la página", "Datos recientes"]}
+        der: {etiqueta: "Chatbot", titulo: "Te da un texto", items: ["Ya viene armado", "Redacta y transforma"]}
+        veredicto: "Datos que cambian: empieza por las *fuentes*"
+  - narracion: "Regla uno: ¿necesitas un dato actual, como un precio o un trámite? Buscador. Regla dos: ¿necesitas redactar o resumir tu propio texto? Chatbot. Regla tres: si el chatbot busca en la web, abre las fuentes."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Tres *reglas*"
+        estilo: num
+        items: ["Dato actual: buscador", "Texto tuyo: chatbot", "Si busca en la web: abre las fuentes"]
+  - narracion: "Según la ayuda de OpenAI, los resultados y las citas pueden ser incompletos o incorrectos."
+    visual:
+      plantilla: dato
+      datos:
+        kicker: "Ojo"
+        dato: "Las citas pueden ser *incompletas o incorrectas*"
+        contexto: "Abre la fuente y revisa su fecha"
+        fuente: "Ayuda de OpenAI"
+  - narracion: "Abre la fuente antes de usar el dato."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Elige la *herramienta* según la tarea", puntos: ["Dato actual: buscador", "Redactar: chatbot", "Siempre abre la fuente"], cta: "Guárdalo"}
+fuentes:
+  - url: "https://help.openai.com/en/articles/9237897-searching-the-web-with-chatgpt"
+    titulo: "Searching the web with ChatGPT (OpenAI Help)"
+    fecha_consulta: 2026-10-11
+    respalda: "ChatGPT puede buscar en la web y responder con enlaces a fuentes; la ayuda advierte que los resultados y las citas pueden ser incompletos, desactualizados o incorrectos, y recomienda abrir la fuente y revisar su fecha."
+riesgos:
+  derechos: "bajo — material propio; se nombra OpenAI solo como fuente"
+  exactitud: "bajo — regla general; afirmaciones sobre ChatGPT limitadas a lo documentado en su ayuda"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["OpenAI"]

@@ -1,0 +1,78 @@
+{
+  "id": "A-023",
+  "duracion_s": 32.28,
+  "frases": 12,
+  "subtitulos": 28,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.868,
+      "beats": [
+        -5.0,
+        2.543
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.868,
+      "fin": 14.637,
+      "beats": [
+        0.0,
+        2.357,
+        4.816,
+        7.372
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 14.637,
+      "fin": 22.657,
+      "beats": [
+        0.0,
+        3.06,
+        4.948
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 22.657,
+      "fin": 32.28,
+      "beats": [
+        0.0,
+        2.262
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.06",
+    "input_tp": "-6.34",
+    "input_lra": "3.10",
+    "input_thresh": "-31.31",
+    "output_i": "-14.07",
+    "output_tp": "-1.50",
+    "output_lra": "1.20",
+    "output_thresh": "-24.23",
+    "normalization_type": "dynamic",
+    "target_offset": "0.07"
+  },
+  "fotogramas_unicos": 272,
+  "tts_cache": 0,
+  "spec_hash": "074ef69233c05260",
+  "segundos_produccion": 111.0,
+  "texto_hablado": [
+    "¿Tienes una columna entera para traducir?",
+    "No copies y pegues celda por celda.",
+    "En gúgol shits existe gúgol tránsleit.",
+    "Primero va el texto: aquí, la celda A dos.",
+    "Luego, el idioma de origen: es, de español.",
+    "Y al final, el de destino: en, de inglés.",
+    "Escribe la fórmula en B dos y cópiala hacia abajo.",
+    "Cada fila se traduce sola.",
+    "Y B dos muestra la traducción del texto de A dos.",
+    "Eso sí: es traducción automática.",
+    "Revisa a mano los textos importantes.",
+    "Y si tu hoja usa coma como separador, cambia el punto y coma por coma."
+  ]
+}

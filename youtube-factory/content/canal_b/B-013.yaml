@@ -1,0 +1,78 @@
+id: B-013
+canal: canal_b
+fecha: 2026-10-31
+formato: short
+serie: Atajo de teclado
+episodio: "#01"
+pilar: trabajo
+tipo_editorial: herramienta
+idea: "Relleno rápido (Ctrl + E) detecta un patrón a partir de un ejemplo que escribes y completa el resto de la columna; sirve para separar nombres y apellidos."
+objetivo: "Presentar un atajo poco usado que ahorra fórmulas, con la advertencia de revisar el resultado."
+publico: "Personas que separan o combinan nombres y otros textos en Excel con fórmulas largas o a mano."
+hipotesis: "Gancho 'error' + duración media + visual 'lista': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "Estás separando nombres y apellidos con fórmulas, y Excel lo hace con un ejemplo. Se llama Relleno rápido."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Ctrl + E en Excel: separa nombres y apellidos con un ejemplo"
+titulos_alternativos:
+  - "Relleno rápido de Excel: el atajo que ahorra fórmulas"
+  - "Separar nombre y apellido en Excel sin fórmulas"
+  - "Ctrl + E: Excel completa la columna por ti (revisa antes)"
+criterio_titulo: "Incluye el atajo buscable (Ctrl + E) y el caso práctico (separar nombres y apellidos)."
+descripcion: |
+  Relleno rápido (Flash Fill) completa una columna cuando Excel detecta un patrón en tu ejemplo. Escribe el resultado esperado en la primera fila y presiona Ctrl + E en la celda siguiente.
+  Es una función de Excel. Revisa siempre el resultado, sobre todo con nombres compuestos. Los nombres del ejemplo son ficticios.
+cta: "Pruébalo con una columna de tu planilla."
+comentario_fijado: "Atajo: escribe el primer resultado a mano y presiona Ctrl + E en la celda de abajo. ¿Qué otra columna te gustaría separar con este método?"
+hashtags: ["#Excel", "#AtajosDeTeclado", "#Productividad"]
+palabras_clave: ["Ctrl + E excel", "relleno rápido", "separar nombre y apellido excel"]
+escenas:
+  - narracion: "Estás separando nombres y apellidos con fórmulas, y Excel lo hace con un ejemplo."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Atajo de teclado", titulo: "Un ejemplo y *Ctrl + E*", sub: "Relleno rápido de Excel"}
+  - narracion: "Primero, escribe a mano el primer resultado, solo el nombre, en la columna de al lado. Después, pasa a la celda siguiente y presiona Ctrl + E. Por último, revisa que todas las filas queden bien."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Relleno rápido, en 3 pasos"
+        pasos:
+          - {titulo: "Escribe un ejemplo", detalle: "El nombre de la primera fila"}
+          - {titulo: "Presiona Ctrl + E", detalle: "En la celda siguiente"}
+          - {titulo: "Revisa el resultado", detalle: "Fila por fila"}
+  - narracion: "Aquí escribiste Ana al lado de Ana Ruiz. Excel detecta el patrón. Y completa Luis y Eva."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "Ana"
+        celda_formula: "B2"
+        filas:
+          - ["Nombre completo", "Nombre"]
+          - ["Ana Ruiz", "Ana"]
+          - ["Luis Mora", "Luis"]
+          - ["Eva Soto", "Eva"]
+        resaltar:
+          - {rango: "B2", beat: 1}
+          - {rango: "B3:B4", beat: 2, alterno: true}
+  - narracion: "Relleno rápido copia un patrón, no entiende reglas. Con nombres compuestos, revisa fila por fila. Es una función de Excel."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Un ejemplo, *Ctrl + E*, y revisa"
+        puntos: ["Escribe un ejemplo", "Ctrl + E", "Revisa el resultado"]
+        cta: "Pruébalo"
+fuentes:
+  - url: "https://support.microsoft.com/en-US/excel/using-flash-fill-in-excel"
+    titulo: "Using Flash Fill in Excel (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Flash Fill (Relleno rápido) rellena datos al detectar un patrón; sirve para separar nombres y apellidos; se ejecuta con Ctrl+E si no aparece la vista previa."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — función y atajo documentados por Microsoft; se advierte revisar el resultado"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Ruiz", "Mora", "Soto", "Luis", "Eva"]

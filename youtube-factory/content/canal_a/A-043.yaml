@@ -1,0 +1,66 @@
+id: A-043
+canal: canal_a
+fecha: 2026-11-30
+formato: short
+serie: Caso pyme
+episodio: "#12"
+pilar: negocio
+tipo_editorial: caso_practico
+idea: "Convertir transcripciones de llamadas o chats con clientes en una lista de preguntas frecuentes con respuestas, pidiendo a la IA que use solo lo que dicen los textos y que marque lo que falta."
+objetivo: "Dar un flujo práctico para crear una FAQ con datos reales del negocio, con advertencias de privacidad y verificación."
+publico: "Dueños de pymes y equipos de atención al cliente que reciben las mismas preguntas una y otra vez."
+hipotesis: "Formato 'caso_practico' en pilar 'negocio': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Tus clientes preguntan siempre lo mismo? Conviértelo en una FAQ."
+duracion_objetivo: "35-55 s"
+titulo: "De llamadas con clientes a preguntas frecuentes con IA"
+titulos_alternativos:
+  - "Crea una FAQ con lo que realmente preguntan tus clientes"
+  - "Prompt para convertir transcripciones en preguntas frecuentes"
+  - "Deja de responder lo mismo cien veces: haz una FAQ"
+criterio_titulo: "Describe el insumo (llamadas) y el resultado (preguntas frecuentes); términos buscables para pymes."
+descripcion: |
+  Si tienes transcripciones de llamadas o chats, la IA puede detectar las preguntas que más se repiten y proponer respuestas cortas. El prompt le pide usar solo lo que dice el texto y marcar lo que falta.
+  Antes de pegar nada, quita nombres, teléfonos y datos personales. Revisa precios y políticas con tu equipo antes de publicar.
+cta: "Guárdalo y arma tu primera FAQ."
+comentario_fijado: "Prompt: Estas son transcripciones de llamadas con clientes. Identifica las 5 preguntas más repetidas y escribe una respuesta de máximo 2 frases para cada una. Usa solo lo que dice el texto; si falta información, escribe [FALTA]. Transcripción: [PEGA AQUÍ]"
+hashtags: ["#Pymes", "#AtenciónAlCliente", "#IA"]
+palabras_clave: ["preguntas frecuentes con IA", "crear FAQ", "transcripción de llamadas", "IA para atención al cliente"]
+escenas:
+  - narracion: "¿Tus clientes preguntan siempre lo mismo? Conviértelo en una *FAQ*. Esas llamadas ya traen las preguntas reales."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Caso pyme", titulo: "De llamadas a *preguntas frecuentes*", sub: "Con IA y sin inventar"}
+  - narracion: "Pega las transcripciones y pide las cinco preguntas más repetidas, con respuestas cortas. Que use solo lo que dice el texto, y que marque lo que falta."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Identifica las 5 preguntas más repetidas en estas transcripciones. Responde cada una en máximo 2 frases, solo con lo que dice el texto. Si falta información, escribe [FALTA].\nTranscripción: [PEGA AQUÍ]"
+  - narracion: "Antes de pegar, quita nombres, teléfonos y datos personales. Después, revisa que cada respuesta sea correcta. Y confirma precios y políticas con tu equipo."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Antes y después del *prompt*"
+        estilo: check
+        items: ["Quita datos personales", "Revisa cada respuesta", "Confirma precios y políticas"]
+  - narracion: "Publica la FAQ en tu web o tu WhatsApp, y actualízala cuando cambien las preguntas. Cada mes, revisa si aparecen preguntas nuevas."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Tus clientes ya te dijeron *qué falta*"
+        puntos: ["Transcripciones sin datos personales", "Solo lo que dice el texto", "Revisión humana"]
+        cta: "Guárdalo para armar tu FAQ"
+fuentes:
+  - calculo: "[5, 2]"
+    respalda: "Estructura de prompt propia del canal (cinco preguntas, máximo dos frases por respuesta); sin datos ni afirmaciones externas."
+riesgos:
+  derechos: "bajo — prompt y gráficos creados por el canal"
+  exactitud: "bajo — técnica general; advertencias de privacidad y revisión incluidas"
+  monetizacion: "bajo — contenido educativo para negocios"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["FAQ"]

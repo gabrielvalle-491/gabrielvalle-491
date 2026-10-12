@@ -1,0 +1,73 @@
+{
+  "id": "A-004",
+  "duracion_s": 26.203,
+  "frases": 10,
+  "subtitulos": 19,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.191,
+      "beats": [
+        -5.0,
+        1.668
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.191,
+      "fin": 13.43,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 13.43,
+      "fin": 18.494,
+      "beats": [
+        0.0,
+        1.645,
+        2.412
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 18.494,
+      "fin": 26.203,
+      "beats": [
+        0.0,
+        3.635
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.29",
+    "input_tp": "-6.89",
+    "input_lra": "1.90",
+    "input_thresh": "-31.59",
+    "output_i": "-13.80",
+    "output_tp": "-1.50",
+    "output_lra": "0.90",
+    "output_thresh": "-24.00",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.20"
+  },
+  "fotogramas_unicos": 270,
+  "tts_cache": 0,
+  "spec_hash": "81038b652f943a60",
+  "segundos_produccion": 147.0,
+  "texto_hablado": [
+    "Repetir tu contexto en cada chat nuevo, o escribirlo una sola vez.",
+    "Muchos asistentes tienen instrucciones personalizadas.",
+    "En chat yi pi ti, a la fecha, están en Configuración, Personalización.",
+    "Escribe algo así.",
+    "Incluye tres cosas.",
+    "Tu rol.",
+    "El tono.",
+    "Y el formato de respuesta.",
+    "Se aplican a todos tus chats, y los cambios rigen de inmediato.",
+    "Revísalas de vez en cuando, y no pongas datos sensibles."
+  ]
+}

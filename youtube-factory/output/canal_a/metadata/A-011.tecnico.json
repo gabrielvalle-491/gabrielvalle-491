@@ -1,0 +1,71 @@
+{
+  "id": "A-011",
+  "duracion_s": 24.124,
+  "frases": 9,
+  "subtitulos": 19,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.946,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.946,
+      "fin": 12.792,
+      "beats": [
+        1.439,
+        2.883,
+        4.927
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 12.792,
+      "fin": 17.217,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 17.217,
+      "fin": 24.124,
+      "beats": [
+        0.0,
+        2.754
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-20.87",
+    "input_tp": "-7.40",
+    "input_lra": "2.70",
+    "input_thresh": "-31.17",
+    "output_i": "-14.15",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.35",
+    "normalization_type": "dynamic",
+    "target_offset": "0.15"
+  },
+  "fotogramas_unicos": 245,
+  "tts_cache": 0,
+  "spec_hash": "3078a93730ce6e3c",
+  "segundos_produccion": 108.9,
+  "texto_hablado": [
+    "Puedes decir que no a un cliente sin cerrar la puerta.",
+    "Solo necesitas tres pasos y un buen tono.",
+    "Sigue tres pasos.",
+    "Agradece el interés.",
+    "Explica el motivo en una frase.",
+    "Y ofrece una alternativa.",
+    "Pídele el borrador a la i a con este prompt, y pon tus datos entre corchetes.",
+    "Léelo antes de enviarlo: debe sonar como tú.",
+    "Y la alternativa debe ser algo que de verdad puedas cumplir."
+  ]
+}

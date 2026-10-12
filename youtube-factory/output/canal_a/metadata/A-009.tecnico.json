@@ -1,0 +1,86 @@
+{
+  "id": "A-009",
+  "duracion_s": 35.402,
+  "frases": 13,
+  "subtitulos": 29,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.831,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.831,
+      "fin": 13.897,
+      "beats": [
+        0.0,
+        2.616,
+        5.221
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 13.897,
+      "fin": 26.849,
+      "beats": [
+        0.0,
+        3.89,
+        4.811
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 26.849,
+      "fin": 32.268,
+      "beats": [
+        0.0,
+        2.136
+      ],
+      "plantilla": "dato"
+    },
+    {
+      "inicio": 32.268,
+      "fin": 35.402,
+      "beats": [
+        0.0,
+        0.958
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.30",
+    "input_tp": "-5.50",
+    "input_lra": "2.20",
+    "input_thresh": "-31.60",
+    "output_i": "-14.02",
+    "output_tp": "-1.50",
+    "output_lra": "1.90",
+    "output_thresh": "-24.25",
+    "normalization_type": "dynamic",
+    "target_offset": "0.02"
+  },
+  "fotogramas_unicos": 272,
+  "tts_cache": 0,
+  "spec_hash": "4c6bca840d6d6a19",
+  "segundos_produccion": 130.0,
+  "texto_hablado": [
+    "Un buscador te muestra fuentes.",
+    "Un chatbot te escribe una respuesta.",
+    "No son lo mismo.",
+    "El buscador te lleva a páginas que tú lees.",
+    "El chatbot te entrega un texto ya armado.",
+    "Para datos que cambian, empieza por las fuentes.",
+    "Regla uno: ¿necesitas un dato actual, como un precio o un trámite?",
+    "Buscador.",
+    "Regla dos: ¿necesitas redactar o resumir tu propio texto?",
+    "Chatbot.",
+    "Regla tres: si el chatbot busca en la web, abre las fuentes.",
+    "Según la ayuda de OpenAI, los resultados y las citas pueden ser incompletos o incorrectos.",
+    "Abre la fuente antes de usar el dato."
+  ]
+}

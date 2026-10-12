@@ -1,0 +1,82 @@
+{
+  "id": "A-027",
+  "duracion_s": 32.333,
+  "frases": 11,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.845,
+      "beats": [
+        -5.0,
+        1.986
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.845,
+      "fin": 8.869,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 8.869,
+      "fin": 18.303,
+      "beats": [
+        0.0,
+        3.109,
+        6.188
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 18.303,
+      "fin": 22.6,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 22.6,
+      "fin": 32.333,
+      "beats": [
+        0.0,
+        2.834
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.06",
+    "input_tp": "-7.03",
+    "input_lra": "1.80",
+    "input_thresh": "-31.34",
+    "output_i": "-14.17",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.37",
+    "normalization_type": "dynamic",
+    "target_offset": "0.17"
+  },
+  "fotogramas_unicos": 315,
+  "tts_cache": 0,
+  "spec_hash": "d5e9e40ddfcf73d4",
+  "segundos_produccion": 118.0,
+  "texto_hablado": [
+    "Un cliente molesto te escribe.",
+    "Respóndele en tres pasos.",
+    "Imagina este reclamo, ficticio: pidió una silla hace diez días y todavía no llega.",
+    "Primero, calma: reconoce el problema sin discutir.",
+    "Segundo, resuelve: ofrece una solución concreta.",
+    "Tercero, cierra: confirma el siguiente paso y la fecha.",
+    "Pídele a la i a el borrador con ese orden.",
+    "La solución la pones tú.",
+    "Nunca prometas algo que no puedas cumplir.",
+    "Y no pegues datos personales del cliente en la i a.",
+    "Revisa el borrador y ajústalo a tu forma de hablar."
+  ]
+}

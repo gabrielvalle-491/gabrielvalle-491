@@ -1,0 +1,69 @@
+id: A-028
+canal: canal_a
+fecha: 2026-11-15
+formato: short
+serie: El Atajo
+episodio: "#06"
+pilar: prompts
+tipo_editorial: tutorial
+idea: "Guardar tus prompts como plantillas con variables entre corchetes en una carpeta o documento evita reescribirlos y permite mejorarlos con el tiempo."
+objetivo: "Enseñar un hábito de organización que multiplica el valor de todos los demás videos de prompts del canal."
+publico: "Trabajadores que usan IA a diario y reescriben los mismos pedidos desde cero."
+hipotesis: "Formato 'tutorial' en pilar 'prompts': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Escribes el mismo prompt desde cero cada semana?"
+duracion_objetivo: "35-55 s"
+titulo: "Tu biblioteca de prompts: plantillas con [corchetes]"
+titulos_alternativos:
+  - "Deja de reescribir prompts: guárdalos como plantillas"
+  - "Cómo organizar tus prompts en una carpeta (paso a paso)"
+  - "El hábito que hace que tus prompts mejoren cada semana"
+criterio_titulo: "Describe el resultado (una biblioteca de prompts) y el método (corchetes), términos buscables y concretos."
+descripcion: |
+  Crea una carpeta o documento de prompts, dale a cada uno un nombre claro, cambia los datos variables por [CORCHETES] y anota qué ajustar. Empieza con los tres que más repites.
+  Las plantillas son un punto de partida: revisa siempre la respuesta de la IA.
+cta: "Empieza hoy con tus tres prompts más repetidos."
+comentario_fijado: "Plantilla de ejemplo: Escribe un correo de [TIPO] para [CLIENTE]. Objetivo: [OBJETIVO]. Tono: [TONO]. Máximo [N] líneas."
+hashtags: ["#Prompts", "#IA", "#Productividad"]
+palabras_clave: ["biblioteca de prompts", "plantillas de prompts", "organizar prompts", "prompts reutilizables"]
+escenas:
+  - narracion: "¿Escribes el mismo prompt desde cero cada semana? Guárdalo como plantilla, y mejóralo cada vez que lo uses."
+    visual:
+      plantilla: hook
+      datos: {kicker: "El Atajo", titulo: "Tu *biblioteca* de prompts", sub: "Plantillas con [corchetes]"}
+  - narracion: "Así se ve una plantilla. Lo que cambia cada vez va entre corchetes. El resto queda fijo, y no lo reescribes."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla reutilizable"
+        texto: "Escribe un correo de [TIPO] para [CLIENTE]. Objetivo: [OBJETIVO]. Tono: [TONO]. Máximo [N] líneas."
+  - narracion: "Crea una carpeta o un documento llamado Prompts. Guarda cada plantilla con un nombre claro. Cambia los datos variables por corchetes. Y anota qué ajustar después de usarla."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Cuatro *pasos*"
+        pasos:
+          - {titulo: "Una carpeta llamada Prompts", detalle: "O un documento"}
+          - {titulo: "Un nombre claro", detalle: "Ej.: Correo a cliente"}
+          - {titulo: "Variables entre corchetes", detalle: "Lo que cambia cada vez"}
+          - {titulo: "Una nota de ajuste", detalle: "Qué mejorar la próxima vez"}
+  - narracion: "Empieza con los tres prompts que más repites. Con el tiempo tendrás una biblioteca hecha con tus tareas reales. Y recuerda revisar siempre la respuesta."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Empieza con *tres*"
+        puntos: ["Los que más repites", "Con [CORCHETES]", "Mejóralos cada semana"]
+        cta: "Empieza hoy"
+fuentes:
+  - calculo: "[4, 3]"
+    respalda: "Método organizativo propio del canal (cuatro pasos, tres plantillas iniciales); no incluye afirmaciones sobre productos ni datos."
+riesgos:
+  derechos: "bajo — prompt y gráficos creados por el canal"
+  exactitud: "bajo — hábito de organización, sin datos externos"
+  monetizacion: "bajo — contenido educativo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

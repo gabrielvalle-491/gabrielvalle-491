@@ -1,0 +1,66 @@
+id: A-048
+canal: canal_a
+fecha: 2026-12-05
+formato: short
+serie: El Atajo
+episodio: "#09"
+pilar: prompts
+tipo_editorial: tutorial
+idea: "Pedir a la IA tres versiones de respuesta a un correo largo (formal, breve y con propuesta) permite elegir y ajustar en vez de redactar desde cero."
+objetivo: "Dar un prompt reutilizable para responder correos largos más rápido, con revisión humana y cuidado con datos personales."
+publico: "Administrativos, vendedores y emprendedores que reciben correos largos y necesitan responder con criterio."
+hipotesis: "Formato 'tutorial' en pilar 'prompts': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Un correo largo y poco tiempo? Pide tres respuestas distintas."
+duracion_objetivo: "35-55 s"
+titulo: "Un correo largo, tres respuestas con IA: formal, breve y con propuesta"
+titulos_alternativos:
+  - "Cómo responder un correo largo en minutos con IA"
+  - "Prompt para tres borradores de respuesta a un correo"
+  - "Deja de redactar desde cero: elige entre tres respuestas"
+criterio_titulo: "Describe el resultado concreto (tres respuestas) y el insumo (correo largo)."
+descripcion: |
+  Pega el correo y pide tres borradores: uno formal, uno breve y uno con una propuesta concreta. Tú eliges el que mejor encaja y lo ajustas.
+  Antes de pegar, quita datos personales o confidenciales. Revisa nombres, fechas y compromisos antes de enviar.
+cta: "Guárdalo para tu próximo correo largo."
+comentario_fijado: "Prompt: Lee este correo y redacta 3 respuestas: 1) formal, 2) breve de 3 líneas, 3) con una propuesta concreta: [PROPUESTA]. Usa solo datos del correo. Correo: [PEGA AQUÍ]"
+hashtags: ["#Prompts", "#IA", "#Productividad"]
+palabras_clave: ["responder correos con IA", "prompt para correos", "borrador de respuesta", "IA para el trabajo"]
+escenas:
+  - narracion: "¿Un correo largo y poco tiempo? Pide *tres respuestas* distintas. Tú eliges y ajustas."
+    visual:
+      plantilla: hook
+      datos: {kicker: "El Atajo", titulo: "Un correo largo, *tres respuestas*", sub: "Formal, breve y con propuesta"}
+  - narracion: "La formal cuida el tono con quien no conoces. La breve va al punto con quien ya tienes confianza. La tercera suma una propuesta concreta."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Formal", titulo: "Tono cuidado", items: ["Saludo y cierre completos", "Para contactos nuevos"]}
+        der: {etiqueta: "Breve", titulo: "Directa", items: ["Una idea por línea", "Para contactos frecuentes"]}
+        veredicto: "La tercera añade una propuesta"
+  - narracion: "Este es el prompt. Pega el correo y cambia tu propuesta, por ejemplo, una fecha para reunirse. La IA solo debe usar datos del correo."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Lee este correo y redacta 3 respuestas: 1) formal, 2) breve de 3 líneas, 3) con una propuesta concreta: [PROPUESTA]. Usa solo datos del correo.\nCorreo: [PEGA AQUÍ]"
+  - narracion: "Elige una, ajusta el tono a tu estilo y revisa nombres, fechas y compromisos. Quita datos personales antes de pegar. Así respondes más rápido, sin enviar nada que no hayas leído."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Tú *eliges* y ajustas"
+        puntos: ["Tres versiones", "Revisa fechas y compromisos", "Sin datos personales"]
+        cta: "Guárdalo para tu próximo correo"
+fuentes:
+  - calculo: "[3, 3]"
+    respalda: "Estructura de prompt propia del canal (tres respuestas de tres líneas como máximo en la versión breve); técnica general sin datos ni afirmaciones externas."
+riesgos:
+  derechos: "bajo — prompt y gráficos creados por el canal"
+  exactitud: "bajo — técnica general; se advierte revisar y proteger datos personales"
+  monetizacion: "bajo — contenido educativo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

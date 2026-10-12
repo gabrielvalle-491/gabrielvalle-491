@@ -1,0 +1,111 @@
+id: B-043
+canal: canal_b
+fecha: '2026-11-30'
+formato: short
+serie: Fórmula en 40 segundos
+episodio: '#10'
+pilar: formulas
+tipo_editorial: tutorial
+idea: TEXTO convierte una fecha en un texto como 'lunes, 5 de enero' usando el formato dddd, d "de" mmmm, sin escribirlo a mano.
+objetivo: Tutorial rápido y buscable de una fórmula útil para reportes, facturas y calendarios.
+publico: Personas que arman reportes, agendas o comunicados con fechas escritas en palabras.
+hipotesis: 'Formato ''tutorial'' en pilar ''formulas'': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje).'
+gancho: Convierte una fecha en «lunes, 5 de enero» con una sola fórmula.
+duracion_objetivo: 35-55 s (≈85-140 palabras)
+titulo: 'TEXTO en Excel: muestra «lunes, 5 de enero» con una fórmula'
+titulos_alternativos:
+- Fecha con el día de la semana en Excel (función TEXTO)
+- Cómo escribir la fecha completa en palabras con Excel
+- 'TEXTO con dddd y mmmm: fechas legibles'
+criterio_titulo: Muestra el resultado exacto que busca la persona y nombra la función.
+descripcion: |-
+  La función TEXTO convierte una fecha en texto con el formato que elijas. Con el formato dddd, d "de" mmmm, la fecha 05/01/2026 se muestra como lunes, 5 de enero.
+  El resultado es texto: conserva la fecha original en otra celda si necesitas hacer cálculos. El idioma de los nombres depende de la configuración del archivo.
+cta: Guárdalo para tu próximo reporte con fechas.
+comentario_fijado: 'Fórmula: =TEXTO(A2;"dddd, d ""de"" mmmm") con la fecha en A2. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;).'
+hashtags:
+- '#Excel'
+- '#GoogleSheets'
+- '#Fórmulas'
+palabras_clave:
+- función TEXTO fechas
+- día de la semana Excel
+- formato de fecha en palabras
+escenas:
+- narracion: Convierte una fecha en «lunes, 5 de enero» con una sola fórmula.
+  visual:
+    plantilla: hook
+    datos:
+      kicker: Fórmula en 40 segundos
+      titulo: De fecha a *«lunes, 5 de enero»*
+      sub: Función TEXTO
+- narracion: 'TEXTO convierte una fecha en el texto que tú pidas. Primero, la celda con la fecha. Luego [[cuatro des|dddd]]: el día de la semana. Después [[una letra d|d]]: el número del día. Y [[cuatro emes|mmmm]]: el mes completo.'
+  visual:
+    plantilla: formula
+    datos:
+      titulo: TEXTO con formato de fecha
+      formula: =TEXTO(A2;"dddd, d ""de"" mmmm")
+      partes:
+      - token: A2
+        explica: la celda con la fecha
+      - token: dddd
+        explica: día de la semana completo
+      - token: d
+        explica: número del día
+      - token: mmmm
+        explica: mes completo
+- narracion: Escribe la fórmula en la celda de al lado. Resalta la fecha. Y obtienes el día de la semana, el número y el mes.
+  visual:
+    plantilla: planilla
+    datos:
+      titulo: Fecha en palabras
+      formula: =TEXTO(A2;"dddd, d ""de"" mmmm")
+      celda_formula: B2
+      filas:
+      - - Fecha
+        - Texto
+      - - 05/01/2026
+        - ''
+      resaltar:
+      - rango: A2:A2
+        beat: 1
+      resultado:
+        celda: B2
+        valor: lunes, 5 de enero
+        beat: 2
+- narracion: 'Ojo: el resultado es texto. Si necesitas calcular con la fecha, conserva la original en otra celda.'
+  visual:
+    plantilla: cierre
+    datos:
+      titulo: El resultado es *texto*
+      puntos:
+      - Conserva la fecha original
+      - No la uses para calcular
+      cta: Guárdalo
+fuentes:
+- url: https://support.microsoft.com/es-es/excel/functions/text-function
+  titulo: Función TEXTO (Microsoft Support)
+  fecha_consulta: '2026-10-11'
+  respalda: TEXTO convierte un valor en texto con el formato indicado; dddd da el día completo y mmmm el mes completo; conviene conservar el valor original para cálculos.
+- url: https://support.google.com/docs/answer/3094139?hl=es-419
+  titulo: TEXTO (Ayuda de Editores de Documentos de Google)
+  fecha_consulta: '2026-10-11'
+  respalda: En Hojas de cálculo de Google, TEXTO admite d, dddd y mmmm para fechas.
+- calculo: '[5]'
+  respalda: Día de ejemplo (5 de enero de 2026, que cae en lunes).
+riesgos:
+  derechos: bajo — material propio
+  exactitud: medio — el resultado en español depende de la configuración regional de Excel/Sheets y del escape de comillas ('"de"'); probar la fórmula en ambos programas con configuración en español antes de publicar.
+  monetizacion: bajo — educación general, sin recomendar productos
+recursos:
+- nombre: Música y efectos originales generados por la fábrica
+  licencia: propia
+declaracion_sintetica:
+  decision: declarar
+  motivo: Voz sintética realista; gráficos no realistas. Se declara por prudencia.
+costo_estimado_usd: 0
+palabras_validas:
+- dddd
+- mmmm
+- des
+- emes

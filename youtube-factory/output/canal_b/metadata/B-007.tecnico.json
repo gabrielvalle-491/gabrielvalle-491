@@ -1,0 +1,76 @@
+{
+  "id": "B-007",
+  "duracion_s": 33.488,
+  "frases": 11,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.33,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.33,
+      "fin": 15.21,
+      "beats": [
+        0.0,
+        1.985,
+        5.482,
+        8.606
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 15.21,
+      "fin": 25.557,
+      "beats": [
+        0.0,
+        2.912,
+        4.924
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 25.557,
+      "fin": 33.488,
+      "beats": [
+        0.0,
+        4.3
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.38",
+    "input_tp": "-7.02",
+    "input_lra": "2.60",
+    "input_thresh": "-32.61",
+    "output_i": "-14.20",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.35",
+    "normalization_type": "dynamic",
+    "target_offset": "0.20"
+  },
+  "fotogramas_unicos": 249,
+  "tts_cache": 0,
+  "spec_hash": "c50c0a54c7c764ca",
+  "segundos_produccion": 85.1,
+  "texto_hablado": [
+    "Esta columna de correos, convertida en una sola celda separada por comas.",
+    "La función es unir cadenas.",
+    "Primero, el separador entre comillas: una coma y un espacio.",
+    "Luego, VERDADERO, para ignorar las celdas vacías.",
+    "Y al final, el rango con los correos.",
+    "En la planilla, escribe la fórmula en otra celda.",
+    "El rango toma los tres correos.",
+    "Resultado: todos juntos, listos para pegar.",
+    "Si hay una celda vacía, no deja comas de más.",
+    "Está en éxcel dos mil diecinueve y Microsoft trescientos sesenta y cinco.",
+    "En gúgol shits existe con el nombre tékst yóin."
+  ]
+}

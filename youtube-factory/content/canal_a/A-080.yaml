@@ -1,0 +1,72 @@
+id: A-080
+canal: canal_a
+fecha: 2027-01-06
+formato: short
+serie: IA sin humo
+episodio: "#08"
+pilar: conceptos
+tipo_editorial: mito
+idea: "Los modelos de lenguaje aprenden patrones estadísticos en texto y generan la continuación más probable; eso es útil, pero distinto de entender como una persona."
+objetivo: "Corregir una idea común con una analogía simple y dar tres hábitos prácticos que se derivan de cómo funciona la IA."
+publico: "Personas que usan asistentes de IA en el trabajo y se preguntan hasta dónde pueden confiar en ellos."
+hipotesis: "Formato 'mito' en pilar 'conceptos': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Mito: la IA entiende como una persona."
+duracion_objetivo: "35-55 s"
+titulo: "Mito: la IA entiende como una persona (qué hace en realidad)"
+titulos_alternativos:
+  - "La IA no piensa como tú: predice la siguiente palabra"
+  - "Por qué la IA suena segura aunque se equivoque"
+  - "Autocompletar a lo grande: cómo responde un asistente de IA"
+criterio_titulo: "Plantea el mito como afirmación que el público cree y promete la explicación real en el mismo título."
+descripcion: |
+  Los asistentes de IA aprenden relaciones estadísticas en textos y generan, paso a paso, el fragmento que resulta más probable. Eso los hace útiles para redactar y resumir, pero funcionan distinto a como entiende una persona.
+  Tres hábitos: verifica los datos importantes, dales contexto y pide fuentes que puedas abrir. Es una explicación simplificada.
+cta: "Guárdalo para recordarlo."
+comentario_fijado: "¿Qué respuesta de una IA te sonó muy segura y resultó estar equivocada?"
+hashtags: ["#IA", "#InteligenciaArtificial", "#IAsinHumo"]
+palabras_clave: ["cómo funciona la IA", "la IA entiende", "modelos de lenguaje", "mitos de la IA"]
+escenas:
+  - narracion: "Mito: la IA entiende como una persona. Realidad: aprende patrones en textos y predice la palabra siguiente más probable."
+    visual:
+      plantilla: mito
+      datos:
+        mito: "La IA *entiende* como una persona"
+        realidad: "Aprende *patrones* en textos y predice lo más probable"
+        fuente: "Ayuda de OpenAI, a la fecha"
+  - narracion: "Funciona como un autocompletado muy potente. Lee tu texto, calcula qué fragmento suena más probable a continuación y lo escribe. Luego repite el proceso, una y otra vez."
+    visual:
+      plantilla: texto
+      datos: {titulo: "Un autocompletado *muy potente*", texto: "Lee tu texto, calcula lo *más probable* que sigue, lo escribe y repite.", nota: "Explicación simplificada", beat_texto: 0}
+  - narracion: "Por eso puede sonar muy segura y estar equivocada: verifica los datos importantes. No sabe lo que tú no le cuentas: dale contexto. Y pide fuentes, y ábrelas."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Tres hábitos *útiles*"
+        pasos:
+          - {titulo: "Verifica lo importante", detalle: "Sonar seguro no es tener razón"}
+          - {titulo: "Dale contexto", detalle: "No sabe lo que no le cuentas"}
+          - {titulo: "Pide fuentes y ábrelas", detalle: "Comprueba en el original"}
+  - narracion: "Úsala como un asistente que redacta rápido, no como un experto que entiende tu situación."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Útil sí. *Persona*, no", puntos: ["Predice texto probable", "Puede sonar segura y fallar", "Tú verificas"], cta: "Guárdalo"}
+fuentes:
+  - url: "https://help.openai.com/en/articles/7842364-how-chatgpt-and-our-foundation-models-are-developed"
+    titulo: "How ChatGPT and our foundation models are developed (OpenAI Help Center)"
+    fecha_consulta: 2026-10-11
+    respalda: "Los modelos aprenden relaciones estadísticas en texto y las usan para predecir la siguiente palabra (token) más probable."
+  - url: "https://help.openai.com/en/articles/8313428-does-chatgpt-tell-the-truth"
+    titulo: "Does ChatGPT tell the truth? (OpenAI Help Center)"
+    fecha_consulta: 2026-10-11
+    respalda: "El modelo genera respuestas a partir de patrones en sus datos, puede sonar seguro aun estando equivocado y se recomienda verificar datos y referencias."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — es una simplificación: los modelos actuales tienen etapas adicionales de entrenamiento y si 'entienden' es un debate abierto; el video lo plantea como 'distinto', sin afirmar que no haya ninguna comprensión. Revisar el matiz antes de publicar"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

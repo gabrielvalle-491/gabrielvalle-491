@@ -1,0 +1,70 @@
+{
+  "id": "B-004",
+  "duracion_s": 24.452,
+  "frases": 7,
+  "subtitulos": 22,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.261,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.261,
+      "fin": 11.24,
+      "beats": [
+        0.0,
+        2.734
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 11.24,
+      "fin": 19.543,
+      "beats": [
+        0.0,
+        3.385,
+        6.217
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 19.543,
+      "fin": 24.452,
+      "beats": [
+        0.0,
+        1.636
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.99",
+    "input_tp": "-5.64",
+    "input_lra": "2.40",
+    "input_thresh": "-32.20",
+    "output_i": "-14.06",
+    "output_tp": "-1.50",
+    "output_lra": "2.00",
+    "output_thresh": "-24.26",
+    "normalization_type": "dynamic",
+    "target_offset": "0.06"
+  },
+  "fotogramas_unicos": 197,
+  "tts_cache": 0,
+  "spec_hash": "345af8b456562197",
+  "segundos_produccion": 99.9,
+  "texto_hablado": [
+    "Misma fórmula, copiada hacia abajo: la primera fila sale bien y la segunda da cero.",
+    "El impuesto usa la tasa de la celda de dos.",
+    "Al copiar, la fórmula se mueve a de tres, que está vacía.",
+    "Sin signo de dólar, la referencia es relativa y se mueve.",
+    "Con el signo de dólar, es absoluta y se queda.",
+    "Para ponerlo, usa efe cuatro.",
+    "Antes de copiar, pregúntate: ¿esta celda debe moverse o quedarse?"
+  ]
+}

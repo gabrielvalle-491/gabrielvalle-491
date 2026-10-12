@@ -1,0 +1,66 @@
+id: A-031
+canal: canal_a
+fecha: 2026-11-18
+formato: short
+serie: Error común
+episodio: "#01"
+pilar: prompts
+tipo_editorial: error_comun
+idea: "Si no defines la longitud de la respuesta, la IA decide por ti; fija una medida (palabras, viñetas o tiempo de lectura) y verifica que se cumpla."
+objetivo: "Corregir un error frecuente con una regla simple, con ejemplo comparativo y plantilla reutilizable."
+publico: "Quienes usan asistentes de IA para resúmenes, correos y textos y reciben respuestas demasiado largas o cortas."
+hipotesis: "Formato 'error_comun' en pilar 'prompts': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Si no defines la longitud, la IA decide por ti."
+duracion_objetivo: "35-55 s"
+titulo: "Error común al usar IA: no pedir una longitud"
+titulos_alternativos:
+  - "Por qué tus respuestas de IA salen larguísimas (y cómo evitarlo)"
+  - "Palabras, viñetas o minutos: define la medida de tu prompt"
+  - "Una frase en tu prompt controla el largo de la respuesta"
+criterio_titulo: "Nombra el error exacto en lenguaje claro y es buscable ('error común', 'longitud de la respuesta')."
+descripcion: |
+  Si no indicas la longitud, la respuesta puede salir muy corta o muy larga. Elige una sola medida: cantidad de palabras, cantidad de viñetas o tiempo de lectura.
+  La IA puede no ajustarse al conteo exacto: revisa el resultado y pide una versión más corta si hace falta.
+cta: "Pruébalo en tu próximo prompt."
+comentario_fijado: "Prompt: Resume este texto en [5] viñetas de máximo [10] palabras cada una. Texto: [PEGA AQUÍ]"
+hashtags: ["#Prompts", "#IA", "#Productividad"]
+palabras_clave: ["longitud de respuesta IA", "errores al escribir prompts", "prompt para resumir", "cómo escribir prompts"]
+escenas:
+  - narracion: "Si no defines la longitud, la IA decide por ti. Y puede darte demasiado o muy poco. Por eso conviene fijar una medida."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Error común", titulo: "No pedir una *longitud*", sub: "La IA decide por ti"}
+  - narracion: "Sin medida, la respuesta puede salir de tres líneas o de tres páginas. Con una medida, sabes qué vas a recibir. Elige una sola: palabras, viñetas o tiempo de lectura."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Sin medida", titulo: "«Resume este texto»", items: ["Largo impredecible", "Debes recortar a mano"]}
+        der: {etiqueta: "Con medida", titulo: "«Resume en 5 viñetas»", items: ["Sabes qué vas a recibir", "Menos retoques"]}
+        veredicto: "Una medida: palabras, viñetas o minutos"
+  - narracion: "Por ejemplo: cinco viñetas de máximo diez palabras cada una. Y si se pasa, pide una versión más corta."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Resume este texto en [5] viñetas de máximo [10] palabras cada una.\nTexto: [PEGA AQUÍ]"
+  - narracion: "La IA puede no ajustarse al conteo exacto. Revisa el resultado antes de usarlo en tu trabajo."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Fija el *largo* en el prompt"
+        puntos: ["Palabras, viñetas o minutos", "Elige una sola medida", "Revisa que se cumpla"]
+        cta: "Pruébalo en tu próximo prompt"
+fuentes:
+  - calculo: "[3, 5, 10]"
+    respalda: "Ejemplos de medidas de longitud propuestos por el canal; técnica general de prompts sin datos externos."
+riesgos:
+  derechos: "bajo — prompt y gráficos creados por el canal"
+  exactitud: "bajo — técnica general; se advierte que la IA puede no cumplir el conteo exacto"
+  monetizacion: "bajo — contenido educativo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

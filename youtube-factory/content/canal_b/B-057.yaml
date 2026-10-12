@@ -1,0 +1,82 @@
+id: B-057
+canal: canal_b
+fecha: 2026-12-14
+formato: short
+serie: Mini sistema
+episodio: "#07"
+pilar: trabajo
+tipo_editorial: tutorial
+idea: "DIAS.LAB cuenta los días hábiles entre dos fechas, excluyendo sábados, domingos y una lista de feriados."
+objetivo: "Tutorial práctico para planificar entregas con días hábiles reales en vez de días corridos."
+publico: "Personas que planifican entregas, proyectos o plazos en Excel."
+hipotesis: "Formato 'tutorial' en pilar 'trabajo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Entrega el miércoles 23. ¿Cuántos días hábiles te quedan desde el lunes 14?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "DIAS.LAB: cuántos días hábiles quedan hasta una entrega"
+titulos_alternativos:
+  - "Cómo contar días hábiles en Excel sin fines de semana ni feriados"
+  - "Planifica tu entrega: días hábiles vs días corridos"
+  - "La función que cuenta días de trabajo (y excluye feriados)"
+criterio_titulo: "Nombra la función y el caso práctico buscado (días hábiles hasta una entrega)."
+descripcion: |
+  DIAS.LAB cuenta los días laborables entre una fecha inicial y una final, sin sábados ni domingos, y resta los feriados que le indiques en una lista. En el ejemplo, del lunes 14 al miércoles 23 de diciembre de 2026 hay 10 días corridos y 7 hábiles si hay un feriado el 21.
+  El feriado del ejemplo es ilustrativo: ingresa los de tu país. Si tu fin de semana es distinto, existe DIAS.LAB.INTL.
+cta: "Pruébala con la fecha de tu próxima entrega."
+comentario_fijado: "Fórmula: =DIAS.LAB(A2;B2;C2) con la fecha inicial en A2, la entrega en B2 y los feriados en C2. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos."
+hashtags: ["#Excel", "#Fórmulas", "#Productividad"]
+palabras_clave: ["DIAS.LAB", "días hábiles Excel", "contar días laborables"]
+escenas:
+  - narracion: "Entrega el miércoles 23. ¿Cuántos días hábiles te quedan desde el lunes 14?"
+    visual:
+      plantilla: hook
+      datos: {kicker: "Mini sistema", titulo: "Días *hábiles* hasta la entrega", sub: "Del 14 al 23 de diciembre"}
+  - narracion: "La función DIAS.LAB pide la fecha inicial, la fecha final y, opcional, una lista de feriados."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=DIAS.LAB(A2;B2;C2)"
+        partes:
+          - {token: "A2", explica: "fecha inicial"}
+          - {token: "B2", explica: "fecha de entrega"}
+          - {token: "C2", explica: "feriados (opcional)"}
+  - narracion: "Del 14 al 23 hay 10 días corridos. Resta 2 por el fin de semana. Resta 1 por un feriado el 21. Quedan 7 días hábiles."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Días corridos vs hábiles"
+        lineas:
+          - {izq: "Días corridos (14 al 23)", der: "10"}
+          - {izq: "Sábado y domingo", der: "− 2"}
+          - {izq: "Feriado (ejemplo)", der: "− 1"}
+        resultado: {izq: "Días hábiles", der: "7"}
+  - narracion: "Ingresa tus feriados y cambia las fechas."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Planifica con *días hábiles*"
+        puntos: ["Sin sábados ni domingos", "Resta tus feriados", "Otro fin de semana: DIAS.LAB.INTL"]
+        cta: "Pruébala"
+fuentes:
+  - url: "https://support.microsoft.com/es-ES/Excel/functions/networkdays-function"
+    titulo: "NETWORKDAYS / DIAS.LAB (Microsoft Support, versión es-ES)"
+    fecha_consulta: 2026-10-11
+    respalda: "NETWORKDAYS(fecha_inicial; fecha_final; [festivos]) devuelve el número de días laborables completos entre dos fechas, sin fines de semana ni las fechas de la lista de feriados; para otros fines de semana existe NETWORKDAYS.INTL. DIAS.LAB es su nombre en Excel en español."
+  - calculo: "[14, 23, 21]"
+    respalda: "Fechas del ejemplo: inicio el 14, entrega el 23 y feriado ilustrativo el 21 de diciembre de 2026 (lunes 14, miércoles 23)."
+  - calculo: "23 - 14 + 1"
+    resultado: 10
+    respalda: "Días corridos del 14 al 23, ambos incluidos."
+  - calculo: "23 - 14 + 1 - 2 - 1"
+    resultado: 7
+    respalda: "Días hábiles: 10 días corridos menos 2 (sábado 19 y domingo 20) menos 1 feriado."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — la ayuda de Microsoft se leyó en la versión es-ES de NETWORKDAYS; la equivalencia con el nombre DIAS.LAB y el conteo inclusivo de ambos extremos proviene de fuentes secundarias en la búsqueda. Probar =DIAS.LAB en un Excel en español con las fechas del ejemplo (resultado esperado: 7) antes de publicar."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["INTL"]

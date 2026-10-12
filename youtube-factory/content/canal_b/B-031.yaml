@@ -1,0 +1,83 @@
+id: B-031
+canal: canal_b
+fecha: 2026-11-18
+formato: short
+serie: Tu dinero en una planilla
+episodio: "#11"
+pilar: dinero
+tipo_editorial: tutorial
+idea: "Los meses de cobertura de un fondo de emergencia se calculan dividiendo el ahorro disponible entre los gastos esenciales mensuales."
+objetivo: "Enseñar un cálculo simple de cobertura con un ejemplo ilustrativo; educación financiera general sin metas prescriptivas."
+publico: "Personas que quieren saber cuánto tiempo podrían cubrir sus gastos básicos con lo que tienen ahorrado."
+hipotesis: "Formato 'tutorial' en pilar 'dinero': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Cuántos meses podrías cubrir tus gastos esenciales con lo que tienes ahorrado?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Fondo de emergencia: calcula tus meses de cobertura en Excel"
+titulos_alternativos:
+  - "¿Para cuántos meses te alcanza tu ahorro? La cuenta en una planilla"
+  - "Meses de cobertura: ahorro dividido gastos esenciales"
+  - "La fórmula simple para medir tu fondo de emergencia"
+criterio_titulo: "Pregunta concreta que la gente se hace, con la herramienta (Excel) y el cálculo."
+descripcion: |
+  Meses de cobertura = ahorro disponible ÷ gastos esenciales mensuales. Ejemplo con cifras ilustrativas: 6 400 de ahorro y 1 600 de gastos esenciales al mes dan 4 meses.
+  Cada persona decide qué considera esencial y cuánta cobertura necesita. Contenido educativo general: no es asesoramiento financiero.
+cta: "Calcula tus propios meses de cobertura."
+comentario_fijado: "Fórmula: =B1/B2 con el ahorro disponible en B1 y los gastos esenciales mensuales en B2 (suma de vivienda, comida, transporte y servicios). En México y EE. UU. Excel suele usar coma (,) como separador."
+hashtags: ["#FinanzasPersonales", "#FondoDeEmergencia", "#Excel"]
+palabras_clave: ["fondo de emergencia cálculo", "meses de cobertura", "gastos esenciales planilla"]
+escenas:
+  - narracion: "¿Cuántos meses podrías cubrir tus gastos esenciales con lo que tienes ahorrado? La respuesta sale de una división."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Tu dinero en una planilla", titulo: "Tus *meses de cobertura*", sub: "Ejemplo con cifras ilustrativas"}
+  - narracion: "Primero, define qué es esencial. Es lo que necesitas pagar cada mes para vivir: vivienda, comida, transporte y servicios."
+    visual:
+      plantilla: texto
+      datos: {titulo: "Qué cuenta como *esencial*", texto: "Lo que *necesitas pagar* cada mes para vivir"}
+  - narracion: "Vivienda, 800. Comida, 450. Transporte, 200. Servicios, 150."
+    visual:
+      plantilla: barras
+      datos:
+        titulo: "Solo lo esencial, por mes"
+        items:
+          - {etiqueta: "Vivienda", valor: 800}
+          - {etiqueta: "Comida", valor: 450}
+          - {etiqueta: "Transporte", valor: 200}
+          - {etiqueta: "Servicios", valor: 150}
+        nota: "Montos ilustrativos"
+  - narracion: "Suma los esenciales: 1 600 al mes. Divide tu ahorro disponible, 6 400, entre ese total. El resultado: 4 meses de cobertura."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Meses de cobertura"
+        lineas:
+          - {izq: "Gastos esenciales por mes", der: "1 600"}
+          - {izq: "Ahorro disponible", der: "6 400"}
+        resultado: {izq: "6 400 ÷ 1 600", der: "4 meses"}
+  - narracion: "Cada persona define qué es esencial y cuánta cobertura quiere. En la planilla es una sola división: ahorro entre gastos."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Ahorro ÷ gastos *esenciales*", puntos: ["Suma solo lo esencial", "Divide tu ahorro disponible", "Tú decides tu meta"], cta: "Haz tu cálculo"}
+fuentes:
+  - calculo: "[800, 450, 200, 150]"
+    respalda: "Gastos esenciales mensuales ilustrativos del ejemplo."
+  - calculo: "sum([800, 450, 200, 150])"
+    resultado: 1600
+    respalda: "Total de gastos esenciales por mes."
+  - calculo: "6400"
+    resultado: 6400
+    respalda: "Ahorro disponible ilustrativo."
+  - calculo: "6400 / sum([800, 450, 200, 150])"
+    resultado: 4
+    respalda: "Meses de cobertura = ahorro / gastos esenciales mensuales."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — aritmética verificada automáticamente; no se prescribe una meta"
+  monetizacion: "bajo — educación financiera general"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

@@ -1,0 +1,90 @@
+id: B-003
+canal: canal_b
+fecha: 2026-10-21
+formato: short
+serie: Mini sistema
+episodio: "#01"
+pilar: trabajo
+tipo_editorial: contraintuitivo
+idea: "Un recargo del 30 % sobre el costo no da 30 % de margen; el margen se mide sobre el precio de venta. Fórmula de precio para un margen objetivo."
+objetivo: "Corregir un error frecuente al fijar precios; atraer emprendedores (público con intención comercial)."
+publico: "Emprendedores y comerciantes que fijan precios sumando un porcentaje al costo."
+hipotesis: "Gancho 'error' + duración media + visual 'comparación': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "Si compras a 100 y le sumas 30 %, tu margen no es 30 %."
+duracion_objetivo: "35-55 s"
+titulo: "30 % de recargo no es 30 % de margen (la cuenta correcta)"
+titulos_alternativos:
+  - "Margen vs recargo: el error que te hace cobrar de menos"
+  - "Cómo calcular el precio para ganar un 30 % de margen"
+  - "La fórmula de precio que todo emprendedor necesita"
+criterio_titulo: "Plantea la confusión exacta con cifras y promete la corrección."
+descripcion: |
+  El recargo (markup) se calcula sobre el costo; el margen, sobre el precio de venta. Si a un costo de 100 le sumas 30 %, vendes a 130 y tu margen es de 23 %.
+  Para un margen objetivo: precio = costo / (1 − margen). Ejemplo con cifras ilustrativas.
+cta: "Revisa cómo calcula tu negocio antes de fijar precios."
+comentario_fijado: "Fórmula: =A2/(1-B2) con el costo en A2 y el margen deseado en B2."
+hashtags: ["#Emprendimiento", "#Excel", "#Precios"]
+palabras_clave: ["margen vs markup", "calcular precio de venta", "margen de ganancia fórmula"]
+escenas:
+  - narracion: "Si compras a 100 y le sumas 30 %, tu margen no es 30 %. Es *23 %*."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Mini sistema", titulo: "30 % de recargo *no es* 30 % de margen"}
+  - narracion: "Costo: 100. Con 30 % de recargo, vendes a 130. Ganas 30, pero el margen se mide sobre el precio de venta. 30 dividido 130: 23 %."
+    visual:
+      plantilla: calculo
+      datos:
+        lineas:
+          - {izq: "Costo", der: "100"}
+          - {izq: "Precio (100 × 1,30)", der: "130"}
+          - {izq: "Ganancia", der: "30"}
+        resultado: {izq: "Margen (30 ÷ 130)", der: "23,1 %"}
+  - narracion: "El recargo se calcula sobre el costo. El margen, sobre la venta. Para ganar un 30 % de margen, el precio es costo dividido 0,70."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Recargo", titulo: "Sobre el costo", items: ["Ganancia ÷ costo", "30 ÷ 100 = 30 %"]}
+        der: {etiqueta: "Margen", titulo: "Sobre la venta", items: ["Ganancia ÷ precio", "30 ÷ 130 = 23 %"]}
+        veredicto: "Margen de 30 % → precio = costo ÷ 0,70"
+  - narracion: "En tu planilla, pon el costo y el margen que buscas. La fórmula divide el costo por uno menos el margen. Precio: *142,86*."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=A2/(1-B2)"
+        celda_formula: "C2"
+        filas:
+          - ["Costo", "Margen", "Precio"]
+          - [100, "30 %", ""]
+        resaltar:
+          - {rango: "A2:B2", beat: 1}
+        resultado: {celda: "C2", valor: "142,86", beat: 2}
+  - narracion: "Revisa cuál usa tu negocio antes de fijar precios."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Precio con la *fórmula correcta*"
+        puntos: ["Recargo: sobre el costo", "Margen: sobre la venta", "Precio = costo ÷ (1 − margen)"]
+        cta: "Guárdalo"
+fuentes:
+  - calculo: "[100, 30]"
+    respalda: "Cifras ilustrativas del ejemplo."
+  - calculo: "100 * 1.30"
+    resultado: 130
+    respalda: "Precio con 30 % de recargo."
+  - calculo: "30 / 130 * 100"
+    resultado: 23.08
+    respalda: "Margen sobre el precio de venta."
+  - calculo: "100 / (1 - 0.30)"
+    resultado: 142.86
+    respalda: "Precio para un margen del 30 %."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — aritmética verificada automáticamente"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas."
+costo_estimado_usd: 0
+palabras_validas: ["markup"]

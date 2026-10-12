@@ -1,0 +1,96 @@
+id: B-066
+canal: canal_b
+fecha: 2026-12-23
+formato: short
+serie: Reto de la celda
+episodio: "#03"
+pilar: quiz
+tipo_editorial: quiz
+idea: "CONTAR solo cuenta celdas con números; CONTARA cuenta todas las celdas no vacías (incluye texto y errores)."
+objetivo: "Quiz corto que corrige una confusión frecuente al contar datos y enseña cuándo usar cada función."
+publico: "Personas que cuentan registros, asistentes o pedidos en Excel y obtienen totales que no cuadran."
+hipotesis: "Formato 'quiz' en pilar 'quiz': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Qué devuelve CONTAR en un rango con 8, un nombre, una celda vacía y 15?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "¿Qué cuenta CONTAR? Reto de la celda"
+titulos_alternativos:
+  - "CONTAR vs CONTARA: la diferencia que cambia tus totales"
+  - "Tu CONTAR da menos de lo esperado: por qué pasa"
+  - "Quiz de Excel: ¿2, 3 o 4?"
+criterio_titulo: "Plantea la pregunta exacta del reto y nombra la función para búsquedas."
+descripcion: |
+  CONTAR solo cuenta celdas con números (incluidas fechas). CONTARA cuenta todas las celdas que no están vacías: números, texto y también errores.
+  Si tu total no cuadra, revisa qué tipo de datos tiene el rango.
+cta: "Comenta tu respuesta."
+comentario_fijado: "=CONTAR(A2:A5) da 2 y =CONTARA(A2:A5) da 3 con 8, Ana, celda vacía y 15. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos."
+hashtags: ["#Excel", "#Quiz", "#Fórmulas"]
+palabras_clave: ["CONTAR vs CONTARA", "función CONTARA", "contar celdas no vacías"]
+escenas:
+  - narracion: "¿Qué devuelve CONTAR en un rango con 8, un nombre, una celda vacía y 15? ¿Dos, tres o cuatro? Dos: CONTAR solo cuenta números."
+    visual:
+      plantilla: pregunta
+      datos:
+        pregunta: "¿Qué devuelve =CONTAR(A2:A5)?"
+        opciones: ["2", "3", "4"]
+        correcta: 0
+        explicacion: "CONTAR solo cuenta números"
+  - narracion: "En la planilla, CONTAR mira el rango [[a dos a a cinco|A2:A5]]. Solo el 8 y el 15 son números. Resultado: 2."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=CONTAR(A2:A5)"
+        celda_formula: "B6"
+        filas:
+          - ["Dato", "Tipo"]
+          - [8, "número"]
+          - ["Ana", "texto"]
+          - ["", "vacía"]
+          - [15, "número"]
+          - ["Resultado", ""]
+        resaltar:
+          - {rango: "A2:A5", beat: 1}
+        resultado: {celda: "B6", valor: "2", beat: 2}
+  - narracion: "CONTAR cuenta números: 2. [[contar a|CONTARA]] cuenta todo lo que no está vacío: 3. La diferencia es la celda de texto."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Mismo rango, dos resultados"
+        lineas:
+          - {izq: "CONTAR(A2:A5)", der: "2"}
+          - {izq: "CONTARA(A2:A5)", der: "3"}
+        resultado: {izq: "Diferencia", der: "1 celda de texto"}
+  - narracion: "Elige según lo que necesites contar: números con CONTAR, cualquier dato con [[contar a|CONTARA]]. Comenta tu respuesta."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "*CONTAR* números, *CONTARA* todo"
+        puntos: ["CONTAR: solo números", "CONTARA: lo que no está vacío", "CONTARA también cuenta errores"]
+        cta: "Comenta tu respuesta"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/excel/functions/counta-function"
+    titulo: "Función CONTARA (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "CONTARA cuenta las celdas que no están vacías, con cualquier tipo de información, incluidos valores de error y texto vacío; no cuenta celdas realmente vacías."
+  - url: "https://support.microsoft.com/es-es/office/funci%C3%B3n-count-a59cd7fc-b623-4d93-87a4-d23bf411294c"
+    titulo: "Función CONTAR / COUNT (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "CONTAR cuenta las celdas que contienen números (incluidas fechas); el texto, los valores lógicos y los errores no se cuentan."
+  - calculo: "[8, 15]"
+    respalda: "Datos del ejemplo (los dos números del rango)."
+  - calculo: "2"
+    resultado: 2
+    respalda: "CONTAR(A2:A5): solo 8 y 15 son números."
+  - calculo: "3"
+    resultado: 3
+    respalda: "CONTARA(A2:A5): 8, Ana y 15 no están vacíos."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — comportamiento documentado por Microsoft; los resultados del ejemplo se deducen directamente de las definiciones."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["CONTAR", "CONTARA"]

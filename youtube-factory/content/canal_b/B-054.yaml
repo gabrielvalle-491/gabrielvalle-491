@@ -1,0 +1,88 @@
+id: B-054
+canal: canal_b
+fecha: 2026-12-11
+formato: short
+serie: Reto de la celda
+episodio: "#01"
+pilar: quiz
+tipo_editorial: contraintuitivo
+idea: "Si un valor sube 50 % y luego baja 50 %, no vuelve al inicio: la baja se calcula sobre un número mayor. Para volver desde +50 % hay que bajar 33,3 %."
+objetivo: "Quiz corto que corrige un error frecuente con porcentajes y genera comentarios (respuestas y debate)."
+publico: "Cualquier persona que trabaje con precios, ventas o variaciones porcentuales."
+hipotesis: "Formato 'contraintuitivo' en pilar 'quiz': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Un precio de 100 sube 50 % y luego baja 50 %: ¿cuánto vale al final?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Sube 50 % y baja 50 %: ¿vuelves al inicio? (reto)"
+titulos_alternativos:
+  - "Por qué +50 % y -50 % no se compensan"
+  - "Reto de porcentajes: ¿100, 75 o 125?"
+  - "El error de porcentajes que cometen hasta en reportes"
+criterio_titulo: "Plantea la pregunta exacta que despierta curiosidad legítima y se responde en el video."
+descripcion: |
+  Un valor de 100 sube 50 % y llega a 150; si luego baja 50 %, pierde 75 y queda en 75, no en 100. Los porcentajes se calculan siempre sobre el valor del momento.
+  Para volver al inicio desde 150 hay que bajar un 33,3 %. Cifras ilustrativas.
+cta: "Comenta tu respuesta antes de ver la solución."
+comentario_fijado: "En la planilla: =A2*(1+50%)*(1-50%) da 75 cuando A2 vale 100. Para volver a 100 desde 150: =1-100/150, es decir, 33,3 %. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos."
+hashtags: ["#Excel", "#Porcentajes", "#Matemáticas"]
+palabras_clave: ["porcentajes no se compensan", "subir y bajar porcentaje", "variación porcentual"]
+escenas:
+  - narracion: "Un precio de 100 sube 50 % y luego baja 50 %: ¿cuánto vale al final? ¿100, 75 o 125? Quedas en 75, no en 100."
+    visual:
+      plantilla: pregunta
+      datos:
+        pregunta: "100 sube 50 % y baja 50 %. ¿Valor final?"
+        opciones: ["100", "75", "125"]
+        correcta: 1
+        explicacion: "La baja se calcula sobre 150"
+  - narracion: "Empiezas con 100. Subes 50 %: llegas a 150. Bajar 50 % de 150 quita 75. Terminas en 75, un 25 % menos que al inicio."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Paso a paso"
+        lineas:
+          - {izq: "Inicio", der: "100"}
+          - {izq: "Sube 50 %", der: "150"}
+          - {izq: "Baja 50 % de 150", der: "− 75"}
+        resultado: {izq: "Final", der: "75"}
+  - narracion: "Para volver a 100 desde 150, solo debes bajar un tercio: 33,3 %. Los porcentajes no se compensan."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Los porcentajes *no se compensan*"
+        puntos: ["+50 % y −50 % = −25 %", "Desde 150, vuelves a 100 con −33,3 %", "Siempre sobre el valor del momento"]
+        cta: "Comenta tu respuesta"
+fuentes:
+  - calculo: "[100, 50]"
+    respalda: "Datos ilustrativos del ejemplo (valor inicial y porcentaje)."
+  - calculo: "100 * 1.5"
+    resultado: 150
+    respalda: "Valor tras subir 50 %."
+  - calculo: "150 * 0.5"
+    resultado: 75
+    respalda: "Monto que quita una baja de 50 % sobre 150 (y valor final)."
+  - calculo: "150 - 150 * 0.5"
+    resultado: 75
+    respalda: "Valor final tras bajar 50 %."
+  - calculo: "(75 - 100) / 100 * 100"
+    resultado: -25
+    respalda: "Variación total respecto del inicio."
+  - calculo: "abs((75 - 100) / 100 * 100)"
+    resultado: 25
+    respalda: "Pérdida total del 25 % respecto del inicio."
+  - calculo: "100 * 1.25"
+    resultado: 125
+    respalda: "Opción incorrecta del quiz (125), usada solo como distractor."
+  - calculo: "(150 - 100) / 150 * 100"
+    resultado: 33.33
+    respalda: "Porcentaje de baja necesario para volver de 150 a 100."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — aritmética verificada automáticamente"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

@@ -1,0 +1,76 @@
+id: A-027
+canal: canal_a
+fecha: 2026-11-14
+formato: short
+serie: Caso pyme
+episodio: "#08"
+pilar: negocio
+tipo_editorial: caso_practico
+idea: "Un reclamo ficticio (una silla que no llega) se responde en tres pasos: calmar, resolver y cerrar; la IA redacta el borrador y la persona decide qué solución puede cumplir."
+objetivo: "Dar una estructura de respuesta reutilizable para reclamos y un prompt con variables, con foco en no prometer lo que no se puede cumplir."
+publico: "Dueños y encargados de atención al cliente de pymes que deben contestar reclamos por escrito."
+hipotesis: "Formato 'caso_practico' en pilar 'negocio': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Un cliente molesto te escribe. Respóndele en tres pasos."
+duracion_objetivo: "35-55 s"
+titulo: "Responder un reclamo de cliente con IA en 3 pasos"
+titulos_alternativos:
+  - "Calmar, resolver, cerrar: cómo contestar un reclamo"
+  - "Cliente enojado: la respuesta en tres pasos (con prompt)"
+  - "Qué escribir cuando un cliente se queja"
+criterio_titulo: "Promete una estructura concreta (3 pasos) para un problema frecuente; términos buscables ('reclamo de cliente')."
+descripcion: |
+  Tres pasos para responder un reclamo: calmar (reconocer el problema sin discutir), resolver (ofrecer una solución concreta que puedas cumplir) y cerrar (confirmar el siguiente paso y la fecha). El reclamo del ejemplo es ficticio.
+  La IA redacta el borrador; tú decides la solución. No pegues datos personales del cliente en la herramienta.
+cta: "Guárdalo para tu próximo reclamo."
+comentario_fijado: "Prompt: Redacta una respuesta a este reclamo: [PEGA EL RECLAMO SIN DATOS PERSONALES]. Estructura: 1) reconoce el problema; 2) ofrece esta solución: [SOLUCIÓN]; 3) cierra con el siguiente paso y la fecha. Tono cordial, sin excusas."
+hashtags: ["#AtenciónAlCliente", "#Pymes", "#IA"]
+palabras_clave: ["responder reclamo de cliente", "atención al cliente con IA", "respuesta a queja", "plantilla de respuesta"]
+escenas:
+  - narracion: "Un cliente molesto te escribe. Respóndele en tres pasos."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Caso pyme", titulo: "Reclamo de cliente: *3 pasos*", sub: "Calmar, resolver, cerrar"}
+  - narracion: "Imagina este reclamo, ficticio: pidió una silla hace diez días y todavía no llega."
+    visual:
+      plantilla: texto
+      datos:
+        kicker: "Reclamo ficticio"
+        titulo: "El mensaje"
+        texto: "«Pedí una silla hace diez días y *todavía no llega*.»"
+        beat_texto: 0
+  - narracion: "Primero, calma: reconoce el problema sin discutir. Segundo, resuelve: ofrece una solución concreta. Tercero, cierra: confirma el siguiente paso y la fecha."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Los *tres* pasos"
+        pasos:
+          - {titulo: "Calmar", detalle: "Reconoce sin discutir"}
+          - {titulo: "Resolver", detalle: "Una solución concreta"}
+          - {titulo: "Cerrar", detalle: "Siguiente paso y fecha"}
+  - narracion: "Pídele a la IA el borrador con ese orden. La solución la pones tú."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Redacta una respuesta a este reclamo: [PEGA EL RECLAMO]. Estructura: 1) reconoce el problema; 2) ofrece esta solución: [SOLUCIÓN]; 3) cierra con el siguiente paso y la fecha. Tono cordial, sin excusas."
+  - narracion: "Nunca prometas algo que no puedas cumplir. Y no pegues datos personales del cliente en la IA. Revisa el borrador y ajústalo a tu forma de hablar."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Cumple lo que *prometes*"
+        puntos: ["Tú decides la solución", "Sin datos personales en la IA", "Revisa el borrador"]
+        cta: "Guárdalo para tu próximo reclamo"
+fuentes:
+  - calculo: "[3, 10]"
+    respalda: "Estructura de respuesta propia del canal; el reclamo del ejemplo es ficticio (diez días de espera inventados para ilustrar)."
+riesgos:
+  derechos: "bajo — texto, prompt y gráficos creados por el canal"
+  exactitud: "bajo — técnica general; el caso se declara ficticio"
+  monetizacion: "bajo — contenido educativo para negocios"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

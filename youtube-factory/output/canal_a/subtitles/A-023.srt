@@ -1,0 +1,47 @@
+1
+00:00:00,120 --> 00:00:02,353
+¿Tienes una columna entera para traducir?
+
+2
+00:00:02,593 --> 00:00:04,668
+No copies y pegues celda por celda.
+
+3
+00:00:04,948 --> 00:00:07,115
+En Google Sheets existe GOOGLETRANSLATE.
+
+4
+00:00:07,275 --> 00:00:09,574
+Primero va el texto: aquí, la celda A dos.
+
+5
+00:00:09,734 --> 00:00:12,130
+Luego, el idioma de origen: es, de español.
+
+6
+00:00:12,290 --> 00:00:14,437
+Y al final, el de destino: en, de inglés.
+
+7
+00:00:14,717 --> 00:00:17,588
+Escribe la fórmula en B dos y cópiala hacia abajo.
+
+8
+00:00:17,748 --> 00:00:19,476
+Cada fila se traduce sola.
+
+9
+00:00:19,636 --> 00:00:22,457
+Y B dos muestra la traducción del texto de A dos.
+
+10
+00:00:22,737 --> 00:00:24,809
+Eso sí: es traducción automática.
+
+11
+00:00:24,969 --> 00:00:27,240
+Revisa a mano los textos importantes.
+
+12
+00:00:27,400 --> 00:00:31,420
+Y si tu hoja usa coma como separador, cambia el punto y coma por coma.

@@ -1,0 +1,93 @@
+id: B-060
+canal: canal_b
+fecha: 2026-12-17
+formato: short
+serie: Excel vs Sheets
+episodio: "#02"
+pilar: excel_vs_sheets
+tipo_editorial: comparacion
+idea: "GOOGLEFINANCE, IMPORTRANGE y GOOGLETRANSLATE son funciones de Google Sheets; Excel resuelve esas tareas de otra forma (vínculos entre libros, TRANSLATE y STOCKHISTORY en Microsoft 365), no con funciones idénticas."
+objetivo: "Comparación honesta y actualizada: qué hace cada función de Sheets y qué se usa en Excel para lo mismo, sin afirmar que Excel no puede."
+publico: "Personas que dudan entre Excel y Google Sheets o migran de uno a otro."
+hipotesis: "Formato 'comparacion' en pilar 'excel_vs_sheets': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Tres funciones de Google Sheets que Excel resuelve de otra forma."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "3 funciones de Google Sheets y qué usa Excel en su lugar"
+titulos_alternativos:
+  - "IMPORTRANGE, GOOGLEFINANCE y GOOGLETRANSLATE: ¿y en Excel?"
+  - "Excel vs Sheets: tres funciones que no se llaman igual"
+  - "Lo que hace Google Sheets con una fórmula y Excel con otra"
+criterio_titulo: "Nombra el contraste y promete equivalentes en Excel; evita afirmar que Excel 'no puede'."
+descripcion: |
+  GOOGLEFINANCE trae datos financieros, IMPORTRANGE trae un rango de otra hoja de cálculo y GOOGLETRANSLATE traduce texto. En Excel se usan otras herramientas: vínculos entre libros, la función TRANSLATE y STOCKHISTORY, estas dos para Microsoft 365.
+  Las funciones y su disponibilidad cambian con el tiempo; revisa la ayuda oficial de tu versión.
+cta: "Cuéntanos cuál usas más."
+comentario_fijado: "Sheets: =GOOGLETRANSLATE(A1;\"es\";\"en\"), =IMPORTRANGE(\"URL\";\"Hoja1!A1:C10\"), =GOOGLEFINANCE(\"CURRENCY:USDMXN\"). Excel (Microsoft 365): =TRANSLATE(A1;\"es\";\"en\"). Separador: ; o , según configuración regional."
+hashtags: ["#Excel", "#GoogleSheets", "#Fórmulas"]
+palabras_clave: ["IMPORTRANGE en Excel", "GOOGLEFINANCE vs Excel", "Excel vs Google Sheets funciones"]
+escenas:
+  - narracion: "Tres funciones de Google Sheets que Excel resuelve de otra forma."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Excel vs Sheets", titulo: "Funciones de *Sheets* y su equivalente en Excel"}
+  - narracion: "GOOGLEFINANCE trae datos financieros. IMPORTRANGE trae un rango de otra hoja de cálculo. GOOGLETRANSLATE traduce texto."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "En Google Sheets"
+        items:
+          - {texto: "GOOGLEFINANCE", detalle: "datos financieros, con demora"}
+          - {texto: "IMPORTRANGE", detalle: "trae un rango de otra hoja"}
+          - {texto: "GOOGLETRANSLATE", detalle: "traduce texto"}
+  - narracion: "En Sheets, tres funciones. En Excel, otras herramientas. Para enlazar archivos, vínculos entre libros. Para traducir, la función TRANSLATE de Microsoft 365. Para datos financieros, STOCKHISTORY, también de Microsoft 365."
+    visual:
+      plantilla: versus
+      datos:
+        titulo: "¿Y en Excel?"
+        izq: {etiqueta: "Google Sheets", titulo: "Funciones propias", items: ["IMPORTRANGE", "GOOGLETRANSLATE", "GOOGLEFINANCE"]}
+        der: {etiqueta: "Excel", titulo: "Otras herramientas", items: ["Vínculos entre libros", "TRANSLATE (Microsoft 365)", "STOCKHISTORY (Microsoft 365)"]}
+        veredicto: "Misma tarea, otra herramienta"
+  - narracion: "Revisa la ayuda de tu versión: esto cambia con el tiempo."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Misma tarea, *otra herramienta*"
+        puntos: ["Verifica en tu versión", "Microsoft 365 trae más funciones", "Sheets integra servicios de Google"]
+        cta: "Cuéntanos cuál usas"
+fuentes:
+  - url: "https://support.google.com/docs/answer/3093281?hl=en"
+    titulo: "GOOGLEFINANCE (Google Docs Editors Help)"
+    fecha_consulta: 2026-10-11
+    respalda: "GOOGLEFINANCE obtiene información financiera de Google Finance; las cotizaciones pueden tener demora."
+  - url: "https://support.google.com/docs/answer/3093340?hl=en"
+    titulo: "IMPORTRANGE (Google Docs Editors Help)"
+    fecha_consulta: 2026-10-11
+    respalda: "IMPORTRANGE importa un rango de celdas de una hoja de cálculo especificada."
+  - url: "https://support.google.com/docs/answer/3093331?hl=en"
+    titulo: "GOOGLETRANSLATE (Google Docs Editors Help)"
+    fecha_consulta: 2026-10-11
+    respalda: "GOOGLETRANSLATE traduce texto de un idioma a otro."
+  - url: "https://support.microsoft.com/en-us/office/translate-function-d34f71c7-2ffe-409a-9a63-5eb5e91aa3dd"
+    titulo: "TRANSLATE function (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Excel tiene la función TRANSLATE (Microsoft Translation Services), disponible en Excel para Microsoft 365."
+  - url: "https://support.microsoft.com/en-us/excel/functions/stockhistory-function"
+    titulo: "STOCKHISTORY function (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "STOCKHISTORY devuelve datos históricos de un instrumento financiero y requiere una suscripción a Microsoft 365."
+    cifras: [365]
+  - url: "https://support.microsoft.com/en-us/office/create-an-external-reference-link-to-a-cell-range-in-another-workbook-c98d1803-dd75-4668-ac6a-d7cca2a9b95f"
+    titulo: "Create an external reference (link) to a cell range in another workbook (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Excel permite referencias externas (vínculos) a celdas de otro libro."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — se reformuló el tema original ('funciones que solo tiene Sheets') porque Excel ya tiene TRANSLATE y STOCKHISTORY en Microsoft 365; la disponibilidad por versión (p. ej. TRANSLATE) y los equivalentes cambian con el tiempo. Verificar en la ayuda de Microsoft y Google antes de publicar."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["GOOGLEFINANCE", "IMPORTRANGE", "GOOGLETRANSLATE", "TRANSLATE", "STOCKHISTORY"]

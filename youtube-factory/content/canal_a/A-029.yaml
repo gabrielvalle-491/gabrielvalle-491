@@ -1,0 +1,73 @@
+id: A-029
+canal: canal_a
+fecha: 2026-11-16
+formato: short
+serie: Reto 5 minutos
+episodio: "#05"
+pilar: ia_sin_humo
+tipo_editorial: experimento
+idea: "Reto para repetir en casa: calcula una compra de varias líneas en una planilla, pídele el mismo total a una IA y compara; en cuentas de dinero, la fórmula de la planilla es la fuente del número."
+objetivo: "Fomentar el hábito de verificar cálculos de IA con una planilla o calculadora, sin afirmar fallos concretos de ningún producto."
+publico: "Quienes usan asistentes de IA para presupuestos, facturas o cuentas de su trabajo."
+hipotesis: "Formato 'experimento' en pilar 'ia_sin_humo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Antes de confiar en una suma de la IA, haz esta prueba de cinco minutos."
+duracion_objetivo: "35-55 s"
+titulo: "¿Confiar en las cuentas de la IA? Compárala con tu planilla"
+titulos_alternativos:
+  - "Reto de 5 minutos: la IA contra la planilla"
+  - "Cuentas largas: planilla o calculadora, no solo IA"
+  - "Cómo comprobar la suma que te da una IA"
+criterio_titulo: "Plantea la duda real (confiar en las cuentas de la IA) y la solución práctica (comparar con una planilla)."
+descripcion: |
+  Reto: calcula una compra de cuatro líneas (cantidad por precio, luego la suma) en una planilla. Pídele a una IA el mismo total y compara.
+  En cuentas de dinero, deja que el número lo entregue una fórmula que puedas auditar, y usa la IA para explicar el método. Los datos del ejemplo son ficticios.
+cta: "Haz la prueba y cuéntame si coincidieron."
+comentario_fijado: "Fórmulas: =B2*C2 en cada fila y =SUMA(D2:D5) para el total. Si tu Excel usa coma como separador (México, EE. UU.), los argumentos van separados por coma."
+hashtags: ["#IA", "#Excel", "#Productividad"]
+palabras_clave: ["IA y matemáticas", "verificar cálculos de IA", "IA vs planilla", "errores de la IA"]
+escenas:
+  - narracion: "Antes de confiar en una suma de la IA, haz esta prueba de cinco minutos."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Reto 5 minutos", titulo: "¿Confías en las *cuentas* de la IA?", sub: "Compárala con tu planilla"}
+  - narracion: "Toma una compra de cuatro líneas: cantidad por precio. Súmalas en una planilla. El total correcto es 355."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Compra *ilustrativa*"
+        lineas:
+          - {izq: "8 cajas × 12,5", der: "100"}
+          - {izq: "15 carpetas × 3", der: "45"}
+          - {izq: "6 mesas × 27", der: "162"}
+          - {izq: "24 sillas × 2", der: "48"}
+        resultado: {izq: "Total", der: "355"}
+        beats_frase: [0, 0, 1, 1, 2]
+  - narracion: "Una planilla da siempre el mismo resultado y puedes auditar cada fórmula. Una IA puede equivocarse en cuentas largas, aunque explica bien el método. Para dinero, calcula en la planilla y usa la IA para explicar."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Planilla", titulo: "Auditable", items: ["Mismo resultado siempre", "Puedes ver cada fórmula"]}
+        der: {etiqueta: "IA", titulo: "Explica el método", items: ["Puede errar en cuentas largas", "Compara siempre"]}
+        veredicto: "Dinero: calcula en planilla"
+  - narracion: "Ahora pruébalo tú. Si los totales no coinciden, confía en la fórmula y revisa tus datos."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "El número lo da la *fórmula*"
+        puntos: ["Calcula en planilla", "Pide lo mismo a la IA", "Si no coincide, revisa"]
+        cta: "Haz la prueba hoy"
+fuentes:
+  - calculo: "8*12.5 + 15*3 + 6*27 + 24*2"
+    resultado: 355
+    respalda: "Total de la compra ilustrativa; subtotales 100, 45, 162 y 48."
+riesgos:
+  derechos: "bajo — planilla y gráficos creados por el canal"
+  exactitud: "bajo — cálculo verificado automáticamente; datos ficticios; no se afirma que un producto concreto falle, solo que conviene comparar"
+  monetizacion: "bajo — contenido educativo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Auditable", "Súmalas", "pruébalo"]

@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:03,991
+Repetir tu contexto en cada chat nuevo, o escribirlo una sola vez.
+
+2
+00:00:04,271 --> 00:00:07,510
+Muchos asistentes tienen instrucciones personalizadas.
+
+3
+00:00:07,670 --> 00:00:11,788
+En ChatGPT, a la fecha, están en Configuración, Personalización.
+
+4
+00:00:11,948 --> 00:00:13,230
+Escribe algo así.
+
+5
+00:00:13,510 --> 00:00:14,965
+Incluye tres cosas.
+
+6
+00:00:15,125 --> 00:00:15,731
+Tu rol.
+
+7
+00:00:15,891 --> 00:00:16,570
+El tono.
+
+8
+00:00:16,730 --> 00:00:18,294
+Y el formato de respuesta.
+
+9
+00:00:18,574 --> 00:00:22,019
+Se aplican a todos tus chats, y los cambios rigen de inmediato.
+
+10
+00:00:22,179 --> 00:00:25,343
+Revísalas de vez en cuando, y no pongas datos sensibles.

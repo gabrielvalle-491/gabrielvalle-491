@@ -1,0 +1,31 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:03.013
+¿Sigues copiando la respuesta de la IA dato por dato?
+
+00:00:03.253 --> 00:00:05.407
+Una línea extra en tu prompt lo evita.
+
+00:00:05.687 --> 00:00:07.782
+Agrega esto al final de tu pedido.
+
+00:00:07.942 --> 00:00:12.532
+Una fila por línea, columnas separadas por punto y coma y nada de texto adicional.
+
+00:00:12.692 --> 00:00:15.087
+Así la respuesta llega lista para pegar.
+
+00:00:15.367 --> 00:00:17.165
+Pega todo en la celda A uno.
+
+00:00:17.325 --> 00:00:21.645
+Luego ve a Datos, Texto en columnas, elige Delimitado y marca Punto y coma.
+
+00:00:21.805 --> 00:00:24.082
+Cada dato cae en su propia columna.
+
+00:00:24.362 --> 00:00:28.705
+Antes de sumar, comprueba que los montos quedaron como números y no como texto.
+
+00:00:28.865 --> 00:00:31.562
+Y revisa los datos: la IA puede equivocarse.

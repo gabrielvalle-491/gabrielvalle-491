@@ -1,0 +1,84 @@
+{
+  "id": "A-005",
+  "duracion_s": 37.692,
+  "frases": 11,
+  "subtitulos": 31,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 7.867,
+      "beats": [
+        -5.0,
+        4.572
+      ],
+      "plantilla": "mito"
+    },
+    {
+      "inicio": 7.867,
+      "fin": 15.122,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 15.122,
+      "fin": 25.938,
+      "beats": [
+        0.0,
+        3.354,
+        7.404
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 25.938,
+      "fin": 32.284,
+      "beats": [
+        0.0,
+        2.359,
+        4.1
+      ],
+      "plantilla": "barras"
+    },
+    {
+      "inicio": 32.284,
+      "fin": 37.692,
+      "beats": [
+        0.0,
+        1.867
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.34",
+    "input_tp": "-7.14",
+    "input_lra": "2.50",
+    "input_thresh": "-31.57",
+    "output_i": "-14.47",
+    "output_tp": "-1.50",
+    "output_lra": "2.00",
+    "output_thresh": "-24.62",
+    "normalization_type": "dynamic",
+    "target_offset": "0.47"
+  },
+  "fotogramas_unicos": 416,
+  "tts_cache": 0,
+  "spec_hash": "53558dbc9c01d561",
+  "segundos_produccion": 179.9,
+  "texto_hablado": [
+    "Mito: para saber qué molesta a tus clientes, tienes que leer todos los comentarios.",
+    "Realidad: la i a los etiqueta y tu planilla los cuenta.",
+    "Primero, pídele a la i a una sola categoría por comentario, de una lista cerrada.",
+    "Así todas las etiquetas se escriben igual.",
+    "Pega las categorías en una columna y escribe contar si.",
+    "El rango es la columna de categorías; el criterio, el nombre a contar.",
+    "En este ejemplo ficticio, Entrega aparece tres veces.",
+    "Ordenadas por cantidad, se ven así.",
+    "Entrega lidera, con tres.",
+    "Precio y atención, una cada una.",
+    "Antes de decidir, lee algunos comentarios a mano: la i a puede etiquetar mal."
+  ]
+}

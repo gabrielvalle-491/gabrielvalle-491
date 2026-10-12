@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:05.227
+¿En cuánto se convierten US$ 1 000 en 10 años, con 7 % anual ilustrativo?
+
+00:00:05.587 --> 00:00:06.657
+Al inicio, 1 000.
+
+00:00:06.817 --> 00:00:10.286
+En el año 5, 1 402,55.
+
+00:00:10.446 --> 00:00:13.866
+En el año 10, 1 967,15.
+
+00:00:14.026 --> 00:00:17.365
+Cada año, el interés se calcula sobre el saldo anterior.
+
+00:00:17.645 --> 00:00:20.066
+La función VF lo calcula de una vez.
+
+00:00:20.226 --> 00:00:22.025
+Primero, la tasa por periodo.
+
+00:00:22.185 --> 00:00:23.369
+Luego, los años.
+
+00:00:23.529 --> 00:00:26.774
+Y por último, cero aportes y el monto inicial, en negativo.
+
+00:00:27.054 --> 00:00:30.774
+Es un ejemplo con tasa ilustrativa, no una promesa de rendimiento.
+
+00:00:30.934 --> 00:00:33.877
+Cambia la tasa y los años en tu planilla y compara.

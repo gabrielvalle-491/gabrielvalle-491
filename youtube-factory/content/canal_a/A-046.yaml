@@ -1,0 +1,87 @@
+id: A-046
+canal: canal_a
+fecha: 2026-12-03
+formato: short
+serie: Reto 5 minutos
+episodio: "#06"
+pilar: prompts
+tipo_editorial: experimento
+idea: "Pedir razonamiento paso a paso tiene respaldo en la investigación sobre chain of thought (2022); sirve para problemas de varios pasos, pero hay que revisar cada paso y los modelos de razonamiento actuales ya lo hacen por dentro."
+objetivo: "Proponer un experimento de cinco minutos que el espectador repite con un problema de varios pasos y verifica con calculadora."
+publico: "Personas que usan IA para cálculos, análisis o decisiones de varios pasos."
+hipotesis: "Formato 'experimento' en pilar 'prompts': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Pedirle a la IA que razone paso a paso sirve de algo?"
+duracion_objetivo: "35-55 s"
+titulo: "Pídele a la IA que razone paso a paso: la ciencia detrás"
+titulos_alternativos:
+  - "Chain of thought: qué es y cómo usarlo en tus prompts"
+  - "Reto de 5 minutos: prueba el razonamiento paso a paso"
+  - "¿Funciona decirle a la IA «piensa paso a paso»?"
+criterio_titulo: "Plantea la pregunta práctica del público y anticipa que hay evidencia; términos buscables."
+descripcion: |
+  En 2022, investigadores de Google mostraron que incluir ejemplos con pasos intermedios en el prompt mejora el desempeño de modelos grandes en problemas de matemática, sentido común y lógica (técnica «chain of thought»).
+  Reto: prueba un problema de varios pasos, pide los pasos y verifica cada uno con calculadora. A la fecha, la guía de OpenAI para modelos de razonamiento indica que en ellos no hace falta pedirlo.
+cta: "Haz la prueba con tu calculadora y compara."
+comentario_fijado: "Problema de prueba: Un producto cuesta 80. Sube 25 % y luego baja 20 %. ¿Cuánto cuesta al final? Resuélvelo paso a paso y da la respuesta al final. ¿Coincide con tu calculadora?"
+hashtags: ["#Prompts", "#IA", "#ChainOfThought"]
+palabras_clave: ["chain of thought", "razonamiento paso a paso IA", "prompt paso a paso", "cómo usar ChatGPT para problemas"]
+escenas:
+  - narracion: "¿Pedirle a la IA que razone paso a paso sirve de algo? Hay una investigación de 2022."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Reto 5 minutos", titulo: "¿Razonar *paso a paso* funciona?", sub: "Chain of thought"}
+  - narracion: "Investigadores de Google mostraron que dar ejemplos con pasos intermedios mejora los resultados en problemas de matemática y lógica."
+    visual:
+      plantilla: dato
+      datos: {kicker: "Investigación", dato: "2022", contexto: "Google Research: ejemplos con *pasos intermedios* mejoran el razonamiento de modelos grandes.", fuente: "Wei et al., arXiv 2201.11903"}
+  - narracion: "Tu reto: un producto cuesta 80, sube 25 % y luego baja 20 %. Pide los pasos y la respuesta final. Compárala con tu calculadora."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Problema de prueba"
+        texto: "Un producto cuesta 80. Sube 25 % y luego baja 20 %. ¿Cuánto cuesta al final? Resuélvelo paso a paso y da la respuesta al final."
+  - narracion: "Revisa cada paso, no solo el resultado. La respuesta correcta es 80 otra vez."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Verifica con calculadora"
+        lineas:
+          - {izq: "80 + 25 %", der: "100"}
+          - {izq: "100 - 20 %", der: "80"}
+        resultado: {izq: "Precio final", der: "80"}
+  - narracion: "A la fecha, en modelos de razonamiento OpenAI indica que no hace falta pedirlo, porque ya razonan por dentro."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Pasos útiles, *revisados*"
+        puntos: ["Pide los pasos", "Revisa cada paso", "En modelos de razonamiento, no hace falta"]
+        cta: "Haz la prueba hoy"
+fuentes:
+  - url: "https://arxiv.org/abs/2201.11903"
+    titulo: "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (Wei et al., arXiv 2201.11903)"
+    fecha_consulta: 2026-10-11
+    respalda: "Artículo de Google Research (NeurIPS 2022) que muestra que ejemplos con pasos intermedios en el prompt mejoran el razonamiento en tareas aritméticas, de sentido común y simbólicas."
+    cifras: [2022]
+  - url: "https://developers.openai.com/api/docs/guides/reasoning-best-practices"
+    titulo: "Reasoning best practices (OpenAI)"
+    fecha_consulta: 2026-10-11
+    respalda: "Para modelos de razonamiento, la guía de OpenAI indica que pedir «piensa paso a paso» o «explica tu razonamiento» es innecesario porque razonan internamente."
+  - calculo: "[80, 25, 20]"
+    respalda: "Datos del problema de prueba (precio 80, alza de 25 %, baja de 20 %)."
+  - calculo: "80 * 1.25"
+    resultado: 100
+    respalda: "80 más 25 % da 100."
+  - calculo: "80 * 1.25 * 0.8"
+    resultado: 80
+    respalda: "Subir 25 % y bajar 20 % devuelve el precio original de 80."
+riesgos:
+  derechos: "bajo — contenido y gráficos creados por el canal"
+  exactitud: "medio — la guía de OpenAI se leyó solo en un resultado de búsqueda (puede haber cambiado) y el alcance del artículo de 2022 se resume; confirmar ambos textos antes de publicar. No se afirma qué responderá una IA concreta"
+  monetizacion: "bajo — contenido educativo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Google", "OpenAI", "chain", "thought", "Research", "Resuélvelo", "Wei", "arXiv"]

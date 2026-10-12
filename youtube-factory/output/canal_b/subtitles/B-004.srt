@@ -1,0 +1,27 @@
+1
+00:00:00,120 --> 00:00:05,061
+Misma fórmula, copiada hacia abajo: la primera fila sale bien y la segunda da cero.
+
+2
+00:00:05,341 --> 00:00:07,886
+El impuesto usa la tasa de la celda D2.
+
+3
+00:00:08,046 --> 00:00:11,040
+Al copiar, la fórmula se mueve a D3, que está vacía.
+
+4
+00:00:11,320 --> 00:00:14,515
+Sin signo de dólar, la referencia es relativa y se mueve.
+
+5
+00:00:14,675 --> 00:00:17,348
+Con el signo de dólar, es absoluta y se queda.
+
+6
+00:00:17,508 --> 00:00:19,343
+Para ponerlo, usa F4.
+
+7
+00:00:19,623 --> 00:00:23,512
+Antes de copiar, pregúntate: ¿esta celda debe moverse o quedarse?

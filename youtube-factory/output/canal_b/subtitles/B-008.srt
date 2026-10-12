@@ -1,0 +1,43 @@
+1
+00:00:00,120 --> 00:00:03,539
+Error de gráfico: usar torta cuando las porciones se parecen.
+
+2
+00:00:03,819 --> 00:00:05,968
+Norte vende 28 %.
+
+3
+00:00:06,128 --> 00:00:07,809
+Sur, 26 %.
+
+4
+00:00:07,969 --> 00:00:09,870
+Este, 24 %.
+
+5
+00:00:10,030 --> 00:00:11,851
+Oeste, 22 %.
+
+6
+00:00:12,011 --> 00:00:13,134
+¿Cuál es la mayor?
+
+7
+00:00:13,374 --> 00:00:14,219
+Cuesta verlo.
+
+8
+00:00:14,499 --> 00:00:17,569
+En barras ordenadas, la diferencia se ve al instante.
+
+9
+00:00:17,729 --> 00:00:19,726
+Se comparan alturas, no ángulos.
+
+10
+00:00:20,006 --> 00:00:21,879
+Si quieres comparar, usa barras.
+
+11
+00:00:22,039 --> 00:00:24,660
+Deja la torta para pocas partes muy distintas.

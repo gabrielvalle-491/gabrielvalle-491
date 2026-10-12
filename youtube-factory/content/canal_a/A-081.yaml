@@ -1,0 +1,73 @@
+id: A-081
+canal: canal_a
+fecha: 2027-01-07
+formato: short
+serie: Sin código
+episodio: "#06"
+pilar: automatizacion
+tipo_editorial: herramienta
+idea: "Las respuestas rápidas de WhatsApp Business guardan mensajes con un atajo que empieza con barra, para contestar preguntas repetidas en segundos."
+objetivo: "Enseñar una función gratuita y sin código que ahorra tiempo a pequeños negocios, con límites y cuidados claros."
+publico: "Dueños de negocios pequeños que atienden clientes por WhatsApp Business y repiten las mismas respuestas."
+hipotesis: "Formato 'herramienta' en pilar 'automatizacion': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Escribes la misma respuesta una y otra vez?"
+duracion_objetivo: "35-55 s"
+titulo: "WhatsApp Business: respuestas rápidas con una barra (/)"
+titulos_alternativos:
+  - "Contesta preguntas repetidas en segundos con WhatsApp Business"
+  - "El atajo de WhatsApp Business que todo negocio debería conocer"
+  - "Respuestas rápidas en WhatsApp Business: paso a paso"
+criterio_titulo: "Nombra la app y el gesto concreto (la barra), que es lo que el público buscaría."
+descripcion: |
+  Las respuestas rápidas de WhatsApp Business te permiten guardar mensajes y enviarlos escribiendo una barra en el chat. Según la ayuda oficial, puedes guardar hasta 50 y editar el texto antes de enviarlo.
+  Los nombres de menús pueden variar según la versión de la app; confirma los pasos en el centro de ayuda de WhatsApp. No es una automatización: la respuesta la envías tú.
+cta: "Guarda tus tres respuestas más repetidas."
+comentario_fijado: "¿Cuál es la pregunta que más te repiten tus clientes?"
+hashtags: ["#WhatsAppBusiness", "#Pymes", "#Productividad"]
+palabras_clave: ["respuestas rápidas WhatsApp Business", "atajos WhatsApp Business", "atención al cliente", "pyme"]
+escenas:
+  - narracion: "¿Escribes la misma respuesta una y otra vez? En WhatsApp Business puedes guardarla y llamarla con una barra."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Sin código", titulo: "Una barra (*/*) y tu respuesta aparece", sub: "Respuestas rápidas de WhatsApp Business"}
+  - narracion: "Primero, abre las respuestas rápidas desde las herramientas de la app. Segundo, agrega una y escribe el mensaje. Tercero, ponle un atajo y guarda. Y cuarto, en cualquier chat, escribe una barra y elige la respuesta."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Cuatro pasos *rápidos*"
+        pasos:
+          - {titulo: "Abre las respuestas rápidas", detalle: "Desde las herramientas de la app"}
+          - {titulo: "Agrega una y escribe el mensaje", detalle: "Una sola vez"}
+          - {titulo: "Ponle un atajo y guarda", detalle: "Corto y fácil de recordar"}
+          - {titulo: "En un chat, escribe /", detalle: "Elige la respuesta"}
+  - narracion: "Guarda el horario y la dirección; la app puede sugerirlos desde tu perfil. Guarda las formas de pago. Guarda los pasos para hacer un pedido."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Empieza por las *más repetidas*"
+        estilo: check
+        items: ["Horario y dirección", "Formas de pago", "Cómo hacer un pedido"]
+  - narracion: "Puedes editar el texto antes de enviarlo. La app permite hasta 50 respuestas guardadas, según su ayuda oficial. Personaliza cada una: una respuesta rápida no reemplaza leer la pregunta."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Rápido, pero *personal*"
+        puntos: ["Edita antes de enviar", "Hasta 50 guardadas", "Lee la pregunta primero"]
+        cta: "Guarda tus tres más repetidas"
+fuentes:
+  - url: "https://faq.whatsapp.com/1791149784551042/?locale=sv_SE&cms_platform=iphone&category=5245246"
+    titulo: "How to use quick replies (WhatsApp Help Center)"
+    fecha_consulta: 2026-10-11
+    respalda: "Se crean desde la pestaña de herramientas con un mensaje y un atajo; se usan escribiendo / en el chat; el texto se puede editar antes de enviar; la app crea respuestas a partir del perfil del negocio (horario, dirección); el máximo es de 50 respuestas guardadas."
+    cifras: [50]
+riesgos:
+  derechos: "bajo — gráficos propios; no se usan capturas ni logotipos de WhatsApp"
+  exactitud: "medio — la ruta de menús y el nombre en español de 'Respuestas rápidas' varían según versión, sistema y país; la fuente consultada es la ayuda oficial en inglés/sueco. Confirmar nombres y el límite de 50 en la ayuda en español antes de publicar"
+  monetizacion: "bajo — contenido educativo; sin afiliados"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

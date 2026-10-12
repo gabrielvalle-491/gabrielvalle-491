@@ -1,0 +1,78 @@
+# Canal B — Excel y Google Sheets para el trabajo y para administrar el dinero
+prefijo_id: B
+marca:
+  nombre: "Celda Clara"
+  handle_sugerido: "@CeldaClara"
+  lema: "Excel y Sheets para tu trabajo y tu dinero"
+  descripcion_corta: "Fórmulas, plantillas y cuentas claras en planilla. Educación general, sin recomendaciones de inversión."
+nicho: "Excel y Google Sheets para el trabajo + herramientas de dinero personal en planilla"
+youtube:
+  channel_id: ""
+  categoria_id: "27"                 # Educación
+  idioma: "es-419"
+  apto_para_ninos: false
+publicacion:
+  hora_short: "20:00"                # hora de Argentina (UTC-3) = 17:00 CDMX
+  hora_largo: "19:00"
+  dia_largo: "jueves"
+convenciones:
+  separador_argumentos: ";"          # Excel/Sheets en configuración regional con coma decimal (AR, CO, CL, ES)
+  nota_separador: "En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos."
+identidad:
+  paleta:
+    fondo: "#f3f0e7"
+    fondo2: "#fbfaf6"
+    texto: "#15201b"
+    texto_suave: "#56645c"
+    acento: "#138a5e"
+    acento2: "#e08a00"
+    positivo: "#138a5e"
+    negativo: "#d1453b"
+    tarjeta: "#ffffff"
+    borde: "#ddd8ca"
+    texto_sobre_acento: "#ffffff"
+  tipografias: {titulos: plus-jakarta-sans, cuerpo: dm-sans, mono: jetbrains-mono}
+  subtitulos_claros: true
+voz:
+  motor: kokoro
+  voz: ef_dora
+  velocidad: 1.02
+musica: {tonica: "G", modo: "mayor", bpm: 80, semilla: 23, brillo: 0.9}
+subtitulos: {max_palabras: 4}
+lexico:
+  "\\bBUSCARX\\b": "buscar equis"
+  "\\bBUSCARV\\b": "buscar uve"
+  "\\bBUSCARH\\b": "buscar hache"
+  "\\bSUMAR\\.SI\\.CONJUNTO\\b": "sumar si conjunto"
+  "\\bCONTAR\\.SI\\.CONJUNTO\\b": "contar si conjunto"
+  "\\bSUMAR\\.SI\\b": "sumar si"
+  "\\bCONTAR\\.SI\\b": "contar si"
+  "\\bSI\\.ERROR\\b": "si error"
+  "\\bSI\\.CONJUNTO\\b": "si conjunto"
+  "\\bDIAS\\.LAB\\b": "días lab"
+  "\\bVF\\b": "uve efe"
+  "\\bVA\\b": "uve a"
+  "\\bNPER\\b": "ene per"
+  "\\bSIFECHA\\b": "si fecha"
+  "\\bUNICOS\\b": "únicos"
+  "\\bNOMPROPIO\\b": "nom propio"
+  "\\bLET\\b": "let"
+  "\\bGOOGLEFINANCE\\b": "gúgol fainans"
+  "\\bIMPORTRANGE\\b": "import reinch"
+  "\\bQUERY\\b": "cueri"
+  "\\bVLOOKUP\\b": "vi lukap"
+  "\\bXLOOKUP\\b": "ex lukap"
+  "\\bIVA\\b": "iva"
+  "\\bCtrl\\b": "control"
+  "\\bShift\\b": "shift"
+  "\\bTNA\\b": "te ene a"
+  "\\bTEA\\b": "te e a"
+  "\\bSUMAPRODUCTO\\b": "suma producto"
+  "\\bFALSO\\b": "falso"
+hashtags_base: ["#Excel", "#GoogleSheets", "#FinanzasPersonales"]
+descripcion_pie: |
+  —
+  Celda Clara: Excel y Sheets para tu trabajo y tu dinero. Contenido educativo general: no es asesoramiento financiero ni recomendación de inversión. Los ejemplos usan cifras ilustrativas.
+  Narración con voz sintética (texto a voz). Planillas, gráficos y animaciones creados por el canal.
+divulgacion_afiliados: "Algunos enlaces pueden ser de afiliado: si compras, el canal puede recibir una comisión sin costo extra para ti."
+enlaces_afiliado: {}

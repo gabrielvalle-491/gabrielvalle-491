@@ -1,0 +1,85 @@
+id: B-076
+canal: canal_b
+fecha: 2027-01-02
+formato: short
+serie: Historia de la planilla
+episodio: "#02"
+pilar: historia
+tipo_editorial: historia
+idea: "VisiCalc, creada por Dan Bricklin y Bob Frankston y publicada en 1979 para el Apple II, fue la primera hoja de cálculo para computadoras personales."
+objetivo: "Historia breve y verificable que contextualiza de dónde vienen Excel y Sheets, con una línea de tiempo clara."
+publico: "Personas curiosas por la tecnología que usan hojas de cálculo a diario."
+hipotesis: "Formato 'historia' en pilar 'historia': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "En 1979, una hoja de cálculo hizo que mucha gente comprara una computadora."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "VisiCalc (1979): la primera hoja de cálculo para PC"
+titulos_alternativos:
+  - "La planilla que impulsó las computadoras personales"
+  - "Antes de Excel hubo VisiCalc: la historia en 40 segundos"
+  - "De dónde viene la hoja de cálculo que usas hoy"
+criterio_titulo: "Nombra el producto y el año que se buscan y precisa 'para PC' para no sobreafirmar."
+descripcion: |
+  VisiCalc fue creada por Dan Bricklin y Bob Frankston, publicada en 1979 para el Apple II y considerada la primera hoja de cálculo para computadoras personales (no la primera idea de hoja de cálculo electrónica).
+  Datos de fuentes históricas secundarias; las fechas exactas varían según la fuente.
+cta: "Cuéntanos qué hoja de cálculo usaste primero."
+comentario_fijado: "¿Con qué hoja de cálculo empezaste? Cuéntanos tu primera experiencia."
+hashtags: ["#Excel", "#HistoriaDeLaPlanilla", "#Tecnologia"]
+palabras_clave: ["VisiCalc", "historia de la hoja de cálculo", "primera hoja de cálculo"]
+escenas:
+  - narracion: "En 1979, una hoja de cálculo hizo que mucha gente comprara una computadora."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Historia de la planilla", titulo: "*VisiCalc*: la hoja de cálculo que vendió computadoras"}
+  - narracion: "En la primavera de 1978, Dan Bricklin, estudiante de MBA en Harvard, creó un prototipo. Ese otoño se unió a Bob Frankston para desarrollar el programa. En 1979, Software Arts lo creó y Personal Software lo publicó para el Apple II."
+    visual:
+      plantilla: timeline
+      datos:
+        titulo: "Cómo nació"
+        eventos:
+          - {fecha: "Primavera de 1978", texto: "Bricklin crea un prototipo en Harvard"}
+          - {fecha: "Otoño de 1978", texto: "Se une a Frankston para hacer el programa"}
+          - {fecha: "1979", texto: "Sale para el Apple II"}
+  - narracion: "El Apple II básico no tenía memoria suficiente: hacían falta 32 kilobytes. Aun así, se considera la primera hoja de cálculo para computadoras personales."
+    visual:
+      plantilla: dato
+      datos:
+        kicker: "Dato"
+        dato: "*32 KB* de memoria para correr VisiCalc"
+        contexto: "El modelo básico del Apple II tenía 16 KB"
+        fuente: "Fuentes históricas secundarias"
+  - narracion: "Antes, esas cuentas se hacían en papel. Hoy cambias un número y todo se recalcula."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "De VisiCalc a *tu planilla*"
+        puntos: ["1979: VisiCalc para Apple II", "Cálculo que se actualiza solo", "Base de las hojas actuales"]
+        cta: "Cuéntanos tu primera hoja"
+fuentes:
+  - url: "https://www.britannica.com/topic/VisiCalc"
+    titulo: "VisiCalc (Britannica)"
+    fecha_consulta: 2026-10-11
+    respalda: "VisiCalc fue un programa de hoja de cálculo escrito para el Apple II en 1979."
+  - url: "https://www.computerhistory.org/revolution/personal-computers/17/305"
+    titulo: "Software: Putting PCs to Work (Computer History Museum, CHM Revolution)"
+    fecha_consulta: 2026-10-11
+    respalda: "VisiCalc, de Bricklin y Frankston, publicada por Personal Software; fue la 'killer app' que impulsó las ventas del Apple II."
+  - url: "https://americanhistory.si.edu/collections/object/nmah_1696121"
+    titulo: "Software and Documentation, Software Arts, Inc., Visicalc (Smithsonian, National Museum of American History)"
+    fecha_consulta: 2026-10-11
+    respalda: "Registro del Smithsonian sobre VisiCalc de Software Arts; contexto histórico del programa."
+  - url: "https://www.stackbit.com/blog/story-of-visicalc/"
+    titulo: "Story of VisiCalc (Stackbit)"
+    fecha_consulta: 2026-10-11
+    respalda: "Origen en Harvard Business School en 1978, requerimiento de 32 KB en el Apple II. Fuente secundaria: contrastar."
+    cifras: [32]
+riesgos:
+  derechos: "bajo — no se usan capturas ni imágenes de VisiCalc; gráficos propios"
+  exactitud: "medio — fechas y detalles técnicos (prototipo en primavera de 1978, 32 KB, lanzamiento en 1979) vienen de fuentes secundarias que difieren en detalles menores (mes de lanzamiento). Verificar contra una fuente primaria (Computer History Museum o entrevistas de Bricklin) antes de publicar. 'Primera' se limita a 'para computadoras personales'."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["VisiCalc", "Bricklin", "Frankston", "Visicalc", "Apple", "Arts", "Bob", "Harvard", "kilobytes", "recalcula", "Software", "Personal"]

@@ -1,0 +1,81 @@
+id: B-002
+canal: canal_b
+fecha: 2026-10-20
+formato: short
+serie: Fórmula en 40 segundos
+episodio: "#01"
+pilar: formulas
+tipo_editorial: tutorial
+idea: "SI.ERROR reemplaza el #N/A de BUSCARV por un mensaje claro; BUSCARX ya trae su propio argumento para eso."
+objetivo: "Tutorial rápido y buscable; aporta un matiz que muchos tutoriales omiten (BUSCARX)."
+publico: "Personas que arman reportes en Excel o Sheets y ven errores #N/A."
+hipotesis: "Gancho 'resultado' + duración corta + visual 'demo': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "Convierte este error en un mensaje claro con una sola fórmula."
+duracion_objetivo: "20-32 s"
+titulo: "Adiós al #N/A: SI.ERROR en 30 segundos"
+titulos_alternativos:
+  - "Cómo ocultar el #N/A de BUSCARV (sin esconder problemas)"
+  - "SI.ERROR: la fórmula para reportes limpios"
+  - "Tu planilla muestra #N/A? Haz esto"
+criterio_titulo: "Usa el error exacto que la gente busca (#N/A) y el nombre de la función."
+descripcion: |
+  SI.ERROR devuelve el valor que elijas cuando una fórmula da error, por ejemplo cuando BUSCARV no encuentra un código. Si usas BUSCARX, tiene su propio argumento "si no se encuentra".
+  Úsalo con cuidado: ocultar errores también puede ocultar datos mal cargados.
+cta: "Guárdalo para tu próximo reporte."
+comentario_fijado: "Fórmula: =SI.ERROR(BUSCARV(A6;A2:B4;2;FALSO);\"No existe\"). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;)."
+hashtags: ["#Excel", "#GoogleSheets", "#Fórmulas"]
+palabras_clave: ["SI.ERROR", "error N/A BUSCARV", "fórmulas Excel"]
+escenas:
+  - narracion: "Convierte este error en un mensaje claro con una sola fórmula."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Fórmula en 40 segundos", titulo: "Adiós al *#N/A*"}
+  - narracion: "Cuando BUSCARV no encuentra un código, devuelve [[ene a|#N/A]]."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=BUSCARV(A6;A2:B4;2;FALSO)"
+        celda_formula: "B6"
+        filas:
+          - ["Código", "Precio"]
+          - ["A-10", 250]
+          - ["A-11", 340]
+          - ["A-12", 410]
+          - ["", ""]
+          - ["A-99", "#N/A"]
+  - narracion: "Envuélvela con SI.ERROR. Primero va tu fórmula original. Después, lo que quieres mostrar si falla."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=SI.ERROR(BUSCARV(A6;A2:B4;2;FALSO);\"No existe\")"
+        partes:
+          - {token: "BUSCARV(A6;A2:B4;2;FALSO)", explica: "tu fórmula original"}
+          - {token: "\"No existe\"", explica: "lo que se muestra si hay error"}
+  - narracion: "Y si usas BUSCARX, ya trae su propio argumento para esto."
+    visual:
+      plantilla: dato
+      datos: {kicker: "Dato extra", dato: "BUSCARX tiene el argumento *si_no_se_encuentra*", contexto: "=BUSCARX(A6;A2:A4;B2:B4;\"No existe\")"}
+  - narracion: "Ojo: ocultar errores también puede ocultar datos mal cargados."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Errores *claros*, no escondidos", cta: "Guárdalo"}
+fuentes:
+  - url: "https://support.microsoft.com/es-es/Excel/functions/iferror-function"
+    titulo: "SI.ERROR (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "SI.ERROR devuelve un valor especificado si la fórmula se evalúa como error (incluye #N/A)."
+  - url: "https://support.microsoft.com/es-es/office/buscarv-funci%c3%b3n-buscarv-0bbc8083-26fe-4963-8ab8-93a18ad188a1"
+    titulo: "BUSCARV (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "FALSO en BUSCARV pide coincidencia exacta; si no encuentra el valor devuelve #N/A."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — comportamiento documentado por Microsoft"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas."
+costo_estimado_usd: 0
+palabras_validas: ["si_no_se_encuentra"]

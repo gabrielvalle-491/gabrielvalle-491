@@ -1,0 +1,81 @@
+id: B-016
+canal: canal_b
+fecha: 2026-11-03
+formato: short
+serie: Fórmula en 40 segundos
+episodio: "#04"
+pilar: formulas
+tipo_editorial: tutorial
+idea: "ESPACIOS quita los espacios de sobra y NOMPROPIO pone mayúscula inicial; combinadas limpian nombres mal escritos, como '  juan  PÉREZ ' → 'Juan Pérez'."
+objetivo: "Tutorial buscable de limpieza de datos con dos funciones y sus limitaciones documentadas."
+publico: "Personas que importan o reciben listas de nombres con espacios y mayúsculas desordenados."
+hipotesis: "Formato 'tutorial' en pilar 'formulas': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "De juan PÉREZ, con espacios de sobra, a Juan Pérez en una sola fórmula."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Limpia nombres en Excel: ESPACIOS y NOMPROPIO juntos"
+titulos_alternativos:
+  - "Cómo quitar espacios y corregir mayúsculas en Excel"
+  - "NOMPROPIO + ESPACIOS: la fórmula para listas desordenadas"
+  - "De 'juan PÉREZ' a 'Juan Pérez' con una fórmula"
+criterio_titulo: "Nombra las dos funciones y el resultado esperado; combina búsquedas frecuentes (quitar espacios, mayúsculas)."
+descripcion: |
+  ESPACIOS quita los espacios sobrantes (deja uno entre palabras) y NOMPROPIO pone en mayúscula la primera letra de cada palabra. Anidadas, limpian una lista de nombres.
+  Según la ayuda oficial, ESPACIOS no quita los espacios de no separación, y NOMPROPIO también pone mayúscula tras guiones o espacios, así que revisa palabras como "de" o "la". Los nombres son ficticios.
+cta: "Guárdalo para tu próxima lista de clientes."
+comentario_fijado: "Fórmula: =NOMPROPIO(ESPACIOS(A2)). Cópiala hacia abajo. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos."
+hashtags: ["#Excel", "#Fórmulas", "#LimpiezaDeDatos"]
+palabras_clave: ["NOMPROPIO", "ESPACIOS excel", "quitar espacios excel", "mayúscula inicial excel"]
+escenas:
+  - narracion: "De juan PÉREZ, con espacios de sobra, a Juan Pérez en una sola fórmula."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Fórmula en 40 segundos", titulo: "\"juan  PÉREZ\" → *\"Juan Pérez\"*"}
+  - narracion: "Combina dos funciones. ESPACIOS quita los espacios de sobra y deja uno entre palabras. NOMPROPIO pone la primera letra de cada palabra en mayúscula."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=NOMPROPIO(ESPACIOS(A2))"
+        partes:
+          - {token: "ESPACIOS(A2)", explica: "quita espacios de sobra"}
+          - {token: "NOMPROPIO", explica: "mayúscula inicial en cada palabra"}
+  - narracion: "Escríbela en la primera fila y copia hacia abajo. La fórmula toma cada nombre original. El primero queda en Juan Pérez."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=NOMPROPIO(ESPACIOS(A2))"
+        celda_formula: "B2"
+        filas:
+          - ["Original", "Limpio"]
+          - ["  juan  PÉREZ ", ""]
+          - ["ANA  gómez", ""]
+          - [" luis   mora", ""]
+        resaltar:
+          - {rango: "A2:A4", beat: 1}
+        resultado: {celda: "B2", valor: "Juan Pérez", beat: 2}
+  - narracion: "Ojo: NOMPROPIO también pone mayúscula en palabras como de o la, y ESPACIOS no quita los espacios de no separación. Revisa los resultados antes de usarlos en un reporte."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Limpia, pero *revisa*"
+        puntos: ["NOMPROPIO: \"De La\" con mayúsculas", "ESPACIOS: no quita espacios especiales"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/office/espacios-funci%C3%B3n-espacios-410388fa-c5df-49c6-b16c-9e5630b479f9"
+    titulo: "Función ESPACIOS (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "ESPACIOS(texto) quita los espacios del texto salvo uno normal entre palabras; por sí sola no quita los espacios de no separación."
+  - url: "https://support.microsoft.com/es-es/excel/functions/proper-function"
+    titulo: "Función NOMPROPIO (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "NOMPROPIO pone en mayúscula la primera letra del texto y de cualquier letra que siga a un carácter que no sea letra, y el resto en minúscula."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — comportamiento documentado por Microsoft"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Pérez", "gómez", "luis", "juan", "mora", "ESPACIOS", "NOMPROPIO"]

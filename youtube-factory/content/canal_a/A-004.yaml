@@ -1,0 +1,68 @@
+id: A-004
+canal: canal_a
+fecha: 2026-10-22
+formato: short
+serie: Truco rápido
+episodio: "#01"
+pilar: herramientas
+tipo_editorial: herramienta
+idea: "Las instrucciones personalizadas de un asistente de IA guardan tu rol, tono y formato una sola vez, para no repetirlos en cada chat nuevo."
+objetivo: "Enseñar un ajuste de una sola vez que mejora todas las consultas posteriores y posiciona al canal en uso práctico de herramientas."
+publico: "Trabajadores y emprendedores que usan un asistente de IA a diario y repiten siempre el mismo contexto al empezar un chat."
+hipotesis: "Gancho 'contraste' + duración corta + visual 'comparación': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "Repetir tu contexto en cada chat, o escribirlo una sola vez."
+duracion_objetivo: "20-32 s (≈55-80 palabras)"
+titulo: "Deja de repetir quién eres en cada chat con IA"
+titulos_alternativos:
+  - "Instrucciones personalizadas: escribe tu contexto una sola vez"
+  - "El ajuste de ChatGPT que te ahorra repetir tu rol y tu tono"
+  - "Truco rápido: que la IA te conozca desde el primer mensaje"
+criterio_titulo: "Nombra el dolor (repetir contexto) con un verbo de acción; la variante 2 usa el término buscable 'instrucciones personalizadas'."
+descripcion: |
+  Muchos asistentes de IA permiten guardar instrucciones personalizadas: tu rol, el tono y el formato de respuesta se aplican en todos tus chats sin repetirlos.
+  En ChatGPT, según la ayuda oficial y a la fecha, se configuran en Configuración, Personalización. Los menús pueden cambiar según la versión. No incluyas datos sensibles en estas instrucciones.
+cta: "Escribe las tuyas hoy y pruébalas en un chat nuevo."
+comentario_fijado: "¿Qué es lo que más repites al empezar un chat: tu rol, el tono o el formato?"
+hashtags: ["#IA", "#Productividad", "#ChatGPT"]
+palabras_clave: ["instrucciones personalizadas", "ChatGPT", "prompts para el trabajo"]
+escenas:
+  - narracion: "Repetir tu contexto en cada chat nuevo, o escribirlo *una sola vez*."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Truco rápido", titulo: "Repetirlo en cada chat, o *una sola vez*", sub: "Instrucciones personalizadas"}
+  - narracion: "Muchos asistentes tienen instrucciones personalizadas. En ChatGPT, a la fecha, están en Configuración, Personalización. Escribe algo así."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Instrucciones personalizadas"
+        texto: "Soy [TU CARGO] en [TU RUBRO]. Escribe en español neutro, con tono cordial y directo. Responde en viñetas cortas. Si falta información, pregúntame antes de responder."
+  - narracion: "Incluye tres cosas. Tu rol. El tono. Y el formato de respuesta."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Tres piezas *clave*"
+        estilo: check
+        items: ["Tu rol y tu rubro", "El tono que prefieres", "El formato de respuesta"]
+  - narracion: "Se aplican a todos tus chats, y los cambios rigen de inmediato. Revísalas de vez en cuando, y no pongas datos sensibles."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Escríbelo *una vez*, úsalo siempre"
+        puntos: ["Sin datos sensibles", "Ajústalo con el tiempo"]
+        cta: "Pruébalo hoy"
+fuentes:
+  - url: "https://help.openai.com/articles/8096356"
+    titulo: "Ayuda de OpenAI: instrucciones personalizadas (Custom Instructions)"
+    fecha_consulta: 2026-10-11
+    respalda: "En la web y el escritorio se configuran en Configuración, Personalización, campo de instrucciones personalizadas; los cambios se aplican de inmediato en todos los chats."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — los menús de productos cambian; se dice 'a la fecha' y se remite a la ayuda oficial"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["ChatGPT", "Ajústalo", "Escríbelo", "Pruébalo", "Revísalas", "check"]

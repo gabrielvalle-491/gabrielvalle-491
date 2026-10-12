@@ -1,0 +1,123 @@
+id: B-042
+canal: canal_b
+fecha: '2026-11-29'
+formato: short
+serie: Atajo de teclado
+episodio: '#03'
+pilar: trabajo
+tipo_editorial: herramienta
+idea: 'Ctrl + T convierte un rango en tabla de Excel: la fórmula de una columna se copia sola, la tabla crece con filas nuevas y cada encabezado trae su filtro.'
+objetivo: Atajo de alto valor que además enseña el concepto de tabla de Excel.
+publico: Personas que trabajan con listas en Excel y copian fórmulas y filtros a mano.
+hipotesis: 'Formato ''herramienta'' en pilar ''trabajo'': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje).'
+gancho: Pulsa Ctrl + T y tus datos se convierten en una tabla.
+duracion_objetivo: 35-55 s (≈85-140 palabras)
+titulo: 'Ctrl + T en Excel: convierte tus datos en tabla'
+titulos_alternativos:
+- 'Atajo Ctrl + T: fórmulas que se copian solas en Excel'
+- Convertir datos en tabla en Excel (con filtros automáticos)
+- Por qué debes usar tablas en Excel
+criterio_titulo: Combina el atajo (muy buscado) con el beneficio concreto.
+descripcion: |-
+  Con el atajo Ctrl + T, Excel convierte tus datos en una tabla: al escribir una fórmula en una columna, se rellena en toda la columna, la tabla se amplía al agregar datos y cada encabezado trae su botón de filtro.
+  Ejemplo ilustrativo con productos, precios y cantidades.
+cta: Prueba Ctrl + T en tu lista más usada.
+comentario_fijado: 'Atajo: Ctrl + T (también Ctrl + L). Fórmula de la columna Total: =[@Precio]*[@Cantidad]. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;).'
+hashtags:
+- '#Excel'
+- '#AtajosDeExcel'
+- '#TrucosDeExcel'
+palabras_clave:
+- Ctrl + T Excel
+- convertir en tabla Excel
+- atajos de teclado Excel
+escenas:
+- narracion: Pulsa [[control te|Ctrl + T]] y tus datos se convierten en una tabla. Así ganas fórmulas, filtros y orden en un solo paso.
+  visual:
+    plantilla: hook
+    datos:
+      kicker: Atajo de teclado
+      titulo: '*Ctrl + T*: tus datos, en tabla'
+      sub: Fórmulas y filtros automáticos
+- narracion: Haz clic en una celda de tus datos. Pulsa [[control te|Ctrl + T]]. Confirma que la tabla tiene encabezados.
+  visual:
+    plantilla: pasos
+    datos:
+      titulo: Crear la tabla
+      pasos:
+      - titulo: Clic en una celda de tus datos
+      - titulo: Pulsa Ctrl + T
+      - titulo: Marca que tiene encabezados
+        detalle: Y acepta
+- narracion: En la columna Total, escribe la fórmula una sola vez. Resalta precio y cantidad. Al pulsar Enter, Excel la copia en toda la columna. Excel llama a esto columna calculada.
+  visual:
+    plantilla: planilla
+    datos:
+      titulo: Columna calculada
+      formula: =[@Precio]*[@Cantidad]
+      celda_formula: D2
+      filas:
+      - - Producto
+        - Precio
+        - Cantidad
+        - Total
+      - - Cable
+        - 12
+        - 3
+        - ''
+      - - Mouse
+        - 25
+        - 2
+        - ''
+      - - Teclado
+        - 40
+        - 1
+        - ''
+      resaltar:
+      - rango: B2:C4
+        beat: 1
+      resultado:
+        celda: D2
+        valor: '36'
+        beat: 2
+      nota: Cantidades ilustrativas
+- narracion: Además, cada encabezado trae su botón de filtro. Y si agregas filas debajo, la tabla se amplía. Prueba este atajo hoy.
+  visual:
+    plantilla: cierre
+    datos:
+      titulo: Una tabla *trabaja por ti*
+      puntos:
+      - Filtros en cada encabezado
+      - Crece al agregar filas
+      - Fórmulas que se extienden
+      cta: Guárdalo
+fuentes:
+- url: https://support.microsoft.com/es-es/excel/insert-a-table
+  titulo: Insertar una tabla (Microsoft Support)
+  fecha_consulta: '2026-10-11'
+  respalda: Seleccionar una celda de los datos y pulsar Ctrl+T crea la tabla; Excel detecta las filas y columnas; Ctrl+L es equivalente.
+- url: https://support.microsoft.com/es-ES/Excel/use-calculated-columns-in-an-excel-table
+  titulo: Usar columnas calculadas en una tabla de Excel (Microsoft Support)
+  fecha_consulta: '2026-10-11'
+  respalda: Al escribir una fórmula en una celda de la tabla y pulsar Entrar, se rellena en toda la columna.
+- url: https://support.microsoft.com/es-ES/Excel/overview-of-excel-tables
+  titulo: Descripción general de las tablas de Excel (Microsoft Support)
+  fecha_consulta: '2026-10-11'
+  respalda: Las tablas se amplían al agregar datos y los encabezados incluyen filtros.
+- calculo: 12 * 3
+  resultado: 36
+  respalda: Total del cable en el ejemplo (precio por cantidad).
+riesgos:
+  derechos: bajo — material propio
+  exactitud: bajo — comportamiento documentado por Microsoft; el atajo puede ser distinto en Mac (no mencionado en el video).
+  monetizacion: bajo — educación general, sin recomendar productos
+recursos:
+- nombre: Música y efectos originales generados por la fábrica
+  licencia: propia
+declaracion_sintetica:
+  decision: declarar
+  motivo: Voz sintética realista; gráficos no realistas. Se declara por prudencia.
+costo_estimado_usd: 0
+palabras_validas:
+- Mouse
+- Enter

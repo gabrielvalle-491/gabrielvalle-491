@@ -1,0 +1,84 @@
+id: B-008
+canal: canal_b
+fecha: 2026-10-26
+formato: short
+serie: Gráficos que se entienden
+episodio: "#01"
+pilar: trabajo
+tipo_editorial: comparacion
+idea: "Cuando las porciones son casi iguales, un gráfico de torta no deja ver cuál es la mayor; las barras, ordenadas, sí."
+objetivo: "Enseñar un criterio práctico para elegir entre torta y barras al presentar datos en reportes."
+publico: "Personas que arman reportes o presentaciones con gráficos en Excel o Google Sheets."
+hipotesis: "Gancho 'error' + duración corta + visual 'demo': comparar % visto y vistas a 7 días contra la media de la fase de aprendizaje."
+gancho: "Error de gráfico: usar torta cuando las porciones se parecen."
+duracion_objetivo: "20-32 s (≈55-80 palabras)"
+titulo: "Gráfico de torta o de barras: cuándo la torta confunde"
+titulos_alternativos:
+  - "Por qué tu gráfico de torta no se entiende"
+  - "Barras vs torta en Excel: cuál elegir para comparar"
+  - "El error de gráficos que arruina tus reportes"
+criterio_titulo: "Plantea la duda real (torta o barras) y anticipa que hay un caso en que la torta confunde."
+descripcion: |
+  La torta muestra cada valor como parte de un total. Si las porciones son casi iguales, cuesta ver cuál es la mayor; un gráfico de barras ordenadas lo muestra al instante.
+  Los datos del ejemplo (ventas por región) son ficticios. Es un criterio de lectura, no una regla absoluta.
+cta: "Guárdalo antes de armar tu próximo reporte."
+comentario_fijado: "¿Qué gráfico usas más en tus reportes: torta o barras? Cuéntanos qué dato quieres mostrar."
+hashtags: ["#Excel", "#GoogleSheets", "#Gráficos"]
+palabras_clave: ["gráfico de torta vs barras", "cuándo usar gráfico de barras", "gráficos excel reportes"]
+escenas:
+  - narracion: "Error de gráfico: usar torta cuando las porciones se parecen."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Gráficos que se entienden", titulo: "Torta con porciones *iguales*: no se entiende"}
+  - narracion: "Norte vende 28 %. Sur, 26 %. Este, 24 %. Oeste, 22 %. ¿Cuál es la mayor? Cuesta verlo."
+    visual:
+      plantilla: donut
+      datos:
+        titulo: "Ventas por región (ficticio)"
+        centro: "100 %"
+        segmentos:
+          - {etiqueta: "Norte", valor: 28, texto: "28 %"}
+          - {etiqueta: "Sur", valor: 26, texto: "26 %"}
+          - {etiqueta: "Este", valor: 24, texto: "24 %"}
+          - {etiqueta: "Oeste", valor: 22, texto: "22 %"}
+  - narracion: "En barras ordenadas, la diferencia se ve al instante. Se comparan alturas, no ángulos."
+    visual:
+      plantilla: barras
+      datos:
+        titulo: "Los mismos datos, en barras"
+        sufijo: " %"
+        todas_juntas: true
+        maximo: 30
+        items:
+          - {etiqueta: "Norte", valor: 28, destacado: true}
+          - {etiqueta: "Sur", valor: 26, tenue: true}
+          - {etiqueta: "Este", valor: 24, tenue: true}
+          - {etiqueta: "Oeste", valor: 22, tenue: true}
+  - narracion: "Si quieres comparar, usa barras. Deja la torta para pocas partes muy distintas."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "¿Comparar? *Barras*"
+        puntos: ["Torta: partes de un total", "Barras: comparar valores"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://support.microsoft.com/en-us/excel/available-chart-types-in-office"
+    titulo: "Available chart types in Office (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Un gráfico de torta se arma con una columna o fila de datos y muestra cada punto como porcentaje del total."
+  - calculo: "[28, 26, 24, 22]"
+    respalda: "Datos ficticios del ejemplo (ventas por región, en %)."
+  - calculo: "28 + 26 + 24 + 22"
+    resultado: 100
+    respalda: "Las porciones suman el total."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — la recomendación de usar barras para comparar es un criterio de diseño, presentado como tal; los datos son ficticios"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

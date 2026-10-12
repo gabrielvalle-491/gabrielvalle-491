@@ -1,0 +1,85 @@
+id: B-063
+canal: canal_b
+fecha: 2026-12-20
+formato: short
+serie: Gráficos que se entienden
+episodio: "#04"
+pilar: trabajo
+tipo_editorial: tutorial
+idea: "El formato condicional Barras de datos dibuja una barra dentro de cada celda, proporcional al valor, para comparar números sin crear un gráfico aparte."
+objetivo: "Tutorial rápido de un recurso visual que pocas personas conocen, útil para reportes de ventas e inventarios."
+publico: "Personas que arman reportes en Excel y quieren que los números se lean de un vistazo."
+hipotesis: "Formato 'tutorial' en pilar 'trabajo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Dibuja barras dentro de tus celdas sin crear un gráfico."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Barras de datos en Excel: gráficos dentro de las celdas"
+titulos_alternativos:
+  - "Formato condicional que dibuja barras en tus números"
+  - "Cómo comparar valores de un vistazo sin insertar un gráfico"
+  - "Barras dentro de las celdas en 3 pasos"
+criterio_titulo: "Nombra el recurso (barras de datos) y el beneficio visual (dentro de las celdas)."
+descripcion: |
+  Las barras de datos son un formato condicional: cada celda muestra una barra cuyo largo depende de su valor frente al resto del rango. Se aplican en tres pasos desde la pestaña Inicio.
+  Los nombres de menú pueden variar según tu versión de Excel. Datos del ejemplo ilustrativos.
+cta: "Pruébalas en tu próximo reporte."
+comentario_fijado: "Ruta: selecciona el rango > Inicio > Formato condicional > Barras de datos > elige un estilo. Para ver solo las barras, edita la regla y marca la opción de mostrar solo la barra."
+hashtags: ["#Excel", "#FormatoCondicional", "#Productividad"]
+palabras_clave: ["barras de datos Excel", "formato condicional", "gráfico dentro de celdas"]
+escenas:
+  - narracion: "Dibuja barras dentro de tus celdas sin crear un gráfico."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Gráficos que se entienden", titulo: "*Barras* dentro de las celdas", sub: "Formato condicional"}
+  - narracion: "Parte de una columna de números, por ejemplo ventas por producto. Selecciona solo esos valores."
+    visual:
+      plantilla: planilla
+      datos:
+        titulo: "Ventas por producto"
+        filas:
+          - ["Producto", "Ventas"]
+          - ["Café", 120]
+          - ["Té", 80]
+          - ["Jugo", 45]
+          - ["Agua", 95]
+        resaltar:
+          - {rango: "B2:B5", beat: 1}
+  - narracion: "En Inicio, abre Formato condicional. Elige Barras de datos. Y escoge un estilo."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Tres pasos"
+        pasos:
+          - {titulo: "Inicio → Formato condicional", detalle: "con el rango seleccionado"}
+          - {titulo: "Barras de datos", detalle: "en la lista de formatos"}
+          - {titulo: "Elige un estilo", detalle: "relleno degradado o sólido"}
+  - narracion: "El largo de cada barra compara los valores del rango. Con una sola celda, la barra llena todo."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Compara *de un vistazo*"
+        puntos: ["Barra más larga = valor mayor", "Selecciona todo el rango", "Una sola celda se llena completa"]
+        cta: "Pruébalas"
+fuentes:
+  - url: "https://support.microsoft.com/en-us/excel/use-conditional-formatting-to-highlight-information-in-excel"
+    titulo: "Use conditional formatting to highlight information in Excel (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Con las celdas seleccionadas, en la pestaña Inicio, grupo Estilos, Formato condicional > Barras de datos y se elige un estilo; las barras se editan desde Administrar reglas."
+  - url: "https://support.microsoft.com/en-us/office/display-comparative-data-visually-with-data-bars-1329c412-b6ce-427b-a5af-c49890667513"
+    titulo: "Display comparative data visually with data bars (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Las barras de datos muestran valores relativos dentro de un rango."
+  - url: "https://learn.microsoft.com/en-us/answers/a/10273392"
+    titulo: "Data bars (Microsoft Q&A)"
+    fecha_consulta: 2026-10-11
+    respalda: "Una barra de datos aplicada a una sola celda siempre muestra la celda completamente llena. Fuente: respuesta de la comunidad de Microsoft."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — los nombres de menú en español (Inicio, Formato condicional, Barras de datos, relleno degradado/sólido) deben comprobarse en un Excel en español; el dato de la celda única proviene de Microsoft Q&A, no de la ayuda oficial."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

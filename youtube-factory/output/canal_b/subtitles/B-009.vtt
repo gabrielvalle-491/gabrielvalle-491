@@ -1,0 +1,37 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:06.222
+Tres celdas muestran 1,23, pero su suma da 3,70 y no 3,69.
+
+00:00:06.502 --> 00:00:10.946
+Las celdas tienen formato de dos decimales, pero guardan 1,234.
+
+00:00:11.106 --> 00:00:13.400
+La suma usa el valor real, no el que ves.
+
+00:00:13.560 --> 00:00:15.199
+Total: 3,70.
+
+00:00:15.479 --> 00:00:17.873
+Dar formato cambia lo que ves, no lo que hay.
+
+00:00:18.033 --> 00:00:22.847
+REDONDEAR cambia el valor guardado, y entonces la suma da 3,69.
+
+00:00:23.127 --> 00:00:24.320
+Escribe REDONDEAR.
+
+00:00:24.480 --> 00:00:25.647
+Primero, el número.
+
+00:00:25.807 --> 00:00:27.929
+Luego, cuántos decimales conservar.
+
+00:00:28.209 --> 00:00:31.028
+Revisa la barra de fórmulas: ahí está el valor real.
+
+00:00:31.188 --> 00:00:32.920
+Es el que usan tus cálculos.
+
+00:00:33.080 --> 00:00:37.120
+Si el total debe coincidir con lo que muestras, redondea antes de sumar.

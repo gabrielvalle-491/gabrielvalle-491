@@ -1,0 +1,79 @@
+id: A-084
+canal: canal_a
+fecha: 2027-01-10
+formato: short
+serie: El Atajo
+episodio: "#17"
+pilar: empleo
+tipo_editorial: tutorial
+idea: "Pedir a la IA un plan de 30 días con un objetivo medible por semana, sesiones cortas y repaso espaciado, y ajustarlo con pruebas cortas."
+objetivo: "Dar un prompt reutilizable para aprender una habilidad laboral con método, apoyado en evidencia sobre práctica espaciada y práctica con preguntas."
+publico: "Personas que quieren aprender una habilidad para su trabajo o para buscar empleo y no saben cómo organizarse."
+hipotesis: "Formato 'tutorial' en pilar 'empleo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Quieres aprender algo en 30 días? Con objetivos medibles y sesiones cortas, la IA te arma el plan."
+duracion_objetivo: "35-55 s"
+titulo: "Plan de estudio de 30 días con IA (con prompt)"
+titulos_alternativos:
+  - "Aprende una habilidad en 30 días: el prompt para planificarlo"
+  - "Estudia menos tiempo y recuerda más: plan con IA"
+  - "Cómo armar tu plan de estudio con repaso espaciado"
+criterio_titulo: "Nombra el resultado (plan de 30 días), la herramienta (IA) y promete un prompt, que es lo que se entrega."
+descripcion: |
+  Un plan de 30 días con un objetivo medible por semana, sesiones cortas y repasos. La IA te ayuda a armarlo con el prompt del video; tú decides el tema, el nivel y el tiempo disponible.
+  Una revisión de 2013 sobre técnicas de estudio destacó la práctica con preguntas y el estudio repartido en el tiempo. El plan es una sugerencia general: ajústalo según tus resultados.
+cta: "Guarda el prompt y empieza hoy."
+comentario_fijado: "Prompt: «Quiero aprender [TEMA] en 30 días con [MINUTOS] minutos al día. Mi nivel es [NIVEL]. Crea un plan semanal con un objetivo medible por semana, ejercicios y un repaso de lo anterior cada pocos días. Termina con una prueba corta.» ¿Qué vas a aprender tú?"
+hashtags: ["#IA", "#Aprender", "#Productividad"]
+palabras_clave: ["plan de estudio", "aprender con IA", "repaso espaciado", "prompt para estudiar"]
+escenas:
+  - narracion: "¿Quieres aprender algo en 30 días? Con objetivos medibles y sesiones cortas, la IA te arma el plan."
+    visual:
+      plantilla: hook
+      datos: {kicker: "El Atajo", titulo: "Plan de estudio de *30 días* con IA", sub: "Objetivo medible, sesiones cortas, repaso"}
+  - narracion: "Semana uno: aprende las bases en sesiones cortas. Semana dos: practica con ejercicios. Semana tres: aplícalo en un mini proyecto. Semana cuatro: repasa y mide tu avance."
+    visual:
+      plantilla: timeline
+      datos:
+        titulo: "Cuatro semanas, cuatro *objetivos*"
+        eventos:
+          - {fecha: "Semana 1", texto: "Bases en sesiones cortas"}
+          - {fecha: "Semana 2", texto: "Práctica con ejercicios"}
+          - {fecha: "Semana 3", texto: "Mini proyecto aplicado"}
+          - {fecha: "Semana 4", texto: "Repaso y medición"}
+  - narracion: "Una revisión de 2013 destacó dos técnicas: practicar con preguntas y repartir el estudio en el tiempo."
+    visual:
+      plantilla: dato
+      datos:
+        kicker: "Por qué funciona"
+        dato: "Practicar con preguntas y *espaciar* el estudio"
+        contexto: "Revisión de Dunlosky y colegas (2013), técnicas de mayor utilidad"
+        fuente: "psychologicalscience.org"
+  - narracion: "Pídele el plan así, con tu tema, tu nivel y tus minutos al día. Pide también un repaso de lo anterior cada pocos días."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Quiero aprender [TEMA] en 30 días con [MINUTOS] al día. Mi nivel: [NIVEL]. Crea un plan semanal con un objetivo medible, ejercicios y repaso cada pocos días. Termina con una prueba corta."
+  - narracion: "Al final de cada semana, pídele una prueba corta y ajusta el plan. El plan es una hipótesis: corrígelo según tus resultados."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Un plan se *ajusta*", puntos: ["Objetivo medible por semana", "Sesiones cortas", "Repaso y prueba"], cta: "Guarda el prompt"}
+fuentes:
+  - url: "https://www.psychologicalscience.org/news/releases/which-study-strategies-make-the-grade.html"
+    titulo: "Which Study Strategies Make the Grade? (Association for Psychological Science)"
+    fecha_consulta: 2026-10-11
+    respalda: "La revisión de Dunlosky et al. (2013) en Psychological Science in the Public Interest dio la mayor utilidad a la práctica con pruebas (practice testing) y a la práctica distribuida (distributed practice)."
+    cifras: [2013]
+  - calculo: "[30]"
+    respalda: "Duración del plan (30 días) elegida por el canal como ejemplo; no es una cifra de ninguna fuente."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — la afirmación de evidencia se limita a lo que la fuente indica; el plan de cuatro semanas es una propuesta didáctica, no un método validado como tal"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

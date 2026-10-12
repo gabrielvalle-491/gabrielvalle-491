@@ -1,0 +1,84 @@
+id: B-028
+canal: canal_b
+fecha: 2026-11-15
+formato: short
+serie: Tu dinero en una planilla
+episodio: "#10"
+pilar: dinero
+tipo_editorial: contraintuitivo
+idea: "La inflación de varios años no se suma, se compone: dos años de 10 % dan 21 %, no 20 %."
+objetivo: "Corregir un error de cálculo muy común con un ejemplo mínimo y una fórmula reutilizable."
+publico: "Quien compara precios o salarios entre años y suma porcentajes de inflación."
+hipotesis: "Formato 'contraintuitivo' en pilar 'dinero': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Dos años seguidos de 10 % de inflación no suman 20 %."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Inflación acumulada: por qué 10 % y 10 % no son 20 %"
+titulos_alternativos:
+  - "Cómo calcular la inflación acumulada de varios años en Excel"
+  - "Los porcentajes de inflación no se suman: se multiplican"
+  - "10 % más 10 % es 21 %: la cuenta y la fórmula"
+criterio_titulo: "Plantea la sorpresa con cifras concretas y promete la explicación."
+descripcion: |
+  La inflación de cada año se aplica sobre precios que ya subieron, por eso se multiplica. Con 10 % dos años seguidos, 100 pasa a 110 y luego a 121: 21 % acumulado. Cifras ilustrativas.
+  Fórmula de la planilla: (1 + año 1) × (1 + año 2) − 1.
+cta: "Calcula la inflación acumulada de tu país con esta fórmula."
+comentario_fijado: "Fórmula: =(1+A2)*(1+A3)-1 con la inflación de cada año en A2 y A3 (formato porcentaje). En México y EE. UU. Excel suele usar coma (,) como separador de argumentos."
+hashtags: ["#FinanzasPersonales", "#Inflación", "#Excel"]
+palabras_clave: ["inflación acumulada", "cómo calcular inflación de varios años", "porcentajes compuestos"]
+escenas:
+  - narracion: "Dos años seguidos de 10 % de inflación no suman 20 %. ¿Cuánto suman, entonces?"
+    visual:
+      plantilla: hook
+      datos: {kicker: "Tu dinero en una planilla", titulo: "10 % y 10 % *no son* 20 %", sub: "Ejemplo ilustrativo de inflación acumulada"}
+  - narracion: "En el año uno, un precio de 100 sube a 110. En el año dos sube 10 % sobre 110, no sobre 100, y llega a 121. La inflación acumulada es 21 %."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Inflación de 10 % por año"
+        lineas:
+          - {izq: "Año 1: 100 × 1,10", der: "110"}
+          - {izq: "Año 2: 110 × 1,10", der: "121"}
+        resultado: {izq: "Acumulada: 121 ÷ 100 − 1", der: "21 %"}
+  - narracion: "En la planilla, multiplica los factores. El del primer año. El del segundo año. Y resta uno para quedarte con el porcentaje."
+    visual:
+      plantilla: formula
+      datos:
+        titulo: "Inflación acumulada"
+        formula: "=(1+A2)*(1+A3)-1"
+        partes:
+          - {token: "(1+A2)", explica: "factor del año 1"}
+          - {token: "(1+A3)", explica: "factor del año 2"}
+          - {token: "-1", explica: "convierte el factor en porcentaje"}
+  - narracion: "Con tres años de 10 % serían 33,1 %. Los porcentajes se multiplican, no se suman. Pruébalo en tu planilla con la inflación de tu país."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Porcentajes: *multiplica*, no sumes", puntos: ["2 años de 10 %: 21 %", "3 años de 10 %: 33,1 %"], cta: "Guárdalo"}
+fuentes:
+  - calculo: "[100, 10]"
+    respalda: "Datos ilustrativos del ejemplo (precio base e inflación anual)."
+  - calculo: "10 + 10"
+    resultado: 20
+    respalda: "Suma (incorrecta) de dos inflaciones de 10 %, que se contrasta con el 21 % real."
+  - calculo: "100 * 1.10"
+    resultado: 110
+    respalda: "Precio tras el primer año."
+  - calculo: "100 * 1.10 * 1.10"
+    resultado: 121
+    respalda: "Precio tras el segundo año."
+  - calculo: "(1.10 * 1.10 - 1) * 100"
+    resultado: 21
+    respalda: "Inflación acumulada de dos años de 10 %."
+  - calculo: "(1.10 ** 3 - 1) * 100"
+    resultado: 33.1
+    respalda: "Inflación acumulada de tres años de 10 %."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — aritmética verificada automáticamente; tasa ilustrativa"
+  monetizacion: "bajo — educación financiera general"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

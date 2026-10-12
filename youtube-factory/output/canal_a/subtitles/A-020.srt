@@ -1,0 +1,47 @@
+1
+00:00:00,120 --> 00:00:01,940
+¿Vale la pena pagar por una IA?
+
+2
+00:00:02,180 --> 00:00:03,605
+Primero mira qué cambia.
+
+3
+00:00:03,885 --> 00:00:06,957
+En el plan gratis hay límites de uso, y las funciones
+
+4
+00:00:06,957 --> 00:00:11,420
+avanzadas, como subir archivos o crear imágenes, tienen topes más estrictos.
+
+5
+00:00:11,580 --> 00:00:14,176
+En el plan de pago, los límites son más altos.
+
+6
+00:00:14,336 --> 00:00:18,078
+Así que la diferencia principal, en general, es cuánto puedes usar.
+
+7
+00:00:18,358 --> 00:00:22,501
+Antes de pagar, usa el plan gratis con tu tarea real durante una semana.
+
+8
+00:00:22,661 --> 00:00:25,035
+Anota cada vez que chocas con un límite.
+
+9
+00:00:25,195 --> 00:00:27,541
+Y revisa la página oficial del plan, porque
+
+10
+00:00:27,541 --> 00:00:30,214
+los modelos y los límites cambian con el tiempo.
+
+11
+00:00:30,494 --> 00:00:32,833
+Paga solo si el límite te frena de verdad.
+
+12
+00:00:32,993 --> 00:00:36,706
+Y a la fecha, confirma precios y condiciones en el sitio oficial.

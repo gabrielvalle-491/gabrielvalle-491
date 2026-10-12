@@ -1,0 +1,77 @@
+id: A-074
+canal: canal_a
+fecha: 2026-12-31
+formato: short
+serie: Glosario rápido
+episodio: "#09"
+pilar: conceptos
+tipo_editorial: contraintuitivo
+idea: "La respuesta de una IA cambia al repetir la pregunta porque genera el texto eligiendo entre opciones probables, no consultando una respuesta guardada; la variación es normal y se puede reducir con formato fijo, ejemplos y, en las API, una temperatura baja."
+objetivo: "Quitar la sorpresa de que la IA responda distinto y dar tres formas prácticas de obtener respuestas más estables."
+publico: "Usuarios de asistentes de IA que se confunden cuando la misma pregunta da respuestas distintas."
+hipotesis: "Formato 'contraintuitivo' en pilar 'conceptos': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Por qué la IA responde distinto si repites la misma pregunta?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Por qué la IA responde distinto a la misma pregunta"
+titulos_alternativos:
+  - "La IA no es una base de datos: por eso cambia su respuesta"
+  - "Misma pregunta, otra respuesta: cómo hacerla más estable"
+  - "Qué es la temperatura de un modelo de IA (y para qué sirve)"
+criterio_titulo: "Repite la duda exacta del usuario, es buscable y promete la explicación."
+descripcion: |
+  Un modelo de lenguaje no consulta respuestas guardadas: genera el texto trozo a trozo, eligiendo entre opciones probables. Por eso la misma pregunta puede dar respuestas distintas.
+  Para respuestas más estables: pide un formato fijo, incluye un ejemplo de salida y, si usas una API, baja la temperatura (según la documentación de OpenAI y Google, valores bajos hacen la salida más enfocada). Aun así, verifica los datos importantes.
+cta: "Guárdalo la próxima vez que dudes de una respuesta."
+comentario_fijado: "Fuentes: documentación de OpenAI (API) y de Google Vertex AI sobre el parámetro temperature. Los chats de los asistentes no siempre muestran este ajuste. ¿Ya notaste respuestas distintas a la misma pregunta?"
+hashtags: ["#IA", "#Prompts", "#InteligenciaArtificial"]
+palabras_clave: ["por qué la IA responde distinto", "temperatura de un modelo", "misma pregunta respuesta diferente", "cómo funciona ChatGPT"]
+escenas:
+  - narracion: "¿Por qué la IA responde distinto si repites la misma pregunta?"
+    visual:
+      plantilla: hook
+      datos: {kicker: "Glosario rápido", titulo: "Misma pregunta, *otra respuesta*", sub: "¿Es un error?"}
+  - narracion: "No consulta una respuesta guardada. Genera el texto trozo a trozo, eligiendo entre opciones probables."
+    visual:
+      plantilla: texto
+      datos: {titulo: "Cómo responde", texto: "Genera el texto trozo a trozo y *elige* entre opciones *probables*."}
+  - narracion: "Una base de datos devuelve lo mismo ante la misma consulta. Un modelo de lenguaje puede tomar otro camino cada vez. Por eso la variación es normal, pero los datos importantes se verifican."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Base de datos", titulo: "Misma consulta", items: ["Mismo resultado", "Dato guardado"]}
+        der: {etiqueta: "Modelo de lenguaje", titulo: "Misma pregunta", items: ["Puede variar", "Texto generado"]}
+        veredicto: "Variar es normal; verificar es obligatorio"
+  - narracion: "Para respuestas más estables, pide un formato fijo. Incluye un ejemplo de salida. Y si usas una API, baja la temperatura."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Para respuestas más *estables*"
+        estilo: check
+        items: ["Pide un formato fijo", "Incluye un ejemplo de salida", "En API: temperatura baja"]
+  - narracion: "No es un error: es cómo funciona."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Variar es *normal*, verificar es tu parte"
+        puntos: ["Elige entre opciones probables", "Formato fijo y ejemplo", "Verifica los datos"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/learn/prompts/adjust-parameter-values"
+    titulo: "Experiment with parameter values (Google Cloud, Vertex AI)"
+    fecha_consulta: 2026-10-11
+    respalda: "La temperatura controla el grado de aleatoriedad en la selección de tokens; valores más altos dan respuestas más variadas y valores bajos más predecibles."
+  - url: "https://platform.openai.com/docs/api-reference/runs/createRun"
+    titulo: "Create run (OpenAI API reference)"
+    fecha_consulta: 2026-10-11
+    respalda: "El parámetro temperature de la API de OpenAI va de 0 a 2; valores altos hacen la salida más aleatoria y valores bajos más enfocada y determinista."
+riesgos:
+  derechos: "bajo — explicación propia; sin logotipos"
+  exactitud: "medio — la explicación (elige entre opciones probables) es una simplificación; la descripción de la temperatura proviene de resúmenes de resultados de búsqueda de la documentación (no se abrieron las páginas) y los chats de consumo suelen no exponer ese ajuste. Verificar la redacción en la documentación antes de publicar."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

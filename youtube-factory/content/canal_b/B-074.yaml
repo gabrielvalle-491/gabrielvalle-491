@@ -1,0 +1,83 @@
+id: B-074
+canal: canal_b
+fecha: 2026-12-31
+formato: short
+serie: Reto de la celda
+episodio: "#05"
+pilar: quiz
+tipo_editorial: quiz
+idea: "Restar dos fechas en Excel devuelve la diferencia en días: del 1 de marzo al 15 de abril hay 45; si se quiere contar ambos extremos, se suma 1."
+objetivo: "Quiz corto que enseña la resta de fechas y la diferencia entre 'diferencia' y 'contar ambos días'."
+publico: "Personas que calculan plazos, entregas o vencimientos en planillas."
+hipotesis: "Formato 'quiz' en pilar 'quiz': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Cuántos días hay entre el 1 de marzo y el 15 de abril?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "¿Cuántos días hay entre dos fechas en Excel? Reto de la celda"
+titulos_alternativos:
+  - "Restar fechas en Excel: del 1 de marzo al 15 de abril"
+  - "Días entre dos fechas: la resta que todos olvidan"
+  - "Quiz de Excel: ¿44, 45 o 46 días?"
+criterio_titulo: "Plantea la pregunta del reto y usa la intención de búsqueda exacta (días entre dos fechas)."
+descripcion: |
+  Excel guarda cada fecha como un número, así que restar la fecha final menos la inicial da la diferencia en días: del 1 de marzo al 15 de abril son 45. Si quieres contar ambos días, suma 1.
+  Si ves una fecha en vez de un número, cambia el formato de la celda a número.
+cta: "Comenta tu respuesta y reta a alguien con otras fechas."
+comentario_fijado: "Fórmula: =B2-A2 con la fecha inicial en A2 y la final en B2 (formato de número en el resultado). Para contar ambos días: =B2-A2+1."
+hashtags: ["#Excel", "#Quiz", "#Fechas"]
+palabras_clave: ["días entre dos fechas Excel", "restar fechas Excel", "calcular diferencia de días"]
+escenas:
+  - narracion: "¿Cuántos días hay entre el 1 de marzo y el 15 de abril? ¿44, 45 o 46? Son 45: restar fechas da la diferencia en días."
+    visual:
+      plantilla: pregunta
+      datos:
+        pregunta: "¿Cuántos días hay del 1 de marzo al 15 de abril?"
+        opciones: ["44", "45", "46"]
+        correcta: 1
+        explicacion: "Fecha final menos fecha inicial"
+  - narracion: "Del 1 al 31 de marzo hay 30 días de diferencia. Del 31 de marzo al 15 de abril, 15 más. Total: 45."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Día a día"
+        lineas:
+          - {izq: "1 mar → 31 mar", der: "30"}
+          - {izq: "31 mar → 15 abr", der: "15"}
+        resultado: {izq: "Total de días", der: "45"}
+  - narracion: "En la planilla: fecha final menos fecha inicial. Si ves una fecha rara, cambia el formato de la celda a número. Y si quieres contar ambos días, suma 1."
+    visual:
+      plantilla: texto
+      datos:
+        titulo: "En la planilla"
+        texto: "=B2-A2"
+        nota: "Formato de número · para contar ambos días: +1"
+  - narracion: "Guarda el truco y reta a alguien con otras fechas."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Restar fechas = *días*"
+        puntos: ["Final menos inicial", "Resultado en formato número", "Ambos extremos: suma 1"]
+        cta: "Comenta tu respuesta"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/excel/get-started/calculate-the-difference-between-two-dates"
+    titulo: "Calcular la diferencia entre dos fechas (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Excel almacena las fechas como números de serie, por lo que restar una fecha de otra da el número de días entre ellas; el resultado debe tener formato numérico."
+  - calculo: "[44, 45, 46, 31, 15]"
+    respalda: "Opciones del quiz."
+  - calculo: "31 - 1"
+    resultado: 30
+    respalda: "Días de diferencia entre el 1 y el 31 de marzo."
+  - calculo: "31 - 1 + 15"
+    resultado: 45
+    respalda: "Días del 1 de marzo al 15 de abril (marzo tiene 31 días)."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — aritmética verificada; el cálculo no cruza febrero, así que no depende de años bisiestos."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

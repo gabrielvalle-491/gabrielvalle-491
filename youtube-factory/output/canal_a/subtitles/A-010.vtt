@@ -1,0 +1,40 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:03.188
+¿Por qué la fórmula que te da la IA no funciona en tu Excel?
+
+00:00:03.428 --> 00:00:05.243
+Casi siempre, faltó contexto.
+
+00:00:05.523 --> 00:00:09.263
+Describe tus columnas, lo que quieres obtener y tu idioma de Excel.
+
+00:00:09.423 --> 00:00:09.960
+Así.
+
+00:00:10.240 --> 00:00:12.380
+La IA debería devolver algo así.
+
+00:00:12.540 --> 00:00:14.367
+Primero, el rango que se suma.
+
+00:00:14.527 --> 00:00:15.816
+Luego, el producto.
+
+00:00:15.976 --> 00:00:17.404
+Y al final, la región.
+
+00:00:17.684 --> 00:00:20.822
+Antes de usarla, pruébala con un caso que ya conoces.
+
+00:00:20.982 --> 00:00:23.530
+El lunes, Café en el Norte vendió 120.
+
+00:00:23.690 --> 00:00:24.974
+El martes, 80.
+
+00:00:25.134 --> 00:00:27.054
+La fórmula debe dar 200.
+
+00:00:27.334 --> 00:00:30.923
+Si da otra cifra, cuéntale a la IA qué obtuviste y qué esperabas.

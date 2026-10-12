@@ -1,0 +1,82 @@
+id: B-064
+canal: canal_b
+fecha: 2026-12-21
+formato: short
+serie: Excel vs Sheets
+episodio: "#03"
+pilar: excel_vs_sheets
+tipo_editorial: comparacion
+idea: "Para trabajar en equipo en tiempo real, Excel (coautoría en OneDrive o SharePoint Online) y Google Sheets (colaboración nativa en la nube) sirven; lo que decide es dónde vive el archivo y qué usa el equipo."
+objetivo: "Comparación honesta y útil: criterios para elegir herramienta de colaboración sin declarar un ganador absoluto."
+publico: "Equipos pequeños y personas que comparten planillas y dudan entre Excel y Google Sheets."
+hipotesis: "Formato 'comparacion' en pilar 'excel_vs_sheets': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Excel o Google Sheets para trabajar en equipo? Depende de dónde viva tu archivo."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Excel o Google Sheets para trabajar en equipo: cuál conviene"
+titulos_alternativos:
+  - "Editar una planilla entre varios: Excel vs Google Sheets"
+  - "Coautoría en Excel o edición en vivo en Sheets: qué cambia"
+  - "Antes de compartir una planilla, revisa estas 3 cosas"
+criterio_titulo: "Plantea la duda real que se busca (equipo + herramienta) y promete un criterio de decisión."
+descripcion: |
+  Excel permite que varias personas editen a la vez cuando el libro está en OneDrive o SharePoint Online. Google Sheets se comparte por correo o enlace y se edita en vivo desde el navegador.
+  La elección depende de dónde vive el archivo, qué permisos necesita cada persona y qué versión usa el equipo. Las funciones y los requisitos pueden cambiar: revisa la ayuda oficial.
+cta: "Cuéntanos con cuál trabaja tu equipo."
+comentario_fijado: "Ayuda oficial: coautoría en Excel (Microsoft) y colaboración en Sheets (Google). ¿Con cuál trabaja tu equipo y por qué?"
+hashtags: ["#Excel", "#GoogleSheets", "#TrabajoEnEquipo"]
+palabras_clave: ["Excel vs Google Sheets", "trabajar en equipo planilla", "coautoría Excel"]
+escenas:
+  - narracion: "¿Excel o Google Sheets para trabajar en equipo? Depende de dónde viva tu archivo."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Excel vs Sheets", titulo: "Planilla en equipo: ¿*Excel* o *Sheets*?"}
+  - narracion: "Excel: varias personas editan a la vez si el libro está en OneDrive o SharePoint Online, con AutoSave activado. Sheets: compartes por correo o enlace, das permiso para ver, comentar o editar, y todos editan en vivo. Elige según dónde vive el archivo y qué usa tu equipo."
+    visual:
+      plantilla: versus
+      datos:
+        titulo: "Trabajo en equipo"
+        izq: {etiqueta: "Excel", titulo: "Coautoría", items: ["Libro en OneDrive o SharePoint Online", "AutoSave activado", "Versión compatible para todos"]}
+        der: {etiqueta: "Google Sheets", titulo: "Edición en vivo", items: ["Compartir por correo o enlace", "Permiso para ver, comentar o editar", "Todos editan el mismo archivo"]}
+        veredicto: "Elige según dónde vive el archivo"
+  - narracion: "Primero, dónde se guarda: en la nube de Microsoft o en Google Drive. Segundo, qué permiso necesita cada persona. Tercero, la versión de Excel: si alguien abre el archivo con una versión sin coautoría, Microsoft indica que el resto puede ver un error de bloqueo."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Antes de elegir, revisa"
+        estilo: num
+        items:
+          - {texto: "Dónde se guarda el archivo", detalle: "OneDrive, SharePoint o Drive"}
+          - {texto: "Qué permiso necesita cada persona", detalle: "ver, comentar o editar"}
+          - {texto: "Qué versión usa cada uno", detalle: "una sin coautoría bloquea"}
+    edicion: "Ritmo ágil: un ítem por frase."
+  - narracion: "Cuéntanos con cuál trabaja tu equipo."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Elige según *el archivo y el equipo*"
+        puntos: ["Dónde vive el archivo", "Permisos por persona", "Versiones compatibles"]
+        cta: "Cuéntanos tu caso"
+fuentes:
+  - url: "https://support.microsoft.com/en-us/office/collaborate-on-excel-workbooks-at-the-same-time-with-co-authoring-7152aa8b-b791-414c-a3bb-3024e46fb104"
+    titulo: "Collaborate on Excel workbooks at the same time with co-authoring (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "La coautoría en Excel requiere que el libro esté en OneDrive, OneDrive for Business o SharePoint Online; AutoSave está activado por defecto en esas ubicaciones; SharePoint local no admite coautoría."
+  - url: "https://support.microsoft.com/en-US/Excel/get-started/best-practices-for-coauthoring-in-excel"
+    titulo: "Best Practices for Coauthoring in Excel (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Si una persona abre el archivo con una versión de Excel sin soporte de coautoría, el resto puede recibir un error de archivo bloqueado."
+  - url: "https://support.google.com/docs/answer/9331169?hl=en"
+    titulo: "Collaborate in Sheets (Google Docs Editors Help)"
+    fecha_consulta: 2026-10-11
+    respalda: "En Sheets se comparte el archivo, se elige el nivel de acceso (ver, comentar o editar) y la colaboración en tiempo real está disponible para hojas de cálculo."
+riesgos:
+  derechos: "bajo — todo el material visual es generado por el canal"
+  exactitud: "medio — requisitos y nombres de planes de coautoría cambian; la narración se limita a lo que dice la ayuda oficial y evita nombres de planes. Verificar la ayuda vigente antes de publicar."
+  monetizacion: "bajo — sin marcas como protagonistas visuales"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["coautoría", "AutoSave", "SharePoint", "OneDrive"]

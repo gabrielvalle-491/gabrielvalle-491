@@ -1,0 +1,70 @@
+id: A-018
+canal: canal_a
+fecha: 2026-11-05
+formato: short
+serie: Caso pyme
+episodio: "#05"
+pilar: negocio
+tipo_editorial: caso_practico
+idea: "Un FODA útil se construye con datos reales del negocio y termina en acciones medibles; la IA ayuda a ordenarlo si le das cifras y le pides acciones, no adjetivos."
+objetivo: "Mostrar cómo usar la IA para un análisis estratégico básico sin caer en listas genéricas, para atraer a dueños de pymes."
+publico: "Dueños y gerentes de pequeños negocios que hacen un FODA porque 'toca' pero terminan con una lista de adjetivos sin acciones."
+hipotesis: "Formato 'caso_practico' en pilar 'negocio': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Un FODA que dice 'buena atención' no sirve. Uno con datos y acciones, sí."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "FODA con IA: cómo evitar un análisis genérico"
+titulos_alternativos:
+  - "Tu FODA no sirve si solo tiene adjetivos: dale datos a la IA"
+  - "Análisis FODA para tu negocio: prompt con datos reales y acciones"
+  - "De adjetivos a acciones: un FODA que sí se puede usar"
+criterio_titulo: "Plantea el problema (análisis genérico) y la herramienta; 'FODA' es un término buscable en el público de negocios."
+descripcion: |
+  Un FODA útil parte de datos reales de tu negocio y termina en acciones que puedes medir. Dale a la IA tus cifras (ventas, clientes, competencia, costos) y pídele una acción por cada punto, no adjetivos.
+  No pegues datos personales de tus clientes. La IA no reemplaza tu criterio: revisa cada acción y decide cuáles tienen sentido para tu negocio. No se prometen resultados.
+cta: "Haz tu FODA con tus propios números."
+comentario_fijado: "Prompt del video: Haz un FODA de mi negocio usando solo estos datos: [VENTAS], [CLIENTES], [COMPETENCIA], [COSTOS]. Para cada punto, da una acción concreta y cómo medirla. ¿Qué dato de tu negocio usarías primero?"
+hashtags: ["#Pymes", "#FODA", "#IA"]
+palabras_clave: ["análisis FODA", "FODA con IA", "estrategia para pymes", "prompt para negocios"]
+escenas:
+  - narracion: "Un FODA que dice 'buena atención' no sirve. Uno con datos y acciones, sí."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Caso pyme", titulo: "Un FODA con *datos*, no con adjetivos"}
+  - narracion: "Fortalezas y debilidades son internas. Oportunidades y amenazas vienen de afuera. Los cuatro cuadrantes necesitan datos."
+    visual:
+      plantilla: texto
+      datos:
+        titulo: "FODA en *una línea*"
+        texto: "*Fortalezas* y *debilidades*: dentro del negocio. *Oportunidades* y *amenazas*: fuera."
+        beat_texto: 0
+  - narracion: "El FODA vago lista adjetivos. El útil parte de datos reales y termina en acciones medibles. Dale tus cifras y pide acciones, no adjetivos."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "FODA vago", titulo: "Adjetivos", items: ["'Buena atención'", "'Precios competitivos'"]}
+        der: {etiqueta: "FODA útil", titulo: "Datos y acciones", items: ["Cifras del negocio", "Acción y forma de medirla"]}
+        veredicto: "Pide *acciones*, no adjetivos"
+  - narracion: "Pídelo así. Pega cifras reales de tu negocio dentro de los corchetes."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Haz un FODA de mi negocio usando solo estos datos: [VENTAS], [CLIENTES], [COMPETENCIA], [COSTOS]. Para cada punto, da una acción concreta y cómo medirla."
+  - narracion: "Pega cifras del negocio, no datos personales de clientes. Y revisa cada acción: tú decides cuáles tienen sentido para tu caso."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Datos reales, *acciones medibles*", puntos: ["Cifras de tu negocio", "Una acción por punto", "Sin datos personales de clientes"], cta: "Haz tu FODA"}
+fuentes:
+  - calculo: "[4]"
+    respalda: "FODA agrupa cuatro cuadrantes (fortalezas, oportunidades, debilidades y amenazas); fortalezas y debilidades se refieren a factores internos y oportunidades y amenazas a factores externos. Definición estándar de la herramienta de análisis estratégico, sin cifras de resultados."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — definición estándar de FODA; método de prompt general; no se prometen resultados de negocio"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["FODA"]

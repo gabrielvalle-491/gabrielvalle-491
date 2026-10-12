@@ -1,0 +1,85 @@
+id: B-049
+canal: canal_b
+fecha: 2026-12-06
+formato: short
+serie: Excel bilingüe
+episodio: "#01"
+pilar: formulas
+tipo_editorial: tutorial
+idea: "Las funciones de Excel tienen nombre distinto en inglés y en español (VLOOKUP es BUSCARV); conocer las equivalencias, FALSE/FALSO y el separador de argumentos evita errores al trabajar con archivos de EE. UU."
+objetivo: "Tutorial buscable para quien trabaja con equipos o archivos en inglés y español; aporta una tabla de equivalencias y tres detalles que rompen fórmulas."
+publico: "Personas en Latinoamérica que reciben archivos de Excel de clientes o empresas de EE. UU., o que siguen tutoriales en inglés."
+hipotesis: "Formato 'tutorial' en pilar 'formulas': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "VLOOKUP y BUSCARV son la misma función. Cambia el idioma, no la lógica."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "VLOOKUP es BUSCARV: nombres de funciones en inglés y español"
+titulos_alternativos:
+  - "Excel en inglés vs español: 3 funciones y 3 trampas"
+  - "Si trabajas con archivos de EE. UU., aprende estas equivalencias"
+  - "FALSE no es FALSO: la trampa al copiar fórmulas entre idiomas"
+criterio_titulo: "Usa la búsqueda real (VLOOKUP / BUSCARV) y promete una guía de equivalencias, que es lo que se entrega."
+descripcion: |
+  VLOOKUP, COUNTIFS y NETWORKDAYS son BUSCARV, CONTAR.SI.CONJUNTO y DIAS.LAB en Excel en español. También cambian FALSE por FALSO y, según tu configuración regional, la coma por el punto y coma.
+  Excel suele mostrar las fórmulas con los nombres de tu idioma; si copias una fórmula de un tutorial, tradúcela antes de pegarla.
+cta: "Guárdalo para cuando recibas un archivo en inglés."
+comentario_fijado: "Equivalencias del video: VLOOKUP = BUSCARV, COUNTIFS = CONTAR.SI.CONJUNTO, NETWORKDAYS = DIAS.LAB, FALSE = FALSO. Ejemplo en inglés: =VLOOKUP(A2,D:E,2,FALSE). En español: =BUSCARV(A2;D:E;2;FALSO). Según tu configuración regional (por ejemplo México y EE. UU.), el separador puede ser coma (,) en lugar de punto y coma (;)."
+hashtags: ["#Excel", "#GoogleSheets", "#Fórmulas"]
+palabras_clave: ["VLOOKUP en español", "BUSCARV en inglés", "nombres de funciones Excel inglés español"]
+escenas:
+  - narracion: "VLOOKUP y BUSCARV son la misma función. Cambia el idioma, no la lógica."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Excel bilingüe", titulo: "*VLOOKUP* es BUSCARV", sub: "Misma función, otro idioma"}
+  - narracion: "En inglés escribes VLOOKUP, [[caunt ifs|COUNTIFS]] y [[net uerk deis|NETWORKDAYS]]. En español, BUSCARV, CONTAR.SI.CONJUNTO y DIAS.LAB. Misma lógica, otro nombre."
+    visual:
+      plantilla: versus
+      datos:
+        titulo: "Mismas funciones"
+        izq: {etiqueta: "Inglés", titulo: "Excel en inglés", items: ["VLOOKUP", "COUNTIFS", "NETWORKDAYS"]}
+        der: {etiqueta: "Español", titulo: "Excel en español", items: ["BUSCARV", "CONTAR.SI.CONJUNTO", "DIAS.LAB"]}
+        veredicto: "Cambia el nombre, no la lógica"
+  - narracion: "Y hay tres trampas al copiar una fórmula. FALSE se escribe FALSO. TRUE, VERDADERO. Y la coma entre argumentos puede ser punto y coma, según tu configuración regional."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Tres trampas al traducir"
+        estilo: x
+        items:
+          - {texto: "FALSE → FALSO", detalle: "el último argumento de BUSCARV"}
+          - {texto: "TRUE → VERDADERO", detalle: "también cambia"}
+          - {texto: "Coma ↔ punto y coma", detalle: "según la configuración regional"}
+  - narracion: "Si abres un archivo de otra región, Excel suele mostrarte los nombres en tu idioma."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Traduce *antes* de pegar"
+        puntos: ["Nombres de funciones", "FALSE / FALSO", "Separador de argumentos"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/office/buscarv-funci%c3%b3n-buscarv-0bbc8083-26fe-4963-8ab8-93a18ad188a1"
+    titulo: "BUSCARV (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "BUSCARV es la función de búsqueda vertical (VLOOKUP en inglés); el último argumento FALSO pide coincidencia exacta y VERDADERO, aproximada."
+  - url: "https://support.microsoft.com/es-es/office/funci%C3%B3n-contar-si-conjunto-dda3dc6e-f74e-4aee-88bc-aa8c2a866842"
+    titulo: "CONTAR.SI.CONJUNTO (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "CONTAR.SI.CONJUNTO es la versión en español de COUNTIFS."
+  - url: "https://support.microsoft.com/es-ES/Excel/functions/networkdays-function"
+    titulo: "NETWORKDAYS (Microsoft Support, versión es-ES)"
+    fecha_consulta: 2026-10-11
+    respalda: "NETWORKDAYS cuenta días laborables entre dos fechas; su equivalente en Excel en español es DIAS.LAB (equivalencia confirmada por fuentes secundarias en la búsqueda)."
+  - url: "https://professor-excel.com/dictionary-for-excel-formulas"
+    titulo: "Functions Dictionary (Professor Excel, tercero)"
+    fecha_consulta: 2026-10-11
+    respalda: "Excel traduce automáticamente las fórmulas al idioma del usuario; a veces hay que conocer el término local. Fuente de terceros."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — no se halló una tabla oficial de traducción de funciones en Microsoft Support (el Functions Translator oficial ya no está disponible); las equivalencias son estándar pero conviene verificarlas en un Excel en español antes de publicar. El separador depende de la configuración regional."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["COUNTIFS", "NETWORKDAYS", "VLOOKUP", "BUSCARV"]

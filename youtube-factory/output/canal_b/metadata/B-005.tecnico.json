@@ -1,0 +1,73 @@
+{
+  "id": "B-005",
+  "duracion_s": 32.389,
+  "frases": 9,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.834,
+      "beats": [
+        -5.0,
+        1.526
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.834,
+      "fin": 19.122,
+      "beats": [
+        0.0,
+        4.359,
+        8.065,
+        12.818
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 19.122,
+      "fin": 25.077,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "barras"
+    },
+    {
+      "inicio": 25.077,
+      "fin": 32.389,
+      "beats": [
+        0.0,
+        4.605
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.17",
+    "input_tp": "-6.41",
+    "input_lra": "2.60",
+    "input_thresh": "-32.41",
+    "output_i": "-14.20",
+    "output_tp": "-1.50",
+    "output_lra": "1.90",
+    "output_thresh": "-24.33",
+    "normalization_type": "dynamic",
+    "target_offset": "0.20"
+  },
+  "fotogramas_unicos": 228,
+  "tts_cache": 0,
+  "spec_hash": "4a7331c43732fcdb",
+  "segundos_produccion": 91.1,
+  "texto_hablado": [
+    "Mito: el envase más grande siempre sale más barato por kilo.",
+    "El chico cuesta dos coma diez por medio kilo: cuatro coma veinte el kilo.",
+    "El mediano cuesta tres por tres cuartos de kilo: cuatro el kilo.",
+    "El grande cuesta cuatro coma cuarenta por un kilo: cuatro coma cuarenta el kilo.",
+    "El más barato por kilo es el mediano.",
+    "Comparados por kilo, el grande es el más caro de los tres.",
+    "No es una regla: depende de cada oferta.",
+    "Antes de comprar, calcula el precio por unidad: precio dividido entre cantidad.",
+    "Usa la misma unidad en todos."
+  ]
+}

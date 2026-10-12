@@ -1,0 +1,77 @@
+id: A-079
+canal: canal_a
+fecha: 2027-01-05
+formato: short
+serie: "¿Cuál uso?"
+episodio: "#04"
+pilar: herramientas
+tipo_editorial: herramienta
+idea: "NotebookLM responde a partir de las fuentes que tú subes y muestra citas que llevan al pasaje original, lo que facilita verificar."
+objetivo: "Mostrar un flujo simple de estudio con tus propios documentos y enseñar a verificar con las citas, no a confiar a ciegas."
+publico: "Estudiantes, profesionales y emprendedores que tienen PDF, apuntes o informes y quieren consultarlos sin leerlos completos."
+hipotesis: "Formato 'herramienta' en pilar 'herramientas': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Y si la IA solo respondiera con lo que dicen tus propios documentos?"
+duracion_objetivo: "35-55 s"
+titulo: "NotebookLM: pregúntale a tus documentos y comprueba las citas"
+titulos_alternativos:
+  - "Cómo estudiar tus PDF con NotebookLM en 4 pasos"
+  - "La IA que responde con tus fuentes (y te muestra de dónde)"
+  - "Deja de releer: consulta tus apuntes con NotebookLM"
+criterio_titulo: "Nombra la herramienta (término de búsqueda) y la promesa concreta: preguntar a tus documentos y verificar con citas."
+descripcion: |
+  NotebookLM es una herramienta de Google que responde a partir de las fuentes que subes y marca citas para que puedas abrir el pasaje original y comprobar la respuesta.
+  Pasos básicos: crea un cuaderno, agrega fuentes, haz preguntas concretas y revisa las citas. Según la ayuda oficial, las citas sirven para verificar; aun así, la respuesta puede tener errores. A la fecha; los menús y el nombre del producto pueden cambiar. No subas documentos confidenciales sin autorización.
+cta: "Pruébalo con un documento tuyo."
+comentario_fijado: "¿Qué documento te gustaría poder consultar con preguntas: un manual, un contrato (sin datos sensibles), apuntes de clase?"
+hashtags: ["#NotebookLM", "#IA", "#Estudiar"]
+palabras_clave: ["NotebookLM", "estudiar con IA", "preguntar a un PDF", "citas en IA"]
+escenas:
+  - narracion: "¿Y si la IA solo respondiera con lo que dicen tus propios documentos? Eso hace NotebookLM, y te muestra de dónde sacó cada dato."
+    visual:
+      plantilla: hook
+      datos: {kicker: "¿Cuál uso?", titulo: "Una IA que responde con *tus* documentos", sub: "NotebookLM y sus citas"}
+    edicion: "Gancho directo; la promesa (tus documentos + citas) se entiende sin audio."
+  - narracion: "Primero, crea un cuaderno nuevo. Segundo, agrega tus fuentes, como PDF o documentos de Google. Tercero, escribe una pregunta concreta. Y cuarto, abre las citas para comprobar la respuesta."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Cuatro pasos *básicos*"
+        pasos:
+          - {titulo: "Crea un cuaderno", detalle: "Uno por tema o proyecto"}
+          - {titulo: "Agrega tus fuentes", detalle: "PDF, documentos, texto"}
+          - {titulo: "Haz una pregunta concreta", detalle: "Mejor específica que general"}
+          - {titulo: "Abre las citas", detalle: "Comprueba en el original"}
+  - narracion: "Pide un resumen de lo que dicen tus fuentes sobre un tema. Pide comparar dos documentos. Pregunta en qué parte se menciona un concepto."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Preguntas que *sí* funcionan"
+        estilo: check
+        items: ["Resume lo que dicen mis fuentes sobre [TEMA]", "¿En qué se diferencian estos dos documentos?", "¿Dónde se menciona [CONCEPTO]?"]
+  - narracion: "Las citas están para que verifiques. Abre la fuente antes de dar una respuesta por buena. Una respuesta con citas todavía puede tener errores."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Con citas, *verifica* igual"
+        puntos: ["Abre el pasaje citado", "Compara con tu documento", "Cuida los datos sensibles"]
+        cta: "Pruébalo con un documento tuyo"
+fuentes:
+  - url: "https://support.google.com/notebooklm/answer/16269187?hl=en"
+    titulo: "Frequently asked questions (NotebookLM Help, Google)"
+    fecha_consulta: 2026-10-11
+    respalda: "NotebookLM está diseñado para responder a partir de las fuentes que el usuario sube; con muchas fuentes recupera primero lo más relevante y luego redacta; una pregunta más específica ayuda a encontrar los pasajes correctos."
+  - url: "https://support.google.com/notebooklm/answer/16179559?hl=en"
+    titulo: "Use chat (NotebookLM Help, Google)"
+    fecha_consulta: 2026-10-11
+    respalda: "Las respuestas del chat usan citas con fragmentos de las fuentes, que se pueden abrir para ver el pasaje en contexto y comprobar la exactitud."
+riesgos:
+  derechos: "bajo — gráficos y textos propios; no se usan capturas ni logotipos de la herramienta"
+  exactitud: "medio — la ayuda oficial consultada ya muestra el producto como 'Gemini Notebook' en algunas páginas; verificar nombre vigente, tipos de fuente admitidos y flujo de creación del cuaderno antes de publicar"
+  monetizacion: "bajo — contenido educativo; sin afiliados"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

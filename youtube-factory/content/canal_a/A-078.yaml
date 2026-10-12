@@ -1,0 +1,82 @@
+id: A-078
+canal: canal_a
+fecha: 2027-01-04
+formato: short
+serie: El Atajo
+episodio: "#16"
+pilar: productividad
+tipo_editorial: tutorial
+idea: "La matriz de Eisenhower clasifica tareas por urgente e importante en cuatro grupos (hacer, programar, delegar, eliminar); la IA puede clasificar tu lista como primer borrador y tú ajustas según tus plazos reales."
+objetivo: "Enseñar una técnica clásica de priorización y un prompt que la aplica a una lista real."
+publico: "Profesionales y emprendedores con listas largas de tareas que no saben por dónde empezar."
+hipotesis: "Formato 'tutorial' en pilar 'productividad': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Todo parece urgente, pero no todo es importante."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Matriz de Eisenhower: prioriza tus tareas con ayuda de IA"
+titulos_alternativos:
+  - "Urgente vs importante: ordena tu lista en 4 grupos"
+  - "El prompt que clasifica tus tareas en la matriz de Eisenhower"
+  - "Deja de apagar incendios: separa lo urgente de lo importante"
+criterio_titulo: "Incluye el término buscable (matriz de Eisenhower) y promete una aplicación práctica con IA."
+descripcion: |
+  La matriz de Eisenhower separa tus tareas según dos preguntas: ¿es urgente? ¿es importante? Resultado: hacer ya, programar, delegar o eliminar. El nombre se asocia al presidente estadounidense Dwight Eisenhower, aunque la idea de distinguir lo urgente de lo importante se atribuye a otros antes que a él.
+  Pídele a la IA una primera clasificación de tu lista, con una línea de motivo por tarea, y ajústala tú: la IA no conoce tus plazos ni tus compromisos reales.
+cta: "Guárdalo y pruébalo con tu lista de hoy."
+comentario_fijado: |
+  Prompt: Clasifica esta lista de tareas en la matriz de Eisenhower: hacer ya (urgente e importante), programar (importante, no urgente), delegar (urgente, no importante) y eliminar (ninguno). Una línea de motivo por tarea. Tareas: [PEGA TUS TAREAS]
+hashtags: ["#Productividad", "#MatrizDeEisenhower", "#IA"]
+palabras_clave: ["matriz de Eisenhower", "urgente e importante", "priorizar tareas", "prompt para organizar tareas"]
+escenas:
+  - narracion: "Todo parece urgente, pero no todo es importante."
+    visual:
+      plantilla: hook
+      datos: {kicker: "El Atajo", titulo: "*Urgente* no es lo mismo que *importante*", sub: "Matriz de Eisenhower"}
+  - narracion: "Urgente es lo que te reclama ahora. Importante es lo que te acerca a tus metas. Si los mezclas, pasas el día apagando incendios."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Urgente", titulo: "Te reclama ahora", items: ["Tiene plazo inmediato", "Otros lo esperan"]}
+        der: {etiqueta: "Importante", titulo: "Te acerca a tus metas", items: ["Aporta valor a largo plazo", "A veces no tiene plazo"]}
+        veredicto: "Sepáralos"
+  - narracion: "Urgente e importante: hazlo ya. Importante, no urgente: prográmalo. Urgente, no importante: delega si puedes. Ni lo uno ni lo otro: elimínalo."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Cuatro *grupos*"
+        estilo: num
+        items:
+          - {texto: "Urgente e importante", detalle: "Hazlo ya"}
+          - {texto: "Importante, no urgente", detalle: "Prográmalo"}
+          - {texto: "Urgente, no importante", detalle: "Delega si puedes"}
+          - {texto: "Ni urgente ni importante", detalle: "Elimínalo"}
+  - narracion: "Pásale tu lista a la IA y pide que la clasifique en esos grupos, con una línea de motivo por tarea."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Clasifica esta lista en la matriz de Eisenhower: hacer ya (urgente e importante), programar (importante), delegar (urgente) y eliminar (ninguno). Una línea de motivo por tarea.\nTareas: [PEGA TUS TAREAS]"
+  - narracion: "Tú ajustas el resultado: la IA no conoce tus plazos reales."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "La IA propone, *tú priorizas*"
+        puntos: ["Urgente vs importante", "Cuatro grupos", "Ajusta con tus plazos reales"]
+        cta: "Pruébalo con tu lista de hoy"
+fuentes:
+  - url: "https://quoteinvestigator.com/2014/05/09/urgent/"
+    titulo: "Quote Origin: What Is Important Is Seldom Urgent and What Is Urgent Is Seldom Important (Quote Investigator)"
+    fecha_consulta: 2026-10-11
+    respalda: "La distinción entre lo urgente y lo importante se asocia al presidente Eisenhower, quien la mencionó en un discurso de 1954 y la atribuyó a otra persona (un ex rector universitario)."
+  - calculo: "[4]"
+    respalda: "Cuatro grupos de la matriz (hacer, programar, delegar, eliminar); es una técnica de organización, no una afirmación factual."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — la atribución a Eisenhower es matizada (él citó a otra persona; el formato de cuatro cuadrantes se popularizó después) y se verificó solo con resúmenes de búsqueda; el video solo afirma «el nombre se asocia a Eisenhower» en la descripción. Revisar antes de publicar."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Eisenhower", "Dwight", "Elimínalo", "Prográmalo", "Pruébalo", "Pásale", "Sepáralos", "ajústala", "elimínalo", "num", "prográmalo"]

@@ -1,0 +1,76 @@
+{
+  "id": "A-028",
+  "duracion_s": 34.284,
+  "frases": 12,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.745,
+      "beats": [
+        -5.0,
+        3.202
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.745,
+      "fin": 13.831,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 13.831,
+      "fin": 24.396,
+      "beats": [
+        0.0,
+        2.979,
+        5.583,
+        8.116
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 24.396,
+      "fin": 34.284,
+      "beats": [
+        0.0,
+        2.71
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.35",
+    "input_tp": "-6.84",
+    "input_lra": "2.10",
+    "input_thresh": "-31.58",
+    "output_i": "-14.10",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.26",
+    "normalization_type": "dynamic",
+    "target_offset": "0.10"
+  },
+  "fotogramas_unicos": 267,
+  "tts_cache": 0,
+  "spec_hash": "a17e26bd3235fbc7",
+  "segundos_produccion": 105.9,
+  "texto_hablado": [
+    "¿Escribes el mismo prompt desde cero cada semana?",
+    "Guárdalo como plantilla, y mejóralo cada vez que lo uses.",
+    "Así se ve una plantilla.",
+    "Lo que cambia cada vez va entre corchetes.",
+    "El resto queda fijo, y no lo reescribes.",
+    "Crea una carpeta o un documento llamado Prompts.",
+    "Guarda cada plantilla con un nombre claro.",
+    "Cambia los datos variables por corchetes.",
+    "Y anota qué ajustar después de usarla.",
+    "Empieza con los tres prompts que más repites.",
+    "Con el tiempo tendrás una biblioteca hecha con tus tareas reales.",
+    "Y recuerda revisar siempre la respuesta."
+  ]
+}

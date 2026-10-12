@@ -1,0 +1,47 @@
+1
+00:00:00,120 --> 00:00:03,859
+Debes US$ 1 000 en la tarjeta y pagas US$ 50 por mes.
+
+2
+00:00:04,019 --> 00:00:05,565
+¿Cuánto terminas pagando?
+
+3
+00:00:05,925 --> 00:00:11,318
+Con un interés ilustrativo del 4 % mensual, el saldo baja muy lento al principio.
+
+4
+00:00:11,478 --> 00:00:14,021
+Gran parte de cada pago se va en intereses.
+
+5
+00:00:14,301 --> 00:00:17,072
+En la planilla, la función NPER hace la cuenta.
+
+6
+00:00:17,232 --> 00:00:18,863
+Primero, la tasa mensual.
+
+7
+00:00:19,023 --> 00:00:22,018
+Luego el pago, en negativo porque sale de tu bolsillo.
+
+8
+00:00:22,178 --> 00:00:23,534
+Y al final, la deuda.
+
+9
+00:00:23,814 --> 00:00:26,883
+Resultado: unos 41 meses para saldarla.
+
+10
+00:00:27,043 --> 00:00:30,180
+En total pagas unos US$ 2 052.
+
+11
+00:00:30,340 --> 00:00:32,909
+Los intereses superan a la deuda original.
+
+12
+00:00:33,189 --> 00:00:36,508
+Busca la tasa real en tu resumen y haz tu propia cuenta.

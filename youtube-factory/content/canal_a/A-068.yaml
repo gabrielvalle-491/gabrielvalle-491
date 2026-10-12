@@ -1,0 +1,83 @@
+id: A-068
+canal: canal_a
+fecha: 2026-12-25
+formato: short
+serie: Caso pyme
+episodio: "#13"
+pilar: negocio
+tipo_editorial: caso_practico
+idea: "Agrupar las consultas repetidas de los clientes por tema y pedir a la IA una respuesta corta para cada una reduce el trabajo repetitivo; tú completas los datos reales y revisas."
+objetivo: "Enseñar un flujo reutilizable (agrupar, redactar, completar y revisar) para atender mejor por WhatsApp sin inventar precios ni horarios."
+publico: "Dueños y encargados de pequeños negocios que atienden clientes por WhatsApp y responden siempre las mismas preguntas."
+hipotesis: "Formato 'caso_practico' en pilar 'negocio': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Imagina 20 consultas repetidas en el WhatsApp de tu negocio."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Preguntas frecuentes para el WhatsApp de tu negocio, con IA"
+titulos_alternativos:
+  - "De 20 consultas repetidas a 6 respuestas listas (con IA)"
+  - "Prompt para armar las respuestas frecuentes de tu negocio"
+  - "Deja de escribir lo mismo a cada cliente"
+criterio_titulo: "Nombra el canal (WhatsApp), el resultado (preguntas frecuentes) y la herramienta; es buscable por dueños de negocios."
+descripcion: |
+  Ejemplo ilustrativo: 20 consultas repetidas se agrupan en 6 temas (horarios, pagos, envíos, precios, cambios y ubicación). La IA redacta una respuesta corta por tema y tú completas los datos reales.
+  Antes de pegar mensajes de clientes, quita nombres y teléfonos. Revisa precios, horarios y políticas: la IA no conoce tu negocio y puede inventar datos.
+cta: "Guárdalo para ordenar tus respuestas."
+comentario_fijado: |
+  Prompt: Estas son consultas repetidas de clientes: [PEGA LAS CONSULTAS SIN NOMBRES NI TELÉFONOS]. Agrúpalas en máximo 6 temas y escribe una respuesta de 2 a 3 líneas por tema, con tono [TONO]. Si falta un dato (precio, horario), escribe [COMPLETAR]; no inventes.
+hashtags: ["#WhatsApp", "#Pymes", "#IA", "#AtencionAlCliente"]
+palabras_clave: ["preguntas frecuentes WhatsApp", "respuestas para clientes", "atención al cliente con IA", "WhatsApp para negocios"]
+escenas:
+  - narracion: "Imagina 20 consultas repetidas en el WhatsApp de tu negocio. Con un poco de orden, pueden quedar en 6 respuestas claras, listas para copiar."
+    visual:
+      plantilla: hook
+      datos:
+        kicker: "Caso pyme"
+        titulo: "De *20* consultas a *6* respuestas"
+        sub: "Ejemplo ilustrativo"
+  - narracion: "Primero, agrúpalas por tema: horarios, pagos, envíos, precios, cambios y ubicación. Así ves qué preguntan más y qué respuesta te ahorra más tiempo."
+    visual:
+      plantilla: barras
+      datos:
+        titulo: "20 consultas, 6 temas (ilustrativo)"
+        todas_juntas: true
+        nota: "Datos ficticios"
+        items:
+          - {etiqueta: "Horarios", valor: 5, destacado: true}
+          - {etiqueta: "Pagos", valor: 4}
+          - {etiqueta: "Envíos", valor: 4}
+          - {etiqueta: "Precios", valor: 3}
+          - {etiqueta: "Cambios", valor: 2}
+          - {etiqueta: "Ubicación", valor: 2}
+  - narracion: "Luego pide a la IA una respuesta corta por tema. Que marque lo que falte, y tú pones los datos reales."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Estas son consultas de clientes: [PEGA LAS CONSULTAS]. Agrúpalas en máximo 6 temas y escribe 2-3 líneas de respuesta por tema, tono [TONO]. Si falta un dato, escribe [COMPLETAR]; no inventes."
+        nota: "Quita nombres y teléfonos antes de pegar"
+  - narracion: "Cada respuesta lleva el dato directo, dos líneas como máximo y un siguiente paso para el cliente."
+    visual:
+      plantilla: texto
+      datos: {titulo: "Una buena respuesta", texto: "Dato *directo*, dos líneas y un siguiente paso."}
+  - narracion: "Revisa precios y horarios antes de usarlas."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Respuestas claras, *datos reales*"
+        puntos: ["Sin nombres ni teléfonos", "COMPLETAR lo que falte", "Revisa precios y horarios"]
+        cta: "Guárdalo"
+fuentes:
+  - calculo: "5 + 4 + 4 + 3 + 2 + 2"
+    resultado: 20
+    respalda: "Reparto ilustrativo de las 20 consultas del ejemplo en 6 temas (5, 4, 4, 3, 2 y 2). Datos ficticios, no estadísticas reales."
+riesgos:
+  derechos: "bajo — material propio; datos ficticios"
+  exactitud: "bajo — sin afirmaciones factuales externas; no se describen funciones de WhatsApp; se advierte revisar datos y quitar información personal"
+  monetizacion: "bajo — contenido educativo para negocios"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

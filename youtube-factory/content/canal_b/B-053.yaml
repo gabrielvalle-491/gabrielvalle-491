@@ -1,0 +1,87 @@
+id: B-053
+canal: canal_b
+fecha: 2026-12-10
+formato: short
+serie: Gráficos que se entienden
+episodio: "#03"
+pilar: trabajo
+tipo_editorial: tutorial
+idea: "Un gráfico de barras apiladas con dos valores (avance y lo que falta) funciona como barra de progreso hacia una meta."
+objetivo: "Enseñar un gráfico simple y claro para reportes de avance, con el porcentaje calculado en celdas."
+publico: "Personas que reportan avance de metas de ventas, proyectos o ahorro y quieren un gráfico limpio."
+hipotesis: "Formato 'tutorial' en pilar 'trabajo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Muestra el avance hacia tu meta con una sola barra clara."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Gráfico de avance hacia una meta en Excel (barra de progreso)"
+titulos_alternativos:
+  - "Cómo hacer una barra de progreso con porcentaje en Excel"
+  - "Reporta el avance de una meta con un gráfico que se entiende"
+  - "Barras apiladas: logrado vs lo que falta"
+criterio_titulo: "Describe el resultado visual y la herramienta; la búsqueda típica es 'barra de progreso Excel'."
+descripcion: |
+  Ejemplo ilustrativo: una meta de 200 clientes nuevos con 130 logrados da 65 % de avance y 35 % pendiente. Con un gráfico de barras apiladas se ve de un vistazo.
+  Los nombres de menú pueden variar según tu versión de Excel.
+cta: "Pruébalo con tu próxima meta."
+comentario_fijado: "Avance: =B2/A2 (logrado entre meta) y pendiente: =1-C2. Da formato de porcentaje a ambas celdas. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos."
+hashtags: ["#Excel", "#Gráficos", "#Productividad"]
+palabras_clave: ["barra de progreso Excel", "gráfico de avance", "gráfico de barras apiladas"]
+escenas:
+  - narracion: "Muestra el avance hacia tu meta con una sola barra clara."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Gráficos que se entienden", titulo: "Avance hacia una *meta*", sub: "Barra de progreso en Excel"}
+  - narracion: "Meta: 200 clientes nuevos. Llevas 130, es decir, 65 %. Te falta 35 %."
+    visual:
+      plantilla: barras
+      datos:
+        titulo: "Avance de la meta"
+        sufijo: " %"
+        maximo: 100
+        items:
+          - {etiqueta: "Logrado", valor: 65, destacado: true}
+          - {etiqueta: "Pendiente", valor: 35, tenue: true}
+        nota: "Datos ilustrativos: 130 de 200"
+  - narracion: "Primero, calcula el avance: logrado entre meta. Después, lo pendiente: uno menos el avance. Selecciona ambas celdas, ve a Insertar y elige un gráfico de barras apiladas."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Paso a paso"
+        pasos:
+          - {titulo: "Avance = logrado ÷ meta", detalle: "130 ÷ 200"}
+          - {titulo: "Pendiente = 1 − avance", detalle: "formato de porcentaje"}
+          - {titulo: "Insertar → barras apiladas", detalle: "con ambas celdas seleccionadas"}
+  - narracion: "Una barra, un porcentaje y nada de adornos."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Un gráfico que *se entiende*"
+        puntos: ["Logrado ÷ meta", "Lo pendiente en gris", "Barras apiladas"]
+        cta: "Pruébalo"
+fuentes:
+  - url: "https://support.microsoft.com/en-us/office/create-a-chart-from-start-to-finish-0baf399e-dd61-4e18-8a73-b3fd5d5680c2"
+    titulo: "Create a chart from start to finish (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Los gráficos de barras apiladas muestran cómo se relacionan elementos individuales con el total."
+  - url: "https://support.microsoft.com/en-us/office/present-your-data-in-a-column-chart-d89050ba-e6b6-47de-b090-e9ab353c4c00"
+    titulo: "Present your data in a column chart (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Se selecciona el rango y en la pestaña Insertar se elige el botón de gráfico de columnas o barras."
+  - calculo: "[200, 130]"
+    respalda: "Datos ilustrativos de la meta y lo logrado."
+  - calculo: "130 / 200 * 100"
+    resultado: 65
+    respalda: "Porcentaje de avance."
+  - calculo: "100 - 130 / 200 * 100"
+    resultado: 35
+    respalda: "Porcentaje pendiente."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — los nombres exactos de menú en español (Insertar, gráfico de barras, barra apilada) pueden variar por versión; verificar en un Excel en español antes de publicar"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

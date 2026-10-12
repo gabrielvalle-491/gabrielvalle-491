@@ -1,0 +1,76 @@
+id: B-023
+canal: canal_b
+fecha: 2026-11-10
+formato: short
+serie: Error que todos cometen
+episodio: "#06"
+pilar: errores
+tipo_editorial: error_comun
+idea: "Combinar celdas dentro de una tabla complica ordenar (puede aparecer un error); Centrar en la selección da el mismo aspecto sin unir celdas."
+objetivo: "Evitar un error de formato muy común y enseñar una alternativa concreta y buscable."
+publico: "Personas que dan formato a planillas con títulos centrados y luego no logran ordenar o filtrar."
+hipotesis: "Formato 'error_comun' en pilar 'errores': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Ese botón de combinar celdas te dará problemas cuando quieras ordenar."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Por qué no combinar celdas en Excel (y qué usar en su lugar)"
+titulos_alternativos:
+  - "Combinar y centrar rompe tu tabla: usa esta alternativa"
+  - "Error al ordenar: celdas combinadas de distinto tamaño"
+  - "Centrar en la selección: el mismo efecto sin combinar celdas"
+criterio_titulo: "Frase buscable ('no combinar celdas') con la solución incluida."
+descripcion: |
+  Si ordenas un rango con celdas combinadas de distinto tamaño, Excel puede mostrar un error. La alternativa es la alineación Centrar en la selección: el título se ve centrado, pero cada celda sigue separada.
+  Los nombres de menús pueden variar según tu versión de Excel.
+cta: "Revisa tus planillas: ¿cuántas celdas combinadas tienen?"
+comentario_fijado: "Atajo del video: Ctrl + 1 abre Formato de celdas; en Alineación, Horizontal, elige Centrar en la selección. El nombre exacto puede variar según tu versión de Excel."
+hashtags: ["#Excel", "#ErroresDeExcel", "#ExcelTips"]
+palabras_clave: ["combinar celdas Excel problemas", "centrar en la selección", "error al ordenar celdas combinadas"]
+escenas:
+  - narracion: "Ese botón de combinar celdas te dará problemas cuando quieras ordenar. Se ve ordenado, pero esconde un costo."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Error que todos cometen", titulo: "Combinar celdas *rompe* tu tabla", sub: "Hay una alternativa que se ve igual"}
+  - narracion: "Combinar deja solo el contenido de la celda superior izquierda, y con celdas de distinto tamaño ordenar puede dar error. Centrar en la selección se ve igual, pero cada celda sigue separada. Mismo aspecto, sin esos problemas."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Evita", titulo: "Combinar y centrar", items: ["Solo conserva la celda de arriba a la izquierda", "Ordenar puede dar error"]}
+        der: {etiqueta: "Usa", titulo: "Centrar en la selección", items: ["Se ve centrado igual", "Cada celda sigue separada"]}
+        veredicto: "Mismo aspecto, *sin* problemas al ordenar"
+  - narracion: "Selecciona las celdas del título. Abre Formato de celdas con Ctrl + 1. En Alineación, elige Centrar en la selección."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Centrar sin combinar"
+        pasos:
+          - {titulo: "Selecciona las celdas del título", detalle: "El texto va en la celda de la izquierda"}
+          - {titulo: "Ctrl + 1", detalle: "Abre Formato de celdas"}
+          - {titulo: "Alineación → Horizontal", detalle: "Elige Centrar en la selección"}
+  - narracion: "Tu tabla se ve igual, se ordena sin quejas y no pierdes datos."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Diseño *sin* celdas combinadas", puntos: ["Centrar en la selección", "Tabla lista para ordenar"], cta: "Guárdalo"}
+fuentes:
+  - url: "https://learn.microsoft.com/en-us/troubleshoot/office/excel/error-sort-a-range-merged-cell"
+    titulo: "Error message when you sort a range that contains merged cells (Microsoft Learn)"
+    fecha_consulta: 2026-10-11
+    respalda: "Al ordenar un rango con celdas combinadas (no todas, o de distinto tamaño) puede aparecer un error; la solución es separarlas o que tengan el mismo tamaño."
+  - url: "https://support.microsoft.com/es-es/Excel/get-started/merge-and-unmerge-cells-in-excel"
+    titulo: "Combinar y separar celdas (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Al combinar celdas solo se conserva el contenido de la celda superior izquierda; las demás se eliminan."
+  - url: "https://support.microsoft.com/kb/212022/pt-br"
+    titulo: "Center Across Columns (artículo de Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Se puede centrar texto entre columnas sin combinar celdas con la opción Centrar en la selección (Formato de celdas, pestaña Alineación, lista Horizontal)."
+riesgos:
+  derechos: "bajo"
+  exactitud: "medio — el nombre del menú puede variar según versión; se aclara en la descripción"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

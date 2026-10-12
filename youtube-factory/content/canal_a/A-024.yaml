@@ -1,0 +1,78 @@
+id: A-024
+canal: canal_a
+fecha: 2026-11-11
+formato: short
+serie: Caso pyme
+episodio: "#07"
+pilar: negocio
+tipo_editorial: caso_practico
+idea: "En una cotización, la planilla calcula los números (cantidad por precio y SUMA) y la IA redacta el correo; tú verificas que ambos coincidan."
+objetivo: "Separar con claridad qué hace cada herramienta (cálculo vs texto) para evitar errores de montos y mostrar un flujo reutilizable para pymes."
+publico: "Freelancers y dueños de pequeños negocios que envían cotizaciones por correo."
+hipotesis: "Formato 'caso_practico' en pilar 'negocio': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "La IA redacta tu cotización, pero la suma la hace la planilla."
+duracion_objetivo: "35-55 s"
+titulo: "Cotización para un cliente: la planilla suma, la IA redacta"
+titulos_alternativos:
+  - "Cómo armar una cotización con plantilla y un poco de IA"
+  - "No dejes que la IA haga tus sumas: haz la cotización así"
+  - "Cotización en minutos: planilla para números, IA para el texto"
+criterio_titulo: "Muestra el reparto de roles (planilla vs IA), que es el valor del video, con el término buscable 'cotización'."
+descripcion: |
+  Los montos salen de una planilla: cantidad por precio da cada subtotal y SUMA entrega el total. La IA solo redacta el correo con esos datos.
+  Antes de enviar, comprueba que el total del correo coincida con la planilla. Los datos del ejemplo son ficticios; los impuestos dependen de tu país.
+cta: "Guárdalo para tu próxima cotización."
+comentario_fijado: "Fórmulas: =B2*C2 en cada fila y =SUMA(D2:D4) para el total. Si tu Excel usa coma como separador (México, EE. UU.), los argumentos van separados por coma."
+hashtags: ["#Pymes", "#Excel", "#IA"]
+palabras_clave: ["cotización", "plantilla de cotización", "IA para negocios", "SUMA en Excel"]
+escenas:
+  - narracion: "La IA redacta tu cotización, pero la suma la hace la planilla. Así evitas errores de cálculo en el correo."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Caso pyme", titulo: "Cotización: la *planilla* suma", sub: "La IA solo redacta"}
+  - narracion: "Los números van en una planilla. Cantidad por precio da cada subtotal. Y SUMA junta todo y entrega el total."
+    visual:
+      plantilla: planilla
+      datos:
+        titulo: "Cotización *ilustrativa*"
+        formula: "=SUMA(D2:D4)"
+        celda_formula: "D5"
+        decimales: 0
+        filas:
+          - ["Concepto", "Cant.", "Precio", "Subtotal"]
+          - ["Logo", 1, 150, 150]
+          - ["Tarjetas", 2, 40, 80]
+          - ["Volantes", 5, 12, 60]
+          - ["Total", "", "", ""]
+        resaltar:
+          - {rango: "D2:D4", beat: 1}
+        resultado: {celda: "D5", valor: "290", beat: 2}
+        nota: "Datos ficticios"
+  - narracion: "El texto lo redacta la IA. Dale los datos y pide un correo corto y claro. Así no tiene que inventar ninguna cifra."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Redacta un correo de cotización para [CLIENTE]. Incluye estos conceptos y el total: [PEGA LA TABLA]. Tono cordial, máximo 8 líneas. No agregues descuentos ni plazos."
+  - narracion: "Antes de enviar, comprueba que el total del correo coincida con la planilla. Así el cliente recibe el mismo número en todas partes. Los impuestos dependen de tu país."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Cada herramienta, su *trabajo*"
+        puntos: ["Planilla: los números", "IA: el texto", "Tú: revisas que coincidan"]
+        cta: "Guárdalo para tu próxima cotización"
+fuentes:
+  - calculo: "1*150 + 2*40 + 5*12"
+    resultado: 290
+    respalda: "Total de la cotización ilustrativa (suma de subtotales: 150, 80 y 60)."
+riesgos:
+  derechos: "bajo — planilla, prompt y gráficos creados por el canal"
+  exactitud: "bajo — cálculo verificado automáticamente; datos ficticios; impuestos no incluidos"
+  monetizacion: "bajo — contenido educativo para negocios"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

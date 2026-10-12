@@ -1,0 +1,95 @@
+id: B-080
+canal: canal_b
+fecha: 2027-01-06
+formato: short
+serie: Mini sistema
+episodio: "#13"
+pilar: trabajo
+tipo_editorial: tutorial
+idea: "La función SECUENCIA genera una lista de fechas consecutivas (un mes completo) con una sola fórmula, sin arrastrar celdas."
+objetivo: "Tutorial rápido y buscable para armar calendarios, asistencias y cronogramas sin escribir fecha por fecha."
+publico: "Personas que arman calendarios, listas de asistencia o cronogramas mensuales en Excel o Google Sheets."
+hipotesis: "Formato 'tutorial' en pilar 'trabajo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Un mes entero de fechas con una sola fórmula, sin arrastrar nada."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Lista de fechas del mes con SECUENCIA (una sola fórmula)"
+titulos_alternativos:
+  - "Crea un calendario mensual en Excel sin arrastrar celdas"
+  - "SECUENCIA: la función que escribe las fechas por ti"
+  - "Fechas de enero en una celda: así funciona SECUENCIA"
+criterio_titulo: "Nombra la función y el resultado concreto (lista de fechas del mes), que es lo que la persona busca."
+descripcion: |
+  La función SECUENCIA genera una lista de números consecutivos que se derrama sobre las celdas de abajo. Como las fechas son números, puedes usarla para escribir todas las fechas de un mes: =SECUENCIA(31;1;A2), con la fecha de inicio en A2.
+  Requiere Excel 2021 o Microsoft 365; en Google Sheets existe SEQUENCE. Si ves números en lugar de fechas, aplica formato de fecha a las celdas.
+cta: "Guárdalo para tu próximo calendario."
+comentario_fijado: "Fórmula: =SECUENCIA(31;1;A2) con 01/01/2027 en A2. Ajusta el 31 a los días del mes. En Google Sheets: =SEQUENCE(31;1;A2). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;)."
+hashtags: ["#Excel", "#GoogleSheets", "#Fórmulas"]
+palabras_clave: ["función SECUENCIA", "lista de fechas excel", "calendario mensual excel"]
+escenas:
+  - narracion: "Un mes entero de fechas con una sola fórmula, sin arrastrar nada."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Mini sistema", titulo: "Todas las fechas del mes, *una fórmula*"}
+  - narracion: "Se llama SECUENCIA. Primero, cuántas filas: 31. Luego, cuántas columnas: una. Y al final, la fecha donde empieza."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=SECUENCIA(31;1;A2)"
+        partes:
+          - {token: "31", explica: "filas: los días del mes"}
+          - {token: "1", explica: "columnas: una sola lista"}
+          - {token: "A2", explica: "inicio: la primera fecha"}
+  - narracion: "Escribe la fórmula en la celda B dos. La fecha de inicio está en la celda A dos. Y las demás se derraman hacia abajo, hasta el 31 de enero."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=SECUENCIA(31;1;A2)"
+        celda_formula: "B2"
+        filas:
+          - ["Inicio", "Fechas"]
+          - ["01/01/2027", "01/01/2027"]
+          - ["", "02/01/2027"]
+          - ["", "03/01/2027"]
+          - ["", "…"]
+          - ["", ""]
+        resaltar:
+          - {rango: "A2:A2", beat: 1}
+        resultado: {celda: "B6", valor: "31/01/2027", beat: 2}
+  - narracion: "Si ves números raros en lugar de fechas, aplica formato de fecha a esas celdas."
+    visual:
+      plantilla: dato
+      datos: {kicker: "Ojo", dato: "Una fecha es un número: dale *formato de fecha*", contexto: "Excel guarda cada fecha como un número de serie"}
+  - narracion: "Requiere Excel 2021 o Microsoft 365. En Google Sheets se llama SEQUENCE."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Un mes de fechas *en una celda*"
+        puntos: ["Excel 2021 o Microsoft 365", "Google Sheets: SEQUENCE", "Ajusta las filas a los días del mes"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://support.microsoft.com/es-es/Excel/functions/sequence-function"
+    titulo: "Función SECUENCIA (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "SECUENCIA genera una lista de números secuenciales; argumentos filas, columnas, inicio y paso (opcionales por defecto 1); el resultado se derrama; disponible en Excel 2021 y Microsoft 365 (365 es parte del nombre del producto)."
+    cifras: [365]
+  - url: "https://support.google.com/docs/answer/9368244?hl=en"
+    titulo: "SEQUENCE function (Google Docs Editors Help)"
+    fecha_consulta: 2026-10-11
+    respalda: "En Google Sheets existe SEQUENCE(rows, columns, start, step), equivalente de SECUENCIA."
+  - url: "https://support.microsoft.com/es-ES/Excel/add-or-subtract-dates"
+    titulo: "Agregar o restar fechas (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Según el formato de la celda, Excel puede mostrar una fecha como número de serie; hay que aplicar formato de fecha."
+  - calculo: "[31]"
+    respalda: "Días de enero (ejemplo ilustrativo del mes de enero de 2027)."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — la disponibilidad por versión (Excel 2021/365) y el nombre SECUENCIA en español deben confirmarse en un Excel en español antes de publicar; SEQUENCE en Sheets documentado por Google."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

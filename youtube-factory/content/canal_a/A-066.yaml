@@ -1,0 +1,77 @@
+id: A-066
+canal: canal_a
+fecha: 2026-12-23
+formato: short
+serie: Glosario rápido
+episodio: "#07"
+pilar: seguridad
+tipo_editorial: contraintuitivo
+idea: "La inyección de prompts ocurre cuando un contenido que la IA procesa (un archivo, un correo, una página) trae instrucciones ocultas que pueden cambiar su comportamiento; se reduce el riesgo con permisos mínimos y aprobación humana."
+objetivo: "Explicar un concepto de seguridad de IA en lenguaje simple y dar tres hábitos prácticos para quien usa asistentes con archivos, correos o navegación."
+publico: "Trabajadores y pymes que piden a una IA resumir documentos, correos o páginas web, o que le dan acceso a herramientas."
+hipotesis: "Formato 'contraintuitivo' en pilar 'seguridad': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Un texto escondido en un documento puede darle órdenes a la IA."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Inyección de prompts explicada simple: órdenes escondidas a la IA"
+titulos_alternativos:
+  - "¿Puede un archivo darle órdenes a tu IA? Sí: así funciona"
+  - "Prompt injection en 40 segundos: qué es y cómo reducir el riesgo"
+  - "Por qué no debes dejar que una IA actúe sola con archivos ajenos"
+criterio_titulo: "Nombra el concepto buscable (inyección de prompts) y promete una explicación simple con la idea central (órdenes escondidas)."
+descripcion: |
+  La inyección de prompts es cuando un contenido que la IA procesa (un documento, un correo o una página) incluye instrucciones que cambian su comportamiento. OWASP, proyecto de seguridad de aplicaciones, la lista como el primer riesgo de su Top 10 para aplicaciones con modelos de lenguaje.
+  Para reducir el riesgo: permisos mínimos, tu aprobación antes de acciones importantes y desconfianza de contenido externo. Según OWASP, no hay una defensa perfecta conocida.
+cta: "Guárdalo antes de darle acceso a tu correo a una IA."
+comentario_fijado: "Fuente: OWASP Gen AI Security Project, «LLM01: Prompt Injection». ¿Le das a una IA acceso a tus archivos o correo?"
+hashtags: ["#IA", "#Ciberseguridad", "#Seguridad"]
+palabras_clave: ["inyección de prompts", "prompt injection", "seguridad en IA", "riesgos de la IA", "OWASP LLM"]
+escenas:
+  - narracion: "Un texto escondido en un documento puede darle órdenes a la IA."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Glosario rápido", titulo: "Texto *escondido* que da órdenes a la IA", sub: "Inyección de prompts"}
+  - narracion: "Eso se llama inyección de prompts: instrucciones ocultas en algo que la IA lee, como un archivo, un correo o una página."
+    visual:
+      plantilla: texto
+      datos: {kicker: "Definición", titulo: "Inyección de prompts", texto: "Instrucciones *ocultas* dentro de un contenido que la IA procesa."}
+  - narracion: "Tú le pides resumir un archivo. Dentro, alguien escondió una orden distinta. Y el modelo puede tratarla como instrucción, porque no siempre separa datos de órdenes."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Tú pides", titulo: "Resume este archivo", items: ["Tu instrucción real"]}
+        der: {etiqueta: "El archivo esconde", titulo: "«Ignora lo anterior y...»", items: ["Orden de un tercero", "Puede ser texto invisible"]}
+        veredicto: "El modelo puede obedecer la equivocada"
+  - narracion: "Para reducir el riesgo, dale a la IA los mínimos permisos. Pide tu aprobación antes de enviar, borrar o comprar. Y trata archivos y páginas externas como no confiables."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Cómo reducir el *riesgo*"
+        estilo: check
+        items: ["Permisos mínimos", "Tú apruebas acciones importantes", "Contenido externo = no confiable"]
+  - narracion: "Ninguna defensa es perfecta. Por eso, la última decisión es tuya."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "La última decisión *es tuya*"
+        puntos: ["Menos permisos", "Aprobación humana", "Desconfía de lo externo"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://genai.owasp.org/llmrisk/llm01-prompt-injection/"
+    titulo: "LLM01:2025 Prompt Injection (OWASP Gen AI Security Project)"
+    fecha_consulta: 2026-10-11
+    respalda: "Define la inyección de prompts como entradas que alteran el comportamiento o la salida del modelo de formas no deseadas; indica que pueden afectar al modelo aunque sean imperceptibles para las personas; distingue la inyección indirecta (contenido externo como sitios web o archivos); y señala que no está claro que existan métodos infalibles de prevención."
+  - url: "https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html"
+    titulo: "LLM Prompt Injection Prevention Cheat Sheet (OWASP)"
+    fecha_consulta: 2026-10-11
+    respalda: "Medidas recomendadas: acceso con privilegios mínimos, aprobación humana para operaciones de alto riesgo y tratar el contenido externo como no confiable."
+riesgos:
+  derechos: "bajo — se cita y parafrasea una guía pública; sin logotipos"
+  exactitud: "medio — las definiciones y las medidas (permisos mínimos, aprobación humana, contenido externo no confiable) provienen de resúmenes de resultados de búsqueda de las páginas de OWASP; no se pudo abrir el texto completo. Verificar la redacción en OWASP antes de publicar, en especial que LLM01 sea el primer riesgo del Top 10 (afirmación de la descripción)."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

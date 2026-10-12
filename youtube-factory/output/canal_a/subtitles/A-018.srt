@@ -1,0 +1,47 @@
+1
+00:00:00,120 --> 00:00:02,666
+Un FODA que dice 'buena atención' no sirve.
+
+2
+00:00:02,826 --> 00:00:04,589
+Uno con datos y acciones, sí.
+
+3
+00:00:04,869 --> 00:00:07,257
+Fortalezas y debilidades son internas.
+
+4
+00:00:07,417 --> 00:00:09,886
+Oportunidades y amenazas vienen de afuera.
+
+5
+00:00:10,046 --> 00:00:12,465
+Los cuatro cuadrantes necesitan datos.
+
+6
+00:00:12,745 --> 00:00:14,691
+El FODA vago lista adjetivos.
+
+7
+00:00:14,851 --> 00:00:18,290
+El útil parte de datos reales y termina en acciones medibles.
+
+8
+00:00:18,450 --> 00:00:21,164
+Dale tus cifras y pide acciones, no adjetivos.
+
+9
+00:00:21,444 --> 00:00:22,252
+Pídelo así.
+
+10
+00:00:22,412 --> 00:00:25,802
+Pega cifras reales de tu negocio dentro de los corchetes.
+
+11
+00:00:26,082 --> 00:00:29,297
+Pega cifras del negocio, no datos personales de clientes.
+
+12
+00:00:29,457 --> 00:00:33,478
+Y revisa cada acción: tú decides cuáles tienen sentido para tu caso.

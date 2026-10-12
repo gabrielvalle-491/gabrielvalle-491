@@ -1,0 +1,77 @@
+id: A-060
+canal: canal_a
+fecha: 2026-12-17
+formato: short
+serie: Truco rápido
+episodio: "#06"
+pilar: productividad
+tipo_editorial: herramienta
+idea: "En Windows 11, la combinación Windows + H activa la escritura por voz en cualquier cuadro de texto, útil para dictar prompts largos; requiere micrófono e internet."
+objetivo: "Enseñar un atajo concreto y documentado, con una advertencia de privacidad y de revisión del texto."
+publico: "Usuarios de Windows que escriben prompts largos y quieren ahorrar tiempo."
+hipotesis: "Formato 'herramienta' en pilar 'productividad': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Escribe prompts largos hablando, sin instalar nada."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Dicta tus prompts con Windows + H (Windows 11)"
+titulos_alternativos:
+  - "Escribe más rápido con la voz: atajo Windows + H"
+  - "Dictado por voz en Windows para usar con la IA"
+  - "Prompts largos sin teclear: cómo activar el dictado"
+criterio_titulo: "Incluye el atajo exacto, que es lo que el público busca, y el sistema operativo."
+descripcion: |
+  Con el cursor en un cuadro de texto, pulsa la tecla Windows y H para activar la escritura por voz. Según Microsoft, necesitas un micrófono y una conexión a internet; para terminar, pulsa el botón del micrófono.
+  El reconocimiento en línea usa servicios en la nube de Microsoft: evita dictar datos sensibles. Revisa siempre el texto, sobre todo nombres y cifras. A la fecha, según la ayuda de Microsoft; puede variar con la versión de Windows.
+cta: "Pruébalo hoy con tu próximo prompt."
+comentario_fijado: "Atajo: tecla Windows + H con el cursor dentro de un cuadro de texto. Necesitas micrófono e internet. Revisa el texto antes de enviar."
+hashtags: ["#Windows11", "#Productividad", "#IA"]
+palabras_clave: ["dictado por voz Windows 11", "Windows + H", "escribir con la voz", "dictar prompts"]
+escenas:
+  - narracion: "Escribe prompts largos hablando, sin instalar nada: Windows trae una función de escritura por voz."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Truco rápido", titulo: "Habla en vez de *teclear*", sub: "Windows + H"}
+  - narracion: "Haz clic dentro del cuadro de texto donde irá tu prompt. Pulsa la tecla Windows y H a la vez. Habla con calma y revisa lo escrito. Para terminar, pulsa el botón del micrófono."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Dictado en *cuatro* pasos"
+        pasos:
+          - {titulo: "Haz clic en el cuadro", detalle: "Donde irá el texto"}
+          - {titulo: "Pulsa Windows + H", detalle: "Se abre el dictado"}
+          - {titulo: "Habla y revisa", detalle: "Corrige lo que haga falta"}
+          - {titulo: "Pulsa el micrófono", detalle: "Para terminar"}
+  - narracion: "Según Microsoft, necesitas micrófono e internet. El reconocimiento en línea usa la nube, así que no dictes datos sensibles."
+    visual:
+      plantilla: dato
+      datos:
+        kicker: "Requisitos y ojo"
+        dato: "Micrófono + *internet*"
+        contexto: "El reconocimiento en línea usa servicios en la nube: no dictes datos sensibles"
+        fuente: "Ayuda de Microsoft, a la fecha"
+  - narracion: "Revisa nombres, cifras y puntuación antes de enviar, porque el dictado puede equivocarse. Es más rápido, pero no reemplaza tu revisión."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Dicta, *revisa*, envía"
+        puntos: ["Windows + H", "Micrófono e internet", "Revisa nombres y cifras"]
+        cta: "Pruébalo hoy"
+fuentes:
+  - url: "https://support.microsoft.com/en-us/accessibility/windows/use-voice-typing-to-talk-instead-of-type-on-your-pc"
+    titulo: "Use voice typing to talk instead of type on your PC (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "Con el cursor en un cuadro de texto, pulsar la tecla Windows + H activa la escritura por voz; se requiere conexión a internet y micrófono; se detiene con el botón del micrófono o un comando de voz."
+  - url: "https://support.microsoft.com/en-us/windows/speech-voice-activation-inking-typing-and-privacy-149e0e60-7c93-dedd-a0d8-5731b71a4fef"
+    titulo: "Speech, voice activation, inking, typing, and privacy (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "El reconocimiento de voz en línea usa servicios en la nube de Microsoft para mayor precisión; el reconocimiento en el dispositivo se procesa localmente."
+riesgos:
+  derechos: "bajo — no se usan capturas de Windows; gráficos creados por el canal"
+  exactitud: "medio — la página oficial consultada está redactada para versiones previas y no menciona explícitamente 'Windows 11' en los resultados; la combinación Windows + H es la documentada. Probar en un equipo con Windows 11 (10 segundos) antes de publicar."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

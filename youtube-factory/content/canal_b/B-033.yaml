@@ -1,0 +1,84 @@
+id: B-033
+canal: canal_b
+fecha: 2026-11-20
+formato: short
+serie: Mini sistema
+episodio: "#02"
+pilar: trabajo
+tipo_editorial: tutorial
+idea: "Una columna con SI compara el stock con el mínimo y escribe 'Reponer' automáticamente."
+objetivo: "Mini sistema práctico para pequeños negocios: alerta de reposición con una sola fórmula."
+publico: "Emprendedores y encargados de tienda que llevan el inventario en una planilla."
+hipotesis: "Formato 'tutorial' en pilar 'trabajo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Haz que tu inventario te avise solo cuándo reponer."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Inventario en Excel con alerta de stock mínimo (fórmula SI)"
+titulos_alternativos:
+  - "Cómo saber cuándo reponer productos con una columna en Excel"
+  - "Control de stock mínimo en Excel: aviso automático de reposición"
+  - "Mini sistema de inventario: una fórmula, cero revisiones a mano"
+criterio_titulo: "Describe el sistema y el resultado (alerta de stock mínimo) con la función clave."
+descripcion: |
+  Una columna con la función SI compara el stock actual con el mínimo que defines y muestra Reponer cuando llegó o bajó de ese nivel. Ejemplo con productos y cantidades ilustrativas.
+  La función SI existe en Excel y en Google Sheets.
+cta: "Arma tu columna Reponer con tus productos."
+comentario_fijado: "Fórmula (en D2, copiada hacia abajo): =SI(B2<=C2;\"Reponer\";\"OK\"), con el stock en B y el mínimo en C. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;)."
+hashtags: ["#Excel", "#Inventario", "#Emprendimiento"]
+palabras_clave: ["inventario Excel stock mínimo", "alerta de reposición", "fórmula SI inventario"]
+escenas:
+  - narracion: "Haz que tu inventario te avise solo cuándo reponer. Sin revisar producto por producto."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Mini sistema", titulo: "Inventario que *avisa* cuándo reponer", sub: "Una columna, una fórmula"}
+  - narracion: "Anota el stock actual y el mínimo de cada producto. Resalta esas dos columnas. Esas dos columnas son las que la fórmula compara. Con 12 de stock contra 20 de mínimo, el cable queda en [[reponer|Reponer]]."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=SI(B2<=C2;\"Reponer\";\"OK\")"
+        celda_formula: "D2"
+        filas:
+          - ["Producto", "Stock", "Mínimo", "Estado"]
+          - ["Cable", 12, 20, "Reponer"]
+          - ["Mouse", 35, 15, "OK"]
+          - ["Teclado", 8, 10, "Reponer"]
+          - ["Cargador", 22, 18, "OK"]
+        resaltar:
+          - {rango: "B2:C5", beat: 1}
+        resultado: {celda: "D2", valor: "Reponer", beat: 2}
+        nota: "Cantidades ilustrativas"
+  - narracion: "La fórmula compara dos celdas. Si el stock es menor o igual al mínimo, muestra Reponer. Si no, muestra [[okey|OK]]."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=SI(B2<=C2;\"Reponer\";\"OK\")"
+        partes:
+          - {token: "B2<=C2", explica: "stock menor o igual al mínimo"}
+          - {token: "\"Reponer\"", explica: "si se cumple"}
+          - {token: "\"OK\"", explica: "si no se cumple"}
+  - narracion: "Primero, escribe producto, stock y mínimo. Segundo, pon la fórmula en la columna Estado. Tercero, cópiala hacia abajo."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Tu inventario en 3 pasos"
+        pasos:
+          - {titulo: "Producto, stock y mínimo", detalle: "Una fila por producto"}
+          - {titulo: "Fórmula SI en Estado", detalle: "Compara stock con mínimo"}
+          - {titulo: "Cópiala hacia abajo", detalle: "Revisa solo lo que dice Reponer"}
+  - narracion: "Cambia un stock o un mínimo y el aviso se actualiza solo."
+    visual:
+      plantilla: cierre
+      datos: {titulo: "Una columna que *decide por ti*", puntos: ["Stock y mínimo en columnas", "SI compara y avisa"], cta: "Guárdalo"}
+fuentes:
+  - calculo: "[12, 20, 35, 15, 8, 10, 22, 18]"
+    respalda: "Cantidades ilustrativas del inventario del ejemplo (stock y mínimo de cada producto)."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — fórmula SI estándar"
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Cópiala", "Mini", "Mouse", "Stock", "stock"]

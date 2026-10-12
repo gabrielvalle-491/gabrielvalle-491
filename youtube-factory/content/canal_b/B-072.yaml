@@ -1,0 +1,97 @@
+id: B-072
+canal: canal_b
+fecha: 2026-12-29
+formato: short
+serie: Historia de la planilla
+episodio: "#01"
+pilar: historia
+tipo_editorial: historia
+idea: "En 2013, un estudiante de posgrado que intentaba replicar un estudio de Reinhart y Rogoff sobre deuda y crecimiento encontró que un rango de un promedio en su planilla dejaba fuera a cinco países; junto con otros problemas, el reanálisis cambió la cifra publicada."
+objetivo: "Historia real que muestra la importancia de revisar rangos en las fórmulas, con un ejemplo propio e inventado del mismo tipo de error."
+publico: "Personas que usan Excel para reportes y análisis y quieren entender el costo de un rango mal seleccionado."
+hipotesis: "Formato 'historia' en pilar 'historia': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Un promedio en Excel dejó fuera a cinco países."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "El error de Excel de Reinhart y Rogoff: la historia real"
+titulos_alternativos:
+  - "El rango que dejó fuera a cinco países en un estudio famoso"
+  - "Un error de fórmula en un estudio económico (2013)"
+  - "Revisa tus rangos: lo que pasó con Reinhart y Rogoff"
+criterio_titulo: "Nombra el caso por las palabras que se buscan y promete la historia con datos."
+descripcion: |
+  En 2013, un estudiante de posgrado revisó la planilla de un estudio de Reinhart y Rogoff sobre deuda y crecimiento y encontró que un promedio no incluía a cinco países de los 20 analizados. El reanálisis, que corrigió esto y otros problemas de método, dio 2,2 % de crecimiento promedio en países con deuda sobre 90 % del PIB, frente a -0,1 % publicado.
+  Los autores reconocieron el error de promedio y defendieron el resto de su método. El ejemplo de la planilla del video usa datos inventados.
+cta: "Revisa los rangos de tus fórmulas."
+comentario_fijado: "Revisa que el rango de tu fórmula cubra todos los datos: =PROMEDIO(B2:B5) y no =PROMEDIO(B2:B4). En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;)."
+hashtags: ["#Excel", "#HistoriaDeLaPlanilla", "#Fórmulas"]
+palabras_clave: ["error Excel Reinhart Rogoff", "errores famosos de Excel", "rango mal seleccionado"]
+escenas:
+  - narracion: "Un promedio en Excel dejó fuera a cinco países. Y la cifra se citó en debates de política económica."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Historia de la planilla", titulo: "El rango que dejó *fuera* a cinco países"}
+  - narracion: "En 2013, un estudiante de posgrado intentó repetir un estudio de Reinhart y Rogoff sobre deuda y crecimiento. El estudio publicaba un crecimiento de menos 0,1 % en países con deuda sobre 90 % del [[pe i be|PIB]]. El reanálisis, que corrigió varios problemas, obtuvo 2,2 %."
+    visual:
+      plantilla: dato
+      datos:
+        kicker: "2013"
+        dato: "*−0,1 %* publicado → *2,2 %* corregido"
+        contexto: "Crecimiento promedio con deuda sobre 90 % del PIB"
+        fuente: "Herndon, Ash y Pollin (2013)"
+  - narracion: "Así se ve un error de rango, con datos inventados. El promedio llega hasta la fila C. Falta la D, y el resultado es 2 en vez de 4."
+    visual:
+      plantilla: planilla
+      datos:
+        titulo: "Datos inventados"
+        formula: "=PROMEDIO(B2:B4)"
+        celda_formula: "B6"
+        filas:
+          - ["País", "Crecimiento %"]
+          - ["A", 1]
+          - ["B", 2]
+          - ["C", 3]
+          - ["D", 10]
+          - ["Promedio", ""]
+        resaltar:
+          - {rango: "B2:B4", beat: 1}
+        resultado: {celda: "B6", valor: "2", beat: 2}
+        nota: "Debería ser =PROMEDIO(B2:B5) = 4"
+  - narracion: "Los autores reconocieron el error de promedio, pero defendieron el resto de su método. La lección para tu planilla: comprueba que cada rango cubra todos los datos."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Revisa que el rango *cubra todo*"
+        puntos: ["Un rango corto cambia el resultado", "Comprueba el primer y último dato", "Pide a alguien que revise"]
+        cta: "Revisa tus fórmulas"
+fuentes:
+  - url: "https://retractionwatch.com/2013/04/18/influential-reinhart-rogoff-economics-paper-suffers-database-error/"
+    titulo: "Influential Reinhart-Rogoff economics paper suffers spreadsheet error (Retraction Watch)"
+    fecha_consulta: 2026-10-11
+    respalda: "En abril de 2013 se reportó un error de planilla en el estudio de Reinhart y Rogoff; un promedio excluía cinco países por un rango mal seleccionado."
+    cifras: [90]
+  - url: "https://www.chronicle.com/article/they-said-at-first-that-they-hadnt-made-a-spreadsheet-error-when-they-had/"
+    titulo: "They said at first that they hadn't made a spreadsheet error when they had (The Chronicle of Higher Education)"
+    fecha_consulta: 2026-10-11
+    respalda: "Reinhart y Rogoff reconocieron el error de planilla en el promedio; el debate sobre el resto de la metodología continuó."
+  - url: "https://thefiscaltimes.com/node/57248"
+    titulo: "The Econ Student Who Challenged Reinhart-Rogoff on Debt (The Fiscal Times)"
+    fecha_consulta: 2026-10-11
+    respalda: "Thomas Herndon, estudiante de posgrado de UMass Amherst, replicó el estudio como tarea; el reanálisis de Herndon, Ash y Pollin obtuvo 2,2 % de crecimiento para países con deuda sobre 90 % del PIB, frente a -0,1 % publicado."
+    cifras: [90]
+  - calculo: "(1 + 2 + 3) / 3"
+    resultado: 2
+    respalda: "Promedio del ejemplo inventado con el rango corto (B2:B4)."
+  - calculo: "(1 + 2 + 3 + 10) / 4"
+    resultado: 4
+    respalda: "Promedio del ejemplo inventado con el rango completo (B2:B5)."
+riesgos:
+  derechos: "bajo — material propio; no se usan imágenes de los autores ni del estudio"
+  exactitud: "alto — caso histórico con cifras y atribuciones. Se afirma solo lo reportado por prensa y fuentes secundarias (cinco países, 2,2 % vs -0,1 %, reconocimiento del error de promedio). Contrastar con el artículo original de Herndon, Ash y Pollin y con la respuesta de Reinhart y Rogoff antes de publicar; el error de rango no fue el único problema señalado."
+  monetizacion: "medio — tema de política económica; se mantiene neutral y descriptivo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Reinhart", "Rogoff", "PROMEDIO", "Herndon", "Ash", "Pollin", "reanálisis"]

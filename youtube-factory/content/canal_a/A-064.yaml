@@ -1,0 +1,74 @@
+id: A-064
+canal: canal_a
+fecha: 2026-12-21
+formato: short
+serie: Caso práctico
+episodio: "#01"
+pilar: empleo
+tipo_editorial: caso_practico
+idea: "Una descripción de puesto es más clara y más inclusiva si separa los requisitos imprescindibles de los deseables; la IA redacta el borrador y tú decides qué es realmente imprescindible."
+objetivo: "Dar un método simple y un prompt reutilizable para redactar ofertas de empleo claras, y recordar que las decisiones de selección y la revisión legal son humanas."
+publico: "Dueños de pymes, encargados de contratación y personal de recursos humanos que redactan ofertas de empleo."
+hipotesis: "Formato 'caso_practico' en pilar 'empleo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "¿Tu oferta de empleo mezcla lo imprescindible con lo deseable?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Descripción de puesto clara: imprescindible vs deseable (con IA)"
+titulos_alternativos:
+  - "Cómo redactar una oferta de empleo clara e inclusiva con IA"
+  - "Prompt para describir un puesto sin pedir de más"
+  - "Dos listas que mejoran cualquier oferta de trabajo"
+criterio_titulo: "Nombra el problema concreto (separar imprescindible y deseable) y la herramienta; es buscable por quien redacta ofertas."
+descripcion: |
+  Una descripción de puesto clara separa lo imprescindible (lo que se necesita desde el primer día) de lo deseable (lo que se puede aprender en el cargo). La IA puede darte un primer borrador con ese formato y lenguaje inclusivo.
+  Revisa cada requisito, quita exigencias que no sean necesarias para el trabajo y valida el texto final con recursos humanos y con la normativa laboral de tu país. La IA no reemplaza esa revisión.
+cta: "Guárdalo para tu próxima vacante."
+comentario_fijado: |
+  Prompt: Redacta una descripción de puesto para [CARGO] en [EMPRESA]. Incluye tareas principales y dos listas: requisitos imprescindibles (máximo 5) y deseables. Usa lenguaje claro e inclusivo; no pidas edad, género ni foto.
+hashtags: ["#Empleo", "#RecursosHumanos", "#IA"]
+palabras_clave: ["descripción de puesto", "oferta de empleo", "requisitos imprescindibles y deseables", "lenguaje inclusivo", "prompt para recursos humanos"]
+escenas:
+  - narracion: "¿Tu oferta de empleo mezcla lo imprescindible con lo deseable? Separarlos la vuelve mucho más clara."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Caso práctico", titulo: "Oferta de empleo: *imprescindible* vs deseable", sub: "Con ayuda de IA"}
+  - narracion: "Imprescindible es lo que necesitas desde el primer día. Deseable es lo que se puede aprender en el puesto. Con dos listas, nadie se descarta por requisitos de más."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Imprescindible", titulo: "Desde el día uno", items: ["Sin esto no se puede empezar", "Se evalúa en la selección"]}
+        der: {etiqueta: "Deseable", titulo: "Se aprende en el puesto", items: ["Suma, pero no descarta", "Va en una lista aparte"]}
+        veredicto: "Dos listas, no una"
+  - narracion: "Pídele a la IA un borrador con esa separación, en lenguaje claro e inclusivo."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Redacta una descripción de puesto para [CARGO] en [EMPRESA]. Incluye tareas principales y dos listas: requisitos imprescindibles (máximo 5) y deseables. Usa lenguaje claro e inclusivo; no pidas edad, género ni foto."
+  - narracion: "Antes de publicar, revisa que cada requisito imprescindible se use de verdad el primer día. Quita palabras que excluyan por edad o género sin necesidad. Y valida el texto con recursos humanos y la normativa de tu país."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Revisa antes de *publicar*"
+        estilo: check
+        items: ["Imprescindible = se usa el día uno", "Sin exclusiones innecesarias", "Validado con RR. HH. y la norma local"]
+  - narracion: "La IA redacta el borrador. Tú decides qué es imprescindible."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "El borrador es de la IA, la *decisión* es tuya"
+        puntos: ["Dos listas separadas", "Lenguaje claro e inclusivo", "Revisión humana y legal"]
+        cta: "Guárdalo para tu próxima vacante"
+fuentes:
+  - calculo: "[5]"
+    respalda: "Límite ilustrativo de 5 requisitos imprescindibles en el prompt: es un criterio de redacción, no una norma. El video no afirma datos externos; recomienda validar con recursos humanos y la normativa local."
+riesgos:
+  derechos: "bajo — material propio; el prompt y los gráficos los crea el canal"
+  exactitud: "bajo — sin afirmaciones factuales externas; lo normativo (qué datos se pueden pedir en una oferta) varía por país y se remite a revisión humana y legal"
+  monetizacion: "bajo — contenido educativo para empleadores"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

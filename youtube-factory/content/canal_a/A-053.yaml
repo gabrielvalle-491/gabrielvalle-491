@@ -1,0 +1,74 @@
+id: A-053
+canal: canal_a
+fecha: 2026-12-10
+formato: short
+serie: IA sin humo
+episodio: "#04"
+pilar: ia_sin_humo
+tipo_editorial: mito
+idea: "Un modelo solo conoce lo que había en sus datos hasta su fecha de corte; para hechos recientes necesita una herramienta de búsqueda web, y aun así hay que abrir las fuentes."
+objetivo: "Aclarar la diferencia entre conocimiento de entrenamiento y búsqueda web, y dar una regla práctica de verificación."
+publico: "Personas que usan IA para consultar precios, noticias, leyes o versiones de software."
+hipotesis: "Formato 'mito' en pilar 'ia_sin_humo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Mito: la IA siempre sabe lo último."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Mito: la IA siempre sabe lo último (fecha de corte y búsqueda)"
+titulos_alternativos:
+  - "Por qué la IA no sabe lo que pasó ayer (y cuándo sí)"
+  - "Fecha de corte de la IA: qué es y por qué importa"
+  - "IA con y sin búsqueda web: la diferencia que debes conocer"
+criterio_titulo: "Plantea el mito con el que mucha gente se equivoca y nombra los dos términos buscables (fecha de corte, búsqueda)."
+descripcion: |
+  Un modelo de IA se entrena con textos hasta una fecha de corte. Lo ocurrido después no lo sabe, salvo que use una herramienta de búsqueda web.
+  Según la ayuda de OpenAI, ChatGPT busca en la web solo cuando una herramienta de búsqueda está habilitada; sin ella, responde con su entrenamiento. Para precios, leyes o noticias, pide fuentes y ábrelas. Esto puede cambiar con las versiones: verifica la ayuda oficial de tu aplicación.
+cta: "Guárdalo antes de consultar algo reciente."
+comentario_fijado: "Regla rápida: si el dato cambia con el tiempo (precios, leyes, noticias, versiones), pide fuentes y ábrelas."
+hashtags: ["#IA", "#IASinHumo", "#Verificación"]
+palabras_clave: ["fecha de corte IA", "la IA sabe lo último", "búsqueda web en IA", "verificar respuestas de IA"]
+escenas:
+  - narracion: "Mito: la IA siempre sabe lo último. Realidad: sabe hasta su fecha de corte, salvo que busque en la web."
+    visual:
+      plantilla: mito
+      datos:
+        mito: "La IA *siempre* sabe lo último"
+        realidad: "Sabe hasta su *fecha de corte*, salvo que busque en la web"
+        fuente: "Ayuda de OpenAI, a la fecha"
+  - narracion: "Primero se entrena con textos hasta una fecha de corte. Después se lanza y se usa durante mucho tiempo. Hoy tú preguntas, y lo ocurrido tras el corte no lo sabe, a menos que use búsqueda web."
+    visual:
+      plantilla: timeline
+      datos:
+        titulo: "Del entrenamiento a tu *pregunta*"
+        eventos:
+          - {fecha: "Corte", texto: "Fin de los datos de entrenamiento"}
+          - {fecha: "Después", texto: "Lanzamiento y meses de uso"}
+          - {fecha: "Hoy", texto: "Tú preguntas: lo nuevo requiere búsqueda"}
+  - narracion: "Primero, mira si la búsqueda web está activada. Segundo, pide fuentes y ábrelas. Y para precios, leyes o noticias, confirma el dato en el sitio oficial."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Antes de confiar en un dato *reciente*"
+        estilo: check
+        items: ["¿La búsqueda web está activada?", "Pide fuentes y ábrelas", "Confirma precios, leyes y noticias"]
+  - narracion: "Una respuesta segura no siempre es una respuesta actual."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Segura *no* es actual"
+        puntos: ["Fecha de corte", "Búsqueda web activada", "Fuentes abiertas"]
+        cta: "Guárdalo"
+fuentes:
+  - url: "https://help.openai.com/en/articles/8313428-does-chatgpt-tell-the-truth"
+    titulo: "Does ChatGPT tell the truth? (OpenAI Help Center)"
+    fecha_consulta: 2026-10-11
+    respalda: "ChatGPT busca en la web solo cuando una herramienta de búsqueda está habilitada; sin ella responde con datos de entrenamiento; con búsqueda puede citar fuentes web."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — la disponibilidad y el modo de activar la búsqueda varían por aplicación, plan y versión; el video evita describir menús. Revisar la ayuda oficial antes de publicar."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

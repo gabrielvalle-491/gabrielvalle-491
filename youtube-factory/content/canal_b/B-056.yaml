@@ -1,0 +1,81 @@
+id: B-056
+canal: canal_b
+fecha: 2026-12-13
+formato: short
+serie: Funciones de Sheets
+episodio: "#02"
+pilar: excel_vs_sheets
+tipo_editorial: herramienta
+idea: "En Google Sheets, el botón Compartir permite elegir el rol de cada persona: lector, comentarista o editor. Darle solo el rol necesario ayuda a no perder el control del archivo."
+objetivo: "Enseñar los tres roles y una advertencia sobre descargar, imprimir y copiar, para que la persona comparta con criterio."
+publico: "Personas que comparten hojas de cálculo con clientes, equipos o familia."
+hipotesis: "Formato 'herramienta' en pilar 'excel_vs_sheets': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "No todos necesitan ser editores de tu hoja de cálculo."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Compartir en Google Sheets: lector, comentarista o editor"
+titulos_alternativos:
+  - "Cómo compartir una hoja sin que te la modifiquen"
+  - "Permisos de Google Sheets: qué puede hacer cada rol"
+  - "Antes de compartir tu planilla, revisa este permiso"
+criterio_titulo: "Nombra los tres roles que la gente busca y anticipa el beneficio (control del archivo)."
+descripcion: |
+  En Google Sheets puedes compartir con tres roles: lector (solo ve), comentarista (ve y comenta, sin cambiar el contenido) y editor (modifica). Elige el mínimo necesario.
+  Según la ayuda de Google, el propietario también puede decidir si lectores y comentaristas pueden descargar, imprimir y copiar el archivo. Los menús pueden variar según tu cuenta.
+cta: "Revisa los permisos de tu último archivo compartido."
+comentario_fijado: "Ruta general: botón Compartir > agrega a la persona o elige acceso con enlace > elige el rol. Revisa también la configuración para descargar, imprimir y copiar."
+hashtags: ["#GoogleSheets", "#Productividad", "#Colaboración"]
+palabras_clave: ["compartir Google Sheets", "permisos lector comentarista editor", "proteger hoja de cálculo"]
+escenas:
+  - narracion: "No todos necesitan ser editores de tu hoja de cálculo."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Funciones de Sheets", titulo: "¿Lector, comentarista o *editor*?", sub: "Comparte sin perder el control"}
+  - narracion: "En Google Sheets, presiona Compartir. Agrega a la persona o crea un enlace. Y elige el rol."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Cómo compartir"
+        pasos:
+          - {titulo: "Presiona Compartir", detalle: "botón de compartir de la hoja"}
+          - {titulo: "Agrega personas o usa el enlace", detalle: "correo o acceso con enlace"}
+          - {titulo: "Elige el rol", detalle: "lector, comentarista o editor"}
+  - narracion: "El lector solo mira. El comentarista deja comentarios, sin cambiar el contenido. El editor puede modificarlo todo."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Tres roles"
+        items:
+          - {texto: "Lector", detalle: "solo ve el archivo"}
+          - {texto: "Comentarista", detalle: "comenta, no cambia el contenido"}
+          - {texto: "Editor", detalle: "puede hacer cambios"}
+  - narracion: "Y revisa en la configuración si lectores y comentaristas pueden descargar, imprimir y copiar."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Da el *mínimo* permiso necesario"
+        puntos: ["Lector si solo debe ver", "Comentarista para revisar", "Editor solo si debe cambiar datos"]
+        cta: "Revisa tus permisos"
+fuentes:
+  - url: "https://support.google.com/drive/answer/2494822"
+    titulo: "Share files from Google Drive (Google Help)"
+    fecha_consulta: 2026-10-11
+    respalda: "Al compartir con una persona se elige uno de tres roles: lector, comentarista o editor; los propietarios pueden permitir que lectores y comentaristas descarguen, impriman y copien el archivo mediante la configuración."
+  - url: "https://support.google.com/docs/answer/9331169?hl=en"
+    titulo: "Collaborate in Sheets (Google Docs Editors Help)"
+    fecha_consulta: 2026-10-11
+    respalda: "Compartir y colaborar en hojas de cálculo de Google Sheets."
+  - url: "https://support.google.com/a/users/answer/13309904?hl=en"
+    titulo: "Share & collaborate on a spreadsheet (Google Workspace Learning Center)"
+    fecha_consulta: 2026-10-11
+    respalda: "Descripción de los roles al compartir una hoja de cálculo."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — la posición exacta de botones y nombres de menú en español puede variar por cuenta (personal o Workspace); verificar en Sheets en español antes de publicar. El resumen de roles proviene de la ayuda de Google y de resultados de búsqueda."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

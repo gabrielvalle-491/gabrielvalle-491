@@ -1,0 +1,83 @@
+id: B-050
+canal: canal_b
+fecha: 2026-12-07
+formato: short
+serie: Tu dinero en una planilla
+episodio: "#17"
+pilar: dinero
+tipo_editorial: experimento
+idea: "Tu precio por hora real como freelancer no es ingreso deseado dividido por horas trabajadas: hay que sumar los gastos del negocio y dividir solo entre las horas facturables (ejemplo ilustrativo)."
+objetivo: "Que la persona calcule su tarifa con una fórmula simple y entienda por qué las horas no facturables la duplican en el ejemplo."
+publico: "Freelancers y trabajadores independientes que fijan su tarifa por hora."
+hipotesis: "Formato 'experimento' en pilar 'dinero': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Quieres ganar US$ 2 000 al mes como freelancer. ¿A cuánto debes cobrar la hora?"
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Tu precio por hora real como freelancer (con la cuenta)"
+titulos_alternativos:
+  - "Por qué tu tarifa por hora debe ser el doble de lo que crees"
+  - "Horas facturables vs horas trabajadas: la cuenta que casi nadie hace"
+  - "Cómo calcular cuánto cobrar por hora en una planilla"
+criterio_titulo: "Promete una cuenta concreta y usa la búsqueda habitual (precio por hora freelancer)."
+descripcion: |
+  Ejemplo ilustrativo: para ganar US$ 2 000 netos con US$ 400 de gastos del negocio y 96 horas facturables de 160 trabajadas, la hora sale a US$ 25 y no a US$ 12,50.
+  Las cifras son inventadas para el ejemplo; reemplázalas por las tuyas. No incluye impuestos ni cargas sociales, que varían según el país. Contenido educativo general.
+cta: "Haz la cuenta con tus propias horas y gastos."
+comentario_fijado: "Fórmula: =(A2+B2)/C2 con el ingreso deseado en A2, los gastos en B2 y las horas facturables en C2. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos."
+hashtags: ["#Freelance", "#Excel", "#FinanzasPersonales"]
+palabras_clave: ["cuánto cobrar por hora", "tarifa por hora freelancer", "horas facturables"]
+escenas:
+  - narracion: "Quieres ganar US$ 2 000 al mes como freelancer. ¿A cuánto debes cobrar la hora?"
+    visual:
+      plantilla: hook
+      datos: {kicker: "Tu dinero en una planilla", titulo: "Tu hora *real* como freelancer", sub: "Ejemplo ilustrativo"}
+  - narracion: "Parte de US$ 2 000 netos. Suma US$ 400 de gastos del negocio. Ahora, de 160 horas trabajadas, solo 96 se facturan; el resto es cotizar, cobrar y administrar. Resultado: 2 400 entre 96, US$ 25 por hora."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "La cuenta"
+        lineas:
+          - {izq: "Ingreso deseado", der: "US$ 2 000"}
+          - {izq: "Gastos del negocio", der: "US$ 400"}
+          - {izq: "Horas facturables (de 160)", der: "96"}
+        resultado: {izq: "Hora real (2 400 ÷ 96)", der: "US$ 25"}
+  - narracion: "Si divides solo entre las horas trabajadas y olvidas los gastos, te sale 12,5. Cobrarías la mitad de lo que necesitas."
+    visual:
+      plantilla: barras
+      datos:
+        titulo: "Tarifa por hora"
+        prefijo: "US$ "
+        decimales: 1
+        items:
+          - {etiqueta: "Cuenta ingenua", valor: 12.5, tenue: true}
+          - {etiqueta: "Cuenta real", valor: 25, destacado: true}
+        nota: "Ejemplo ilustrativo, sin impuestos"
+  - narracion: "Cambia las cifras por las tuyas y vuelve a calcular."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Cobra por *horas facturables*"
+        puntos: ["Suma tus gastos", "Divide entre horas facturables", "Sin impuestos en el ejemplo"]
+        cta: "Haz tu cuenta"
+fuentes:
+  - calculo: "[2000, 400, 160, 96]"
+    respalda: "Datos ilustrativos del ejemplo (ingreso deseado, gastos, horas trabajadas y horas facturables)."
+  - calculo: "2000 + 400"
+    resultado: 2400
+    respalda: "Total a cubrir por mes."
+  - calculo: "(2000 + 400) / 96"
+    resultado: 25
+    respalda: "Tarifa por hora real sobre horas facturables."
+  - calculo: "2000 / 160"
+    resultado: 12.5
+    respalda: "Tarifa por hora ingenua (sin gastos y sobre horas trabajadas)."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "bajo — aritmética verificada; las cifras son inventadas y se declaran ilustrativas; no incluye impuestos"
+  monetizacion: "bajo — educación general, sin asesoría financiera ni tributaria"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["freelancer"]

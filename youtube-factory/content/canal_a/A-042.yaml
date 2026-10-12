@@ -1,0 +1,67 @@
+id: A-042
+canal: canal_a
+fecha: 2026-11-29
+formato: short
+serie: Error común
+episodio: "#03"
+pilar: prompts
+tipo_editorial: error_comun
+idea: "Pedir «hazlo mejor» obliga a la IA a adivinar qué es mejor; definir el criterio (más corto, más formal, con un dato) da una mejora que puedes comprobar."
+objetivo: "Enseñar a pedir revisiones con criterios medibles y reutilizables."
+publico: "Personas que repiten «mejóralo» a un chatbot y no obtienen lo que buscan."
+hipotesis: "Formato 'error_comun' en pilar 'prompts': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Pedirle «hazlo mejor» a la IA es pedirle que adivine."
+duracion_objetivo: "35-55 s"
+titulo: "«Hazlo mejor»: el error que frena tus prompts"
+titulos_alternativos:
+  - "Cómo pedir una mejora a la IA sin decir «mejóralo»"
+  - "Define qué es «mejor»: 4 criterios para tus prompts"
+  - "Por qué «mejóralo» no funciona en un chatbot"
+criterio_titulo: "Usa la frase exacta que comete el público y promete corregirla."
+descripcion: |
+  «Hazlo mejor» no dice qué mejorar. Cuando defines el criterio (más corto, más formal, con un dato, para otro público), la IA sabe qué cambiar y tú puedes comprobar si lo logró.
+  Revisa el resultado y conserva tu versión original.
+cta: "Guárdalo y cambia «mejóralo» por un criterio."
+comentario_fijado: "Prompt: Reescribe el texto de abajo. Criterio: [MÁS CORTO / MÁS FORMAL / CON UN DATO CONCRETO]. Mantén [LO QUE NO DEBE CAMBIAR]. Texto: [PEGA AQUÍ]"
+hashtags: ["#Prompts", "#IA", "#Productividad"]
+palabras_clave: ["cómo mejorar un texto con IA", "errores al escribir prompts", "prompt para reescribir", "mejorar respuestas de ChatGPT"]
+escenas:
+  - narracion: "Pedirle *hazlo mejor* a la IA es pedirle que adivine. ¿Mejor es más corto, más formal o con datos?"
+    visual:
+      plantilla: hook
+      datos: {kicker: "Error común", titulo: "«Hazlo mejor» no dice *qué* mejorar"}
+  - narracion: "Con hazlo mejor, la IA decide qué es mejor. Con un criterio, sabe qué cambiar. Por ejemplo: redúcelo a tres líneas, con tono formal. Y tú puedes comprobar si lo cumplió."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Vago", titulo: "«Hazlo mejor»", items: ["La IA adivina", "Cambios al azar"]}
+        der: {etiqueta: "Con criterio", titulo: "«Tres líneas, tono formal»", items: ["Sabe qué cambiar", "Lo puedes comprobar"]}
+        veredicto: "Un criterio vale más que un adjetivo"
+  - narracion: "Elige el criterio. Más corto o más largo. Formal o cercano. Con datos o con ejemplos. O para otro público."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Define qué es *mejor*"
+        estilo: num
+        items: ["Largo: más corto o más largo", "Tono: formal o cercano", "Contenido: con datos o ejemplos", "Público: para quién lo lees"]
+  - narracion: "Dile también qué no debe cambiar. Y compara con tu versión original. Así sabes si de verdad mejoró."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Un criterio, *no* un adjetivo"
+        puntos: ["Define qué es mejor", "Dile qué no cambiar", "Compara con el original"]
+        cta: "Guárdalo para tu próximo prompt"
+fuentes:
+  - calculo: "[4]"
+    respalda: "Cuatro criterios de ejemplo (largo, tono, contenido, público) propios del canal; técnica general sin datos ni afirmaciones externas."
+riesgos:
+  derechos: "bajo — prompt y gráficos creados por el canal"
+  exactitud: "bajo — consejo general de claridad en instrucciones"
+  monetizacion: "bajo — contenido educativo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

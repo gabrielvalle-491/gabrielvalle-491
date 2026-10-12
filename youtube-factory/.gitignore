@@ -1,0 +1,22 @@
+# Secretos y credenciales: NUNCA al repositorio
+.env
+secrets/
+*client_secret*.json
+*token*.json
+# Modelos pesados (se descargan con el instalador)
+models/*.onnx
+models/*.bin
+models/piper/
+# Salidas regenerables
+output/**/videos/
+output/**/frames/
+output/**/audio/
+output/_trabajo/
+data/factory.db
+data/cache/
+logs/*.log
+paquetes/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/

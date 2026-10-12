@@ -1,0 +1,88 @@
+id: A-049
+canal: canal_a
+fecha: 2026-12-06
+formato: short
+serie: IA sin humo
+episodio: "#03"
+pilar: ia_sin_humo
+tipo_editorial: mito
+idea: "El informe Future of Jobs 2025 del Foro Económico Mundial proyecta más empleos creados que desplazados al 2030; la IA es un factor entre varios y cambia tareas y puestos, no los elimina todos."
+objetivo: "Desmontar un mito alarmista con cifras de una fuente primaria, aclarando que son proyecciones, y orientar al espectador a mirar qué tareas de su trabajo cambian."
+publico: "Trabajadores y estudiantes que temen perder su empleo por la IA y quieren datos en lugar de titulares."
+hipotesis: "Formato 'mito' en pilar 'ia_sin_humo': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Mito: la IA eliminará todos los empleos."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "¿La IA eliminará todos los empleos? Lo que proyecta el Foro Económico"
+titulos_alternativos:
+  - "Mito: la IA se llevará todos los empleos (esto dicen los datos)"
+  - "170 millones de empleos nuevos y 92 millones desplazados: qué significa"
+  - "Empleos e IA: proyección del Foro Económico Mundial al 2030"
+criterio_titulo: "Nombra el miedo concreto del público y la fuente que lo responde; 'Foro Económico' da credibilidad y es término de búsqueda."
+descripcion: |
+  El informe Future of Jobs 2025 del Foro Económico Mundial proyecta, para 2030, 170 millones de empleos creados y 92 millones desplazados, un saldo neto de 78 millones. Son proyecciones basadas en encuestas a empleadores y consideran todas las fuerzas de cambio, no solo la IA.
+  Cerca del 40 % de los empleadores espera reducir personal donde la IA pueda automatizar tareas: cambian puestos y tareas. Verifica las cifras en el informe original.
+cta: "Revisa qué tareas de tu trabajo podrías mejorar con IA."
+comentario_fijado: "Fuente: Future of Jobs Report 2025, Foro Económico Mundial (weforum.org). Son proyecciones, no certezas. ¿Qué tarea de tu trabajo te gustaría automatizar primero?"
+hashtags: ["#IA", "#FuturoDelTrabajo", "#InteligenciaArtificial"]
+palabras_clave: ["IA y empleos", "Future of Jobs 2025", "Foro Económico Mundial", "automatización del trabajo"]
+escenas:
+  - narracion: "Mito: la IA eliminará todos los empleos. Realidad: eso no es lo que proyecta el Foro Económico Mundial."
+    visual:
+      plantilla: mito
+      datos:
+        mito: "La IA *eliminará todos* los empleos"
+        realidad: "El Foro Económico proyecta *más empleos creados* que desplazados"
+        fuente: "Future of Jobs Report 2025"
+    edicion: "Tachar el mito con ritmo seco; la realidad aparece con la segunda frase."
+  - narracion: "Su informe de 2025, basado en encuestas a empleadores, calcula para 2030 unos 170 millones de empleos nuevos. Y 92 millones desplazados. El saldo neto sería de 78 millones más."
+    visual:
+      plantilla: barras
+      datos:
+        titulo: "Proyección al 2030 (millones)"
+        sufijo: " M"
+        maximo: 170
+        items:
+          - {etiqueta: "Creados", valor: 170}
+          - {etiqueta: "Desplazados", valor: 92}
+          - {etiqueta: "Saldo neto", valor: 78, destacado: true}
+        nota: "Todas las fuerzas de cambio, no solo la IA"
+  - narracion: "Ojo: son proyecciones, no certezas. Y cerca del 40 % de los empleadores espera reducir personal donde la IA pueda automatizar tareas."
+    visual:
+      plantilla: dato
+      datos:
+        kicker: "Lo que sí cambia"
+        dato: "Cerca del *40 %* de empleadores prevé recortar donde la IA automatice tareas"
+        contexto: "Cambian puestos y tareas; el informe también habla de capacitación"
+        fuente: "Future of Jobs Report 2025"
+  - narracion: "Cambian las tareas, no desaparece todo. Lo útil es entender qué tareas cambian en tu puesto. Revisa qué partes de tu trabajo puedes mejorar con IA."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Proyección, *no sentencia*"
+        puntos: ["Más empleos creados que desplazados", "Cambian tareas y puestos", "Aprende a usar la IA en tu área"]
+        cta: "Revisa tus tareas hoy"
+fuentes:
+  - url: "https://www.weforum.org/press/2025/01/future-of-jobs-report-2025-78-million-new-job-opportunities-by-2030-but-urgent-upskilling-needed-to-prepare-workforces/"
+    titulo: "Future of Jobs Report 2025: 78 Million New Job Opportunities by 2030 (Foro Económico Mundial, comunicado)"
+    fecha_consulta: 2026-10-11
+    respalda: "Para 2030 se proyectan 170 millones de empleos nuevos y 92 millones desplazados, con un aumento neto de 78 millones; el informe encuesta a empleadores de todo el mundo; cerca del 40 % espera reducir personal donde la IA pueda automatizar tareas (el comunicado cita 41 %, el resumen del informe 40 %)."
+    cifras: [2025, 170, 92, 78, 40]
+  - url: "https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/"
+    titulo: "The Future of Jobs Report 2025 - Digest (Foro Económico Mundial)"
+    fecha_consulta: 2026-10-11
+    respalda: "Resumen del informe: alrededor del 40 % de los empleadores espera reducir su plantilla donde la IA pueda automatizar tareas."
+    cifras: [40]
+  - calculo: "170 - 92"
+    resultado: 78
+    respalda: "Saldo neto proyectado: empleos creados menos desplazados."
+riesgos:
+  derechos: "bajo — gráficos creados por el canal; se cita un informe público sin reproducirlo"
+  exactitud: "medio — las cifras provienen de un informe de enero de 2025 y son proyecciones; el porcentaje de empleadores aparece como 40 % (resumen) y 41 % (comunicado). Verificar contra el informe antes de publicar."
+  monetizacion: "bajo — tema de actualidad laboral, sin promesas ni consejos de inversión"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Future", "Jobs", "Report"]

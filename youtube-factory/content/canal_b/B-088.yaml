@@ -1,0 +1,85 @@
+id: B-088
+canal: canal_b
+fecha: 2027-01-14
+formato: short
+serie: Fórmula en 40 segundos
+episodio: "#14"
+pilar: formulas
+tipo_editorial: tutorial
+idea: "SIFECHA con la unidad \"Y\" devuelve años completos entre dos fechas; dividir los días entre 365 y redondear puede dar un año de más."
+objetivo: "Tutorial rápido para calcular edad o antigüedad en años completos, con la advertencia sobre la unidad MD."
+publico: "Personas que calculan edades, antigüedad laboral o vigencia de contratos en Excel."
+hipotesis: "Formato 'tutorial' en pilar 'formulas': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Dividir los días entre 365 y redondear te puede dar un año de más."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Edad o antigüedad en Excel con SIFECHA (años completos)"
+titulos_alternativos:
+  - "Cómo calcular años entre dos fechas sin equivocarte"
+  - "SIFECHA: la función que cuenta años completos"
+  - "Antigüedad laboral en Excel: la fórmula correcta"
+criterio_titulo: "Nombra la función y los dos usos más buscados (edad y antigüedad)."
+descripcion: |
+  SIFECHA calcula la diferencia entre dos fechas en la unidad que indiques; con "Y" devuelve años completos. En el ejemplo ilustrativo, del 5 de marzo de 2019 al 8 de enero de 2027 hay 7 años completos, no 8.
+  Ojo: Microsoft indica que SIFECHA puede dar resultados incorrectos en ciertos casos y no recomienda la unidad "MD". Verifica tus resultados.
+cta: "Guárdalo para calcular edades y antigüedades."
+comentario_fijado: "Fórmula: =SIFECHA(A2;B2;\"Y\") con la fecha inicial en A2 y la final en B2. Para los meses restantes: =SIFECHA(A2;B2;\"YM\"). La fecha inicial debe ser anterior a la final. En México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;)."
+hashtags: ["#Excel", "#Fórmulas", "#SIFECHA"]
+palabras_clave: ["SIFECHA", "calcular edad en excel", "antigüedad laboral excel"]
+escenas:
+  - narracion: "Dividir los días entre 365 y redondear te puede dar un año de más."
+    visual:
+      plantilla: hook
+      datos: {kicker: "Fórmula en 40 segundos", titulo: "Años completos: *no redondees*", sub: "Edad y antigüedad con SIFECHA"}
+  - narracion: "Del 5 de marzo de 2019 al 8 de enero de 2027 faltan casi dos meses para cumplir ocho años. Dividir los días entre 365 da 7,85. Redondeado, 8. Pero son 7 completos."
+    visual:
+      plantilla: versus
+      datos:
+        izq: {etiqueta: "Días ÷ 365", titulo: "Redondeado", items: ["≈ 7,85 años", "Redondea a 8"]}
+        der: {etiqueta: "Años completos", titulo: "Lo correcto", items: ["Faltan casi 2 meses", "Son 7"]}
+        veredicto: "Para edad: años *completos*"
+  - narracion: "Usa SIFECHA. Primero, la fecha inicial. Luego, la final. Y la unidad Y, entre comillas, para años completos."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=SIFECHA(A2;B2;\"Y\")"
+        partes:
+          - {token: "A2", explica: "fecha inicial"}
+          - {token: "B2", explica: "fecha final"}
+          - {token: "\"Y\"", explica: "años completos"}
+  - narracion: "En la planilla, con esas fechas, el resultado es 7."
+    visual:
+      plantilla: planilla
+      datos:
+        formula: "=SIFECHA(A2;B2;\"Y\")"
+        celda_formula: "C2"
+        filas:
+          - ["Inicio", "Fin", "Años"]
+          - ["05/03/2019", "08/01/2027", ""]
+        resaltar:
+          - {rango: "A2:B2", beat: 1}
+        resultado: {celda: "C2", valor: "7", beat: 2}
+  - narracion: "Ojo: Microsoft advierte que SIFECHA puede dar resultados incorrectos en algunos casos y no recomienda la unidad MD."
+    visual:
+      plantilla: dato
+      datos: {kicker: "Ojo", dato: "Evita la unidad *\"MD\"* y verifica tus resultados", contexto: "Según la ayuda de Microsoft"}
+fuentes:
+  - url: "https://support.microsoft.com/es-es/Excel/functions/datedif-function"
+    titulo: "Función SIFECHA (Microsoft Support)"
+    fecha_consulta: 2026-10-11
+    respalda: "SIFECHA(fecha_inicial; fecha_final; unidad); la unidad \"Y\" devuelve los años completos del período; la función puede calcular resultados incorrectos en ciertos escenarios y no se recomienda la unidad \"MD\"; Excel la ofrece por compatibilidad con Lotus 1-2-3."
+  - calculo: "2866 / 365"
+    resultado: 7.85
+    respalda: "Días entre el 05/03/2019 y el 08/01/2027 (2 866, calculados con Python datetime) divididos entre 365."
+  - calculo: "[2866, 365]"
+    respalda: "Cantidad de días entre el 05/03/2019 y el 08/01/2027 (calculada con Python) y base de 365 días del año."
+riesgos:
+  derechos: "bajo — material propio"
+  exactitud: "medio — la unidad \"Y\" y la advertencia sobre \"MD\" están en la ayuda de Microsoft; los 2 866 días y los 7 años completos se calcularon aparte. Probar la fórmula en Excel antes de publicar."
+  monetizacion: "bajo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

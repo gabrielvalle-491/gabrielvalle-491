@@ -1,0 +1,115 @@
+id: B-048
+canal: canal_b
+fecha: '2026-12-05'
+formato: short
+serie: Mini sistema
+episodio: '#05'
+pilar: trabajo
+tipo_editorial: herramienta
+idea: Las segmentaciones de datos de Excel filtran tablas y tablas dinámicas con botones; en Google Sheets el equivalente es el control de filtros.
+objetivo: Herramienta visual que mejora reportes interactivos y atrae búsquedas por 'segmentación de datos'.
+publico: Personas que arman reportes en Excel y quieren filtros fáciles de usar para otros.
+hipotesis: 'Formato ''herramienta'' en pilar ''trabajo'': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje).'
+gancho: Filtra tu tabla con botones, sin abrir menús.
+duracion_objetivo: 35-55 s (≈85-140 palabras)
+titulo: 'Segmentación de datos en Excel: filtra con botones'
+titulos_alternativos:
+- Cómo insertar una segmentación de datos en una tabla de Excel
+- Filtros con botones en Excel y Google Sheets
+- 'Segmentaciones: reportes que cualquiera sabe filtrar'
+criterio_titulo: Usa el nombre oficial de la herramienta (segmentación de datos) y promete el resultado.
+descripcion: |-
+  Cómo insertar una segmentación de datos en una tabla de Excel: haz clic en la tabla, pestaña Insertar, Segmentación, marca los campos y acepta. Cada botón filtra la tabla.
+  En Google Sheets, el equivalente es el control de filtros, que filtra gráficos y tablas dinámicas. Los menús pueden variar según la versión del programa.
+cta: Prueba una segmentación en tu reporte.
+comentario_fijado: 'Excel: clic en la tabla > Insertar > Segmentación. Tabla dinámica: pestaña Analizar tabla dinámica > Insertar segmentación de datos. Sheets: Datos > Añadir un control de filtros.'
+hashtags:
+- '#Excel'
+- '#GoogleSheets'
+- '#TablasDinamicas'
+palabras_clave:
+- segmentación de datos Excel
+- filtros con botones
+- control de filtros Google Sheets
+escenas:
+- narracion: Filtra tu tabla con botones, sin abrir menús.
+  visual:
+    plantilla: hook
+    datos:
+      kicker: Mini sistema
+      titulo: Filtra con *botones*
+      sub: Segmentación de datos
+- narracion: Haz clic en cualquier parte de tu tabla. En la pestaña Insertar, elige Segmentación. Marca los campos que quieres y pulsa Aceptar.
+  visual:
+    plantilla: pasos
+    datos:
+      titulo: En una tabla de Excel
+      pasos:
+      - titulo: Clic en cualquier parte de la tabla
+      - titulo: Pestaña Insertar > Segmentación
+      - titulo: Marca los campos y Aceptar
+        detalle: Una segmentación por campo
+- narracion: Cada campo marcado crea su propia segmentación. Un clic en un botón filtra la tabla. Y con Ctrl puedes elegir varios elementos.
+  visual:
+    plantilla: lista
+    datos:
+      titulo: Cómo se usan
+      estilo: check
+      items:
+      - Cada campo marcado crea su botón
+      - Un clic filtra la tabla
+      - Ctrl + clic elige varios
+- narracion: 'En Excel, sirve para tablas y tablas dinámicas. En Google Sheets se llama control de filtros y filtra gráficos y tablas dinámicas. Mismo objetivo: filtrar con un clic.'
+  visual:
+    plantilla: versus
+    datos:
+      titulo: Excel y Google Sheets
+      izq:
+        etiqueta: Excel
+        titulo: Segmentación
+        items:
+        - Tablas y tablas dinámicas
+        - Insertar → Segmentación
+      der:
+        etiqueta: Google Sheets
+        titulo: Control de filtros
+        items:
+        - Gráficos y tablas dinámicas
+        - Datos → Añadir control
+      veredicto: 'Mismo objetivo: filtrar con un clic'
+- narracion: Prueba con un campo como Región o Mes y mira cómo cambia tu reporte.
+  visual:
+    plantilla: cierre
+    datos:
+      titulo: Filtros que *todos entienden*
+      puntos:
+      - Prueba con un campo como Región o Mes
+      cta: Guárdalo
+fuentes:
+- url: https://support.microsoft.com/es-es/office/usar-las-segmentaciones-para-filtrar-datos-249f966b-a9d5-4b0f-b31a-12651785d29d
+  titulo: Usar segmentaciones para filtrar datos (Microsoft Support)
+  fecha_consulta: '2026-10-11'
+  respalda: Clic en la tabla o tabla dinámica > Insertar > Segmentación; marcar campos; un botón por campo; Ctrl para seleccionar varios elementos.
+- url: https://support.microsoft.com/es-es/office/filtrar-elementos-en-una-tabla-din%C3%A1mica-cc1ed287-3a97-4e95-b377-ddfafe79fa8f
+  titulo: Filtrar datos en una tabla dinámica (Microsoft Support)
+  fecha_consulta: '2026-10-11'
+  respalda: En una tabla dinámica, Analizar tabla dinámica > Insertar segmentación de datos.
+- url: https://support.google.com/docs/answer/9245556?hl=es-419
+  titulo: Cómo filtrar gráficos y tablas con controles de filtro (Ayuda de Editores de Documentos de Google)
+  fecha_consulta: '2026-10-11'
+  respalda: En Hojas de cálculo de Google, Datos > Añadir un control de filtros filtra gráficos y tablas dinámicas.
+riesgos:
+  derechos: bajo — material propio
+  exactitud: medio — nombres de pestañas y botones documentados por Microsoft y Google, pero cambian por versión (Excel para Windows, Mac o web) e idioma; confirmar en Excel antes de publicar.
+  monetizacion: bajo — educación general, sin recomendar productos
+recursos:
+- nombre: Música y efectos originales generados por la fábrica
+  licencia: propia
+declaracion_sintetica:
+  decision: declarar
+  motivo: Voz sintética realista; gráficos no realistas. Se declara por prudencia.
+costo_estimado_usd: 0
+palabras_validas:
+- Segmentación
+- segmentaciones
+- Segmentaciones

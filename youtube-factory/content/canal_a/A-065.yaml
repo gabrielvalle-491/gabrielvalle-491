@@ -1,0 +1,76 @@
+id: A-065
+canal: canal_a
+fecha: 2026-12-22
+formato: short
+serie: El Atajo
+episodio: "#13"
+pilar: productividad
+tipo_editorial: tutorial
+idea: "Una presentación de 10 diapositivas se ordena en cuatro bloques (problema, solución, prueba, próximo paso); la IA propone el esquema y tú pones los datos reales."
+objetivo: "Dar una estructura reutilizable y un prompt que genere el esquema sin inventar datos."
+publico: "Profesionales, estudiantes y emprendedores que arman presentaciones para jefes, clientes o inversionistas y no saben cómo ordenarlas."
+hipotesis: "Formato 'tutorial' en pilar 'productividad': rendimiento frente a la media del pilar (aplicar lo aprendido en la fase de aprendizaje)."
+gancho: "Diez diapositivas caben en cuatro bloques: problema, solución, prueba y próximo paso."
+duracion_objetivo: "35-55 s (≈85-140 palabras)"
+titulo: "Estructura de una presentación de 10 diapositivas con IA"
+titulos_alternativos:
+  - "Cómo ordenar una presentación: problema, solución, prueba, paso"
+  - "El prompt que arma el esquema de tu presentación"
+  - "Presentación de 10 diapositivas: cuántas van en cada bloque"
+criterio_titulo: "Incluye la palabra clave buscable (presentación de 10 diapositivas) y la herramienta; promete una estructura concreta."
+descripcion: |
+  Reparto sugerido para 10 diapositivas: 2 de problema, 2 de solución, 4 de prueba y 2 de próximo paso. Es una guía de redacción, no una regla fija.
+  Pídele a la IA solo el esquema y marca lo que falte; los datos de la prueba los pones tú. Revisa todo antes de presentar.
+cta: "Guárdalo para tu próxima presentación."
+comentario_fijado: |
+  Prompt: Crea el esquema de una presentación de 10 diapositivas sobre [TEMA] para [AUDIENCIA]. Bloques: problema, solución, prueba y próximo paso. Por diapositiva: un título que sea una afirmación y 3 viñetas. No inventes datos: escribe [DATO] donde falte.
+hashtags: ["#Presentaciones", "#IA", "#Productividad"]
+palabras_clave: ["estructura de una presentación", "presentación de 10 diapositivas", "prompt para presentaciones", "esquema de diapositivas"]
+escenas:
+  - narracion: "Diez diapositivas caben en cuatro bloques. Problema, solución, prueba y próximo paso."
+    visual:
+      plantilla: hook
+      datos: {kicker: "El Atajo", titulo: "*10 diapositivas*, 4 bloques", sub: "Problema · Solución · Prueba · Próximo paso"}
+  - narracion: "Problema: dos diapositivas para mostrar qué duele y a quién. Solución: dos con tu propuesta en una sola frase. Prueba: cuatro con datos, ejemplos o una demostración. Próximo paso: dos con la decisión que pides."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Reparto *sugerido*"
+        estilo: num
+        items:
+          - {texto: "Problema", detalle: "Diapositivas 1 y 2"}
+          - {texto: "Solución", detalle: "Diapositivas 3 y 4"}
+          - {texto: "Prueba", detalle: "Diapositivas 5 a 8"}
+          - {texto: "Próximo paso", detalle: "Diapositivas 9 y 10"}
+  - narracion: "Pídele a la IA solo el esquema, no el contenido final. Y que marque lo que falte, para que no invente datos."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Plantilla de prompt"
+        texto: "Crea el esquema de una presentación de 10 diapositivas sobre [TEMA] para [AUDIENCIA]. Bloques: problema, solución, prueba y próximo paso. Por diapositiva: título-afirmación y 3 viñetas. No inventes datos: escribe [DATO] donde falte."
+  - narracion: "Luego revisa que cada diapositiva tenga una sola idea. Si necesita dos, divídela."
+    visual:
+      plantilla: texto
+      datos: {titulo: "Revisión", texto: "Una *sola idea* por diapositiva. Si hay dos, se divide."}
+  - narracion: "La estructura primero. El diseño, después. Así no pierdes tiempo en colores antes de tener el mensaje."
+    visual:
+      plantilla: cierre
+      datos:
+        titulo: "Primero *estructura*, luego diseño"
+        puntos: ["Cuatro bloques", "Datos reales en la prueba", "Una idea por diapositiva"]
+        cta: "Guárdalo para tu próxima presentación"
+fuentes:
+  - calculo: "2 + 2 + 4 + 2"
+    resultado: 10
+    respalda: "Reparto sugerido de las 10 diapositivas: 2 de problema, 2 de solución, 4 de prueba y 2 de próximo paso. Es un criterio de organización propio, no una norma."
+riesgos:
+  derechos: "bajo — estructura y prompt creados por el canal"
+  exactitud: "bajo — sin afirmaciones factuales externas; el reparto es una sugerencia y se presenta como tal"
+  monetizacion: "bajo — contenido educativo"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []
