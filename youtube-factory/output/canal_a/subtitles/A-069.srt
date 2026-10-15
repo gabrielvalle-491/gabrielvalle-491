@@ -1,0 +1,35 @@
+1
+00:00:00,120 --> 00:00:04,189
+Un LLM no busca respuestas: predice el siguiente trozo de texto.
+
+2
+00:00:04,469 --> 00:00:07,308
+Primero, lee muchísimo texto escrito por personas.
+
+3
+00:00:07,468 --> 00:00:10,662
+Luego aprende patrones de cómo se combinan las palabras.
+
+4
+00:00:10,822 --> 00:00:14,815
+Y al responder, predice un trozo tras otro hasta completar la respuesta.
+
+5
+00:00:15,095 --> 00:00:18,039
+LLM significa modelo de lenguaje grande.
+
+6
+00:00:18,199 --> 00:00:21,144
+Por eso puede sonar seguro y aun así equivocarse.
+
+7
+00:00:21,304 --> 00:00:24,873
+Predecir texto probable no es lo mismo que comprobar un hecho.
+
+8
+00:00:25,153 --> 00:00:27,897
+Úsalo para redactar, resumir y ordenar ideas.
+
+9
+00:00:28,057 --> 00:00:29,566
+Los datos, verifícalos.

@@ -1,0 +1,74 @@
+{
+  "id": "B-060",
+  "duracion_s": 31.297,
+  "frases": 10,
+  "subtitulos": 21,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.715,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.715,
+      "fin": 11.512,
+      "beats": [
+        0.0,
+        2.53,
+        5.561
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 11.512,
+      "fin": 27.213,
+      "beats": [
+        0.0,
+        1.697,
+        3.51
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 27.213,
+      "fin": 31.297,
+      "beats": [
+        0.0,
+        1.338
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.07",
+    "input_tp": "-6.50",
+    "input_lra": "3.10",
+    "input_thresh": "-32.31",
+    "output_i": "-14.58",
+    "output_tp": "-1.50",
+    "output_lra": "1.80",
+    "output_thresh": "-24.74",
+    "normalization_type": "dynamic",
+    "target_offset": "0.58"
+  },
+  "fotogramas_unicos": 210,
+  "tts_cache": 10,
+  "spec_hash": "0b0879762219d50f",
+  "segundos_produccion": 73.9,
+  "texto_hablado": [
+    "Tres funciones de gúgol shits que éxcel resuelve de otra forma.",
+    "gúgol fainans trae datos financieros.",
+    "import reinch trae un rango de otra hoja de cálculo.",
+    "GOOGLETRANSLATE traduce texto.",
+    "En shits, tres funciones.",
+    "En éxcel, otras herramientas.",
+    "Para enlazar archivos, vínculos entre libros.",
+    "Para traducir, la función TRANSLATE de Microsoft trescientos sesenta y cinco.",
+    "Para datos financieros, STOCKHISTORY, también de Microsoft trescientos sesenta y cinco.",
+    "Revisa la ayuda de tu versión: esto cambia con el tiempo."
+  ]
+}

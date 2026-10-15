@@ -1,0 +1,74 @@
+{
+  "id": "A-049",
+  "duracion_s": 39.649,
+  "frases": 10,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.371,
+      "beats": [
+        -5.0,
+        2.577
+      ],
+      "plantilla": "mito"
+    },
+    {
+      "inicio": 6.371,
+      "fin": 20.814,
+      "beats": [
+        0.0,
+        8.528,
+        11.105
+      ],
+      "plantilla": "barras"
+    },
+    {
+      "inicio": 20.814,
+      "fin": 29.91,
+      "beats": [
+        0.0,
+        2.357
+      ],
+      "plantilla": "dato"
+    },
+    {
+      "inicio": 29.91,
+      "fin": 39.649,
+      "beats": [
+        0.0,
+        2.566
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.17",
+    "input_tp": "-7.07",
+    "input_lra": "2.10",
+    "input_thresh": "-31.42",
+    "output_i": "-14.14",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.33",
+    "normalization_type": "dynamic",
+    "target_offset": "0.14"
+  },
+  "fotogramas_unicos": 295,
+  "tts_cache": 0,
+  "spec_hash": "e74a7aef20e984e3",
+  "segundos_produccion": 137.3,
+  "texto_hablado": [
+    "Mito: la i a eliminará todos los empleos.",
+    "Realidad: eso no es lo que proyecta el Foro Económico Mundial.",
+    "Su informe de dos mil veinticinco, basado en encuestas a empleadores, calcula para dos mil treinta unos ciento setenta millones de empleos nuevos.",
+    "Y noventa y dos millones desplazados.",
+    "El saldo neto sería de setenta y ocho millones más.",
+    "Ojo: son proyecciones, no certezas.",
+    "Y cerca del cuarenta por ciento de los empleadores espera reducir personal donde la i a pueda automatizar tareas.",
+    "Cambian las tareas, no desaparece todo.",
+    "Lo útil es entender qué tareas cambian en tu puesto.",
+    "Revisa qué partes de tu trabajo puedes mejorar con i a."
+  ]
+}

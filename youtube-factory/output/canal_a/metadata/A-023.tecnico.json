@@ -58,9 +58,9 @@
     "target_offset": "0.07"
   },
   "fotogramas_unicos": 272,
-  "tts_cache": 0,
+  "tts_cache": 12,
   "spec_hash": "074ef69233c05260",
-  "segundos_produccion": 111.0,
+  "segundos_produccion": 106.5,
   "texto_hablado": [
     "¿Tienes una columna entera para traducir?",
     "No copies y pegues celda por celda.",

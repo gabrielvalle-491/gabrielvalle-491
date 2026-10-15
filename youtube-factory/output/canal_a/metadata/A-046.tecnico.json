@@ -1,0 +1,81 @@
+{
+  "id": "A-046",
+  "duracion_s": 36.563,
+  "frases": 9,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.096,
+      "beats": [
+        -5.0,
+        3.325
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.096,
+      "fin": 14.017,
+      "beats": [
+        0.0,
+        3.136
+      ],
+      "plantilla": "dato"
+    },
+    {
+      "inicio": 14.017,
+      "fin": 24.15,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 24.15,
+      "fin": 29.509,
+      "beats": [
+        0.0,
+        2.61,
+        3.66
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 29.509,
+      "fin": 36.563,
+      "beats": [
+        0.0,
+        2.526
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.31",
+    "input_tp": "-6.44",
+    "input_lra": "3.00",
+    "input_thresh": "-31.60",
+    "output_i": "-14.20",
+    "output_tp": "-1.50",
+    "output_lra": "2.50",
+    "output_thresh": "-24.41",
+    "normalization_type": "dynamic",
+    "target_offset": "0.20"
+  },
+  "fotogramas_unicos": 298,
+  "tts_cache": 0,
+  "spec_hash": "ab5b89f4c1a86e50",
+  "segundos_produccion": 135.0,
+  "texto_hablado": [
+    "¿Pedirle a la i a que razone paso a paso sirve de algo?",
+    "Hay una investigación de dos mil veintidós.",
+    "Investigadores de gúgol mostraron que dar ejemplos con pasos intermedios mejora los resultados en problemas de matemática y lógica.",
+    "Tu reto: un producto cuesta ochenta, sube veinticinco por ciento y luego baja veinte por ciento.",
+    "Pide los pasos y la respuesta final.",
+    "Compárala con tu calculadora.",
+    "Revisa cada paso, no solo el resultado.",
+    "La respuesta correcta es ochenta otra vez.",
+    "A la fecha, en modelos de razonamiento OpenAI indica que no hace falta pedirlo, porque ya razonan por dentro."
+  ]
+}

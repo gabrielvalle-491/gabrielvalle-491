@@ -1,0 +1,74 @@
+{
+  "id": "A-039",
+  "duracion_s": 32.259,
+  "frases": 10,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 9.13,
+      "beats": [
+        -5.0,
+        2.3
+      ],
+      "plantilla": "mito"
+    },
+    {
+      "inicio": 9.13,
+      "fin": 17.858,
+      "beats": [
+        0.0,
+        2.384
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 17.858,
+      "fin": 25.047,
+      "beats": [
+        0.0,
+        1.818,
+        4.225
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 25.047,
+      "fin": 32.259,
+      "beats": [
+        0.0,
+        4.059
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.28",
+    "input_tp": "-6.64",
+    "input_lra": "1.80",
+    "input_thresh": "-31.57",
+    "output_i": "-14.04",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.25",
+    "normalization_type": "dynamic",
+    "target_offset": "0.04"
+  },
+  "fotogramas_unicos": 244,
+  "tts_cache": 0,
+  "spec_hash": "fa63a4d9d9e6d563",
+  "segundos_produccion": 113.5,
+  "texto_hablado": [
+    "Mito: si lo dice la i a, es neutral.",
+    "Falso: aprende de textos hechos por personas y puede repetir sus sesgos.",
+    "Que suene segura no la hace imparcial.",
+    "El sesgo no solo viene de los datos.",
+    "NIST explica que también influyen factores humanos y sistémicos en cómo se diseña y se usa un sistema.",
+    "Pídele varias perspectivas.",
+    "Pídele que explique los supuestos que hace.",
+    "Y contrasta con personas o fuentes distintas.",
+    "En decisiones sobre personas, nunca uses la i a como único criterio.",
+    "Úsala para ordenar ideas, y decide tú."
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "A-087",
+  "duracion_s": 31.306,
+  "frases": 11,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.761,
+      "beats": [
+        -5.0,
+        2.491
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.761,
+      "fin": 11.691,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 11.691,
+      "fin": 18.459,
+      "beats": [
+        0.0,
+        2.661,
+        4.298
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 18.459,
+      "fin": 24.191,
+      "beats": [
+        0.0,
+        3.61
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 24.191,
+      "fin": 31.306,
+      "beats": [
+        0.0,
+        3.36
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.09",
+    "input_tp": "-6.94",
+    "input_lra": "2.20",
+    "input_thresh": "-31.36",
+    "output_i": "-14.29",
+    "output_tp": "-1.50",
+    "output_lra": "1.30",
+    "output_thresh": "-24.47",
+    "normalization_type": "dynamic",
+    "target_offset": "0.29"
+  },
+  "fotogramas_unicos": 330,
+  "tts_cache": 0,
+  "spec_hash": "b109815d52b125d1",
+  "segundos_produccion": 174.2,
+  "texto_hablado": [
+    "¿Tu proceso solo existe en tu cabeza?",
+    "Conviértelo en una checklist que cualquiera pueda seguir.",
+    "Escribe el proceso tal como lo haces, sin ordenar.",
+    "Luego pídele a la i a que lo convierta en pasos.",
+    "Revisa que cada paso tenga un solo verbo.",
+    "Que el orden sea el real.",
+    "Y que no falte lo que haces sin pensar.",
+    "La prueba final: pide a otra persona que la siga sin tu ayuda.",
+    "Donde se atore, falta un paso.",
+    "Así tu forma de trabajar deja de depender de tu memoria.",
+    "Guárdalo y pruébalo con un proceso de tu semana."
+  ]
+}

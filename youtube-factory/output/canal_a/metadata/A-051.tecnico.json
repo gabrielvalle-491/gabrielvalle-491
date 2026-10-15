@@ -1,0 +1,73 @@
+{
+  "id": "A-051",
+  "duracion_s": 29.794,
+  "frases": 9,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.495,
+      "beats": [
+        -5.0,
+        4.274
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.495,
+      "fin": 18.122,
+      "beats": [
+        0.0,
+        4.409
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 18.122,
+      "fin": 25.71,
+      "beats": [
+        0.0,
+        3.36,
+        5.12
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 25.71,
+      "fin": 29.794,
+      "beats": [
+        0.0,
+        1.338
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.36",
+    "input_tp": "-6.81",
+    "input_lra": "2.80",
+    "input_thresh": "-31.59",
+    "output_i": "-14.04",
+    "output_tp": "-1.50",
+    "output_lra": "2.60",
+    "output_thresh": "-24.20",
+    "normalization_type": "dynamic",
+    "target_offset": "0.04"
+  },
+  "fotogramas_unicos": 222,
+  "tts_cache": 0,
+  "spec_hash": "7604f76268de8ca5",
+  "segundos_produccion": 107.7,
+  "texto_hablado": [
+    "Si la i a parece olvidar lo que dijiste al inicio del chat, no es descuido.",
+    "Es un límite.",
+    "La ventana de contexto es el texto que el modelo puede considerar a la vez.",
+    "Incluye tus mensajes, sus respuestas y los archivos.",
+    "Y según la documentación de Anthropic, con más texto, baja la precisión y el recuerdo.",
+    "Entonces, primero pide que resuma lo decidido hasta ahora.",
+    "Luego abre un chat nuevo.",
+    "Pega el resumen y continúa desde ahí.",
+    "Revisa que el resumen conserve tus reglas y datos clave."
+  ]
+}

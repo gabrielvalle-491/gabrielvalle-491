@@ -1,0 +1,47 @@
+1
+00:00:00,120 --> 00:00:03,435
+¿Tu oferta de empleo mezcla lo imprescindible con lo deseable?
+
+2
+00:00:03,675 --> 00:00:05,994
+Separarlos la vuelve mucho más clara.
+
+3
+00:00:06,274 --> 00:00:09,469
+Imprescindible es lo que necesitas desde el primer día.
+
+4
+00:00:09,629 --> 00:00:12,299
+Deseable es lo que se puede aprender en el puesto.
+
+5
+00:00:12,459 --> 00:00:15,798
+Con dos listas, nadie se descarta por requisitos de más.
+
+6
+00:00:16,078 --> 00:00:20,371
+Pídele a la IA un borrador con esa separación, en lenguaje claro e inclusivo.
+
+7
+00:00:20,651 --> 00:00:23,125
+Antes de publicar, revisa que cada requisito
+
+8
+00:00:23,125 --> 00:00:25,767
+imprescindible se use de verdad el primer día.
+
+9
+00:00:25,927 --> 00:00:29,391
+Quita palabras que excluyan por edad o género sin necesidad.
+
+10
+00:00:29,551 --> 00:00:33,270
+Y valida el texto con recursos humanos y la normativa de tu país.
+
+11
+00:00:33,550 --> 00:00:35,226
+La IA redacta el borrador.
+
+12
+00:00:35,386 --> 00:00:37,437
+Tú decides qué es imprescindible.

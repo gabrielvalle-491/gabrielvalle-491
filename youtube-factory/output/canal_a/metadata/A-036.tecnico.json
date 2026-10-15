@@ -1,0 +1,72 @@
+{
+  "id": "A-036",
+  "duracion_s": 29.138,
+  "frases": 9,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.92,
+      "beats": [
+        -5.0,
+        3.251
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.92,
+      "fin": 13.789,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 13.789,
+      "fin": 22.54,
+      "beats": [
+        0.0,
+        2.679,
+        6.08
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 22.54,
+      "fin": 29.138,
+      "beats": [
+        0.0,
+        3.487
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.14",
+    "input_tp": "-6.37",
+    "input_lra": "1.40",
+    "input_thresh": "-31.35",
+    "output_i": "-13.88",
+    "output_tp": "-1.50",
+    "output_lra": "1.20",
+    "output_thresh": "-24.12",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.12"
+  },
+  "fotogramas_unicos": 295,
+  "tts_cache": 0,
+  "spec_hash": "5035c6992416f87f",
+  "segundos_produccion": 116.7,
+  "texto_hablado": [
+    "Antes de presentar tu idea, pídele a la i a que la ataque.",
+    "Así llegas sabiendo qué te van a objetar.",
+    "Dile quién escucha tu idea y pide cinco objeciones, de la más peligrosa a la menos.",
+    "Y que cada una venga con el dato que la respondería.",
+    "Elige las dos objeciones más probables.",
+    "Prepara una respuesta con datos reales, no con adjetivos.",
+    "Y descarta las que no aplican a tu caso.",
+    "La i a no conoce a tu jefe: úsala como punto de partida.",
+    "Tú decides qué objeciones son reales."
+  ]
+}

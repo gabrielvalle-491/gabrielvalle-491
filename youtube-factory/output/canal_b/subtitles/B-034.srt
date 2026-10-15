@@ -1,0 +1,59 @@
+1
+00:00:00,120 --> 00:00:03,263
+¿Cuánto IVA pagas en México, Colombia, Chile y Argentina?
+
+2
+00:00:03,503 --> 00:00:05,899
+Cada país tiene su propia tasa general.
+
+3
+00:00:06,179 --> 00:00:11,198
+Según la normativa de cada país, México aplica una tasa general de 16 %.
+
+4
+00:00:11,358 --> 00:00:13,284
+Colombia, 19 %.
+
+5
+00:00:13,444 --> 00:00:15,236
+Chile, 19 %.
+
+6
+00:00:15,396 --> 00:00:17,367
+Argentina, 21 %.
+
+7
+00:00:17,527 --> 00:00:21,096
+Hay tasas reducidas y exenciones, así que confirma tu caso.
+
+8
+00:00:21,376 --> 00:00:23,358
+Parte de un precio sin IVA de 1 000.
+
+9
+00:00:23,518 --> 00:00:29,212
+Con una tasa de 19 %, multiplicas por 1,19 y queda en 1 190.
+
+10
+00:00:29,372 --> 00:00:34,071
+Para quitar el IVA, divide 1 190 entre 1,19 y vuelves a 1 000.
+
+11
+00:00:34,351 --> 00:00:36,349
+En la planilla, usa esta fórmula.
+
+12
+00:00:36,509 --> 00:00:38,357
+El precio sin IVA va en A2.
+
+13
+00:00:38,517 --> 00:00:40,668
+Y uno más la tasa, que vive en B2.
+
+14
+00:00:40,948 --> 00:00:43,843
+Para quitar el IVA, divide entre ese mismo factor.
+
+15
+00:00:44,003 --> 00:00:46,945
+Cambia la tasa en B2 y sirve para cualquier país.

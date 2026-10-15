@@ -1,0 +1,79 @@
+{
+  "id": "A-068",
+  "duracion_s": 32.879,
+  "frases": 8,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 8.663,
+      "beats": [
+        -5.0,
+        3.949
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 8.663,
+      "fin": 17.561,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "barras"
+    },
+    {
+      "inicio": 17.561,
+      "fin": 23.704,
+      "beats": [
+        0.0,
+        2.963
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 23.704,
+      "fin": 29.278,
+      "beats": [
+        0.0,
+        2.198
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 29.278,
+      "fin": 32.879,
+      "beats": [
+        0.0,
+        1.144
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.42",
+    "input_tp": "-7.23",
+    "input_lra": "2.20",
+    "input_thresh": "-31.75",
+    "output_i": "-14.07",
+    "output_tp": "-1.50",
+    "output_lra": "1.90",
+    "output_thresh": "-24.29",
+    "normalization_type": "dynamic",
+    "target_offset": "0.07"
+  },
+  "fotogramas_unicos": 322,
+  "tts_cache": 0,
+  "spec_hash": "ba6bb037fa5af894",
+  "segundos_produccion": 130.5,
+  "texto_hablado": [
+    "Imagina veinte consultas repetidas en el guatsap de tu negocio.",
+    "Con un poco de orden, pueden quedar en seis respuestas claras, listas para copiar.",
+    "Primero, agrúpalas por tema: horarios, pagos, envíos, precios, cambios y ubicación.",
+    "Así ves qué preguntan más y qué respuesta te ahorra más tiempo.",
+    "Luego pide a la i a una respuesta corta por tema.",
+    "Que marque lo que falte, y tú pones los datos reales.",
+    "Cada respuesta lleva el dato directo, dos líneas como máximo y un siguiente paso para el cliente.",
+    "Revisa precios y horarios antes de usarlas."
+  ]
+}

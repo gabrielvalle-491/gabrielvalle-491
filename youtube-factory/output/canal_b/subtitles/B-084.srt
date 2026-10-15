@@ -1,0 +1,43 @@
+1
+00:00:00,120 --> 00:00:02,864
+Totales por vendedor sin escribir ni una fórmula.
+
+2
+00:00:03,144 --> 00:00:05,636
+Empieza con una lista: una fila por venta y
+
+3
+00:00:05,636 --> 00:00:08,360
+una sola fila de títulos, sin filas en blanco.
+
+4
+00:00:08,520 --> 00:00:10,934
+Aquí hay tres vendedores y cinco ventas.
+
+5
+00:00:11,214 --> 00:00:13,036
+Primero, selecciona tus datos.
+
+6
+00:00:13,196 --> 00:00:16,015
+Segundo, ve a Insertar y elige Tabla dinámica.
+
+7
+00:00:16,175 --> 00:00:19,163
+Tercero, arrastra Vendedor a Filas y Venta a Valores.
+
+8
+00:00:19,443 --> 00:00:22,762
+Y listo: cada vendedor aparece una sola vez, con su total.
+
+9
+00:00:22,922 --> 00:00:26,417
+Ana, por ejemplo, suma 200, sin escribir ninguna fórmula.
+
+10
+00:00:26,697 --> 00:00:29,619
+Si cambian los datos, actualiza la tabla dinámica.
+
+11
+00:00:29,779 --> 00:00:32,228
+Así tus totales siempre reflejan la lista.

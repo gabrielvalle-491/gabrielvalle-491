@@ -1,0 +1,43 @@
+1
+00:00:00,120 --> 00:00:03,129
+Controla todos tus gastos con solo cinco columnas.
+
+2
+00:00:03,409 --> 00:00:07,353
+Una fila por gasto, sin filas en blanco, para que Excel lea bien el rango.
+
+3
+00:00:07,513 --> 00:00:10,078
+La categoría, siempre con los mismos nombres.
+
+4
+00:00:10,238 --> 00:00:11,814
+Y el monto, solo el número.
+
+5
+00:00:12,094 --> 00:00:14,341
+Fecha, para ordenar y agrupar por mes.
+
+6
+00:00:14,501 --> 00:00:16,703
+Concepto, qué fue, en pocas palabras.
+
+7
+00:00:16,863 --> 00:00:19,240
+Categoría, para sumar por tipo de gasto.
+
+8
+00:00:19,400 --> 00:00:21,847
+Medio de pago, para ver cuánto va a crédito.
+
+9
+00:00:22,007 --> 00:00:23,201
+Y monto, el valor.
+
+10
+00:00:23,481 --> 00:00:26,774
+Con los datos así, después sumas por categoría y por mes.
+
+11
+00:00:26,934 --> 00:00:30,055
+Copia esta estructura y registra hoy tu primer gasto.

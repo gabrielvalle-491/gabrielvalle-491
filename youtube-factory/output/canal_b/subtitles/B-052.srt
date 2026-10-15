@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:03,565
+Una fórmula de Google Sheets te trae el tipo de cambio actualizado.
+
+2
+00:00:03,845 --> 00:00:05,884
+La función se llama GOOGLEFINANCE.
+
+3
+00:00:06,044 --> 00:00:09,019
+Dentro, entre comillas, escribes CURRENCY, dos puntos
+
+4
+00:00:09,019 --> 00:00:10,928
+y los códigos de las dos monedas.
+
+5
+00:00:11,088 --> 00:00:12,791
+Aquí, dólar a peso mexicano.
+
+6
+00:00:13,071 --> 00:00:15,167
+Escribe el signo igual y la función.
+
+7
+00:00:15,327 --> 00:00:17,466
+Pon el par de monedas entre comillas.
+
+8
+00:00:17,626 --> 00:00:20,796
+Confirma con Enter y la celda muestra el tipo de cambio.
+
+9
+00:00:21,076 --> 00:00:23,944
+Es solo de referencia: según Google, puede tardar
+
+10
+00:00:23,944 --> 00:00:26,169
+hasta 20 minutos y no es para operar.

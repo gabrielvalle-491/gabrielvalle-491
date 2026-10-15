@@ -1,0 +1,76 @@
+{
+  "id": "B-024",
+  "duracion_s": 39.13,
+  "frases": 12,
+  "subtitulos": 29,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 7.569,
+      "beats": [
+        -5.0,
+        2.105
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 7.569,
+      "fin": 18.559,
+      "beats": [
+        0.0,
+        2.362,
+        9.186
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 18.559,
+      "fin": 31.949,
+      "beats": [
+        0.0,
+        4.879
+      ],
+      "plantilla": "donut"
+    },
+    {
+      "inicio": 31.949,
+      "fin": 39.13,
+      "beats": [
+        0.0,
+        3.138
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.21",
+    "input_tp": "-4.77",
+    "input_lra": "3.30",
+    "input_thresh": "-32.43",
+    "output_i": "-14.51",
+    "output_tp": "-1.50",
+    "output_lra": "1.80",
+    "output_thresh": "-24.65",
+    "normalization_type": "dynamic",
+    "target_offset": "0.51"
+  },
+  "fotogramas_unicos": 245,
+  "tts_cache": 12,
+  "spec_hash": "13b1b75137c219d9",
+  "segundos_produccion": 87.5,
+  "texto_hablado": [
+    "Gasto del hogar de mil quinientos.",
+    "Dos ingresos distintos.",
+    "¿Cómo se reparte?",
+    "Una opción: según lo que gana cada uno.",
+    "Anota cada ingreso y suma el total.",
+    "La fórmula divide cada ingreso entre el total y lo multiplica por el gasto; los signos dólar fijan el total al copiar.",
+    "Ana aporta novecientos.",
+    "Ana gana mil ochocientos, un sesenta por ciento del total, y aporta novecientos.",
+    "Luis gana mil doscientos, un cuarenta por ciento, y aporta seiscientos.",
+    "Resultado: los dos aportan el mismo cincuenta por ciento de su ingreso.",
+    "Es una forma de repartir; cada hogar decide su acuerdo.",
+    "Cambia los ingresos y los aportes se recalculan solos."
+  ]
+}

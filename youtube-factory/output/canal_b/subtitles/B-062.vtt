@@ -1,0 +1,28 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:03.505
+¿Qué devuelve REDONDEAR de 2,5 con cero decimales?
+
+00:00:03.745 --> 00:00:05.540
+¿Dos, tres o 2,5?
+
+00:00:05.780 --> 00:00:07.077
+La respuesta es tres.
+
+00:00:07.357 --> 00:00:10.098
+Excel redondea la mitad alejándose de cero.
+
+00:00:10.258 --> 00:00:12.227
+Así, 2,5 pasa a 3.
+
+00:00:12.387 --> 00:00:14.266
+3,5 pasa a 4.
+
+00:00:14.426 --> 00:00:17.565
+Y con negativos, menos 2,5 pasa a menos 3.
+
+00:00:17.845 --> 00:00:21.340
+Otros programas pueden redondear la mitad al par más cercano.
+
+00:00:21.500 --> 00:00:23.674
+Compara antes de mezclar herramientas.

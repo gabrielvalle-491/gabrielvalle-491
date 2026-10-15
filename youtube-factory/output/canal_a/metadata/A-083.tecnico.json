@@ -1,0 +1,81 @@
+{
+  "id": "A-083",
+  "duracion_s": 36.585,
+  "frases": 9,
+  "subtitulos": 30,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.314,
+      "beats": [
+        -5.0,
+        1.718
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.314,
+      "fin": 15.643,
+      "beats": [
+        0.0,
+        3.509,
+        7.286
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 15.643,
+      "fin": 24.012,
+      "beats": [
+        0.0,
+        3.316
+      ],
+      "plantilla": "dato"
+    },
+    {
+      "inicio": 24.012,
+      "fin": 28.447,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 28.447,
+      "fin": 36.585,
+      "beats": [
+        0.0,
+        5.033
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.35",
+    "input_tp": "-5.48",
+    "input_lra": "1.80",
+    "input_thresh": "-31.64",
+    "output_i": "-14.26",
+    "output_tp": "-1.50",
+    "output_lra": "1.50",
+    "output_thresh": "-24.49",
+    "normalization_type": "dynamic",
+    "target_offset": "0.26"
+  },
+  "fotogramas_unicos": 347,
+  "tts_cache": 9,
+  "spec_hash": "9a4b7382722e27a6",
+  "segundos_produccion": 129.4,
+  "texto_hablado": [
+    "Error común: pedirle a la i a que decida por ti un asunto legal o médico.",
+    "El error: pedir un diagnóstico o un dictamen y actuar con eso.",
+    "Lo mejor: usarla para entender términos y preparar tus preguntas.",
+    "El profesional decide; la i a te ayuda a llegar mejor preparado.",
+    "Incluso las políticas de uso de OpenAI, a la fecha, piden que haya un profesional con licencia detrás de ese tipo de consejo personalizado.",
+    "Prueba un prompt así.",
+    "No incluyas datos personales ni sensibles.",
+    "Si es una urgencia médica, no consultes a la i a: busca atención médica de inmediato.",
+    "La decisión final es del profesional."
+  ]
+}

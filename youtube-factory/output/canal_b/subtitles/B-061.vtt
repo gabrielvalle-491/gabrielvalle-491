@@ -1,0 +1,31 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:02.410
+¿Y si cargas el mismo pedido dos veces?
+
+00:00:02.650 --> 00:00:04.025
+CONTAR.SI lo detecta.
+
+00:00:04.305 --> 00:00:07.699
+CONTAR.SI cuenta cuántas veces aparece un valor en el rango.
+
+00:00:07.859 --> 00:00:10.879
+En la columna de control, P-101 aparece una vez.
+
+00:00:11.039 --> 00:00:13.464
+P-102 aparece dos: está repetido.
+
+00:00:13.744 --> 00:00:17.108
+Para bloquearlo al escribir, ve a Datos, Validación de datos.
+
+00:00:17.268 --> 00:00:18.676
+Elige Personalizada.
+
+00:00:18.836 --> 00:00:20.603
+Y usa CONTAR.SI igual a uno.
+
+00:00:20.883 --> 00:00:24.097
+Ojo: la validación no siempre actúa sobre datos pegados.
+
+00:00:24.257 --> 00:00:26.326
+Deja también la columna de control.

@@ -1,0 +1,43 @@
+1
+00:00:00,120 --> 00:00:02,490
+¿Tus clientes preguntan siempre lo mismo?
+
+2
+00:00:02,730 --> 00:00:04,425
+Conviértelo en una FAQ.
+
+3
+00:00:04,585 --> 00:00:07,228
+Esas llamadas ya traen las preguntas reales.
+
+4
+00:00:07,508 --> 00:00:09,460
+Pega las transcripciones y pide las
+
+5
+00:00:09,460 --> 00:00:12,472
+cinco preguntas más repetidas, con respuestas cortas.
+
+6
+00:00:12,632 --> 00:00:15,828
+Que use solo lo que dice el texto, y que marque lo que falta.
+
+7
+00:00:16,108 --> 00:00:19,472
+Antes de pegar, quita nombres, teléfonos y datos personales.
+
+8
+00:00:19,632 --> 00:00:22,403
+Después, revisa que cada respuesta sea correcta.
+
+9
+00:00:22,563 --> 00:00:25,283
+Y confirma precios y políticas con tu equipo.
+
+10
+00:00:25,563 --> 00:00:30,304
+Publica la FAQ en tu web o tu WhatsApp, y actualízala cuando cambien las preguntas.
+
+11
+00:00:30,464 --> 00:00:33,303
+Cada mes, revisa si aparecen preguntas nuevas.

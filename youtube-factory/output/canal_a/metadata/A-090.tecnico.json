@@ -1,0 +1,79 @@
+{
+  "id": "A-090",
+  "duracion_s": 36.245,
+  "frases": 7,
+  "subtitulos": 26,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.148,
+      "beats": [
+        -5.0,
+        1.78
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.148,
+      "fin": 15.227,
+      "beats": [
+        0.0,
+        5.783
+      ],
+      "plantilla": "dato"
+    },
+    {
+      "inicio": 15.227,
+      "fin": 24.267,
+      "beats": [
+        0.0,
+        3.584
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 24.267,
+      "fin": 32.16,
+      "beats": [
+        0.0,
+        3.125
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 32.16,
+      "fin": 36.245,
+      "beats": [
+        0.0,
+        1.338
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.00",
+    "input_tp": "-6.73",
+    "input_lra": "1.80",
+    "input_thresh": "-31.28",
+    "output_i": "-14.32",
+    "output_tp": "-1.50",
+    "output_lra": "1.40",
+    "output_thresh": "-24.54",
+    "normalization_type": "dynamic",
+    "target_offset": "0.32"
+  },
+  "fotogramas_unicos": 270,
+  "tts_cache": 0,
+  "spec_hash": "378815e887ce605d",
+  "segundos_produccion": 148.8,
+  "texto_hablado": [
+    "¿Puede una máquina pensar?",
+    "En mil novecientos cincuenta, Alan Turing cambió esa pregunta por un juego.",
+    "En la versión más conocida, un interrogador conversa por escrito con una persona y con una máquina.",
+    "Si no distingue cuál es cuál, la máquina pasa la prueba.",
+    "Turing calculó que, en unos cincuenta años, una máquina lograría que el interrogador acertara como máximo el setenta por ciento de las veces tras cinco minutos.",
+    "Y el debate sigue: en mil novecientos ochenta, John Searle sostuvo que seguir un programa que conversa bien no prueba que haya comprensión.",
+    "La prueba mide cómo conversa una máquina, no si entiende."
+  ]
+}

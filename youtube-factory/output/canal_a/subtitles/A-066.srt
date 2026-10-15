@@ -1,0 +1,47 @@
+1
+00:00:00,120 --> 00:00:03,777
+Un texto escondido en un documento puede darle órdenes a la IA.
+
+2
+00:00:04,057 --> 00:00:07,735
+Eso se llama inyección de prompts: instrucciones ocultas en algo que
+
+3
+00:00:07,735 --> 00:00:10,548
+la IA lee, como un archivo, un correo o una página.
+
+4
+00:00:10,828 --> 00:00:12,643
+Tú le pides resumir un archivo.
+
+5
+00:00:12,803 --> 00:00:15,374
+Dentro, alguien escondió una orden distinta.
+
+6
+00:00:15,534 --> 00:00:17,891
+Y el modelo puede tratarla como instrucción,
+
+7
+00:00:17,891 --> 00:00:20,195
+porque no siempre separa datos de órdenes.
+
+8
+00:00:20,475 --> 00:00:23,714
+Para reducir el riesgo, dale a la IA los mínimos permisos.
+
+9
+00:00:23,874 --> 00:00:26,792
+Pide tu aprobación antes de enviar, borrar o comprar.
+
+10
+00:00:26,952 --> 00:00:30,363
+Y trata archivos y páginas externas como no confiables.
+
+11
+00:00:30,643 --> 00:00:32,522
+Ninguna defensa es perfecta.
+
+12
+00:00:32,682 --> 00:00:34,828
+Por eso, la última decisión es tuya.

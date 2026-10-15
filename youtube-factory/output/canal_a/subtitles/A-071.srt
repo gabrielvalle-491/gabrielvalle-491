@@ -1,0 +1,43 @@
+1
+00:00:00,120 --> 00:00:02,416
+La IA propone ideas de publicaciones.
+
+2
+00:00:02,576 --> 00:00:05,171
+La planilla las ordena por fecha y por estado.
+
+3
+00:00:05,451 --> 00:00:08,145
+Pídele a la IA ideas con formato y objetivo.
+
+4
+00:00:08,305 --> 00:00:10,697
+Sin promociones ni precios inventados.
+
+5
+00:00:10,977 --> 00:00:15,021
+En la planilla, una fila por publicación: fecha, idea, formato y estado.
+
+6
+00:00:15,181 --> 00:00:17,820
+Con CONTAR.SI cuentas cuántas están listas.
+
+7
+00:00:17,980 --> 00:00:19,247
+Aquí, dos de cuatro.
+
+8
+00:00:19,527 --> 00:00:22,796
+Usa estados fijos: idea, redactado, listo y publicado.
+
+9
+00:00:22,956 --> 00:00:27,049
+Y revisa cada idea antes de programarla, para que encaje con tu negocio.
+
+10
+00:00:27,329 --> 00:00:30,197
+La IA no conoce tu inventario ni tus promociones.
+
+11
+00:00:30,357 --> 00:00:32,395
+Tú sí, y tú decides qué se publica.

@@ -1,0 +1,78 @@
+{
+  "id": "A-081",
+  "duracion_s": 39.697,
+  "frases": 12,
+  "subtitulos": 31,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.502,
+      "beats": [
+        -5.0,
+        2.907
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.502,
+      "fin": 19.019,
+      "beats": [
+        0.0,
+        3.834,
+        6.486,
+        8.547
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 19.019,
+      "fin": 27.31,
+      "beats": [
+        0.0,
+        4.333,
+        5.985
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 27.31,
+      "fin": 39.697,
+      "beats": [
+        0.0,
+        2.563
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.09",
+    "input_tp": "-7.35",
+    "input_lra": "2.10",
+    "input_thresh": "-31.35",
+    "output_i": "-14.27",
+    "output_tp": "-1.50",
+    "output_lra": "1.90",
+    "output_thresh": "-24.45",
+    "normalization_type": "dynamic",
+    "target_offset": "0.27"
+  },
+  "fotogramas_unicos": 282,
+  "tts_cache": 0,
+  "spec_hash": "7d88ad117f227900",
+  "segundos_produccion": 128.7,
+  "texto_hablado": [
+    "¿Escribes la misma respuesta una y otra vez?",
+    "En guatsap Business puedes guardarla y llamarla con una barra.",
+    "Primero, abre las respuestas rápidas desde las herramientas de la ap.",
+    "Segundo, agrega una y escribe el mensaje.",
+    "Tercero, ponle un atajo y guarda.",
+    "Y cuarto, en cualquier chat, escribe una barra y elige la respuesta.",
+    "Guarda el horario y la dirección; la ap puede sugerirlos desde tu perfil.",
+    "Guarda las formas de pago.",
+    "Guarda los pasos para hacer un pedido.",
+    "Puedes editar el texto antes de enviarlo.",
+    "La ap permite hasta cincuenta respuestas guardadas, según su ayuda oficial.",
+    "Personaliza cada una: una respuesta rápida no reemplaza leer la pregunta."
+  ]
+}

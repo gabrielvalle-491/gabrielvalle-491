@@ -57,9 +57,9 @@
     "target_offset": "0.20"
   },
   "fotogramas_unicos": 249,
-  "tts_cache": 0,
+  "tts_cache": 11,
   "spec_hash": "c50c0a54c7c764ca",
-  "segundos_produccion": 85.1,
+  "segundos_produccion": 79.6,
   "texto_hablado": [
     "Esta columna de correos, convertida en una sola celda separada por comas.",
     "La función es unir cadenas.",

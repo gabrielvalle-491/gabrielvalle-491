@@ -1,0 +1,40 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:04.011
+Haz que 1 500 se vea como 1,5 k, sin cambiar el valor.
+
+00:00:04.291 --> 00:00:06.681
+La celda B2 guarda 1 500.
+
+00:00:06.841 --> 00:00:07.635
+Resáltala.
+
+00:00:07.795 --> 00:00:10.545
+Con el formato personalizado se ve 1,5 k,
+
+00:00:10.545 --> 00:00:13.832
+pero la barra de fórmulas sigue mostrando 1 500.
+
+00:00:14.112 --> 00:00:15.445
+Selecciona las celdas.
+
+00:00:15.605 --> 00:00:17.956
+Abre Formato de celdas con clic derecho.
+
+00:00:18.116 --> 00:00:20.537
+Elige Personalizada y pega el código.
+
+00:00:20.817 --> 00:00:23.540
+Si tu Excel usa coma decimal, el código es este.
+
+00:00:23.700 --> 00:00:26.220
+Si usa punto decimal, como en México y EE.
+
+00:00:26.380 --> 00:00:27.524
+UU., es este otro.
+
+00:00:27.684 --> 00:00:30.378
+El signo del final divide lo que se ve entre mil.
+
+00:00:30.658 --> 00:00:34.828
+El valor real sigue siendo 1 500, y tus fórmulas lo usan completo.

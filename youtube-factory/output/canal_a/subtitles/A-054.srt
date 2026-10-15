@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:03,239
+Un agente de IA no es un chatbot más inteligente.
+
+2
+00:00:03,399 --> 00:00:04,444
+Es otra cosa.
+
+3
+00:00:04,724 --> 00:00:07,468
+Un chatbot responde con texto a lo que le escribes.
+
+4
+00:00:07,628 --> 00:00:11,463
+Un agente recibe un objetivo y decide los pasos, usando herramientas.
+
+5
+00:00:11,623 --> 00:00:15,937
+Según Anthropic, el modelo dirige su propio proceso y cómo cumple la tarea.
+
+6
+00:00:16,217 --> 00:00:17,843
+Primero, planea los pasos.
+
+7
+00:00:18,003 --> 00:00:20,867
+Luego usa herramientas, como buscar o leer archivos.
+
+8
+00:00:21,027 --> 00:00:23,947
+Y revisa el resultado hasta cumplir el objetivo.
+
+9
+00:00:24,227 --> 00:00:28,991
+Más autonomía exige más cuidado: da permisos acotados y revisa lo que hizo.
+
+10
+00:00:29,151 --> 00:00:32,595
+Y si un chatbot resuelve tu tarea, no necesitas un agente.

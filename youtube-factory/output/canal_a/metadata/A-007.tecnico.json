@@ -63,9 +63,9 @@
     "target_offset": "0.14"
   },
   "fotogramas_unicos": 300,
-  "tts_cache": 0,
+  "tts_cache": 10,
   "spec_hash": "66f5ff370fecb88d",
-  "segundos_produccion": 145.9,
+  "segundos_produccion": 122.5,
   "texto_hablado": [
     "Cambia una frase y recibes críticas útiles en lugar de elogios.",
     "Un estudio de dos mil veintitrés analizó cinco asistentes de i a.",

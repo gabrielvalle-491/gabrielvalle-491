@@ -1,0 +1,28 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:02.418
+BUSCARV no puede mirar a la izquierda.
+
+00:00:02.578 --> 00:00:04.212
+Esta pareja de funciones sí.
+
+00:00:04.492 --> 00:00:09.410
+BUSCARV necesita el dato buscado en la primera columna y usa un número de columna.
+
+00:00:09.570 --> 00:00:13.989
+INDICE y COINCIDIR trabajan con rangos, así que devuelven de cualquier columna.
+
+00:00:14.149 --> 00:00:17.905
+Si insertas una columna, los rangos se ajustan; un número fijo, no.
+
+00:00:18.185 --> 00:00:21.609
+Para sacar el código a partir del producto, la fórmula es esta.
+
+00:00:21.769 --> 00:00:24.188
+INDICE devuelve de la columna de códigos.
+
+00:00:24.348 --> 00:00:28.893
+COINCIDIR halla la posición del producto; el cero pide coincidencia exacta.
+
+00:00:29.173 --> 00:00:35.016
+En Excel 365 y 2021, BUSCARX hace lo mismo todavía más corto.

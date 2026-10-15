@@ -1,0 +1,74 @@
+{
+  "id": "A-088",
+  "duracion_s": 28.395,
+  "frases": 10,
+  "subtitulos": 21,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 7.067,
+      "beats": [
+        -5.0,
+        3.655
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 7.067,
+      "fin": 15.552,
+      "beats": [
+        0.0,
+        1.495,
+        5.12
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 15.552,
+      "fin": 22.006,
+      "beats": [
+        0.0,
+        3.684
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 22.006,
+      "fin": 28.395,
+      "beats": [
+        0.0,
+        2.56
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.06",
+    "input_tp": "-4.84",
+    "input_lra": "1.60",
+    "input_thresh": "-31.33",
+    "output_i": "-14.08",
+    "output_tp": "-1.50",
+    "output_lra": "1.30",
+    "output_thresh": "-24.26",
+    "normalization_type": "dynamic",
+    "target_offset": "0.08"
+  },
+  "fotogramas_unicos": 202,
+  "tts_cache": 0,
+  "spec_hash": "8cebc0d31ec03337",
+  "segundos_produccion": 131.8,
+  "texto_hablado": [
+    "¿Para que la i a responda con tus documentos hay que entrenarla?",
+    "No.",
+    "Usa rag: busca primero y responde después.",
+    "Haces una pregunta.",
+    "El sistema busca los fragmentos relevantes en tus documentos.",
+    "Y la i a redacta la respuesta usando esos fragmentos.",
+    "Es como un estudiante que mira sus apuntes antes de contestar.",
+    "No los memoriza: los consulta cada vez.",
+    "Ojo: puede buscar el fragmento equivocado.",
+    "Pide que cite el pasaje y compáralo con tu original."
+  ]
+}

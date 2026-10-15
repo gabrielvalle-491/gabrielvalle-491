@@ -1,0 +1,37 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:02.439
+Tienes mil filas con clientes repetidos.
+
+00:00:02.599 --> 00:00:04.721
+Esta fórmula te da la lista limpia.
+
+00:00:05.001 --> 00:00:08.270
+Escribe UNICOS y el rango de clientes en una celda libre.
+
+00:00:08.430 --> 00:00:10.546
+Ana y Luis aparecen dos veces.
+
+00:00:10.706 --> 00:00:14.951
+El resultado trae a cada cliente una sola vez, en el orden en que aparece.
+
+00:00:15.231 --> 00:00:18.445
+También puedes pedir solo los clientes que aparecen una vez.
+
+00:00:18.605 --> 00:00:19.813
+Primero, el rango.
+
+00:00:19.973 --> 00:00:21.989
+Luego, FALSO para comparar filas.
+
+00:00:22.149 --> 00:00:25.463
+Y VERDADERO para dejar solo los que aparecen una única vez.
+
+00:00:25.623 --> 00:00:26.771
+Aquí, solo Marta.
+
+00:00:27.051 --> 00:00:29.247
+Es una fórmula que se actualiza sola.
+
+00:00:29.407 --> 00:00:33.847
+Disponible en Excel 365 y 2021 o posterior.

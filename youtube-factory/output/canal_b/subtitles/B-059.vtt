@@ -1,0 +1,31 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:05.019
+Préstamo de US$ 5 000, tasa anual de 12 % y cuota de US$ 300.
+
+00:00:05.179 --> 00:00:06.411
+¿Cuántas cuotas son?
+
+00:00:06.771 --> 00:00:08.747
+En NPER, la tasa va por período.
+
+00:00:08.907 --> 00:00:12.052
+Si la cuota es mensual, divide la tasa anual entre doce.
+
+00:00:12.212 --> 00:00:13.933
+Luego, el pago en negativo.
+
+00:00:14.093 --> 00:00:15.616
+Y al final, el préstamo.
+
+00:00:15.896 --> 00:00:17.783
+Tasa anual de 12 %.
+
+00:00:17.943 --> 00:00:20.787
+Dividida entre doce, queda 1 % mensual.
+
+00:00:20.947 --> 00:00:26.288
+NPER devuelve 18,3 meses: son 19 cuotas, con la última más pequeña.
+
+00:00:26.568 --> 00:00:29.936
+Si la cuota no cubre ni el interés mensual, NPER da error.

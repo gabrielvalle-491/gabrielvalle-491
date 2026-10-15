@@ -1,0 +1,82 @@
+{
+  "id": "B-084",
+  "duracion_s": 33.088,
+  "frases": 10,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.064,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.064,
+      "fin": 11.134,
+      "beats": [
+        0.0,
+        5.406
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 11.134,
+      "fin": 19.363,
+      "beats": [
+        0.0,
+        2.011,
+        4.99
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 19.363,
+      "fin": 26.617,
+      "beats": [
+        0.0,
+        3.509
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 26.617,
+      "fin": 33.088,
+      "beats": [
+        0.0,
+        3.112
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.07",
+    "input_tp": "-5.73",
+    "input_lra": "2.00",
+    "input_thresh": "-32.33",
+    "output_i": "-14.09",
+    "output_tp": "-1.50",
+    "output_lra": "2.00",
+    "output_thresh": "-24.28",
+    "normalization_type": "dynamic",
+    "target_offset": "0.09"
+  },
+  "fotogramas_unicos": 242,
+  "tts_cache": 10,
+  "spec_hash": "8ba5b32a0e966c71",
+  "segundos_produccion": 86.3,
+  "texto_hablado": [
+    "Totales por vendedor sin escribir ni una fórmula.",
+    "Empieza con una lista: una fila por venta y una sola fila de títulos, sin filas en blanco.",
+    "Aquí hay tres vendedores y cinco ventas.",
+    "Primero, selecciona tus datos.",
+    "Segundo, ve a Insertar y elige Tabla dinámica.",
+    "Tercero, arrastra Vendedor a Filas y Venta a Valores.",
+    "Y listo: cada vendedor aparece una sola vez, con su total.",
+    "Ana, por ejemplo, suma doscientos, sin escribir ninguna fórmula.",
+    "Si cambian los datos, actualiza la tabla dinámica.",
+    "Así tus totales siempre reflejan la lista."
+  ]
+}

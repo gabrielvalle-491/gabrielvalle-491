@@ -1,0 +1,31 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:03.884
+Ese botón de combinar celdas te dará problemas cuando quieras ordenar.
+
+00:00:04.044 --> 00:00:06.223
+Se ve ordenado, pero esconde un costo.
+
+00:00:06.503 --> 00:00:10.067
+Combinar deja solo el contenido de la celda superior izquierda,
+
+00:00:10.067 --> 00:00:13.291
+y con celdas de distinto tamaño ordenar puede dar error.
+
+00:00:13.451 --> 00:00:17.344
+Centrar en la selección se ve igual, pero cada celda sigue separada.
+
+00:00:17.504 --> 00:00:19.479
+Mismo aspecto, sin esos problemas.
+
+00:00:19.759 --> 00:00:21.731
+Selecciona las celdas del título.
+
+00:00:21.891 --> 00:00:24.510
+Abre Formato de celdas con Ctrl + 1.
+
+00:00:24.670 --> 00:00:27.239
+En Alineación, elige Centrar en la selección.
+
+00:00:27.519 --> 00:00:30.957
+Tu tabla se ve igual, se ordena sin quejas y no pierdes datos.

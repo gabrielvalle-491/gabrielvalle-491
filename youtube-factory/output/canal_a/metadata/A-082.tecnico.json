@@ -1,0 +1,71 @@
+{
+  "id": "A-082",
+  "duracion_s": 30.985,
+  "frases": 8,
+  "subtitulos": 22,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.239,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.239,
+      "fin": 15.027,
+      "beats": [
+        0.0,
+        4.746,
+        7.82
+      ],
+      "plantilla": "timeline"
+    },
+    {
+      "inicio": 15.027,
+      "fin": 23.029,
+      "beats": [
+        0.0,
+        3.559
+      ],
+      "plantilla": "dato"
+    },
+    {
+      "inicio": 23.029,
+      "fin": 30.985,
+      "beats": [
+        0.0,
+        3.478
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-20.75",
+    "input_tp": "-6.86",
+    "input_lra": "1.20",
+    "input_thresh": "-31.05",
+    "output_i": "-14.14",
+    "output_tp": "-1.50",
+    "output_lra": "1.10",
+    "output_thresh": "-24.33",
+    "normalization_type": "dynamic",
+    "target_offset": "0.14"
+  },
+  "fotogramas_unicos": 202,
+  "tts_cache": 0,
+  "spec_hash": "831eec2701d2cd9c",
+  "segundos_produccion": 93.6,
+  "texto_hablado": [
+    "La palabra robot no nació en un laboratorio, sino en una obra de teatro.",
+    "En mil novecientos veinte se publica erre u erre, una obra del escritor checo Chápek.",
+    "En mil novecientos veintiuno llega a los escenarios.",
+    "Y la palabra empieza a viajar a otros idiomas.",
+    "Viene de robota, que en checo se asocia con trabajo forzado.",
+    "Karel había pensado en otro nombre, pero su hermano Josef propuso roboti.",
+    "En la obra, los robots eran trabajadores artificiales.",
+    "Hoy usamos la palabra para casi cualquier máquina automática."
+  ]
+}

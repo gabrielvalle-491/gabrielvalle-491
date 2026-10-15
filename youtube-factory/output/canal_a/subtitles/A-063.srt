@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:03,162
+Mito: los detectores de texto con IA son infalibles.
+
+2
+00:00:03,322 --> 00:00:06,441
+Realidad: OpenAI retiró el suyo por baja precisión.
+
+3
+00:00:06,721 --> 00:00:10,514
+En 2023, OpenAI dejó de ofrecer su clasificador.
+
+4
+00:00:10,674 --> 00:00:14,754
+En su prueba, acertó en solo 26 % de los textos hechos por
+
+5
+00:00:14,754 --> 00:00:18,763
+IA, y marcó como IA al 9 % de los escritos por personas.
+
+6
+00:00:19,043 --> 00:00:21,690
+Por eso, no uses un detector como prueba única.
+
+7
+00:00:21,850 --> 00:00:25,614
+Combina otras señales, como borradores previos o una conversación.
+
+8
+00:00:25,774 --> 00:00:27,570
+Y decide con criterio humano.
+
+9
+00:00:27,850 --> 00:00:29,746
+Una puntuación no es una prueba.
+
+10
+00:00:29,906 --> 00:00:33,652
+Un detector puede orientar, pero la decisión final es de una persona.

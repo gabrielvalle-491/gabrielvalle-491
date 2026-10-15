@@ -1,0 +1,73 @@
+{
+  "id": "A-063",
+  "duracion_s": 34.512,
+  "frases": 9,
+  "subtitulos": 26,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.641,
+      "beats": [
+        -5.0,
+        3.272
+      ],
+      "plantilla": "mito"
+    },
+    {
+      "inicio": 6.641,
+      "fin": 18.963,
+      "beats": [
+        0.0,
+        3.983
+      ],
+      "plantilla": "dato"
+    },
+    {
+      "inicio": 18.963,
+      "fin": 27.77,
+      "beats": [
+        0.0,
+        2.838,
+        6.761
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 27.77,
+      "fin": 34.512,
+      "beats": [
+        0.0,
+        2.087
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.18",
+    "input_tp": "-7.22",
+    "input_lra": "2.00",
+    "input_thresh": "-31.38",
+    "output_i": "-14.22",
+    "output_tp": "-1.50",
+    "output_lra": "1.50",
+    "output_thresh": "-24.37",
+    "normalization_type": "dynamic",
+    "target_offset": "0.22"
+  },
+  "fotogramas_unicos": 251,
+  "tts_cache": 0,
+  "spec_hash": "66d418cfe66d2013",
+  "segundos_produccion": 121.7,
+  "texto_hablado": [
+    "Mito: los detectores de texto con i a son infalibles.",
+    "Realidad: OpenAI retiró el suyo por baja precisión.",
+    "En dos mil veintitrés, OpenAI dejó de ofrecer su clasificador.",
+    "En su prueba, acertó en solo veintiséis por ciento de los textos hechos por i a, y marcó como i a al nueve por ciento de los escritos por personas.",
+    "Por eso, no uses un detector como prueba única.",
+    "Combina otras señales, como borradores previos o una conversación.",
+    "Y decide con criterio humano.",
+    "Una puntuación no es una prueba.",
+    "Un detector puede orientar, pero la decisión final es de una persona."
+  ]
+}

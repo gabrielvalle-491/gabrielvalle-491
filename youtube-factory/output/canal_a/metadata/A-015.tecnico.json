@@ -55,9 +55,9 @@
     "target_offset": "0.17"
   },
   "fotogramas_unicos": 303,
-  "tts_cache": 0,
+  "tts_cache": 10,
   "spec_hash": "3f1d5af2771cabf7",
-  "segundos_produccion": 118.5,
+  "segundos_produccion": 115.0,
   "texto_hablado": [
     "¿Qué publicas esta semana en las redes de tu negocio?",
     "Un prompt te arma el plan; tú lo revisas.",

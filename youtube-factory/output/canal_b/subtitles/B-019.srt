@@ -1,0 +1,51 @@
+1
+00:00:00,120 --> 00:00:04,280
+¿Y si tu ranking de ventas se ordenara solo cada vez que cambian los datos?
+
+2
+00:00:04,640 --> 00:00:06,984
+ORDENARPOR lo hace con una sola fórmula.
+
+3
+00:00:07,144 --> 00:00:09,437
+Primero, los nombres que quieres devolver.
+
+4
+00:00:09,597 --> 00:00:11,718
+Luego, las ventas por las que ordena.
+
+5
+00:00:11,878 --> 00:00:14,098
+Y al final, menos uno: de mayor a menor.
+
+6
+00:00:14,378 --> 00:00:18,262
+Escríbela en una celda libre y el resultado se derrama hacia abajo.
+
+7
+00:00:18,422 --> 00:00:20,593
+Ordena por las ventas, no por el nombre.
+
+8
+00:00:20,753 --> 00:00:23,792
+Primero aparece Luis, con 1 850.
+
+9
+00:00:23,952 --> 00:00:26,967
+Si cambias una venta, el ranking se reordena solo.
+
+10
+00:00:27,247 --> 00:00:29,945
+ORDENAR hace algo parecido, pero usa un número
+
+11
+00:00:29,945 --> 00:00:33,757
+de columna, que puede quedar desactualizado si cambias columnas.
+
+12
+00:00:33,917 --> 00:00:38,085
+Ambas funcionan en Excel 365 y 2021.
+
+13
+00:00:38,245 --> 00:00:39,789
+En Google Sheets, usa SORT.

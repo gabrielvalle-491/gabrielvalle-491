@@ -1,0 +1,78 @@
+{
+  "id": "B-028",
+  "duracion_s": 37.065,
+  "frases": 12,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.279,
+      "beats": [
+        -5.0,
+        4.399
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.279,
+      "fin": 17.859,
+      "beats": [
+        0.0,
+        3.204,
+        8.558
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 17.859,
+      "fin": 25.879,
+      "beats": [
+        0.0,
+        2.44,
+        3.808,
+        5.224
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 25.879,
+      "fin": 37.065,
+      "beats": [
+        0.0,
+        4.509
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.14",
+    "input_tp": "-7.20",
+    "input_lra": "3.00",
+    "input_thresh": "-32.34",
+    "output_i": "-13.78",
+    "output_tp": "-1.50",
+    "output_lra": "2.20",
+    "output_thresh": "-23.92",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.22"
+  },
+  "fotogramas_unicos": 237,
+  "tts_cache": 0,
+  "spec_hash": "5d10464f61c010b6",
+  "segundos_produccion": 87.6,
+  "texto_hablado": [
+    "Dos años seguidos de diez por ciento de inflación no suman veinte por ciento.",
+    "¿Cuánto suman, entonces?",
+    "En el año uno, un precio de cien sube a ciento diez.",
+    "En el año dos sube diez por ciento sobre ciento diez, no sobre cien, y llega a ciento veintiuno.",
+    "La inflación acumulada es veintiuno por ciento.",
+    "En la planilla, multiplica los factores.",
+    "El del primer año.",
+    "El del segundo año.",
+    "Y resta uno para quedarte con el porcentaje.",
+    "Con tres años de diez por ciento serían treinta y tres coma uno por ciento.",
+    "Los porcentajes se multiplican, no se suman.",
+    "Pruébalo en tu planilla con la inflación de tu país."
+  ]
+}

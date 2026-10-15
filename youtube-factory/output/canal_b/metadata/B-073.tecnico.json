@@ -1,0 +1,78 @@
+{
+  "id": "B-073",
+  "duracion_s": 42.215,
+  "frases": 12,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.289,
+      "beats": [
+        -5.0,
+        2.374
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.289,
+      "fin": 14.968,
+      "beats": [
+        0.0,
+        2.562,
+        7.964
+      ],
+      "plantilla": "linea"
+    },
+    {
+      "inicio": 14.968,
+      "fin": 29.167,
+      "beats": [
+        0.0,
+        1.962,
+        7.804,
+        11.078
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 29.167,
+      "fin": 42.215,
+      "beats": [
+        0.0,
+        4.4
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.11",
+    "input_tp": "-5.45",
+    "input_lra": "2.00",
+    "input_thresh": "-32.29",
+    "output_i": "-14.50",
+    "output_tp": "-1.50",
+    "output_lra": "1.40",
+    "output_thresh": "-24.64",
+    "normalization_type": "dynamic",
+    "target_offset": "0.50"
+  },
+  "fotogramas_unicos": 333,
+  "tts_cache": 0,
+  "spec_hash": "5781ce3a32a65d2c",
+  "segundos_produccion": 162.9,
+  "texto_hablado": [
+    "Ahorras cien al mes durante diez años.",
+    "¿Cuánto tendrás al final?",
+    "Aportas cien por mes, doce mil en total.",
+    "Con una tasa ilustrativa de seis por ciento anual, el saldo crece más rápido que lo aportado.",
+    "Y la diferencia se nota más con los años.",
+    "En la planilla, usa uve efe.",
+    "Primero, la tasa de cada mes: seis por ciento anual entre doce, o sea cero coma cinco por ciento.",
+    "Luego, ciento veinte pagos: doce meses por diez años.",
+    "Y el aporte, en negativo porque sale de tu bolsillo.",
+    "Resultado: dieciséis mil trescientos ochenta y siete coma noventa y tres.",
+    "De eso, cuatro mil trescientos ochenta y siete coma noventa y tres son intereses.",
+    "La tasa es ilustrativa; la real puede ser distinta."
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "B-033",
+  "duracion_s": 35.575,
+  "frases": 13,
+  "subtitulos": 26,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.459,
+      "beats": [
+        -5.0,
+        3.099
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.459,
+      "fin": 17.155,
+      "beats": [
+        0.0,
+        2.967,
+        4.871
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 17.155,
+      "fin": 24.006,
+      "beats": [
+        0.0,
+        2.012,
+        5.263,
+        5.848
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 24.006,
+      "fin": 31.396,
+      "beats": [
+        0.0,
+        2.709,
+        5.338
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 31.396,
+      "fin": 35.575,
+      "beats": [
+        0.0,
+        1.376
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.65",
+    "input_tp": "-6.75",
+    "input_lra": "2.50",
+    "input_thresh": "-31.86",
+    "output_i": "-14.14",
+    "output_tp": "-1.50",
+    "output_lra": "1.80",
+    "output_thresh": "-24.26",
+    "normalization_type": "dynamic",
+    "target_offset": "0.14"
+  },
+  "fotogramas_unicos": 304,
+  "tts_cache": 13,
+  "spec_hash": "e417a42c52ab0a7e",
+  "segundos_produccion": 94.1,
+  "texto_hablado": [
+    "Haz que tu inventario te avise solo cuándo reponer.",
+    "Sin revisar producto por producto.",
+    "Anota el stock actual y el mínimo de cada producto.",
+    "Resalta esas dos columnas.",
+    "Esas dos columnas son las que la fórmula compara.",
+    "Con doce de stock contra veinte de mínimo, el cable queda en reponer.",
+    "La fórmula compara dos celdas.",
+    "Si el stock es menor o igual al mínimo, muestra Reponer.",
+    "Si no, muestra okey.",
+    "Primero, escribe producto, stock y mínimo.",
+    "Segundo, pon la fórmula en la columna Estado.",
+    "Tercero, cópiala hacia abajo.",
+    "Cambia un stock o un mínimo y el aviso se actualiza solo."
+  ]
+}

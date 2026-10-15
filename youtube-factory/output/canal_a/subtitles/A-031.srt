@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:02,863
+Si no defines la longitud, la IA decide por ti.
+
+2
+00:00:03,023 --> 00:00:05,316
+Y puede darte demasiado o muy poco.
+
+3
+00:00:05,476 --> 00:00:07,499
+Por eso conviene fijar una medida.
+
+4
+00:00:07,779 --> 00:00:11,764
+Sin medida, la respuesta puede salir de tres líneas o de tres páginas.
+
+5
+00:00:11,924 --> 00:00:14,202
+Con una medida, sabes qué vas a recibir.
+
+6
+00:00:14,362 --> 00:00:17,483
+Elige una sola: palabras, viñetas o tiempo de lectura.
+
+7
+00:00:17,763 --> 00:00:21,133
+Por ejemplo: cinco viñetas de máximo diez palabras cada una.
+
+8
+00:00:21,293 --> 00:00:23,691
+Y si se pasa, pide una versión más corta.
+
+9
+00:00:23,971 --> 00:00:26,444
+La IA puede no ajustarse al conteo exacto.
+
+10
+00:00:26,604 --> 00:00:29,648
+Revisa el resultado antes de usarlo en tu trabajo.

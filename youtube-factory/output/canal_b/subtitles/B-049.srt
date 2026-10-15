@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:02,638
+VLOOKUP y BUSCARV son la misma función.
+
+2
+00:00:02,798 --> 00:00:04,651
+Cambia el idioma, no la lógica.
+
+3
+00:00:04,931 --> 00:00:07,952
+En inglés escribes VLOOKUP, COUNTIFS y NETWORKDAYS.
+
+4
+00:00:08,112 --> 00:00:11,402
+En español, BUSCARV, CONTAR.SI.CONJUNTO y DIAS.LAB.
+
+5
+00:00:11,562 --> 00:00:13,295
+Misma lógica, otro nombre.
+
+6
+00:00:13,575 --> 00:00:15,994
+Y hay tres trampas al copiar una fórmula.
+
+7
+00:00:16,154 --> 00:00:17,685
+FALSE se escribe FALSO.
+
+8
+00:00:17,845 --> 00:00:18,912
+TRUE, VERDADERO.
+
+9
+00:00:19,072 --> 00:00:23,866
+Y la coma entre argumentos puede ser punto y coma, según tu configuración regional.
+
+10
+00:00:24,146 --> 00:00:28,739
+Si abres un archivo de otra región, Excel suele mostrarte los nombres en tu idioma.

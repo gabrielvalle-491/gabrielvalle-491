@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:04,182
+Tu BUSCARV devuelve un precio que no existe, y no muestra ningún error.
+
+2
+00:00:04,462 --> 00:00:06,584
+BUSCARV lleva cuatro argumentos.
+
+3
+00:00:06,744 --> 00:00:08,594
+Primero, el código que buscas.
+
+4
+00:00:08,754 --> 00:00:11,648
+Luego, la tabla y la columna que quieres devolver.
+
+5
+00:00:11,808 --> 00:00:14,755
+Y al final, FALSO: eso pide coincidencia exacta.
+
+6
+00:00:15,035 --> 00:00:18,060
+Sin el cuarto argumento, buscar 104 devuelve el
+
+7
+00:00:18,060 --> 00:00:21,279
+precio del 101, porque la búsqueda es aproximada.
+
+8
+00:00:21,439 --> 00:00:23,841
+Con FALSO, avisa que el código no existe.
+
+9
+00:00:24,001 --> 00:00:26,898
+Para coincidencia exacta, escribe siempre FALSO.
+
+10
+00:00:27,178 --> 00:00:29,500
+Revisa tus fórmulas: ¿terminan en FALSO?

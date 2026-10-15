@@ -1,0 +1,73 @@
+{
+  "id": "B-072",
+  "duracion_s": 43.115,
+  "frases": 10,
+  "subtitulos": 32,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.315,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.315,
+      "fin": 24.581,
+      "beats": [
+        0.0,
+        6.63
+      ],
+      "plantilla": "dato"
+    },
+    {
+      "inicio": 24.581,
+      "fin": 32.886,
+      "beats": [
+        0.0,
+        2.931,
+        5.186
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 32.886,
+      "fin": 43.115,
+      "beats": [
+        0.0,
+        4.929
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.43",
+    "input_tp": "-6.15",
+    "input_lra": "2.50",
+    "input_thresh": "-32.64",
+    "output_i": "-14.31",
+    "output_tp": "-1.50",
+    "output_lra": "2.40",
+    "output_thresh": "-24.45",
+    "normalization_type": "dynamic",
+    "target_offset": "0.31"
+  },
+  "fotogramas_unicos": 258,
+  "tts_cache": 10,
+  "spec_hash": "a4e3c92b18adde1b",
+  "segundos_produccion": 87.9,
+  "texto_hablado": [
+    "Un promedio en éxcel dejó fuera a cinco países.",
+    "Y la cifra se citó en debates de política económica.",
+    "En dos mil trece, un estudiante de posgrado intentó repetir un estudio de Reinhart y Rogoff sobre deuda y crecimiento.",
+    "El estudio publicaba un crecimiento de menos cero coma uno por ciento en países con deuda sobre noventa por ciento del pe i be.",
+    "El reanálisis, que corrigió varios problemas, obtuvo dos coma dos por ciento.",
+    "Así se ve un error de rango, con datos inventados.",
+    "El promedio llega hasta la fila C.",
+    "Falta la D, y el resultado es dos en vez de cuatro.",
+    "Los autores reconocieron el error de promedio, pero defendieron el resto de su método.",
+    "La lección para tu planilla: comprueba que cada rango cubra todos los datos."
+  ]
+}

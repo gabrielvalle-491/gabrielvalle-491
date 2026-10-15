@@ -1,0 +1,28 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:02.020
+Entrega el miércoles 23.
+
+00:00:02.180 --> 00:00:05.243
+¿Cuántos días hábiles te quedan desde el lunes 14?
+
+00:00:05.603 --> 00:00:08.160
+La función DIAS.LAB pide la fecha inicial, la
+
+00:00:08.160 --> 00:00:10.888
+fecha final y, opcional, una lista de feriados.
+
+00:00:11.168 --> 00:00:14.007
+Del 14 al 23 hay 10 días corridos.
+
+00:00:14.167 --> 00:00:16.018
+Resta 2 por el fin de semana.
+
+00:00:16.178 --> 00:00:18.298
+Resta 1 por un feriado el 21.
+
+00:00:18.458 --> 00:00:20.178
+Quedan 7 días hábiles.
+
+00:00:20.458 --> 00:00:22.922
+Ingresa tus feriados y cambia las fechas.

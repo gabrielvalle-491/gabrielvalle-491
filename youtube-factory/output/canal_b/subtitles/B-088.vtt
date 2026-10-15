@@ -1,0 +1,40 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:05.208
+Dividir los días entre 365 y redondear te puede dar un año de más.
+
+00:00:05.488 --> 00:00:08.492
+Del 5 de marzo de 2019 al 8 de enero
+
+00:00:08.492 --> 00:00:12.997
+de 2027 faltan casi dos meses para cumplir ocho años.
+
+00:00:13.157 --> 00:00:17.965
+Dividir los días entre 365 da 7,85.
+
+00:00:18.125 --> 00:00:19.486
+Redondeado, 8.
+
+00:00:19.646 --> 00:00:21.158
+Pero son 7 completos.
+
+00:00:21.438 --> 00:00:22.448
+Usa SIFECHA.
+
+00:00:22.608 --> 00:00:24.240
+Primero, la fecha inicial.
+
+00:00:24.400 --> 00:00:25.490
+Luego, la final.
+
+00:00:25.650 --> 00:00:28.420
+Y la unidad Y, entre comillas, para años completos.
+
+00:00:28.700 --> 00:00:31.770
+En la planilla, con esas fechas, el resultado es 7.
+
+00:00:32.050 --> 00:00:36.179
+Ojo: Microsoft advierte que SIFECHA puede dar resultados incorrectos
+
+00:00:36.179 --> 00:00:39.033
+en algunos casos y no recomienda la unidad MD.

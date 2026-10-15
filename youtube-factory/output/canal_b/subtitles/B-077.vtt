@@ -1,0 +1,40 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:03.059
+Busca un precio por su código, sin contar columnas.
+
+00:00:03.219 --> 00:00:05.402
+Con BUSCARX es una fórmula corta.
+
+00:00:05.682 --> 00:00:07.387
+Así se escribe BUSCARX.
+
+00:00:07.547 --> 00:00:09.397
+Primero, el código que buscas.
+
+00:00:09.557 --> 00:00:10.986
+Luego, dónde buscarlo.
+
+00:00:11.146 --> 00:00:13.344
+Y al final, de dónde devolver el precio.
+
+00:00:13.624 --> 00:00:15.496
+Buscamos el código 102.
+
+00:00:15.656 --> 00:00:19.844
+BUSCARX lo ubica en la columna A y mira la misma fila en la columna C.
+
+00:00:20.004 --> 00:00:21.784
+Devuelve 340.
+
+00:00:22.064 --> 00:00:24.420
+Por defecto busca coincidencia exacta.
+
+00:00:24.580 --> 00:00:28.550
+Y si no encuentra el código, puedes añadir un texto como cuarto argumento.
+
+00:00:28.710 --> 00:00:34.499
+Disponible en Excel 2021, 2024 y Microsoft 365.
+
+00:00:34.659 --> 00:00:36.481
+Pruébalo con tu lista de precios.

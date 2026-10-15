@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:03.688
+Convierte una fecha en «lunes, 5 de enero» con una sola fórmula.
+
+00:00:03.968 --> 00:00:06.812
+TEXTO convierte una fecha en el texto que tú pidas.
+
+00:00:06.972 --> 00:00:08.869
+Primero, la celda con la fecha.
+
+00:00:09.029 --> 00:00:11.125
+Luego dddd: el día de la semana.
+
+00:00:11.285 --> 00:00:13.484
+Después d: el número del día.
+
+00:00:13.644 --> 00:00:15.492
+Y mmmm: el mes completo.
+
+00:00:15.772 --> 00:00:18.166
+Escribe la fórmula en la celda de al lado.
+
+00:00:18.326 --> 00:00:19.546
+Resalta la fecha.
+
+00:00:19.706 --> 00:00:22.451
+Y obtienes el día de la semana, el número y el mes.
+
+00:00:22.731 --> 00:00:24.465
+Ojo: el resultado es texto.
+
+00:00:24.625 --> 00:00:28.794
+Si necesitas calcular con la fecha, conserva la original en otra celda.

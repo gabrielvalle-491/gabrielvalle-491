@@ -1,0 +1,83 @@
+{
+  "id": "A-077",
+  "duracion_s": 32.467,
+  "frases": 9,
+  "subtitulos": 26,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.885,
+      "beats": [
+        -5.0,
+        1.546
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.885,
+      "fin": 10.48,
+      "beats": [
+        0.0,
+        2.606
+      ],
+      "plantilla": "dato"
+    },
+    {
+      "inicio": 10.48,
+      "fin": 22.876,
+      "beats": [
+        0.0,
+        2.761,
+        6.091,
+        8.257
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 22.876,
+      "fin": 29.604,
+      "beats": [
+        0.0,
+        3.46
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 29.604,
+      "fin": 32.467,
+      "beats": [
+        0.0,
+        0.849
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.08",
+    "input_tp": "-7.56",
+    "input_lra": "1.90",
+    "input_thresh": "-31.36",
+    "output_i": "-14.15",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.32",
+    "normalization_type": "dynamic",
+    "target_offset": "0.15"
+  },
+  "fotogramas_unicos": 282,
+  "tts_cache": 0,
+  "spec_hash": "56dba3d051c8214f",
+  "segundos_produccion": 116.8,
+  "texto_hablado": [
+    "Error común: creer que, si suena como tu familiar, es tu familiar.",
+    "Según la efe te ce de Estados Unidos, los estafadores pueden clonar una voz con un audio corto publicado en línea.",
+    "Primero, cuelga, aunque insistan en la urgencia.",
+    "Después, llama tú al número que ya tienes de esa persona.",
+    "Pide la palabra clave que acordaron.",
+    "Y no pagues con tarjetas de regalo, criptomonedas ni transferencias.",
+    "Elige la palabra clave con calma, antes de una emergencia.",
+    "Que no sea un dato que se pueda encontrar en tus redes.",
+    "Acuerden hoy una palabra clave."
+  ]
+}

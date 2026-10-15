@@ -1,0 +1,71 @@
+{
+  "id": "A-062",
+  "duracion_s": 30.041,
+  "frases": 9,
+  "subtitulos": 22,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.491,
+      "beats": [
+        -5.0,
+        3.495
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.491,
+      "fin": 13.439,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 13.439,
+      "fin": 20.829,
+      "beats": [
+        0.0,
+        3.004
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 20.829,
+      "fin": 30.041,
+      "beats": [
+        0.0,
+        4.284
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.00",
+    "input_tp": "-5.75",
+    "input_lra": "2.20",
+    "input_thresh": "-31.28",
+    "output_i": "-14.28",
+    "output_tp": "-1.50",
+    "output_lra": "1.40",
+    "output_thresh": "-24.50",
+    "normalization_type": "dynamic",
+    "target_offset": "0.28"
+  },
+  "fotogramas_unicos": 259,
+  "tts_cache": 9,
+  "spec_hash": "b713fccf237ec113",
+  "segundos_produccion": 97.5,
+  "texto_hablado": [
+    "Notas de reunión desordenadas y nadie sabe quién hace qué.",
+    "Así se pierden los acuerdos.",
+    "Pega tus notas y pide una tabla con tarea, responsable, fecha y estado.",
+    "Si falta un dato, que escriba por definir, en vez de inventarlo.",
+    "Así se vería el resultado, con datos ficticios.",
+    "Lo que falta queda marcado, no inventado.",
+    "Y tú decides qué completar.",
+    "Revisa la tabla contra tus notas y confirma los pendientes con el equipo.",
+    "Si las notas son confidenciales, sigue las políticas de tu organización."
+  ]
+}

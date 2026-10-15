@@ -1,0 +1,43 @@
+1
+00:00:00,120 --> 00:00:03,135
+¿Pedirle a la IA que razone paso a paso sirve de algo?
+
+2
+00:00:03,375 --> 00:00:05,896
+Hay una investigación de 2022.
+
+3
+00:00:06,176 --> 00:00:09,707
+Investigadores de Google mostraron que dar ejemplos con pasos
+
+4
+00:00:09,707 --> 00:00:13,817
+intermedios mejora los resultados en problemas de matemática y lógica.
+
+5
+00:00:14,097 --> 00:00:19,735
+Tu reto: un producto cuesta 80, sube 25 % y luego baja 20 %.
+
+6
+00:00:19,895 --> 00:00:21,967
+Pide los pasos y la respuesta final.
+
+7
+00:00:22,127 --> 00:00:23,950
+Compárala con tu calculadora.
+
+8
+00:00:24,230 --> 00:00:26,650
+Revisa cada paso, no solo el resultado.
+
+9
+00:00:26,810 --> 00:00:29,309
+La respuesta correcta es 80 otra vez.
+
+10
+00:00:29,589 --> 00:00:32,506
+A la fecha, en modelos de razonamiento OpenAI indica
+
+11
+00:00:32,506 --> 00:00:35,703
+que no hace falta pedirlo, porque ya razonan por dentro.

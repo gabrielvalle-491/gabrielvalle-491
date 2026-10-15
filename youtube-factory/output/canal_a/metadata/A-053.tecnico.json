@@ -1,0 +1,74 @@
+{
+  "id": "A-053",
+  "duracion_s": 30.766,
+  "frases": 9,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.046,
+      "beats": [
+        -5.0,
+        2.277
+      ],
+      "plantilla": "mito"
+    },
+    {
+      "inicio": 6.046,
+      "fin": 17.278,
+      "beats": [
+        0.0,
+        3.412,
+        6.392
+      ],
+      "plantilla": "timeline"
+    },
+    {
+      "inicio": 17.278,
+      "fin": 26.608,
+      "beats": [
+        0.0,
+        2.686,
+        4.866
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 26.608,
+      "fin": 30.766,
+      "beats": [
+        0.0,
+        1.368
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.22",
+    "input_tp": "-7.18",
+    "input_lra": "1.80",
+    "input_thresh": "-31.51",
+    "output_i": "-14.36",
+    "output_tp": "-1.50",
+    "output_lra": "1.10",
+    "output_thresh": "-24.56",
+    "normalization_type": "dynamic",
+    "target_offset": "0.36"
+  },
+  "fotogramas_unicos": 254,
+  "tts_cache": 0,
+  "spec_hash": "a35d7d7fcfa524e2",
+  "segundos_produccion": 115.0,
+  "texto_hablado": [
+    "Mito: la i a siempre sabe lo último.",
+    "Realidad: sabe hasta su fecha de corte, salvo que busque en la web.",
+    "Primero se entrena con textos hasta una fecha de corte.",
+    "Después se lanza y se usa durante mucho tiempo.",
+    "Hoy tú preguntas, y lo ocurrido tras el corte no lo sabe, a menos que use búsqueda web.",
+    "Primero, mira si la búsqueda web está activada.",
+    "Segundo, pide fuentes y ábrelas.",
+    "Y para precios, leyes o noticias, confirma el dato en el sitio oficial.",
+    "Una respuesta segura no siempre es una respuesta actual."
+  ]
+}

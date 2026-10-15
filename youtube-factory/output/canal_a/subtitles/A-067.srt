@@ -1,0 +1,43 @@
+1
+00:00:00,120 --> 00:00:02,667
+Mito: la IA recuerda todo lo que le dijiste.
+
+2
+00:00:02,827 --> 00:00:05,347
+Realidad: depende del chat y de tus ajustes.
+
+3
+00:00:05,627 --> 00:00:08,848
+En el mismo chat, usa lo que está escrito ahí, hasta un límite.
+
+4
+00:00:09,008 --> 00:00:12,104
+Entre chats, solo puede recordar si la memoria está activa.
+
+5
+00:00:12,264 --> 00:00:14,961
+Y, según la ayuda oficial, tú puedes controlarla.
+
+6
+00:00:15,241 --> 00:00:17,911
+Revisa en los ajustes si la memoria está activa.
+
+7
+00:00:18,071 --> 00:00:20,518
+Usa un chat temporal para temas privados.
+
+8
+00:00:20,678 --> 00:00:22,893
+Apagarla no borra lo que ya guardó.
+
+9
+00:00:23,053 --> 00:00:25,372
+Y lo sensible puede terminar guardado.
+
+10
+00:00:25,652 --> 00:00:27,898
+La memoria es una función, no un destino.
+
+11
+00:00:28,058 --> 00:00:29,411
+Tú decides si la usas.

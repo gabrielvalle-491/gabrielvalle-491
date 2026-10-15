@@ -1,0 +1,84 @@
+{
+  "id": "A-066",
+  "duracion_s": 35.688,
+  "frases": 10,
+  "subtitulos": 28,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.977,
+      "beats": [
+        -5.0,
+        1.583
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.977,
+      "fin": 10.748,
+      "beats": [
+        0.0,
+        2.676
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 10.748,
+      "fin": 20.395,
+      "beats": [
+        0.0,
+        2.005,
+        4.736
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 20.395,
+      "fin": 30.563,
+      "beats": [
+        0.0,
+        3.429,
+        6.507
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 30.563,
+      "fin": 35.688,
+      "beats": [
+        0.0,
+        2.069
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.02",
+    "input_tp": "-7.32",
+    "input_lra": "1.80",
+    "input_thresh": "-31.33",
+    "output_i": "-14.05",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.28",
+    "normalization_type": "dynamic",
+    "target_offset": "0.05"
+  },
+  "fotogramas_unicos": 281,
+  "tts_cache": 10,
+  "spec_hash": "bb45aa626aefd20a",
+  "segundos_produccion": 118.4,
+  "texto_hablado": [
+    "Un texto escondido en un documento puede darle órdenes a la i a.",
+    "Eso se llama inyección de prompts: instrucciones ocultas en algo que la i a lee, como un archivo, un correo o una página.",
+    "Tú le pides resumir un archivo.",
+    "Dentro, alguien escondió una orden distinta.",
+    "Y el modelo puede tratarla como instrucción, porque no siempre separa datos de órdenes.",
+    "Para reducir el riesgo, dale a la i a los mínimos permisos.",
+    "Pide tu aprobación antes de enviar, borrar o comprar.",
+    "Y trata archivos y páginas externas como no confiables.",
+    "Ninguna defensa es perfecta.",
+    "Por eso, la última decisión es tuya."
+  ]
+}

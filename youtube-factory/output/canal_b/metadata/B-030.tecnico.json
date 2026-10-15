@@ -1,0 +1,84 @@
+{
+  "id": "B-030",
+  "duracion_s": 28.252,
+  "frases": 10,
+  "subtitulos": 26,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.019,
+      "beats": [
+        -5.0,
+        2.7
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.019,
+      "fin": 13.693,
+      "beats": [
+        0.0,
+        2.66,
+        5.128
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 13.693,
+      "fin": 19.804,
+      "beats": [
+        0.0,
+        3.399
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 19.804,
+      "fin": 24.993,
+      "beats": [
+        0.0,
+        2.27,
+        3.387
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 24.993,
+      "fin": 28.252,
+      "beats": [
+        0.0,
+        1.008
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.56",
+    "input_tp": "-5.65",
+    "input_lra": "1.70",
+    "input_thresh": "-31.90",
+    "output_i": "-14.21",
+    "output_tp": "-1.50",
+    "output_lra": "1.30",
+    "output_thresh": "-24.45",
+    "normalization_type": "dynamic",
+    "target_offset": "0.21"
+  },
+  "fotogramas_unicos": 272,
+  "tts_cache": 10,
+  "spec_hash": "c5ed28f0d9367fa6",
+  "segundos_produccion": 84.2,
+  "texto_hablado": [
+    "Llega al final de tus datos en un solo toque.",
+    "Sin rueda del mouse, sin arrastrar.",
+    "Haz clic en una celda de la columna con datos.",
+    "Pulsa control y la flecha hacia abajo.",
+    "Llegas a la última celda con datos, antes del primer hueco.",
+    "Si hay una celda vacía en medio, el salto se detiene ahí.",
+    "Pulsa de nuevo y pasa al siguiente bloque.",
+    "control y flecha te mueve al borde.",
+    "Si sumas shift, seleccionas todo el bloque hasta ahí.",
+    "En Mac, usa comand en lugar de control."
+  ]
+}

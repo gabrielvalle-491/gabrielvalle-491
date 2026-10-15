@@ -1,0 +1,47 @@
+1
+00:00:00,120 --> 00:00:02,717
+¿Escribes la misma respuesta una y otra vez?
+
+2
+00:00:02,957 --> 00:00:06,302
+En WhatsApp Business puedes guardarla y llamarla con una barra.
+
+3
+00:00:06,582 --> 00:00:10,226
+Primero, abre las respuestas rápidas desde las herramientas de la app.
+
+4
+00:00:10,386 --> 00:00:12,878
+Segundo, agrega una y escribe el mensaje.
+
+5
+00:00:13,038 --> 00:00:14,939
+Tercero, ponle un atajo y guarda.
+
+6
+00:00:15,099 --> 00:00:18,819
+Y cuarto, en cualquier chat, escribe una barra y elige la respuesta.
+
+7
+00:00:19,099 --> 00:00:23,242
+Guarda el horario y la dirección; la app puede sugerirlos desde tu perfil.
+
+8
+00:00:23,402 --> 00:00:24,894
+Guarda las formas de pago.
+
+9
+00:00:25,054 --> 00:00:27,110
+Guarda los pasos para hacer un pedido.
+
+10
+00:00:27,390 --> 00:00:29,763
+Puedes editar el texto antes de enviarlo.
+
+11
+00:00:29,923 --> 00:00:34,182
+La app permite hasta 50 respuestas guardadas, según su ayuda oficial.
+
+12
+00:00:34,342 --> 00:00:38,837
+Personaliza cada una: una respuesta rápida no reemplaza leer la pregunta.

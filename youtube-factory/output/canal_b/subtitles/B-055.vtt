@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:03.240
+En tu cuota fija, ¿cuánto es interés y cuánto es capital?
+
+00:00:03.480 --> 00:00:04.818
+Una tabla lo muestra.
+
+00:00:05.098 --> 00:00:09.623
+Préstamo de 1 000 a cinco cuotas, con interés ilustrativo de 1 % mensual.
+
+00:00:09.783 --> 00:00:12.677
+La función PAGOINT devuelve el interés de cada mes.
+
+00:00:12.837 --> 00:00:14.126
+En el mes uno, 10.
+
+00:00:14.286 --> 00:00:16.509
+Y la columna de capital usa PAGOPRIN.
+
+00:00:16.789 --> 00:00:17.912
+Mira cómo cambia.
+
+00:00:18.072 --> 00:00:19.897
+En el mes uno, 10 de interés.
+
+00:00:20.057 --> 00:00:22.505
+En el mes cinco, solo 2,04.
+
+00:00:22.665 --> 00:00:25.785
+La cuota es la misma, pero cada vez va más a capital.
+
+00:00:26.065 --> 00:00:28.561
+Con tu tasa y tu plazo, arma tu tabla.

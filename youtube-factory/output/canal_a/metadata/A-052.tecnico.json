@@ -1,0 +1,73 @@
+{
+  "id": "A-052",
+  "duracion_s": 30.483,
+  "frases": 10,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.453,
+      "beats": [
+        -5.0,
+        2.18
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.453,
+      "fin": 14.71,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "codigo"
+    },
+    {
+      "inicio": 14.71,
+      "fin": 23.069,
+      "beats": [
+        0.0,
+        2.112,
+        4.991
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 23.069,
+      "fin": 30.483,
+      "beats": [
+        0.0,
+        5.358
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-20.76",
+    "input_tp": "-7.20",
+    "input_lra": "2.10",
+    "input_thresh": "-31.06",
+    "output_i": "-14.11",
+    "output_tp": "-1.50",
+    "output_lra": "1.80",
+    "output_thresh": "-24.32",
+    "normalization_type": "dynamic",
+    "target_offset": "0.11"
+  },
+  "fotogramas_unicos": 322,
+  "tts_cache": 0,
+  "spec_hash": "e3a597bca0550a1a",
+  "segundos_produccion": 123.2,
+  "texto_hablado": [
+    "¿Renombrar cien archivos a mano?",
+    "Un bucle de Python lo hace por ti.",
+    "Este bucle recorre las fotos en orden.",
+    "Para cada una arma un nombre nuevo, como foto, guion bajo, cero cero uno.",
+    "Por ahora solo lo muestra; la línea que renombra está comentada.",
+    "Primero, haz una copia de la carpeta.",
+    "Segundo, ejecuta y revisa la lista que imprime.",
+    "Tercero, quita el símbolo de comentario de la última línea.",
+    "Si un nombre nuevo ya existe, Python puede reemplazar ese archivo o dar error, según el sistema.",
+    "Por eso, la copia."
+  ]
+}

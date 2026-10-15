@@ -1,0 +1,73 @@
+{
+  "id": "A-080",
+  "duracion_s": 33.427,
+  "frases": 9,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 7.494,
+      "beats": [
+        -5.0,
+        2.475
+      ],
+      "plantilla": "mito"
+    },
+    {
+      "inicio": 7.494,
+      "fin": 17.781,
+      "beats": [
+        0.0,
+        2.81
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 17.781,
+      "fin": 27.443,
+      "beats": [
+        0.0,
+        4.955,
+        7.762
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 27.443,
+      "fin": 33.427,
+      "beats": [
+        0.0,
+        2.098
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-20.93",
+    "input_tp": "-6.81",
+    "input_lra": "2.20",
+    "input_thresh": "-31.18",
+    "output_i": "-14.15",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.32",
+    "normalization_type": "dynamic",
+    "target_offset": "0.15"
+  },
+  "fotogramas_unicos": 248,
+  "tts_cache": 0,
+  "spec_hash": "0b2702e6c1adee58",
+  "segundos_produccion": 112.3,
+  "texto_hablado": [
+    "Mito: la i a entiende como una persona.",
+    "Realidad: aprende patrones en textos y predice la palabra siguiente más probable.",
+    "Funciona como un autocompletado muy potente.",
+    "Lee tu texto, calcula qué fragmento suena más probable a continuación y lo escribe.",
+    "Luego repite el proceso, una y otra vez.",
+    "Por eso puede sonar muy segura y estar equivocada: verifica los datos importantes.",
+    "No sabe lo que tú no le cuentas: dale contexto.",
+    "Y pide fuentes, y ábrelas.",
+    "Úsala como un asistente que redacta rápido, no como un experto que entiende tu situación."
+  ]
+}

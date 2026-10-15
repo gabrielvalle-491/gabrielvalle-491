@@ -63,9 +63,9 @@
     "target_offset": "0.37"
   },
   "fotogramas_unicos": 186,
-  "tts_cache": 0,
+  "tts_cache": 7,
   "spec_hash": "1865c0a97fa4857b",
-  "segundos_produccion": 72.4,
+  "segundos_produccion": 53.3,
   "texto_hablado": [
     "Convierte este error en un mensaje claro con una sola fórmula.",
     "Cuando buscar uve no encuentra un código, devuelve ene a.",

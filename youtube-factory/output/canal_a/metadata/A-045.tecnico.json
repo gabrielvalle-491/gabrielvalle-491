@@ -1,0 +1,86 @@
+{
+  "id": "A-045",
+  "duracion_s": 31.576,
+  "frases": 11,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.895,
+      "beats": [
+        -5.0,
+        3.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.895,
+      "fin": 13.036,
+      "beats": [
+        0.0,
+        6.179
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 13.036,
+      "fin": 19.97,
+      "beats": [
+        0.0,
+        1.255,
+        3.249,
+        4.978
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 19.97,
+      "fin": 25.588,
+      "beats": [
+        0.0,
+        1.605,
+        3.131
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 25.588,
+      "fin": 31.576,
+      "beats": [
+        0.0,
+        2.361
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.16",
+    "input_tp": "-7.22",
+    "input_lra": "2.50",
+    "input_thresh": "-31.44",
+    "output_i": "-14.24",
+    "output_tp": "-1.50",
+    "output_lra": "1.90",
+    "output_thresh": "-24.44",
+    "normalization_type": "dynamic",
+    "target_offset": "0.24"
+  },
+  "fotogramas_unicos": 280,
+  "tts_cache": 0,
+  "spec_hash": "ebc8b80717ed4234",
+  "segundos_produccion": 126.7,
+  "texto_hablado": [
+    "Ese enlace que te dio la i a puede no existir.",
+    "O no decir lo que afirma.",
+    "Los modelos pueden generar referencias que parecen reales, con autor, título y enlace, pero que no existen.",
+    "Por eso verifica cada una.",
+    "Abre el enlace.",
+    "Comprueba que la página existe.",
+    "Busca la cita en el texto.",
+    "Y confirma autor y fecha.",
+    "Desconfía de enlaces que no abren, de autores que no encuentras y de citas demasiado perfectas.",
+    "Si no puedes comprobarla, no la cites.",
+    "Es mejor una fuente verificada que diez dudosas."
+  ]
+}

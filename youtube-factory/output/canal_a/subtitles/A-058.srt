@@ -1,0 +1,43 @@
+1
+00:00:00,120 --> 00:00:02,543
+La misma IA puede ser creativa o exacta.
+
+2
+00:00:02,703 --> 00:00:04,264
+Depende de lo que le pidas.
+
+3
+00:00:04,544 --> 00:00:07,789
+Para ideas, pide variedad, como diez nombres muy distintos.
+
+4
+00:00:07,949 --> 00:00:10,746
+Para cifras o fechas, pide precisión y verifica.
+
+5
+00:00:10,906 --> 00:00:13,701
+Misma IA, tarea distinta, instrucción distinta.
+
+6
+00:00:13,981 --> 00:00:18,260
+En la API existe un ajuste llamado temperatura: según Anthropic, cerca
+
+7
+00:00:18,260 --> 00:00:21,745
+de 0 para tareas analíticas y cerca de 1 para creativas.
+
+8
+00:00:21,905 --> 00:00:26,019
+En los chats casi nunca se ve, y algunos modelos nuevos ya no lo permiten.
+
+9
+00:00:26,299 --> 00:00:27,806
+En el chat, usa palabras.
+
+10
+00:00:27,966 --> 00:00:30,636
+Para creatividad: dame opciones muy distintas.
+
+11
+00:00:30,796 --> 00:00:32,717
+Para precisión: si no sabes, dilo.

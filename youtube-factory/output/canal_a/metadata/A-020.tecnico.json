@@ -57,9 +57,9 @@
     "target_offset": "0.13"
   },
   "fotogramas_unicos": 264,
-  "tts_cache": 0,
+  "tts_cache": 10,
   "spec_hash": "c0d6debc5eab3416",
-  "segundos_produccion": 110.5,
+  "segundos_produccion": 115.6,
   "texto_hablado": [
     "¿Vale la pena pagar por una i a?",
     "Primero mira qué cambia.",

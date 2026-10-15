@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:02,167
+Mito: la IA siempre sabe lo último.
+
+2
+00:00:02,327 --> 00:00:05,846
+Realidad: sabe hasta su fecha de corte, salvo que busque en la web.
+
+3
+00:00:06,126 --> 00:00:09,347
+Primero se entrena con textos hasta una fecha de corte.
+
+4
+00:00:09,507 --> 00:00:12,328
+Después se lanza y se usa durante mucho tiempo.
+
+5
+00:00:12,488 --> 00:00:14,862
+Hoy tú preguntas, y lo ocurrido tras el corte
+
+6
+00:00:14,862 --> 00:00:17,078
+no lo sabe, a menos que use búsqueda web.
+
+7
+00:00:17,358 --> 00:00:19,854
+Primero, mira si la búsqueda web está activada.
+
+8
+00:00:20,014 --> 00:00:22,033
+Segundo, pide fuentes y ábrelas.
+
+9
+00:00:22,193 --> 00:00:26,408
+Y para precios, leyes o noticias, confirma el dato en el sitio oficial.
+
+10
+00:00:26,688 --> 00:00:29,906
+Una respuesta segura no siempre es una respuesta actual.

@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:03.139
+Comida, Comdia y Comidas: tres categorías para Excel.
+
+00:00:03.299 --> 00:00:07.060
+Una lista desplegable evita ese error, porque limita las opciones.
+
+00:00:07.340 --> 00:00:11.753
+Sin lista, cada persona escribe como quiere, y contamos Comida con CONTAR.SI.
+
+00:00:11.913 --> 00:00:14.007
+Solo una celda coincide con Comida.
+
+00:00:14.167 --> 00:00:16.015
+El resultado es 1, no 3.
+
+00:00:16.295 --> 00:00:18.416
+Selecciona las celdas de la categoría.
+
+00:00:18.576 --> 00:00:21.665
+Abre la pestaña Datos y elige Validación de datos.
+
+00:00:21.825 --> 00:00:23.435
+En Permitir, elige Lista.
+
+00:00:23.595 --> 00:00:26.309
+En Origen, selecciona el rango con tus categorías.
+
+00:00:26.589 --> 00:00:30.583
+Ahora la celda solo acepta lo que está en tu lista, y tus conteos cuadran.
+
+00:00:30.743 --> 00:00:33.333
+Google Sheets también tiene listas desplegables.

@@ -1,0 +1,43 @@
+1
+00:00:00,120 --> 00:00:02,595
+Filtra tu tabla con botones, sin abrir menús.
+
+2
+00:00:02,875 --> 00:00:05,150
+Haz clic en cualquier parte de tu tabla.
+
+3
+00:00:05,310 --> 00:00:07,908
+En la pestaña Insertar, elige Segmentación.
+
+4
+00:00:08,068 --> 00:00:10,712
+Marca los campos que quieres y pulsa Aceptar.
+
+5
+00:00:10,992 --> 00:00:13,936
+Cada campo marcado crea su propia segmentación.
+
+6
+00:00:14,096 --> 00:00:16,244
+Un clic en un botón filtra la tabla.
+
+7
+00:00:16,404 --> 00:00:19,072
+Y con Ctrl puedes elegir varios elementos.
+
+8
+00:00:19,352 --> 00:00:22,091
+En Excel, sirve para tablas y tablas dinámicas.
+
+9
+00:00:22,251 --> 00:00:26,860
+En Google Sheets se llama control de filtros y filtra gráficos y tablas dinámicas.
+
+10
+00:00:27,020 --> 00:00:29,228
+Mismo objetivo: filtrar con un clic.
+
+11
+00:00:29,508 --> 00:00:33,496
+Prueba con un campo como Región o Mes y mira cómo cambia tu reporte.

@@ -1,0 +1,85 @@
+{
+  "id": "B-080",
+  "duracion_s": 33.227,
+  "frases": 11,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.965,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.965,
+      "fin": 11.941,
+      "beats": [
+        0.0,
+        1.385,
+        3.787,
+        5.727
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 11.941,
+      "fin": 21.025,
+      "beats": [
+        0.0,
+        2.486,
+        5.115
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 21.025,
+      "fin": 25.964,
+      "beats": [
+        0.0,
+        1.943
+      ],
+      "plantilla": "dato"
+    },
+    {
+      "inicio": 25.964,
+      "fin": 33.227,
+      "beats": [
+        0.0,
+        4.454
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.71",
+    "input_tp": "-7.01",
+    "input_lra": "3.20",
+    "input_thresh": "-31.95",
+    "output_i": "-14.56",
+    "output_tp": "-1.50",
+    "output_lra": "2.20",
+    "output_thresh": "-24.70",
+    "normalization_type": "dynamic",
+    "target_offset": "0.56"
+  },
+  "fotogramas_unicos": 260,
+  "tts_cache": 11,
+  "spec_hash": "2c62dc250078ecf0",
+  "segundos_produccion": 81.7,
+  "texto_hablado": [
+    "Un mes entero de fechas con una sola fórmula, sin arrastrar nada.",
+    "Se llama SECUENCIA.",
+    "Primero, cuántas filas: treinta y uno.",
+    "Luego, cuántas columnas: una.",
+    "Y al final, la fecha donde empieza.",
+    "Escribe la fórmula en la celda B dos.",
+    "La fecha de inicio está en la celda A dos.",
+    "Y las demás se derraman hacia abajo, hasta el treinta y uno de enero.",
+    "Si ves números raros en lugar de fechas, aplica formato de fecha a esas celdas.",
+    "Requiere éxcel dos mil veintiuno o Microsoft trescientos sesenta y cinco.",
+    "En gúgol shits se llama SEQUENCE."
+  ]
+}

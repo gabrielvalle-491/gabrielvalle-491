@@ -1,0 +1,25 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:03.339
+Muestra el avance hacia tu meta con una sola barra clara.
+
+00:00:03.619 --> 00:00:05.541
+Meta: 200 clientes nuevos.
+
+00:00:05.701 --> 00:00:09.195
+Llevas 130, es decir, 65 %.
+
+00:00:09.355 --> 00:00:11.581
+Te falta 35 %.
+
+00:00:11.861 --> 00:00:14.501
+Primero, calcula el avance: logrado entre meta.
+
+00:00:14.661 --> 00:00:17.228
+Después, lo pendiente: uno menos el avance.
+
+00:00:17.388 --> 00:00:21.797
+Selecciona ambas celdas, ve a Insertar y elige un gráfico de barras apiladas.
+
+00:00:22.077 --> 00:00:24.647
+Una barra, un porcentaje y nada de adornos.

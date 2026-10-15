@@ -1,0 +1,77 @@
+{
+  "id": "A-067",
+  "duracion_s": 30.271,
+  "frases": 11,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.547,
+      "beats": [
+        -5.0,
+        2.777
+      ],
+      "plantilla": "mito"
+    },
+    {
+      "inicio": 5.547,
+      "fin": 15.161,
+      "beats": [
+        0.0,
+        3.412,
+        6.667
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 15.161,
+      "fin": 25.572,
+      "beats": [
+        0.0,
+        2.861,
+        5.467,
+        7.842
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 25.572,
+      "fin": 30.271,
+      "beats": [
+        0.0,
+        2.436
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-20.88",
+    "input_tp": "-6.77",
+    "input_lra": "1.40",
+    "input_thresh": "-31.15",
+    "output_i": "-13.91",
+    "output_tp": "-1.50",
+    "output_lra": "1.10",
+    "output_thresh": "-24.09",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.09"
+  },
+  "fotogramas_unicos": 257,
+  "tts_cache": 11,
+  "spec_hash": "c07de8f24b309ded",
+  "segundos_produccion": 111.6,
+  "texto_hablado": [
+    "Mito: la i a recuerda todo lo que le dijiste.",
+    "Realidad: depende del chat y de tus ajustes.",
+    "En el mismo chat, usa lo que está escrito ahí, hasta un límite.",
+    "Entre chats, solo puede recordar si la memoria está activa.",
+    "Y, según la ayuda oficial, tú puedes controlarla.",
+    "Revisa en los ajustes si la memoria está activa.",
+    "Usa un chat temporal para temas privados.",
+    "Apagarla no borra lo que ya guardó.",
+    "Y lo sensible puede terminar guardado.",
+    "La memoria es una función, no un destino.",
+    "Tú decides si la usas."
+  ]
+}

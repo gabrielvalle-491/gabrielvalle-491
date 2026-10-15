@@ -1,0 +1,35 @@
+1
+00:00:00,120 --> 00:00:03,590
+Termina tu prompt con una frase y la IA te pide lo que le falta.
+
+2
+00:00:03,870 --> 00:00:07,634
+La frase es esta: antes de responder, hazme hasta cinco preguntas.
+
+3
+00:00:07,794 --> 00:00:10,440
+Ponle un límite, para que no sea un interrogatorio.
+
+4
+00:00:10,600 --> 00:00:13,796
+Y pide una lista numerada, así contestas todo de una vez.
+
+5
+00:00:14,076 --> 00:00:16,372
+Contesta cada pregunta en una línea.
+
+6
+00:00:16,532 --> 00:00:19,751
+Si no sabes algo, dilo y pídele que proponga un supuesto.
+
+7
+00:00:19,911 --> 00:00:21,905
+Y no compartas datos sensibles.
+
+8
+00:00:22,185 --> 00:00:25,280
+Con tus respuestas, la salida deja de ser genérica.
+
+9
+00:00:25,440 --> 00:00:28,132
+Si no hace preguntas, repite la frase al final.

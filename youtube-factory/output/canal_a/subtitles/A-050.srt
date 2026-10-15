@@ -1,0 +1,43 @@
+1
+00:00:00,120 --> 00:00:04,627
+¿Le pides a la IA resumir, traducir y redactar el correo, todo en un solo mensaje?
+
+2
+00:00:04,867 --> 00:00:05,985
+Ese es el error.
+
+3
+00:00:06,265 --> 00:00:09,235
+Todo junto, no puedes revisar nada a mitad de camino.
+
+4
+00:00:09,395 --> 00:00:12,689
+Una tarea por mensaje te deja corregir cada resultado.
+
+5
+00:00:12,849 --> 00:00:15,393
+Así el error no se arrastra al siguiente paso.
+
+6
+00:00:15,673 --> 00:00:17,995
+Primero, pide solo el resumen del texto.
+
+7
+00:00:18,155 --> 00:00:20,098
+Segundo, revísalo y corrígelo.
+
+8
+00:00:20,258 --> 00:00:23,523
+Tercero, pide el correo usando ese resumen ya aprobado.
+
+9
+00:00:23,803 --> 00:00:26,693
+Dividir cuesta un mensaje más, pero ganas control.
+
+10
+00:00:26,853 --> 00:00:29,559
+Y según la documentación de Anthropic, encadenar
+
+11
+00:00:29,559 --> 00:00:32,942
+prompts sirve para inspeccionar los resultados intermedios.

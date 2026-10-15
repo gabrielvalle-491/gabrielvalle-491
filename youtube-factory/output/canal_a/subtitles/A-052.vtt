@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:01.990
+¿Renombrar 100 archivos a mano?
+
+00:00:02.230 --> 00:00:04.253
+Un bucle de Python lo hace por ti.
+
+00:00:04.533 --> 00:00:06.728
+Este bucle recorre las fotos en orden.
+
+00:00:06.888 --> 00:00:10.831
+Para cada una arma un nombre nuevo, como foto, guion bajo, cero cero uno.
+
+00:00:10.991 --> 00:00:14.510
+Por ahora solo lo muestra; la línea que renombra está comentada.
+
+00:00:14.790 --> 00:00:16.712
+Primero, haz una copia de la carpeta.
+
+00:00:16.872 --> 00:00:19.591
+Segundo, ejecuta y revisa la lista que imprime.
+
+00:00:19.751 --> 00:00:22.869
+Tercero, quita el símbolo de comentario de la última línea.
+
+00:00:23.149 --> 00:00:25.410
+Si un nombre nuevo ya existe, Python puede
+
+00:00:25.410 --> 00:00:28.317
+reemplazar ese archivo o dar error, según el sistema.
+
+00:00:28.477 --> 00:00:29.623
+Por eso, la copia.

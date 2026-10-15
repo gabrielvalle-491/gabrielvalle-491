@@ -1,0 +1,37 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:03.213
+Un subtotal en medio de tus datos hace que sumes de más.
+
+00:00:03.373 --> 00:00:04.449
+Mira este caso.
+
+00:00:04.729 --> 00:00:07.079
+Estas ventas tienen un subtotal en medio.
+
+00:00:07.239 --> 00:00:08.820
+Resalta toda la columna.
+
+00:00:08.980 --> 00:00:13.124
+Al sumarla da 550, pero lo vendido es 350.
+
+00:00:13.404 --> 00:00:16.644
+Mezclado, los datos y el subtotal comparten columna.
+
+00:00:16.804 --> 00:00:20.048
+Separado, los datos van seguidos y el total vive aparte.
+
+00:00:20.208 --> 00:00:22.449
+Así cada fórmula lee solo registros.
+
+00:00:22.729 --> 00:00:24.420
+Una fila por cada registro.
+
+00:00:24.580 --> 00:00:26.825
+Ninguna fila vacía dentro del rango.
+
+00:00:26.985 --> 00:00:29.404
+Y los totales, en otra zona o en otra hoja.
+
+00:00:29.684 --> 00:00:34.600
+Con datos continuos, ordenar, filtrar y las tablas dinámicas leen el rango completo.

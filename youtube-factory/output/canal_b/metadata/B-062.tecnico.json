@@ -1,0 +1,65 @@
+{
+  "id": "B-062",
+  "duracion_s": 24.534,
+  "frases": 9,
+  "subtitulos": 15,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 7.277,
+      "beats": [
+        -5.0,
+        3.695,
+        5.73
+      ],
+      "plantilla": "pregunta"
+    },
+    {
+      "inicio": 7.277,
+      "fin": 17.765,
+      "beats": [
+        0.0,
+        2.931,
+        5.06
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 17.765,
+      "fin": 24.534,
+      "beats": [
+        0.0,
+        3.684
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.61",
+    "input_tp": "-5.53",
+    "input_lra": "1.50",
+    "input_thresh": "-31.77",
+    "output_i": "-14.14",
+    "output_tp": "-1.50",
+    "output_lra": "1.50",
+    "output_thresh": "-24.32",
+    "normalization_type": "dynamic",
+    "target_offset": "0.14"
+  },
+  "fotogramas_unicos": 171,
+  "tts_cache": 0,
+  "spec_hash": "892ae71d0791ae37",
+  "segundos_produccion": 54.7,
+  "texto_hablado": [
+    "¿Qué devuelve REDONDEAR de dos coma cinco con cero decimales?",
+    "¿Dos, tres o dos coma cinco?",
+    "La respuesta es tres.",
+    "éxcel redondea la mitad alejándose de cero.",
+    "Así, dos coma cinco pasa a tres.",
+    "tres coma cinco pasa a cuatro.",
+    "Y con negativos, menos dos coma cinco pasa a menos tres.",
+    "Otros programas pueden redondear la mitad al par más cercano.",
+    "Compara antes de mezclar herramientas."
+  ]
+}

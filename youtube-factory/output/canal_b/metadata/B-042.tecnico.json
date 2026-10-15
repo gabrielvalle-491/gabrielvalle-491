@@ -1,0 +1,77 @@
+{
+  "id": "B-042",
+  "duracion_s": 31.691,
+  "frases": 12,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.816,
+      "beats": [
+        -5.0,
+        3.448
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.816,
+      "fin": 12.757,
+      "beats": [
+        0.0,
+        2.117,
+        3.418
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 12.757,
+      "fin": 23.503,
+      "beats": [
+        0.0,
+        3.284,
+        5.243
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 23.503,
+      "fin": 31.691,
+      "beats": [
+        0.0,
+        2.937
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.77",
+    "input_tp": "-6.66",
+    "input_lra": "3.10",
+    "input_thresh": "-31.96",
+    "output_i": "-13.74",
+    "output_tp": "-1.50",
+    "output_lra": "2.30",
+    "output_thresh": "-23.88",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.26"
+  },
+  "fotogramas_unicos": 250,
+  "tts_cache": 12,
+  "spec_hash": "b457948e99915a94",
+  "segundos_produccion": 80.2,
+  "texto_hablado": [
+    "Pulsa control te y tus datos se convierten en una tabla.",
+    "Así ganas fórmulas, filtros y orden en un solo paso.",
+    "Haz clic en una celda de tus datos.",
+    "Pulsa control te.",
+    "Confirma que la tabla tiene encabezados.",
+    "En la columna Total, escribe la fórmula una sola vez.",
+    "Resalta precio y cantidad.",
+    "Al pulsar Enter, éxcel la copia en toda la columna.",
+    "éxcel llama a esto columna calculada.",
+    "Además, cada encabezado trae su botón de filtro.",
+    "Y si agregas filas debajo, la tabla se amplía.",
+    "Prueba este atajo hoy."
+  ]
+}

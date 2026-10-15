@@ -1,0 +1,79 @@
+{
+  "id": "B-022",
+  "duracion_s": 35.065,
+  "frases": 12,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.216,
+      "beats": [
+        -5.0,
+        3.625
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.216,
+      "fin": 14.581,
+      "beats": [
+        0.0,
+        2.412,
+        4.918,
+        6.999
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 14.581,
+      "fin": 25.033,
+      "beats": [
+        0.0,
+        1.997,
+        4.375,
+        7.431
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 25.033,
+      "fin": 35.065,
+      "beats": [
+        0.0,
+        3.634
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.05",
+    "input_tp": "-7.32",
+    "input_lra": "2.20",
+    "input_thresh": "-32.38",
+    "output_i": "-14.16",
+    "output_tp": "-1.50",
+    "output_lra": "1.40",
+    "output_thresh": "-24.35",
+    "normalization_type": "dynamic",
+    "target_offset": "0.16"
+  },
+  "fotogramas_unicos": 305,
+  "tts_cache": 12,
+  "spec_hash": "e597abd89e329d3a",
+  "segundos_produccion": 94.3,
+  "texto_hablado": [
+    "Muestra solo lo pendiente con una fórmula, sin tocar el filtro.",
+    "Y se actualiza sola.",
+    "Esta es tu lista de tareas, con su estado.",
+    "Escribe la fórmula en una celda libre.",
+    "Se marcan las tareas pendientes.",
+    "Y aparecen solo esas, hacia abajo.",
+    "La fórmula tiene tres partes.",
+    "Primero, el rango que quieres devolver.",
+    "Luego, la condición: el estado debe ser Pendiente.",
+    "Y al final, qué mostrar si no queda nada pendiente.",
+    "Cambia un estado a Listo y esa tarea desaparece de la lista.",
+    "Funciona en éxcel trescientos sesenta y cinco y dos mil veintiuno, y en gúgol shits existe fílter."
+  ]
+}

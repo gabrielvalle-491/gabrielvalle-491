@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:01,590
+¿Puede una máquina pensar?
+
+2
+00:00:01,830 --> 00:00:05,948
+En 1950, Alan Turing cambió esa pregunta por un juego.
+
+3
+00:00:06,228 --> 00:00:09,166
+En la versión más conocida, un interrogador conversa
+
+4
+00:00:09,166 --> 00:00:11,822
+por escrito con una persona y con una máquina.
+
+5
+00:00:11,982 --> 00:00:15,027
+Si no distingue cuál es cuál, la máquina pasa la prueba.
+
+6
+00:00:15,307 --> 00:00:19,567
+Turing calculó que, en unos cincuenta años, una máquina lograría que el
+
+7
+00:00:19,567 --> 00:00:24,067
+interrogador acertara como máximo el 70 % de las veces tras cinco minutos.
+
+8
+00:00:24,347 --> 00:00:27,583
+Y el debate sigue: en 1980, John Searle sostuvo que
+
+9
+00:00:27,583 --> 00:00:31,960
+seguir un programa que conversa bien no prueba que haya comprensión.
+
+10
+00:00:32,240 --> 00:00:35,385
+La prueba mide cómo conversa una máquina, no si entiende.

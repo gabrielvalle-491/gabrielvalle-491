@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:03,566
+¿Por qué la IA responde distinto si repites la misma pregunta?
+
+2
+00:00:03,926 --> 00:00:06,045
+No consulta una respuesta guardada.
+
+3
+00:00:06,205 --> 00:00:10,044
+Genera el texto trozo a trozo, eligiendo entre opciones probables.
+
+4
+00:00:10,324 --> 00:00:13,694
+Una base de datos devuelve lo mismo ante la misma consulta.
+
+5
+00:00:13,854 --> 00:00:16,954
+Un modelo de lenguaje puede tomar otro camino cada vez.
+
+6
+00:00:17,114 --> 00:00:21,081
+Por eso la variación es normal, pero los datos importantes se verifican.
+
+7
+00:00:21,361 --> 00:00:24,259
+Para respuestas más estables, pide un formato fijo.
+
+8
+00:00:24,419 --> 00:00:26,264
+Incluye un ejemplo de salida.
+
+9
+00:00:26,424 --> 00:00:28,822
+Y si usas una API, baja la temperatura.
+
+10
+00:00:29,102 --> 00:00:30,976
+No es un error: es cómo funciona.

@@ -1,0 +1,35 @@
+1
+00:00:00,120 --> 00:00:03,039
+Modelo de IA y aplicación de IA no son lo mismo.
+
+2
+00:00:03,319 --> 00:00:07,113
+El modelo es el motor: el sistema entrenado que genera el texto.
+
+3
+00:00:07,273 --> 00:00:11,808
+La aplicación es el auto completo, con chat, historial, archivos y herramientas.
+
+4
+00:00:11,968 --> 00:00:14,466
+El mismo motor puede ir en autos distintos.
+
+5
+00:00:14,746 --> 00:00:17,268
+Según Anthropic, sus modelos se ofrecen en sus
+
+6
+00:00:17,268 --> 00:00:19,460
+apps, en su API y en nubes de terceros.
+
+7
+00:00:19,620 --> 00:00:23,841
+Y la ayuda de OpenAI trata la búsqueda web como una herramienta que se habilita.
+
+8
+00:00:24,001 --> 00:00:27,364
+Por eso, la misma pregunta puede dar respuestas distintas.
+
+9
+00:00:27,644 --> 00:00:30,538
+Al comparar, di qué modelo y qué aplicación usaste.

@@ -1,0 +1,59 @@
+1
+00:00:00,120 --> 00:00:01,669
+Tres metas del trimestre.
+
+2
+00:00:01,829 --> 00:00:03,005
+¿Cuál va atrasada?
+
+3
+00:00:03,245 --> 00:00:04,598
+Que el color te lo diga.
+
+4
+00:00:04,878 --> 00:00:08,043
+Divide lo real entre el objetivo y obtienes el avance.
+
+5
+00:00:08,203 --> 00:00:10,868
+Aquí, ventas: 150 entre 200.
+
+6
+00:00:11,028 --> 00:00:12,902
+Da 75 %.
+
+7
+00:00:13,182 --> 00:00:15,678
+Ventas va en 75 %.
+
+8
+00:00:15,838 --> 00:00:18,237
+Clientes, en 85 %.
+
+9
+00:00:18,397 --> 00:00:22,017
+Reuniones ya superó el objetivo, con 115 %.
+
+10
+00:00:22,177 --> 00:00:25,097
+Así ves de un vistazo qué meta necesita atención.
+
+11
+00:00:25,377 --> 00:00:27,825
+Con formato condicional, el color avisa.
+
+12
+00:00:27,985 --> 00:00:30,229
+Por debajo de 80 %, rojo.
+
+13
+00:00:30,389 --> 00:00:32,732
+De 80 a 99, amarillo.
+
+14
+00:00:32,892 --> 00:00:34,100
+Desde 100, verde.
+
+15
+00:00:34,260 --> 00:00:37,173
+Tú eliges los cortes, según tu equipo y tus metas.

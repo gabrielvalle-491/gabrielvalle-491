@@ -1,0 +1,47 @@
+1
+00:00:00,120 --> 00:00:04,289
+Dos años seguidos de 10 % de inflación no suman 20 %.
+
+2
+00:00:04,449 --> 00:00:05,999
+¿Cuánto suman, entonces?
+
+3
+00:00:06,359 --> 00:00:09,373
+En el año uno, un precio de 100 sube a 110.
+
+4
+00:00:09,533 --> 00:00:14,727
+En el año dos sube 10 % sobre 110, no sobre 100, y llega a 121.
+
+5
+00:00:14,887 --> 00:00:17,659
+La inflación acumulada es 21 %.
+
+6
+00:00:17,939 --> 00:00:20,189
+En la planilla, multiplica los factores.
+
+7
+00:00:20,349 --> 00:00:21,557
+El del primer año.
+
+8
+00:00:21,717 --> 00:00:22,973
+El del segundo año.
+
+9
+00:00:23,133 --> 00:00:25,679
+Y resta uno para quedarte con el porcentaje.
+
+10
+00:00:25,959 --> 00:00:30,277
+Con tres años de 10 % serían 33,1 %.
+
+11
+00:00:30,437 --> 00:00:33,106
+Los porcentajes se multiplican, no se suman.
+
+12
+00:00:33,266 --> 00:00:36,205
+Pruébalo en tu planilla con la inflación de tu país.

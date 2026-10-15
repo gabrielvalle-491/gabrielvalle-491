@@ -1,0 +1,47 @@
+1
+00:00:00,120 --> 00:00:02,335
+Quieres juntar 6 000 en dos años.
+
+2
+00:00:02,495 --> 00:00:04,047
+¿Cuánto apartas cada mes?
+
+3
+00:00:04,407 --> 00:00:09,050
+Sin interés, divides: 6 000 entre 24 meses son 250.
+
+4
+00:00:09,210 --> 00:00:16,523
+Con una tasa ilustrativa de 0,5 % mensual, la función PAGO da 235,92.
+
+5
+00:00:16,683 --> 00:00:19,177
+Es 14,08 menos al mes.
+
+6
+00:00:19,457 --> 00:00:20,914
+El plazo cambia todo.
+
+7
+00:00:21,074 --> 00:00:24,944
+A 12 meses, apartas 486,40.
+
+8
+00:00:25,104 --> 00:00:28,573
+A 24, 235,92.
+
+9
+00:00:28,733 --> 00:00:32,322
+A 36, 152,53.
+
+10
+00:00:32,482 --> 00:00:34,208
+Más tiempo, aporte menor.
+
+11
+00:00:34,488 --> 00:00:38,308
+Cambia la meta, el plazo y la tasa de tu cuenta, y obtén tu aporte.
+
+12
+00:00:38,468 --> 00:00:42,881
+La tasa del ejemplo es ilustrativa: tu cuenta puede pagar otra, o ninguna.

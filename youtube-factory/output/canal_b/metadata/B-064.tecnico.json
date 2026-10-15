@@ -1,0 +1,73 @@
+{
+  "id": "B-064",
+  "duracion_s": 39.28,
+  "frases": 9,
+  "subtitulos": 31,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.126,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.126,
+      "fin": 20.775,
+      "beats": [
+        0.0,
+        6.404,
+        12.408
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 20.775,
+      "fin": 36.14,
+      "beats": [
+        0.0,
+        3.952,
+        6.78
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 36.14,
+      "fin": 39.28,
+      "beats": [
+        0.0,
+        0.96
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.68",
+    "input_tp": "-5.63",
+    "input_lra": "2.20",
+    "input_thresh": "-31.91",
+    "output_i": "-14.34",
+    "output_tp": "-1.50",
+    "output_lra": "2.00",
+    "output_thresh": "-24.50",
+    "normalization_type": "dynamic",
+    "target_offset": "0.34"
+  },
+  "fotogramas_unicos": 261,
+  "tts_cache": 9,
+  "spec_hash": "1df60f6664486350",
+  "segundos_produccion": 83.3,
+  "texto_hablado": [
+    "¿éxcel o gúgol shits para trabajar en equipo?",
+    "Depende de dónde viva tu archivo.",
+    "éxcel: varias personas editan a la vez si el libro está en OneDrive o SharePoint Online, con AutoSave activado.",
+    "shits: compartes por correo o enlace, das permiso para ver, comentar o editar, y todos editan en vivo.",
+    "Elige según dónde vive el archivo y qué usa tu equipo.",
+    "Primero, dónde se guarda: en la nube de Microsoft o en gúgol Drive.",
+    "Segundo, qué permiso necesita cada persona.",
+    "Tercero, la versión de éxcel: si alguien abre el archivo con una versión sin coautoría, Microsoft indica que el resto puede ver un error de bloqueo.",
+    "Cuéntanos con cuál trabaja tu equipo."
+  ]
+}

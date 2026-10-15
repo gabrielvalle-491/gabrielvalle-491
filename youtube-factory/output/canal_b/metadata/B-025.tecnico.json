@@ -1,0 +1,77 @@
+{
+  "id": "B-025",
+  "duracion_s": 35.522,
+  "frases": 11,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.688,
+      "beats": [
+        -5.0,
+        4.27
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.688,
+      "fin": 17.016,
+      "beats": [
+        0.0,
+        4.476,
+        7.879
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 17.016,
+      "fin": 25.954,
+      "beats": [
+        0.0,
+        1.92,
+        4.451,
+        6.29
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 25.954,
+      "fin": 35.522,
+      "beats": [
+        0.0,
+        5.863
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.08",
+    "input_tp": "-6.60",
+    "input_lra": "2.30",
+    "input_thresh": "-32.26",
+    "output_i": "-14.22",
+    "output_tp": "-1.50",
+    "output_lra": "2.10",
+    "output_thresh": "-24.34",
+    "normalization_type": "dynamic",
+    "target_offset": "0.22"
+  },
+  "fotogramas_unicos": 242,
+  "tts_cache": 11,
+  "spec_hash": "9f88abc910488310",
+  "segundos_produccion": 80.3,
+  "texto_hablado": [
+    "Dos fórmulas dan el mismo resultado, pero una es mucho más fácil de leer.",
+    "Veamos una clasificación de notas.",
+    "El si anidado mete un si dentro de otro, y cada condición suma un paréntesis.",
+    "si conjunto pone las condiciones en fila, de dos en dos.",
+    "Mismo resultado, mucho más legible.",
+    "Así queda la clasificación.",
+    "Si la nota es noventa o más, Excelente.",
+    "Si es setenta o más, Bueno.",
+    "Y el último VERDADERO cubre todo lo demás.",
+    "Disponible en éxcel dos mil diecinueve y Microsoft trescientos sesenta y cinco, según la ayuda oficial.",
+    "Si usas una versión anterior, sigue con el si anidado."
+  ]
+}

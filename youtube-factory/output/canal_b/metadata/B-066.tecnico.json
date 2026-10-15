@@ -1,0 +1,77 @@
+{
+  "id": "B-066",
+  "duracion_s": 29.618,
+  "frases": 11,
+  "subtitulos": 21,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 8.226,
+      "beats": [
+        -5.0,
+        4.619,
+        6.105
+      ],
+      "plantilla": "pregunta"
+    },
+    {
+      "inicio": 8.226,
+      "fin": 15.004,
+      "beats": [
+        0.0,
+        3.081,
+        5.381
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 15.004,
+      "fin": 22.092,
+      "beats": [
+        0.0,
+        1.881,
+        4.637
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 22.092,
+      "fin": 29.618,
+      "beats": [
+        0.0,
+        5.204
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.71",
+    "input_tp": "-7.93",
+    "input_lra": "1.90",
+    "input_thresh": "-31.96",
+    "output_i": "-13.93",
+    "output_tp": "-1.50",
+    "output_lra": "2.00",
+    "output_thresh": "-24.10",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.07"
+  },
+  "fotogramas_unicos": 236,
+  "tts_cache": 11,
+  "spec_hash": "7d928aa9cfe82015",
+  "segundos_produccion": 80.1,
+  "texto_hablado": [
+    "¿Qué devuelve CONTAR en un rango con ocho, un nombre, una celda vacía y quince?",
+    "¿Dos, tres o cuatro?",
+    "Dos: CONTAR solo cuenta números.",
+    "En la planilla, CONTAR mira el rango a dos a a cinco.",
+    "Solo el ocho y el quince son números.",
+    "Resultado: dos.",
+    "CONTAR cuenta números: dos.",
+    "contar a cuenta todo lo que no está vacío: tres.",
+    "La diferencia es la celda de texto.",
+    "Elige según lo que necesites contar: números con CONTAR, cualquier dato con contar a.",
+    "Comenta tu respuesta."
+  ]
+}

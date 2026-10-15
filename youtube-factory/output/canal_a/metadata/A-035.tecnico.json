@@ -1,0 +1,74 @@
+{
+  "id": "A-035",
+  "duracion_s": 31.79,
+  "frases": 10,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.662,
+      "beats": [
+        -5.0,
+        3.052
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.662,
+      "fin": 15.811,
+      "beats": [
+        0.0,
+        3.26
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 15.811,
+      "fin": 21.289,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 21.289,
+      "fin": 31.79,
+      "beats": [
+        0.0,
+        2.389,
+        4.292,
+        7.098
+      ],
+      "plantilla": "lista"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-20.72",
+    "input_tp": "-7.09",
+    "input_lra": "1.50",
+    "input_thresh": "-31.01",
+    "output_i": "-14.09",
+    "output_tp": "-1.50",
+    "output_lra": "1.40",
+    "output_thresh": "-24.30",
+    "normalization_type": "dynamic",
+    "target_offset": "0.09"
+  },
+  "fotogramas_unicos": 279,
+  "tts_cache": 0,
+  "spec_hash": "f64c5e89598c985e",
+  "segundos_produccion": 128.1,
+  "texto_hablado": [
+    "La i a no te miente: completa con lo más probable.",
+    "Por eso a veces inventa datos que suenan muy convincentes.",
+    "Un modelo de lenguaje genera texto que suena razonable.",
+    "Según OpenAI, el entrenamiento y las pruebas suelen premiar adivinar más que admitir que no se sabe.",
+    "Dale permiso para dudar.",
+    "Pídele que responda solo si está seguro y que diga no lo sé.",
+    "Después, pide fuentes que puedas abrir.",
+    "Comprueba nombres y cifras.",
+    "Desconfía de lo que suena demasiado exacto.",
+    "Esto reduce los errores, pero no los elimina."
+  ]
+}

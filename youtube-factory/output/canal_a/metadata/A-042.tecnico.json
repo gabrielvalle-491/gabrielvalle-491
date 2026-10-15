@@ -1,0 +1,79 @@
+{
+  "id": "A-042",
+  "duracion_s": 31.364,
+  "frases": 14,
+  "subtitulos": 26,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.103,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.103,
+      "fin": 16.28,
+      "beats": [
+        0.0,
+        2.646,
+        4.649
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 16.28,
+      "fin": 24.046,
+      "beats": [
+        0.0,
+        1.357,
+        3.116,
+        4.508
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 24.046,
+      "fin": 31.364,
+      "beats": [
+        0.0,
+        2.137
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.07",
+    "input_tp": "-6.95",
+    "input_lra": "1.80",
+    "input_thresh": "-31.34",
+    "output_i": "-14.17",
+    "output_tp": "-1.50",
+    "output_lra": "2.10",
+    "output_thresh": "-24.32",
+    "normalization_type": "dynamic",
+    "target_offset": "0.17"
+  },
+  "fotogramas_unicos": 240,
+  "tts_cache": 14,
+  "spec_hash": "6f53b9ecf4948f48",
+  "segundos_produccion": 107.1,
+  "texto_hablado": [
+    "Pedirle hazlo mejor a la i a es pedirle que adivine.",
+    "¿Mejor es más corto, más formal o con datos?",
+    "Con hazlo mejor, la i a decide qué es mejor.",
+    "Con un criterio, sabe qué cambiar.",
+    "Por ejemplo: redúcelo a tres líneas, con tono formal.",
+    "Y tú puedes comprobar si lo cumplió.",
+    "Elige el criterio.",
+    "Más corto o más largo.",
+    "Formal o cercano.",
+    "Con datos o con ejemplos.",
+    "O para otro público.",
+    "Dile también qué no debe cambiar.",
+    "Y compara con tu versión original.",
+    "Así sabes si de verdad mejoró."
+  ]
+}

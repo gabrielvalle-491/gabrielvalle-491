@@ -1,0 +1,47 @@
+1
+00:00:00,120 --> 00:00:03,458
+¿Tus chats con una IA pueden usarse para entrenar modelos?
+
+2
+00:00:03,698 --> 00:00:06,042
+Depende de un ajuste que puedes revisar.
+
+3
+00:00:06,322 --> 00:00:08,571
+En ChatGPT, abre Configuración.
+
+4
+00:00:08,731 --> 00:00:10,367
+Entra a Controles de datos.
+
+5
+00:00:10,527 --> 00:00:12,999
+Y desactiva Improve the model for everyone.
+
+6
+00:00:13,279 --> 00:00:15,673
+En Gemini, abre Configuración y ayuda.
+
+7
+00:00:15,833 --> 00:00:17,054
+Entra a Actividad.
+
+8
+00:00:17,214 --> 00:00:19,288
+Y desactiva Keep Activity.
+
+9
+00:00:19,568 --> 00:00:22,727
+Otra opción en ChatGPT es el chat temporal: no se usa
+
+10
+00:00:22,727 --> 00:00:27,257
+para mejorar los modelos, aunque puede conservarse un tiempo por seguridad.
+
+11
+00:00:27,537 --> 00:00:31,453
+En cuentas de trabajo o escuela, las reglas las fija el administrador.
+
+12
+00:00:31,613 --> 00:00:34,357
+Y los menús cambian: confirma en la ayuda oficial.

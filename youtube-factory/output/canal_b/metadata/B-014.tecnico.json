@@ -56,9 +56,9 @@
     "target_offset": "0.26"
   },
   "fotogramas_unicos": 240,
-  "tts_cache": 0,
+  "tts_cache": 11,
   "spec_hash": "64fe08a6f37b7b98",
-  "segundos_produccion": 119.8,
+  "segundos_produccion": 69.4,
   "texto_hablado": [
     "Ves tres números en la columna, pero SUMA da cero.",
     "Y no es un error de la fórmula.",

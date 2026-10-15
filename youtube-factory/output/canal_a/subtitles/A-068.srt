@@ -1,0 +1,35 @@
+1
+00:00:00,120 --> 00:00:03,839
+Imagina 20 consultas repetidas en el WhatsApp de tu negocio.
+
+2
+00:00:03,999 --> 00:00:08,464
+Con un poco de orden, pueden quedar en 6 respuestas claras, listas para copiar.
+
+3
+00:00:08,744 --> 00:00:13,732
+Primero, agrúpalas por tema: horarios, pagos, envíos, precios, cambios y ubicación.
+
+4
+00:00:13,892 --> 00:00:17,361
+Así ves qué preguntan más y qué respuesta te ahorra más tiempo.
+
+5
+00:00:17,641 --> 00:00:20,414
+Luego pide a la IA una respuesta corta por tema.
+
+6
+00:00:20,574 --> 00:00:23,504
+Que marque lo que falte, y tú pones los datos reales.
+
+7
+00:00:23,784 --> 00:00:26,403
+Cada respuesta lleva el dato directo, dos líneas
+
+8
+00:00:26,403 --> 00:00:29,078
+como máximo y un siguiente paso para el cliente.
+
+9
+00:00:29,358 --> 00:00:32,019
+Revisa precios y horarios antes de usarlas.

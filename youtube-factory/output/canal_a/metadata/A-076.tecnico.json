@@ -1,0 +1,86 @@
+{
+  "id": "A-076",
+  "duracion_s": 33.2,
+  "frases": 12,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.614,
+      "beats": [
+        -5.0,
+        2.719
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.614,
+      "fin": 13.266,
+      "beats": [
+        0.0,
+        2.074,
+        4.38,
+        6.022
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 13.266,
+      "fin": 19.308,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 19.308,
+      "fin": 26.543,
+      "beats": [
+        0.0,
+        2.071,
+        3.721
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 26.543,
+      "fin": 33.2,
+      "beats": [
+        0.0,
+        2.367
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.05",
+    "input_tp": "-7.46",
+    "input_lra": "2.40",
+    "input_thresh": "-31.30",
+    "output_i": "-13.97",
+    "output_tp": "-1.50",
+    "output_lra": "1.30",
+    "output_thresh": "-24.15",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.03"
+  },
+  "fotogramas_unicos": 357,
+  "tts_cache": 0,
+  "spec_hash": "959d892842227491",
+  "segundos_produccion": 139.8,
+  "texto_hablado": [
+    "Practica tu entrevista de trabajo con i a.",
+    "Ella pregunta; tú respondes con el método estar.",
+    "Situación: explica el contexto.",
+    "Tarea: cuál era tu responsabilidad.",
+    "Acción: lo que hiciste tú.",
+    "Resultado: qué cambió.",
+    "Ahora pídele a la i a que haga de entrevistador, una pregunta a la vez.",
+    "Y que te diga qué parte falta.",
+    "Cuenta solo experiencias reales.",
+    "Practica en voz alta.",
+    "Y recuerda que la i a no sabe qué te preguntarán de verdad.",
+    "Practicar no garantiza el puesto, pero llegas con la respuesta ordenada y menos nervios por improvisar."
+  ]
+}

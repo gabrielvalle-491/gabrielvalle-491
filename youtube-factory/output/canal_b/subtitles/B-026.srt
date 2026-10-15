@@ -1,0 +1,55 @@
+1
+00:00:00,120 --> 00:00:03,889
+Un gráfico de gastos se entiende al instante si ordenas las barras así.
+
+2
+00:00:04,049 --> 00:00:05,684
+Lo más grande va primero.
+
+3
+00:00:05,964 --> 00:00:08,435
+Vivienda lidera con 450.
+
+4
+00:00:08,595 --> 00:00:10,323
+Comida, 320.
+
+5
+00:00:10,483 --> 00:00:12,115
+Transporte, 180.
+
+6
+00:00:12,275 --> 00:00:13,322
+Ocio, 90.
+
+7
+00:00:13,482 --> 00:00:14,539
+Otros, 60.
+
+8
+00:00:14,819 --> 00:00:17,762
+Sin orden, tu ojo tiene que buscar la barra más grande.
+
+9
+00:00:17,922 --> 00:00:20,269
+Con orden, la comparación es inmediata.
+
+10
+00:00:20,429 --> 00:00:22,923
+Y el gráfico respeta el orden de tu tabla.
+
+11
+00:00:23,203 --> 00:00:25,547
+Primero, ordena la tabla de mayor a menor.
+
+12
+00:00:25,707 --> 00:00:29,391
+Segundo, selecciónala y ve a Insertar, Gráficos recomendados.
+
+13
+00:00:29,551 --> 00:00:33,043
+Tercero, elige columnas y ponle un título que diga qué mide.
+
+14
+00:00:33,323 --> 00:00:35,672
+Lo más grande, a la izquierda y a la vista.

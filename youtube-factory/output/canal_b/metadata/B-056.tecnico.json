@@ -1,0 +1,73 @@
+{
+  "id": "B-056",
+  "duracion_s": 23.021,
+  "frases": 8,
+  "subtitulos": 16,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.49,
+      "beats": [
+        -5.0,
+        1.388
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.49,
+      "fin": 9.357,
+      "beats": [
+        0.0,
+        2.147,
+        4.523
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 9.357,
+      "fin": 16.717,
+      "beats": [
+        0.0,
+        1.507,
+        4.987
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 16.717,
+      "fin": 23.021,
+      "beats": [
+        0.0,
+        2.226
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.46",
+    "input_tp": "-5.64",
+    "input_lra": "3.10",
+    "input_thresh": "-31.74",
+    "output_i": "-14.38",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.55",
+    "normalization_type": "dynamic",
+    "target_offset": "0.38"
+  },
+  "fotogramas_unicos": 197,
+  "tts_cache": 0,
+  "spec_hash": "dd403eeff49f6cbf",
+  "segundos_produccion": 58.4,
+  "texto_hablado": [
+    "No todos necesitan ser editores de tu hoja de cálculo.",
+    "En gúgol shits, presiona Compartir.",
+    "Agrega a la persona o crea un enlace.",
+    "Y elige el rol.",
+    "El lector solo mira.",
+    "El comentarista deja comentarios, sin cambiar el contenido.",
+    "El editor puede modificarlo todo.",
+    "Y revisa en la configuración si lectores y comentaristas pueden descargar, imprimir y copiar."
+  ]
+}

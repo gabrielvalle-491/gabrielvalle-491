@@ -1,0 +1,75 @@
+{
+  "id": "A-056",
+  "duracion_s": 34.477,
+  "frases": 10,
+  "subtitulos": 28,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.594,
+      "beats": [
+        -5.0,
+        2.674
+      ],
+      "plantilla": "mito"
+    },
+    {
+      "inicio": 6.594,
+      "fin": 19.026,
+      "beats": [
+        0.0,
+        3.16,
+        6.466
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 19.026,
+      "fin": 27.089,
+      "beats": [
+        0.0,
+        2.988,
+        5.442
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 27.089,
+      "fin": 34.477,
+      "beats": [
+        0.0,
+        2.292
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.52",
+    "input_tp": "-6.94",
+    "input_lra": "2.10",
+    "input_thresh": "-31.73",
+    "output_i": "-14.10",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.26",
+    "normalization_type": "dynamic",
+    "target_offset": "0.10"
+  },
+  "fotogramas_unicos": 260,
+  "tts_cache": 10,
+  "spec_hash": "8526bcc1b97a8e1c",
+  "segundos_produccion": 111.0,
+  "texto_hablado": [
+    "Mito: un prompt más largo siempre es mejor.",
+    "Realidad: importa la información útil, no la cantidad de palabras.",
+    "Un prompt largo con relleno diluye lo importante.",
+    "Uno corto, con objetivo, datos y formato, dice más.",
+    "Un estudio de dos mil veinticuatro halló que el texto irrelevante empeora el razonamiento de los modelos.",
+    "Antes de enviar, incluye el objetivo y para quién es.",
+    "Pon los datos necesarios y el formato.",
+    "Quita saludos, repeticiones y rodeos.",
+    "Cuenta la información, no las palabras.",
+    "Si tu prompt necesita ser largo, que sea porque contiene datos útiles."
+  ]
+}

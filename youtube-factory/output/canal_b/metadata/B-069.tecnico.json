@@ -1,0 +1,77 @@
+{
+  "id": "B-069",
+  "duracion_s": 43.741,
+  "frases": 12,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.327,
+      "beats": [
+        -5.0,
+        2.445
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.327,
+      "fin": 19.377,
+      "beats": [
+        0.0,
+        4.834,
+        12.307
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 19.377,
+      "fin": 34.408,
+      "beats": [
+        0.0,
+        1.647,
+        5.677
+      ],
+      "plantilla": "barras"
+    },
+    {
+      "inicio": 34.408,
+      "fin": 43.741,
+      "beats": [
+        0.0,
+        4.01
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.51",
+    "input_tp": "-6.08",
+    "input_lra": "2.60",
+    "input_thresh": "-32.74",
+    "output_i": "-14.36",
+    "output_tp": "-1.50",
+    "output_lra": "2.20",
+    "output_thresh": "-24.52",
+    "normalization_type": "dynamic",
+    "target_offset": "0.36"
+  },
+  "fotogramas_unicos": 268,
+  "tts_cache": 0,
+  "spec_hash": "17b94e01b3cb75dd",
+  "segundos_produccion": 146.3,
+  "texto_hablado": [
+    "Quieres juntar seis mil en dos años.",
+    "¿Cuánto apartas cada mes?",
+    "Sin interés, divides: seis mil entre veinticuatro meses son doscientos cincuenta.",
+    "Con una tasa ilustrativa de cero coma cinco por ciento mensual, la función PAGO da doscientos treinta y cinco coma noventa y dos.",
+    "Es catorce coma cero ocho menos al mes.",
+    "El plazo cambia todo.",
+    "A doce meses, apartas cuatrocientos ochenta y seis coma cuarenta.",
+    "A veinticuatro, doscientos treinta y cinco coma noventa y dos.",
+    "A treinta y seis, ciento cincuenta y dos coma cincuenta y tres.",
+    "Más tiempo, aporte menor.",
+    "Cambia la meta, el plazo y la tasa de tu cuenta, y obtén tu aporte.",
+    "La tasa del ejemplo es ilustrativa: tu cuenta puede pagar otra, o ninguna."
+  ]
+}

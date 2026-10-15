@@ -1,0 +1,43 @@
+1
+00:00:00,120 --> 00:00:04,160
+Dos fórmulas dan el mismo resultado, pero una es mucho más fácil de leer.
+
+2
+00:00:04,320 --> 00:00:06,488
+Veamos una clasificación de notas.
+
+3
+00:00:06,768 --> 00:00:11,053
+El SI anidado mete un SI dentro de otro, y cada condición suma un paréntesis.
+
+4
+00:00:11,213 --> 00:00:14,457
+SI.CONJUNTO pone las condiciones en fila, de dos en dos.
+
+5
+00:00:14,617 --> 00:00:16,816
+Mismo resultado, mucho más legible.
+
+6
+00:00:17,096 --> 00:00:18,827
+Así queda la clasificación.
+
+7
+00:00:18,987 --> 00:00:21,357
+Si la nota es 90 o más, Excelente.
+
+8
+00:00:21,517 --> 00:00:23,196
+Si es 70 o más, Bueno.
+
+9
+00:00:23,356 --> 00:00:25,754
+Y el último VERDADERO cubre todo lo demás.
+
+10
+00:00:26,034 --> 00:00:31,707
+Disponible en Excel 2019 y Microsoft 365, según la ayuda oficial.
+
+11
+00:00:31,867 --> 00:00:34,662
+Si usas una versión anterior, sigue con el SI anidado.

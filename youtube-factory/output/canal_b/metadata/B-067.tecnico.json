@@ -1,0 +1,79 @@
+{
+  "id": "B-067",
+  "duracion_s": 38.033,
+  "frases": 15,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.798,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.798,
+      "fin": 13.102,
+      "beats": [
+        0.0,
+        3.355,
+        6.18
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 13.102,
+      "fin": 25.297,
+      "beats": [
+        0.0,
+        2.686,
+        5.244
+      ],
+      "plantilla": "barras"
+    },
+    {
+      "inicio": 25.297,
+      "fin": 38.033,
+      "beats": [
+        0.0,
+        2.638
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.58",
+    "input_tp": "-5.49",
+    "input_lra": "1.60",
+    "input_thresh": "-31.76",
+    "output_i": "-14.22",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.36",
+    "normalization_type": "dynamic",
+    "target_offset": "0.22"
+  },
+  "fotogramas_unicos": 263,
+  "tts_cache": 15,
+  "spec_hash": "d396981ebd828c70",
+  "segundos_produccion": 96.9,
+  "texto_hablado": [
+    "Tres metas del trimestre.",
+    "¿Cuál va atrasada?",
+    "Que el color te lo diga.",
+    "Divide lo real entre el objetivo y obtienes el avance.",
+    "Aquí, ventas: ciento cincuenta entre doscientos.",
+    "Da setenta y cinco por ciento.",
+    "Ventas va en setenta y cinco por ciento.",
+    "Clientes, en ochenta y cinco por ciento.",
+    "Reuniones ya superó el objetivo, con ciento quince por ciento.",
+    "Así ves de un vistazo qué meta necesita atención.",
+    "Con formato condicional, el color avisa.",
+    "Por debajo de ochenta por ciento, rojo.",
+    "De ochenta a noventa y nueve, amarillo.",
+    "Desde cien, verde.",
+    "Tú eliges los cortes, según tu equipo y tus metas."
+  ]
+}

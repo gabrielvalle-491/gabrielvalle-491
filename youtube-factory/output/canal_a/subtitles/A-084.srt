@@ -1,0 +1,47 @@
+1
+00:00:00,120 --> 00:00:02,455
+¿Quieres aprender algo en 30 días?
+
+2
+00:00:02,695 --> 00:00:06,440
+Con objetivos medibles y sesiones cortas, la IA te arma el plan.
+
+3
+00:00:06,720 --> 00:00:09,758
+Semana uno: aprende las bases en sesiones cortas.
+
+4
+00:00:09,918 --> 00:00:12,137
+Semana dos: practica con ejercicios.
+
+5
+00:00:12,297 --> 00:00:14,794
+Semana tres: aplícalo en un mini proyecto.
+
+6
+00:00:14,954 --> 00:00:17,374
+Semana cuatro: repasa y mide tu avance.
+
+7
+00:00:17,654 --> 00:00:20,850
+Una revisión de 2013 destacó dos técnicas: practicar
+
+8
+00:00:20,850 --> 00:00:23,923
+con preguntas y repartir el estudio en el tiempo.
+
+9
+00:00:24,203 --> 00:00:27,847
+Pídele el plan así, con tu tema, tu nivel y tus minutos al día.
+
+10
+00:00:28,007 --> 00:00:31,079
+Pide también un repaso de lo anterior cada pocos días.
+
+11
+00:00:31,359 --> 00:00:34,928
+Al final de cada semana, pídele una prueba corta y ajusta el plan.
+
+12
+00:00:35,088 --> 00:00:38,426
+El plan es una hipótesis: corrígelo según tus resultados.

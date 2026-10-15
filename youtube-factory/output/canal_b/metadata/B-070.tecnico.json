@@ -1,0 +1,78 @@
+{
+  "id": "B-070",
+  "duracion_s": 37.832,
+  "frases": 12,
+  "subtitulos": 26,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 9.395,
+      "beats": [
+        -5.0,
+        3.925,
+        4.996
+      ],
+      "plantilla": "pregunta"
+    },
+    {
+      "inicio": 9.395,
+      "fin": 19.993,
+      "beats": [
+        0.0,
+        2.762,
+        4.803
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 19.993,
+      "fin": 33.972,
+      "beats": [
+        0.0,
+        3.004,
+        7.334
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 33.972,
+      "fin": 37.832,
+      "beats": [
+        0.0,
+        1.248
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.13",
+    "input_tp": "-6.10",
+    "input_lra": "2.70",
+    "input_thresh": "-32.34",
+    "output_i": "-14.41",
+    "output_tp": "-1.50",
+    "output_lra": "2.00",
+    "output_thresh": "-24.55",
+    "normalization_type": "dynamic",
+    "target_offset": "0.41"
+  },
+  "fotogramas_unicos": 263,
+  "tts_cache": 0,
+  "spec_hash": "cd6bc7f174fbd2cb",
+  "segundos_produccion": 140.5,
+  "texto_hablado": [
+    "Una tienda ofrece ciento diez al contado o tres cuotas de cuarenta.",
+    "¿Qué conviene?",
+    "¿Siempre el contado, siempre las cuotas, o depende?",
+    "Depende de la tasa.",
+    "Tres cuotas de cuarenta suman ciento veinte.",
+    "El contado cuesta ciento diez.",
+    "La diferencia equivale a una tasa de unos cuatro coma cinco por ciento mensual, con la función TASA.",
+    "La función uve a lleva las cuotas a valor de hoy.",
+    "A uno por ciento mensual valen ciento diecisiete coma sesenta y cuatro.",
+    "A ocho por ciento mensual, ciento tres coma cero ocho.",
+    "Compara con ciento diez al contado: la tasa decide.",
+    "Haz la cuenta con tu propia tasa antes de decidir."
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "B-052",
+  "duracion_s": 27.029,
+  "frases": 8,
+  "subtitulos": 21,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.765,
+      "beats": [
+        -5.0,
+        1.498
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.765,
+      "fin": 12.991,
+      "beats": [
+        0.0,
+        2.229,
+        7.274,
+        8.005
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 12.991,
+      "fin": 20.996,
+      "beats": [
+        0.0,
+        2.287,
+        4.585
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 20.996,
+      "fin": 27.029,
+      "beats": [
+        0.0,
+        2.117
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.00",
+    "input_tp": "-6.67",
+    "input_lra": "1.90",
+    "input_thresh": "-32.28",
+    "output_i": "-14.31",
+    "output_tp": "-1.50",
+    "output_lra": "1.50",
+    "output_thresh": "-24.50",
+    "normalization_type": "dynamic",
+    "target_offset": "0.31"
+  },
+  "fotogramas_unicos": 235,
+  "tts_cache": 0,
+  "spec_hash": "ddfd9b06249504b8",
+  "segundos_produccion": 70.9,
+  "texto_hablado": [
+    "Una fórmula de gúgol shits te trae el tipo de cambio actualizado.",
+    "La función se llama gúgol fainans.",
+    "Dentro, entre comillas, escribes CURRENCY, dos puntos y los códigos de las dos monedas.",
+    "Aquí, dólar a peso mexicano.",
+    "Escribe el signo igual y la función.",
+    "Pon el par de monedas entre comillas.",
+    "Confirma con Enter y la celda muestra el tipo de cambio.",
+    "Es solo de referencia: según gúgol, puede tardar hasta veinte minutos y no es para operar."
+  ]
+}

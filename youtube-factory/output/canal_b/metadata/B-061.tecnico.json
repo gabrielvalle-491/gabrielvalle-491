@@ -1,0 +1,75 @@
+{
+  "id": "B-061",
+  "duracion_s": 27.186,
+  "frases": 10,
+  "subtitulos": 20,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.225,
+      "beats": [
+        -5.0,
+        2.6
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.225,
+      "fin": 13.664,
+      "beats": [
+        0.0,
+        3.584,
+        6.764
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 13.664,
+      "fin": 20.803,
+      "beats": [
+        0.0,
+        3.553,
+        5.122
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 20.803,
+      "fin": 27.186,
+      "beats": [
+        0.0,
+        3.404
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.05",
+    "input_tp": "-6.86",
+    "input_lra": "1.10",
+    "input_thresh": "-32.29",
+    "output_i": "-14.02",
+    "output_tp": "-1.50",
+    "output_lra": "1.00",
+    "output_thresh": "-24.16",
+    "normalization_type": "dynamic",
+    "target_offset": "0.02"
+  },
+  "fotogramas_unicos": 228,
+  "tts_cache": 10,
+  "spec_hash": "2b44321ecf7f890d",
+  "segundos_produccion": 70.6,
+  "texto_hablado": [
+    "¿Y si cargas el mismo pedido dos veces?",
+    "contar si lo detecta.",
+    "contar si cuenta cuántas veces aparece un valor en el rango.",
+    "En la columna de control, P-ciento uno aparece una vez.",
+    "P-ciento dos aparece dos: está repetido.",
+    "Para bloquearlo al escribir, ve a Datos, Validación de datos.",
+    "Elige Personalizada.",
+    "Y usa contar si igual a uno.",
+    "Ojo: la validación no siempre actúa sobre datos pegados.",
+    "Deja también la columna de control."
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "A-065",
+  "duracion_s": 36.753,
+  "frases": 13,
+  "subtitulos": 28,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.447,
+      "beats": [
+        -5.0,
+        2.602
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.447,
+      "fin": 18.006,
+      "beats": [
+        0.0,
+        3.384,
+        6.414,
+        9.644
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 18.006,
+      "fin": 24.213,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 24.213,
+      "fin": 29.589,
+      "beats": [
+        0.0,
+        3.429
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 29.589,
+      "fin": 36.753,
+      "beats": [
+        0.0,
+        1.46
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.19",
+    "input_tp": "-6.98",
+    "input_lra": "2.00",
+    "input_thresh": "-31.41",
+    "output_i": "-14.40",
+    "output_tp": "-1.50",
+    "output_lra": "1.30",
+    "output_thresh": "-24.56",
+    "normalization_type": "dynamic",
+    "target_offset": "0.40"
+  },
+  "fotogramas_unicos": 357,
+  "tts_cache": 0,
+  "spec_hash": "843119787c766094",
+  "segundos_produccion": 137.9,
+  "texto_hablado": [
+    "Diez diapositivas caben en cuatro bloques.",
+    "Problema, solución, prueba y próximo paso.",
+    "Problema: dos diapositivas para mostrar qué duele y a quién.",
+    "Solución: dos con tu propuesta en una sola frase.",
+    "Prueba: cuatro con datos, ejemplos o una demostración.",
+    "Próximo paso: dos con la decisión que pides.",
+    "Pídele a la i a solo el esquema, no el contenido final.",
+    "Y que marque lo que falte, para que no invente datos.",
+    "Luego revisa que cada diapositiva tenga una sola idea.",
+    "Si necesita dos, divídela.",
+    "La estructura primero.",
+    "El diseño, después.",
+    "Así no pierdes tiempo en colores antes de tener el mensaje."
+  ]
+}

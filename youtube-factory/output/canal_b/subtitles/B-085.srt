@@ -1,0 +1,43 @@
+1
+00:00:00,120 --> 00:00:02,140
+BUSCARX busca un solo valor.
+
+2
+00:00:02,300 --> 00:00:03,877
+Pero puedes pasarle dos.
+
+3
+00:00:04,157 --> 00:00:06,751
+Une los dos criterios con el símbolo &.
+
+4
+00:00:06,911 --> 00:00:08,831
+Haz lo mismo con las dos columnas.
+
+5
+00:00:08,991 --> 00:00:11,063
+Y al final, la columna con el precio.
+
+6
+00:00:11,343 --> 00:00:14,863
+En esta tabla, el pantalón talla M cuesta 38.
+
+7
+00:00:15,023 --> 00:00:18,692
+La fórmula lo encuentra aunque haya otro pantalón en otra talla.
+
+8
+00:00:18,972 --> 00:00:21,667
+Si la combinación se repite, devuelve la primera.
+
+9
+00:00:21,827 --> 00:00:26,146
+Y requiere Excel 2021 o Microsoft 365.
+
+10
+00:00:26,426 --> 00:00:29,521
+Dos columnas unidas con ampersand, un solo resultado.
+
+11
+00:00:29,681 --> 00:00:33,002
+Cambia el producto y la talla, y la fórmula encuentra el precio.

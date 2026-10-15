@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:02,614
+¿Anotas a mano cada consulta que te llega?
+
+2
+00:00:02,854 --> 00:00:04,499
+Un formulario lo hace solo.
+
+3
+00:00:04,779 --> 00:00:07,278
+Primero, crea tu formulario en Google Forms.
+
+4
+00:00:07,438 --> 00:00:10,833
+Luego, en la pestaña Respuestas, vincula una hoja de cálculo.
+
+5
+00:00:10,993 --> 00:00:15,183
+Y en el menú de tres puntos, activa el aviso por correo de nuevas respuestas.
+
+6
+00:00:15,463 --> 00:00:17,984
+Cada respuesta llega como una fila nueva.
+
+7
+00:00:18,144 --> 00:00:21,388
+Puedes agregar una columna Estado para marcar lo pendiente.
+
+8
+00:00:21,548 --> 00:00:23,745
+Y el correo te avisa sin abrir la hoja.
+
+9
+00:00:24,025 --> 00:00:27,894
+Antes de compartir el enlace, envía una respuesta de prueba tú mismo.
+
+10
+00:00:28,054 --> 00:00:30,598
+Así compruebas que llegue la fila y el aviso.

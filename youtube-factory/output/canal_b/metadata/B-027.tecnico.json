@@ -1,0 +1,75 @@
+{
+  "id": "B-027",
+  "duracion_s": 31.769,
+  "frases": 10,
+  "subtitulos": 22,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.716,
+      "beats": [
+        -5.0,
+        3.221
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.716,
+      "fin": 12.642,
+      "beats": [
+        0.0,
+        2.759,
+        5.73
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 12.642,
+      "fin": 26.211,
+      "beats": [
+        0.0,
+        3.829,
+        7.659
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 26.211,
+      "fin": 31.769,
+      "beats": [
+        0.0,
+        2.234
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.49",
+    "input_tp": "-5.57",
+    "input_lra": "1.70",
+    "input_thresh": "-31.70",
+    "output_i": "-13.84",
+    "output_tp": "-1.50",
+    "output_lra": "1.20",
+    "output_thresh": "-23.99",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.16"
+  },
+  "fotogramas_unicos": 215,
+  "tts_cache": 10,
+  "spec_hash": "71d7818af617cf2f",
+  "segundos_produccion": 75.0,
+  "texto_hablado": [
+    "Borraste una fila y tu total ahora dice ere e efe.",
+    "Esto fue lo que pasó.",
+    "La suma tomaba celdas sueltas, una por una.",
+    "Al borrar febrero, desaparece una de esas celdas.",
+    "Y el total muestra ere e efe.",
+    "Primero, si acabas de borrar, prueba deshacer con control + Z.",
+    "Segundo, usa un rango: suma de be dos a be cuatro se ajusta sola.",
+    "Tercero, convierte tus datos en tabla: sus referencias se actualizan al agregar o quitar filas.",
+    "Rangos y tablas, y adiós al error.",
+    "Revisa tus sumas antes de borrar filas."
+  ]
+}

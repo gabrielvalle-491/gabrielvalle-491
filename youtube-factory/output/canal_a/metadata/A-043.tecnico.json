@@ -1,0 +1,73 @@
+{
+  "id": "A-043",
+  "duracion_s": 34.163,
+  "frases": 10,
+  "subtitulos": 26,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 7.428,
+      "beats": [
+        -5.0,
+        2.68
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 7.428,
+      "fin": 16.028,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 16.028,
+      "fin": 25.483,
+      "beats": [
+        0.0,
+        3.554,
+        6.485
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 25.483,
+      "fin": 34.163,
+      "beats": [
+        0.0,
+        4.93
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.43",
+    "input_tp": "-7.00",
+    "input_lra": "2.00",
+    "input_thresh": "-31.73",
+    "output_i": "-14.09",
+    "output_tp": "-1.50",
+    "output_lra": "1.50",
+    "output_thresh": "-24.31",
+    "normalization_type": "dynamic",
+    "target_offset": "0.09"
+  },
+  "fotogramas_unicos": 308,
+  "tts_cache": 0,
+  "spec_hash": "fa41f1cab7046a18",
+  "segundos_produccion": 134.3,
+  "texto_hablado": [
+    "¿Tus clientes preguntan siempre lo mismo?",
+    "Conviértelo en una FAQ.",
+    "Esas llamadas ya traen las preguntas reales.",
+    "Pega las transcripciones y pide las cinco preguntas más repetidas, con respuestas cortas.",
+    "Que use solo lo que dice el texto, y que marque lo que falta.",
+    "Antes de pegar, quita nombres, teléfonos y datos personales.",
+    "Después, revisa que cada respuesta sea correcta.",
+    "Y confirma precios y políticas con tu equipo.",
+    "Publica la FAQ en tu web o tu guatsap, y actualízala cuando cambien las preguntas.",
+    "Cada mes, revisa si aparecen preguntas nuevas."
+  ]
+}

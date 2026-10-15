@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:04,114
+Error común: pedirle a la IA que decida por ti un asunto legal o médico.
+
+2
+00:00:04,394 --> 00:00:07,713
+El error: pedir un diagnóstico o un dictamen y actuar con eso.
+
+3
+00:00:07,873 --> 00:00:11,490
+Lo mejor: usarla para entender términos y preparar tus preguntas.
+
+4
+00:00:11,650 --> 00:00:15,443
+El profesional decide; la IA te ayuda a llegar mejor preparado.
+
+5
+00:00:15,723 --> 00:00:19,273
+Incluso las políticas de uso de OpenAI, a la fecha, piden que
+
+6
+00:00:19,273 --> 00:00:23,812
+haya un profesional con licencia detrás de ese tipo de consejo personalizado.
+
+7
+00:00:24,092 --> 00:00:25,497
+Prueba un prompt así.
+
+8
+00:00:25,657 --> 00:00:28,247
+No incluyas datos personales ni sensibles.
+
+9
+00:00:28,527 --> 00:00:33,370
+Si es una urgencia médica, no consultes a la IA: busca atención médica de inmediato.
+
+10
+00:00:33,530 --> 00:00:35,725
+La decisión final es del profesional.

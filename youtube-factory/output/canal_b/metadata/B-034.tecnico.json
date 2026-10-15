@@ -1,0 +1,91 @@
+{
+  "id": "B-034",
+  "duracion_s": 47.805,
+  "frases": 15,
+  "subtitulos": 34,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.099,
+      "beats": [
+        -5.0,
+        3.453
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.099,
+      "fin": 21.296,
+      "beats": [
+        0.0,
+        5.208,
+        7.294,
+        9.246
+      ],
+      "plantilla": "barras"
+    },
+    {
+      "inicio": 21.296,
+      "fin": 34.271,
+      "beats": [
+        0.0,
+        2.172,
+        8.026
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 34.271,
+      "fin": 40.868,
+      "beats": [
+        0.0,
+        2.188,
+        4.196
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 40.868,
+      "fin": 47.805,
+      "beats": [
+        0.0,
+        3.085
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.14",
+    "input_tp": "-4.76",
+    "input_lra": "2.70",
+    "input_thresh": "-32.35",
+    "output_i": "-14.39",
+    "output_tp": "-1.50",
+    "output_lra": "2.40",
+    "output_thresh": "-24.53",
+    "normalization_type": "dynamic",
+    "target_offset": "0.39"
+  },
+  "fotogramas_unicos": 367,
+  "tts_cache": 0,
+  "spec_hash": "c38f3b68a4f493c9",
+  "segundos_produccion": 121.6,
+  "texto_hablado": [
+    "¿Cuánto iva pagas en México, Colombia, Chile y Argentina?",
+    "Cada país tiene su propia tasa general.",
+    "Según la normativa de cada país, México aplica una tasa general de dieciséis por ciento.",
+    "Colombia, diecinueve por ciento.",
+    "Chile, diecinueve por ciento.",
+    "Argentina, veintiuno por ciento.",
+    "Hay tasas reducidas y exenciones, así que confirma tu caso.",
+    "Parte de un precio sin iva de mil.",
+    "Con una tasa de diecinueve por ciento, multiplicas por uno coma diecinueve y queda en mil ciento noventa.",
+    "Para quitar el iva, divide mil ciento noventa entre uno coma diecinueve y vuelves a mil.",
+    "En la planilla, usa esta fórmula.",
+    "El precio sin iva va en a dos.",
+    "Y uno más la tasa, que vive en be dos.",
+    "Para quitar el iva, divide entre ese mismo factor.",
+    "Cambia la tasa en be dos y sirve para cualquier país."
+  ]
+}

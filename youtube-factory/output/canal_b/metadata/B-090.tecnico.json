@@ -1,0 +1,87 @@
+{
+  "id": "B-090",
+  "duracion_s": 43.645,
+  "frases": 11,
+  "subtitulos": 28,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.039,
+      "beats": [
+        -5.0,
+        2.008
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.039,
+      "fin": 26.01,
+      "beats": [
+        0.0,
+        3.958,
+        11.537,
+        14.928
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 26.01,
+      "fin": 36.225,
+      "beats": [
+        0.0,
+        3.654,
+        5.711,
+        7.942
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 36.225,
+      "fin": 40.135,
+      "beats": [
+        0.0,
+        1.532
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 40.135,
+      "fin": 43.645,
+      "beats": [
+        0.0,
+        1.108
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.09",
+    "input_tp": "-6.34",
+    "input_lra": "1.90",
+    "input_thresh": "-32.27",
+    "output_i": "-14.21",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.34",
+    "normalization_type": "dynamic",
+    "target_offset": "0.21"
+  },
+  "fotogramas_unicos": 292,
+  "tts_cache": 0,
+  "spec_hash": "1e064c4db899e346",
+  "segundos_produccion": 100.4,
+  "texto_hablado": [
+    "Una te ene a de treinta por ciento no es lo mismo que una te e a de treinta por ciento.",
+    "Ejemplo ilustrativo: te ene a de treinta por ciento a treinta días.",
+    "Interés del período: treinta por ciento por treinta entre trescientos sesenta y cinco, es dos coma cuarenta y siete por ciento.",
+    "Ese plazo cabe doce coma diecisiete veces en un año.",
+    "Si en cada período se renueva con los intereses, la te e a es treinta y cuatro coma cinco por ciento.",
+    "Con la te ene a en A dos y los días en B dos, esta es la fórmula.",
+    "Primero, el interés del período.",
+    "Luego, cuántas veces cabe en un año.",
+    "Y se resta uno, que es el capital.",
+    "Tasas ilustrativas: esto no es una oferta ni una recomendación.",
+    "Así comparas tasas con el mismo criterio."
+  ]
+}

@@ -57,9 +57,9 @@
     "target_offset": "0.11"
   },
   "fotogramas_unicos": 235,
-  "tts_cache": 0,
+  "tts_cache": 10,
   "spec_hash": "07e4f3f666ed56c6",
-  "segundos_produccion": 135.0,
+  "segundos_produccion": 97.8,
   "texto_hablado": [
     "Un resumen con i a ahorra tiempo, o te hace perder justo el detalle que importaba.",
     "Depende de qué busques.",

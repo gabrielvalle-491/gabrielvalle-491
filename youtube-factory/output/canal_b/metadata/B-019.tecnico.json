@@ -1,0 +1,78 @@
+{
+  "id": "B-019",
+  "duracion_s": 40.649,
+  "frases": 12,
+  "subtitulos": 31,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.56,
+      "beats": [
+        -5.0,
+        1.784
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.56,
+      "fin": 14.298,
+      "beats": [
+        0.0,
+        2.535,
+        4.987,
+        7.269
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 14.298,
+      "fin": 27.167,
+      "beats": [
+        0.0,
+        4.074,
+        6.405
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 27.167,
+      "fin": 40.649,
+      "beats": [
+        0.0,
+        6.7
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.68",
+    "input_tp": "-6.74",
+    "input_lra": "2.30",
+    "input_thresh": "-31.91",
+    "output_i": "-14.35",
+    "output_tp": "-1.50",
+    "output_lra": "2.00",
+    "output_thresh": "-24.51",
+    "normalization_type": "dynamic",
+    "target_offset": "0.35"
+  },
+  "fotogramas_unicos": 295,
+  "tts_cache": 12,
+  "spec_hash": "a027e2f5c4d2ff3a",
+  "segundos_produccion": 92.8,
+  "texto_hablado": [
+    "¿Y si tu ranking de ventas se ordenara solo cada vez que cambian los datos?",
+    "ordenar por lo hace con una sola fórmula.",
+    "Primero, los nombres que quieres devolver.",
+    "Luego, las ventas por las que ordena.",
+    "Y al final, menos uno: de mayor a menor.",
+    "Escríbela en una celda libre y el resultado se derrama hacia abajo.",
+    "Ordena por las ventas, no por el nombre.",
+    "Primero aparece Luis, con mil ochocientos cincuenta.",
+    "Si cambias una venta, el ranking se reordena solo.",
+    "ordenar hace algo parecido, pero usa un número de columna, que puede quedar desactualizado si cambias columnas.",
+    "Ambas funcionan en éxcel trescientos sesenta y cinco y dos mil veintiuno.",
+    "En gúgol shits, usa sort."
+  ]
+}

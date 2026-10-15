@@ -1,0 +1,87 @@
+{
+  "id": "B-088",
+  "duracion_s": 39.893,
+  "frases": 11,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.409,
+      "beats": [
+        -5.0,
+        2.155
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.409,
+      "fin": 21.358,
+      "beats": [
+        0.0,
+        7.698,
+        12.666
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 21.358,
+      "fin": 28.62,
+      "beats": [
+        0.0,
+        1.2,
+        2.992,
+        4.242
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 28.62,
+      "fin": 31.97,
+      "beats": [
+        0.0,
+        0.957,
+        1.834
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 31.97,
+      "fin": 39.893,
+      "beats": [
+        0.0,
+        2.873
+      ],
+      "plantilla": "dato"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.20",
+    "input_tp": "-7.21",
+    "input_lra": "2.90",
+    "input_thresh": "-32.43",
+    "output_i": "-13.98",
+    "output_tp": "-1.50",
+    "output_lra": "2.30",
+    "output_thresh": "-24.13",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.02"
+  },
+  "fotogramas_unicos": 291,
+  "tts_cache": 11,
+  "spec_hash": "0c596edb11989f0e",
+  "segundos_produccion": 65.7,
+  "texto_hablado": [
+    "Dividir los días entre trescientos sesenta y cinco y redondear te puede dar un año de más.",
+    "Del cinco de marzo de dos mil diecinueve al ocho de enero de dos mil veintisiete faltan casi dos meses para cumplir ocho años.",
+    "Dividir los días entre trescientos sesenta y cinco da siete coma ochenta y cinco.",
+    "Redondeado, ocho.",
+    "Pero son siete completos.",
+    "Usa si fecha.",
+    "Primero, la fecha inicial.",
+    "Luego, la final.",
+    "Y la unidad Y, entre comillas, para años completos.",
+    "En la planilla, con esas fechas, el resultado es siete.",
+    "Ojo: Microsoft advierte que si fecha puede dar resultados incorrectos en algunos casos y no recomienda la unidad MD."
+  ]
+}

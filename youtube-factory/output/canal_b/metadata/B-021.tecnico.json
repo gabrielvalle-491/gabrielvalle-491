@@ -1,0 +1,73 @@
+{
+  "id": "B-021",
+  "duracion_s": 36.328,
+  "frases": 9,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.798,
+      "beats": [
+        -5.0,
+        2.197
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.798,
+      "fin": 16.313,
+      "beats": [
+        0.0,
+        5.431
+      ],
+      "plantilla": "linea"
+    },
+    {
+      "inicio": 16.313,
+      "fin": 30.04,
+      "beats": [
+        0.0,
+        4.704,
+        10.082
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 30.04,
+      "fin": 36.328,
+      "beats": [
+        0.0,
+        3.005
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.08",
+    "input_tp": "-6.24",
+    "input_lra": "3.00",
+    "input_thresh": "-32.29",
+    "output_i": "-14.20",
+    "output_tp": "-1.50",
+    "output_lra": "2.30",
+    "output_thresh": "-24.38",
+    "normalization_type": "dynamic",
+    "target_offset": "0.20"
+  },
+  "fotogramas_unicos": 256,
+  "tts_cache": 0,
+  "spec_hash": "f7a70cadd07b4114",
+  "segundos_produccion": 89.6,
+  "texto_hablado": [
+    "Guardas mil dólares sin moverlos.",
+    "¿Cuánto compran dentro de cinco años?",
+    "Con una inflación ilustrativa de cinco por ciento anual, el poder de compra cae año tras año.",
+    "Al final del año cinco, tus mil dólares compran lo que hoy compran unos setecientos ochenta y cuatro dólares.",
+    "Lo que hoy cuesta mil, en cinco años costará unos mil doscientos setenta y seis.",
+    "Divide tus mil entre uno coma dos siete seis y obtienes unos setecientos ochenta y cuatro.",
+    "Es una pérdida de unos doscientos dieciséis en poder de compra.",
+    "El monto sigue siendo mil, pero alcanza para menos.",
+    "Haz la cuenta con la inflación de tu país."
+  ]
+}

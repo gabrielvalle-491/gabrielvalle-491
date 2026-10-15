@@ -1,0 +1,37 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:05.363
+Mito: si el interés es de 2 % mensual, la tasa anual es de 24 %.
+
+00:00:05.523 --> 00:00:10.167
+Realidad: con interés sobre interés, es de 26,82 %.
+
+00:00:10.447 --> 00:00:12.368
+Mes uno: 100 pasan a 102.
+
+00:00:12.528 --> 00:00:15.850
+Mes dos: 102 pasan a 104,04.
+
+00:00:16.010 --> 00:00:19.499
+Al mes doce, 100 pasan a 126,82.
+
+00:00:19.659 --> 00:00:21.430
+Eso es interés sobre interés.
+
+00:00:21.710 --> 00:00:24.905
+En Excel, la función INT.EFECTIVO hace la cuenta.
+
+00:00:25.065 --> 00:00:28.352
+Primero, la tasa nominal anual: 24 %.
+
+00:00:28.512 --> 00:00:31.106
+Después, las capitalizaciones por año: 12.
+
+00:00:31.266 --> 00:00:34.310
+Resultado: 26,82 %.
+
+00:00:34.590 --> 00:00:36.650
+Por eso, compara tasas con la misma
+
+00:00:36.650 --> 00:00:39.709
+base: nominal con nominal, o efectiva con efectiva.

@@ -1,0 +1,219 @@
+{
+  "id": "A-046",
+  "puntaje": 100.0,
+  "estado": "aprobado",
+  "criticos": [],
+  "motivos": [],
+  "controles": [
+    {
+      "control": "ficha completa y válida",
+      "ok": true,
+      "detalle": "",
+      "peso": 30,
+      "critico": true
+    },
+    {
+      "control": "cálculos reproducibles correctos",
+      "ok": true,
+      "detalle": "",
+      "peso": 25,
+      "critico": true
+    },
+    {
+      "control": "cifras de la narración con respaldo",
+      "ok": true,
+      "detalle": "sin respaldo: ",
+      "peso": 15,
+      "critico": true
+    },
+    {
+      "control": "sin frases de riesgo ni voseo",
+      "ok": true,
+      "detalle": "",
+      "peso": 20,
+      "critico": true
+    },
+    {
+      "control": "ortografía (diccionario es + términos del proyecto)",
+      "ok": true,
+      "detalle": "dudosas: ",
+      "peso": 6,
+      "critico": false
+    },
+    {
+      "control": "al menos una fuente verificable o cálculo propio",
+      "ok": true,
+      "detalle": "",
+      "peso": 15,
+      "critico": true
+    },
+    {
+      "control": "título coherente con el contenido",
+      "ok": true,
+      "detalle": "palabras del título presentes: ['paso', 'razone']",
+      "peso": 10,
+      "critico": true
+    },
+    {
+      "control": "declaración de contenido sintético evaluada",
+      "ok": true,
+      "detalle": "{'decision': 'declarar', 'motivo': 'Voz sintética realista; gráficos no realistas. Se declara por prudencia.'}",
+      "peso": 5,
+      "critico": false
+    },
+    {
+      "control": "recursos externos con licencia documentada",
+      "ok": true,
+      "detalle": "",
+      "peso": 15,
+      "critico": true
+    },
+    {
+      "control": "diferenciación frente a la biblioteca",
+      "ok": true,
+      "detalle": "más parecido: A-068 (0.28)",
+      "peso": 20,
+      "critico": true
+    },
+    {
+      "control": "gancho en la primera frase (≤ 18 palabras)",
+      "ok": true,
+      "detalle": "¿Pedirle a la IA que razone paso a paso sirve de algo?",
+      "peso": 4,
+      "critico": false
+    },
+    {
+      "control": "archivo reproducible (ffprobe)",
+      "ok": true,
+      "detalle": "",
+      "peso": 5,
+      "critico": false
+    },
+    {
+      "control": "resolución y relación de aspecto",
+      "ok": true,
+      "detalle": "1080x1920",
+      "peso": 30,
+      "critico": true
+    },
+    {
+      "control": "códec H.264 yuv420p",
+      "ok": true,
+      "detalle": "h264 yuv420p",
+      "peso": 15,
+      "critico": true
+    },
+    {
+      "control": "30 fps constantes",
+      "ok": true,
+      "detalle": "30.0",
+      "peso": 10,
+      "critico": true
+    },
+    {
+      "control": "audio AAC 48 kHz estéreo",
+      "ok": true,
+      "detalle": "aac 48000 2",
+      "peso": 15,
+      "critico": true
+    },
+    {
+      "control": "duración de Short (≤ 60 s objetivo, ≤ 180 s límite)",
+      "ok": true,
+      "detalle": "36.6s",
+      "peso": 15,
+      "critico": false
+    },
+    {
+      "control": "tamaño razonable (< 256 GB y > 0)",
+      "ok": true,
+      "detalle": "7.3 MB",
+      "peso": 5,
+      "critico": true
+    },
+    {
+      "control": "volumen integrado ≈ -14 LUFS",
+      "ok": true,
+      "detalle": "-14.0 LUFS",
+      "peso": 8,
+      "critico": false
+    },
+    {
+      "control": "sin saturación (pico ≤ -1 dBFS)",
+      "ok": true,
+      "detalle": "pico -1.4 dBFS",
+      "peso": 8,
+      "critico": false
+    },
+    {
+      "control": "sin silencios largos en medio",
+      "ok": true,
+      "detalle": "[]",
+      "peso": 10,
+      "critico": true
+    },
+    {
+      "control": "sin pantallas negras",
+      "ok": true,
+      "detalle": "[]",
+      "peso": 20,
+      "critico": true
+    },
+    {
+      "control": "textos dentro de su caja (sin desbordes)",
+      "ok": true,
+      "detalle": "[]",
+      "peso": 10,
+      "critico": true
+    },
+    {
+      "control": "duración del archivo = línea de tiempo",
+      "ok": true,
+      "detalle": "archivo 36.57s vs plan 36.563",
+      "peso": 10,
+      "critico": true
+    },
+    {
+      "control": "voz completa (velocidad 9-20 caracteres/s)",
+      "ok": true,
+      "detalle": "16.1 car/s",
+      "peso": 15,
+      "critico": true
+    },
+    {
+      "control": "subtítulos sincronizados y ordenados",
+      "ok": true,
+      "detalle": "11 bloques",
+      "peso": 15,
+      "critico": true
+    },
+    {
+      "control": "subtítulos = narración",
+      "ok": true,
+      "detalle": "similitud 1.00",
+      "peso": 15,
+      "critico": true
+    },
+    {
+      "control": "subtítulos legibles (≤ 84 caracteres por bloque)",
+      "ok": true,
+      "detalle": "",
+      "peso": 4,
+      "critico": false
+    },
+    {
+      "control": "portada/primer fotograma generado",
+      "ok": true,
+      "detalle": "A-046.png",
+      "peso": 5,
+      "critico": false
+    },
+    {
+      "control": "coste registrado",
+      "ok": true,
+      "detalle": "USD 0 en servicios (todo local); electricidad estimada en el informe de costos",
+      "peso": 0,
+      "critico": false
+    }
+  ]
+}
