@@ -9,7 +9,7 @@ import shutil
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from . import db
+from . import cursos, db
 from .config import cargar_canal, cargar_canales, ruta
 from .specs import listar_fichas
 
@@ -38,6 +38,20 @@ def puntuar_titulo(t: str, palabras_clave: list[str]) -> dict:
 def descripcion_final(spec: dict) -> str:
     canal = cargar_canal(spec["canal"])
     partes = [spec["descripcion"].strip()]
+    lec = cursos.leccion_de(spec)
+    if lec:
+        partes.insert(0, f"Curso gratuito «{lec['curso_titulo']}» · Lección {lec['n']} de {lec['total']} "
+                         f"(Módulo {lec['modulo_n']}: {lec['modulo']}).")
+        enlace = cursos.enlace_material(spec)
+        if enlace:
+            archivos = ", ".join(m["archivo"] for m in spec.get("materiales", []))
+            partes.append(f"Material de práctica gratuito ({archivos}): {enlace}")
+        caps = cursos.capitulos(spec, cursos.leer_tecnico(spec))
+        if caps and not cursos.validar_capitulos(caps):
+            partes.append("Capítulos:\n" + cursos.texto_capitulos(caps))
+        lista = (cursos.temario(spec["canal"]) or {}).get("enlace_lista")
+        if lista:
+            partes.append(f"Curso completo (lista de reproducción): {lista}")
     nota = canal.datos.get("convenciones", {}).get("nota_separador")
     if nota and any(e["visual"]["plantilla"] in ("formula", "planilla") for e in spec["escenas"]):
         partes.append(nota)
@@ -93,6 +107,8 @@ def metadatos(spec: dict) -> dict:
         "promocion_pagada": bool(spec.get("promocion_pagada", False)),
         "hipotesis": spec.get("hipotesis", ""), "pilar": spec.get("pilar"), "serie": spec.get("serie"),
         "tipo_editorial": spec.get("tipo_editorial"),
+        "curso": spec.get("curso"), "leccion": (cursos.leccion_de(spec) or {}).get("n"),
+        "materiales": [m["archivo"] for m in spec.get("materiales", [])],
     }
 
 
@@ -119,6 +135,10 @@ CASILLAS EN YOUTUBE STUDIO:
 - Contenido alterado o sintético (IA): {marcar_ia} — motivo: {ds.get('motivo', '')}
 - Promoción pagada: {'SÍ' if m['promocion_pagada'] else 'No'}
 - Subtítulos: el video ya los trae incrustados; opcionalmente subí el archivo .srt (Español latinoamericano)
+""" + (f"""- Curso: agregá el video a la lista de reproducción del curso (lección {m['leccion']}).
+- Material de práctica: subí {', '.join(m['materiales'])} a tu Drive (acceso "cualquier persona con el enlace"),
+  pegá el enlace en cursos/<canal>.yaml (enlace_material) y volvé a exportar.
+""" if m.get("curso") else "") + """
 
 Títulos alternativos para pruebas futuras:
 - """ + "\n- ".join(m["titulos_alternativos"]) + "\n"
@@ -154,6 +174,16 @@ def exportar(canal: str | None = None, desde: str | None = None, hasta: str | No
                 src = ch.dir_salida(sub) / f"{spec['id']}.{ext}"
                 if src.exists():
                     shutil.copy2(src, carpeta / (f"portada.png" if ext == "png" else f"{spec['id']}.{ext}"))
+            for ext in ("jpg",):
+                src = ch.dir_salida("thumbnails") / f"{spec['id']}.{ext}"
+                if src.exists():
+                    shutil.copy2(src, carpeta / f"miniatura_1280x720.{ext}")
+            mat_dir = ch.dir_salida("materiales", spec["id"])
+            for f_mat in mat_dir.glob("*"):
+                shutil.copy2(f_mat, carpeta / f_mat.name)
+            if cursos.MARCA_ENLACE in m["descripcion"]:
+                pendientes.append({"id": spec["id"], "fecha": f, "estado": "falta_enlace",
+                                   "motivo": "falta el enlace público del material (cursos/<canal>.yaml → enlace_material)"})
             (carpeta / "PUBLICAR.txt").write_text(_texto_publicacion(m), encoding="utf-8")
             (carpeta / "metadatos.json").write_text(json.dumps(m, ensure_ascii=False, indent=2), encoding="utf-8")
             filas.append({"fecha_hora_ar": m["publicar_en_hora_argentina"], "id": spec["id"], "formato": spec["formato"],

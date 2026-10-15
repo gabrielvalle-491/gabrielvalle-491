@@ -113,6 +113,15 @@
       const box = el.classList.contains('fitw') ? el.parentElement : el;
       if (box.scrollWidth > box.clientWidth + 4) overflow.push('ancho ' + el.className + ': ' + el.textContent.slice(0, 40));
     });
+    // nada puede salirse del escenario (por abajo pisaría los subtítulos)
+    const st = document.getElementById('stage');
+    if (st) {
+      const lim = st.getBoundingClientRect().bottom + 4;
+      st.querySelectorAll(':scope > *, .sheet, .list, .steps, .calc, .opts, .vs').forEach(el => {
+        const b = el.getBoundingClientRect().bottom;
+        if (b > lim) overflow.push('alto ' + el.className + ': sobra ' + Math.round(b - lim + 4) + 'px');
+      });
+    }
     return { beats, overflow };
   };
 

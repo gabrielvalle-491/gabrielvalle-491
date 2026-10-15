@@ -10,3 +10,5 @@ pyspellchecker>=0.8
 requests>=2.31
 pytest>=8.0
 spylls>=0.1.7
+openpyxl>=3.1
+Pillow>=10.0

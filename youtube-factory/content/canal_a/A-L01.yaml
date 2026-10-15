@@ -1,0 +1,232 @@
+id: A-L01
+canal: canal_a
+curso: ia-para-tu-trabajo
+fecha: 2026-10-27
+formato: largo
+serie: "Curso: IA para tu trabajo"
+episodio: "Lección 1"
+pilar: conceptos
+tipo_editorial: tutorial
+idea: "Primera lección del curso: qué es un asistente de IA, cómo genera texto (predicción del siguiente fragmento), qué hace bien y qué hace mal, por qué puede inventar con seguridad, cómo funciona la conversación y una primera práctica guiada con un archivo de prompts."
+objetivo: "Que una persona que nunca usó un asistente de IA entienda cómo responde, sepa cuándo desconfiar y termine la lección con una primera conversación útil hecha por su cuenta."
+publico: "Personas que trabajan en oficinas, comercios o de forma independiente y empiezan con asistentes de IA."
+hipotesis: "Formato curso (portada con objetivos + capítulos + ejercicio con archivo): medir retención media y % que pasa a la lección 2 desde la pantalla final, contra el promedio de videos largos del canal."
+gancho: "Antes de pedirle algo a una IA, conviene entender cómo arma sus respuestas: te ahorra errores y frustración."
+duracion_objetivo: "8-12 min (≈1 100-1 500 palabras)"
+titulo: "Curso de IA desde cero · Lección 1: qué es un asistente de IA y cómo funciona"
+titulos_alternativos:
+  - "Cómo funciona ChatGPT, Gemini o Claude, sin tecnicismos (Lección 1)"
+  - "IA para tu trabajo desde cero: qué hace bien, qué hace mal y cómo empezar"
+  - "Lección 1: entiende cómo responde una IA antes de usarla en tu trabajo"
+criterio_titulo: "Nombra el curso y el número de lección (serie) y la búsqueda real del principiante: qué es y cómo funciona un asistente de IA."
+descripcion: |
+  Primera lección del curso gratuito «IA para tu trabajo». Entiendes cómo genera sus respuestas un asistente de IA (ChatGPT, Gemini, Claude o Copilot), qué hace bien, qué hace mal y por qué a veces inventa con total seguridad. Terminas con tu primera conversación útil, guiada paso a paso.
+  Al final hay un ejercicio con un archivo de prompts listo para copiar. Sirve con la versión gratuita de cualquier asistente.
+cta: "Descarga el archivo de prompts, haz el ejercicio y nos vemos en la lección 2."
+comentario_fijado: "Lección 1 del curso IA para tu trabajo. ¿Qué asistente usaste en el ejercicio y qué te sorprendió de la respuesta? En la lección 2 armamos prompts en cuatro partes: rol, tarea, contexto y formato."
+hashtags: ["#InteligenciaArtificial", "#CursoDeIA", "#ChatGPT"]
+palabras_clave: ["curso de inteligencia artificial", "cómo funciona chatgpt", "asistente de IA", "IA para el trabajo"]
+materiales:
+  - archivo: "Leccion01_prompts.txt"
+    tipo: texto
+    contenido: |
+      CURSO «IA PARA TU TRABAJO» · LECCIÓN 1 · ARCHIVO DE PRÁCTICA (Atajo IA)
+      Copia cada prompt en tu asistente de IA (ChatGPT, Gemini, Claude o Copilot; la versión gratuita alcanza).
+      Reemplaza lo que está entre [CORCHETES]. No pegues datos personales ni de clientes.
+
+      EJERCICIO 1 · Pide una explicación a tu medida
+      Explícame qué es [UN TEMA DE TU TRABAJO] en cinco puntos, con palabras simples y un ejemplo de [TU OFICIO O RUBRO].
+
+      EJERCICIO 2 · Corrige sin empezar de cero (en la misma conversación)
+      Más corto: tres puntos. Y cambia el ejemplo por uno de [OTRA SITUACIÓN DE TU TRABAJO].
+
+      EJERCICIO 3 · Pide que marque sus dudas
+      De lo que me dijiste, ¿qué partes conviene que verifique en una fuente oficial? Indícame cuáles y por qué.
+
+      EJERCICIO 4 · Compara (en un chat nuevo)
+      Abre un chat nuevo, pega otra vez el prompt del ejercicio 1 y compara: ¿qué cambió? ¿Qué se mantuvo?
+
+      LISTA DE CONTROL
+      [ ] La respuesta usa mi ejemplo y no uno genérico.
+      [ ] Entiendo cada punto y podría explicarlo con mis palabras.
+      [ ] Marqué qué datos tengo que verificar antes de usarlos.
+      [ ] No pegué nombres, documentos ni datos de clientes.
+escenas:
+  - narracion: "Antes de pedirle algo a una IA, conviene entender cómo arma sus respuestas: te ahorra errores y frustración. Te doy la bienvenida a *IA para tu trabajo*, el curso gratuito de Atajo IA. En esta primera lección vas a entender cómo genera sus respuestas un asistente de IA, qué hace bien y qué hace mal, y vas a tener tu primera conversación útil."
+    visual:
+      plantilla: curso_portada
+      datos: {beat_objetivos: 2}
+  - narracion: "Así funciona el curso. Son doce lecciones en tres módulos: fundamentos, IA en el día a día, e IA para un negocio. Cada lección tiene capítulos, para que vayas directo a lo que necesitas. Y cada una termina con un ejercicio y un archivo de práctica, que está en la descripción. Puedes seguirlo con la versión gratuita de ChatGPT, Gemini, Claude o Copilot: lo que aprendes sirve para cualquiera."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Cómo funciona el curso"
+        estilo: check
+        beat_inicio: 1
+        items:
+          - {texto: "12 lecciones en 3 módulos", detalle: "Fundamentos · Día a día · Negocio"}
+          - {texto: "Capítulos en cada video", detalle: "Ve directo a lo que necesitas"}
+          - {texto: "Ejercicio + archivo de práctica", detalle: "Enlace en la descripción"}
+          - {texto: "Cualquier asistente", detalle: "ChatGPT, Gemini, Claude o Copilot"}
+  - narracion: "Qué es y cómo responde."
+    capitulo: "Qué es y cómo responde"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "Qué es y cómo *responde*"}
+  - narracion: "Un asistente de IA como ChatGPT, Gemini o Claude funciona sobre un *modelo de lenguaje*. Es un programa entrenado con enormes cantidades de texto para hacer una sola cosa muy bien: estimar qué fragmento de texto viene después. Escribe su respuesta pedazo a pedazo, y cada pedazo depende de lo que ya escribió y de lo que tú le pediste."
+    visual:
+      plantilla: texto
+      datos:
+        kicker: "La idea central"
+        titulo: "Un *modelo de lenguaje*"
+        texto: "Un programa entrenado con muchísimo texto para estimar qué fragmento viene después."
+        nota: "Escribe la respuesta pedazo a pedazo"
+  - narracion: "Míralo con un ejemplo. Si la frase es: el café de la mañana está, el modelo calcula qué tan probable es cada continuación. Caliente parece muy probable. Listo, también. Azul, casi nada. Elige una continuación, la agrega, y repite el proceso con la frase ya un poco más larga. Las barras son un ejemplo ilustrativo, no medidas reales."
+    visual:
+      plantilla: barras
+      datos:
+        titulo: "«El café de la mañana está…»"
+        sufijo: " %"
+        maximo: 100
+        beat_inicio: 2
+        items:
+          - {etiqueta: "caliente", valor: 62, destacado: true}
+          - {etiqueta: "listo", valor: 27}
+          - {etiqueta: "azul", valor: 1, tenue: true}
+        nota: "Probabilidades ilustrativas, no medidas reales"
+  - narracion: "Esos pedazos se llaman *tokens*. Un token puede ser una palabra entera, una parte de una palabra o un signo. No necesitas contarlos, pero conviene saber dos cosas. Primero, el modelo no lee como tú: trabaja con esos fragmentos. Y segundo, cada conversación tiene un límite de cuánto texto puede tener en cuenta a la vez."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "¿Qué es un *token*?"
+        items:
+          - {texto: "Un fragmento de texto", detalle: "Palabra, parte de palabra o signo", beat: 1}
+          - {texto: "El modelo trabaja con tokens", detalle: "No lee como una persona", beat: 3}
+          - {texto: "Hay un límite por conversación", detalle: "No recuerda textos infinitos", beat: 4}
+  - narracion: "Lo que hace bien y lo que hace mal."
+    capitulo: "Lo que hace bien y lo que hace mal"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "Lo que hace *bien* y lo que hace *mal*"}
+  - narracion: "Por cómo funciona, es muy bueno con el lenguaje: redactar, resumir, reescribir con otro tono, explicar un tema con ejemplos o darte ideas para empezar. Y es flojo justo donde necesitas exactitud: datos recientes, cifras precisas, citas y fuentes, o cualquier cosa sobre tu empresa que nunca le contaste. Conclusión: úsalo para el primer borrador y para pensar, y verifica todo lo que sea un dato."
+    visual:
+      plantilla: versus
+      datos:
+        titulo: "Dónde ayuda y dónde desconfiar"
+        izq: {etiqueta: "Hace bien", titulo: "Lenguaje", items: ["Redactar y resumir", "Cambiar el tono", "Explicar y dar ideas"]}
+        der: {etiqueta: "Hace mal", titulo: "Exactitud", items: ["Datos recientes y cifras", "Citas y fuentes", "Lo que no le contaste"]}
+        veredicto: "Borrador y pensamiento: sí. Datos: *verifica*"
+  - narracion: "Un mito muy común: que la IA busca la respuesta en una base de datos y por eso siempre acierta. No es así. Genera el texto más probable, y a veces lo más probable suena perfecto y es falso. Eso se llama *alucinación*. La propia OpenAI advierte que ChatGPT puede inventar datos o citas y responder con mucha seguridad aunque esté equivocado."
+    visual:
+      plantilla: mito
+      datos:
+        mito: "Busca la respuesta en una base de datos, así que siempre acierta"
+        realidad: "Genera el texto más probable: puede sonar seguro y ser *falso*"
+        fuente: "OpenAI, centro de ayuda de ChatGPT"
+        beat_realidad: 2
+  - narracion: "Por eso, tres señales de alerta. Una cifra muy exacta sin fuente. Una cita, un libro o un enlace que no puedes encontrar. Y una respuesta segurísima sobre algo muy específico o muy reciente. Cuando veas alguna, verifica en una fuente oficial antes de usar ese dato. En la lección 3 lo vemos a fondo."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Señales de alerta"
+        estilo: x
+        beat_inicio: 1
+        items:
+          - "Cifra exacta sin fuente"
+          - "Cita o enlace que no aparece"
+          - "Seguridad total en algo muy específico"
+  - narracion: "Cómo hablarle: la conversación."
+    capitulo: "Cómo hablarle: la conversación"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "Cómo hablarle: la *conversación*"}
+  - narracion: "Cuatro ideas para conversar mejor. La primera: dentro de un mismo chat, el asistente tiene en cuenta lo que ya hablaron, así que puedes corregir sin repetir todo. La segunda: si cambias de tema, abre un chat nuevo, para que lo anterior no mezcle las cosas. La tercera: la misma pregunta puede dar respuestas distintas cada vez, y eso es normal. Y la cuarta: cuanto más contexto le das, menos tiene que adivinar."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Cuatro reglas de la conversación"
+        beat_inicio: 1
+        pasos:
+          - {titulo: "Corrige en el mismo chat", detalle: "Recuerda lo que ya hablaron"}
+          - {titulo: "Tema nuevo, chat nuevo", detalle: "Evita que se mezclen las cosas"}
+          - {titulo: "Respuestas que varían", detalle: "Es normal: no es un buscador"}
+          - {titulo: "Más contexto, menos adivinanza", detalle: "Tu rubro, tu objetivo, tu público"}
+  - narracion: "Fíjate en la diferencia. Si escribes solo: explícame qué es un presupuesto, recibes una explicación genérica. Si agregas tu oficio, el nivel y el formato, la respuesta se adapta a ti. Los corchetes son las partes que cambias por tus datos. En la próxima lección armamos este tipo de pedido paso a paso."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Pedido con contexto"
+        texto: "Explícame qué es [UN TEMA DE TU TRABAJO] en cinco puntos, con palabras simples y un ejemplo de [TU OFICIO O RUBRO]."
+        nota: "Entre [corchetes]: lo que cambias por tus datos"
+        beat_nota: 3
+  - narracion: "Una regla de seguridad desde el día uno: no pegues datos personales, contraseñas ni información de clientes en un chat de IA. Si necesitas un ejemplo real, cambia los nombres y los números. La lección 4 está dedicada entera a la privacidad."
+    visual:
+      plantilla: dato
+      datos:
+        kicker: "Seguridad desde el día uno"
+        dato: "No pegues *datos personales*, contraseñas ni información de clientes"
+        contexto: "¿Necesitas un ejemplo real? Cambia nombres y números"
+  - narracion: "Práctica."
+    capitulo: "Práctica"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "*Práctica*", sub: "Archivo de prompts en la descripción"}
+  - narracion: "Tu turno. Descarga el archivo de prompts de la descripción y abre tu asistente de IA. Primero, pide una explicación de un tema de tu trabajo, con un ejemplo de tu rubro. Después, en el mismo chat, pídele que lo acorte y que cambie el ejemplo. Luego, pregúntale qué partes conviene verificar. Y por último, abre un chat nuevo, repite el primer pedido y compara. Pausa el video y hazlo ahora."
+    visual:
+      plantilla: ejercicio
+      datos:
+        consigna: "Tu primera conversación *útil*"
+        pausa: "Pausa el video y hazlo"
+        beat_pasos: 2
+        pasos:
+          - "Pide una explicación con tu ejemplo"
+          - "Corrígela en el mismo chat"
+          - "Pregunta qué conviene verificar"
+          - "Repite en un chat nuevo y compara"
+  - narracion: "Qué deberías notar. La respuesta del segundo pedido se adapta sin que repitas todo: eso es el contexto del chat. En el chat nuevo, la respuesta cambia un poco: eso es la generación probable. Y cuando le preguntas qué verificar, suele señalar cifras, fechas o normas. Esas son justo las partes que no conviene copiar sin revisar."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Qué deberías notar"
+        estilo: check
+        beat_inicio: 1
+        items:
+          - {texto: "Corrige sin repetir todo", detalle: "El chat recuerda el contexto"}
+          - {texto: "En un chat nuevo, cambia", detalle: "Genera, no busca"}
+          - {texto: "Marca cifras, fechas y normas", detalle: "Lo que siempre verificas"}
+  - narracion: "Repasemos. Un asistente de IA genera texto probable, pedazo a pedazo. Es excelente para redactar, resumir y explicar, y poco confiable con datos exactos sin verificar. Y conversar bien es corregir en el mismo chat, abrir uno nuevo para cada tema y darle contexto. En la próxima lección armamos tu primer buen prompt en cuatro partes: rol, tarea, contexto y formato. Descarga el archivo, haz el ejercicio y nos vemos en la lección 2."
+    visual:
+      plantilla: curso_cierre
+      datos:
+        titulo: "Lo que aprendiste hoy"
+        puntos: ["Genera texto probable, pedazo a pedazo", "Úsalo para redactar; verifica los datos", "Mismo chat para corregir, nuevo para otro tema"]
+        cta: "Suscríbete para la lección 2"
+        beat_siguiente: 4
+        beat_cta: 5
+fuentes:
+  - url: "https://developers.google.com/machine-learning/resources/intro-llms"
+    titulo: "Introduction to Large Language Models (Google for Developers)"
+    fecha_consulta: 2026-10-15
+    respalda: "Un modelo de lenguaje estima la probabilidad del siguiente token de una secuencia; esa predicción sirve para generar texto, traducir y responder preguntas."
+  - url: "https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them"
+    titulo: "What are tokens and how to count them? (OpenAI Help Center)"
+    fecha_consulta: 2026-10-15
+    respalda: "Los tokens son las unidades de texto que procesan los modelos; pueden ser un carácter, parte de una palabra o una palabra entera, según el idioma y el contexto."
+  - url: "https://help.openai.com/en/articles/8313428-does-chatgpt-tell-the-truth"
+    titulo: "Does ChatGPT tell the truth? (OpenAI Help Center)"
+    fecha_consulta: 2026-10-15
+    respalda: "ChatGPT puede producir afirmaciones inexactas (alucinaciones), como citas inventadas, y expresar mucha confianza en respuestas incorrectas; OpenAI recomienda verificar la información importante en fuentes confiables."
+  - metodo_propio: true
+    respalda: "Las probabilidades de las barras (caliente, listo, azul) son un ejemplo ilustrativo declarado en pantalla y en la narración; no se presentan como medidas de ningún modelo real."
+riesgos:
+  derechos: "bajo — se mencionan marcas de asistentes solo de forma descriptiva; sin logos ni capturas"
+  exactitud: "bajo — el funcionamiento (predicción de tokens) y las alucinaciones están documentados por Google y OpenAI; las probabilidades del ejemplo se declaran ilustrativas"
+  monetizacion: "bajo — contenido educativo general"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+  - {nombre: "Archivo de práctica Leccion01_prompts.txt escrito por el canal", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["segurísima", "Atajo", "tokens", "token", "ChatGPT", "OpenAI", "Copilot", "Gemini", "Claude"]

@@ -14,6 +14,27 @@ def ruta(*partes: str) -> Path:
     return RAIZ.joinpath(*partes)
 
 
+def en_carpeta_sincronizada() -> bool:
+    """True si el proyecto está dentro de OneDrive/Dropbox/Google Drive (sincronizan miles de archivos temporales)."""
+    t = str(RAIZ).lower()
+    return any(x in t for x in ("onedrive", "dropbox", "google drive", "googledrive", "icloud"))
+
+
+def dir_trabajo(*partes: str) -> Path:
+    """Carpeta de archivos temporales del render (fotogramas, audio intermedio).
+    Usa FABRICA_TRABAJO si está definida; si el proyecto está en una carpeta sincronizada (p. ej. el
+    Escritorio con OneDrive), usa la carpeta temporal del sistema para no saturar la sincronización."""
+    import tempfile
+    base = os.environ.get("FABRICA_TRABAJO")
+    if base:
+        b = Path(base)
+    elif en_carpeta_sincronizada():
+        b = Path(tempfile.gettempdir()) / "fabrica_youtube_trabajo"
+    else:
+        b = ruta("output", "_trabajo")
+    return b.joinpath(*partes)
+
+
 def _cargar_yaml(p: Path) -> dict:
     with open(p, encoding="utf-8") as f:
         return yaml.safe_load(f) or {}

@@ -1,5 +1,8 @@
 # Estrategia de videos largos
 
+> **Actualización 2026-10-15:** los largos pasaron a formato **curso** (12 lecciones por canal). Ver `strategy/cursos.md`.
+> Lo que sigue queda como historial de la decisión original.
+
 **Decisión:** un video largo semanal por canal desde la semana 2, es decir, 12 por canal en el trimestre (ver los calendarios).
 
 **Por qué:** las horas de visualización del YPP solo cuentan en videos largos (ver `monetizacion.md`). Los largos además

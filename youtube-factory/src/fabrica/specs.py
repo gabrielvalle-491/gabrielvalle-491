@@ -78,6 +78,15 @@ def validar(spec: dict) -> list[str]:
             err.append(f"fuente sin campo 'respalda': {f.get('url') or f.get('calculo')}")
         if f.get("metodo_propio") and len(str(f.get("respalda", ""))) < 30:
             err.append("'metodo_propio' requiere explicar en 'respalda' por qué no hay afirmaciones externas")
+    if spec.get("curso"):
+        from .cursos import validar_leccion
+        err += validar_leccion(spec)
+    elif any(e.get("visual", {}).get("plantilla") in ("curso_portada", "capitulo", "curso_cierre") for e in spec["escenas"]):
+        err.append("las plantillas de curso solo se usan en fichas de lección (campo 'curso:')")
+    if spec["formato"] == "largo":
+        palabras = len(narracion_completa(spec).split())
+        if not 600 <= palabras <= 2300:
+            err.append(f"narración de video largo fuera de rango ({palabras} palabras; 600-2300 ≈ 4-15 min)")
     if spec["formato"] == "short":
         palabras = len(narracion_completa(spec).split())
         if palabras > 190:

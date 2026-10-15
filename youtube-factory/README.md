@@ -1,7 +1,7 @@
 # Fábrica de contenido YouTube — Atajo IA + Celda Clara
 
 Sistema automatizado y gratuito para investigar, escribir, narrar, animar, revisar y empaquetar Shorts
-originales para **dos canales independientes**. Opera desde Villa Mercedes (San Luis, Argentina) y apunta
+originales y **lecciones de curso en formato largo** para **dos canales independientes**. Opera desde Villa Mercedes (San Luis, Argentina) y apunta
 a Latinoamérica y la audiencia hispana de EE. UU.
 
 | Canal | Nicho | Tono |
@@ -20,6 +20,16 @@ Políticas de YouTube, API y licencias: `research/politicas_y_apis.md`.
 3. Haz doble clic en **`instalar.bat`**. Instala FFmpeg, los paquetes, el navegador interno y el modelo de voz (~350 MB). Al final muestra un diagnóstico.
 
 En Linux o macOS usa `./instalar.sh` y luego `./fabrica.sh <comando>`.
+
+**Si la carpeta está en el Escritorio con OneDrive** (por ejemplo `C:\Users\<usuario>\OneDrive\Desktop\...`): funciona,
+pero OneDrive intenta sincronizar cada archivo temporal del render y los ~1 GB de videos. La fábrica lo detecta y manda
+los temporales a la carpeta temporal de Windows, pero lo más cómodo es mover `youtube-factory` a una ruta sin
+sincronizar, por ejemplo `C:\fabrica-youtube`. `fabrica.bat diagnostico` te avisa si está en una carpeta sincronizada.
+
+**Actualizar tu copia:** si descargaste el ZIP desde GitHub, descarga de nuevo el ZIP de la rama `main` después de
+aceptar cada pull request y copia encima **sin borrar** tus carpetas `secrets\`, `data\`, `output\` y `paquetes\`
+(ahí están tus credenciales, la base de datos y los videos). Más simple a largo plazo: instalar Git o GitHub Desktop
+y usar "Pull" para traer los cambios.
 
 ## Uso diario: abre una terminal en la carpeta y usa `fabrica.bat <comando>`
 
@@ -40,6 +50,9 @@ En Linux o macOS usa `./instalar.sh` y luego `./fabrica.sh <comando>`.
 | Cargar métricas | `fabrica.bat metricas canal_a` (API) o `fabrica.bat metricas canal_a --csv "Datos de la tabla.csv"` (exportación de Studio) |
 | Informe semanal | `fabrica.bat informe canal_a` |
 | Control final (aprobados y pendientes con motivo) | `fabrica.bat control` |
+| Ver los cursos (videos largos) y el estado de cada lección | `fabrica.bat curso` |
+| Generar y verificar el material de práctica de las lecciones | `fabrica.bat curso --materiales` |
+| Producir una lección de curso | `fabrica.bat producir B-L01` |
 | Ver costos | `fabrica.bat costos` |
 
 ## Publicar (lo más simple)
@@ -95,6 +108,22 @@ youtube-factory/
 10. Exportación.
 
 **Reanudación y errores:** cada etapa queda registrada en `data/factory.db`. Si algo falla, se reintenta 2 veces y luego queda en "error" con el detalle. `producir` saltea lo que ya está hecho y sin cambios (huella del guion). Si editas un guion, solo se vuelve a producir ese video.
+
+## Videos largos en formato CURSO
+Cada canal tiene un curso gratuito de 12 lecciones (3 módulos), una por semana desde la semana 2:
+**Atajo IA → "IA para tu trabajo, desde cero"** (martes) y **Celda Clara → "Excel y Google Sheets desde cero"** (jueves).
+Temarios en `cursos/canal_a.yaml` y `cursos/canal_b.yaml`; estrategia en `strategy/cursos.md`.
+
+Cada lección (8-12 min, 16:9) trae: portada con objetivos, barra de curso (lección N/12, módulo y capítulo actual),
+3-5 capítulos que se convierten en las marcas de tiempo de YouTube, un ejercicio con **archivo de práctica**
+(planilla `.xlsx` con hoja Solución en Celda Clara; prompts `.txt` en Atajo IA), solución y pantalla final con la
+próxima lección. Las fórmulas del material se escriben como en Excel en español y, si tienes LibreOffice instalado,
+la fábrica recalcula el archivo y comprueba cada resultado antes de aprobar.
+
+Para publicar una lección: sube el archivo de práctica a tu Google Drive (compartir → "cualquier persona con el
+enlace"), pega el enlace en `enlace_material` de la lección en `cursos/<canal>.yaml` y vuelve a ejecutar
+`fabrica.bat exportar`. Crea una lista de reproducción por curso en YouTube Studio y agrega cada lección.
+Para escribir lecciones nuevas: `prompts/guionista_curso.md`.
 
 ## Costos
 Todo es local y gratuito: voz, render, música y API de YouTube dentro de la cuota gratuita. **No se contrató ningún servicio.**

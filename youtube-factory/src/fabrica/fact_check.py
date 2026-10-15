@@ -209,7 +209,7 @@ def textos_visibles(spec: dict) -> list[str]:
                 out.append(sin_marcas(x))
             elif isinstance(x, dict):
                 for k, v in x.items():
-                    if k not in ("formula", "codigo", "plantilla", "celda", "rango", "celda_formula", "texto") or k == "texto":
+                    if k not in ("formula", "codigo", "plantilla", "celda", "rango", "celda_formula", "estilo", "texto") or k == "texto":
                         recorrer(v)
             elif isinstance(x, list):
                 for v in x:

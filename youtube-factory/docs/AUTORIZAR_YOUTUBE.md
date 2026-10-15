@@ -36,3 +36,15 @@ fabrica.bat publicar canal_a --desde 2026-10-19 --hasta 2026-10-25 --confirmar
 ```
 `--confirmar` además exige `AUTO_PUBLICAR=1` en `.env` o `publicacion.auto_publicar: true` en `config/global.yaml`.
 Un video figura como "programado" solo si la API lo confirma.
+
+## Opcional: agregar las lecciones a la lista del curso automáticamente
+
+Por defecto la fábrica pide solo permisos para subir videos y leer estadísticas. Para que además agregue cada
+lección a la lista de reproducción de su curso:
+
+1. En `config/global.yaml` pon `publicacion.gestionar_listas: true`.
+2. Pega el id de la lista (lo que va después de `list=` en el enlace) en `lista_youtube_id` de `cursos/<canal>.yaml`.
+3. Vuelve a ejecutar `fabrica.bat autorizar canal_x`: Google te pedirá un permiso adicional ("ver, editar y borrar
+   tus videos de YouTube"), que es el mínimo que la API exige para modificar listas.
+
+Si prefieres no dar ese permiso, deja `gestionar_listas: false` y agrega cada lección a la lista desde Studio.
