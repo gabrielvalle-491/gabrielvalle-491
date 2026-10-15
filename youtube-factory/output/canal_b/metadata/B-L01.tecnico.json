@@ -1,0 +1,380 @@
+{
+  "id": "B-L01",
+  "duracion_s": 334.693,
+  "frases": 84,
+  "subtitulos": 274,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 20.261,
+      "beats": [
+        -5.0,
+        6.1,
+        10.504
+      ],
+      "plantilla": "curso_portada"
+    },
+    {
+      "inicio": 20.261,
+      "fin": 41.616,
+      "beats": [
+        0.0,
+        1.673,
+        7.213,
+        11.786,
+        16.589
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 41.616,
+      "fin": 58.177,
+      "beats": [
+        0.0,
+        2.162,
+        8.617,
+        13.368
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 58.177,
+      "fin": 60.847,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "capitulo"
+    },
+    {
+      "inicio": 60.847,
+      "fin": 81.445,
+      "beats": [
+        0.0,
+        2.139,
+        6.357,
+        9.831,
+        17.054
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 81.445,
+      "fin": 99.752,
+      "beats": [
+        0.0,
+        7.693
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 99.752,
+      "fin": 120.326,
+      "beats": [
+        0.0,
+        1.358
+      ],
+      "plantilla": "dato"
+    },
+    {
+      "inicio": 120.326,
+      "fin": 139.108,
+      "beats": [
+        0.0,
+        2.557,
+        5.386,
+        9.839,
+        12.739
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 139.108,
+      "fin": 140.606,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "capitulo"
+    },
+    {
+      "inicio": 140.606,
+      "fin": 160.697,
+      "beats": [
+        0.0,
+        3.18,
+        6.677,
+        13.896,
+        17.023
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 160.697,
+      "fin": 175.269,
+      "beats": [
+        0.0,
+        2.803,
+        6.483
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 175.269,
+      "fin": 195.544,
+      "beats": [
+        0.0,
+        3.46,
+        6.909,
+        8.66,
+        14.213
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 195.544,
+      "fin": 197.423,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "capitulo"
+    },
+    {
+      "inicio": 197.423,
+      "fin": 215.43,
+      "beats": [
+        0.0,
+        3.404,
+        7.754,
+        10.007
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 215.43,
+      "fin": 226.813,
+      "beats": [
+        0.0,
+        1.607,
+        5.011,
+        7.814
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 226.813,
+      "fin": 243.067,
+      "beats": [
+        0.0,
+        2.311,
+        10.535
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 243.067,
+      "fin": 255.175,
+      "beats": [
+        0.0,
+        1.678,
+        4.583
+      ],
+      "plantilla": "mito"
+    },
+    {
+      "inicio": 255.175,
+      "fin": 272.51,
+      "beats": [
+        0.0,
+        2.363,
+        6.742,
+        12.546
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 272.51,
+      "fin": 273.521,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "capitulo"
+    },
+    {
+      "inicio": 273.521,
+      "fin": 293.826,
+      "beats": [
+        0.0,
+        0.933,
+        5.088,
+        8.692,
+        12.671
+      ],
+      "plantilla": "ejercicio"
+    },
+    {
+      "inicio": 293.826,
+      "fin": 312.402,
+      "beats": [
+        0.0,
+        1.052,
+        6.52,
+        8.603
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 312.402,
+      "fin": 334.693,
+      "beats": [
+        0.0,
+        1.025,
+        3.778,
+        7.307,
+        11.172,
+        17.243
+      ],
+      "plantilla": "curso_cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.04",
+    "input_tp": "-5.80",
+    "input_lra": "2.00",
+    "input_thresh": "-32.13",
+    "output_i": "-14.12",
+    "output_tp": "-1.50",
+    "output_lra": "2.00",
+    "output_thresh": "-24.20",
+    "normalization_type": "dynamic",
+    "target_offset": "0.12"
+  },
+  "fotogramas_unicos": 2316,
+  "tts_cache": 40,
+  "spec_hash": "0b8e8ba425f7a709",
+  "segundos_produccion": 1101.7,
+  "texto_hablado": [
+    "Al terminar esta lección vas a tener tu primera planilla funcionando, con una suma que se actualiza sola.",
+    "Te doy la bienvenida a éxcel desde cero, el curso gratuito de Celda Clara.",
+    "En esta primera lección vas a aprender tres cosas: moverte por filas, columnas y celdas; cargar datos y darles formato; y escribir tu primera fórmula con suma.",
+    "Así funciona el curso.",
+    "Son doce lecciones, en tres módulos: fundamentos, organizar y analizar, y proyectos reales.",
+    "Cada lección tiene capítulos, así que puedes saltar directo a lo que necesitas.",
+    "Y cada una termina con un ejercicio y un archivo de práctica, que está en la descripción.",
+    "Todo funciona igual en éxcel y en gúgol shits, que es gratis con una cuenta de gúgol.",
+    "Una aclaración antes de empezar.",
+    "En este curso las fórmulas usan punto y coma para separar los datos, como en Argentina, Colombia, Chile o España.",
+    "Si tu éxcel está configurado como en México o Estados Unidos, usa coma en su lugar.",
+    "La fórmula es la misma; solo cambia ese separador.",
+    "La cuadrícula: filas, columnas y celdas.",
+    "Una planilla es una cuadrícula.",
+    "Las columnas van de arriba hacia abajo y se nombran con letras: A, B, C.",
+    "Las filas van de izquierda a derecha y se nombran con números.",
+    "Donde una columna se cruza con una fila hay una celda, y su nombre junta las dos cosas: primero la letra y después el número.",
+    "Esta celda resaltada es la be tres, columna B, fila tres.",
+    "Ese nombre se llama dirección o referencia, y es la base de todo: las fórmulas no trabajan con números sueltos, sino con direcciones.",
+    "Cuando más adelante escribas una fórmula, le vas a decir a la planilla qué celdas usar, y ella va a buscar lo que haya adentro.",
+    "Si cambias el contenido, la fórmula se entera sola.",
+    "La hoja es enorme.",
+    "Según Microsoft, una hoja de éxcel tiene un millón cuarenta y ocho mil quinientos setenta y seis filas y dieciséis mil trescientos ochenta y cuatro columnas.",
+    "Después de la Z vienen AA, AB, y así sigue hasta la columna XFD.",
+    "No vas a usar ni una mínima parte, pero sirve para entender por qué conviene moverse con el teclado.",
+    "Cuatro movimientos te ahorran mucho tiempo.",
+    "Con las flechas pasas de una celda a la vecina.",
+    "Con Control y una flecha saltas hasta el borde de los datos en esa dirección.",
+    "Con Control e Inicio vuelves a la celda a uno.",
+    "Y en el cuadro de nombres, arriba a la izquierda, escribes una dirección y presionas Enter para ir directo.",
+    "Datos y formato.",
+    "En una celda puedes escribir cuatro tipos de cosas.",
+    "Texto, como un concepto o un nombre: se alinea a la izquierda.",
+    "Números, como un monto: se alinean a la derecha, y esa es una pista útil para saber si la planilla los reconoce como números.",
+    "Fechas, que en realidad la planilla guarda como números.",
+    "Y fórmulas, que siempre empiezan con el signo igual.",
+    "Probemos con una lista de gastos de una semana.",
+    "En la columna A va el día, en la B el concepto y en la C el monto.",
+    "Fíjate que los montos quedaron alineados a la derecha: la planilla los reconoce como números.",
+    "Los montos son un ejemplo; usa los tuyos.",
+    "Una regla que evita muchos errores: escribe solo el número.",
+    "No escribas el signo de moneda ni puntos de miles a mano.",
+    "Eso lo agrega el formato.",
+    "Selecciona la columna, abre el formato de número y elige número con separador de miles, o moneda.",
+    "La celda se ve distinta, pero el valor guardado es el mismo, y lo puedes comprobar en la barra de fórmulas.",
+    "Tu primera fórmula: suma.",
+    "Para sumar la columna de montos usamos la función suma.",
+    "Empieza con el signo igual, que le avisa a la planilla que viene una fórmula.",
+    "Después el nombre de la función, suma.",
+    "Y entre paréntesis, el rango: de ce dos a ce ocho.",
+    "Los dos puntos significan hasta: todas las celdas desde la primera hasta la última.",
+    "Así queda en la planilla.",
+    "Escribes la fórmula en ce nueve, debajo del último monto.",
+    "El rango toma los siete gastos de la semana.",
+    "Y al presionar Enter aparece el total: sesenta y uno mil.",
+    "Dos atajos para no escribirla a mano.",
+    "En éxcel, te paras debajo de los números y presionas Alt y el signo igual: aparece la suma con el rango ya elegido, y solo confirmas con Enter.",
+    "Y en éxcel o en shits, puedes empezar a escribir igual, ese u, y elegir suma de la lista que aparece.",
+    "Ahora lo más importante.",
+    "Cambia el monto del supermercado y mira el total.",
+    "Se actualizó solo.",
+    "No hace falta volver a sumar, porque la fórmula no guardó un número: guardó la instrucción de sumar ese rango.",
+    "Tres errores típicos del principio.",
+    "Escribir la fórmula sin el signo igual: la planilla la muestra como texto.",
+    "Escribir los montos con puntos o símbolos a mano: a veces quedan como texto y la suma los ignora.",
+    "Y dejar el total dentro del rango que sumas, que genera una referencia circular.",
+    "Práctica.",
+    "Tu turno.",
+    "Descarga el archivo de práctica de la descripción y abre la hoja Práctica.",
+    "Primero, revisa que los montos estén alineados a la derecha.",
+    "Después, escribe en ce nueve una fórmula que sume de ce dos a ce ocho.",
+    "Por último, cambia cualquier monto y comprueba que el total cambia.",
+    "Pausa el video y resuélvelo; la solución viene a continuación.",
+    "La solución.",
+    "En ce nueve va igual, suma, paréntesis, ce dos, dos puntos, ce ocho, y se cierra el paréntesis.",
+    "El total es sesenta y uno mil.",
+    "Si te dio otro número, revisa que ningún monto haya quedado como texto: lo vas a notar porque estaría alineado a la izquierda.",
+    "En el archivo también tienes la hoja Solución.",
+    "Repasemos.",
+    "Cada celda tiene una dirección, letra y número.",
+    "Escribe solo los números y deja que el formato haga el resto.",
+    "Y la función suma con un rango te da un total que se actualiza solo.",
+    "En la próxima lección vamos con promedio, máx y mín, y con el famoso signo de dólar para fijar celdas.",
+    "Descarga el archivo, resuelve el ejercicio y nos vemos en la lección dos."
+  ],
+  "capitulos": [
+    {
+      "inicio": 0.0,
+      "fin": 58.177,
+      "titulo": "Introducción"
+    },
+    {
+      "inicio": 58.177,
+      "fin": 139.108,
+      "titulo": "La cuadrícula: filas, columnas y celdas"
+    },
+    {
+      "inicio": 139.108,
+      "fin": 195.544,
+      "titulo": "Datos y formato"
+    },
+    {
+      "inicio": 195.544,
+      "fin": 272.51,
+      "titulo": "Tu primera fórmula: SUMA"
+    },
+    {
+      "inicio": 272.51,
+      "fin": 334.693,
+      "titulo": "Práctica"
+    }
+  ],
+  "materiales": [
+    {
+      "archivo": "Leccion01_practica.xlsx",
+      "ruta": "/home/user/gabrielvalle-491/youtube-factory/output/canal_b/materiales/B-L01/Leccion01_practica.xlsx",
+      "bytes": 6351,
+      "estado": "ok",
+      "ok": 1,
+      "fallos": [],
+      "sin_verificar": [],
+      "detalle": "1 valores comprobados"
+    }
+  ]
+}

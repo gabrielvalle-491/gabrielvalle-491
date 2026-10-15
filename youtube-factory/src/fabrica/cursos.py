@@ -261,10 +261,14 @@ def crear_xlsx(mat: dict, canal, destino: Path) -> None:
     fino = Side(style="thin", color="D9DCD5")
     for hoja in mat["hojas"]:
         ws = wb.create_sheet(hoja["nombre"][:31])
-        fila0 = 1
+        fila0 = 1  # la tabla siempre empieza en A1: las direcciones del video coinciden con las del archivo
         if hoja.get("instrucciones"):
-            ws.cell(1, 1, hoja["instrucciones"]).font = Font(italic=True, color=_hex(p["texto_suave"]))
-            fila0 = 3
+            col = max(len(f) for f in hoja["filas"]) + 2
+            ws.cell(1, col, "Instrucciones").font = Font(bold=True, color=_hex(p["acento"]))
+            c = ws.cell(2, col, hoja["instrucciones"])
+            c.font = Font(italic=True, color=_hex(p["texto_suave"]))
+            c.alignment = Alignment(wrap_text=True, vertical="top")
+            ws.column_dimensions[get_column_letter(col)].width = 48
         for r, fila in enumerate(hoja["filas"]):
             for c, v in enumerate(fila):
                 if v is None or v == "":
@@ -287,14 +291,6 @@ def crear_xlsx(mat: dict, canal, destino: Path) -> None:
     wb.save(destino)
 
 
-def _celda_destino(hoja: dict, ref: str) -> str:
-    """Las referencias de 'verificar' son relativas a la tabla; si hay instrucciones arriba, se desplazan 2 filas."""
-    if not hoja.get("instrucciones"):
-        return ref
-    m = re.match(r"([A-Z]+)(\d+)$", ref)
-    return f"{m.group(1)}{int(m.group(2)) + 2}"
-
-
 def verificar_xlsx(mat: dict, archivo: Path) -> dict:
     """Recalcula la planilla con LibreOffice (si está instalado) y compara con los valores esperados."""
     esperados = [(h, ref, val) for h in mat["hojas"] for ref, val in (h.get("verificar") or {}).items()]
@@ -315,7 +311,7 @@ def verificar_xlsx(mat: dict, archivo: Path) -> dict:
         wb_f = load_workbook(archivo)
         fallos, sin_verif, ok = [], [], 0
         for h, ref, esperado in esperados:
-            celda = _celda_destino(h, ref)
+            celda = ref
             nombre = h["nombre"][:31]
             valor = wb_v[nombre][celda].value
             formula = str(wb_f[nombre][celda].value or "")
@@ -332,7 +328,7 @@ def verificar_xlsx(mat: dict, archivo: Path) -> dict:
                 fallos.append(f"{nombre}!{ref}: {valor!r} (esperado {esperado!r}; fórmula {formula})")
     estado = "error" if fallos else ("parcial" if sin_verif else "ok")
     return {"estado": estado, "ok": ok, "fallos": fallos, "sin_verificar": sin_verif,
-            "detalle": "; ".join(fallos) or (f"{ok} valores comprobados" + (f"; sin verificar con este LibreOffice: {', '.join(sin_verif)}" if sin_verif else ""))}
+            "detalle": "; ".join(fallos) or (f"{ok} {'valor comprobado' if ok == 1 else 'valores comprobados'}" + (f"; sin verificar con este LibreOffice: {', '.join(sin_verif)}" if sin_verif else ""))}
 
 
 def generar_materiales(spec: dict) -> list[dict]:

@@ -1,0 +1,21 @@
+CURSO «IA PARA TU TRABAJO» · LECCIÓN 1 · ARCHIVO DE PRÁCTICA (Atajo IA)
+Copia cada prompt en tu asistente de IA (ChatGPT, Gemini, Claude o Copilot; la versión gratuita alcanza).
+Reemplaza lo que está entre [CORCHETES]. No pegues datos personales ni de clientes.
+
+EJERCICIO 1 · Pide una explicación a tu medida
+Explícame qué es [UN TEMA DE TU TRABAJO] en cinco puntos, con palabras simples y un ejemplo de [TU OFICIO O RUBRO].
+
+EJERCICIO 2 · Corrige sin empezar de cero (en la misma conversación)
+Más corto: tres puntos. Y cambia el ejemplo por uno de [OTRA SITUACIÓN DE TU TRABAJO].
+
+EJERCICIO 3 · Pide que marque sus dudas
+De lo que me dijiste, ¿qué partes conviene que verifique en una fuente oficial? Indícame cuáles y por qué.
+
+EJERCICIO 4 · Compara (en un chat nuevo)
+Abre un chat nuevo, pega otra vez el prompt del ejercicio 1 y compara: ¿qué cambió? ¿Qué se mantuvo?
+
+LISTA DE CONTROL
+[ ] La respuesta usa mi ejemplo y no uno genérico.
+[ ] Entiendo cada punto y podría explicarlo con mis palabras.
+[ ] Marqué qué datos tengo que verificar antes de usarlos.
+[ ] No pegué nombres, documentos ni datos de clientes.

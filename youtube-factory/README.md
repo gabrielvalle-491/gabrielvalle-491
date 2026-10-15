@@ -114,7 +114,7 @@ Cada canal tiene un curso gratuito de 12 lecciones (3 módulos), una por semana 
 **Atajo IA → "IA para tu trabajo, desde cero"** (martes) y **Celda Clara → "Excel y Google Sheets desde cero"** (jueves).
 Temarios en `cursos/canal_a.yaml` y `cursos/canal_b.yaml`; estrategia en `strategy/cursos.md`.
 
-Cada lección (8-12 min, 16:9) trae: portada con objetivos, barra de curso (lección N/12, módulo y capítulo actual),
+Cada lección (5-10 min, 16:9) trae: portada con objetivos, barra de curso (lección N/12, módulo y capítulo actual),
 3-5 capítulos que se convierten en las marcas de tiempo de YouTube, un ejercicio con **archivo de práctica**
 (planilla `.xlsx` con hoja Solución en Celda Clara; prompts `.txt` en Atajo IA), solución y pantalla final con la
 próxima lección. Las fórmulas del material se escriben como en Excel en español y, si tienes LibreOffice instalado,

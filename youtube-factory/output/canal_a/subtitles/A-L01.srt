@@ -1,0 +1,383 @@
+1
+00:00:00,120 --> 00:00:02,871
+Antes de pedirle algo a una IA, conviene entender
+
+2
+00:00:02,871 --> 00:00:06,184
+cómo arma sus respuestas: te ahorra errores y frustración.
+
+3
+00:00:06,344 --> 00:00:10,725
+Te doy la bienvenida a IA para tu trabajo, el curso gratuito de Atajo IA.
+
+4
+00:00:10,885 --> 00:00:15,677
+En esta primera lección vas a entender cómo genera sus respuestas un asistente de IA,
+
+5
+00:00:15,677 --> 00:00:19,848
+qué hace bien y qué hace mal, y vas a tener tu primera conversación útil.
+
+6
+00:00:20,128 --> 00:00:21,582
+Así funciona el curso.
+
+7
+00:00:21,742 --> 00:00:24,737
+Son doce lecciones en tres módulos: fundamentos, IA en
+
+8
+00:00:24,737 --> 00:00:26,733
+el día a día, e IA para un negocio.
+
+9
+00:00:26,893 --> 00:00:30,733
+Cada lección tiene capítulos, para que vayas directo a lo que necesitas.
+
+10
+00:00:30,893 --> 00:00:32,824
+Y cada una termina con un ejercicio y
+
+11
+00:00:32,824 --> 00:00:35,537
+un archivo de práctica, que está en la descripción.
+
+12
+00:00:35,697 --> 00:00:38,975
+Puedes seguirlo con la versión gratuita de ChatGPT, Gemini,
+
+13
+00:00:38,975 --> 00:00:42,141
+Claude o Copilot: lo que aprendes sirve para cualquiera.
+
+14
+00:00:42,421 --> 00:00:43,883
+Qué es y cómo responde.
+
+15
+00:00:44,163 --> 00:00:46,473
+Un asistente de IA como ChatGPT, Gemini
+
+16
+00:00:46,473 --> 00:00:49,256
+o Claude funciona sobre un modelo de lenguaje.
+
+17
+00:00:49,416 --> 00:00:53,042
+Es un programa entrenado con enormes cantidades de texto para hacer
+
+18
+00:00:53,042 --> 00:00:56,830
+una sola cosa muy bien: estimar qué fragmento de texto viene después.
+
+19
+00:00:56,990 --> 00:01:00,459
+Escribe su respuesta pedazo a pedazo, y cada pedazo depende de
+
+20
+00:01:00,459 --> 00:01:03,034
+lo que ya escribió y de lo que tú le pediste.
+
+21
+00:01:03,314 --> 00:01:04,669
+Míralo con un ejemplo.
+
+22
+00:01:04,829 --> 00:01:06,854
+Si la frase es: el café de la mañana
+
+23
+00:01:06,854 --> 00:01:10,398
+está, el modelo calcula qué tan probable es cada continuación.
+
+24
+00:01:10,558 --> 00:01:12,376
+Caliente parece muy probable.
+
+25
+00:01:12,536 --> 00:01:13,608
+Listo, también.
+
+26
+00:01:13,768 --> 00:01:14,974
+Azul, casi nada.
+
+27
+00:01:15,134 --> 00:01:17,780
+Elige una continuación, la agrega, y repite el
+
+28
+00:01:17,780 --> 00:01:20,253
+proceso con la frase ya un poco más larga.
+
+29
+00:01:20,413 --> 00:01:23,526
+Las barras son un ejemplo ilustrativo, no medidas reales.
+
+30
+00:01:23,806 --> 00:01:25,653
+Esos pedazos se llaman tokens.
+
+31
+00:01:25,813 --> 00:01:30,083
+Un token puede ser una palabra entera, una parte de una palabra o un signo.
+
+32
+00:01:30,243 --> 00:01:33,552
+No necesitas contarlos, pero conviene saber dos cosas.
+
+33
+00:01:33,712 --> 00:01:37,305
+Primero, el modelo no lee como tú: trabaja con esos fragmentos.
+
+34
+00:01:37,465 --> 00:01:40,003
+Y segundo, cada conversación tiene un límite de
+
+35
+00:01:40,003 --> 00:01:42,433
+cuánto texto puede tener en cuenta a la vez.
+
+36
+00:01:42,713 --> 00:01:44,586
+Lo que hace bien y lo que hace mal.
+
+37
+00:01:44,866 --> 00:01:49,316
+Por cómo funciona, es muy bueno con el lenguaje: redactar, resumir, reescribir
+
+38
+00:01:49,316 --> 00:01:53,480
+con otro tono, explicar un tema con ejemplos o darte ideas para empezar.
+
+39
+00:01:53,640 --> 00:01:58,611
+Y es flojo justo donde necesitas exactitud: datos recientes, cifras precisas, citas
+
+40
+00:01:58,611 --> 00:02:02,683
+y fuentes, o cualquier cosa sobre tu empresa que nunca le contaste.
+
+41
+00:02:02,843 --> 00:02:05,487
+Conclusión: úsalo para el primer borrador y para
+
+42
+00:02:05,487 --> 00:02:07,911
+pensar, y verifica todo lo que sea un dato.
+
+43
+00:02:08,191 --> 00:02:10,736
+Un mito muy común: que la IA busca la respuesta
+
+44
+00:02:10,736 --> 00:02:13,335
+en una base de datos y por eso siempre acierta.
+
+45
+00:02:13,495 --> 00:02:14,338
+No es así.
+
+46
+00:02:14,498 --> 00:02:19,067
+Genera el texto más probable, y a veces lo más probable suena perfecto y es falso.
+
+47
+00:02:19,227 --> 00:02:20,923
+Eso se llama alucinación.
+
+48
+00:02:21,083 --> 00:02:24,619
+La propia OpenAI advierte que ChatGPT puede inventar datos
+
+49
+00:02:24,619 --> 00:02:28,521
+o citas y responder con mucha seguridad aunque esté equivocado.
+
+50
+00:02:28,801 --> 00:02:30,648
+Por eso, tres señales de alerta.
+
+51
+00:02:30,808 --> 00:02:32,761
+Una cifra muy exacta sin fuente.
+
+52
+00:02:32,921 --> 00:02:35,965
+Una cita, un libro o un enlace que no puedes encontrar.
+
+53
+00:02:36,125 --> 00:02:40,093
+Y una respuesta segurísima sobre algo muy específico o muy reciente.
+
+54
+00:02:40,253 --> 00:02:44,472
+Cuando veas alguna, verifica en una fuente oficial antes de usar ese dato.
+
+55
+00:02:44,632 --> 00:02:46,776
+En la lección 3 lo vemos a fondo.
+
+56
+00:02:47,056 --> 00:02:48,864
+Cómo hablarle: la conversación.
+
+57
+00:02:49,144 --> 00:02:51,175
+Cuatro ideas para conversar mejor.
+
+58
+00:02:51,335 --> 00:02:54,426
+La primera: dentro de un mismo chat, el asistente tiene en
+
+59
+00:02:54,426 --> 00:02:58,104
+cuenta lo que ya hablaron, así que puedes corregir sin repetir todo.
+
+60
+00:02:58,264 --> 00:03:00,589
+La segunda: si cambias de tema, abre un chat
+
+61
+00:03:00,589 --> 00:03:03,178
+nuevo, para que lo anterior no mezcle las cosas.
+
+62
+00:03:03,338 --> 00:03:05,575
+La tercera: la misma pregunta puede dar
+
+63
+00:03:05,575 --> 00:03:08,328
+respuestas distintas cada vez, y eso es normal.
+
+64
+00:03:08,488 --> 00:03:12,082
+Y la cuarta: cuanto más contexto le das, menos tiene que adivinar.
+
+65
+00:03:12,362 --> 00:03:13,895
+Fíjate en la diferencia.
+
+66
+00:03:14,055 --> 00:03:18,924
+Si escribes solo: explícame qué es un presupuesto, recibes una explicación genérica.
+
+67
+00:03:19,084 --> 00:03:23,317
+Si agregas tu oficio, el nivel y el formato, la respuesta se adapta a ti.
+
+68
+00:03:23,477 --> 00:03:26,572
+Los corchetes son las partes que cambias por tus datos.
+
+69
+00:03:26,732 --> 00:03:30,301
+En la próxima lección armamos este tipo de pedido paso a paso.
+
+70
+00:03:30,581 --> 00:03:33,783
+Una regla de seguridad desde el día uno: no pegues datos
+
+71
+00:03:33,783 --> 00:03:37,727
+personales, contraseñas ni información de clientes en un chat de IA.
+
+72
+00:03:37,887 --> 00:03:41,350
+Si necesitas un ejemplo real, cambia los nombres y los números.
+
+73
+00:03:41,510 --> 00:03:44,724
+La lección 4 está dedicada entera a la privacidad.
+
+74
+00:03:45,004 --> 00:03:45,710
+Práctica.
+
+75
+00:03:45,990 --> 00:03:46,751
+Tu turno.
+
+76
+00:03:46,911 --> 00:03:51,118
+Descarga el archivo de prompts de la descripción y abre tu asistente de IA.
+
+77
+00:03:51,278 --> 00:03:55,597
+Primero, pide una explicación de un tema de tu trabajo, con un ejemplo de tu rubro.
+
+78
+00:03:55,757 --> 00:03:59,402
+Después, en el mismo chat, pídele que lo acorte y que cambie el ejemplo.
+
+79
+00:03:59,562 --> 00:04:02,257
+Luego, pregúntale qué partes conviene verificar.
+
+80
+00:04:02,417 --> 00:04:06,188
+Y por último, abre un chat nuevo, repite el primer pedido y compara.
+
+81
+00:04:06,348 --> 00:04:08,048
+Pausa el video y hazlo ahora.
+
+82
+00:04:08,328 --> 00:04:09,591
+Qué deberías notar.
+
+83
+00:04:09,751 --> 00:04:12,169
+La respuesta del segundo pedido se adapta sin
+
+84
+00:04:12,169 --> 00:04:14,694
+que repitas todo: eso es el contexto del chat.
+
+85
+00:04:14,854 --> 00:04:19,074
+En el chat nuevo, la respuesta cambia un poco: eso es la generación probable.
+
+86
+00:04:19,234 --> 00:04:23,494
+Y cuando le preguntas qué verificar, suele señalar cifras, fechas o normas.
+
+87
+00:04:23,654 --> 00:04:27,123
+Esas son justo las partes que no conviene copiar sin revisar.
+
+88
+00:04:27,403 --> 00:04:28,235
+Repasemos.
+
+89
+00:04:28,395 --> 00:04:31,814
+Un asistente de IA genera texto probable, pedazo a pedazo.
+
+90
+00:04:31,974 --> 00:04:34,757
+Es excelente para redactar, resumir y explicar,
+
+91
+00:04:34,757 --> 00:04:37,718
+y poco confiable con datos exactos sin verificar.
+
+92
+00:04:37,878 --> 00:04:40,465
+Y conversar bien es corregir en el mismo chat,
+
+93
+00:04:40,465 --> 00:04:43,221
+abrir uno nuevo para cada tema y darle contexto.
+
+94
+00:04:43,381 --> 00:04:45,862
+En la próxima lección armamos tu primer buen
+
+95
+00:04:45,862 --> 00:04:49,075
+prompt en cuatro partes: rol, tarea, contexto y formato.
+
+96
+00:04:49,235 --> 00:04:53,099
+Descarga el archivo, haz el ejercicio y nos vemos en la lección 2.

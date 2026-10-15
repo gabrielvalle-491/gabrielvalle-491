@@ -175,7 +175,7 @@ def fila_largo(tema: str, pilar: str, serie: str) -> dict:
         "angulo": ("Lección de curso: objetivos, capítulos, ejercicio con archivo de práctica y resumen" if curso
                    else "Amplía los Shorts del mismo pilar con ejemplos completos y descargable"),
         "plantillas": "curso_portada,capitulo,ejercicio,curso_cierre" if curso else "",
-        "mercado": "latam", "gancho_tipo": "resultado", "duracion_objetivo": "8-12 min" if curso else "6-10 min",
+        "mercado": "latam", "gancho_tipo": "resultado", "duracion_objetivo": "5-10 min" if curso else "6-10 min",
         "hipotesis": ("Un curso en serie retiene mejor que guías sueltas: cada lección deriva a la siguiente (lista de reproducción) "
                       "y suma horas de visualización (requisito del YPP)." if curso else
                       "Los videos largos aportan horas de visualización (requisito del YPP) y suscriptores por vista mayores que los Shorts."),

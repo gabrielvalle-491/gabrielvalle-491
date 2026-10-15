@@ -1,0 +1,322 @@
+{
+  "id": "A-L01",
+  "duracion_s": 293.959,
+  "frases": 72,
+  "subtitulos": 247,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 20.048,
+      "beats": [
+        -5.0,
+        6.294,
+        10.835
+      ],
+      "plantilla": "curso_portada"
+    },
+    {
+      "inicio": 20.048,
+      "fin": 42.341,
+      "beats": [
+        0.0,
+        1.644,
+        6.795,
+        10.795,
+        15.599
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 42.341,
+      "fin": 44.083,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "capitulo"
+    },
+    {
+      "inicio": 44.083,
+      "fin": 63.234,
+      "beats": [
+        0.0,
+        5.284
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 63.234,
+      "fin": 83.726,
+      "beats": [
+        0.0,
+        1.546,
+        7.274,
+        9.253,
+        10.484
+      ],
+      "plantilla": "barras"
+    },
+    {
+      "inicio": 83.726,
+      "fin": 102.633,
+      "beats": [
+        0.0,
+        2.037,
+        6.466,
+        9.936,
+        13.689
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 102.633,
+      "fin": 104.786,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "capitulo"
+    },
+    {
+      "inicio": 104.786,
+      "fin": 128.111,
+      "beats": [
+        0.0,
+        8.805,
+        18.007
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 128.111,
+      "fin": 148.721,
+      "beats": [
+        0.0,
+        5.333,
+        6.337
+      ],
+      "plantilla": "mito"
+    },
+    {
+      "inicio": 148.721,
+      "fin": 166.976,
+      "beats": [
+        0.0,
+        2.037,
+        4.151,
+        7.354
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 166.976,
+      "fin": 169.064,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "capitulo"
+    },
+    {
+      "inicio": 169.064,
+      "fin": 192.282,
+      "beats": [
+        0.0,
+        2.222,
+        9.15,
+        14.225,
+        19.375
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 192.282,
+      "fin": 210.501,
+      "beats": [
+        0.0,
+        1.722,
+        6.751,
+        11.145
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 210.501,
+      "fin": 224.924,
+      "beats": [
+        0.0,
+        7.336
+      ],
+      "plantilla": "dato"
+    },
+    {
+      "inicio": 224.924,
+      "fin": 225.91,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "capitulo"
+    },
+    {
+      "inicio": 225.91,
+      "fin": 248.248,
+      "beats": [
+        0.0,
+        0.951,
+        5.318,
+        9.797,
+        13.602,
+        16.456
+      ],
+      "plantilla": "ejercicio"
+    },
+    {
+      "inicio": 248.248,
+      "fin": 267.323,
+      "beats": [
+        0.0,
+        1.452,
+        6.556,
+        10.935
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 267.323,
+      "fin": 293.959,
+      "beats": [
+        0.0,
+        1.022,
+        4.601,
+        10.505,
+        16.008,
+        21.862
+      ],
+      "plantilla": "curso_cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.22",
+    "input_tp": "-6.00",
+    "input_lra": "1.70",
+    "input_thresh": "-31.33",
+    "output_i": "-14.04",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.15",
+    "normalization_type": "dynamic",
+    "target_offset": "0.04"
+  },
+  "fotogramas_unicos": 2098,
+  "tts_cache": 0,
+  "spec_hash": "f733d6b868dd7b06",
+  "segundos_produccion": 1458.7,
+  "texto_hablado": [
+    "Antes de pedirle algo a una i a, conviene entender cómo arma sus respuestas: te ahorra errores y frustración.",
+    "Te doy la bienvenida a i a para tu trabajo, el curso gratuito de Atajo i a.",
+    "En esta primera lección vas a entender cómo genera sus respuestas un asistente de i a, qué hace bien y qué hace mal, y vas a tener tu primera conversación útil.",
+    "Así funciona el curso.",
+    "Son doce lecciones en tres módulos: fundamentos, i a en el día a día, e i a para un negocio.",
+    "Cada lección tiene capítulos, para que vayas directo a lo que necesitas.",
+    "Y cada una termina con un ejercicio y un archivo de práctica, que está en la descripción.",
+    "Puedes seguirlo con la versión gratuita de chat yi pi ti, yémini, clod o cópailot: lo que aprendes sirve para cualquiera.",
+    "Qué es y cómo responde.",
+    "Un asistente de i a como chat yi pi ti, yémini o clod funciona sobre un modelo de lenguaje.",
+    "Es un programa entrenado con enormes cantidades de texto para hacer una sola cosa muy bien: estimar qué fragmento de texto viene después.",
+    "Escribe su respuesta pedazo a pedazo, y cada pedazo depende de lo que ya escribió y de lo que tú le pediste.",
+    "Míralo con un ejemplo.",
+    "Si la frase es: el café de la mañana está, el modelo calcula qué tan probable es cada continuación.",
+    "Caliente parece muy probable.",
+    "Listo, también.",
+    "Azul, casi nada.",
+    "Elige una continuación, la agrega, y repite el proceso con la frase ya un poco más larga.",
+    "Las barras son un ejemplo ilustrativo, no medidas reales.",
+    "Esos pedazos se llaman tokens.",
+    "Un token puede ser una palabra entera, una parte de una palabra o un signo.",
+    "No necesitas contarlos, pero conviene saber dos cosas.",
+    "Primero, el modelo no lee como tú: trabaja con esos fragmentos.",
+    "Y segundo, cada conversación tiene un límite de cuánto texto puede tener en cuenta a la vez.",
+    "Lo que hace bien y lo que hace mal.",
+    "Por cómo funciona, es muy bueno con el lenguaje: redactar, resumir, reescribir con otro tono, explicar un tema con ejemplos o darte ideas para empezar.",
+    "Y es flojo justo donde necesitas exactitud: datos recientes, cifras precisas, citas y fuentes, o cualquier cosa sobre tu empresa que nunca le contaste.",
+    "Conclusión: úsalo para el primer borrador y para pensar, y verifica todo lo que sea un dato.",
+    "Un mito muy común: que la i a busca la respuesta en una base de datos y por eso siempre acierta.",
+    "No es así.",
+    "Genera el texto más probable, y a veces lo más probable suena perfecto y es falso.",
+    "Eso se llama alucinación.",
+    "La propia OpenAI advierte que chat yi pi ti puede inventar datos o citas y responder con mucha seguridad aunque esté equivocado.",
+    "Por eso, tres señales de alerta.",
+    "Una cifra muy exacta sin fuente.",
+    "Una cita, un libro o un enlace que no puedes encontrar.",
+    "Y una respuesta segurísima sobre algo muy específico o muy reciente.",
+    "Cuando veas alguna, verifica en una fuente oficial antes de usar ese dato.",
+    "En la lección tres lo vemos a fondo.",
+    "Cómo hablarle: la conversación.",
+    "Cuatro ideas para conversar mejor.",
+    "La primera: dentro de un mismo chat, el asistente tiene en cuenta lo que ya hablaron, así que puedes corregir sin repetir todo.",
+    "La segunda: si cambias de tema, abre un chat nuevo, para que lo anterior no mezcle las cosas.",
+    "La tercera: la misma pregunta puede dar respuestas distintas cada vez, y eso es normal.",
+    "Y la cuarta: cuanto más contexto le das, menos tiene que adivinar.",
+    "Fíjate en la diferencia.",
+    "Si escribes solo: explícame qué es un presupuesto, recibes una explicación genérica.",
+    "Si agregas tu oficio, el nivel y el formato, la respuesta se adapta a ti.",
+    "Los corchetes son las partes que cambias por tus datos.",
+    "En la próxima lección armamos este tipo de pedido paso a paso.",
+    "Una regla de seguridad desde el día uno: no pegues datos personales, contraseñas ni información de clientes en un chat de i a.",
+    "Si necesitas un ejemplo real, cambia los nombres y los números.",
+    "La lección cuatro está dedicada entera a la privacidad.",
+    "Práctica.",
+    "Tu turno.",
+    "Descarga el archivo de prompts de la descripción y abre tu asistente de i a.",
+    "Primero, pide una explicación de un tema de tu trabajo, con un ejemplo de tu rubro.",
+    "Después, en el mismo chat, pídele que lo acorte y que cambie el ejemplo.",
+    "Luego, pregúntale qué partes conviene verificar.",
+    "Y por último, abre un chat nuevo, repite el primer pedido y compara.",
+    "Pausa el video y hazlo ahora.",
+    "Qué deberías notar.",
+    "La respuesta del segundo pedido se adapta sin que repitas todo: eso es el contexto del chat.",
+    "En el chat nuevo, la respuesta cambia un poco: eso es la generación probable.",
+    "Y cuando le preguntas qué verificar, suele señalar cifras, fechas o normas.",
+    "Esas son justo las partes que no conviene copiar sin revisar.",
+    "Repasemos.",
+    "Un asistente de i a genera texto probable, pedazo a pedazo.",
+    "Es excelente para redactar, resumir y explicar, y poco confiable con datos exactos sin verificar.",
+    "Y conversar bien es corregir en el mismo chat, abrir uno nuevo para cada tema y darle contexto.",
+    "En la próxima lección armamos tu primer buen prompt en cuatro partes: rol, tarea, contexto y formato.",
+    "Descarga el archivo, haz el ejercicio y nos vemos en la lección dos."
+  ],
+  "capitulos": [
+    {
+      "inicio": 0.0,
+      "fin": 42.341,
+      "titulo": "Introducción"
+    },
+    {
+      "inicio": 42.341,
+      "fin": 102.633,
+      "titulo": "Qué es y cómo responde"
+    },
+    {
+      "inicio": 102.633,
+      "fin": 166.976,
+      "titulo": "Lo que hace bien y lo que hace mal"
+    },
+    {
+      "inicio": 166.976,
+      "fin": 224.924,
+      "titulo": "Cómo hablarle: la conversación"
+    },
+    {
+      "inicio": 224.924,
+      "fin": 293.959,
+      "titulo": "Práctica"
+    }
+  ],
+  "materiales": [
+    {
+      "archivo": "Leccion01_prompts.txt",
+      "ruta": "/home/user/gabrielvalle-491/youtube-factory/output/canal_a/materiales/A-L01/Leccion01_prompts.txt",
+      "bytes": 1152,
+      "estado": "ok",
+      "detalle": "archivo de texto"
+    }
+  ]
+}

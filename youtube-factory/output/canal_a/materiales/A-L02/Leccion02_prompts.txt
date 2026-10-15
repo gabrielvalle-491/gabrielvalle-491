@@ -1,0 +1,32 @@
+CURSO «IA PARA TU TRABAJO» · LECCIÓN 2 · ARCHIVO DE PRÁCTICA (Atajo IA)
+Copia cada prompt en tu asistente de IA (ChatGPT, Gemini, Claude o Copilot; la versión gratuita alcanza).
+Reemplaza lo que está entre [CORCHETES]. No pegues datos personales ni de clientes: usa una tarea general o datos inventados.
+
+LAS CUATRO PARTES
+1. Rol: quién quieres que sea el asistente.
+2. Tarea: qué debe hacer, con un verbo claro.
+3. Contexto: lo que necesita saber (objetivo, público, datos que no pueden cambiar).
+4. Formato: cómo quieres recibir la respuesta (largo, estructura, tono).
+
+EJERCICIO 1 · El pedido vago (guarda la respuesta para comparar)
+Escribe [UNA TAREA DE TU TRABAJO, EN UNA SOLA FRASE].
+
+EJERCICIO 2 · El mismo pedido en cuatro partes
+Eres [UN ROL: por ejemplo, encargado de atención al cliente de un negocio de barrio].
+Tu tarea: [UN VERBO + LO QUE NECESITAS: redactar, resumir, comparar...].
+Contexto: [PARA QUÉ ES, A QUIÉN VA DIRIGIDO Y QUÉ DATOS NO PUEDEN CAMBIAR].
+Formato: [LARGO MÁXIMO, ESTRUCTURA Y TONO: por ejemplo, un mensaje de tres frases, tono cercano].
+
+EJERCICIO 3 · Mejora en dos pasos (en el mismo hilo)
+Paso 1. Lee la respuesta y anota qué falla: ¿tono, largo o un dato que falta?
+Paso 2. Pide un cambio concreto: Hazlo [MÁS CORTO / MÁS FORMAL / MÁS CERCANO]. Conserva [LO QUE NO DEBE CAMBIAR]. Cambia [LO QUE SÍ DEBE CAMBIAR].
+
+EJERCICIO 4 · Pide un formato distinto (en el mismo hilo)
+Ahora entrégame lo mismo como [UNA TABLA CON LAS COLUMNAS: ... / UNA LISTA DE VIÑETAS / PASOS NUMERADOS]. No agregues texto fuera de ese formato.
+
+LISTA DE CONTROL
+[ ] Mi prompt tiene las cuatro partes: rol, tarea, contexto y formato.
+[ ] Pedí un largo y un tono concretos.
+[ ] Corregí con un cambio concreto, no con "mejóralo".
+[ ] Comparé la respuesta del ejercicio 1 con la del ejercicio 2.
+[ ] No pegué nombres, documentos ni datos de clientes.

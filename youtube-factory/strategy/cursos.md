@@ -23,7 +23,7 @@ sueltas y pasan a ser **un curso gratuito de 12 lecciones**, una por semana, en 
 
 ## Qué tiene cada lección (lo controla el validador)
 
-- 16:9, 8-12 min, voz y gráficos de la fábrica, subtítulos y miniatura 1280×720.
+- 16:9, 5-10 min, voz y gráficos de la fábrica, subtítulos y miniatura 1280×720.
 - **Portada** con número de lección, módulo, objetivos ("En esta lección vas a aprender…") y barra de progreso del curso.
 - **Cabecera de curso** en todas las escenas: curso, lección N/12, módulo y capítulo actual con barra de capítulos.
 - **3-5 capítulos** con pantalla de capítulo; sus tiempos reales del render se escriben en la descripción como

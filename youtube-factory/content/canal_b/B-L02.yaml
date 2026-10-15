@@ -1,0 +1,367 @@
+id: B-L02
+canal: canal_b
+curso: excel-desde-cero
+fecha: 2026-11-05
+formato: largo
+serie: "Curso: Excel desde cero"
+episodio: "Lección 2"
+pilar: formulas
+tipo_editorial: tutorial
+idea: "Segunda lección del curso: resumir una columna con PROMEDIO, MAX, MIN y CONTAR, entender qué pasa al copiar una fórmula (referencias relativas) y fijar una celda con el signo de dólar, con un ejercicio sobre una tabla de ventas de ejemplo."
+objetivo: "Que la persona resuma una columna de números con cuatro funciones y copie una fórmula hacia abajo sin que se desplace la celda que debe quedarse fija."
+publico: "Principiantes que ya escribieron su primera SUMA y quieren dejar de armar cada fórmula a mano."
+hipotesis: "Segunda lección del curso: medir qué porcentaje de quienes terminan la lección 1 sigue con la 2, y en qué capítulo cae la retención (el del signo $ es el más difícil)."
+gancho: "Al terminar esta lección vas a resumir una columna con una fórmula y a copiarla sin romperla."
+duracion_objetivo: "5-10 min (≈1 000-1 400 palabras)"
+titulo: "Excel desde cero · Lección 2: PROMEDIO, MAX, MIN y el signo $"
+titulos_alternativos:
+  - "Referencias absolutas en Excel: el signo $ explicado paso a paso (Lección 2)"
+  - "PROMEDIO, MAX, MIN y CONTAR en Excel y Google Sheets, desde cero"
+  - "Por qué se rompe tu fórmula al copiarla (y cómo arreglarlo con $)"
+criterio_titulo: "Nombra el curso y la lección (serie) más las búsquedas reales del principiante: PROMEDIO, MAX, MIN y el signo $."
+descripcion: |
+  Segunda lección del curso gratuito de Excel y Google Sheets desde cero. Aprendes a resumir una columna con PROMEDIO, MAX, MIN y CONTAR, qué pasa cuando copias una fórmula (referencias relativas) y cómo fijar una celda con el signo de dólar.
+  Al final hay un ejercicio con archivo de práctica (incluye la solución en otra hoja). Los montos del ejemplo son ficticios.
+cta: "Descarga el archivo de práctica, resuelve el ejercicio y nos vemos en la lección 3."
+comentario_fijado: "Lección 2 del curso Excel desde cero. ¿Pudiste hacer el ejercicio? Cuéntame en qué paso te trabaste y lo resolvemos. Recuerda: en México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos. Atajo F4 para fijar celdas: en Google Sheets para Mac es Fn + F4; en Excel para Mac el atajo es distinto, consulta el artículo de Microsoft sobre referencias relativas y absolutas."
+hashtags: ["#Excel", "#CursoDeExcel", "#GoogleSheets"]
+palabras_clave: ["función PROMEDIO", "referencias absolutas excel", "signo $ en excel", "MAX y MIN excel", "curso de excel desde cero"]
+materiales:
+  - archivo: "Leccion02_practica.xlsx"
+    tipo: xlsx
+    titulo: "Celda Clara · Excel desde cero · Lección 2"
+    hojas:
+      - nombre: "Práctica"
+        anchos: [14, 14, 14, 16]
+        formatos: {B: "#,##0", C: "#,##0;-#,##0", D: "0"}
+        filas:
+          - ["Día", "Ventas", "Diferencia", "Días con datos"]
+          - ["Lunes", 24000, "", ""]
+          - ["Martes", 18500, "", ""]
+          - ["Miércoles", 21000, "", ""]
+          - ["Jueves", 27500, "", ""]
+          - ["Viernes", 34000, "", ""]
+          - ["Promedio", "", "", ""]
+          - ["Máximo", "", "", ""]
+          - ["Mínimo", "", "", ""]
+      - nombre: "Solución"
+        anchos: [14, 14, 14, 16]
+        formatos: {B: "#,##0", C: "#,##0;-#,##0", D: "0"}
+        filas:
+          - ["Día", "Ventas", "Diferencia", "Días con datos"]
+          - ["Lunes", 24000, "=B2-$B$7", "=CONTAR(B2:B6)"]
+          - ["Martes", 18500, "=B3-$B$7", ""]
+          - ["Miércoles", 21000, "=B4-$B$7", ""]
+          - ["Jueves", 27500, "=B5-$B$7", ""]
+          - ["Viernes", 34000, "=B6-$B$7", ""]
+          - ["Promedio", "=PROMEDIO(B2:B6)", "", ""]
+          - ["Máximo", "=MAX(B2:B6)", "", ""]
+          - ["Mínimo", "=MIN(B2:B6)", "", ""]
+        verificar: {B7: 25000, B8: 34000, B9: 18500, C2: -1000, C3: -6500, C4: -4000, C5: 2500, C6: 9000, D2: 5}
+escenas:
+  - narracion: "Al terminar esta lección vas a resumir una columna con una fórmula y a copiarla sin romperla. Seguimos con *Excel desde cero*, el curso de Celda Clara. Hoy aprendes cuatro funciones, [[promedio|PROMEDIO]], [[máx|MAX]], [[mín|MIN]] y [[contar|CONTAR]]; cómo copiar fórmulas sin errores; y cómo fijar una celda con el signo de dólar."
+    visual:
+      plantilla: curso_portada
+      datos: {beat_objetivos: 2}
+  - narracion: "Un repaso de dos líneas. Ya sabes que cada celda tiene una dirección y que [[suma|SUMA]] se actualiza sola. Hoy aplicamos esa idea a las ventas de una semana de trabajo, de lunes a viernes. Los montos son un ejemplo inventado; usa los tuyos."
+    visual:
+      plantilla: texto
+      datos:
+        kicker: "Repaso de la lección 1"
+        titulo: "Lo que ya sabes"
+        texto: "Dirección = *letra + número*. Y =SUMA(rango) se actualiza sola."
+        nota: "Hoy: una tabla de ventas de ejemplo (datos ficticios)"
+        beat_nota: 3
+  - narracion: "[[promedio|PROMEDIO]], [[máx|MAX]], [[mín|MIN]] y [[contar|CONTAR]]."
+    capitulo: "PROMEDIO, MAX, MIN y CONTAR"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "*PROMEDIO*, *MAX*, *MIN* y *CONTAR*"}
+  - narracion: "Esta es la tabla de ventas de la semana, con el día en la columna A y el monto en la B. Para saber cuánto se vende en un día típico usamos [[promedio|PROMEDIO]], que suma los valores y divide por la cantidad de valores. En [[be siete|B7]] escribes el signo igual, [[promedio|PROMEDIO]], y entre paréntesis el rango de [[be dos|B2]] a [[be seis|B6]]. El resultado es 25 000: ese es el promedio de ventas por día."
+    visual:
+      plantilla: planilla
+      datos:
+        celda_formula: "B7"
+        formula: "=PROMEDIO(B2:B6)"
+        beat_formula: 2
+        decimales: 0
+        anios_sin_separador: false
+        filas:
+          - ["Día", "Ventas"]
+          - ["Lunes", 24000]
+          - ["Martes", 18500]
+          - ["Miércoles", 21000]
+          - ["Jueves", 27500]
+          - ["Viernes", 34000]
+          - ["Promedio", ""]
+          - ["Máximo", ""]
+          - ["Mínimo", ""]
+        resaltar:
+          - {rango: "B2:B6", beat: 2}
+        resultado: {celda: "B7", valor: "25 000", beat: 3}
+        nota: "Montos de ejemplo, sin moneda"
+        beat_nota: 1
+  - narracion: "[[máx|MAX]] y [[mín|MIN]] funcionan igual, pero en vez de calcular un promedio devuelven un extremo. [[máx|MAX]] de [[be dos|B2]] a [[be seis|B6]] devuelve el valor más alto: 34 000, el del viernes. [[mín|MIN]] con el mismo rango devuelve el más bajo: 18 500, el del martes. Las dos van en [[be ocho|B8]] y [[be nueve|B9]], debajo del promedio."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "El valor más alto y el más bajo"
+        beat_inicio: 1
+        lineas:
+          - {izq: "=MAX(B2:B6)", der: "34 000", nota: "El más alto: el viernes"}
+          - {izq: "=MIN(B2:B6)", der: "18 500", nota: "El más bajo: el martes"}
+        resultado: {izq: "Dónde van", der: "B8 y B9", beat: 3}
+  - narracion: "La cuarta función, [[contar|CONTAR]], no suma ni promedia: cuenta cuántas celdas del rango tienen un número. Con [[contar|CONTAR]] de [[be dos|B2]] a [[be seis|B6]] obtienes 5, los cinco días con venta cargada. Sirve para saber si falta algún dato antes de sacar conclusiones."
+    visual:
+      plantilla: formula
+      datos:
+        titulo: "Contar celdas con números"
+        formula: "=CONTAR(B2:B6)"
+        partes:
+          - {token: "CONTAR", explica: "cuenta las celdas que tienen un *número*", beat: 0}
+          - {token: "B2:B6", explica: "el rango que revisa", beat: 1}
+        nota: "Resultado: *5* días con venta cargada"
+        beat_nota: 1
+  - narracion: "Un detalle importante: las funciones ignoran las celdas vacías, pero un cero sí cuenta. Si tienes un 2, un 4 y una celda vacía, el [[promedio|PROMEDIO]] es 3, porque solo mira dos valores. Si en vez de la celda vacía escribes un 0, el [[promedio|PROMEDIO]] baja a 2, porque ahora son tres valores. Por eso, deja vacío lo que todavía no sabes y escribe 0 solo cuando de verdad fue cero."
+    visual:
+      plantilla: versus
+      datos:
+        titulo: "Celda vacía no es lo mismo que cero"
+        izq: {etiqueta: "Celda vacía", titulo: "2 · 4 · (vacía)", items: ["PROMEDIO = 3", "La vacía se ignora"]}
+        der: {etiqueta: "Un cero", titulo: "2 · 4 · 0", items: ["PROMEDIO = 2", "El cero cuenta como valor"]}
+        veredicto: "Vacío no es lo mismo que *cero*"
+        beat_izq: 1
+        beat_der: 2
+        beat_veredicto: 3
+  - narracion: "Copiar fórmulas sin errores."
+    capitulo: "Copiar fórmulas sin errores"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "Copiar fórmulas sin *errores*"}
+  - narracion: "Lo normal es escribir una fórmula una sola vez y copiarla. Hay tres caminos. Arrastrar el cuadradito de la esquina inferior derecha de la celda, que se llama controlador de relleno. Seleccionar el rango y presionar Control y la letra D, que rellena hacia abajo. O copiar con Control C y pegar con Control V."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Tres formas de copiar una fórmula"
+        beat_inicio: 2
+        pasos:
+          - {titulo: "Arrastrar el controlador de relleno", detalle: "El cuadradito de la esquina inferior derecha"}
+          - {titulo: "Ctrl + D", detalle: "Rellena hacia abajo el rango seleccionado"}
+          - {titulo: "Ctrl + C y Ctrl + V", detalle: "Copiar y pegar como siempre"}
+  - narracion: "Probemos con algo útil: ver cuánto se aleja cada día del promedio. En [[ce dos|C2]] restas al monto del día el promedio: [[be dos|B2]] menos [[be siete|B7]]. El resultado es menos 1 000: el lunes vendió mil por debajo del promedio."
+    visual:
+      plantilla: planilla
+      datos:
+        celda_formula: "C2"
+        formula: "=B2-B7"
+        beat_formula: 1
+        decimales: 0
+        anios_sin_separador: false
+        filas:
+          - ["Día", "Ventas", "Diferencia"]
+          - ["Lunes", 24000, ""]
+          - ["Martes", 18500, ""]
+          - ["Miércoles", 21000, ""]
+          - ["Jueves", 27500, ""]
+          - ["Viernes", 34000, ""]
+          - ["Promedio", 25000, ""]
+          - ["Máximo", 34000, ""]
+          - ["Mínimo", 18500, ""]
+        resaltar:
+          - {rango: "B2", beat: 1}
+          - {rango: "B7", beat: 1, alterno: true}
+        resultado: {celda: "C2", valor: "-1 000", beat: 2}
+  - narracion: "Ahora copia esa fórmula hacia abajo, hasta [[ce seis|C6]]. Mira qué pasó en [[ce tres|C3]]: la fórmula dice [[be tres|B3]] menos [[be ocho|B8]]. Al copiar, la planilla movió las dos referencias una fila hacia abajo, y ahora resta el máximo en lugar del promedio. Eso es una *referencia relativa*: se ajusta a la posición de la celda donde la pegas."
+    visual:
+      plantilla: planilla
+      datos:
+        celda_formula: "C3"
+        formula: "=B3-B8"
+        beat_formula: 1
+        decimales: 0
+        anios_sin_separador: false
+        filas:
+          - ["Día", "Ventas", "Diferencia"]
+          - ["Lunes", 24000, -1000]
+          - ["Martes", 18500, -15500]
+          - ["Miércoles", 21000, 2500]
+          - ["Jueves", 27500, 27500]
+          - ["Viernes", 34000, 34000]
+          - ["Promedio", 25000, ""]
+          - ["Máximo", 34000, ""]
+          - ["Mínimo", 18500, ""]
+        resaltar:
+          - {rango: "B3", beat: 1}
+          - {rango: "B8", beat: 1, alterno: true}
+          - {rango: "C3:C6", beat: 2}
+        nota: "Resultados sin sentido: la referencia al promedio *se corrió*"
+        beat_nota: 3
+  - narracion: "Fijar celdas con el signo de dólar."
+    capitulo: "Fijar celdas con el signo $"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "Fijar celdas con el signo *$*"}
+  - narracion: "La solución es decirle a la planilla que el promedio no se mueve. La fórmula queda así: [[be dos|B2]] menos [[dólar be dólar siete|$B$7]]. La primera referencia es relativa: al copiar hacia abajo, cambia a [[be tres|B3]], [[be cuatro|B4]] y así sigue. La segunda lleva un dólar delante de la letra y otro delante del número, y por eso no se mueve."
+    visual:
+      plantilla: formula
+      datos:
+        titulo: "Fijar el promedio"
+        formula: "=B2-$B$7"
+        partes:
+          - {token: "B2", explica: "*relativa*: cambia al copiar", beat: 2}
+          - {token: "$B$7", explica: "*absoluta*: no se mueve", beat: 3}
+  - narracion: "Escribe la fórmula en [[ce dos|C2]] y cópiala hasta [[ce seis|C6]]. En [[ce tres|C3]] la fórmula ahora dice [[be tres|B3]] menos [[dólar be dólar siete|$B$7]]. Todas restan el mismo promedio, y los resultados tienen sentido: el viernes está 9 000 por encima del promedio y el martes 6 500 por debajo."
+    visual:
+      plantilla: planilla
+      datos:
+        celda_formula: "C3"
+        formula: "=B3-$B$7"
+        beat_formula: 1
+        decimales: 0
+        anios_sin_separador: false
+        filas:
+          - ["Día", "Ventas", "Diferencia"]
+          - ["Lunes", 24000, -1000]
+          - ["Martes", 18500, -6500]
+          - ["Miércoles", 21000, -4000]
+          - ["Jueves", 27500, 2500]
+          - ["Viernes", 34000, 9000]
+          - ["Promedio", 25000, ""]
+          - ["Máximo", 34000, ""]
+          - ["Mínimo", 18500, ""]
+        resaltar:
+          - {rango: "B3", beat: 1}
+          - {rango: "B7", beat: 1, alterno: true}
+          - {rango: "C2:C6", beat: 2}
+        resultado: {celda: "C3", valor: "-6 500", beat: 1}
+  - narracion: "Hay cuatro formas de escribir una referencia. [[be siete|B7]], sin dólares, es relativa: se mueve en las dos direcciones. [[dólar be dólar siete|$B$7]] está fija por completo. [[be dólar siete|B$7]] fija solo la fila, y [[dólar be siete|$B7]] fija solo la columna."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Cuatro formas de una referencia"
+        beat_inicio: 1
+        items:
+          - {texto: "B7 · relativa", detalle: "Cambia en filas y columnas"}
+          - {texto: "$B$7 · absoluta", detalle: "No cambia nunca"}
+          - {texto: "B$7 · mixta", detalle: "Fija solo la fila", beat: 3}
+          - {texto: "$B7 · mixta", detalle: "Fija solo la columna", beat: 3}
+  - narracion: "Un atajo que vas a usar mucho: escribe o selecciona la referencia, por ejemplo [[be siete|B7]], y presiona [[efe cuatro|F4]]. Cada vez que lo presionas, la referencia pasa a otra de las cuatro formas, hasta que vuelve a la inicial. En Google Sheets, [[efe cuatro|F4]] hace lo mismo mientras escribes la fórmula en una computadora con Windows o Chromebook."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Atajo para fijar: F4"
+        pasos:
+          - {titulo: "Escribe o selecciona la referencia", detalle: "Por ejemplo B7", beat: 0}
+          - {titulo: "Presiona F4", detalle: "Cambia entre las cuatro formas", beat: 1}
+          - {titulo: "Funciona en Excel y en Sheets", detalle: "En Mac el atajo cambia: mira el comentario fijado", beat: 2}
+  - narracion: "Tres errores típicos de esta lección. Copiar la fórmula sin fijar la celda que debe quedarse quieta: los resultados se desplazan. Incluir en el rango del [[promedio|PROMEDIO]] la propia celda del resultado, que genera una referencia circular. Y escribir un cero donde en realidad no hay dato, que distorsiona el promedio."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Errores típicos de la lección"
+        estilo: x
+        beat_inicio: 1
+        items:
+          - {texto: "Copiar sin fijar con $", detalle: "Los resultados se desplazan"}
+          - {texto: "Rango que incluye el resultado", detalle: "Genera una referencia circular"}
+          - {texto: "Un 0 donde no hay dato", detalle: "Distorsiona el promedio"}
+  - narracion: "Práctica."
+    capitulo: "Práctica"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "*Práctica*", sub: "Archivo de práctica en la descripción"}
+  - narracion: "Es momento de practicar. Abre el archivo de la descripción y ve a la hoja Práctica. Primero, en [[be siete|B7]], [[be ocho|B8]] y [[be nueve|B9]] escribe el promedio, el máximo y el mínimo de las ventas, y en [[de dos|D2]] cuenta los días con datos. Después, en [[ce dos|C2]] resta el promedio de cada día, con la celda del promedio fija, y copia la fórmula hasta [[ce seis|C6]]. Por último, cambia un monto y comprueba que todo se recalcula. Pausa aquí, inténtalo, y cuando termines sigue con la solución."
+    visual:
+      plantilla: ejercicio
+      datos:
+        consigna: "Resume las ventas y calcula la diferencia"
+        hoja: "Práctica"
+        pasos:
+          - "B7:B9 y D2: PROMEDIO, MAX, MIN, CONTAR"
+          - "C2:C6: ventas menos promedio fijo"
+          - "Cambia un monto y mira el cambio"
+        pista: "El promedio se fija así: $B$7"
+        beat_pasos: 2
+        beat_pista: 5
+  - narracion: "La solución. En [[be siete|B7]] va [[promedio|PROMEDIO]] de [[be dos|B2]] a [[be seis|B6]], que da 25 000; en [[be ocho|B8]], [[máx|MAX]], que da 34 000; y en [[be nueve|B9]], [[mín|MIN]], que da 18 500. En [[de dos|D2]], [[contar|CONTAR]] da 5. En [[ce dos|C2]] va [[be dos|B2]] menos [[dólar be dólar siete|$B$7]], copiada hasta [[ce seis|C6]]. Si algún resultado no coincide, revisa que el rango sea [[be dos|B2]] a [[be seis|B6]] y que el dólar esté en el promedio, no en el monto del día. Esa misma respuesta está en la hoja Solución del archivo."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Solución del ejercicio"
+        lineas:
+          - {izq: "B7 · B8 · B9", der: "25 000 · 34 000 · 18 500", nota: "PROMEDIO, MAX y MIN de B2:B6", beat: 1}
+          - {izq: "D2: =CONTAR(B2:B6)", der: "5", beat: 2}
+          - {izq: "C2: =B2-$B$7", der: "-1 000", nota: "Copiada hasta C6", beat: 3}
+        resultado: {izq: "¿No coincide?", der: "Revisa rango y $", beat: 4}
+  - narracion: "Esto fue lo que viste hoy. [[promedio|PROMEDIO]], [[máx|MAX]], [[mín|MIN]] y [[contar|CONTAR]] resumen una columna de números. Una referencia relativa cambia al copiarla, y con el signo de dólar la fijas, con ayuda de [[efe cuatro|F4]]. En la próxima lección tomamos decisiones en la planilla con [[si|SI]], CONTAR.SI y SUMAR.SI. Practica con el archivo y nos vemos en la lección 3."
+    visual:
+      plantilla: curso_cierre
+      datos:
+        titulo: "Lo que aprendiste hoy"
+        puntos: ["PROMEDIO, MAX, MIN y CONTAR resumen una columna", "Relativa cambia al copiar; $ la fija", "F4 alterna entre las formas de referencia"]
+        cta: "Suscríbete para la lección 3"
+        beat_siguiente: 3
+        beat_cta: 4
+fuentes:
+  - url: "https://support.microsoft.com/es-es/office/promedio-funci%C3%B3n-promedio-047bac88-d466-426c-a32b-8f33eb960cf6"
+    titulo: "Función PROMEDIO (Microsoft Support)"
+    fecha_consulta: 2026-10-15
+    respalda: "PROMEDIO devuelve el promedio (media aritmética) de sus argumentos; en un rango o referencia ignora texto, valores lógicos y celdas vacías, pero las celdas con cero sí cuentan."
+  - url: "https://support.microsoft.com/es-es/excel/functions/max-function"
+    titulo: "Función MAX (Microsoft Support)"
+    fecha_consulta: 2026-10-15
+    respalda: "MAX devuelve el valor máximo de un conjunto; en un rango ignora las celdas vacías, los valores lógicos y el texto."
+  - url: "https://support.microsoft.com/es-es/office/funci%C3%B3n-min-61635d12-920f-4ce2-a70f-96f202dcc152"
+    titulo: "Función MIN (Microsoft Support)"
+    fecha_consulta: 2026-10-15
+    respalda: "MIN devuelve el valor mínimo de un conjunto de valores; las celdas vacías no se cuentan."
+  - url: "https://support.microsoft.com/es-es/office/funci%C3%B3n-count-a59cd7fc-b623-4d93-87a4-d23bf411294c"
+    titulo: "Función CONTAR (Microsoft Support)"
+    fecha_consulta: 2026-10-15
+    respalda: "CONTAR cuenta las celdas que contienen números; dentro de un rango, las celdas vacías, los valores lógicos y el texto no se cuentan."
+  - url: "https://support.microsoft.com/es-es/excel/fill-a-formula-down-into-adjacent-cells"
+    titulo: "Rellenar una fórmula hacia abajo en celdas adyacentes (Microsoft Support)"
+    fecha_consulta: 2026-10-15
+    respalda: "Se rellena una fórmula arrastrando el controlador de relleno (esquina inferior derecha de la celda) o con Ctrl+D hacia abajo; al rellenar, las referencias relativas se ajustan y las que llevan el signo $ permanecen fijas."
+  - url: "https://support.microsoft.com/es-es/excel/switch-between-relative-absolute-and-mixed-references"
+    titulo: "Cambiar entre referencias relativas, absolutas y mixtas (Microsoft Support)"
+    fecha_consulta: 2026-10-15
+    respalda: "Por defecto una referencia es relativa y se ajusta al copiar; con el signo $ se fija la columna, la fila o ambas ($A$1, A$1, $A1); la tecla F4 alterna entre los tipos de referencia."
+  - url: "https://support.google.com/docs/answer/181110?hl=es-419&co=GENIE.Platform%3DDesktop"
+    titulo: "Combinaciones de teclas para Hojas de cálculo de Google (Ayuda de Editores de Documentos de Google)"
+    fecha_consulta: 2026-10-15
+    respalda: "En Hojas de cálculo de Google, al escribir una fórmula, F4 alterna entre los tipos de referencia (Fn + F4 en Mac)."
+  - calculo: "(24000 + 18500 + 21000 + 27500 + 34000) / 5"
+    resultado: 25000
+    respalda: "Promedio de las ventas de ejemplo (B2:B6)."
+  - calculo: "max(24000, 18500, 21000, 27500, 34000)"
+    resultado: 34000
+    respalda: "Valor más alto de las ventas de ejemplo (viernes)."
+  - calculo: "min(24000, 18500, 21000, 27500, 34000)"
+    resultado: 18500
+    respalda: "Valor más bajo de las ventas de ejemplo (martes)."
+  - calculo: "25000 - 24000"
+    resultado: 1000
+    respalda: "El lunes vendió 1 000 menos que el promedio (diferencia -1 000)."
+  - calculo: "34000 - 25000"
+    resultado: 9000
+    respalda: "El viernes está 9 000 por encima del promedio."
+  - calculo: "25000 - 18500"
+    resultado: 6500
+    respalda: "El martes está 6 500 por debajo del promedio."
+  - calculo: "[18500 - 34000, 21000 - 18500, 27500 - 0, 34000 - 0]"
+    respalda: "Resultados sin sentido que aparecen al copiar =B2-B7 sin fijar B7: C3 resta B8 (máximo), C4 resta B9 (mínimo) y C5 y C6 restan celdas vacías."
+  - calculo: "[24000 - 25000, 18500 - 25000, 21000 - 25000, 27500 - 25000, 34000 - 25000]"
+    respalda: "Diferencias correctas con el promedio fijo ($B$7): -1 000, -6 500, -4 000, 2 500 y 9 000."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — funciones y atajos documentados por Microsoft y Google; cifras verificadas con cálculo y recalculando el archivo de práctica"
+  monetizacion: "bajo — contenido educativo general, datos de ejemplo ficticios"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+  - {nombre: "Archivo de práctica Leccion02_practica.xlsx generado por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Chromebook", "Mac", "cuadradito", "cópiala"]

@@ -85,7 +85,7 @@ def validar(spec: dict) -> list[str]:
         err.append("las plantillas de curso solo se usan en fichas de lección (campo 'curso:')")
     if spec["formato"] == "largo":
         palabras = len(narracion_completa(spec).split())
-        if not 600 <= palabras <= 2300:
+        if not 800 <= palabras <= 2600:
             err.append(f"narración de video largo fuera de rango ({palabras} palabras; 600-2300 ≈ 4-15 min)")
     if spec["formato"] == "short":
         palabras = len(narracion_completa(spec).split())

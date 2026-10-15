@@ -5,8 +5,8 @@ lo que cambia en las lecciones de los cursos de `cursos/canal_a.yaml` y `cursos/
 
 ## 1. Qué es una lección
 
-- Un video horizontal de **8 a 12 minutos** (900-1 700 palabras de narración; el validador acepta
-  600-2 300). Una sola idea central, explicada de cero, con un ejemplo que se construye durante
+- Un video horizontal de **5 a 10 minutos** (1 000-1 900 palabras de narración: la voz lee unas 190-200 palabras por minuto; el validador acepta
+  800-2 600). Una sola idea central, explicada de cero, con un ejemplo que se construye durante
   el video y **una práctica** que la persona hace con un archivo.
 - El temario manda: título, objetivos y orden salen de `cursos/<canal>.yaml`. La ficha solo dice
   `curso: <id del curso>` y usa el mismo `id` de la lección (`A-L02`, `B-L03`…). No copies el título
@@ -51,11 +51,12 @@ introductoria ("Tres errores típicos.") necesita `beat_inicio: 1`.
 ## 5. Material de práctica (`materiales:`)
 
 - **Celda Clara:** un `.xlsx` con hoja `Práctica` (datos + celdas vacías donde va la respuesta;
-  `instrucciones` en una frase) y hoja `Solución` (las fórmulas resueltas). Las fórmulas se escriben
+  `instrucciones` en una frase, que se escriben al costado de la tabla) y hoja `Solución` (las fórmulas resueltas). Las fórmulas se escriben
   **como en Excel en español** (`=SUMA(C2:C8)`, `;` entre argumentos, coma decimal): la fábrica las
   traduce al formato interno del archivo y Excel o Sheets las muestran en el idioma de cada persona.
-  En `verificar` pon el valor esperado de cada celda resuelta (referencias relativas a la tabla, sin
-  contar la fila de instrucciones): la fábrica recalcula el archivo con LibreOffice y compara.
+  La tabla siempre empieza en A1, así que las celdas que dice el video son las mismas del archivo.
+  En `verificar` pon el valor esperado de cada celda resuelta: la fábrica recalcula el archivo con
+  LibreOffice y compara.
   Cada número que la narración dice en voz alta necesita `calculo` en `fuentes` (como en los Shorts).
 - **Atajo IA:** un `.txt` (`tipo: texto`) con los prompts del ejercicio listos para copiar,
   variables en `[CORCHETES]`, la advertencia de no pegar datos personales y una lista de control.
@@ -73,7 +74,7 @@ una fuente de este año. Si un dato depende de la versión o del plan, dilo ("en
 ## 7. Lista de control de la lección
 
 - [ ] `curso_portada` primero, `curso_cierre` último, `ejercicio` presente, 3-5 capítulos.
-- [ ] 900-1 700 palabras; escenas de 15-45 s; plantillas variadas.
+- [ ] 1 000-1 900 palabras; escenas de 15-45 s; plantillas variadas.
 - [ ] Beats revisados frase por frase.
 - [ ] Material con `verificar` (xlsx) o prompts listos (txt).
 - [ ] Sin voseo, sin promesas, sin datos inventados; fuentes con `respalda`.

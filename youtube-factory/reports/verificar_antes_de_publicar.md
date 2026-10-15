@@ -5,6 +5,9 @@ pero las rutas de menú de aplicaciones de terceros cambian y no siempre tienen 
 
 | ID | Qué verificar | Motivo |
 |---|---|---|
+| A-L04 | Lo que dice sobre la privacidad de ChatGPT, Gemini, Claude y Copilot (entrenamiento con tus chats, chats temporales) | Las políticas cambian seguido y la página de Copilot avisa una versión nueva de la app; el guion dice "a la fecha". Releer las 4 páginas citadas la semana de publicación |
+| A-L03 | Función de Gemini para verificar respuestas con la Búsqueda de Google | Interfaz cambiante; página de ayuda consultada en inglés |
+| B-L02 | Atajo F4 en Google Sheets (Fn + F4 en Mac) | Comportamiento según teclado y navegador |
 | A-026 | Ruta del "mensaje de ausencia" en WhatsApp Business | No se encontró página oficial de faq.whatsapp.com; el guion evita rutas exactas ("el nombre puede variar según versión") |
 | A-019 | Nombre en español del asistente "Texto en columnas" (Delimitado → Punto y coma) | Documentación consultada en inglés |
 | A-013 | Límite de destinatarios diarios de MailApp (cuentas personales) | Cuota que Google puede cambiar; el guion dice "a la fecha" |

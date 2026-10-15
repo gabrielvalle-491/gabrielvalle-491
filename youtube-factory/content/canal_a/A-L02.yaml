@@ -1,0 +1,341 @@
+id: A-L02
+canal: canal_a
+curso: ia-para-tu-trabajo
+fecha: 2026-11-03
+formato: largo
+serie: "Curso: IA para tu trabajo"
+episodio: "Lección 2"
+pilar: prompts
+tipo_editorial: tutorial
+idea: "Segunda lección del curso: un prompt en cuatro partes (rol, tarea, contexto y formato), cómo pedir el formato que necesitas y cómo mejorar una respuesta en dos pasos con correcciones concretas, todo con un caso inventado que se construye durante el video."
+objetivo: "Que una persona que ya conversó con un asistente de IA aprenda a armar un pedido claro en cuatro partes, a pedir el formato de la respuesta y a corregirla sin empezar de cero."
+publico: "Personas que trabajan en oficinas, comercios o de forma independiente y ya hicieron su primera conversación con un asistente de IA."
+hipotesis: "Segunda lección del formato curso: medir retención media y % que pasa a la lección 3 desde la pantalla final, contra la lección 1 y el promedio de videos largos del canal."
+gancho: "Un buen prompt no es magia: son cuatro partes que puedes armar en un minuto."
+duracion_objetivo: "5-10 min (≈1 000-1 900 palabras)"
+titulo: "Curso de IA · Lección 2: tu primer buen prompt en cuatro partes"
+titulos_alternativos:
+  - "Cómo escribir un buen prompt: rol, tarea, contexto y formato (Lección 2)"
+  - "Deja de recibir respuestas genéricas de la IA: método en cuatro partes"
+  - "Lección 2: pide el formato que necesitas y mejora la respuesta en dos pasos"
+criterio_titulo: "Nombra el curso y el número de lección (serie) y la búsqueda real del principiante: cómo escribir un buen prompt, con las cuatro partes como promesa concreta."
+descripcion: |
+  Segunda lección del curso gratuito «IA para tu trabajo». Aprendes a armar un prompt en cuatro partes (rol, tarea, contexto y formato), a pedir el formato exacto que necesitas y a mejorar una respuesta en dos pasos, sin empezar de cero.
+  El caso del video es una panadería inventada, solo para el ejemplo. Al final hay un ejercicio con un archivo de prompts listo para copiar. Sirve con la versión gratuita de cualquier asistente. No pegues datos personales ni de clientes.
+cta: "Descarga el archivo de prompts, haz el ejercicio y nos vemos en la lección 3."
+comentario_fijado: "Lección 2 del curso IA para tu trabajo. ¿Qué tarea de tu trabajo vas a convertir en un prompt de cuatro partes? Cuéntalo sin datos personales. En la lección 3 vemos cómo verificar lo que dice la IA."
+hashtags: ["#InteligenciaArtificial", "#CursoDeIA", "#Prompts"]
+palabras_clave: ["cómo escribir un buen prompt", "prompt rol tarea contexto formato", "curso de inteligencia artificial", "IA para el trabajo"]
+materiales:
+  - archivo: "Leccion02_prompts.txt"
+    tipo: texto
+    contenido: |
+      CURSO «IA PARA TU TRABAJO» · LECCIÓN 2 · ARCHIVO DE PRÁCTICA (Atajo IA)
+      Copia cada prompt en tu asistente de IA (ChatGPT, Gemini, Claude o Copilot; la versión gratuita alcanza).
+      Reemplaza lo que está entre [CORCHETES]. No pegues datos personales ni de clientes: usa una tarea general o datos inventados.
+
+      LAS CUATRO PARTES
+      1. Rol: quién quieres que sea el asistente.
+      2. Tarea: qué debe hacer, con un verbo claro.
+      3. Contexto: lo que necesita saber (objetivo, público, datos que no pueden cambiar).
+      4. Formato: cómo quieres recibir la respuesta (largo, estructura, tono).
+
+      EJERCICIO 1 · El pedido vago (guarda la respuesta para comparar)
+      Escribe [UNA TAREA DE TU TRABAJO, EN UNA SOLA FRASE].
+
+      EJERCICIO 2 · El mismo pedido en cuatro partes
+      Eres [UN ROL: por ejemplo, encargado de atención al cliente de un negocio de barrio].
+      Tu tarea: [UN VERBO + LO QUE NECESITAS: redactar, resumir, comparar...].
+      Contexto: [PARA QUÉ ES, A QUIÉN VA DIRIGIDO Y QUÉ DATOS NO PUEDEN CAMBIAR].
+      Formato: [LARGO MÁXIMO, ESTRUCTURA Y TONO: por ejemplo, un mensaje de tres frases, tono cercano].
+
+      EJERCICIO 3 · Mejora en dos pasos (en el mismo hilo)
+      Paso 1. Lee la respuesta y anota qué falla: ¿tono, largo o un dato que falta?
+      Paso 2. Pide un cambio concreto: Hazlo [MÁS CORTO / MÁS FORMAL / MÁS CERCANO]. Conserva [LO QUE NO DEBE CAMBIAR]. Cambia [LO QUE SÍ DEBE CAMBIAR].
+
+      EJERCICIO 4 · Pide un formato distinto (en el mismo hilo)
+      Ahora entrégame lo mismo como [UNA TABLA CON LAS COLUMNAS: ... / UNA LISTA DE VIÑETAS / PASOS NUMERADOS]. No agregues texto fuera de ese formato.
+
+      LISTA DE CONTROL
+      [ ] Mi prompt tiene las cuatro partes: rol, tarea, contexto y formato.
+      [ ] Pedí un largo y un tono concretos.
+      [ ] Corregí con un cambio concreto, no con "mejóralo".
+      [ ] Comparé la respuesta del ejercicio 1 con la del ejercicio 2.
+      [ ] No pegué nombres, documentos ni datos de clientes.
+escenas:
+  - narracion: "Un buen prompt no es magia: son cuatro partes que armas en un minuto. Llegamos a la lección 2 de *IA para tu trabajo*, el curso gratuito de Atajo IA. Hoy vas a armar un prompt en cuatro partes, a pedir el formato que requieres y a mejorar en dos pasos lo que te devuelve la IA."
+    visual:
+      plantilla: curso_portada
+      datos: {beat_objetivos: 2}
+  - narracion: "En el video anterior viste que la IA genera lenguaje probable y que, cuanto más antecedentes recibe, menos adivina. Hoy esa idea se vuelve un método. Lo probaremos con un caso que crece a lo largo del video: una panadería de barrio, inventada para la ocasión, que cambia su horario y debe avisar a su clientela."
+    visual:
+      plantilla: texto
+      datos:
+        kicker: "El caso del video"
+        titulo: "Una panadería *inventada*"
+        texto: "Cambia su horario y tiene que avisar a sus clientes."
+        nota: "Negocio ficticio, solo para el ejemplo"
+        beat_texto: 2
+        beat_nota: 2
+  - narracion: "Las cuatro partes."
+    capitulo: "Las cuatro partes"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "Las *cuatro partes* de un prompt"}
+  - narracion: "Empecemos por la orden que casi todos escribimos al comienzo: escribe un aviso de cambio de horario. Está bien, pero deja cuatro aspectos librados a la suerte. Uno: quién habla. Dos: a quién le habla. Tres: con qué tono. Cuatro: qué forma y qué largo debe tener. Cada vacío que la IA rellena sola es una posibilidad de que el resultado no te sirva."
+    visual:
+      plantilla: lista
+      datos:
+        kicker: "Pedido vago: «Escribe un aviso de cambio de horario»"
+        titulo: "Lo que el asistente tiene que *adivinar*"
+        estilo: x
+        items:
+          - {texto: "Quién habla", beat: 2}
+          - {texto: "A quién le habla", beat: 3}
+          - {texto: "Con qué tono", beat: 4}
+          - {texto: "Qué forma y qué largo", beat: 5}
+  - narracion: "Un prompt en cuatro partes cierra esos vacíos. Rol: quién quieres que sea la IA, como la persona encargada del mostrador de una panadería. Tarea: qué debe hacer, con un verbo claro, como redactar, resumir o comparar. Contexto: lo que debe saber, como el motivo del aviso, para quién es y qué detalles no pueden cambiar. Y formato: cómo quieres recibir el resultado."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Las cuatro partes"
+        estilo: num
+        beat_inicio: 1
+        items:
+          - {texto: "Rol", detalle: "Quién es el asistente"}
+          - {texto: "Tarea", detalle: "Qué debe hacer, con un verbo claro"}
+          - {texto: "Contexto", detalle: "Lo que necesita saber"}
+          - {texto: "Formato", detalle: "Cómo quieres recibir la respuesta"}
+  - narracion: "Sobre el rol, un detalle útil. La guía de prompts de Anthropic indica que asignarle un rol al modelo, aunque sea con una sola frase, orienta su tono y su comportamiento. No hace falta un disfraz exagerado: basta con decir quién habla y para quién."
+    visual:
+      plantilla: dato
+      datos:
+        kicker: "Sobre el rol"
+        dato: "Una frase alcanza: *quién habla* y para quién"
+        contexto: "Ejemplo: «Eres el encargado del mostrador de una panadería de barrio»"
+        fuente: "Guía de prompts de Anthropic"
+        beat_contexto: 2
+        beat_fuente: 1
+  - narracion: "El contexto es donde más se gana. Incluye el objetivo, es decir, para qué sirve el mensaje. Incluye el público, o sea, quién lo va a leer. Agrega lo que no puede variar, como una fecha o una hora. Y suma los límites, como lo que no debe mencionar. Lo que no escribes, la IA lo supone. Y ojo: dar contexto no es revelar detalles personales."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Qué poner en el *contexto*"
+        estilo: check
+        beat_inicio: 1
+        items:
+          - {texto: "El objetivo", detalle: "Para qué es el texto"}
+          - {texto: "El público", detalle: "A quién va dirigido"}
+          - {texto: "Los datos fijos", detalle: "Fechas, horas, condiciones"}
+          - {texto: "Las restricciones", detalle: "Lo que no debe decir"}
+  - narracion: "Ahora juntamos las cuatro piezas en una sola orden. Rol: encargado del mostrador de una panadería de barrio. Tarea: redactar el aviso del cambio de horario. Contexto: desde cierto día abrimos en otro horario, y la clientela debe enterarse. Formato: un mensaje corto y amable, con la hora en una línea aparte. Los corchetes marcan lo que cambias por lo tuyo."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Prompt en cuatro partes"
+        texto: "Eres el encargado del mostrador de una panadería de barrio. Redacta un aviso para clientes por el cambio de horario. Desde el [DÍA] abrimos de [HORA] a [HORA]. Formato: mensaje corto y amable, con la hora en una línea aparte."
+        nota: "Rol · tarea · contexto · formato. Entre [corchetes]: tus datos"
+        beat_nota: 5
+  - narracion: "Antes de publicar el aviso, revísalo con lápiz en mano. Comprueba que mencione el día exacto del cambio. Verifica que la hora de apertura y la de cierre sean las que decidió la panadería. Y asegúrate de que no prometa nada que nadie decidió, como un descuento o una tanda nueva de pan. El prompt ordena la redacción, pero los hechos del negocio los controlas tú."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Antes de usar el aviso, *revísalo*"
+        estilo: check
+        beat_inicio: 1
+        items:
+          - {texto: "El día exacto del cambio", detalle: "Que no cambie de fecha"}
+          - {texto: "Hora de apertura y de cierre", detalle: "Las que decidió el negocio"}
+          - {texto: "Nada prometido de más", detalle: "Ni descuentos ni productos nuevos"}
+  - narracion: "Un mito frecuente: que existen palabras mágicas que hacen que la IA rinda más. No las hay: lo que mejora el resultado es ser claro y específico, y aportar los antecedentes necesarios. Así lo recomienda OpenAI en su guía de prompts para ChatGPT."
+    visual:
+      plantilla: mito
+      datos:
+        mito: "Existen palabras mágicas que hacen que la IA rinda más"
+        realidad: "Lo que ayuda es ser *claro y específico* y dar contexto"
+        fuente: "OpenAI, centro de ayuda de ChatGPT"
+        beat_tachar: 1
+        beat_realidad: 1
+  - narracion: "La misma estructura sirve para cualquier oficio. En administración, alguien podría pedir el rol de coordinador de oficina, la tarea de ordenar una lista de pendientes y el formato de tabla con prioridades. Un vendedor independiente, el rol de redactor de catálogo, la tarea de describir un producto y el formato de tres líneas. Y una docente, el rol de tutora, la tarea de explicar una fracción y el formato de pasos numerados con un caso resuelto."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "La misma estructura, otros *oficios*"
+        estilo: num
+        beat_inicio: 1
+        items:
+          - {texto: "Administración", detalle: "Coordinador · ordenar pendientes · tabla con prioridades"}
+          - {texto: "Ventas", detalle: "Redactor de catálogo · describir un producto · tres líneas"}
+          - {texto: "Docencia", detalle: "Tutora · explicar una fracción · pasos con ejemplo"}
+  - narracion: "Tres errores típicos al armar un prompt. Para empezar, pedir muchos aspectos a la vez: si requieres un aviso, una tabla y un resumen, hazlo por etapas, una por mensaje. Luego, olvidar al público, porque no es lo mismo escribirle a un cliente que a un colega. Y por último, meter detalles personales como si fueran contexto: basta con describir la situación con rasgos generales o inventados."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Tres errores *típicos*"
+        estilo: x
+        beat_inicio: 1
+        items:
+          - {texto: "Pedir muchas cosas a la vez", detalle: "Mejor, un pedido por mensaje"}
+          - {texto: "Olvidar al público", detalle: "Cliente y colega no se leen igual"}
+          - {texto: "Pegar datos personales", detalle: "Describe la situación sin identificar a nadie"}
+  - narracion: "Pide el formato."
+    capitulo: "Pide el formato"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "Pide el *formato*"}
+  - narracion: "La cuarta pieza es la que más se olvida, y la que más trabajo ahorra. Si no pides formato, la IA elige por ti: podría entregarte un escrito largo, con títulos y explicaciones que no requieres. Si lo pides, recibes algo listo para usar. Así que, antes de enviar, decide cómo quieres recibir el resultado."
+    visual:
+      plantilla: versus
+      datos:
+        titulo: "Sin formato y con formato"
+        beat_izq: 1
+        beat_der: 2
+        beat_veredicto: 3
+        izq: {etiqueta: "Sin formato", titulo: "El asistente elige", items: ["Texto largo", "Títulos que no pediste", "Tono genérico"]}
+        der: {etiqueta: "Con formato", titulo: "Tú decides", items: ["Largo a tu medida", "Estructura lista para usar", "Tono que necesitas"]}
+        veredicto: "Pide cómo quieres *recibirlo*"
+  - narracion: "Cuatro aspectos que se pueden fijar. El largo: máximo tres frases o un solo párrafo. La estructura: viñetas, una tabla con las columnas que requieras, o pasos numerados. El tono: formal, cercano o neutro. Y el orden: lo más importante al comienzo y al final lo que admite espera."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Qué puedes pedir en el *formato*"
+        estilo: check
+        beat_inicio: 1
+        items:
+          - {texto: "El largo", detalle: "Tres frases, un párrafo"}
+          - {texto: "La estructura", detalle: "Viñetas, tabla, pasos"}
+          - {texto: "El tono", detalle: "Formal, cercano, neutro"}
+          - {texto: "El orden", detalle: "Lo importante primero"}
+  - narracion: "Un formato práctico es la tabla. Si tienes opciones para comparar, pídela con las columnas que requieres y con la orden de no agregar nada más. Así el resultado cabe en una planilla y lo revisas de un vistazo. Eso sí, al recibirla comprueba que respete las columnas solicitadas."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Pedir una tabla"
+        texto: "Compara [OPCIÓN A] y [OPCIÓN B] para [MI SITUACIÓN]. Entrégalo en una tabla con tres columnas: criterio, [OPCIÓN A] y [OPCIÓN B]. Máximo [CANTIDAD] filas. No agregues texto fuera de la tabla."
+        nota: "Revisa que respete lo que pediste"
+        beat_nota: 3
+  - narracion: "Un truco más para el formato: muestra un modelo. Si ya tienes un aviso que te gusta, escrito por ti o inventado, pégalo como muestra del estilo. Pide que copie el tono y el orden, pero no las frases. Así evitas describir con palabras algo que se entiende mejor viéndolo."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Pedir un estilo con un modelo"
+        texto: "Escribe el aviso con el estilo de este modelo: «[AVISO QUE TE GUSTA]». Copia el tono y el orden, no las frases. Largo máximo: [CANTIDAD] líneas."
+        nota: "Pega solo textos tuyos o inventados"
+        beat_nota: 3
+  - narracion: "Mejora en dos pasos."
+    capitulo: "Mejora en dos pasos"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "Mejora en *dos pasos*"}
+  - narracion: "Casi nunca el resultado inicial es el definitivo, y eso forma parte del método. Piénsalo como un boceto. Paso uno: léelo y detecta qué falla, sea el tono, el largo o un dato ausente. Paso dos: pide un cambio concreto, sin salir del hilo, y deja que la IA lo reescriba. Si hace falta, repite el ciclo."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Iterar: la respuesta es un *borrador*"
+        pasos:
+          - {titulo: "Lee y detecta qué falla", detalle: "Tono, largo o un dato que falta", beat: 2}
+          - {titulo: "Pide un cambio concreto", detalle: "En el mismo chat", beat: 3}
+          - {titulo: "Repite si hace falta", detalle: "Un ajuste por vuelta", beat: 4}
+  - narracion: "La diferencia está en cómo corriges. Si escribes solo: mejóralo, la IA no sabe qué mejorar y suele cambiar aspectos al azar. En cambio, si escribes: más corto, con un tono más cercano, y conserva la hora, sabe qué tocar y qué dejar intacto. Corregir bien también es dar órdenes precisas."
+    visual:
+      plantilla: versus
+      datos:
+        titulo: "Cómo corriges"
+        beat_izq: 1
+        beat_der: 2
+        beat_veredicto: 3
+        izq: {etiqueta: "Corrección vaga", titulo: "Cambia al azar", items: ["«Mejóralo»", "«No me convence»", "«Hazlo mejor»"]}
+        der: {etiqueta: "Corrección concreta", titulo: "Sabe qué tocar", items: ["«Más corto»", "«Tono más cercano»", "«Conserva la hora»"]}
+        veredicto: "Un cambio *concreto* por vez"
+  - narracion: "Así se ve el segundo paso, sin salir del hilo. Pides un cambio concreto e indicas qué debe quedar intacto. Fíjate en que no repites la orden completa, porque la IA conserva lo que ya hablaron. Y si algo más falla, lo ajustas en el siguiente mensaje."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Segundo paso: corregir"
+        texto: "Hazlo más corto: tres frases como máximo. Cambia el tono a uno más cercano. Conserva el día y la hora exactamente como están."
+        nota: "Mismo chat: no repites todo el pedido"
+        beat_nota: 2
+  - narracion: "Con ajustes concretos, un solo aviso se convierte en varios. Pide una versión breve para el cartel de la puerta. Pide otra para publicar en redes sociales, con una pregunta que invite a responder. Y una tercera, más formal, para quienes hacen encargos de tortas. Cada versión parte del mismo borrador y cambia solo lo que indicas."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Un borrador, *tres versiones*"
+        estilo: num
+        beat_inicio: 1
+        items:
+          - {texto: "Cartel de la puerta", detalle: "Breve y legible de lejos"}
+          - {texto: "Publicación en redes", detalle: "Con una pregunta final"}
+          - {texto: "Clientes de encargos", detalle: "Más formal, con la hora clara"}
+  - narracion: "A veces lo mejor es empezar de cero. Si tras dos o tres correcciones el hilo se enredó, o si cambiaste de asunto, abre uno nuevo y escribe un prompt mejor, con lo que aprendiste en la vuelta anterior. Es la regla del inicio del curso: asunto nuevo, hilo nuevo."
+    visual:
+      plantilla: dato
+      datos:
+        kicker: "Cuándo reiniciar"
+        dato: "Si el hilo se enredó, *empieza de nuevo*"
+        contexto: "Chat nuevo y un prompt mejorado con lo que aprendiste"
+        beat_contexto: 2
+  - narracion: "Práctica."
+    capitulo: "Práctica"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "*Práctica*", sub: "Archivo de prompts en la descripción"}
+  - narracion: "Tu turno. El archivo de prompts está en la descripción: descárgalo y abre tu herramienta de IA. Recuerda que no debes pegar detalles personales ni de clientes: usa una tarea general o casos inventados. Empieza con una orden vaga sobre una tarea de tu empleo y guarda lo que te devuelve. Enseguida, escribe lo mismo en cuatro partes y compara. Más adelante, corrige con uno o dos cambios concretos. Para cerrar, repasa la lista de control del archivo. Pausa el video y hazlo ahora."
+    visual:
+      plantilla: ejercicio
+      datos:
+        consigna: "Tu primer prompt en *cuatro partes*"
+        pausa: "Pausa el video y hazlo"
+        beat_pasos: 3
+        pasos:
+          - "Pide algo vago y guarda la respuesta"
+          - "Reescríbelo en cuatro partes y compara"
+          - "Corrige con cambios concretos"
+          - "Repasa la lista de control"
+  - narracion: "Ahora, la comparación. Con las cuatro partes, el resultado arranca más cerca de lo que requieres, porque la IA adivina menos. El formato que pediste se nota en el largo y en la estructura. Y tras uno o dos cambios concretos, la versión final se acerca a lo que tenías en mente. Si algo sigue sin convencerte, revisa cuál de las cuatro piezas quedó floja."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Qué deberías notar"
+        estilo: check
+        beat_inicio: 1
+        items:
+          - {texto: "Menos respuestas genéricas", detalle: "El asistente adivina menos"}
+          - {texto: "El formato se nota", detalle: "En el largo y la estructura"}
+          - {texto: "La versión final se acerca", detalle: "Con cambios concretos"}
+          - {texto: "Si falla, revisa las cuatro partes", detalle: "Una suele quedar floja"}
+  - narracion: "Repasemos. Un buen prompt reúne cuatro partes: rol, tarea, contexto y formato. Pedir el formato te evita reescribir. Y el resultado inicial es un boceto: se corrige sin salir del hilo, con cambios concretos. En la próxima lección veremos qué hacer cuando la IA suena segura pero se equivoca: cómo detectar errores e inventos, y cómo verificar lo que dice. Haz el ejercicio y nos vemos en la lección 3."
+    visual:
+      plantilla: curso_cierre
+      datos:
+        titulo: "Lo que aprendiste hoy"
+        puntos: ["Rol, tarea, contexto y formato", "Pide el formato que necesitas", "La respuesta es un borrador: corrige en dos pasos"]
+        cta: "Suscríbete para la lección 3"
+        beat_siguiente: 4
+        beat_cta: 5
+fuentes:
+  - url: "https://help.openai.com/en/articles/10032626-prompt-engineering-best-practices-for-chatgpt"
+    titulo: "Prompt engineering best practices for ChatGPT (OpenAI Help Center)"
+    fecha_consulta: 2026-10-15
+    respalda: "OpenAI recomienda escribir prompts claros y específicos, con suficiente contexto para el modelo, y refinar el resultado de forma iterativa (revisar la respuesta, ajustar la redacción, agregar contexto o simplificar el pedido)."
+  - url: "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"
+    titulo: "Prompting best practices (Claude Platform Docs, Anthropic)"
+    fecha_consulta: 2026-10-15
+    respalda: "La guía de Anthropic indica que Claude responde bien a instrucciones claras y explícitas, y que asignar un rol, incluso con una sola frase, orienta el comportamiento y el tono de la respuesta."
+  - url: "https://help.openai.com/en/articles/4936848-how-do-i-create-a-good-prompt-for-an-ai-model"
+    titulo: "How do I create a good prompt for an AI model? (OpenAI Help Center)"
+    fecha_consulta: 2026-10-15
+    respalda: "OpenAI sugiere dividir las tareas complejas en pedidos más pequeños y enfocados, y tratar el uso del asistente como una conversación."
+  - metodo_propio: true
+    respalda: "El caso de la panadería, los pedidos y los mensajes de corrección son ejemplos ilustrativos inventados por el canal, declarados como ficticios; el esquema de cuatro partes ordena las recomendaciones oficiales de claridad, contexto y formato, sin cifras ni datos externos."
+riesgos:
+  derechos: "bajo — se mencionan marcas de asistentes solo de forma descriptiva; sin logos ni capturas"
+  exactitud: "bajo — las recomendaciones de claridad, contexto, rol e iteración están documentadas por OpenAI y Anthropic; el caso de la panadería se declara ficticio; no se muestran respuestas de IA como reales ni se prometen resultados"
+  monetizacion: "bajo — contenido educativo general"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+  - {nombre: "Archivo de práctica Leccion02_prompts.txt escrito por el canal", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["mejóralo", "Mejóralo", "Reescríbelo", "reescríbelo", "descárgalo", "pégalo", "revísalo", "Atajo", "ChatGPT", "OpenAI", "Anthropic", "Copilot", "Gemini", "Claude"]

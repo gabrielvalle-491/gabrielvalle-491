@@ -12,7 +12,7 @@ objetivo: "Que una persona que nunca usó una planilla termine la lección habie
 publico: "Principiantes absolutos en Excel o Google Sheets que quieren usar planillas para su trabajo o su dinero."
 hipotesis: "Formato curso (portada con objetivos + capítulos + ejercicio con archivo): medir retención media y % que pasa a la lección 2 desde la pantalla final, contra el promedio de videos largos del canal."
 gancho: "Al terminar esta lección vas a tener tu primera planilla funcionando, con una suma que se actualiza sola."
-duracion_objetivo: "8-12 min (≈1 100-1 500 palabras)"
+duracion_objetivo: "5-10 min (≈1 000-1 900 palabras)"
 titulo: "Curso de Excel desde cero · Lección 1: celdas, datos y la función SUMA"
 titulos_alternativos:
   - "Excel desde cero: tu primera planilla y tu primera fórmula (Lección 1)"

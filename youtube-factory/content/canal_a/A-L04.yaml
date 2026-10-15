@@ -1,0 +1,303 @@
+id: A-L04
+canal: canal_a
+curso: ia-para-tu-trabajo
+fecha: 2026-11-17
+formato: largo
+serie: "Curso: IA para tu trabajo"
+episodio: "Lección 4"
+pilar: seguridad
+tipo_editorial: tutorial
+idea: "Cuarta lección del curso: qué datos nunca deben pegarse en un chat de IA (propios, ajenos y de la empresa), por qué borrar un nombre no basta, cómo anonimizar un texto en cuatro pasos, qué ajustes de privacidad revisar en un asistente y por qué desactivar el entrenamiento no habilita pegar cualquier cosa."
+objetivo: "Que una persona que ya sabe pedir y verificar con IA adquiera el hábito de decidir qué pegar, anonimice antes de enviar y revise la configuración de privacidad de la herramienta que usa."
+publico: "Personas que trabajan en oficinas, comercios o de forma independiente y manejan información de clientes, colegas o su empresa."
+hipotesis: "Cuarta lección del formato curso y cierre del módulo de fundamentos: medir retención media y % que pasa a la lección 5 desde la pantalla final, contra las lecciones 1 a 3 y el promedio de videos largos del canal."
+gancho: "Lo que pegas en una herramienta de IA ya no vive solo en tu pantalla."
+duracion_objetivo: "5-10 min (≈1 000-1 900 palabras)"
+titulo: "Curso de IA · Lección 4: qué nunca pegar en un chat de IA"
+titulos_alternativos:
+  - "Privacidad y ChatGPT, Gemini, Claude o Copilot: qué no pegar y cómo anonimizar (Lección 4)"
+  - "Antes de pegar ese texto en la IA: anonimiza en cuatro pasos"
+  - "Lección 4: revisa la privacidad de tu asistente de IA y protege los datos de tu trabajo"
+criterio_titulo: "Nombra el curso y el número de lección (serie) y la duda real del principiante: qué información es riesgoso pegar en un chat de IA."
+descripcion: |
+  Cuarta lección del curso gratuito «IA para tu trabajo». Aprendes a identificar los datos sensibles, a anonimizar un texto antes de pegarlo y a revisar la configuración de privacidad de tu asistente de IA. Las condiciones dependen del producto, del plan y del país: revisa siempre la ayuda oficial de la herramienta que uses.
+  Al final hay un ejercicio con un archivo de prompts y un texto ficticio para practicar. Contenido educativo general; no es asesoramiento legal.
+cta: "Descarga el archivo de prompts, haz el ejercicio y nos vemos en la lección 5."
+comentario_fijado: "Lección 4 del curso IA para tu trabajo. ¿Qué tipo de dato de tu trabajo nunca pegarías en un chat de IA? Cuéntalo sin incluir datos reales. En la lección 5 empezamos con la IA en el día a día: correos y documentos."
+hashtags: ["#InteligenciaArtificial", "#CursoDeIA", "#PrivacidadDigital"]
+palabras_clave: ["privacidad ChatGPT", "qué no pegar en la IA", "anonimizar datos", "curso de inteligencia artificial"]
+materiales:
+  - archivo: "Leccion04_prompts.txt"
+    tipo: texto
+    contenido: |
+      CURSO «IA PARA TU TRABAJO» · LECCIÓN 4 · ARCHIVO DE PRÁCTICA (Atajo IA)
+      Copia cada prompt en tu asistente de IA (ChatGPT, Gemini, Claude o Copilot; la versión gratuita alcanza).
+      Reemplaza lo que está entre [CORCHETES]. En esta práctica usa SOLO el texto ficticio de abajo o textos inventados por ti. No pegues datos personales ni de clientes.
+
+      REGLA DE ORO
+      Antes de pegar algo, pregúntate: ¿lo compartiría con un desconocido? Si la respuesta es no, no va al chat.
+
+      TEXTO FICTICIO PARA PRACTICAR (inventado; no corresponde a ninguna persona ni negocio reales)
+      «Hola, soy Marta Ruiz (teléfono 555 0100). Compré una olla en Ferretería Sol y el pedido llegó con la tapa rota. Vivo en Calle Falsa 123, Villa Ejemplo. Quiero que me cambien la olla o me devuelvan el dinero. Mi correo es marta.ruiz@ejemplo.com.»
+
+      EJERCICIO 1 · Anonimiza tú, antes de pegar (hazlo en un bloc de notas, no en el chat)
+      Reemplaza: nombre y apellido → [CLIENTE]; teléfono → [TELÉFONO]; negocio → [TIENDA]; dirección y ciudad → [DIRECCIÓN]; correo → [CORREO]. Relee el resultado: ¿queda algo que identifique a alguien?
+
+      EJERCICIO 2 · Pide la tarea con el texto ya anonimizado
+      Redacta una respuesta amable a este mensaje de un cliente. Los datos personales fueron reemplazados por etiquetas como [CLIENTE] y [TIENDA]; conserva esas etiquetas. Ofrece dos soluciones posibles y pide que el cliente confirme cuál prefiere. Mensaje: «[PEGA AQUÍ EL TEXTO YA ANONIMIZADO]»
+
+      EJERCICIO 3 · Repón los datos tú mismo (fuera del chat)
+      Copia la respuesta a tu bloc de notas y cambia las etiquetas por los datos del texto original. Los datos reales nunca vuelven al chat.
+
+      EJERCICIO 4 · Una pregunta general, sin datos tuyos
+      Explícame, en términos generales, qué tipos de información no conviene escribir en un chat de IA y por qué. Dame criterios generales; no necesito que conozcas mi caso.
+
+      EJERCICIO 5 · Revisa tu configuración (sin prompt)
+      Abre la configuración de tu asistente y busca la sección de privacidad o de controles de datos. Anota: (1) si se guarda el historial, (2) si tus chats se usan para mejorar el modelo, (3) si hay chats temporales o de incógnito, (4) cómo se borran las conversaciones, (5) si tu cuenta es personal o de trabajo. Las opciones cambian según el producto y el plan.
+
+      LISTA DE CONTROL
+      [ ] Reemplacé nombre, teléfono, dirección, correo y negocio por etiquetas.
+      [ ] Releí el texto y no quedó ningún detalle que identifique a alguien.
+      [ ] Repuse los datos reales fuera del chat.
+      [ ] Encontré dónde se decide si mis chats se usan para mejorar el modelo.
+      [ ] Anoté qué opciones tengo hoy y en qué fecha las revisé.
+      [ ] No pegué datos reales de nadie.
+escenas:
+  - narracion: "Lo que pegas en una herramienta de IA ya no vive solo en tu pantalla. Llegamos a la lección 4 de *IA para tu trabajo*, el curso gratuito de Atajo IA. Hoy vas a identificar lo que es sensible, a anonimizar antes de pegar y a revisar los ajustes de privacidad de la IA que usas."
+    visual:
+      plantilla: curso_portada
+      datos: {beat_objetivos: 2}
+  - narracion: "Una IA conversacional no es un cuaderno privado. Lo que tecleas viaja a los servidores de la empresa que la ofrece, y las condiciones dependen del producto, del plan y del país. Por eso la lección se apoya en una regla simple: antes de pegar algo, pregúntate si te sentirías cómodo viéndolo en manos de un desconocido."
+    visual:
+      plantilla: dato
+      datos:
+        kicker: "La regla de oro"
+        dato: "Antes de pegar, pregúntate: ¿lo *compartirías* con un desconocido?"
+        contexto: "Si la respuesta es no, no se pega"
+        beat_contexto: 2
+  - narracion: "Qué nunca pegar."
+    capitulo: "Qué nunca pegar"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "Qué *nunca* pegar"}
+  - narracion: "Hay dos grupos de contenido que no deben pasar a una IA. El primero es el tuyo: documentos de identidad, contraseñas y códigos de acceso, números de tarjetas o de cuentas. El segundo es el de otras personas y el de tu empresa: clientes, colegas, pacientes, contratos, listas de precios internas e informes que no son públicos. Si dudas, no lo pegues."
+    visual:
+      plantilla: versus
+      datos:
+        titulo: "Dos grupos de datos sensibles"
+        beat_izq: 1
+        beat_der: 2
+        beat_veredicto: 3
+        izq: {etiqueta: "Tuyos", titulo: "Datos personales", items: ["Documento de identidad", "Contraseñas y códigos", "Tarjetas y cuentas"]}
+        der: {etiqueta: "De otros", titulo: "Datos ajenos", items: ["Clientes, colegas, pacientes", "Contratos y precios internos", "Informes no públicos"]}
+        veredicto: "Si dudas, *no lo pegues*"
+  - narracion: "Mira estas situaciones cotidianas que parecen inofensivas. Reenviar el correo de un cliente con su teléfono y su dirección. Pegar la planilla de sueldos del equipo para pedir un resumen. Subir el contrato con un proveedor para que lo expliquen. O mostrar la captura del banco para entender un cargo. En todas, el contenido es sensible aunque el trámite sea inocente."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Situaciones que *parecen* inocentes"
+        estilo: x
+        beat_inicio: 1
+        items:
+          - {texto: "El correo de un cliente", detalle: "Con su teléfono y su dirección"}
+          - {texto: "La planilla de sueldos", detalle: "Para pedir un resumen"}
+          - {texto: "El contrato de un proveedor", detalle: "Para que lo expliquen"}
+          - {texto: "La captura del banco", detalle: "Para entender un cargo"}
+  - narracion: "Un mito común: que basta con borrar el nombre para que un escrito sea anónimo. No siempre: el cargo, la ciudad, las fechas y una situación concreta, combinados, pueden seguir identificando a alguien. Y los adjuntos, las capturas de pantalla y los correos reenviados suelen arrastrar rasgos que no ves a simple vista."
+    visual:
+      plantilla: mito
+      datos:
+        mito: "Borrando el nombre, el texto ya es anónimo"
+        realidad: "Cargo, ciudad y situación *juntos* pueden seguir identificando a alguien"
+        beat_tachar: 1
+        beat_realidad: 1
+  - narracion: "También existe un marco legal. En Argentina, la Ley [[veinticinco trescientos veintiséis|25.326]] de Protección de los Datos Personales regula los datos personales asentados en archivos y bancos de datos, públicos o privados. Si trabajas con datos de clientes, averigua qué normas aplican en tu país y qué política tiene tu empresa. Esto es orientación general, no asesoramiento legal."
+    visual:
+      plantilla: dato
+      datos:
+        kicker: "Marco legal, en general"
+        dato: "Ley *25.326*: protección de datos personales (Argentina)"
+        contexto: "Información general, no asesoramiento legal"
+        fuente: "argentina.gob.ar"
+        beat_contexto: 3
+        beat_fuente: 1
+  - narracion: "Anonimiza antes de pegar."
+    capitulo: "Anonimiza antes de pegar"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "*Anonimiza* antes de pegar"}
+  - narracion: "Anonimizar es quitar o cambiar lo que identifica, sin perder lo que te hace falta. Sigue este orden. Uno: elimina nombres, documentos, teléfonos, correos y direcciones. Dos: reemplázalos por etiquetas, como cliente uno o empresa A, para que el escrito conserve sentido. Tres: generaliza el resto, por ejemplo, cambia una fecha exacta por un mes, o un monto por un rango. Y cuatro: relee todo antes de enviar, incluidos los adjuntos."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Anonimizar en *cuatro pasos*"
+        beat_inicio: 2
+        pasos:
+          - {titulo: "Elimina lo que identifica", detalle: "Nombres, documentos, teléfonos, direcciones"}
+          - {titulo: "Reemplaza por etiquetas", detalle: "[CLIENTE], [EMPRESA A]"}
+          - {titulo: "Generaliza lo demás", detalle: "Un mes en vez de una fecha exacta"}
+          - {titulo: "Relee antes de enviar", detalle: "Incluidos los adjuntos"}
+  - narracion: "Mira un caso con rasgos totalmente ficticios. A la izquierda, el reclamo original de un cliente, con nombre, teléfono y dirección. A la derecha, el mismo reclamo anonimizado: la consulta sigue completa, pero ya no identifica a nadie. Con la versión de la derecha, la IA puede ayudarte igual."
+    visual:
+      plantilla: versus
+      datos:
+        titulo: "Mensaje ficticio, antes y después"
+        beat_izq: 1
+        beat_der: 2
+        beat_veredicto: 3
+        izq: {etiqueta: "Antes", titulo: "Original", items: ["«Soy Marta Ruiz»", "«Tel. 555 0100»", "«Compré en Ferretería Sol»"]}
+        der: {etiqueta: "Después", titulo: "Anonimizado", items: ["«Soy [CLIENTE]»", "«Tel. [TELÉFONO]»", "«Compré en [TIENDA]»"]}
+        veredicto: "La consulta sigue, la *identidad* no"
+  - narracion: "Y así se ve el pedido con el reclamo ya anonimizado. Indica qué reemplazaste, para que la IA no intente adivinar nombres. Pega el escrito limpio y solo entonces plantea lo que quieres. Cuando tengas el resultado, vuelve a poner los rasgos reales tú mismo, fuera de la herramienta."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Pedido con texto anonimizado"
+        texto: "Redacta una respuesta amable a este mensaje de un cliente. Los datos personales fueron reemplazados por etiquetas como [CLIENTE] y [TIENDA]; conserva esas etiquetas. Mensaje: «[TEXTO YA ANONIMIZADO]»"
+        nota: "Los datos reales los repones tú, fuera del chat"
+        beat_nota: 3
+  - narracion: "¿Y si te hace falta ayuda con algo sensible? Hay alternativas. Describe la situación en general, sin nombres ni cifras reales. Usa material de muestra con la misma estructura, como una tabla con valores inventados. Pega solo el fragmento imprescindible, no el documento completo. Y la parte delicada hazla tú, fuera de la IA."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Alternativas a pegar *todo*"
+        estilo: num
+        beat_inicio: 2
+        items:
+          - {texto: "Describe la situación en general", detalle: "Sin nombres ni cifras reales"}
+          - {texto: "Usa datos de muestra", detalle: "Misma estructura, valores inventados"}
+          - {texto: "Pega solo el fragmento clave", detalle: "No el documento completo"}
+          - {texto: "Haz tú la parte delicada", detalle: "Fuera de la herramienta"}
+  - narracion: "Antes de enviar, haz una última pasada. ¿Quedó algún nombre, número o dirección? ¿Hay rasgos que, juntos, delatan a alguien? ¿El adjunto trae comentarios o notas que no ves? ¿Y de verdad hace falta pegar todo, o basta con un fragmento?"
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Última pasada antes de *enviar*"
+        estilo: check
+        beat_inicio: 1
+        items:
+          - {texto: "¿Queda algún nombre o número?", detalle: "O una dirección"}
+          - {texto: "¿Los detalles juntos delatan?", detalle: "Cargo, ciudad, situación"}
+          - {texto: "¿El adjunto trae notas ocultas?", detalle: "Comentarios que no ves"}
+          - {texto: "¿Hace falta pegar todo?", detalle: "Quizá basta un fragmento"}
+  - narracion: "Configuración de privacidad."
+    capitulo: "Configuración de privacidad"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "Configuración de *privacidad*"}
+  - narracion: "Las IA conversacionales traen ajustes de privacidad, y vale la pena mirarlos. Son estos. El historial: si se guardan tus diálogos y por cuánto tiempo. El uso de lo que tecleas para mejorar el modelo: en varios productos puedes decidir si se usa o no. Los modos temporales o de incógnito, que algunos servicios ofrecen. Y la forma de borrar lo ya guardado."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Cuatro ajustes para *mirar*"
+        estilo: num
+        beat_inicio: 2
+        items:
+          - {texto: "El historial", detalle: "Si se guarda y por cuánto tiempo"}
+          - {texto: "Mejorar el modelo", detalle: "Si tus chats se usan o no"}
+          - {texto: "Chats temporales o de incógnito", detalle: "Si tu herramienta los ofrece"}
+          - {texto: "El borrado", detalle: "Cómo eliminar conversaciones"}
+  - narracion: "El lugar exacto de cada ajuste cambia según el producto y se actualiza con el tiempo, así que no te doy un recorrido por menús. Lo general es esto. Entra a los ajustes de tu cuenta. Busca una sección de privacidad o de controles de datos. Revisa si tus diálogos se usan para mejorar el modelo y decide qué prefieres. Y repite la revisión de vez en cuando, porque las condiciones pueden cambiar."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Cómo revisar tu *configuración*"
+        beat_inicio: 2
+        pasos:
+          - {titulo: "Entra a la configuración", detalle: "De tu cuenta"}
+          - {titulo: "Busca privacidad o controles de datos", detalle: "El nombre varía"}
+          - {titulo: "Revisa el uso para mejorar el modelo", detalle: "Y decide qué prefieres"}
+          - {titulo: "Repite de vez en cuando", detalle: "Las condiciones pueden cambiar"}
+  - narracion: "También importa el tipo de cuenta. En una cuenta personal, el ajuste suele estar en tus manos: por ejemplo, OpenAI indica que en sus planes personales hay una opción para decidir si lo que tecleas se usa para mejorar el modelo. En una cuenta de trabajo o de estudio, las reglas las define la organización: OpenAI señala que por defecto no usa los contenidos de sus planes de empresa, de educación ni de su API con ese fin, y Google aclara que en [[uérkspeis|Workspace]] las condiciones de Gemini son otras. Antes de usar IA con material del trabajo, pregunta qué política tiene tu organización."
+    visual:
+      plantilla: versus
+      datos:
+        titulo: "Cuenta personal y cuenta de trabajo"
+        beat_izq: 1
+        beat_der: 2
+        beat_veredicto: 3
+        izq: {etiqueta: "Cuenta personal", titulo: "Ajustes a tu cargo", items: ["Opciones que decides tú", "Varían según plan y país", "Revísalas de vez en cuando"]}
+        der: {etiqueta: "Trabajo o estudio", titulo: "Reglas de la organización", items: ["Las define tu organización", "Pueden ser otras por defecto", "Pregunta la política vigente"]}
+        veredicto: "En el trabajo, *pregunta* primero"
+  - narracion: "Un último mito: que si desactivas el uso de lo que tecleas para entrenar, ya puedes pegar cualquier cosa. No es así: esa opción cambia un uso de tus datos, no todos. A la fecha, la ayuda de Microsoft Copilot aclara que desactivar el entrenamiento no excluye otros usos, como mejoras generales del producto, seguridad o cumplimiento. Y la de Gemini indica que, aun con la actividad desactivada, Google puede usar lo que tecleas para responderte y proteger el servicio, con ayuda de revisores humanos. La regla sobre contenido sensible sigue en pie."
+    visual:
+      plantilla: mito
+      datos:
+        mito: "Si desactivo el entrenamiento, puedo pegar cualquier cosa"
+        realidad: "Esa opción cambia *un* uso de tus datos, no todos"
+        fuente: "Ayuda de Microsoft Copilot y de Gemini Apps (Google), a la fecha"
+        beat_tachar: 1
+        beat_realidad: 1
+  - narracion: "Práctica."
+    capitulo: "Práctica"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "*Práctica*", sub: "Archivo de prompts en la descripción"}
+  - narracion: "Hora de poner a prueba lo aprendido. El archivo de la descripción trae un reclamo de cliente completamente ficticio, así que no te hace falta pegar nada tuyo. Marca en él todo lo que identificaría a alguien. Reemplázalo por etiquetas. Plantea una petición con el escrito ya limpio. Y revisa los ajustes de privacidad de tu IA, anotando qué opciones encontraste. Pausa el video y hazlo ahora."
+    visual:
+      plantilla: ejercicio
+      datos:
+        consigna: "Anonimiza antes de *pegar*"
+        pausa: "Pausa el video y hazlo"
+        beat_pasos: 2
+        pasos:
+          - "Marca todo lo que identifica a alguien"
+          - "Reemplázalo por etiquetas"
+          - "Pide la tarea con el texto limpio"
+          - "Revisa tu configuración de privacidad"
+  - narracion: "Compara con lo que obtuviste. La IA debería ayudarte igual con etiquetas que con rasgos reales: para ese caso no le hacía falta saber quién era el cliente. Si dudaste con algún rasgo, esa duda es una buena señal: ante la duda, quítalo. Y en tus ajustes, anota dónde se decide si lo que tecleas se usa para mejorar el modelo y qué opción tienes hoy."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Qué deberías *notar*"
+        estilo: check
+        beat_inicio: 1
+        items:
+          - {texto: "Sirve igual con etiquetas", detalle: "No necesitaba saber quién era"}
+          - {texto: "Ante la duda, quítalo", detalle: "La duda es una buena señal"}
+          - {texto: "Anota qué ajuste tienes hoy", detalle: "Y dónde se cambia"}
+  - narracion: "En resumen. Lo sensible, tuyo y ajeno, no va en una IA conversacional. Anonimiza: quita, reemplaza, generaliza y relee. Y revisa los ajustes de privacidad que ofrece, sabiendo que cambian según el producto y el plan. Con esta lección termina el módulo de fundamentos. En la próxima empezamos a usar la IA en el día a día: redactar, resumir y corregir correos y documentos. Haz el ejercicio y nos vemos en la lección 5."
+    visual:
+      plantilla: curso_cierre
+      datos:
+        titulo: "Lo que aprendiste hoy"
+        puntos: ["Los datos sensibles no van en un chat", "Anonimiza: quita, reemplaza, generaliza, relee", "Revisa la privacidad de tu herramienta"]
+        cta: "Suscríbete para la lección 5"
+        beat_siguiente: 5
+        beat_cta: 6
+fuentes:
+  - url: "https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance"
+    titulo: "How your data is used to improve model performance (OpenAI Help Center)"
+    fecha_consulta: 2026-10-15
+    respalda: "En los planes personales de ChatGPT (Free, Plus, Pro) OpenAI puede usar el contenido para entrenar sus modelos y existe un ajuste para desactivarlo; por defecto no usa las entradas ni salidas de ChatGPT Business, Enterprise, Edu ni de su API para mejorar sus modelos."
+  - url: "https://support.google.com/gemini/answer/13594961?hl=en"
+    titulo: "Gemini Apps Privacy Hub (Gemini Apps Help, Google)"
+    fecha_consulta: 2026-10-15
+    respalda: "Revisores humanos pueden revisar parte de los datos de Gemini Apps y Google pide no ingresar información confidencial; con la actividad (Keep Activity) desactivada o en chats temporales, Google aún puede usar los chats para responder y proteger el servicio, con ayuda de revisores humanos; en cuentas de Workspace las reglas son distintas."
+  - url: "https://support.claude.com/en/articles/8325621-i-would-like-to-input-sensitive-data-into-my-chats-with-claude-who-can-view-my-conversations"
+    titulo: "I would like to input sensitive data into my chats with Claude (Claude Help Center, Anthropic)"
+    fecha_consulta: 2026-10-15
+    respalda: "Anthropic recomienda cautela con los datos más sensibles (números de cuentas financieras, historiales de salud, contraseñas y documentos confidenciales) y explica que los chats de incógnito no se usan para mejorar Claude; la mejora del modelo en planes de consumo se puede ajustar en la configuración."
+  - url: "https://support.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-privacy-controls"
+    titulo: "Microsoft Copilot privacy controls (Microsoft Support)"
+    fecha_consulta: 2026-10-15
+    respalda: "Con la sesión iniciada se puede desactivar que las conversaciones se usen para entrenar modelos; esa opción no excluye otros usos como mejoras generales del producto, publicidad, seguridad y cumplimiento."
+  - url: "https://www.argentina.gob.ar/normativa/nacional/ley-25326-64790/texto"
+    titulo: "Ley 25.326 de Protección de los Datos Personales (argentina.gob.ar)"
+    fecha_consulta: 2026-10-15
+    respalda: "La Ley 25.326 de Argentina regula la protección de los datos personales asentados en archivos, registros, bancos de datos u otros medios técnicos de tratamiento, públicos o privados. Se menciona solo de forma general, sin asesoramiento legal."
+    cifras: ["25.326"]
+  - metodo_propio: true
+    respalda: "El mensaje de cliente (Marta Ruiz, teléfono, dirección, tienda) y los casos cotidianos son ejemplos ilustrativos inventados por el canal, declarados como ficticios; la técnica de anonimizar en cuatro pasos es un método propio de buenas prácticas, sin cifras ni datos externos."
+riesgos:
+  derechos: "bajo — se mencionan marcas de asistentes solo de forma descriptiva; sin logos ni capturas; el texto de práctica es ficticio"
+  exactitud: "medio — las configuraciones de privacidad cambian según producto, plan, país y fecha; solo se afirma lo respaldado por las páginas oficiales de OpenAI, Google, Anthropic y Microsoft, con 'a la fecha', sin recorridos de menús; la ley argentina se menciona de forma general con fuente oficial y aviso de que no es asesoramiento legal"
+  monetizacion: "bajo — contenido educativo general"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+  - {nombre: "Archivo de práctica Leccion04_prompts.txt escrito por el canal", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["anonimizar", "anonimiza", "anonimizado", "anonimizada", "anonimizo", "revísalas", "Revísalas", "quítalo", "Atajo", "ChatGPT", "OpenAI", "Copilot", "Gemini", "Claude", "Workspace", "Google", "Microsoft", "bloc"]
