@@ -182,7 +182,8 @@ def exportar(canal: str | None = None, desde: str | None = None, hasta: str | No
             for f_mat in mat_dir.glob("*"):
                 shutil.copy2(f_mat, carpeta / f_mat.name)
             if cursos.MARCA_ENLACE in m["descripcion"]:
-                pendientes.append({"id": spec["id"], "fecha": f, "estado": "falta_enlace",
+                estado = "falta_enlace_material"
+                pendientes.append({"id": spec["id"], "fecha": f, "estado": estado,
                                    "motivo": "falta el enlace público del material (cursos/<canal>.yaml → enlace_material)"})
             (carpeta / "PUBLICAR.txt").write_text(_texto_publicacion(m), encoding="utf-8")
             (carpeta / "metadatos.json").write_text(json.dumps(m, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -190,15 +191,17 @@ def exportar(canal: str | None = None, desde: str | None = None, hasta: str | No
                           "titulo": m["titulo"], "carpeta": carpeta.name, "qa": v.get("qa_puntaje"),
                           "marcar_ia": m["declaracion_sintetica"].get("decision", ""), "estado": estado})
         filas.sort(key=lambda r: r["fecha_hora_ar"])
-        with open(base / "PROGRAMACION.csv", "w", newline="", encoding="utf-8-sig") as fh:
+        sufijo = "" if not (desde or hasta) else f"_{desde or 'inicio'}_a_{hasta or 'fin'}"
+        with open(base / f"PROGRAMACION{sufijo}.csv", "w", newline="", encoding="utf-8-sig") as fh:
             w = csv.DictWriter(fh, fieldnames=["fecha_hora_ar", "id", "formato", "titulo", "carpeta", "qa", "marcar_ia", "estado"])
             w.writeheader()
             w.writerows(filas)
-        with open(base / "PENDIENTES.csv", "w", newline="", encoding="utf-8-sig") as fh:
+        with open(base / f"PENDIENTES{sufijo}.csv", "w", newline="", encoding="utf-8-sig") as fh:
             w = csv.DictWriter(fh, fieldnames=["id", "fecha", "estado", "motivo"])
             w.writeheader()
             for p in pendientes:
                 w.writerow({**p, "motivo": "; ".join(p["motivo"]) if isinstance(p["motivo"], list) else p["motivo"]})
-        resumen[c] = {"listos": len(filas), "pendientes": len(pendientes), "carpeta": str(base)}
-        print(f"{c}: {len(filas)} listos para programar, {len(pendientes)} pendientes → {base}")
+        listos = sum(1 for r in filas if r["estado"] == "aprobado")
+        resumen[c] = {"listos": listos, "pendientes": len(pendientes), "carpeta": str(base)}
+        print(f"{c}: {listos} listos para programar, {len(pendientes)} pendientes → {base}")
     return resumen

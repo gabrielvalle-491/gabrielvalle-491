@@ -2,10 +2,10 @@
 
 ## Atajo IA (canal_a)
 
-- Guiones: 90 · **aprobados: 90** · pendientes: 0
-- Duración de los aprobados: mín 22.2 s · mediana 32.4 s · máx 39.7 s
+- Guiones: 94 · **aprobados: 91** · pendientes: 3
+- Duración de los aprobados: mín 22.2 s · mediana 32.4 s · máx 294.0 s
 - Tiempo de producción por video (mediana): 115 s
-- Mezcla editorial: tutorial 26, caso_practico 16, contraintuitivo 11, herramienta 9, error_comun 9, mito 7, experimento 6, comparacion 3, historia 3
+- Mezcla editorial: tutorial 30, caso_practico 16, contraintuitivo 11, herramienta 9, error_comun 9, mito 7, experimento 6, comparacion 3, historia 3
 
 | ID | Fecha | Estado | QA | Título / motivo |
 |---|---|---|---|---|
@@ -18,6 +18,7 @@
 | A-007 | 2026-10-25 | aprobado | 100.0 | Pídele a la IA críticas, no opiniones: cambia una frase |
 | A-008 | 2026-10-26 | aprobado | 100.0 | Filtros de Gmail: ordena tus facturas solas |
 | A-009 | 2026-10-27 | aprobado | 100.0 | Buscador o chatbot: cuándo usar cada uno |
+| A-L01 | 2026-10-27 | aprobado | 96.0 | Curso de IA desde cero · Lección 1: qué es un asistente de IA y cómo funciona |
 | A-010 | 2026-10-28 | aprobado | 100.0 | Cómo pedirle a la IA una fórmula de Excel que sí funcione |
 | A-011 | 2026-10-29 | aprobado | 100.0 | Cómo decir que no a un cliente con cortesía (con ayuda de IA) |
 | A-012 | 2026-10-30 | aprobado | 100.0 | Dos ejemplos en tu prompt: que la IA copie tu estilo |
@@ -25,6 +26,7 @@
 | A-014 | 2026-11-01 | aprobado | 100.0 | Resumen con IA o leer el índice: cuándo usar cada uno |
 | A-015 | 2026-11-02 | aprobado | 100.0 | Plan de publicaciones para redes con IA y una planilla |
 | A-016 | 2026-11-03 | aprobado | 100.0 | 'No hagas X' o 'Haz Y': qué instrucción entiende mejor la IA |
+| A-L02 | 2026-11-03 | sin_producir |  | no producido todavía |
 | A-017 | 2026-11-04 | aprobado | 100.0 | Recordatorios de pago automáticos con Google Calendar |
 | A-018 | 2026-11-05 | aprobado | 100.0 | FODA con IA: cómo evitar un análisis genérico |
 | A-019 | 2026-11-06 | aprobado | 100.0 | Pídele a la IA una tabla lista para pegar en Excel |
@@ -32,6 +34,7 @@
 | A-021 | 2026-11-08 | aprobado | 100.0 | Bienvenida a clientes: qué decir en 5 correos |
 | A-022 | 2026-11-09 | aprobado | 100.0 | Resumir un PDF largo con IA y qué verificar |
 | A-023 | 2026-11-10 | aprobado | 100.0 | Traduce una columna entera en Google Sheets con una fórmula |
+| A-L03 | 2026-11-10 | sin_producir |  | no producido todavía |
 | A-024 | 2026-11-11 | aprobado | 100.0 | Cotización para un cliente: la planilla suma, la IA redacta |
 | A-025 | 2026-11-12 | aprobado | 100.0 | Resume en tres niveles: una línea, un párrafo, una página |
 | A-026 | 2026-11-13 | aprobado | 100.0 | Mensaje de ausencia en WhatsApp Business: cómo configurarlo |
@@ -39,6 +42,7 @@
 | A-028 | 2026-11-15 | aprobado | 100.0 | Tu biblioteca de prompts: plantillas con [corchetes] |
 | A-029 | 2026-11-16 | aprobado | 100.0 | ¿Confiar en las cuentas de la IA? Compárala con tu planilla |
 | A-030 | 2026-11-17 | aprobado | 100.0 | Cómo responder reseñas negativas en Google (plantilla con IA) |
+| A-L04 | 2026-11-17 | sin_producir |  | no producido todavía |
 | A-031 | 2026-11-18 | aprobado | 100.0 | Error común al usar IA: no pedir una longitud |
 | A-032 | 2026-11-19 | aprobado | 100.0 | Formulario → planilla → aviso por correo, sin programar |
 | A-033 | 2026-11-20 | aprobado | 100.0 | Descripciones de producto con IA: plantilla paso a paso |
@@ -102,10 +106,10 @@
 
 ## Celda Clara (canal_b)
 
-- Guiones: 90 · **aprobados: 90** · pendientes: 0
-- Duración de los aprobados: mín 20.9 s · mediana 34.0 s · máx 47.8 s
-- Tiempo de producción por video (mediana): 84 s
-- Mezcla editorial: tutorial 46, error_comun 9, comparacion 9, contraintuitivo 7, experimento 6, herramienta 6, quiz 4, historia 2, mito 1
+- Guiones: 94 · **aprobados: 91** · pendientes: 3
+- Duración de los aprobados: mín 20.9 s · mediana 34.2 s · máx 334.7 s
+- Tiempo de producción por video (mediana): 85 s
+- Mezcla editorial: tutorial 49, error_comun 9, comparacion 9, contraintuitivo 7, experimento 6, herramienta 6, quiz 4, historia 2, caso_practico 1, mito 1
 
 | ID | Fecha | Estado | QA | Título / motivo |
 |---|---|---|---|---|
@@ -120,6 +124,7 @@
 | B-009 | 2026-10-27 | aprobado | 100.0 | Por qué tu suma no cuadra: 2 decimales no es redondear |
 | B-010 | 2026-10-28 | aprobado | 100.0 | Interés compuesto en Excel: 1 000 al 7 % en 10 años con VF |
 | B-011 | 2026-10-29 | aprobado | 100.0 | Gastos hormiga: cuánto suman en un año (con la cuenta) |
+| B-L01 | 2026-10-29 | aprobado | 100.0 | Curso de Excel desde cero · Lección 1: celdas, datos y la función SUMA |
 | B-012 | 2026-10-30 | aprobado | 100.0 | Separar códigos en Excel: IZQUIERDA y EXTRAE en 30 s |
 | B-013 | 2026-10-31 | aprobado | 100.0 | Ctrl + E en Excel: separa nombres y apellidos con un ejemplo |
 | B-014 | 2026-11-01 | aprobado | 100.0 | SUMA da 0 en Excel: números guardados como texto |
@@ -127,6 +132,7 @@
 | B-016 | 2026-11-03 | aprobado | 100.0 | Limpia nombres en Excel: ESPACIOS y NOMPROPIO juntos |
 | B-017 | 2026-11-04 | aprobado | 100.0 | Porcentaje de variación: divide por el valor inicial |
 | B-018 | 2026-11-05 | aprobado | 100.0 | Compra en cuotas: cuánto pagas de más (cálculo en planilla) |
+| B-L02 | 2026-11-05 | sin_producir |  | no producido todavía |
 | B-019 | 2026-11-06 | aprobado | 100.0 | Ranking que se ordena solo con ORDENARPOR (Excel) |
 | B-020 | 2026-11-07 | aprobado | 100.0 | Fechas que son texto en Excel: cómo detectarlas y arreglarlas |
 | B-021 | 2026-11-08 | aprobado | 100.0 | Cuánto pierde tu dinero con la inflación en 5 años (con números) |
@@ -134,6 +140,7 @@
 | B-023 | 2026-11-10 | aprobado | 100.0 | Por qué no combinar celdas en Excel (y qué usar en su lugar) |
 | B-024 | 2026-11-11 | aprobado | 100.0 | Gastos del hogar según el ingreso de cada uno (con fórmula) |
 | B-025 | 2026-11-12 | aprobado | 100.0 | SI anidado vs SI.CONJUNTO: misma clasificación, más legible |
+| B-L03 | 2026-11-12 | sin_producir |  | no producido todavía |
 | B-026 | 2026-11-13 | aprobado | 100.0 | Gráfico de gastos por categoría en Excel: ordenado de mayor a menor |
 | B-027 | 2026-11-14 | aprobado | 100.0 | Error #¡REF! al borrar filas en Excel: causa y cómo evitarlo |
 | B-028 | 2026-11-15 | aprobado | 100.0 | Inflación acumulada: por qué 10 % y 10 % no son 20 % |
@@ -141,6 +148,7 @@
 | B-030 | 2026-11-17 | aprobado | 100.0 | Ctrl + flechas en Excel: ir al final de los datos al instante |
 | B-031 | 2026-11-18 | aprobado | 100.0 | Fondo de emergencia: calcula tus meses de cobertura en Excel |
 | B-032 | 2026-11-19 | aprobado | 100.0 | INDICE + COINCIDIR vs BUSCARV: buscar a la izquierda en Excel |
+| B-L04 | 2026-11-19 | sin_producir |  | no producido todavía |
 | B-033 | 2026-11-20 | aprobado | 100.0 | Inventario en Excel con alerta de stock mínimo (fórmula SI) |
 | B-034 | 2026-11-21 | aprobado | 100.0 | IVA en México, Colombia, Chile y Argentina: tasas y fórmula |
 | B-035 | 2026-11-22 | aprobado | 100.0 | Inmovilizar paneles: encabezados siempre visibles en Excel |
