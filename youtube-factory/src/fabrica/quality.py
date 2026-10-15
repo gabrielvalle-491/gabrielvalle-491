@@ -164,6 +164,19 @@ def revisar_video(spec: dict, biblioteca: list[dict] | None = None) -> Informe:
         inf.add("subtítulos legibles (≤ 84 caracteres por bloque)", all(len(b[2]) <= 84 for b in bloques), "", 4)
     else:
         inf.add("subtítulos generados", False, str(srt), 20, True)
+    if spec.get("curso"):
+        from .cursos import capitulos, validar_capitulos
+        caps = capitulos(spec, tec)
+        errc = validar_capitulos(caps)
+        inf.add("capítulos de YouTube válidos (0:00, ≥ 3, ≥ 10 s)", not errc, "; ".join(errc) or f"{len(caps)} capítulos", 10, True)
+        mats = tec.get("materiales", [])
+        malos = [m for m in mats if m.get("estado") == "error"]
+        inf.add("material de práctica generado y verificado", len(mats) == len(spec.get("materiales", [])) and not malos,
+                "; ".join(f"{m['archivo']}: {m.get('detalle')}" for m in (malos or mats)), 15, True)
+        sin = [m["archivo"] for m in mats if m.get("estado") in ("parcial", "sin_verificar")]
+        inf.add("material verificado por completo con LibreOffice", not sin, ", ".join(sin), 3)
+        miniatura = canal.dir_salida("thumbnails") / f"{vid}.jpg"
+        inf.add("miniatura 1280×720 < 2 MB", miniatura.exists() and miniatura.stat().st_size < 2e6, miniatura.name, 5)
     portada = canal.dir_salida("thumbnails") / f"{vid}.png"
     inf.add("portada/primer fotograma generado", portada.exists() and portada.stat().st_size > 10_000, str(portada.name), 5)
     inf.add("coste registrado", True, "USD 0 en servicios (todo local); electricidad estimada en el informe de costos", 0)

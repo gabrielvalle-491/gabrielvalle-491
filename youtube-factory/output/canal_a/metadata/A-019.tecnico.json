@@ -54,9 +54,9 @@
     "target_offset": "0.44"
   },
   "fotogramas_unicos": 269,
-  "tts_cache": 0,
+  "tts_cache": 10,
   "spec_hash": "de3a106d9d4b865d",
-  "segundos_produccion": 97.4,
+  "segundos_produccion": 112.0,
   "texto_hablado": [
     "¿Sigues copiando la respuesta de la i a dato por dato?",
     "Una línea extra en tu prompt lo evita.",

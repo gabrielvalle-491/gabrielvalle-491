@@ -1,0 +1,72 @@
+{
+  "id": "A-033",
+  "duracion_s": 31.742,
+  "frases": 9,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.026,
+      "beats": [
+        -5.0,
+        3.63
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.026,
+      "fin": 14.799,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 14.799,
+      "fin": 25.102,
+      "beats": [
+        0.0,
+        4.959,
+        7.656
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 25.102,
+      "fin": 31.742,
+      "beats": [
+        0.0,
+        3.01
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.08",
+    "input_tp": "-6.15",
+    "input_lra": "2.40",
+    "input_thresh": "-31.39",
+    "output_i": "-14.34",
+    "output_tp": "-1.50",
+    "output_lra": "1.90",
+    "output_thresh": "-24.59",
+    "normalization_type": "dynamic",
+    "target_offset": "0.34"
+  },
+  "fotogramas_unicos": 296,
+  "tts_cache": 0,
+  "spec_hash": "bdba521169f66e1d",
+  "segundos_produccion": 119.3,
+  "texto_hablado": [
+    "¿Tus descripciones de producto dicen lo mismo que las de todos?",
+    "Dale a la i a lo que sí te diferencia.",
+    "Dale tus datos reales: beneficios, medidas y materiales, y la duda más común de tus clientes.",
+    "Así la descripción responde antes de que pregunten.",
+    "Antes de publicar, revisa que las medidas y los materiales coincidan con tu producto.",
+    "Que no haya ninguna característica inventada.",
+    "Y que la objeción tenga una respuesta clara.",
+    "Si la i a agrega algo falso, tu cliente lo notará.",
+    "Verifica siempre cada dato antes de publicar."
+  ]
+}

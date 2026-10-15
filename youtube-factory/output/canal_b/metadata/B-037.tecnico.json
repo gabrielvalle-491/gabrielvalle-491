@@ -1,0 +1,86 @@
+{
+  "id": "B-037",
+  "duracion_s": 31.24,
+  "frases": 11,
+  "subtitulos": 23,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.25,
+      "beats": [
+        -5.0,
+        3.398
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.25,
+      "fin": 14.694,
+      "beats": [
+        0.0,
+        3.126,
+        5.055
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 14.694,
+      "fin": 21.447,
+      "beats": [
+        0.0,
+        2.289,
+        3.909,
+        5.238
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 21.447,
+      "fin": 26.721,
+      "beats": [
+        0.0,
+        2.078
+      ],
+      "plantilla": "dato"
+    },
+    {
+      "inicio": 26.721,
+      "fin": 31.24,
+      "beats": [
+        0.0,
+        1.511
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.27",
+    "input_tp": "-6.31",
+    "input_lra": "2.20",
+    "input_thresh": "-32.51",
+    "output_i": "-14.18",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.33",
+    "normalization_type": "dynamic",
+    "target_offset": "0.18"
+  },
+  "fotogramas_unicos": 256,
+  "tts_cache": 11,
+  "spec_hash": "8f330efe1a6ba7d4",
+  "segundos_produccion": 81.3,
+  "texto_hablado": [
+    "Calcula el saldo de cada producto con una sola fórmula.",
+    "Sin recontar el almacén.",
+    "Anota el stock inicial, las entradas y las salidas.",
+    "Resalta esas tres columnas.",
+    "El cable parte con veinte, entran quince y salen doce: queda en veintitrés.",
+    "El saldo es una suma y una resta.",
+    "Parte del stock inicial.",
+    "Suma las entradas.",
+    "Y resta las salidas.",
+    "Si anotas cada movimiento en otra hoja, sumar si trae el total de entradas de cada producto.",
+    "Cambia una entrada o una salida y el saldo se actualiza solo."
+  ]
+}

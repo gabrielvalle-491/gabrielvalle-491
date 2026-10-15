@@ -1,0 +1,75 @@
+{
+  "id": "B-057",
+  "duracion_s": 23.782,
+  "frases": 8,
+  "subtitulos": 16,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.523,
+      "beats": [
+        -5.0,
+        2.13
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.523,
+      "fin": 11.088,
+      "beats": [
+        0.0,
+        1.254,
+        2.429,
+        3.603
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 11.088,
+      "fin": 20.378,
+      "beats": [
+        0.0,
+        3.029,
+        5.041,
+        7.32
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 20.378,
+      "fin": 23.782,
+      "beats": [
+        0.0,
+        1.066
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.03",
+    "input_tp": "-7.01",
+    "input_lra": "2.20",
+    "input_thresh": "-32.32",
+    "output_i": "-14.27",
+    "output_tp": "-1.50",
+    "output_lra": "1.10",
+    "output_thresh": "-24.48",
+    "normalization_type": "dynamic",
+    "target_offset": "0.27"
+  },
+  "fotogramas_unicos": 206,
+  "tts_cache": 0,
+  "spec_hash": "d425ec16ec0226f1",
+  "segundos_produccion": 62.5,
+  "texto_hablado": [
+    "Entrega el miércoles veintitrés.",
+    "¿Cuántos días hábiles te quedan desde el lunes catorce?",
+    "La función días lab pide la fecha inicial, la fecha final y, opcional, una lista de feriados.",
+    "Del catorce al veintitrés hay diez días corridos.",
+    "Resta dos por el fin de semana.",
+    "Resta uno por un feriado el veintiuno.",
+    "Quedan siete días hábiles.",
+    "Ingresa tus feriados y cambia las fechas."
+  ]
+}

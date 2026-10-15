@@ -1,0 +1,77 @@
+{
+  "id": "B-065",
+  "duracion_s": 40.227,
+  "frases": 11,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.802,
+      "beats": [
+        -5.0,
+        3.055
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.802,
+      "fin": 16.481,
+      "beats": [
+        0.0,
+        3.309,
+        7.163,
+        9.598
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 16.481,
+      "fin": 33.688,
+      "beats": [
+        0.0,
+        7.824,
+        13.173
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 33.688,
+      "fin": 40.227,
+      "beats": [
+        0.0,
+        2.807
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.29",
+    "input_tp": "-7.16",
+    "input_lra": "2.30",
+    "input_thresh": "-32.47",
+    "output_i": "-14.47",
+    "output_tp": "-1.50",
+    "output_lra": "2.20",
+    "output_thresh": "-24.60",
+    "normalization_type": "dynamic",
+    "target_offset": "0.47"
+  },
+  "fotogramas_unicos": 236,
+  "tts_cache": 0,
+  "spec_hash": "3ecf36c61e75bc76",
+  "segundos_produccion": 146.6,
+  "texto_hablado": [
+    "Pides doce mil prestados a veinticuatro meses.",
+    "¿De cuánto es la cuota?",
+    "La función PAGO calcula la cuota fija de un préstamo.",
+    "Primero, la tasa de cada mes: doce por ciento anual entre doce.",
+    "Luego, cuántos pagos hay: veinticuatro.",
+    "Y al final, el monto prestado.",
+    "El resultado es una cuota de quinientos sesenta y cuatro coma ochenta y ocho por mes; éxcel la muestra en negativo porque es dinero que sale.",
+    "Por veinticuatro meses, pagas trece mil quinientos cincuenta y siete coma dieciséis en total.",
+    "Los intereses suman mil quinientos cincuenta y siete coma dieciséis.",
+    "Ojo: PAGO no incluye impuestos ni comisiones.",
+    "Revisa el contrato y prueba con tu propio monto."
+  ]
+}

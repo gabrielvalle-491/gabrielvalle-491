@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:04,164
+Si la IA parece olvidar lo que dijiste al inicio del chat, no es descuido.
+
+2
+00:00:04,324 --> 00:00:05,295
+Es un límite.
+
+3
+00:00:05,575 --> 00:00:09,794
+La ventana de contexto es el texto que el modelo puede considerar a la vez.
+
+4
+00:00:09,954 --> 00:00:13,068
+Incluye tus mensajes, sus respuestas y los archivos.
+
+5
+00:00:13,228 --> 00:00:15,520
+Y según la documentación de Anthropic, con
+
+6
+00:00:15,520 --> 00:00:17,922
+más texto, baja la precisión y el recuerdo.
+
+7
+00:00:18,202 --> 00:00:21,372
+Entonces, primero pide que resuma lo decidido hasta ahora.
+
+8
+00:00:21,532 --> 00:00:23,131
+Luego abre un chat nuevo.
+
+9
+00:00:23,291 --> 00:00:25,510
+Pega el resumen y continúa desde ahí.
+
+10
+00:00:25,790 --> 00:00:28,934
+Revisa que el resumen conserve tus reglas y datos clave.

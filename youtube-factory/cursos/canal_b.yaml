@@ -1,0 +1,83 @@
+# Temario del curso de Celda Clara. Fuente única de títulos, objetivos y orden de las lecciones.
+# Cada lección es una ficha en content/canal_b/<id>.yaml con "curso: excel-desde-cero".
+# enlace_material: pegá acá el enlace público (Drive: "cualquier persona con el enlace") del material
+#                  de la lección después de subirlo. Mientras esté vacío, la lección no se publica.
+# lista_youtube_id / enlace_lista: completalos cuando crees la lista de reproducción del curso en Studio.
+id: excel-desde-cero
+canal: canal_b
+titulo: "Excel desde cero"
+titulo_completo: "Excel y Google Sheets desde cero: curso práctico gratuito"
+promesa: "En 12 lecciones pasas de no saber usar una planilla a armar tu control de gastos, un presupuesto, un inventario y tablas dinámicas, con un archivo de práctica en cada lección."
+publico: "Personas que empiezan con Excel o Google Sheets para su trabajo o para ordenar su dinero."
+nivel: "principiante → intermedio"
+requisitos: "Excel (cualquier versión reciente) o Google Sheets gratis con una cuenta de Google."
+formato_leccion: "5-10 min · portada con objetivos · 3-5 capítulos · ejercicio con archivo · resumen y próxima lección"
+lista_youtube_id: ""
+enlace_lista: ""
+modulos:
+  - titulo: "Fundamentos"
+    lecciones:
+      - id: B-L01
+        pilar: formulas
+        titulo: "Tu primera planilla: celdas, datos y la función SUMA"
+        objetivos: ["Moverte por filas, columnas y celdas", "Cargar datos y darles formato", "Escribir tu primera fórmula con SUMA"]
+        enlace_material: ""
+      - id: B-L02
+        pilar: formulas
+        titulo: "Fórmulas básicas y referencias: PROMEDIO, MAX, MIN y el signo $"
+        objetivos: ["Usar PROMEDIO, MAX, MIN y CONTAR", "Copiar fórmulas sin errores", "Fijar celdas con referencias absolutas"]
+        enlace_material: ""
+      - id: B-L03
+        pilar: formulas
+        titulo: "Decisiones en la planilla: SI, CONTAR.SI y SUMAR.SI"
+        objetivos: ["Escribir condiciones con SI", "Contar y sumar por categoría", "Combinar condiciones con Y y O"]
+        enlace_material: ""
+      - id: B-L04
+        pilar: dinero
+        titulo: "Proyecto 1: tu control de gastos mensual"
+        objetivos: ["Diseñar una hoja de gastos ordenada", "Resumir por categoría con SUMAR.SI", "Comparar lo gastado con lo planeado"]
+        enlace_material: ""
+  - titulo: "Organizar y analizar"
+    lecciones:
+      - id: B-L05
+        pilar: trabajo
+        titulo: "Ordenar, filtrar y convertir datos en tabla"
+        objetivos: ["Ordenar y filtrar sin romper los datos", "Dar formato de tabla", "Agregar filas sin rehacer fórmulas"]
+        enlace_material: ""
+      - id: B-L06
+        pilar: formulas
+        titulo: "Buscar datos: BUSCARX y BUSCARV sin errores"
+        objetivos: ["Traer datos de otra tabla", "Entender la coincidencia exacta", "Manejar los valores que no aparecen"]
+        enlace_material: ""
+      - id: B-L07
+        pilar: trabajo
+        titulo: "Tablas dinámicas desde cero"
+        objetivos: ["Crear una tabla dinámica", "Resumir por categoría y por mes", "Actualizarla cuando cambian los datos"]
+        enlace_material: ""
+      - id: B-L08
+        pilar: trabajo
+        titulo: "Gráficos que se entienden"
+        objetivos: ["Elegir el gráfico según la pregunta", "Evitar los gráficos que confunden", "Dar formato claro en pocos pasos"]
+        enlace_material: ""
+  - titulo: "Proyectos reales"
+    lecciones:
+      - id: B-L09
+        pilar: dinero
+        titulo: "Presupuesto 50/30/20 paso a paso"
+        objetivos: ["Separar necesidades, deseos y ahorro", "Calcular cada parte con fórmulas", "Ver la diferencia entre plan y realidad"]
+        enlace_material: ""
+      - id: B-L10
+        pilar: trabajo
+        titulo: "Inventario con alertas: formato condicional"
+        objetivos: ["Llevar entradas y salidas", "Calcular el stock actual", "Pintar en rojo lo que hay que reponer"]
+        enlace_material: ""
+      - id: B-L11
+        pilar: dinero
+        titulo: "Préstamos y deudas: PAGO y tabla de amortización"
+        objetivos: ["Calcular la cuota con PAGO", "Armar la tabla de amortización", "Comparar dos opciones de préstamo"]
+        enlace_material: ""
+      - id: B-L12
+        pilar: formulas
+        titulo: "Funciones dinámicas: FILTRAR, UNICOS y ORDENAR"
+        objetivos: ["Filtrar con una fórmula", "Obtener listas sin repetidos", "Armar un reporte que se actualiza solo"]
+        enlace_material: ""

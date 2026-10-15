@@ -1,0 +1,76 @@
+{
+  "id": "B-078",
+  "duracion_s": 36.454,
+  "frases": 11,
+  "subtitulos": 23,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.851,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.851,
+      "fin": 12.853,
+      "beats": [
+        0.0,
+        2.063,
+        4.319
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 12.853,
+      "fin": 28.938,
+      "beats": [
+        0.0,
+        1.528,
+        10.22,
+        12.516
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 28.938,
+      "fin": 36.454,
+      "beats": [
+        0.0,
+        3.435
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.79",
+    "input_tp": "-6.81",
+    "input_lra": "2.10",
+    "input_thresh": "-31.96",
+    "output_i": "-14.18",
+    "output_tp": "-1.50",
+    "output_lra": "2.30",
+    "output_thresh": "-24.35",
+    "normalization_type": "dynamic",
+    "target_offset": "0.18"
+  },
+  "fotogramas_unicos": 234,
+  "tts_cache": 11,
+  "spec_hash": "75373c9f1f37428a",
+  "segundos_produccion": 89.8,
+  "texto_hablado": [
+    "Rojo si ya venció.",
+    "Amarillo si vence en siete días.",
+    "Imagina que hoy es diez de enero.",
+    "La factura F-uno venció el cinco.",
+    "La F-dos vence el catorce, en cuatro días.",
+    "La F-tres vence el treinta.",
+    "Selecciona las fechas.",
+    "En Inicio, abre Formato condicional y crea una regla nueva con una fórmula: con la función Y, la fecha no vacía y menor que hoy, con formato rojo.",
+    "Otra regla: con la función Y, la fecha mayor o igual que hoy y menor o igual que hoy más siete, en amarillo.",
+    "HOY se actualiza al abrir o recalcular el libro.",
+    "Y cuando una factura se pague, cambia su fecha o bórrala."
+  ]
+}

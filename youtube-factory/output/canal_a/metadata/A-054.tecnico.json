@@ -1,0 +1,75 @@
+{
+  "id": "A-054",
+  "duracion_s": 33.455,
+  "frases": 10,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.644,
+      "beats": [
+        -5.0,
+        3.349
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.644,
+      "fin": 16.137,
+      "beats": [
+        0.0,
+        2.933,
+        6.928
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 16.137,
+      "fin": 24.147,
+      "beats": [
+        0.0,
+        1.816,
+        4.839
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 24.147,
+      "fin": 33.455,
+      "beats": [
+        0.0,
+        4.954
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.33",
+    "input_tp": "-7.00",
+    "input_lra": "2.10",
+    "input_thresh": "-31.60",
+    "output_i": "-13.95",
+    "output_tp": "-1.50",
+    "output_lra": "1.50",
+    "output_thresh": "-24.12",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.05"
+  },
+  "fotogramas_unicos": 234,
+  "tts_cache": 10,
+  "spec_hash": "314937248e6a9b2e",
+  "segundos_produccion": 105.6,
+  "texto_hablado": [
+    "Un agente de i a no es un chatbot más inteligente.",
+    "Es otra cosa.",
+    "Un chatbot responde con texto a lo que le escribes.",
+    "Un agente recibe un objetivo y decide los pasos, usando herramientas.",
+    "Según Anthropic, el modelo dirige su propio proceso y cómo cumple la tarea.",
+    "Primero, planea los pasos.",
+    "Luego usa herramientas, como buscar o leer archivos.",
+    "Y revisa el resultado hasta cumplir el objetivo.",
+    "Más autonomía exige más cuidado: da permisos acotados y revisa lo que hizo.",
+    "Y si un chatbot resuelve tu tarea, no necesitas un agente."
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "B-077",
+  "duracion_s": 37.341,
+  "frases": 13,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.602,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.602,
+      "fin": 13.544,
+      "beats": [
+        0.0,
+        1.896,
+        3.906,
+        5.494
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 13.544,
+      "fin": 21.984,
+      "beats": [
+        0.0,
+        2.062,
+        6.41
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 21.984,
+      "fin": 37.341,
+      "beats": [
+        0.0,
+        2.546
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.71",
+    "input_tp": "-6.66",
+    "input_lra": "2.30",
+    "input_thresh": "-31.94",
+    "output_i": "-14.07",
+    "output_tp": "-1.50",
+    "output_lra": "2.00",
+    "output_thresh": "-24.21",
+    "normalization_type": "dynamic",
+    "target_offset": "0.07"
+  },
+  "fotogramas_unicos": 245,
+  "tts_cache": 13,
+  "spec_hash": "e3f9fc287df6760f",
+  "segundos_produccion": 83.6,
+  "texto_hablado": [
+    "Busca un precio por su código, sin contar columnas.",
+    "Con buscar equis es una fórmula corta.",
+    "Así se escribe buscar equis.",
+    "Primero, el código que buscas.",
+    "Luego, dónde buscarlo.",
+    "Y al final, de dónde devolver el precio.",
+    "Buscamos el código ciento dos.",
+    "buscar equis lo ubica en la columna A y mira la misma fila en la columna C.",
+    "Devuelve trescientos cuarenta.",
+    "Por defecto busca coincidencia exacta.",
+    "Y si no encuentra el código, puedes añadir un texto como cuarto argumento.",
+    "Disponible en éxcel dos mil veintiuno, dos mil veinticuatro y Microsoft trescientos sesenta y cinco.",
+    "Pruébalo con tu lista de precios."
+  ]
+}

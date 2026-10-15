@@ -1,0 +1,78 @@
+{
+  "id": "B-029",
+  "duracion_s": 34.707,
+  "frases": 12,
+  "subtitulos": 26,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.921,
+      "beats": [
+        -5.0,
+        2.549
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.921,
+      "fin": 15.151,
+      "beats": [
+        0.0,
+        3.459,
+        5.735
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 15.151,
+      "fin": 26.971,
+      "beats": [
+        0.0,
+        3.404,
+        4.773,
+        6.949
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 26.971,
+      "fin": 34.707,
+      "beats": [
+        0.0,
+        2.387
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.79",
+    "input_tp": "-4.87",
+    "input_lra": "1.90",
+    "input_thresh": "-31.94",
+    "output_i": "-14.08",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.18",
+    "normalization_type": "dynamic",
+    "target_offset": "0.08"
+  },
+  "fotogramas_unicos": 244,
+  "tts_cache": 12,
+  "spec_hash": "13d218037d47993a",
+  "segundos_produccion": 87.8,
+  "texto_hablado": [
+    "Tienes mil filas con clientes repetidos.",
+    "Esta fórmula te da la lista limpia.",
+    "Escribe únicos y el rango de clientes en una celda libre.",
+    "Ana y Luis aparecen dos veces.",
+    "El resultado trae a cada cliente una sola vez, en el orden en que aparece.",
+    "También puedes pedir solo los clientes que aparecen una vez.",
+    "Primero, el rango.",
+    "Luego, falso para comparar filas.",
+    "Y VERDADERO para dejar solo los que aparecen una única vez.",
+    "Aquí, solo Marta.",
+    "Es una fórmula que se actualiza sola.",
+    "Disponible en éxcel trescientos sesenta y cinco y dos mil veintiuno o posterior."
+  ]
+}

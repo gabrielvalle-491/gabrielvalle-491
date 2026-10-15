@@ -1,0 +1,85 @@
+{
+  "id": "A-085",
+  "duracion_s": 39.078,
+  "frases": 11,
+  "subtitulos": 26,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.26,
+      "beats": [
+        -5.0,
+        2.096
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.26,
+      "fin": 17.515,
+      "beats": [
+        0.0,
+        6.407,
+        9.362
+      ],
+      "plantilla": "timeline"
+    },
+    {
+      "inicio": 17.515,
+      "fin": 25.01,
+      "beats": [
+        0.0,
+        1.972,
+        4.805
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 25.01,
+      "fin": 32.013,
+      "beats": [
+        0.0,
+        3.935
+      ],
+      "plantilla": "dato"
+    },
+    {
+      "inicio": 32.013,
+      "fin": 39.078,
+      "beats": [
+        0.0,
+        2.484
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.33",
+    "input_tp": "-5.21",
+    "input_lra": "1.70",
+    "input_thresh": "-31.59",
+    "output_i": "-13.99",
+    "output_tp": "-1.50",
+    "output_lra": "1.30",
+    "output_thresh": "-24.18",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.01"
+  },
+  "fotogramas_unicos": 262,
+  "tts_cache": 11,
+  "spec_hash": "63fdb43ec2f82f54",
+  "segundos_produccion": 130.6,
+  "texto_hablado": [
+    "Elisa era un programa muy simple, y aun así muchos usuarios sentían que los entendía.",
+    "Entre mil novecientos sesenta y cuatro y mil novecientos sesenta y seis, Joseph Weizenbaum la creó en el MIT.",
+    "Su guion más famoso imitaba a un psicoterapeuta.",
+    "Y muchos usuarios le atribuían comprensión.",
+    "Tú escribes algo personal.",
+    "El programa devuelve tus palabras como pregunta.",
+    "Parece que escucha, pero solo sigue reglas.",
+    "Por dentro, comparaba tu texto con reglas y armaba una respuesta.",
+    "Según Britannica, no tenía inteligencia real.",
+    "Hoy los chatbots son mucho más capaces.",
+    "Pero la lección sigue vigente: que suene humano no prueba que entienda."
+  ]
+}

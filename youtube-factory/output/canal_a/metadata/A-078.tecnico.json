@@ -1,0 +1,84 @@
+{
+  "id": "A-078",
+  "duracion_s": 30.563,
+  "frases": 10,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.166,
+      "beats": [
+        -5.0,
+        1.258
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.166,
+      "fin": 11.34,
+      "beats": [
+        0.0,
+        2.334,
+        5.161
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 11.34,
+      "fin": 20.185,
+      "beats": [
+        0.0,
+        2.06,
+        4.243,
+        6.848
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 20.185,
+      "fin": 25.859,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 25.859,
+      "fin": 30.563,
+      "beats": [
+        0.0,
+        1.585
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.47",
+    "input_tp": "-6.32",
+    "input_lra": "1.60",
+    "input_thresh": "-31.78",
+    "output_i": "-14.17",
+    "output_tp": "-1.50",
+    "output_lra": "1.80",
+    "output_thresh": "-24.41",
+    "normalization_type": "dynamic",
+    "target_offset": "0.17"
+  },
+  "fotogramas_unicos": 334,
+  "tts_cache": 10,
+  "spec_hash": "112fc7443d32e947",
+  "segundos_produccion": 116.2,
+  "texto_hablado": [
+    "Todo parece urgente, pero no todo es importante.",
+    "Urgente es lo que te reclama ahora.",
+    "Importante es lo que te acerca a tus metas.",
+    "Si los mezclas, pasas el día apagando incendios.",
+    "Urgente e importante: hazlo ya.",
+    "Importante, no urgente: prográmalo.",
+    "Urgente, no importante: delega si puedes.",
+    "Ni lo uno ni lo otro: elimínalo.",
+    "Pásale tu lista a la i a y pide que la clasifique en esos grupos, con una línea de motivo por tarea.",
+    "Tú ajustas el resultado: la i a no conoce tus plazos reales."
+  ]
+}

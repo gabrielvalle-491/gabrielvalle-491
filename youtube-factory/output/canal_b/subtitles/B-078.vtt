@@ -1,0 +1,37 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:01.426
+Rojo si ya venció.
+
+00:00:01.586 --> 00:00:03.651
+Amarillo si vence en siete días.
+
+00:00:03.931 --> 00:00:05.803
+Imagina que hoy es 10 de enero.
+
+00:00:05.963 --> 00:00:08.060
+La factura F-1 venció el 5.
+
+00:00:08.220 --> 00:00:10.738
+La F-2 vence el 14, en cuatro días.
+
+00:00:10.898 --> 00:00:12.653
+La F-3 vence el 30.
+
+00:00:12.933 --> 00:00:14.272
+Selecciona las fechas.
+
+00:00:14.432 --> 00:00:17.905
+En Inicio, abre Formato condicional y crea una
+
+00:00:17.905 --> 00:00:22.964
+regla nueva con una fórmula: Y(B2<>"";B2<HOY()), con formato rojo.
+
+00:00:23.124 --> 00:00:28.738
+Otra regla: Y(B2>=HOY();B2<=HOY()+7), en amarillo.
+
+00:00:29.018 --> 00:00:32.262
+HOY se actualiza al abrir o recalcular el libro.
+
+00:00:32.422 --> 00:00:35.594
+Y cuando una factura se pague, cambia su fecha o bórrala.

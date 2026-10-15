@@ -55,9 +55,9 @@
     "target_offset": "0.06"
   },
   "fotogramas_unicos": 197,
-  "tts_cache": 0,
+  "tts_cache": 7,
   "spec_hash": "345af8b456562197",
-  "segundos_produccion": 99.9,
+  "segundos_produccion": 74.5,
   "texto_hablado": [
     "Misma fórmula, copiada hacia abajo: la primera fila sale bien y la segunda da cero.",
     "El impuesto usa la tasa de la celda de dos.",

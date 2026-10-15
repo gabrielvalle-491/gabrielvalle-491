@@ -1,0 +1,83 @@
+{
+  "id": "B-087",
+  "duracion_s": 34.373,
+  "frases": 10,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.421,
+      "beats": [
+        -5.0,
+        2.876
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.421,
+      "fin": 14.16,
+      "beats": [
+        0.0,
+        2.095
+      ],
+      "plantilla": "linea"
+    },
+    {
+      "inicio": 14.16,
+      "fin": 20.165,
+      "beats": [
+        0.0,
+        3.008
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 20.165,
+      "fin": 28.055,
+      "beats": [
+        0.0,
+        3.554,
+        5.238
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 28.055,
+      "fin": 34.373,
+      "beats": [
+        0.0,
+        2.814
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.32",
+    "input_tp": "-6.47",
+    "input_lra": "2.10",
+    "input_thresh": "-32.58",
+    "output_i": "-14.12",
+    "output_tp": "-1.50",
+    "output_lra": "1.90",
+    "output_thresh": "-24.31",
+    "normalization_type": "dynamic",
+    "target_offset": "0.12"
+  },
+  "fotogramas_unicos": 300,
+  "tts_cache": 10,
+  "spec_hash": "f74e5f8537da9749",
+  "segundos_produccion": 103.4,
+  "texto_hablado": [
+    "¿Cuánto facturaste en los últimos doce meses?",
+    "Tu categoría del Monotributo lo mira.",
+    "Anota lo que facturas cada mes.",
+    "ARCA evalúa la facturación acumulada de los últimos doce meses, y la recategorización se hace cada seis meses.",
+    "La suma de los doce meses va con la función SUMA.",
+    "Al copiarla hacia abajo, el rango se mueve un mes.",
+    "Con los datos del ejemplo, la suma da once mil cuatrocientos.",
+    "Si el tope de tu categoría fuera doce mil, el margen sería seiscientos.",
+    "El tope real de tu categoría, búscalo en ARCA.",
+    "También cuentan energía, superficie y alquiler."
+  ]
+}

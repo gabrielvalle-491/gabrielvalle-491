@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:02,147
+¿Cuántas veces vino Ana en octubre?
+
+2
+00:00:02,387 --> 00:00:04,120
+Una fórmula lo cuenta por ti.
+
+3
+00:00:04,400 --> 00:00:07,518
+CONTAR.SI.CONJUNTO recibe pares de rango y condición.
+
+4
+00:00:07,678 --> 00:00:09,014
+Primero, la persona.
+
+5
+00:00:09,174 --> 00:00:10,171
+Luego, el mes.
+
+6
+00:00:10,331 --> 00:00:12,209
+Y al final, el estado: Presente.
+
+7
+00:00:12,489 --> 00:00:15,262
+En la tabla, Ana aparece tres veces en octubre.
+
+8
+00:00:15,422 --> 00:00:16,830
+Solo dos son Presente.
+
+9
+00:00:16,990 --> 00:00:21,125
+La fórmula cuenta únicamente las filas que cumplen las tres condiciones.
+
+10
+00:00:21,405 --> 00:00:24,248
+Cambia el nombre o el mes y obtienes cada total.

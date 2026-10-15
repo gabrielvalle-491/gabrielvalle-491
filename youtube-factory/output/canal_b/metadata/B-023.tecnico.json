@@ -1,0 +1,74 @@
+{
+  "id": "B-023",
+  "duracion_s": 31.817,
+  "frases": 9,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.423,
+      "beats": [
+        -5.0,
+        3.994
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.423,
+      "fin": 19.679,
+      "beats": [
+        0.0,
+        6.978,
+        11.031
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 19.679,
+      "fin": 27.439,
+      "beats": [
+        0.0,
+        2.162,
+        4.941
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 27.439,
+      "fin": 31.817,
+      "beats": [
+        0.0,
+        1.455
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.96",
+    "input_tp": "-5.97",
+    "input_lra": "2.50",
+    "input_thresh": "-32.23",
+    "output_i": "-14.43",
+    "output_tp": "-1.50",
+    "output_lra": "2.50",
+    "output_thresh": "-24.62",
+    "normalization_type": "dynamic",
+    "target_offset": "0.43"
+  },
+  "fotogramas_unicos": 230,
+  "tts_cache": 9,
+  "spec_hash": "39eb1a713b8da2b2",
+  "segundos_produccion": 71.4,
+  "texto_hablado": [
+    "Ese botón de combinar celdas te dará problemas cuando quieras ordenar.",
+    "Se ve ordenado, pero esconde un costo.",
+    "Combinar deja solo el contenido de la celda superior izquierda, y con celdas de distinto tamaño ordenar puede dar error.",
+    "Centrar en la selección se ve igual, pero cada celda sigue separada.",
+    "Mismo aspecto, sin esos problemas.",
+    "Selecciona las celdas del título.",
+    "Abre Formato de celdas con control + uno.",
+    "En Alineación, elige Centrar en la selección.",
+    "Tu tabla se ve igual, se ordena sin quejas y no pierdes datos."
+  ]
+}

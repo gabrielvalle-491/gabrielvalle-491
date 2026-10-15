@@ -1,0 +1,87 @@
+{
+  "id": "B-040",
+  "duracion_s": 33.668,
+  "frases": 12,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.652,
+      "beats": [
+        -5.0,
+        2.604
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.652,
+      "fin": 15.024,
+      "beats": [
+        0.0,
+        4.771,
+        8.127
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 15.024,
+      "fin": 22.279,
+      "beats": [
+        0.0,
+        2.662,
+        4.488
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 22.279,
+      "fin": 28.739,
+      "beats": [
+        0.0,
+        2.29,
+        4.117
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 28.739,
+      "fin": 33.668,
+      "beats": [
+        0.0,
+        1.676
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.85",
+    "input_tp": "-6.60",
+    "input_lra": "2.00",
+    "input_thresh": "-32.09",
+    "output_i": "-14.39",
+    "output_tp": "-1.50",
+    "output_lra": "1.40",
+    "output_thresh": "-24.55",
+    "normalization_type": "dynamic",
+    "target_offset": "0.39"
+  },
+  "fotogramas_unicos": 265,
+  "tts_cache": 12,
+  "spec_hash": "7b20a792df5d8992",
+  "segundos_produccion": 90.5,
+  "texto_hablado": [
+    "¿Borraste algo por error y ya guardaste?",
+    "Vuelve a una versión anterior.",
+    "En éxcel, el historial funciona con archivos guardados en OneDrive o SharePoint.",
+    "En gúgol shits, necesitas permiso para editar el archivo.",
+    "En éxcel, primero guarda en la nube.",
+    "En éxcel, haz clic en el título del archivo.",
+    "Elige Historial de versiones.",
+    "Selecciona una versión y pulsa Restaurar.",
+    "En gúgol shits, abre Última edición.",
+    "Elige Historial de versiones.",
+    "Y pulsa Restablecer esta versión.",
+    "Revisa la versión antes de restaurar: así no pisas cambios buenos."
+  ]
+}

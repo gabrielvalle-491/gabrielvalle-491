@@ -1,0 +1,35 @@
+1
+00:00:00,120 --> 00:00:05,589
+Un precio de 100 sube 50 % y luego baja 50 %: ¿cuánto vale al final?
+
+2
+00:00:05,829 --> 00:00:08,368
+¿100, 75 o 125?
+
+3
+00:00:08,608 --> 00:00:10,879
+Quedas en 75, no en 100.
+
+4
+00:00:11,159 --> 00:00:12,403
+Empiezas con 100.
+
+5
+00:00:12,563 --> 00:00:15,684
+Subes 50 %: llegas a 150.
+
+6
+00:00:15,844 --> 00:00:19,682
+Bajar 50 % de 150 quita 75.
+
+7
+00:00:19,842 --> 00:00:24,235
+Terminas en 75, un 25 % menos que al inicio.
+
+8
+00:00:24,515 --> 00:00:30,609
+Para volver a 100 desde 150, solo debes bajar un tercio: 33,3 %.
+
+9
+00:00:30,769 --> 00:00:32,963
+Los porcentajes no se compensan.

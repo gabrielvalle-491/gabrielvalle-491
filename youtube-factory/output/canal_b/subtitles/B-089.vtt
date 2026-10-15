@@ -1,0 +1,28 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:03.858
+Tus ventas diarias, convertidas en totales por mes en segundos.
+
+00:00:04.138 --> 00:00:08.267
+Primero, crea la tabla dinámica con la fecha en Filas y la venta en Valores.
+
+00:00:08.427 --> 00:00:11.768
+Segundo, haz clic derecho sobre una fecha y elige Agrupar.
+
+00:00:11.928 --> 00:00:14.002
+Tercero, marca Meses y acepta.
+
+00:00:14.282 --> 00:00:16.827
+Y cada fila pasa de ser un día a ser un mes.
+
+00:00:16.987 --> 00:00:18.810
+Aquí, enero, febrero y marzo.
+
+00:00:19.090 --> 00:00:22.555
+Si tus datos abarcan más de un año, marca también Años.
+
+00:00:22.715 --> 00:00:25.904
+Así no se mezclan los meses iguales de años distintos.
+
+00:00:26.184 --> 00:00:30.019
+Si Agrupar no aparece, revisa que la columna tenga fechas reales.

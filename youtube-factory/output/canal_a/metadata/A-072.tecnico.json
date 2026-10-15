@@ -1,0 +1,84 @@
+{
+  "id": "A-072",
+  "duracion_s": 29.975,
+  "frases": 10,
+  "subtitulos": 26,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.656,
+      "beats": [
+        -5.0,
+        1.454
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.656,
+      "fin": 10.636,
+      "beats": [
+        0.0,
+        3.985,
+        5.133
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 10.636,
+      "fin": 19.926,
+      "beats": [
+        0.0,
+        1.045,
+        3.971
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 19.926,
+      "fin": 23.869,
+      "beats": [
+        0.0,
+        1.545
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 23.869,
+      "fin": 29.975,
+      "beats": [
+        0.0,
+        3.184
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-20.62",
+    "input_tp": "-6.75",
+    "input_lra": "1.80",
+    "input_thresh": "-30.94",
+    "output_i": "-14.17",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.39",
+    "normalization_type": "dynamic",
+    "target_offset": "0.17"
+  },
+  "fotogramas_unicos": 271,
+  "tts_cache": 10,
+  "spec_hash": "6e9042044040de15",
+  "segundos_produccion": 114.8,
+  "texto_hablado": [
+    "Tus archivos no se ordenan por fecha por cómo los nombras.",
+    "Si empiezas por el día, la lista se ordena por día y no por fecha.",
+    "Con año, mes y día, queda en orden cronológico.",
+    "Tres reglas.",
+    "Primero, la fecha: año, mes y día, con ceros.",
+    "Después, una descripción corta.",
+    "Al final, la versión con dos dígitos, como ve cero dos.",
+    "Con dos dígitos, la versión diez queda después de la dos y no antes.",
+    "Así tus archivos se ordenan solos, sin tocar nada.",
+    "Pruébalo hoy con una sola carpeta."
+  ]
+}

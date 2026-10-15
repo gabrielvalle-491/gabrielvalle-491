@@ -1,0 +1,78 @@
+{
+  "id": "A-079",
+  "duracion_s": 36.758,
+  "frases": 12,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 7.818,
+      "beats": [
+        -5.0,
+        4.124
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 7.818,
+      "fin": 19.366,
+      "beats": [
+        0.0,
+        2.096,
+        5.844,
+        8.377
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 19.366,
+      "fin": 27.467,
+      "beats": [
+        0.0,
+        3.211,
+        5.279
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 27.467,
+      "fin": 36.758,
+      "beats": [
+        0.0,
+        2.237
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.27",
+    "input_tp": "-6.30",
+    "input_lra": "1.60",
+    "input_thresh": "-31.55",
+    "output_i": "-14.37",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.57",
+    "normalization_type": "dynamic",
+    "target_offset": "0.37"
+  },
+  "fotogramas_unicos": 262,
+  "tts_cache": 0,
+  "spec_hash": "ae2cab059f3f50bf",
+  "segundos_produccion": 123.0,
+  "texto_hablado": [
+    "¿Y si la i a solo respondiera con lo que dicen tus propios documentos?",
+    "Eso hace nóutbuk el em, y te muestra de dónde sacó cada dato.",
+    "Primero, crea un cuaderno nuevo.",
+    "Segundo, agrega tus fuentes, como pe de efe o documentos de gúgol.",
+    "Tercero, escribe una pregunta concreta.",
+    "Y cuarto, abre las citas para comprobar la respuesta.",
+    "Pide un resumen de lo que dicen tus fuentes sobre un tema.",
+    "Pide comparar dos documentos.",
+    "Pregunta en qué parte se menciona un concepto.",
+    "Las citas están para que verifiques.",
+    "Abre la fuente antes de dar una respuesta por buena.",
+    "Una respuesta con citas todavía puede tener errores."
+  ]
+}

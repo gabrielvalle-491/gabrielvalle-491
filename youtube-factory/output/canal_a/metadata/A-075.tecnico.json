@@ -1,0 +1,75 @@
+{
+  "id": "A-075",
+  "duracion_s": 33.991,
+  "frases": 10,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.523,
+      "beats": [
+        -5.0,
+        3.253
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.523,
+      "fin": 22.093,
+      "beats": [
+        0.0,
+        3.839,
+        7.818,
+        12.224
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 22.093,
+      "fin": 28.224,
+      "beats": [
+        0.0,
+        2.267
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 28.224,
+      "fin": 33.991,
+      "beats": [
+        0.0,
+        2.734
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.21",
+    "input_tp": "-6.22",
+    "input_lra": "1.90",
+    "input_thresh": "-31.53",
+    "output_i": "-14.22",
+    "output_tp": "-1.50",
+    "output_lra": "1.30",
+    "output_thresh": "-24.46",
+    "normalization_type": "dynamic",
+    "target_offset": "0.22"
+  },
+  "fotogramas_unicos": 236,
+  "tts_cache": 0,
+  "spec_hash": "620cccfe6076d03b",
+  "segundos_produccion": 106.7,
+  "texto_hablado": [
+    "Antes de pegar nada en una i a, hazte cuatro preguntas.",
+    "Toman unos segundos y sirven con cualquier herramienta.",
+    "Datos: ¿puedo compartir esto fuera de mi empresa, o es confidencial?",
+    "Verificación: ¿revisaré cifras, nombres y fuentes antes de usarlo?",
+    "Privacidad: ¿conozco los ajustes de la herramienta y la política de mi empresa?",
+    "Responsabilidad: ¿firmaría este resultado como mío?",
+    "Si alguna respuesta es no, detente.",
+    "Consulta con tu jefe o con el área responsable antes de enviar.",
+    "La i a ayuda a redactar, resumir y ordenar.",
+    "La responsabilidad sigue siendo tuya."
+  ]
+}

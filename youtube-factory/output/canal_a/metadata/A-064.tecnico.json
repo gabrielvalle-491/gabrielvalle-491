@@ -1,0 +1,84 @@
+{
+  "id": "A-064",
+  "duracion_s": 38.297,
+  "frases": 11,
+  "subtitulos": 29,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.194,
+      "beats": [
+        -5.0,
+        3.625
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.194,
+      "fin": 15.998,
+      "beats": [
+        0.0,
+        3.385,
+        6.215
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 15.998,
+      "fin": 20.571,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 20.571,
+      "fin": 33.47,
+      "beats": [
+        0.0,
+        5.306,
+        8.93
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 33.47,
+      "fin": 38.297,
+      "beats": [
+        0.0,
+        1.866
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-20.97",
+    "input_tp": "-6.92",
+    "input_lra": "1.70",
+    "input_thresh": "-31.19",
+    "output_i": "-14.09",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.25",
+    "normalization_type": "dynamic",
+    "target_offset": "0.09"
+  },
+  "fotogramas_unicos": 361,
+  "tts_cache": 11,
+  "spec_hash": "7704792ad6166b2f",
+  "segundos_produccion": 140.3,
+  "texto_hablado": [
+    "¿Tu oferta de empleo mezcla lo imprescindible con lo deseable?",
+    "Separarlos la vuelve mucho más clara.",
+    "Imprescindible es lo que necesitas desde el primer día.",
+    "Deseable es lo que se puede aprender en el puesto.",
+    "Con dos listas, nadie se descarta por requisitos de más.",
+    "Pídele a la i a un borrador con esa separación, en lenguaje claro e inclusivo.",
+    "Antes de publicar, revisa que cada requisito imprescindible se use de verdad el primer día.",
+    "Quita palabras que excluyan por edad o género sin necesidad.",
+    "Y valida el texto con recursos humanos y la normativa de tu país.",
+    "La i a redacta el borrador.",
+    "Tú decides qué es imprescindible."
+  ]
+}

@@ -1,0 +1,35 @@
+1
+00:00:00,120 --> 00:00:03,290
+No todos necesitan ser editores de tu hoja de cálculo.
+
+2
+00:00:03,570 --> 00:00:05,528
+En Google Sheets, presiona Compartir.
+
+3
+00:00:05,688 --> 00:00:07,904
+Agrega a la persona o crea un enlace.
+
+4
+00:00:08,064 --> 00:00:09,157
+Y elige el rol.
+
+5
+00:00:09,437 --> 00:00:10,753
+El lector solo mira.
+
+6
+00:00:10,914 --> 00:00:14,234
+El comentarista deja comentarios, sin cambiar el contenido.
+
+7
+00:00:14,394 --> 00:00:16,517
+El editor puede modificarlo todo.
+
+8
+00:00:16,797 --> 00:00:19,104
+Y revisa en la configuración si lectores
+
+9
+00:00:19,104 --> 00:00:22,161
+y comentaristas pueden descargar, imprimir y copiar.

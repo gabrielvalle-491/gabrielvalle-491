@@ -1,0 +1,84 @@
+{
+  "id": "A-084",
+  "duracion_s": 39.286,
+  "frases": 11,
+  "subtitulos": 32,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.64,
+      "beats": [
+        -5.0,
+        2.645
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.64,
+      "fin": 17.574,
+      "beats": [
+        0.0,
+        3.228,
+        5.607,
+        8.264
+      ],
+      "plantilla": "timeline"
+    },
+    {
+      "inicio": 17.574,
+      "fin": 24.123,
+      "beats": [
+        0.0,
+        2.588
+      ],
+      "plantilla": "dato"
+    },
+    {
+      "inicio": 24.123,
+      "fin": 31.279,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 31.279,
+      "fin": 39.286,
+      "beats": [
+        0.0,
+        3.758
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.23",
+    "input_tp": "-7.07",
+    "input_lra": "1.80",
+    "input_thresh": "-31.46",
+    "output_i": "-14.32",
+    "output_tp": "-1.50",
+    "output_lra": "1.50",
+    "output_thresh": "-24.47",
+    "normalization_type": "dynamic",
+    "target_offset": "0.32"
+  },
+  "fotogramas_unicos": 364,
+  "tts_cache": 0,
+  "spec_hash": "f637c5b0052ec115",
+  "segundos_produccion": 141.8,
+  "texto_hablado": [
+    "¿Quieres aprender algo en treinta días?",
+    "Con objetivos medibles y sesiones cortas, la i a te arma el plan.",
+    "Semana uno: aprende las bases en sesiones cortas.",
+    "Semana dos: practica con ejercicios.",
+    "Semana tres: aplícalo en un mini proyecto.",
+    "Semana cuatro: repasa y mide tu avance.",
+    "Una revisión de dos mil trece destacó dos técnicas: practicar con preguntas y repartir el estudio en el tiempo.",
+    "Pídele el plan así, con tu tema, tu nivel y tus minutos al día.",
+    "Pide también un repaso de lo anterior cada pocos días.",
+    "Al final de cada semana, pídele una prueba corta y ajusta el plan.",
+    "El plan es una hipótesis: corrígelo según tus resultados."
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "B-046",
+  "duracion_s": 32.553,
+  "frases": 10,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.254,
+      "beats": [
+        -5.0,
+        3.472
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.254,
+      "fin": 14.732,
+      "beats": [
+        0.0,
+        3.859,
+        6.909
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 14.732,
+      "fin": 23.946,
+      "beats": [
+        0.0,
+        3.609,
+        6.815
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 23.946,
+      "fin": 32.553,
+      "beats": [
+        0.0,
+        4.849
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.23",
+    "input_tp": "-3.56",
+    "input_lra": "1.30",
+    "input_thresh": "-32.38",
+    "output_i": "-14.29",
+    "output_tp": "-1.50",
+    "output_lra": "1.20",
+    "output_thresh": "-24.37",
+    "normalization_type": "dynamic",
+    "target_offset": "0.29"
+  },
+  "fotogramas_unicos": 232,
+  "tts_cache": 10,
+  "spec_hash": "ab65615463fd591c",
+  "segundos_produccion": 77.8,
+  "texto_hablado": [
+    "Todo en una sola hoja es cómodo, hasta que pisas una fórmula.",
+    "Hay una forma más segura.",
+    "Hoja Datos: lo que escribes o importas, una fila por registro.",
+    "Hoja Cálculos: fórmulas y supuestos, como tasas.",
+    "Hoja Reporte: lo que lees o compartes.",
+    "Todo junto, al pegar datos nuevos puedes pisar una fórmula.",
+    "Separado, pegas solo en Datos y el resto se recalcula.",
+    "Así encuentras errores más rápido.",
+    "Empieza hoy: crea las tres hojas con esos nombres y mueve tus fórmulas a Cálculos.",
+    "Es una práctica de orden, no una regla obligatoria."
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "B-076",
+  "duracion_s": 37.943,
+  "frases": 8,
+  "subtitulos": 26,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.014,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.014,
+      "fin": 21.913,
+      "beats": [
+        0.0,
+        6.429,
+        9.933
+      ],
+      "plantilla": "timeline"
+    },
+    {
+      "inicio": 21.913,
+      "fin": 32.152,
+      "beats": [
+        0.0,
+        5.429
+      ],
+      "plantilla": "dato"
+    },
+    {
+      "inicio": 32.152,
+      "fin": 37.943,
+      "beats": [
+        0.0,
+        2.462
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.35",
+    "input_tp": "-4.70",
+    "input_lra": "2.30",
+    "input_thresh": "-32.58",
+    "output_i": "-14.32",
+    "output_tp": "-1.50",
+    "output_lra": "1.90",
+    "output_thresh": "-24.50",
+    "normalization_type": "dynamic",
+    "target_offset": "0.32"
+  },
+  "fotogramas_unicos": 222,
+  "tts_cache": 0,
+  "spec_hash": "a050b6044023055b",
+  "segundos_produccion": 121.0,
+  "texto_hablado": [
+    "En mil novecientos setenta y nueve, una hoja de cálculo hizo que mucha gente comprara una computadora.",
+    "En la primavera de mil novecientos setenta y ocho, Dan Bricklin, estudiante de MBA en Harvard, creó un prototipo.",
+    "Ese otoño se unió a Bob Frankston para desarrollar el programa.",
+    "En mil novecientos setenta y nueve, Software Arts lo creó y Personal Software lo publicó para el Apple II.",
+    "El Apple II básico no tenía memoria suficiente: hacían falta treinta y dos kilobytes.",
+    "Aun así, se considera la primera hoja de cálculo para computadoras personales.",
+    "Antes, esas cuentas se hacían en papel.",
+    "Hoy cambias un número y todo se recalcula."
+  ]
+}

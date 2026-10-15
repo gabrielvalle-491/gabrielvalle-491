@@ -16,7 +16,7 @@ MODELOS = {
     "kokoro-v1.0.onnx": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx",
     "voices-v1.0.bin": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin",
 }
-PAQUETES = ["yaml", "numpy", "soundfile", "playwright", "kokoro_onnx", "num2words", "spylls", "jinja2"]
+PAQUETES = ["yaml", "numpy", "soundfile", "playwright", "kokoro_onnx", "num2words", "spylls", "jinja2", "openpyxl", "PIL"]
 OPCIONALES = ["googleapiclient", "google_auth_oauthlib"]
 
 
@@ -67,7 +67,17 @@ def diagnostico() -> int:
         for fam in set(c.fuentes.values()):
             fallos += not _ok(any(ruta("assets", "fonts", fam).glob("*.woff2")), f"tipografía {fam} ({c.nombre})")
     _ok(ruta("assets", "diccionario", "es.dic").exists(), "diccionario ortográfico español")
+    soffice = shutil.which("soffice") or shutil.which("libreoffice")
+    if soffice:
+        _ok(True, "LibreOffice (opcional: verifica las fórmulas del material de práctica)")
+    else:
+        print("  · LibreOffice no instalado (opcional: sin él, el material .xlsx se genera pero sus fórmulas no se recalculan para verificarlas)")
     print("\nEspacio y permisos:")
+    from .config import dir_trabajo, en_carpeta_sincronizada
+    if en_carpeta_sincronizada():
+        print(f"  · El proyecto está en una carpeta sincronizada (OneDrive/Drive/Dropbox). Los archivos temporales del render\n"
+              f"    van a {dir_trabajo()} para no saturar la sincronización. Recomendado: mover la carpeta del proyecto\n"
+              f"    a una ruta sin sincronizar (por ejemplo C:\\fabrica-youtube) o pausar OneDrive mientras renderizás.")
     libre = shutil.disk_usage(ruta()).free / 1e9
     fallos += not _ok(libre > 5, f"espacio libre: {libre:.1f} GB (recomendado > 5 GB para 180 videos)")
     try:

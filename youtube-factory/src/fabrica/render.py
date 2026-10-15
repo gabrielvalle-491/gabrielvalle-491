@@ -8,9 +8,9 @@ from pathlib import Path
 
 import soundfile as sf
 
-from . import db
+from . import cursos, db
 from .audio import SR as SR_AUDIO, ffmpeg, generar_musica, mezclar, pista_efectos
-from .config import cargar_global, ruta
+from .config import cargar_global, dir_trabajo, ruta
 from .specs import canal_de, huella, validar
 from .subtitles import escribir_srt, escribir_vtt
 from .timeline import construir
@@ -55,11 +55,12 @@ def producir(spec: dict, forzar: bool = False) -> dict:
     db.upsert_video(vid, canal=spec["canal"], formato=spec["formato"], fecha=str(spec["fecha"]),
                     titulo=spec["titulo"], estado="guion_ok", spec_hash=h, error=None,
                     intentos=(previo or {}).get("intentos", 0) + 1)
-    trabajo = ruta("output", "_trabajo", vid)
+    trabajo = dir_trabajo(vid)
     if trabajo.exists():
         shutil.rmtree(trabajo)
     trabajo.mkdir(parents=True)
     cab = cabecera(spec, canal)
+    spec = cursos.preparar(spec)  # lecciones de curso: datos del temario en cabecera y plantillas
 
     info = frames.analizar(spec, canal, cab, horizontal)
     lt = construir(spec, canal, info, max_palabras=int(canal.datos.get("subtitulos", {}).get("max_palabras", 4)))
@@ -106,10 +107,13 @@ def producir(spec: dict, forzar: bool = False) -> dict:
         "tts_cache": lt.frases_cache, "spec_hash": h, "segundos_produccion": round(time.time() - t0, 1),
         "texto_hablado": [f.hablado for f in lt.frases],
     }
+    if spec.get("curso"):
+        tecnico["capitulos"] = cursos.capitulos(spec, tecnico)
+        tecnico["materiales"] = cursos.generar_materiales(spec)
     (trabajo / "tecnico.json").write_text(json.dumps(tecnico, ensure_ascii=False, indent=2), encoding="utf-8")
     shutil.copy(trabajo / "tecnico.json", canal.dir_salida("metadata") / f"{vid}.tecnico.json")
-    # liberar espacio: los fotogramas se pueden regenerar
-    shutil.rmtree(trabajo / "frames", ignore_errors=True)
+    # liberar espacio: fotogramas y audio intermedio se regeneran (la voz queda en la caché de frases)
+    shutil.rmtree(trabajo, ignore_errors=True)
     db.upsert_video(vid, estado="render_ok", duracion_s=round(lt.duracion, 2),
                     segundos_produccion=tecnico["segundos_produccion"])
     db.registrar_evento(vid, "render", f"listo en {tecnico['segundos_produccion']}s")

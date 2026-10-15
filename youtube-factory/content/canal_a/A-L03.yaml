@@ -1,0 +1,297 @@
+id: A-L03
+canal: canal_a
+curso: ia-para-tu-trabajo
+fecha: 2026-11-10
+formato: largo
+serie: "Curso: IA para tu trabajo"
+episodio: "Lección 3"
+pilar: ia_sin_humo
+tipo_editorial: tutorial
+idea: "Tercera lección del curso: por qué una salida segura no es una salida cierta, los cuatro tipos de error (invento, dato vencido, error de cuenta, vacío disfrazado), preguntas para detectar inventos, un método de comprobación en cuatro pasos para datos, cifras y citas, y cómo pedir fuentes y comprobar que existan."
+objetivo: "Que una persona que ya sabe armar un prompt aprenda a decidir qué parte de lo que devuelve la IA puede usar: reconocer inventos, comprobar cifras y citas contra una fuente primaria y tratar las fuentes de la IA como pistas."
+publico: "Personas que trabajan en oficinas, comercios o de forma independiente y empiezan a usar asistentes de IA para textos con datos."
+hipotesis: "Tercera lección del formato curso: medir retención media y % que pasa a la lección 4 desde la pantalla final, contra las lecciones 1 y 2 y el promedio de videos largos del canal."
+gancho: "Una IA suele sonar totalmente segura incluso cuando se equivoca por completo."
+duracion_objetivo: "5-10 min (≈1 000-1 900 palabras)"
+titulo: "Curso de IA · Lección 3: cómo verificar lo que dice la IA"
+titulos_alternativos:
+  - "Cómo detectar si una IA se inventó algo: método en cuatro pasos (Lección 3)"
+  - "ChatGPT, Gemini o Claude se equivocan con seguridad: cómo comprobarlo"
+  - "Lección 3: comprueba cifras, citas y fuentes antes de usar lo que dice la IA"
+criterio_titulo: "Nombra el curso y el número de lección (serie) y la búsqueda real del principiante: cómo saber si lo que dice la IA es cierto."
+descripcion: |
+  Tercera lección del curso gratuito «IA para tu trabajo». Aprendes a reconocer afirmaciones inventadas, a comprobar cifras, fechas y citas contra una fuente primaria y a pedir fuentes con criterio, sabiendo que los enlaces que entrega una IA también hay que verificar.
+  Al final hay un ejercicio con un archivo de prompts listo para copiar. Sirve con la versión gratuita de cualquier asistente. No pegues datos personales ni de clientes.
+cta: "Descarga el archivo de prompts, haz el ejercicio y nos vemos en la lección 4."
+comentario_fijado: "Lección 3 del curso IA para tu trabajo. ¿Qué dato de tu trabajo comprobarías primero antes de usar un texto hecho con IA? Cuéntalo sin datos personales. En la lección 4 hablamos de privacidad: qué nunca pegar en un chat de IA."
+hashtags: ["#InteligenciaArtificial", "#CursoDeIA", "#IASinHumo"]
+palabras_clave: ["cómo verificar lo que dice la IA", "alucinaciones de la IA", "comprobar fuentes ChatGPT", "curso de inteligencia artificial"]
+materiales:
+  - archivo: "Leccion03_prompts.txt"
+    tipo: texto
+    contenido: |
+      CURSO «IA PARA TU TRABAJO» · LECCIÓN 3 · ARCHIVO DE PRÁCTICA (Atajo IA)
+      Copia cada prompt en tu asistente de IA (ChatGPT, Gemini, Claude o Copilot; la versión gratuita alcanza).
+      Reemplaza lo que está entre [CORCHETES]. No pegues datos personales ni de clientes: elige un tema general de tu trabajo.
+
+      MÉTODO DE COMPROBACIÓN (cuatro pasos)
+      1. Separa lo comprobable (cifras, fechas, nombres, normas, citas) de lo que es redacción o ideas.
+      2. Busca la fuente primaria: sitio oficial, organismo o documento original.
+      3. Compara palabra por palabra con lo que dijo la IA.
+      4. Si no coincide o no aparece, corrige el texto o descártalo.
+
+      EJERCICIO 1 · Pide una explicación con datos y fuentes
+      Explícame [UN TEMA DE TU TRABAJO] con sus datos más importantes. Indica en qué tipo de fuente oficial debería comprobarlos. Si no estás seguro de algo, dilo; no inventes cifras, citas ni enlaces.
+
+      EJERCICIO 2 · Separa hechos de suposiciones (en la misma conversación)
+      De lo que me explicaste, separa dos listas: lo que puedes sostener y lo que es suposición o pudo haber cambiado. Marca con un asterisco cada cifra, fecha, nombre o norma.
+
+      EJERCICIO 3 · Pide una lista para comprobar (en la misma conversación)
+      Para cada dato marcado con asterisco, dime qué tipo de fuente oficial lo confirmaría y qué palabras conviene buscar. No incluyas enlaces.
+
+      EJERCICIO 4 · Prueba de consistencia (en un chat nuevo)
+      Repite el prompt del ejercicio 1 con otras palabras y compara los datos importantes con la primera salida. ¿Cambió alguno? Si cambió, comprueba ese dato primero.
+
+      EJERCICIO 5 · Rehaz una cuenta tú mismo
+      Elige una cifra que se pueda recalcular (porcentaje, suma, promedio) y rehaz la operación en una calculadora o una planilla. Anota la cifra de la IA, tu resultado y si coinciden.
+
+      TABLA DE REGISTRO (cópiala en tu cuaderno o en una planilla)
+      Dato | Fuente oficial que consulté | ¿Coincide? | Qué hago con él (usar, corregir o descartar)
+
+      LISTA DE CONTROL
+      [ ] Marqué las cifras, fechas, nombres, normas y citas.
+      [ ] Comprobé al menos dos datos en una fuente oficial.
+      [ ] Abrí cada fuente que me dio la IA y confirmé que existe y dice lo que se afirma.
+      [ ] Rehice una cuenta con mi calculadora.
+      [ ] Descarté o corregí lo que no pude comprobar.
+      [ ] No pegué nombres, documentos ni datos de clientes.
+escenas:
+  - narracion: "Una IA suele sonar totalmente segura incluso cuando se equivoca por completo. Llegamos a la lección 3 de *IA para tu trabajo*, el curso gratuito de Atajo IA. Hoy vas a reconocer afirmaciones inventadas, comprobar cifras, fechas y citas, y pedir fuentes con criterio."
+    visual:
+      plantilla: curso_portada
+      datos: {beat_objetivos: 2}
+  - narracion: "Hasta ahora aprendiste a conseguir mejores borradores. Falta la otra mitad del trabajo: decidir qué parte de ese borrador sirve. Un escrito pulido, con buen tono y frases elegantes, no demuestra que lo afirmado sea cierto. Por eso verificar no es un extra: forma parte de usar IA en una oficina o en un negocio."
+    visual:
+      plantilla: texto
+      datos:
+        kicker: "La idea de hoy"
+        titulo: "Sonar bien *no es* estar bien"
+        texto: "Redacción pulida y tono seguro no prueban que el dato sea cierto."
+        beat_texto: 2
+  - narracion: "Cómo se equivoca."
+    capitulo: "Cómo se equivoca"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "Cómo se *equivoca*"}
+  - narracion: "Hay cuatro clases de error. El invento: una cita, un libro, un enlace o una norma que suena real y no existe. El hecho vencido: algo que fue cierto y ya cambió, como un precio, un plazo o un trámite. El tropiezo con las cuentas: una suma o un porcentaje que luce prolijo y está mal. Y el vacío disfrazado: una afirmación sobre tu negocio o tu caso, que la IA nunca conoció, rellenada con suposiciones."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Cuatro clases de *error*"
+        estilo: x
+        beat_inicio: 1
+        items:
+          - {texto: "El invento", detalle: "Cita, libro, enlace o norma que no existe"}
+          - {texto: "El hecho vencido", detalle: "Fue cierto y ya cambió"}
+          - {texto: "El tropiezo con las cuentas", detalle: "Suma o porcentaje que luce prolijo"}
+          - {texto: "El vacío disfrazado", detalle: "Suposiciones sobre lo que no conoce"}
+  - narracion: "Un mito peligroso: que si un texto suena firme, entonces es cierto. No es así: la firmeza del tono es parte de la redacción, no una señal de que lo afirmado esté comprobado. En su centro de ayuda, OpenAI reconoce que ChatGPT es capaz de producir citas inventadas y de sonar convencido aun cuando se equivoca."
+    visual:
+      plantilla: mito
+      datos:
+        mito: "Si lo dice con seguridad, es cierto"
+        realidad: "El tono seguro es *redacción*, no comprobación"
+        fuente: "OpenAI, centro de ayuda de ChatGPT"
+        beat_tachar: 1
+        beat_realidad: 1
+  - narracion: "No hace falta revisar todas las palabras. Sirve ordenar por consecuencias. Si el error solo toca el estilo, se corrige sobre la marcha. Si toca una cifra, una fecha, un nombre propio o una norma, se comprueba siempre. Y si el escrito llegará a un cliente, a un jefe o a una autoridad, todo lo que sea un hecho pasa por la lupa."
+    visual:
+      plantilla: versus
+      datos:
+        titulo: "Qué comprobar primero"
+        beat_izq: 2
+        beat_der: 3
+        beat_veredicto: 4
+        izq: {etiqueta: "Se corrige al pasar", titulo: "Estilo", items: ["Tono y ritmo", "Orden de las ideas", "Palabras repetidas"]}
+        der: {etiqueta: "Se comprueba siempre", titulo: "Hechos", items: ["Cifras y fechas", "Nombres y normas", "Citas y enlaces"]}
+        veredicto: "Si es un *hecho*, se comprueba"
+  - narracion: "Cómo detectar un invento."
+    capitulo: "Cómo detectar un invento"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "Cómo detectar un *invento*"}
+  - narracion: "Cuatro preguntas ayudan a detectar un invento. ¿Es muy exacto y no dice de dónde sale? ¿Nombra a una persona, un libro o un enlace que no logro encontrar? ¿Trata algo reciente o una norma que pudo cambiar? ¿Y es justo lo que yo quería oír? Si dices sí a alguna, comprueba antes de usar."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Cuatro preguntas ante un *dato*"
+        estilo: num
+        beat_inicio: 1
+        items:
+          - {texto: "¿Exacto y sin origen?", detalle: "Cifra con decimales, sin fuente"}
+          - {texto: "¿Algo que no logro encontrar?", detalle: "Persona, libro o enlace"}
+          - {texto: "¿Reciente o sujeto a cambios?", detalle: "Normas, precios, plazos"}
+          - {texto: "¿Justo lo que quería oír?", detalle: "Sospecha de lo que te conviene"}
+  - narracion: "Hay una prueba rápida. Formula la misma consulta de otra manera, o en un hilo nuevo. Si la cifra o el hecho importante cambia de una salida a otra, no lo uses sin comprobarlo. Pero ojo con lo contrario: que se repita no prueba nada, porque la IA es capaz de repetir el mismo error con la misma seguridad."
+    visual:
+      plantilla: versus
+      datos:
+        titulo: "La prueba de consistencia"
+        beat_izq: 2
+        beat_der: 3
+        beat_veredicto: 3
+        izq: {etiqueta: "El dato cambia", titulo: "Señal de duda", items: ["Salidas distintas", "No lo uses todavía", "Búscalo en una fuente"]}
+        der: {etiqueta: "El dato se repite", titulo: "No prueba nada", items: ["Puede repetir el error", "Con la misma seguridad", "Sigue sin estar comprobado"]}
+        veredicto: "Repetirse no es *verificar*"
+  - narracion: "La forma de preguntar también orienta dónde mirar. Pide que separe lo que sostiene de lo que supone, y dale permiso explícito para decir que no sabe. No elimina el riesgo de error, pero deja a la vista dónde mirar primero. Y lo que figure como hecho, igual se comprueba."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Separar hechos de suposiciones"
+        texto: "Explícame [TEMA]. Separa lo que puedes sostener de lo que es suposición. Si no sabes algo, dilo; no inventes cifras, citas ni enlaces."
+        nota: "Los hechos igual se comprueban"
+        beat_nota: 3
+  - narracion: "Comprobar cifras y citas."
+    capitulo: "Comprobar cifras y citas"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "Comprobar *cifras y citas*"}
+  - narracion: "El método de comprobación tiene cuatro pasos. Uno: separa lo comprobable, como cifras, fechas, nombres, normas y citas, de lo que es redacción o ideas. Dos: busca la fuente primaria, es decir, el sitio oficial, el organismo o el documento original. Tres: compara palabra por palabra con lo que dijo la IA. Cuatro: si no coincide o no aparece, corrige el escrito o descártalo."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Método de *comprobación*"
+        beat_inicio: 1
+        pasos:
+          - {titulo: "Separa lo comprobable", detalle: "Cifras, fechas, nombres, normas, citas"}
+          - {titulo: "Busca la fuente primaria", detalle: "Sitio oficial, organismo, documento"}
+          - {titulo: "Compara palabra por palabra", detalle: "Con lo que dijo la IA"}
+          - {titulo: "Corrige o descarta", detalle: "Si no coincide o no aparece"}
+  - narracion: "¿Dónde se busca una fuente primaria? Para normas y trámites, en los sitios de los organismos públicos. Para productos y planes, en el centro de ayuda de la propia empresa. Para estudios, en el informe original, no en el resumen de un tercero. Y para leyes, en el texto oficial publicado, mirando su fecha de actualización."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Dónde buscar la fuente *primaria*"
+        estilo: check
+        beat_inicio: 1
+        items:
+          - {texto: "Normas y trámites", detalle: "Sitios de organismos públicos"}
+          - {texto: "Productos y planes", detalle: "Centro de ayuda de la empresa"}
+          - {texto: "Estudios", detalle: "El informe original"}
+          - {texto: "Leyes", detalle: "Texto oficial y su fecha"}
+  - narracion: "Con las cifras, lo más directo es rehacer la cuenta. Imagina que la IA afirma que el 15 % de 240 es 46. Haces tú la operación: 240 por 0,15 da 36. La diferencia salta a la vista, y sin comprobar, ese error habría llegado a tu informe. Es un caso ilustrativo, no una salida real de ninguna herramienta."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Rehaz la cuenta *tú*"
+        lineas:
+          - {izq: "Lo que afirma la IA (caso ilustrativo)", der: "46", beat: 1}
+          - {izq: "15 % de 240", der: "240 × 0,15", beat: 2}
+        resultado: {izq: "Resultado real", der: "36", beat: 3}
+  - narracion: "Las citas merecen un cuidado especial. Si la IA te entrega una frase atribuida a alguien, o un libro o un artículo, busca el original. Primero, que exista. Segundo, que diga realmente lo atribuido. Y tercero, que lo diga en ese contexto. Si no logras encontrarlo, no lo uses, aunque suene perfecto."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Tres comprobaciones para una *cita*"
+        estilo: check
+        items:
+          - {texto: "Que exista", detalle: "Persona, libro o artículo real", beat: 2}
+          - {texto: "Que diga realmente eso", detalle: "Léelo en el original", beat: 3}
+          - {texto: "Que lo diga en ese contexto", detalle: "No fuera de lugar", beat: 4}
+  - narracion: "Pedir fuentes con criterio."
+    capitulo: "Pedir fuentes con criterio"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "Pedir fuentes *con criterio*"}
+  - narracion: "Pedir fuentes ayuda, con una salvedad: la lista que recibes no es una prueba. Es capaz de incluir enlaces o títulos que no existen. Tómala como pista de búsqueda, no como respaldo. Un buen pedido indica qué tipo de fuente aceptas y permite admitir que no se sabe."
+    visual:
+      plantilla: prompt
+      datos:
+        etiqueta: "Pedir fuentes con criterio"
+        texto: "Explícame [TEMA]. Indica qué datos conviene comprobar y en qué tipo de fuente oficial buscarlos. Si no estás seguro, dilo; no inventes enlaces ni citas."
+        nota: "Después, la búsqueda la haces tú"
+        beat_nota: 3
+  - narracion: "Cuando recibas una fuente, haz cuatro comprobaciones. Abre el enlace tú, escribiendo la dirección o buscando el sitio, sin dar por buena la primera pista. Confirma que la página exista y pertenezca a quien corresponde. Verifica que diga de verdad lo que la IA afirma. Y mira la fecha, porque un hecho antiguo pudo haber cambiado."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Cómo comprobar una *fuente*"
+        beat_inicio: 1
+        pasos:
+          - {titulo: "Ábrela tú mismo", detalle: "Busca el sitio, no te fíes de la pista"}
+          - {titulo: "Confirma quién la publica", detalle: "Organismo o empresa que corresponde"}
+          - {titulo: "Verifica que diga lo afirmado", detalle: "Palabra por palabra"}
+          - {titulo: "Mira la fecha", detalle: "Un dato antiguo pudo cambiar"}
+  - narracion: "Algunas herramientas traen ayudas para contrastar. A la fecha, Gemini incluye una opción para verificar lo que dice con Google Search. Pero la ayuda oficial de Google aclara que los enlaces mostrados no son necesariamente los que usó para generar el texto. Sirve para empezar a comprobar, no para terminar."
+    visual:
+      plantilla: dato
+      datos:
+        kicker: "Ayudas, no sustitutos"
+        dato: "Una función de contraste *no reemplaza* tu revisión"
+        contexto: "Ayuda de Gemini Apps (Google), a la fecha"
+        beat_contexto: 2
+  - narracion: "Práctica."
+    capitulo: "Práctica"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "*Práctica*", sub: "Archivo de prompts en la descripción"}
+  - narracion: "Es momento de practicar. Los prompts de hoy están en el material enlazado debajo del video: descárgalo y úsalo en tu herramienta de IA favorita. Recuerda: nada de información personal ni de clientes. Para empezar, pide que te cuente un tema de tu trabajo, con cifras y fuentes. Marca luego las afirmaciones comprobables y pregunta cuáles hay que revisar. Después, busca en una fuente oficial al menos dos de esas afirmaciones y anota si coinciden. Y para terminar, entra a las fuentes que te dio la IA y confirma que existen. Pausa el video y hazlo ahora."
+    visual:
+      plantilla: ejercicio
+      datos:
+        consigna: "Comprueba lo que dice la *IA*"
+        pausa: "Pausa el video y hazlo"
+        beat_pasos: 3
+        pasos:
+          - "Pide un tema con cifras y fuentes"
+          - "Marca lo que se puede comprobar"
+          - "Contrasta dos datos con fuente oficial"
+          - "Abre las fuentes: ¿existen de verdad?"
+  - narracion: "Veamos qué debería aparecer. Es probable que algunas cifras coincidan y otras no, y justo eso buscabas descubrir. Si una fuente no existe o no dice lo que afirmaba la IA, acabas de detectar un invento. Lo que sí coincide ahora tiene un respaldo tuyo, no solo de la IA. Anota en tu archivo qué comprobaste y dónde."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Qué debería *aparecer*"
+        estilo: check
+        beat_inicio: 1
+        items:
+          - {texto: "Algunos datos coinciden y otros no", detalle: "Justo lo que buscabas descubrir"}
+          - {texto: "Una fuente que no existe", detalle: "Un invento detectado"}
+          - {texto: "Lo que coincide, respaldado", detalle: "Por ti, no solo por la IA"}
+          - {texto: "Un registro de lo comprobado", detalle: "Qué dato, dónde y con qué resultado"}
+  - narracion: "Cerremos con lo esencial. Una afirmación segura no es una afirmación verdadera. Hay inventos, hechos vencidos y errores de cuenta, y se detectan con preguntas y con una comprobación en la fuente primaria. Las fuentes que entrega la IA son pistas, no pruebas. El próximo video trata sobre privacidad y seguridad: qué nunca debe ir en una herramienta de IA. Haz el ejercicio y nos vemos en la lección 4."
+    visual:
+      plantilla: curso_cierre
+      datos:
+        titulo: "Lo que aprendiste hoy"
+        puntos: ["Seguro no es lo mismo que verdadero", "Comprueba cifras, fechas y citas en la fuente", "Las fuentes de la IA son pistas, no pruebas"]
+        cta: "Suscríbete para la lección 4"
+        beat_siguiente: 4
+        beat_cta: 5
+fuentes:
+  - url: "https://help.openai.com/en/articles/8313428-does-chatgpt-tell-the-truth"
+    titulo: "Does ChatGPT tell the truth? (OpenAI Help Center)"
+    fecha_consulta: 2026-10-15
+    respalda: "ChatGPT puede producir afirmaciones inexactas (alucinaciones), como citas inventadas, y expresar mucha confianza en respuestas incorrectas; OpenAI recomienda verificar la información importante en fuentes confiables."
+  - url: "https://support.google.com/gemini/answer/14143489?hl=en-GB&co=GENIE.Platform%3DAndroid"
+    titulo: "View related sources and double-check responses from Gemini Apps (Gemini Apps Help, Google)"
+    fecha_consulta: 2026-10-15
+    respalda: "Gemini Apps ofrece la opción de verificar una respuesta con Google Search (Double-check response); la ayuda aclara que el enlace mostrado no es necesariamente el que Gemini usó para generar su respuesta y que la función no cubre todos los contenidos."
+  - calculo: "round(240*0.15, 2)"
+    resultado: 36
+    respalda: "El 15 % de 240 es 36: cuenta para mostrar cómo se rehace una cifra que una IA pudo calcular mal."
+  - metodo_propio: true
+    cifras: [15, 240, 46]
+    respalda: "El caso del 15 % de 240 y la cifra errónea 46 es un ejemplo ilustrativo inventado por el canal, declarado en pantalla y en la narración como caso ilustrativo, no como una salida real de un asistente."
+riesgos:
+  derechos: "bajo — se mencionan marcas de asistentes solo de forma descriptiva; sin logos ni capturas"
+  exactitud: "bajo — la existencia de errores e invenciones está documentada por OpenAI; la función de contraste de Gemini se describe con 'a la fecha' y según su ayuda oficial; el error de cálculo se declara ilustrativo; no se muestran salidas de IA como reales"
+  monetizacion: "bajo — contenido educativo general"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+  - {nombre: "Archivo de práctica Leccion03_prompts.txt escrito por el canal", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["descárgalo", "Atajo", "ChatGPT", "OpenAI", "Copilot", "Gemini", "Claude", "Google"]

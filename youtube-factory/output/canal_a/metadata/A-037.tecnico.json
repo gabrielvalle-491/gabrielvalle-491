@@ -1,0 +1,72 @@
+{
+  "id": "A-037",
+  "duracion_s": 31.651,
+  "frases": 9,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.27,
+      "beats": [
+        -5.0,
+        3.549
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.27,
+      "fin": 15.035,
+      "beats": [
+        0.0,
+        3.109,
+        6.413
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 15.035,
+      "fin": 22.263,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 22.263,
+      "fin": 31.651,
+      "beats": [
+        0.0,
+        5.059
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.19",
+    "input_tp": "-5.85",
+    "input_lra": "2.10",
+    "input_thresh": "-31.48",
+    "output_i": "-14.01",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.21",
+    "normalization_type": "dynamic",
+    "target_offset": "0.01"
+  },
+  "fotogramas_unicos": 288,
+  "tts_cache": 9,
+  "spec_hash": "0a6169f706182987",
+  "segundos_produccion": 107.9,
+  "texto_hablado": [
+    "Cuando te dicen está caro, ¿bajas el precio o preguntas?",
+    "Prepara tus respuestas antes de la llamada.",
+    "Bajar el precio al instante cierra la conversación.",
+    "Preguntar por qué le parece caro abre la conversación.",
+    "Así entiendes qué compara el cliente.",
+    "Pídele a la i a varias respuestas que empiecen con una pregunta, adaptadas a tu rubro.",
+    "Y que sean honestas, sin presión.",
+    "Elige las que suenen a ti, ensáyalas en voz alta y no prometas lo que no puedes cumplir.",
+    "Con lo pienso, pregunta qué información le falta para decidir."
+  ]
+}

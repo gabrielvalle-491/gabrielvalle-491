@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:04.429
+¿Qué devuelve CONTAR en un rango con 8, un nombre, una celda vacía y 15?
+
+00:00:04.669 --> 00:00:05.915
+¿Dos, tres o cuatro?
+
+00:00:06.155 --> 00:00:08.026
+Dos: CONTAR solo cuenta números.
+
+00:00:08.306 --> 00:00:11.197
+En la planilla, CONTAR mira el rango A2:A5.
+
+00:00:11.357 --> 00:00:13.497
+Solo el 8 y el 15 son números.
+
+00:00:13.657 --> 00:00:14.804
+Resultado: 2.
+
+00:00:15.084 --> 00:00:16.775
+CONTAR cuenta números: 2.
+
+00:00:16.935 --> 00:00:19.531
+CONTARA cuenta todo lo que no está vacío: 3.
+
+00:00:19.691 --> 00:00:21.892
+La diferencia es la celda de texto.
+
+00:00:22.172 --> 00:00:27.186
+Elige según lo que necesites contar: números con CONTAR, cualquier dato con CONTARA.
+
+00:00:27.346 --> 00:00:28.758
+Comenta tu respuesta.

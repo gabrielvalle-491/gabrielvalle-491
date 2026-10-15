@@ -1,0 +1,74 @@
+{
+  "id": "A-040",
+  "duracion_s": 33.129,
+  "frases": 11,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.443,
+      "beats": [
+        -5.0,
+        3.324
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.443,
+      "fin": 15.805,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 15.805,
+      "fin": 25.158,
+      "beats": [
+        0.0,
+        2.884,
+        6.758
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 25.158,
+      "fin": 33.129,
+      "beats": [
+        0.0,
+        2.11
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.19",
+    "input_tp": "-7.15",
+    "input_lra": "2.30",
+    "input_thresh": "-31.47",
+    "output_i": "-13.96",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.17",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.04"
+  },
+  "fotogramas_unicos": 252,
+  "tts_cache": 11,
+  "spec_hash": "1d3e3decadbe4f02",
+  "segundos_produccion": 110.2,
+  "texto_hablado": [
+    "Si pegas un texto en tu prompt, márcalo con etiquetas.",
+    "Así la i a no confunde tus órdenes con el contenido.",
+    "Escribe la instrucción primero.",
+    "Luego, encierra el texto entre etiquetas, y di en la instrucción cuáles son.",
+    "Sirve para resumir, traducir o analizar un correo.",
+    "Sin marcas, la instrucción y el texto se mezclan.",
+    "Con etiquetas, la i a ve dónde empieza y dónde termina el contenido.",
+    "Funcionan etiquetas o comillas triples.",
+    "No es una protección infalible.",
+    "Revisa siempre el resultado.",
+    "Y usa nombres de etiqueta que describan el contenido."
+  ]
+}

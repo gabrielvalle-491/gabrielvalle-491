@@ -1,0 +1,47 @@
+1
+00:00:00,120 --> 00:00:02,154
+ELIZA era un programa muy simple, y
+
+2
+00:00:02,154 --> 00:00:05,060
+aun así muchos usuarios sentían que los entendía.
+
+3
+00:00:05,340 --> 00:00:11,557
+Entre 1964 y 1966, Joseph Weizenbaum la creó en el MIT.
+
+4
+00:00:11,717 --> 00:00:14,511
+Su guion más famoso imitaba a un psicoterapeuta.
+
+5
+00:00:14,671 --> 00:00:17,315
+Y muchos usuarios le atribuían comprensión.
+
+6
+00:00:17,595 --> 00:00:19,377
+Tú escribes algo personal.
+
+7
+00:00:19,537 --> 00:00:22,210
+El programa devuelve tus palabras como pregunta.
+
+8
+00:00:22,370 --> 00:00:24,810
+Parece que escucha, pero solo sigue reglas.
+
+9
+00:00:25,090 --> 00:00:28,835
+Por dentro, comparaba tu texto con reglas y armaba una respuesta.
+
+10
+00:00:28,995 --> 00:00:31,813
+Según Britannica, no tenía inteligencia real.
+
+11
+00:00:32,093 --> 00:00:34,388
+Hoy los chatbots son mucho más capaces.
+
+12
+00:00:34,548 --> 00:00:38,218
+Pero la lección sigue vigente: que suene humano no prueba que entienda.

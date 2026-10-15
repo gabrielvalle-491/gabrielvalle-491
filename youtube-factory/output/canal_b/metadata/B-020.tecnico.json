@@ -1,0 +1,75 @@
+{
+  "id": "B-020",
+  "duracion_s": 35.499,
+  "frases": 10,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.581,
+      "beats": [
+        -5.0,
+        3.274
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.581,
+      "fin": 15.186,
+      "beats": [
+        0.0,
+        2.657,
+        6.261
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 15.186,
+      "fin": 27.941,
+      "beats": [
+        0.0,
+        3.71,
+        10.033
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 27.941,
+      "fin": 35.499,
+      "beats": [
+        0.0,
+        4.454
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.47",
+    "input_tp": "-5.87",
+    "input_lra": "1.30",
+    "input_thresh": "-31.68",
+    "output_i": "-14.05",
+    "output_tp": "-1.50",
+    "output_lra": "1.10",
+    "output_thresh": "-24.18",
+    "normalization_type": "dynamic",
+    "target_offset": "0.05"
+  },
+  "fotogramas_unicos": 240,
+  "tts_cache": 10,
+  "spec_hash": "9fd32b32f1efeeb3",
+  "segundos_produccion": 77.6,
+  "texto_hablado": [
+    "Tu fórmula de fechas falla o da un resultado raro.",
+    "Quizá esas fechas son solo texto.",
+    "Prueba esta fórmula en la celda de al lado.",
+    "Fíjate: las fechas pegadas a la izquierda suelen ser texto.",
+    "es número responde falso: no es una fecha de verdad.",
+    "Primero, detecta: alineada a la izquierda o es número en falso.",
+    "Segundo, conviértela con fecha número, que devuelve un número de serie, como cuarenta y seis mil noventa y seis.",
+    "Tercero, dale formato de fecha a la celda.",
+    "Con fechas reales, ya puedes restarlas, ordenarlas y filtrarlas por mes.",
+    "Primero comprueba, después calcula."
+  ]
+}

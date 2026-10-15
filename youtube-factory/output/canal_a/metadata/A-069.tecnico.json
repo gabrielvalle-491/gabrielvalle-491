@@ -1,0 +1,73 @@
+{
+  "id": "A-069",
+  "duracion_s": 30.426,
+  "frases": 9,
+  "subtitulos": 20,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.389,
+      "beats": [
+        -5.0,
+        1.748
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.389,
+      "fin": 15.015,
+      "beats": [
+        0.0,
+        3.029,
+        6.383
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 15.015,
+      "fin": 25.073,
+      "beats": [
+        0.0,
+        3.134
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 25.073,
+      "fin": 30.426,
+      "beats": [
+        0.0,
+        2.934
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.39",
+    "input_tp": "-6.80",
+    "input_lra": "2.40",
+    "input_thresh": "-31.64",
+    "output_i": "-14.35",
+    "output_tp": "-1.50",
+    "output_lra": "1.20",
+    "output_thresh": "-24.53",
+    "normalization_type": "dynamic",
+    "target_offset": "0.35"
+  },
+  "fotogramas_unicos": 206,
+  "tts_cache": 0,
+  "spec_hash": "13b1a7afacb90c51",
+  "segundos_produccion": 91.7,
+  "texto_hablado": [
+    "Un ele ele eme no busca respuestas: predice el siguiente trozo de texto.",
+    "Primero, lee muchísimo texto escrito por personas.",
+    "Luego aprende patrones de cómo se combinan las palabras.",
+    "Y al responder, predice un trozo tras otro hasta completar la respuesta.",
+    "ele ele eme significa modelo de lenguaje grande.",
+    "Por eso puede sonar seguro y aun así equivocarse.",
+    "Predecir texto probable no es lo mismo que comprobar un hecho.",
+    "Úsalo para redactar, resumir y ordenar ideas.",
+    "Los datos, verifícalos."
+  ]
+}

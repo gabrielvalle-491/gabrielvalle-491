@@ -1,0 +1,74 @@
+{
+  "id": "A-030",
+  "duracion_s": 32.483,
+  "frases": 11,
+  "subtitulos": 23,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 7.87,
+      "beats": [
+        -5.0,
+        3.424
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 7.87,
+      "fin": 15.903,
+      "beats": [
+        0.0,
+        2.288,
+        5.442
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 15.903,
+      "fin": 22.492,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 22.492,
+      "fin": 32.483,
+      "beats": [
+        0.0,
+        6.959
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-20.97",
+    "input_tp": "-7.26",
+    "input_lra": "1.80",
+    "input_thresh": "-31.26",
+    "output_i": "-14.02",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.26",
+    "normalization_type": "dynamic",
+    "target_offset": "0.02"
+  },
+  "fotogramas_unicos": 292,
+  "tts_cache": 11,
+  "spec_hash": "6b1847030e13f532",
+  "segundos_produccion": 98.6,
+  "texto_hablado": [
+    "Una reseña negativa en gúgol no se responde con enojo.",
+    "Se responde en tres pasos.",
+    "Tu respuesta aparece debajo de la reseña.",
+    "Primero, agradece que te avisaron.",
+    "Segundo, reconoce el problema, sin culpar al cliente.",
+    "Tercero, ofrece resolverlo en privado.",
+    "Pídele el borrador a la i a.",
+    "Tú pones el canal de contacto.",
+    "No incluyas datos personales del cliente.",
+    "Según la ayuda de gúgol, tu perfil debe estar verificado para responder, y tu respuesta se revisa antes de publicarse.",
+    "Léela dos veces antes de enviarla."
+  ]
+}

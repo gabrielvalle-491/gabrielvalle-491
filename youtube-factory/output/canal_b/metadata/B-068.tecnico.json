@@ -1,0 +1,73 @@
+{
+  "id": "B-068",
+  "duracion_s": 36.377,
+  "frases": 9,
+  "subtitulos": 29,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.431,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.431,
+      "fin": 19.327,
+      "beats": [
+        0.0,
+        4.953,
+        12.277
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 19.327,
+      "fin": 30.851,
+      "beats": [
+        0.0,
+        3.757,
+        7.381
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 30.851,
+      "fin": 36.377,
+      "beats": [
+        0.0,
+        3.659
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.46",
+    "input_tp": "-5.72",
+    "input_lra": "2.00",
+    "input_thresh": "-32.59",
+    "output_i": "-14.35",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.47",
+    "normalization_type": "dynamic",
+    "target_offset": "0.35"
+  },
+  "fotogramas_unicos": 246,
+  "tts_cache": 9,
+  "spec_hash": "a7421b77949d6ac5",
+  "segundos_produccion": 86.9,
+  "texto_hablado": [
+    "¿Puedes seguir editando tu planilla si se cae el internet?",
+    "gúgol shits: debes activar el acceso sin conexión estando en línea, con Chrome o Edge.",
+    "éxcel de escritorio: trabaja con archivos guardados en tu equipo, y los de OneDrive se sincronizan al volver la conexión.",
+    "En los dos casos, conviene preparar el archivo con conexión.",
+    "Antes de salir, abre el archivo con conexión al menos una vez.",
+    "En shits, márcalo como disponible sin conexión desde Drive.",
+    "Al volver la conexión, revisa que tus cambios se hayan sincronizado.",
+    "Y recuerda: tus cambios se combinan cuando vuelve la conexión.",
+    "Prepárate hoy."
+  ]
+}

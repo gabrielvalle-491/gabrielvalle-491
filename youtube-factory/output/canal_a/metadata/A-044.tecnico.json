@@ -1,0 +1,87 @@
+{
+  "id": "A-044",
+  "duracion_s": 33.065,
+  "frases": 13,
+  "subtitulos": 26,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 2.892,
+      "beats": [
+        -5.0,
+        1.149
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 2.892,
+      "fin": 11.802,
+      "beats": [
+        0.0,
+        2.439,
+        6.118
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 11.802,
+      "fin": 19.356,
+      "beats": [
+        0.0,
+        1.958,
+        3.399,
+        5.078
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 19.356,
+      "fin": 23.597,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 23.597,
+      "fin": 33.065,
+      "beats": [
+        0.0,
+        2.01
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-20.86",
+    "input_tp": "-5.57",
+    "input_lra": "1.80",
+    "input_thresh": "-31.11",
+    "output_i": "-14.21",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.38",
+    "normalization_type": "dynamic",
+    "target_offset": "0.21"
+  },
+  "fotogramas_unicos": 343,
+  "tts_cache": 13,
+  "spec_hash": "016919502b16497c",
+  "segundos_produccion": 123.1,
+  "texto_hablado": [
+    "Mismo pedido a la i a, dos formas de escribirlo.",
+    "Antes: escribe un correo para un cliente.",
+    "Después: el mismo pedido con rol, tarea, contexto y formato.",
+    "La segunda versión deja menos que adivinar.",
+    "El rol dice quién es la i a.",
+    "La tarea, qué hace.",
+    "El contexto, tus datos.",
+    "Y el formato, cómo quieres la respuesta.",
+    "Así queda el ejemplo completo.",
+    "Cambia las variables por tus datos.",
+    "Guárdalo como plantilla base.",
+    "Y revisa siempre el correo antes de enviarlo.",
+    "Con estas cuatro piezas, tus pedidos dejan menos cosas a la suerte."
+  ]
+}

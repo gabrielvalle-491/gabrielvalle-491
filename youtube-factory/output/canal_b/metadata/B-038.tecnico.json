@@ -1,0 +1,75 @@
+{
+  "id": "B-038",
+  "duracion_s": 42.642,
+  "frases": 11,
+  "subtitulos": 28,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 15.553,
+      "beats": [
+        -5.0,
+        6.09
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 15.553,
+      "fin": 25.212,
+      "beats": [
+        0.0,
+        2.933,
+        5.614
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 25.212,
+      "fin": 34.527,
+      "beats": [
+        0.0,
+        3.849
+      ],
+      "plantilla": "barras"
+    },
+    {
+      "inicio": 34.527,
+      "fin": 42.642,
+      "beats": [
+        0.0,
+        2.354
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.09",
+    "input_tp": "-4.87",
+    "input_lra": "2.10",
+    "input_thresh": "-32.28",
+    "output_i": "-13.96",
+    "output_tp": "-1.50",
+    "output_lra": "1.50",
+    "output_thresh": "-24.10",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.04"
+  },
+  "fotogramas_unicos": 256,
+  "tts_cache": 11,
+  "spec_hash": "568282bbffaec536",
+  "segundos_produccion": 93.2,
+  "texto_hablado": [
+    "Mismas deudas, mismo dinero: el orden de pago cambia doscientos sesenta y tres dólares de intereses.",
+    "Ejemplo ilustrativo: deudas de ochocientos dólares al uno por ciento mensual y de dos mil cuatrocientos dólares al cuatro por ciento, con trescientos dólares al mes.",
+    "Bola de nieve: pagas primero la deuda más pequeña.",
+    "Avalancha: pagas primero la de mayor tasa.",
+    "En ambas, pagas el mínimo de las demás y mandas el resto a la elegida.",
+    "Bola de nieve: unos novecientos sesenta y uno dólares en intereses.",
+    "Avalancha: unos seiscientos noventa y ocho dólares.",
+    "Mismo dinero, menos intereses.",
+    "La avalancha reduce los intereses.",
+    "La bola de nieve liquida una deuda antes.",
+    "Haz la cuenta con tus saldos y tus tasas."
+  ]
+}

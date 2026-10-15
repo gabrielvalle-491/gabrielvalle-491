@@ -1,0 +1,355 @@
+id: B-L04
+canal: canal_b
+curso: excel-desde-cero
+fecha: 2026-11-19
+formato: largo
+serie: "Curso: Excel desde cero"
+episodio: "Lección 4"
+pilar: dinero
+tipo_editorial: caso_practico
+idea: "Primer proyecto del curso: armar un control de gastos mensual con una lista ordenada, un resumen por categoría con SUMAR.SI y rangos fijos, y la comparación entre lo planeado y lo real con una resta y un SI, usando datos de ejemplo."
+objetivo: "Que la persona termine con una hoja de gastos propia que suma por categoría, cruza el resultado con el total de la lista y muestra la diferencia contra el plan."
+publico: "Personas que ya conocen SUMA, SI y SUMAR.SI y quieren llevar sus gastos del mes en una planilla ordenada."
+hipotesis: "Primer proyecto del curso: medir si el formato proyecto retiene más que las lecciones de funciones (lecciones 2 y 3) y cuántas personas descargan el archivo de práctica."
+gancho: "Al terminar esta lección tendrás tu control de gastos del mes, listo para usar."
+duracion_objetivo: "5-10 min (≈1 000-1 900 palabras)"
+titulo: "Control de gastos mensual en Excel: proyecto paso a paso (Lección 4)"
+titulos_alternativos:
+  - "Cómo armar tu control de gastos en Excel o Google Sheets desde cero"
+  - "Plan contra real: compara lo que gastas con lo que planeaste en una planilla"
+  - "Proyecto 1 de Excel desde cero: gastos por categoría con SUMAR.SI"
+criterio_titulo: "Nombra el proyecto (control de gastos mensual), la herramienta y la lección del curso; coincide con lo que el video construye."
+descripcion: |
+  Primer proyecto del curso gratuito de Excel y Google Sheets desde cero. Armas una hoja de gastos ordenada, la resumes por categoría con SUMAR.SI y comparas lo gastado con lo planeado con una resta y la función SI.
+  Al final hay un ejercicio con archivo de práctica (incluye la solución en otra hoja). Todos los importes son ficticios; el video no recomienda cuánto gastar ni ahorrar.
+cta: "Descarga el archivo de práctica, arma tu resumen y nos vemos en la lección 5."
+comentario_fijado: "Lección 4 del curso Excel desde cero, el primer proyecto. ¿Pudiste armar tu resumen? Cuéntame en qué paso te trabaste y lo resolvemos. Recuerda: en México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos. Los importes son ficticios y la hoja solo muestra números: qué hacer con ellos lo decides tú."
+hashtags: ["#Excel", "#CursoDeExcel", "#ControlDeGastos"]
+palabras_clave: ["control de gastos excel", "plantilla de gastos mensual", "SUMAR.SI por categoría", "presupuesto en excel", "curso de excel desde cero"]
+materiales:
+  - archivo: "Leccion04_practica.xlsx"
+    tipo: xlsx
+    titulo: "Celda Clara · Excel desde cero · Lección 4"
+    hojas:
+      - nombre: "Práctica"
+        anchos: [8, 20, 16, 12, 4, 16, 12, 12, 14, 18]
+        formatos: {D: "#,##0", G: "#,##0", H: "#,##0", I: "#,##0;-#,##0"}
+        filas:
+          - ["Día", "Concepto", "Categoría", "Importe", "", "Categoría", "Plan", "Real", "Diferencia", "Estado"]
+          - [1, "Alquiler", "Vivienda", 42000, "", "Vivienda", 45000, "", "", ""]
+          - [3, "Supermercado", "Alimentación", 11800, "", "Alimentación", 30000, "", "", ""]
+          - [5, "Transporte público", "Transporte", 4500, "", "Transporte", 12000, "", "", ""]
+          - [8, "Cine", "Ocio", 3200, "", "Ocio", 5000, "", "", ""]
+          - [10, "Electricidad", "Vivienda", 6100, "", "Total", "", "", "", ""]
+          - [14, "Supermercado", "Alimentación", 12900, "", "", "", "", "", ""]
+          - [20, "Combustible", "Transporte", 7800, "", "", "", "", "", ""]
+          - ["", "Total", "", "", "", "", "", "", "", ""]
+      - nombre: "Solución"
+        anchos: [8, 20, 16, 12, 4, 16, 12, 12, 14, 18]
+        formatos: {D: "#,##0", G: "#,##0", H: "#,##0", I: "#,##0;-#,##0"}
+        filas:
+          - ["Día", "Concepto", "Categoría", "Importe", "", "Categoría", "Plan", "Real", "Diferencia", "Estado"]
+          - [1, "Alquiler", "Vivienda", 42000, "", "Vivienda", 45000, '=SUMAR.SI($C$2:$C$8;F2;$D$2:$D$8)', "=H2-G2", '=SI(H2>G2;"Excedido";"Dentro del plan")']
+          - [3, "Supermercado", "Alimentación", 11800, "", "Alimentación", 30000, '=SUMAR.SI($C$2:$C$8;F3;$D$2:$D$8)', "=H3-G3", '=SI(H3>G3;"Excedido";"Dentro del plan")']
+          - [5, "Transporte público", "Transporte", 4500, "", "Transporte", 12000, '=SUMAR.SI($C$2:$C$8;F4;$D$2:$D$8)', "=H4-G4", '=SI(H4>G4;"Excedido";"Dentro del plan")']
+          - [8, "Cine", "Ocio", 3200, "", "Ocio", 5000, '=SUMAR.SI($C$2:$C$8;F5;$D$2:$D$8)', "=H5-G5", '=SI(H5>G5;"Excedido";"Dentro del plan")']
+          - [10, "Electricidad", "Vivienda", 6100, "", "Total", "=SUMA(G2:G5)", "=SUMA(H2:H5)", "=H6-G6", ""]
+          - [14, "Supermercado", "Alimentación", 12900, "", "", "", "", "", ""]
+          - [20, "Combustible", "Transporte", 7800, "", "", "", "", "", ""]
+          - ["", "Total", "", "=SUMA(D2:D8)", "", "", "", "", "", ""]
+        verificar: {D9: 88300, H2: 48100, H3: 24700, H4: 12300, H5: 3200, I2: 3100, I3: -5300, I4: 300, I5: -1800, J2: "Excedido", J3: "Dentro del plan", J4: "Excedido", J5: "Dentro del plan", G6: 92000, H6: 88300, I6: -3700}
+escenas:
+  - narracion: "Al terminar esta lección tendrás tu control de gastos del mes, listo para usar. Este es el primer proyecto de *Excel desde cero*, y junta todo lo que ya sabes. Vas a diseñar una hoja de gastos ordenada, resumir por categoría con SUMAR.SI y comparar lo gastado con lo planeado."
+    visual:
+      plantilla: curso_portada
+      datos: {beat_objetivos: 2}
+  - narracion: "El proyecto tiene tres bloques. Primero, la lista donde anotas cada gasto, con un total. Segundo, un resumen por categoría que se actualiza solo. Y tercero, la comparación entre lo planeado y lo real. Los importes de la lección son inventados y no sugieren cuánto gastar."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Los tres bloques del proyecto"
+        beat_inicio: 1
+        items:
+          - {texto: "Lista de gastos y total", detalle: "Una fila por gasto · SUMA"}
+          - {texto: "Resumen por categoría", detalle: "SUMAR.SI con rangos fijos"}
+          - {texto: "Plan contra real", detalle: "Una resta y un SI"}
+  - narracion: "Una hoja de gastos ordenada."
+    capitulo: "Una hoja de gastos ordenada"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "Una hoja de gastos *ordenada*"}
+  - narracion: "Cuatro reglas para que la hoja funcione. Una fila por gasto. Una columna por cada dato: día, concepto, categoría e importe. Categorías escritas siempre igual, sacadas de una lista corta. Y en el importe, solo números."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Cuatro reglas de una hoja de gastos"
+        beat_inicio: 1
+        items:
+          - {texto: "Una fila por gasto", detalle: "Cada pago, una fila nueva"}
+          - {texto: "Una columna por dato", detalle: "Día, concepto, categoría e importe"}
+          - {texto: "Categorías siempre iguales", detalle: "Sacadas de una lista corta"}
+          - {texto: "Solo números en el importe", detalle: "Sin signos ni texto"}
+  - narracion: "Así queda la lista: el día en la columna A, el concepto en la B, la categoría en la C y el importe en la D. Cada pago ocupa una fila; aquí son siete para que quepan en pantalla, y en tu hoja serán más. Las categorías del ejemplo son cuatro: Vivienda, Alimentación, Transporte y Ocio. Debajo de la lista, en [[de nueve|D9]], va el total del mes con [[suma|SUMA]] de [[de dos|D2]] a [[de ocho|D8]]."
+    visual:
+      plantilla: planilla
+      datos:
+        celda_formula: "D9"
+        formula: "=SUMA(D2:D8)"
+        beat_formula: 3
+        decimales: 0
+        anios_sin_separador: false
+        filas:
+          - ["Día", "Concepto", "Categoría", "Importe"]
+          - [1, "Alquiler", "Vivienda", 42000]
+          - [3, "Supermercado", "Alimentación", 11800]
+          - [5, "Transporte público", "Transporte", 4500]
+          - [8, "Cine", "Ocio", 3200]
+          - [10, "Electricidad", "Vivienda", 6100]
+          - [14, "Supermercado", "Alimentación", 12900]
+          - [20, "Combustible", "Transporte", 7800]
+          - ["", "Total", "", ""]
+        resaltar:
+          - {rango: "C2:C8", beat: 2}
+        resultado: {celda: "D9", valor: "88 300", beat: 3}
+        nota: "Importes de ejemplo, sin moneda"
+        beat_nota: 1
+  - narracion: "El error más común está en las categorías. Si siempre escribes Alimentación igual, el resumen las junta en una sola. Pero si a veces escribes Alimentación, a veces Comida y a veces Alimentos, la planilla cree que son tres categorías distintas. Por eso conviene fijar la lista de categorías antes de empezar."
+    visual:
+      plantilla: versus
+      datos:
+        titulo: "Una categoría, una sola forma de escribirla"
+        izq: {etiqueta: "Con orden", titulo: "1 categoría", items: ["Alimentación", "Alimentación", "Alimentación"]}
+        der: {etiqueta: "Sin orden", titulo: "3 categorías", items: ["Alimentación", "Comida", "Alimentos"]}
+        veredicto: "El resumen solo junta lo que está *escrito igual*"
+        beat_izq: 1
+        beat_der: 2
+        beat_veredicto: 3
+  - narracion: "Resumen por categoría."
+    capitulo: "Resumen por categoría"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "Resumen por *categoría*"}
+  - narracion: "Ahora el resumen, que va a la derecha de la lista, con una fila por categoría. En la columna H va lo gastado de verdad, con SUMAR.SI. Primero, el rango de categorías, de [[ce dos|C2]] a [[ce ocho|C8]], con dólares. Después, el criterio: [[efe dos|F2]], donde dice Vivienda. Y al final, el rango de importes, de [[de dos|D2]] a [[de ocho|D8]], también fijo."
+    visual:
+      plantilla: formula
+      datos:
+        titulo: "Lo gastado de verdad, por categoría"
+        formula: "=SUMAR.SI($C$2:$C$8;F2;$D$2:$D$8)"
+        partes:
+          - {token: "$C$2:$C$8", explica: "*dónde* mira: la columna Categoría (fija)", beat: 2}
+          - {token: "F2", explica: "*qué* categoría busca", beat: 3}
+          - {token: "$D$2:$D$8", explica: "*qué* acumula: los importes (fijo)", beat: 4}
+  - narracion: "Veamos qué hace con Vivienda. Busca en la lista las filas que dicen Vivienda: la dos y la seis. Toma los importes de esas filas, 42 000 y 6 100. Y el resultado, 48 100, queda en [[ache dos|H2]]."
+    visual:
+      plantilla: planilla
+      datos:
+        celda_formula: "H2"
+        formula: "=SUMAR.SI($C$2:$C$8;F2;$D$2:$D$8)"
+        beat_formula: 0
+        decimales: 0
+        anios_sin_separador: false
+        filas:
+          - ["Día", "Concepto", "Categoría", "Importe"]
+          - [1, "Alquiler", "Vivienda", 42000]
+          - [3, "Supermercado", "Alimentación", 11800]
+          - [5, "Transporte público", "Transporte", 4500]
+          - [8, "Cine", "Ocio", 3200]
+          - [10, "Electricidad", "Vivienda", 6100]
+          - [14, "Supermercado", "Alimentación", 12900]
+          - [20, "Combustible", "Transporte", 7800]
+          - ["", "Total", "", 88300]
+        resaltar:
+          - {rango: "C2", beat: 1}
+          - {rango: "C6", beat: 1}
+          - {rango: "D2", beat: 2, alterno: true}
+          - {rango: "D6", beat: 2, alterno: true}
+        nota: "El resumen, a la derecha de la tabla: H2 = *48 100*"
+        beat_nota: 3
+  - narracion: "Al copiar la fórmula hacia abajo, el resumen se completa. Vivienda: 48 100. Alimentación: 24 700. Transporte: 12 300. Y Ocio: 3 200. Ahora el control clave: las cuatro categorías juntas deben dar el mismo total que la lista, 88 300. Si no coincide, hay una categoría mal escrita o un gasto sin categoría."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Lo gastado por categoría (ejemplo)"
+        beat_inicio: 1
+        lineas:
+          - {izq: "Vivienda", der: "48 100"}
+          - {izq: "Alimentación", der: "24 700"}
+          - {izq: "Transporte", der: "12 300"}
+          - {izq: "Ocio", der: "3 200"}
+        resultado: {izq: "Control: total de la lista", der: "88 300", beat: 5}
+  - narracion: "Plan contra real."
+    capitulo: "Comparar el plan con lo real"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "Plan contra *real*"}
+  - narracion: "Ahora lo planeado: en la columna G anotas cuánto pensabas gastar en cada categoría, con valores de ejemplo. La diferencia es lo real menos lo planeado. [[ache dos|H2]] es lo gastado de verdad. Y [[ge dos|G2]] es lo planeado."
+    visual:
+      plantilla: formula
+      datos:
+        titulo: "La diferencia con el plan"
+        formula: "=H2-G2"
+        partes:
+          - {token: "H2", explica: "lo *real*: lo gastado de verdad", beat: 2}
+          - {token: "G2", explica: "lo *planeado*", beat: 3}
+  - narracion: "Interpretar el signo es lo único que falta. Positivo: gastaste más de lo planeado, como en Vivienda, con 3 100 de más. Negativo: gastaste menos, como en Alimentación, con 5 300 de menos. Y un cero significa que coincide."
+    visual:
+      plantilla: versus
+      datos:
+        titulo: "Cómo leer la diferencia"
+        izq: {etiqueta: "Resultado positivo", titulo: "Real mayor que plan", items: ["Gastaste más de lo planeado", "Ejemplo: Vivienda, +3 100"]}
+        der: {etiqueta: "Resultado negativo", titulo: "Real menor que plan", items: ["Gastaste menos de lo planeado", "Ejemplo: Alimentación, -5 300"]}
+        veredicto: "El signo dice *hacia dónde* se movió el gasto"
+        beat_izq: 1
+        beat_der: 2
+        beat_veredicto: 3
+  - narracion: "Así queda la comparación completa. Vivienda quedó 3 100 por encima del plan. Alimentación, 5 300 por debajo. Transporte, 300 por encima. Y Ocio, 1 800 por debajo. En total, se gastó 3 700 menos de lo planeado."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Real menos plan (datos de ejemplo)"
+        beat_inicio: 1
+        lineas:
+          - {izq: "Vivienda · 45 000 → 48 100", der: "+3 100"}
+          - {izq: "Alimentación · 30 000 → 24 700", der: "-5 300"}
+          - {izq: "Transporte · 12 000 → 12 300", der: "+300"}
+          - {izq: "Ocio · 5 000 → 3 200", der: "-1 800"}
+        resultado: {izq: "Total · 92 000 → 88 300", der: "-3 700", beat: 5}
+  - narracion: "Para que la hoja lo diga con palabras, usamos [[si|SI]], de la lección anterior. La condición: lo real es mayor que lo planeado. Si se cumple, escribe Excedido. Si no, escribe Dentro del plan. Con eso, Vivienda y Transporte quedan como Excedido, y Alimentación y Ocio dentro del plan. La hoja solo muestra los números; qué hacer con ellos es decisión tuya."
+    visual:
+      plantilla: formula
+      datos:
+        titulo: "El estado de cada categoría"
+        formula: '=SI(H2>G2;"Excedido";"Dentro del plan")'
+        partes:
+          - {token: "H2>G2", explica: "la *condición*: lo real supera al plan"}
+          - {token: '"Excedido"', explica: "si se cumple"}
+          - {token: '"Dentro del plan"', explica: "si no se cumple"}
+        nota: "Excedido: Vivienda y Transporte · Dentro del plan: Alimentación y Ocio"
+        beat_nota: 4
+  - narracion: "Tres errores típicos del proyecto. Dejar los rangos sin dólares: al copiar el resumen se desplazan y toman importes equivocados. Escribir una categoría distinta en la lista y en el resumen: el resultado queda en cero. Y restar al revés, plan menos real, y leer el signo al contrario."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Errores típicos del proyecto"
+        estilo: x
+        beat_inicio: 1
+        items:
+          - {texto: "Rangos sin dólares", detalle: "Al copiar se desplazan"}
+          - {texto: "Categoría escrita distinta", detalle: "El resultado queda en cero"}
+          - {texto: "Restar al revés", detalle: "El signo se lee al contrario"}
+  - narracion: "Para llevar esto a tu propio mes, sigue cuatro pasos. Primero, define tus categorías: pocas, y con nombres que no cambien. Segundo, anota cuánto planeas para cada una, como una referencia tuya y no como una regla. Tercero, registra cada gasto en la lista cuando ocurre. Y cuarto, mira el resumen y comprueba que el control de totales coincida."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Cómo llevarlo a tu mes"
+        beat_inicio: 1
+        pasos:
+          - {titulo: "Define tus categorías", detalle: "Pocas y con nombres fijos"}
+          - {titulo: "Anota tu plan por categoría", detalle: "Una referencia tuya, no una regla"}
+          - {titulo: "Registra cada gasto", detalle: "Una fila por gasto"}
+          - {titulo: "Revisa el resumen y el control", detalle: "Los totales deben coincidir"}
+  - narracion: "Práctica."
+    capitulo: "Práctica"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "*Práctica*", sub: "Archivo de práctica en la descripción"}
+  - narracion: "Es hora de armar tu propio control. Abre el archivo de la descripción: en la hoja Práctica ya están la lista de gastos y los planes. Primero, en [[de nueve|D9]] calcula el total de la lista. Después, en [[ache dos|H2]] escribe SUMAR.SI con los rangos fijos y cópiala hasta [[ache cinco|H5]]. Luego, calcula la diferencia en [[i dos|I2]] y el estado en [[jota dos|J2]], y cópialos hacia abajo. Por último, en la fila seis calcula los totales. Pausa el video, hazlo y compara con la solución."
+    visual:
+      plantilla: ejercicio
+      datos:
+        consigna: "Arma el resumen de gastos del mes"
+        hoja: "Práctica"
+        pasos:
+          - "D9: total de la lista"
+          - "H2:H5: lo real con SUMAR.SI"
+          - "I2:J5: diferencia y estado con SI"
+          - "Fila 6: totales de G, H e I"
+        pista: "Compara H6 con D9: deben coincidir"
+        beat_pasos: 2
+        beat_pista: 6
+  - narracion: "La solución. El total de la lista, en [[de nueve|D9]], es 88 300. En [[ache dos|H2]], SUMAR.SI da 48 100, 24 700, 12 300 y 3 200. En [[i dos|I2]], real menos plan da 3 100, menos 5 300, 300 y menos 1 800. En [[jota dos|J2]], el SI marca dos categorías como excedidas y dos dentro del plan. Y los totales de la fila seis son 92 000 de plan, 88 300 de real y menos 3 700 de diferencia. Si H6 no coincide con D9, revisa cómo escribiste las categorías. La hoja Solución del archivo trae todo resuelto."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Solución del ejercicio"
+        lineas:
+          - {izq: "D9 · total de la lista", der: "88 300", beat: 1}
+          - {izq: "H2:H5 · SUMAR.SI", der: "48 100 · 24 700 · 12 300 · 3 200", beat: 2}
+          - {izq: "I2:I5 · real menos plan", der: "3 100 · -5 300 · 300 · -1 800", beat: 3}
+          - {izq: "J2:J5 · SI", der: "2 excedidas · 2 dentro", beat: 4}
+        resultado: {izq: "Fila 6 · plan · real · diferencia", der: "92 000 · 88 300 · -3 700", beat: 5}
+  - narracion: "Esto es lo que te llevas. Una hoja de gastos ordenada: una fila por gasto y categorías siempre iguales. SUMAR.SI con rangos fijos resume por categoría, y el total debe coincidir con el de la lista. La diferencia entre lo real y lo planeado muestra dónde se movió cada gasto. En la próxima lección vas a ordenar, filtrar y convertir tus datos en tabla, para agregar filas sin rehacer fórmulas. Practica con el archivo y nos vemos en la lección 5."
+    visual:
+      plantilla: curso_cierre
+      datos:
+        titulo: "Lo que aprendiste hoy"
+        puntos: ["Una fila por gasto, categorías siempre iguales", "SUMAR.SI con rangos fijos; el total debe coincidir", "Real menos plan: el signo indica hacia dónde se movió"]
+        cta: "Suscríbete para la lección 5"
+        beat_siguiente: 4
+        beat_cta: 5
+fuentes:
+  - url: "https://support.microsoft.com/es-es/office/sumar-si-funci%C3%B3n-sumar-si-169b8c99-c05c-4483-a712-1697a653039b"
+    titulo: "Función SUMAR.SI (Microsoft Support)"
+    fecha_consulta: 2026-10-15
+    respalda: "SUMAR.SI suma los valores de un rango que cumplen un criterio; sintaxis SUMAR.SI(rango; criterio; [rango_suma])."
+  - url: "https://support.microsoft.com/es-es/Excel/functions/sum-function"
+    titulo: "Función SUMA (Microsoft Support)"
+    fecha_consulta: 2026-10-15
+    respalda: "SUMA suma valores individuales, referencias de celda, rangos o una combinación."
+  - url: "https://support.microsoft.com/es-es/excel/functions/if-function"
+    titulo: "Función SI (Microsoft Support)"
+    fecha_consulta: 2026-10-15
+    respalda: "SI hace una comparación lógica entre un valor y un resultado esperado; sintaxis SI(prueba_lógica; valor_si_verdadero; [valor_si_falso]); el texto va entre comillas. La propia página incluye un ejemplo de presupuesto excedido o dentro del presupuesto."
+  - url: "https://support.microsoft.com/es-es/excel/switch-between-relative-absolute-and-mixed-references"
+    titulo: "Cambiar entre referencias relativas, absolutas y mixtas (Microsoft Support)"
+    fecha_consulta: 2026-10-15
+    respalda: "Al copiar una fórmula, las referencias relativas se ajustan y las que llevan el signo $ quedan fijas."
+  - calculo: "[42000, 6100, 11800, 12900, 4500, 7800, 3200]"
+    respalda: "Importes de los siete gastos de ejemplo (ficticios)."
+  - calculo: "[45000, 30000, 12000, 5000]"
+    respalda: "Plan por categoría del ejemplo (ficticio): Vivienda, Alimentación, Transporte y Ocio."
+  - calculo: "42000 + 6100"
+    resultado: 48100
+    respalda: "Real de Vivienda (filas 2 y 6)."
+  - calculo: "11800 + 12900"
+    resultado: 24700
+    respalda: "Real de Alimentación (filas 3 y 7)."
+  - calculo: "4500 + 7800"
+    resultado: 12300
+    respalda: "Real de Transporte (filas 4 y 8)."
+  - calculo: "48100 + 24700 + 12300 + 3200"
+    resultado: 88300
+    respalda: "Suma de las cuatro categorías = total de la lista (D9)."
+  - calculo: "42000 + 11800 + 4500 + 3200 + 6100 + 12900 + 7800"
+    resultado: 88300
+    respalda: "Total de la lista de gastos (D2:D8); coincide con la suma de las categorías."
+  - calculo: "45000 + 30000 + 12000 + 5000"
+    resultado: 92000
+    respalda: "Plan total del ejemplo."
+  - calculo: "48100 - 45000"
+    resultado: 3100
+    respalda: "Vivienda: real menos plan."
+  - calculo: "30000 - 24700"
+    resultado: 5300
+    respalda: "Alimentación: plan menos real (diferencia -5 300)."
+  - calculo: "12300 - 12000"
+    resultado: 300
+    respalda: "Transporte: real menos plan."
+  - calculo: "5000 - 3200"
+    resultado: 1800
+    respalda: "Ocio: plan menos real (diferencia -1 800)."
+  - calculo: "92000 - 88300"
+    resultado: 3700
+    respalda: "Se gastó 3 700 menos que el plan total (diferencia -3 700)."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — funciones documentadas por Microsoft; totales verificados con cálculo y recalculando el archivo de práctica"
+  monetizacion: "medio — tema de dinero personal; todos los importes son ficticios, sin moneda, y el video no recomienda cuánto gastar, ahorrar ni invertir"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+  - {nombre: "Archivo de práctica Leccion04_practica.xlsx generado por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

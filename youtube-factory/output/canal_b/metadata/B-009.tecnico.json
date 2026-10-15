@@ -67,9 +67,9 @@
     "target_offset": "-0.04"
   },
   "fotogramas_unicos": 272,
-  "tts_cache": 0,
+  "tts_cache": 12,
   "spec_hash": "de5ef4f6b7b49800",
-  "segundos_produccion": 107.5,
+  "segundos_produccion": 84.0,
   "texto_hablado": [
     "Tres celdas muestran uno coma veintitrés, pero su suma da tres coma setenta y no tres coma sesenta y nueve.",
     "Las celdas tienen formato de dos decimales, pero guardan uno coma dos tres cuatro.",

@@ -57,9 +57,9 @@
     "target_offset": "0.42"
   },
   "fotogramas_unicos": 205,
-  "tts_cache": 0,
+  "tts_cache": 9,
   "spec_hash": "a7ac854ea8befa4f",
-  "segundos_produccion": 89.6,
+  "segundos_produccion": 63.9,
   "texto_hablado": [
     "Mito: para separar un código, hay que cortarlo a mano.",
     "Realidad: dos funciones lo hacen.",

@@ -1,0 +1,47 @@
+1
+00:00:00,120 --> 00:00:02,564
+¿Excel o Google Sheets para trabajar en equipo?
+
+2
+00:00:02,804 --> 00:00:04,926
+Depende de dónde viva tu archivo.
+
+3
+00:00:05,206 --> 00:00:07,669
+Excel: varias personas editan a la vez si el
+
+4
+00:00:07,669 --> 00:00:11,420
+libro está en OneDrive o SharePoint Online, con AutoSave activado.
+
+5
+00:00:11,580 --> 00:00:14,700
+Sheets: compartes por correo o enlace, das permiso para
+
+6
+00:00:14,700 --> 00:00:17,423
+ver, comentar o editar, y todos editan en vivo.
+
+7
+00:00:17,583 --> 00:00:20,575
+Elige según dónde vive el archivo y qué usa tu equipo.
+
+8
+00:00:20,855 --> 00:00:24,617
+Primero, dónde se guarda: en la nube de Microsoft o en Google Drive.
+
+9
+00:00:24,777 --> 00:00:27,445
+Segundo, qué permiso necesita cada persona.
+
+10
+00:00:27,605 --> 00:00:31,660
+Tercero, la versión de Excel: si alguien abre el archivo con una versión
+
+11
+00:00:31,660 --> 00:00:35,940
+sin coautoría, Microsoft indica que el resto puede ver un error de bloqueo.
+
+12
+00:00:36,220 --> 00:00:38,420
+Cuéntanos con cuál trabaja tu equipo.

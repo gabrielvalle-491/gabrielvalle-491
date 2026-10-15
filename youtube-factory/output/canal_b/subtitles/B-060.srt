@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:03,515
+Tres funciones de Google Sheets que Excel resuelve de otra forma.
+
+2
+00:00:03,795 --> 00:00:06,135
+GOOGLEFINANCE trae datos financieros.
+
+3
+00:00:06,295 --> 00:00:09,166
+IMPORTRANGE trae un rango de otra hoja de cálculo.
+
+4
+00:00:09,326 --> 00:00:11,312
+GOOGLETRANSLATE traduce texto.
+
+5
+00:00:11,592 --> 00:00:13,099
+En Sheets, tres funciones.
+
+6
+00:00:13,259 --> 00:00:14,912
+En Excel, otras herramientas.
+
+7
+00:00:15,072 --> 00:00:17,586
+Para enlazar archivos, vínculos entre libros.
+
+8
+00:00:17,746 --> 00:00:22,059
+Para traducir, la función TRANSLATE de Microsoft 365.
+
+9
+00:00:22,219 --> 00:00:27,013
+Para datos financieros, STOCKHISTORY, también de Microsoft 365.
+
+10
+00:00:27,293 --> 00:00:30,437
+Revisa la ayuda de tu versión: esto cambia con el tiempo.

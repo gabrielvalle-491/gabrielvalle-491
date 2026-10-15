@@ -1,0 +1,43 @@
+1
+00:00:00,120 --> 00:00:02,301
+¿Tu proceso solo existe en tu cabeza?
+
+2
+00:00:02,541 --> 00:00:05,561
+Conviértelo en una checklist que cualquiera pueda seguir.
+
+3
+00:00:05,841 --> 00:00:08,560
+Escribe el proceso tal como lo haces, sin ordenar.
+
+4
+00:00:08,720 --> 00:00:11,491
+Luego pídele a la IA que lo convierta en pasos.
+
+5
+00:00:11,771 --> 00:00:14,242
+Revisa que cada paso tenga un solo verbo.
+
+6
+00:00:14,402 --> 00:00:15,878
+Que el orden sea el real.
+
+7
+00:00:16,038 --> 00:00:18,259
+Y que no falte lo que haces sin pensar.
+
+8
+00:00:18,539 --> 00:00:21,959
+La prueba final: pide a otra persona que la siga sin tu ayuda.
+
+9
+00:00:22,119 --> 00:00:23,991
+Donde se atore, falta un paso.
+
+10
+00:00:24,271 --> 00:00:27,441
+Así tu forma de trabajar deja de depender de tu memoria.
+
+11
+00:00:27,601 --> 00:00:30,446
+Guárdalo y pruébalo con un proceso de tu semana.

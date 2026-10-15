@@ -1,0 +1,85 @@
+{
+  "id": "A-089",
+  "duracion_s": 35.217,
+  "frases": 11,
+  "subtitulos": 26,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.242,
+      "beats": [
+        -5.0,
+        3.648
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.242,
+      "fin": 13.199,
+      "beats": [
+        0.0,
+        2.439,
+        4.234
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 13.199,
+      "fin": 19.488,
+      "beats": [
+        0.0,
+        2.583,
+        3.964
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 19.488,
+      "fin": 27.457,
+      "beats": [
+        0.0,
+        3.156
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 27.457,
+      "fin": 35.217,
+      "beats": [
+        0.0,
+        4.106
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.35",
+    "input_tp": "-6.79",
+    "input_lra": "1.90",
+    "input_thresh": "-31.60",
+    "output_i": "-14.09",
+    "output_tp": "-1.50",
+    "output_lra": "1.50",
+    "output_thresh": "-24.26",
+    "normalization_type": "dynamic",
+    "target_offset": "0.09"
+  },
+  "fotogramas_unicos": 273,
+  "tts_cache": 0,
+  "spec_hash": "a5d24f27d688f987",
+  "segundos_produccion": 165.4,
+  "texto_hablado": [
+    "¿Tus chats con una i a pueden usarse para entrenar modelos?",
+    "Depende de un ajuste que puedes revisar.",
+    "En chat yi pi ti, abre Configuración.",
+    "Entra a Controles de datos.",
+    "Y desactiva mejorar el modelo para todos.",
+    "En yémini, abre Configuración y ayuda.",
+    "Entra a Actividad.",
+    "Y desactiva conservar actividad.",
+    "Otra opción en chat yi pi ti es el chat temporal: no se usa para mejorar los modelos, aunque puede conservarse un tiempo por seguridad.",
+    "En cuentas de trabajo o escuela, las reglas las fija el administrador.",
+    "Y los menús cambian: confirma en la ayuda oficial."
+  ]
+}

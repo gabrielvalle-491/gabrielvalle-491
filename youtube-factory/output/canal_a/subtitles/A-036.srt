@@ -1,0 +1,35 @@
+1
+00:00:00,120 --> 00:00:03,141
+Antes de presentar tu idea, pídele a la IA que la ataque.
+
+2
+00:00:03,301 --> 00:00:05,720
+Así llegas sabiendo qué te van a objetar.
+
+3
+00:00:06,000 --> 00:00:10,561
+Dile quién escucha tu idea y pide cinco objeciones, de la más peligrosa a la menos.
+
+4
+00:00:10,721 --> 00:00:13,589
+Y que cada una venga con el dato que la respondería.
+
+5
+00:00:13,869 --> 00:00:16,358
+Elige las dos objeciones más probables.
+
+6
+00:00:16,518 --> 00:00:19,759
+Prepara una respuesta con datos reales, no con adjetivos.
+
+7
+00:00:19,919 --> 00:00:22,340
+Y descarta las que no aplican a tu caso.
+
+8
+00:00:22,620 --> 00:00:25,916
+La IA no conoce a tu jefe: úsala como punto de partida.
+
+9
+00:00:26,076 --> 00:00:28,278
+Tú decides qué objeciones son reales.

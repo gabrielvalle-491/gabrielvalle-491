@@ -1,0 +1,308 @@
+id: B-L01
+canal: canal_b
+curso: excel-desde-cero
+fecha: 2026-10-29
+formato: largo
+serie: "Curso: Excel desde cero"
+episodio: "Lección 1"
+pilar: formulas
+tipo_editorial: tutorial
+idea: "Primera lección del curso: la cuadrícula (filas, columnas, celdas y direcciones), cómo moverse, qué tipos de datos existen, por qué el formato no cambia el valor y la primera fórmula con SUMA, con un ejercicio sobre un archivo de práctica."
+objetivo: "Que una persona que nunca usó una planilla termine la lección habiendo cargado datos y escrito una SUMA que se actualiza sola."
+publico: "Principiantes absolutos en Excel o Google Sheets que quieren usar planillas para su trabajo o su dinero."
+hipotesis: "Formato curso (portada con objetivos + capítulos + ejercicio con archivo): medir retención media y % que pasa a la lección 2 desde la pantalla final, contra el promedio de videos largos del canal."
+gancho: "Al terminar esta lección vas a tener tu primera planilla funcionando, con una suma que se actualiza sola."
+duracion_objetivo: "5-10 min (≈1 000-1 900 palabras)"
+titulo: "Curso de Excel desde cero · Lección 1: celdas, datos y la función SUMA"
+titulos_alternativos:
+  - "Excel desde cero: tu primera planilla y tu primera fórmula (Lección 1)"
+  - "Cómo empezar con Excel y Google Sheets: celdas, formato y SUMA"
+  - "Lección 1 de Excel: filas, columnas, celdas y la función SUMA explicadas"
+criterio_titulo: "Nombra el curso y el número de lección (serie), más las búsquedas reales del principiante: celdas, SUMA, Excel desde cero."
+descripcion: |
+  Primera lección del curso gratuito de Excel y Google Sheets desde cero. Aprendes cómo está armada una planilla (filas, columnas y celdas), cómo moverte rápido, qué tipos de datos existen y por qué el formato no cambia el valor, y escribes tu primera fórmula con SUMA.
+  Al final hay un ejercicio con archivo de práctica (incluye la solución en otra hoja). Funciona igual en Excel y en Google Sheets.
+cta: "Descarga el archivo de práctica, resuelve el ejercicio y nos vemos en la lección 2."
+comentario_fijado: "Lección 1 del curso Excel desde cero. ¿Pudiste hacer el ejercicio? Cuéntame en qué paso te trabaste y lo resolvemos en la lección 2. Nota: en México y EE. UU. Excel suele usar coma (,) entre argumentos en lugar de punto y coma (;)."
+hashtags: ["#Excel", "#CursoDeExcel", "#GoogleSheets"]
+palabras_clave: ["curso de excel desde cero", "función SUMA", "excel para principiantes", "celdas filas y columnas"]
+materiales:
+  - archivo: "Leccion01_practica.xlsx"
+    tipo: xlsx
+    titulo: "Celda Clara · Excel desde cero · Lección 1"
+    hojas:
+      - nombre: "Práctica"
+        instrucciones: "Ejercicio: escribe en C9 una fórmula que sume C2:C8. Después cambia un monto y mira cómo se actualiza el total."
+        anchos: [14, 18, 14]
+        formatos: {C: "#,##0"}
+        filas:
+          - ["Día", "Concepto", "Monto"]
+          - ["Lunes", "Supermercado", 18400]
+          - ["Martes", "Transporte", 6200]
+          - ["Miércoles", "Farmacia", 4750]
+          - ["Jueves", "Luz", 9300]
+          - ["Viernes", "Internet", 12000]
+          - ["Sábado", "Panadería", 2850]
+          - ["Domingo", "Salida", 7500]
+          - ["", "Total", ""]
+      - nombre: "Solución"
+        anchos: [14, 18, 14]
+        formatos: {C: "#,##0"}
+        filas:
+          - ["Día", "Concepto", "Monto"]
+          - ["Lunes", "Supermercado", 18400]
+          - ["Martes", "Transporte", 6200]
+          - ["Miércoles", "Farmacia", 4750]
+          - ["Jueves", "Luz", 9300]
+          - ["Viernes", "Internet", 12000]
+          - ["Sábado", "Panadería", 2850]
+          - ["Domingo", "Salida", 7500]
+          - ["", "Total", "=SUMA(C2:C8)"]
+        verificar: {C9: 61000}
+escenas:
+  - narracion: "Al terminar esta lección vas a tener tu primera planilla funcionando, con una suma que se actualiza sola. Te doy la bienvenida a *Excel desde cero*, el curso gratuito de Celda Clara. En esta primera lección vas a aprender tres cosas: moverte por filas, columnas y celdas; cargar datos y darles formato; y escribir tu primera fórmula con [[suma|SUMA]]."
+    visual:
+      plantilla: curso_portada
+      datos: {beat_objetivos: 2}
+  - narracion: "Así funciona el curso. Son doce lecciones, en tres módulos: fundamentos, organizar y analizar, y proyectos reales. Cada lección tiene capítulos, así que puedes saltar directo a lo que necesitas. Y cada una termina con un ejercicio y un archivo de práctica, que está en la descripción. Todo funciona igual en Excel y en Google Sheets, que es gratis con una cuenta de Google."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Cómo funciona el curso"
+        estilo: check
+        beat_inicio: 1
+        items:
+          - {texto: "12 lecciones en 3 módulos", detalle: "Fundamentos · Organizar y analizar · Proyectos reales"}
+          - {texto: "Capítulos en cada video", detalle: "Salta directo a lo que necesitas"}
+          - {texto: "Ejercicio + archivo de práctica", detalle: "Enlace en la descripción"}
+          - {texto: "Excel o Google Sheets", detalle: "Sheets es gratis con una cuenta de Google"}
+  - narracion: "Una aclaración antes de empezar. En este curso las fórmulas usan punto y coma para separar los datos, como en Argentina, Colombia, Chile o España. Si tu Excel está configurado como en México o Estados Unidos, usa coma en su lugar. La fórmula es la misma; solo cambia ese separador."
+    visual:
+      plantilla: versus
+      datos:
+        titulo: "El separador depende de tu configuración"
+        izq: {etiqueta: "Coma decimal", titulo: "Punto y coma", items: ["=SUMA(A1;A2)", "Argentina, Colombia, Chile, España"]}
+        der: {etiqueta: "Punto decimal", titulo: "Coma", items: ["=SUMA(A1,A2)", "México, Estados Unidos"]}
+        veredicto: "Misma fórmula: solo cambia el *separador*"
+        beat_izq: 1
+        beat_der: 2
+        beat_veredicto: 3
+  - narracion: "La cuadrícula: filas, columnas y celdas."
+    capitulo: "La cuadrícula: filas, columnas y celdas"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "La cuadrícula: filas, columnas y *celdas*"}
+  - narracion: "Una planilla es una cuadrícula. Las columnas van de arriba hacia abajo y se nombran con letras: A, B, C. Las filas van de izquierda a derecha y se nombran con números. Donde una columna se cruza con una fila hay una *celda*, y su nombre junta las dos cosas: primero la letra y después el número. Esta celda resaltada es la [[be tres|B3]], columna B, fila tres."
+    visual:
+      plantilla: planilla
+      datos:
+        celda_formula: "B3"
+        formula: ""
+        encabezado: false
+        filas:
+          - ["", "", ""]
+          - ["", "", ""]
+          - ["", "B3", ""]
+          - ["", "", ""]
+        resaltar:
+          - {rango: "B1:B4", beat: 1}
+          - {rango: "A3:C3", beat: 2, alterno: true}
+          - {rango: "B3", beat: 4}
+  - narracion: "Ese nombre se llama *dirección* o referencia, y es la base de todo: las fórmulas no trabajan con números sueltos, sino con direcciones. Cuando más adelante escribas una fórmula, le vas a decir a la planilla qué celdas usar, y ella va a buscar lo que haya adentro. Si cambias el contenido, la fórmula se entera sola."
+    visual:
+      plantilla: texto
+      datos:
+        titulo: "La *dirección* de una celda"
+        texto: "Letra de la columna + número de la fila. Las fórmulas usan direcciones, no números sueltos."
+        nota: "Ejemplos: A1, B3, C9"
+  - narracion: "La hoja es enorme. Según Microsoft, una hoja de Excel tiene 1 048 576 filas y 16 384 columnas. Después de la Z vienen AA, AB, y así sigue hasta la columna XFD. No vas a usar ni una mínima parte, pero sirve para entender por qué conviene moverse con el teclado."
+    visual:
+      plantilla: dato
+      datos:
+        kicker: "Para dimensionar"
+        dato: "*1 048 576* filas y *16 384* columnas por hoja"
+        contexto: "Después de Z vienen AA, AB… hasta XFD"
+        fuente: "Microsoft, especificaciones y límites de Excel"
+  - narracion: "Cuatro movimientos te ahorran mucho tiempo. Con las flechas pasas de una celda a la vecina. Con Control y una flecha saltas hasta el borde de los datos en esa dirección. Con Control e Inicio vuelves a la celda [[a uno|A1]]. Y en el cuadro de nombres, arriba a la izquierda, escribes una dirección y presionas Enter para ir directo."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Moverte rápido (Windows)"
+        beat_inicio: 1
+        pasos:
+          - {titulo: "Flechas", detalle: "A la celda vecina"}
+          - {titulo: "Ctrl + flecha", detalle: "Hasta el borde de los datos"}
+          - {titulo: "Ctrl + Inicio", detalle: "Vuelve a A1"}
+          - {titulo: "Cuadro de nombres", detalle: "Escribe C9 y Enter"}
+  - narracion: "Datos y formato."
+    capitulo: "Datos y formato"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "Datos y *formato*"}
+  - narracion: "En una celda puedes escribir cuatro tipos de cosas. Texto, como un concepto o un nombre: se alinea a la izquierda. Números, como un monto: se alinean a la derecha, y esa es una pista útil para saber si la planilla los reconoce como números. Fechas, que en realidad la planilla guarda como números. Y fórmulas, que siempre empiezan con el signo igual."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Qué puede ir en una celda"
+        beat_inicio: 1
+        items:
+          - {texto: "Texto", detalle: "Se alinea a la izquierda"}
+          - {texto: "Números", detalle: "Se alinean a la derecha"}
+          - {texto: "Fechas", detalle: "Se guardan como números"}
+          - {texto: "Fórmulas", detalle: "Siempre empiezan con ="}
+  - narracion: "Probemos con una lista de gastos de una semana. En la columna A va el día, en la B el concepto y en la C el monto. Fíjate que los montos quedaron alineados a la derecha: la planilla los reconoce como números. Los montos son un ejemplo; usa los tuyos."
+    visual:
+      plantilla: planilla
+      datos:
+        celda_formula: "C2"
+        formula: "18400"
+        filas:
+          - ["Día", "Concepto", "Monto"]
+          - ["Lunes", "Supermercado", 18400]
+          - ["Martes", "Transporte", 6200]
+          - ["Miércoles", "Farmacia", 4750]
+          - ["Jueves", "Luz", 9300]
+        resaltar:
+          - {rango: "C2:C5", beat: 2}
+        nota: "Montos de ejemplo, sin moneda"
+  - narracion: "Una regla que evita muchos errores: escribe solo el número. No escribas el signo de moneda ni puntos de miles a mano. Eso lo agrega el *formato*. Selecciona la columna, abre el formato de número y elige número con separador de miles, o moneda. La celda se ve distinta, pero el valor guardado es el mismo, y lo puedes comprobar en la barra de fórmulas."
+    visual:
+      plantilla: versus
+      datos:
+        titulo: "El formato no cambia el valor"
+        izq: {etiqueta: "Lo que escribes", titulo: "18400", items: ["Solo el número", "Sin $ ni puntos"]}
+        der: {etiqueta: "Lo que ves", titulo: "18 400", items: ["Formato de número", "O formato de moneda"]}
+        veredicto: "La barra de fórmulas muestra el *valor real*"
+        beat_der: 2
+        beat_veredicto: 4
+  - narracion: "Tu primera fórmula: [[suma|SUMA]]."
+    capitulo: "Tu primera fórmula: SUMA"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "Tu primera fórmula: *SUMA*"}
+  - narracion: "Para sumar la columna de montos usamos la función [[suma|SUMA]]. Empieza con el signo igual, que le avisa a la planilla que viene una fórmula. Después el nombre de la función, [[suma|SUMA]]. Y entre paréntesis, el rango: de [[ce dos|C2]] a [[ce ocho|C8]]. Los dos puntos significan hasta: todas las celdas desde la primera hasta la última."
+    visual:
+      plantilla: formula
+      datos:
+        formula: "=SUMA(C2:C8)"
+        partes:
+          - {token: "=", explica: "avisa que viene una fórmula"}
+          - {token: "SUMA", explica: "la función: suma lo que le pases"}
+          - {token: "C2:C8", explica: "el rango: de C2 *hasta* C8"}
+  - narracion: "Así queda en la planilla. Escribes la fórmula en [[ce nueve|C9]], debajo del último monto. El rango toma los siete gastos de la semana. Y al presionar Enter aparece el total: 61 000."
+    visual:
+      plantilla: planilla
+      datos:
+        celda_formula: "C9"
+        formula: "=SUMA(C2:C8)"
+        decimales: 0
+        anios_sin_separador: false
+        filas:
+          - ["Día", "Concepto", "Monto"]
+          - ["Lunes", "Supermercado", 18400]
+          - ["Martes", "Transporte", 6200]
+          - ["Miércoles", "Farmacia", 4750]
+          - ["Jueves", "Luz", 9300]
+          - ["Viernes", "Internet", 12000]
+          - ["Sábado", "Panadería", 2850]
+          - ["Domingo", "Salida", 7500]
+          - ["", "Total", ""]
+        resaltar:
+          - {rango: "C2:C8", beat: 2}
+        resultado: {celda: "C9", valor: "61 000", beat: 3}
+  - narracion: "Dos atajos para no escribirla a mano. En Excel, te paras debajo de los números y presionas Alt y el signo igual: aparece la suma con el rango ya elegido, y solo confirmas con Enter. Y en Excel o en Sheets, puedes empezar a escribir igual, [[ese u|SU]], y elegir [[suma|SUMA]] de la lista que aparece."
+    visual:
+      plantilla: pasos
+      datos:
+        titulo: "Atajos para sumar"
+        beat_inicio: 1
+        pasos:
+          - {titulo: "Alt + = (Excel)", detalle: "Inserta la suma con el rango elegido"}
+          - {titulo: "Escribe =SU y elige SUMA", detalle: "Funciona en Excel y en Sheets"}
+  - narracion: "Ahora lo más importante. Cambia el monto del supermercado y mira el total. Se actualizó solo. No hace falta volver a sumar, porque la fórmula no guardó un número: guardó la instrucción de sumar ese rango."
+    visual:
+      plantilla: mito
+      datos:
+        mito: "Si cambio un monto, tengo que volver a sumar"
+        realidad: "La fórmula *se recalcula sola*: guarda la instrucción, no el resultado"
+        beat_tachar: 2
+        beat_realidad: 2
+  - narracion: "Tres errores típicos del principio. Escribir la fórmula sin el signo igual: la planilla la muestra como texto. Escribir los montos con puntos o símbolos a mano: a veces quedan como texto y la suma los ignora. Y dejar el total dentro del rango que sumas, que genera una referencia circular."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Errores típicos del principio"
+        beat_inicio: 1
+        estilo: x
+        items:
+          - {texto: "Olvidar el =", detalle: "La fórmula queda como texto"}
+          - {texto: "Montos escritos con símbolos", detalle: "Pueden quedar como texto y no sumarse"}
+          - {texto: "El total dentro del rango", detalle: "Genera una referencia circular"}
+  - narracion: "Práctica."
+    capitulo: "Práctica"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "*Práctica*", sub: "Archivo de práctica en la descripción"}
+  - narracion: "Tu turno. Descarga el archivo de práctica de la descripción y abre la hoja Práctica. Primero, revisa que los montos estén alineados a la derecha. Después, escribe en [[ce nueve|C9]] una fórmula que sume de [[ce dos|C2]] a [[ce ocho|C8]]. Por último, cambia cualquier monto y comprueba que el total cambia. Pausa el video y resuélvelo; la solución viene a continuación."
+    visual:
+      plantilla: ejercicio
+      datos:
+        consigna: "Suma los gastos de la semana en *C9*"
+        hoja: "Práctica"
+        pasos:
+          - "Revisa la alineación de los montos"
+          - "Escribe la fórmula en C9"
+          - "Cambia un monto y mira el total"
+        pista: "Empieza con = y usa el rango C2:C8"
+        beat_pasos: 2
+        beat_pista: 4
+  - narracion: "La solución. En [[ce nueve|C9]] va igual, [[suma|SUMA]], paréntesis, [[ce dos|C2]], dos puntos, [[ce ocho|C8]], y se cierra el paréntesis. El total es 61 000. Si te dio otro número, revisa que ningún monto haya quedado como texto: lo vas a notar porque estaría alineado a la izquierda. En el archivo también tienes la hoja Solución."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Solución del ejercicio"
+        lineas:
+          - {izq: "Fórmula en C9", der: "=SUMA(C2:C8)", beat: 1}
+          - {izq: "¿Te dio otro número?", der: "Revisa", nota: "Un monto alineado a la izquierda es texto", beat: 3}
+        resultado: {izq: "Total de la semana", der: "61 000", beat: 2}
+  - narracion: "Repasemos. Cada celda tiene una dirección, letra y número. Escribe solo los números y deja que el formato haga el resto. Y la función [[suma|SUMA]] con un rango te da un total que se actualiza solo. En la próxima lección vamos con [[promedio|PROMEDIO]], [[máx|MAX]] y [[mín|MIN]], y con el famoso signo de dólar para fijar celdas. Descarga el archivo, resuelve el ejercicio y nos vemos en la lección 2."
+    visual:
+      plantilla: curso_cierre
+      datos:
+        titulo: "Lo que aprendiste hoy"
+        puntos: ["Dirección = letra + número", "Escribe solo el número; el formato hace el resto", "=SUMA(rango) se actualiza sola"]
+        cta: "Suscríbete para la lección 2"
+        beat_siguiente: 4
+        beat_cta: 5
+fuentes:
+  - url: "https://support.microsoft.com/es-ES/Excel/excel-specifications-and-limits"
+    titulo: "Especificaciones y límites de Excel (Microsoft Support)"
+    fecha_consulta: 2026-10-15
+    respalda: "Tamaño total de la hoja de cálculo: 1 048 576 filas por 16 384 columnas."
+    cifras: ["1048576", "16384"]
+  - url: "https://support.microsoft.com/es-es/Excel/functions/sum-function"
+    titulo: "Función SUMA (Microsoft Support)"
+    fecha_consulta: 2026-10-15
+    respalda: "SUMA suma valores individuales, referencias de celda, rangos o una combinación; los valores de texto en un rango se ignoran."
+  - url: "https://support.microsoft.com/en-us/office/fd4e875a-0709-425d-ba2c-72f0833318f7"
+    titulo: "AutoSum / Autosuma (Microsoft Support, en inglés)"
+    fecha_consulta: 2026-10-15
+    respalda: "Autosuma inserta la función SUMA con el rango detectado; el atajo de teclado en Windows es Alt + =."
+  - calculo: "24 * 26 ** 2 + 6 * 26 + 4"
+    resultado: 16384
+    respalda: "XFD es la columna número 16 384: X=24, F=6 y D=4 en base 26."
+  - calculo: "18400 + 6200 + 4750 + 9300 + 12000 + 2850 + 7500"
+    resultado: 61000
+    respalda: "Total de la semana de ejemplo (C2:C8)."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — límites de la hoja, SUMA y Autosuma documentados por Microsoft; total verificado con cálculo y recalculando el archivo de práctica"
+  monetizacion: "bajo — contenido educativo general sin recomendaciones financieras"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+  - {nombre: "Archivo de práctica Leccion01_practica.xlsx generado por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: ["Autosuma", "XFD", "SU"]

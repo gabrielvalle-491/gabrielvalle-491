@@ -1,0 +1,84 @@
+{
+  "id": "A-086",
+  "duracion_s": 37.738,
+  "frases": 11,
+  "subtitulos": 32,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.293,
+      "beats": [
+        -5.0,
+        3.149
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.293,
+      "fin": 17.215,
+      "beats": [
+        0.0,
+        3.505,
+        6.883
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 17.215,
+      "fin": 26.663,
+      "beats": [
+        0.0,
+        3.154,
+        6.829
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 26.663,
+      "fin": 30.811,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 30.811,
+      "fin": 37.738,
+      "beats": [
+        0.0,
+        4.035
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.20",
+    "input_tp": "-7.06",
+    "input_lra": "1.50",
+    "input_thresh": "-31.49",
+    "output_i": "-14.12",
+    "output_tp": "-1.50",
+    "output_lra": "1.50",
+    "output_thresh": "-24.34",
+    "normalization_type": "dynamic",
+    "target_offset": "0.12"
+  },
+  "fotogramas_unicos": 358,
+  "tts_cache": 0,
+  "spec_hash": "08fa14536196f221",
+  "segundos_produccion": 125.7,
+  "texto_hablado": [
+    "Error común: enviar el texto de la i a sin revisarlo.",
+    "Un dato mal puesto o un tono equivocado se notan.",
+    "Primera pasada: los datos, comparados con el original.",
+    "Segunda: el tono, que suene a ti y encaje con quien lo lee.",
+    "Tercera: la llamada a la acción, que quede claro qué hacer y para cuándo.",
+    "Revisa que los nombres y cargos estén bien escritos.",
+    "Revisa que fechas, horas y montos coincidan con el original.",
+    "Y que los enlaces y adjuntos existan.",
+    "Para la primera pasada, pídele a la i a una lista de lo que debes comprobar.",
+    "La i a puede equivocarse en datos y referencias, y sonar muy segura.",
+    "Tú firmas el mensaje: revísalo."
+  ]
+}

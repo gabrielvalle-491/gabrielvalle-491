@@ -1,0 +1,32 @@
+CURSO «IA PARA TU TRABAJO» · LECCIÓN 4 · ARCHIVO DE PRÁCTICA (Atajo IA)
+Copia cada prompt en tu asistente de IA (ChatGPT, Gemini, Claude o Copilot; la versión gratuita alcanza).
+Reemplaza lo que está entre [CORCHETES]. En esta práctica usa SOLO el texto ficticio de abajo o textos inventados por ti. No pegues datos personales ni de clientes.
+
+REGLA DE ORO
+Antes de pegar algo, pregúntate: ¿lo compartiría con un desconocido? Si la respuesta es no, no va al chat.
+
+TEXTO FICTICIO PARA PRACTICAR (inventado; no corresponde a ninguna persona ni negocio reales)
+«Hola, soy Marta Ruiz (teléfono 555 0100). Compré una olla en Ferretería Sol y el pedido llegó con la tapa rota. Vivo en Calle Falsa 123, Villa Ejemplo. Quiero que me cambien la olla o me devuelvan el dinero. Mi correo es marta.ruiz@ejemplo.com.»
+
+EJERCICIO 1 · Anonimiza tú, antes de pegar (hazlo en un bloc de notas, no en el chat)
+Reemplaza: nombre y apellido → [CLIENTE]; teléfono → [TELÉFONO]; negocio → [TIENDA]; dirección y ciudad → [DIRECCIÓN]; correo → [CORREO]. Relee el resultado: ¿queda algo que identifique a alguien?
+
+EJERCICIO 2 · Pide la tarea con el texto ya anonimizado
+Redacta una respuesta amable a este mensaje de un cliente. Los datos personales fueron reemplazados por etiquetas como [CLIENTE] y [TIENDA]; conserva esas etiquetas. Ofrece dos soluciones posibles y pide que el cliente confirme cuál prefiere. Mensaje: «[PEGA AQUÍ EL TEXTO YA ANONIMIZADO]»
+
+EJERCICIO 3 · Repón los datos tú mismo (fuera del chat)
+Copia la respuesta a tu bloc de notas y cambia las etiquetas por los datos del texto original. Los datos reales nunca vuelven al chat.
+
+EJERCICIO 4 · Una pregunta general, sin datos tuyos
+Explícame, en términos generales, qué tipos de información no conviene escribir en un chat de IA y por qué. Dame criterios generales; no necesito que conozcas mi caso.
+
+EJERCICIO 5 · Revisa tu configuración (sin prompt)
+Abre la configuración de tu asistente y busca la sección de privacidad o de controles de datos. Anota: (1) si se guarda el historial, (2) si tus chats se usan para mejorar el modelo, (3) si hay chats temporales o de incógnito, (4) cómo se borran las conversaciones, (5) si tu cuenta es personal o de trabajo. Las opciones cambian según el producto y el plan.
+
+LISTA DE CONTROL
+[ ] Reemplacé nombre, teléfono, dirección, correo y negocio por etiquetas.
+[ ] Releí el texto y no quedó ningún detalle que identifique a alguien.
+[ ] Repuse los datos reales fuera del chat.
+[ ] Encontré dónde se decide si mis chats se usan para mejorar el modelo.
+[ ] Anoté qué opciones tengo hoy y en qué fecha las revisé.
+[ ] No pegué datos reales de nadie.

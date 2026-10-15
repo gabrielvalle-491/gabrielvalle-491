@@ -1,0 +1,75 @@
+{
+  "id": "A-058",
+  "duracion_s": 33.577,
+  "frases": 10,
+  "subtitulos": 28,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.464,
+      "beats": [
+        -5.0,
+        2.653
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.464,
+      "fin": 13.901,
+      "beats": [
+        0.0,
+        3.435,
+        6.392
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 13.901,
+      "fin": 26.219,
+      "beats": [
+        0.0,
+        7.954
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 26.219,
+      "fin": 33.577,
+      "beats": [
+        0.0,
+        1.697,
+        4.527
+      ],
+      "plantilla": "lista"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.10",
+    "input_tp": "-6.67",
+    "input_lra": "1.80",
+    "input_thresh": "-31.40",
+    "output_i": "-14.05",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.26",
+    "normalization_type": "dynamic",
+    "target_offset": "0.05"
+  },
+  "fotogramas_unicos": 241,
+  "tts_cache": 10,
+  "spec_hash": "ff4dc18686bd9714",
+  "segundos_produccion": 107.6,
+  "texto_hablado": [
+    "La misma i a puede ser creativa o exacta.",
+    "Depende de lo que le pidas.",
+    "Para ideas, pide variedad, como diez nombres muy distintos.",
+    "Para cifras o fechas, pide precisión y verifica.",
+    "Misma i a, tarea distinta, instrucción distinta.",
+    "En la a pe i existe un ajuste llamado temperatura: según Anthropic, cerca de cero para tareas analíticas y cerca de uno para creativas.",
+    "En los chats casi nunca se ve, y algunos modelos nuevos ya no lo permiten.",
+    "En el chat, usa palabras.",
+    "Para creatividad: dame opciones muy distintas.",
+    "Para precisión: si no sabes, dilo."
+  ]
+}

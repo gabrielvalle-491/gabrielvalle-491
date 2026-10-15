@@ -1,0 +1,88 @@
+{
+  "id": "B-082",
+  "duracion_s": 34.219,
+  "frases": 12,
+  "subtitulos": 26,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.783,
+      "beats": [
+        -5.0,
+        3.12
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.783,
+      "fin": 16.71,
+      "beats": [
+        0.0,
+        3.309,
+        5.988
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 16.71,
+      "fin": 26.114,
+      "beats": [
+        0.0,
+        1.385,
+        2.618,
+        4.454,
+        5.809
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 26.114,
+      "fin": 30.712,
+      "beats": [
+        0.0,
+        1.807
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 30.712,
+      "fin": 34.219,
+      "beats": [
+        0.0,
+        1.107
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.00",
+    "input_tp": "-6.61",
+    "input_lra": "3.00",
+    "input_thresh": "-32.22",
+    "output_i": "-14.30",
+    "output_tp": "-1.50",
+    "output_lra": "2.20",
+    "output_thresh": "-24.46",
+    "normalization_type": "dynamic",
+    "target_offset": "0.30"
+  },
+  "fotogramas_unicos": 299,
+  "tts_cache": 12,
+  "spec_hash": "8e6cdfee57237a8f",
+  "segundos_produccion": 91.9,
+  "texto_hablado": [
+    "Una venta de tres mil doscientos cae entre dos tramos.",
+    "¿Qué comisión le toca?",
+    "Arma una tabla con el inicio de cada tramo y su tasa.",
+    "buscar equis busca la venta en esa columna.",
+    "Para tres mil doscientos devuelve el tramo de mil, con tres por ciento, y la comisión es noventa y seis.",
+    "Esta es la fórmula.",
+    "Busca la venta.",
+    "Dentro de los inicios de tramo.",
+    "Devuelve la tasa.",
+    "Y el menos uno pide el valor exacto o el menor más cercano.",
+    "Ojo: esta tasa se aplica a toda la venta, no solo al excedente de cada tramo.",
+    "Cambia la venta y la comisión se ajusta sola."
+  ]
+}

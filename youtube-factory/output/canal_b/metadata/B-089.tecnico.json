@@ -1,0 +1,82 @@
+{
+  "id": "B-089",
+  "duracion_s": 30.879,
+  "frases": 9,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.058,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.058,
+      "fin": 14.202,
+      "beats": [
+        0.0,
+        4.32,
+        7.82
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 14.202,
+      "fin": 19.01,
+      "beats": [
+        0.0,
+        2.736,
+        3.515
+      ],
+      "plantilla": "barras"
+    },
+    {
+      "inicio": 19.01,
+      "fin": 26.104,
+      "beats": [
+        0.0,
+        3.655
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 26.104,
+      "fin": 30.879,
+      "beats": [
+        0.0,
+        1.614
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.04",
+    "input_tp": "-5.85",
+    "input_lra": "1.70",
+    "input_thresh": "-32.33",
+    "output_i": "-14.25",
+    "output_tp": "-1.50",
+    "output_lra": "1.40",
+    "output_thresh": "-24.45",
+    "normalization_type": "dynamic",
+    "target_offset": "0.25"
+  },
+  "fotogramas_unicos": 287,
+  "tts_cache": 0,
+  "spec_hash": "d83dda74a7542f99",
+  "segundos_produccion": 134.5,
+  "texto_hablado": [
+    "Tus ventas diarias, convertidas en totales por mes en segundos.",
+    "Primero, crea la tabla dinámica con la fecha en Filas y la venta en Valores.",
+    "Segundo, haz clic derecho sobre una fecha y elige Agrupar.",
+    "Tercero, marca Meses y acepta.",
+    "Y cada fila pasa de ser un día a ser un mes.",
+    "Aquí, enero, febrero y marzo.",
+    "Si tus datos abarcan más de un año, marca también Años.",
+    "Así no se mezclan los meses iguales de años distintos.",
+    "Si Agrupar no aparece, revisa que la columna tenga fechas reales."
+  ]
+}

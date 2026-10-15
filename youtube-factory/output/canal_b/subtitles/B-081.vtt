@@ -1,0 +1,43 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:02.486
+¿Cuánto gastaste en comida solo en enero?
+
+00:00:02.726 --> 00:00:04.385
+Dos condiciones, un total.
+
+00:00:04.665 --> 00:00:05.860
+Esta es la fórmula.
+
+00:00:06.020 --> 00:00:07.841
+Primero, el rango que se suma.
+
+00:00:08.001 --> 00:00:09.484
+Luego, el mes que buscas.
+
+00:00:09.644 --> 00:00:11.367
+Y por último, la categoría.
+
+00:00:11.647 --> 00:00:14.075
+Con gastos de varios meses y categorías, la
+
+00:00:14.075 --> 00:00:16.729
+función suma solo las filas que cumplen ambas.
+
+00:00:16.889 --> 00:00:17.887
+Aquí son dos.
+
+00:00:18.047 --> 00:00:19.416
+El total: 200.
+
+00:00:19.696 --> 00:00:22.093
+Ojo: todos los rangos deben medir lo mismo.
+
+00:00:22.253 --> 00:00:24.197
+Si no, aparece un error de valor.
+
+00:00:24.477 --> 00:00:27.520
+Cambia el mes o la categoría y el total se actualiza.
+
+00:00:27.680 --> 00:00:30.223
+Úsalo en tu control de gastos de cada mes.

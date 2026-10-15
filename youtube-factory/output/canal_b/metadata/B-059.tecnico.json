@@ -1,0 +1,76 @@
+{
+  "id": "B-059",
+  "duracion_s": 30.796,
+  "frases": 10,
+  "subtitulos": 21,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.691,
+      "beats": [
+        -5.0,
+        5.129
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.691,
+      "fin": 15.816,
+      "beats": [
+        0.0,
+        2.167,
+        5.471,
+        7.352
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 15.816,
+      "fin": 26.488,
+      "beats": [
+        0.0,
+        2.077,
+        5.081
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 26.488,
+      "fin": 30.796,
+      "beats": [
+        0.0,
+        1.427
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.00",
+    "input_tp": "-6.61",
+    "input_lra": "1.90",
+    "input_thresh": "-32.24",
+    "output_i": "-14.26",
+    "output_tp": "-1.50",
+    "output_lra": "1.50",
+    "output_thresh": "-24.41",
+    "normalization_type": "dynamic",
+    "target_offset": "0.26"
+  },
+  "fotogramas_unicos": 224,
+  "tts_cache": 0,
+  "spec_hash": "065d5cf9b886074b",
+  "segundos_produccion": 74.3,
+  "texto_hablado": [
+    "Préstamo de cinco mil dólares, tasa anual de doce por ciento y cuota de trescientos dólares.",
+    "¿Cuántas cuotas son?",
+    "En ene per, la tasa va por período.",
+    "Si la cuota es mensual, divide la tasa anual entre doce.",
+    "Luego, el pago en negativo.",
+    "Y al final, el préstamo.",
+    "Tasa anual de doce por ciento.",
+    "Dividida entre doce, queda uno por ciento mensual.",
+    "ene per devuelve dieciocho coma tres meses: son diecinueve cuotas, con la última más pequeña.",
+    "Si la cuota no cubre ni el interés mensual, ene per da error."
+  ]
+}

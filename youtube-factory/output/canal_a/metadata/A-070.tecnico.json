@@ -1,0 +1,82 @@
+{
+  "id": "A-070",
+  "duracion_s": 31.153,
+  "frases": 10,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.492,
+      "beats": [
+        -5.0,
+        3.644
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.492,
+      "fin": 11.816,
+      "beats": [
+        0.0,
+        2.497
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 11.816,
+      "fin": 20.183,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 20.183,
+      "fin": 27.47,
+      "beats": [
+        0.0,
+        2.111,
+        5.215
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 27.47,
+      "fin": 31.153,
+      "beats": [
+        0.0,
+        1.177
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.20",
+    "input_tp": "-5.43",
+    "input_lra": "2.10",
+    "input_thresh": "-31.49",
+    "output_i": "-14.21",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.42",
+    "normalization_type": "dynamic",
+    "target_offset": "0.21"
+  },
+  "fotogramas_unicos": 325,
+  "tts_cache": 10,
+  "spec_hash": "1e75b5def2076492",
+  "segundos_produccion": 124.1,
+  "texto_hablado": [
+    "Un mensaje largo, tareas sueltas y nadie sabe quién hace qué.",
+    "Conviértelo en una tabla.",
+    "Parte de un texto así: Ana envía la cotización, Luis revisa el contrato, falta quién actualice la lista.",
+    "En el prompt, fija las cuatro columnas y el formato de fecha.",
+    "Limita el estado a tres valores.",
+    "Y que escriba POR DEFINIR lo que falte.",
+    "Así queda, con datos ficticios.",
+    "Una fila por tarea, y los estados se pueden filtrar.",
+    "Lo que falta aparece marcado.",
+    "Revisa cada fila contra el mensaje original."
+  ]
+}

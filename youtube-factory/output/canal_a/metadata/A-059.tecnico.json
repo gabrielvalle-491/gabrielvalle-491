@@ -1,0 +1,76 @@
+{
+  "id": "A-059",
+  "duracion_s": 35.857,
+  "frases": 10,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.496,
+      "beats": [
+        -5.0,
+        2.33
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.496,
+      "fin": 13.264,
+      "beats": [
+        0.0,
+        3.759,
+        6.263
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 13.264,
+      "fin": 27.25,
+      "beats": [
+        0.0,
+        3.239,
+        9.964,
+        11.523
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 27.25,
+      "fin": 35.857,
+      "beats": [
+        0.0,
+        3.453
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.28",
+    "input_tp": "-7.08",
+    "input_lra": "1.50",
+    "input_thresh": "-31.50",
+    "output_i": "-14.35",
+    "output_tp": "-1.50",
+    "output_lra": "1.00",
+    "output_thresh": "-24.51",
+    "normalization_type": "dynamic",
+    "target_offset": "0.35"
+  },
+  "fotogramas_unicos": 244,
+  "tts_cache": 10,
+  "spec_hash": "a3a6a898a0d74e49",
+  "segundos_produccion": 112.5,
+  "texto_hablado": [
+    "La i a pasó tus facturas a una tabla.",
+    "¿Cómo sabes que no se equivocó?",
+    "Pide una tabla con columnas fijas: factura, proveedor y monto.",
+    "Luego suma la columna de montos con SUMA.",
+    "Te da tres mil cuatrocientos sesenta.",
+    "Ahora compara con el total que figura en tus documentos.",
+    "mil doscientos cincuenta más cuatrocientos ochenta más mil setecientos treinta da tres mil cuatrocientos sesenta.",
+    "Si el total fuera tres mil seiscientos cuarenta, hay un error de lectura.",
+    "Si no coincide, revisa fila por fila contra el original.",
+    "Y aunque coincida, revisa una muestra, porque dos errores pueden compensarse."
+  ]
+}

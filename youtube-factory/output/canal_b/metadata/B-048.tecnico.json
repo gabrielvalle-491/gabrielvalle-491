@@ -1,0 +1,86 @@
+{
+  "id": "B-048",
+  "duracion_s": 34.356,
+  "frases": 11,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 2.795,
+      "beats": [
+        -5.0,
+        1.11
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 2.795,
+      "fin": 10.912,
+      "beats": [
+        0.0,
+        2.465,
+        5.222
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 10.912,
+      "fin": 19.272,
+      "beats": [
+        0.0,
+        3.134,
+        5.442
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 19.272,
+      "fin": 29.428,
+      "beats": [
+        0.0,
+        2.929,
+        7.698
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 29.428,
+      "fin": 34.356,
+      "beats": [
+        0.0,
+        1.675
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.92",
+    "input_tp": "-5.60",
+    "input_lra": "2.20",
+    "input_thresh": "-32.14",
+    "output_i": "-14.14",
+    "output_tp": "-1.50",
+    "output_lra": "1.80",
+    "output_thresh": "-24.28",
+    "normalization_type": "dynamic",
+    "target_offset": "0.14"
+  },
+  "fotogramas_unicos": 280,
+  "tts_cache": 11,
+  "spec_hash": "5776d3981f2ff954",
+  "segundos_produccion": 100.5,
+  "texto_hablado": [
+    "Filtra tu tabla con botones, sin abrir menús.",
+    "Haz clic en cualquier parte de tu tabla.",
+    "En la pestaña Insertar, elige Segmentación.",
+    "Marca los campos que quieres y pulsa Aceptar.",
+    "Cada campo marcado crea su propia segmentación.",
+    "Un clic en un botón filtra la tabla.",
+    "Y con control puedes elegir varios elementos.",
+    "En éxcel, sirve para tablas y tablas dinámicas.",
+    "En gúgol shits se llama control de filtros y filtra gráficos y tablas dinámicas.",
+    "Mismo objetivo: filtrar con un clic.",
+    "Prueba con un campo como Región o Mes y mira cómo cambia tu reporte."
+  ]
+}

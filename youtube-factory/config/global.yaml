@@ -45,3 +45,4 @@ publicacion:
   auto_publicar: false       # por defecto NO se publica nada sin tu revisión
   privacidad_inicial: private
   limite_diario_subidas: 5   # margen dentro de la cuota diaria de la API
+  gestionar_listas: false    # true = agrega cada lección a la lista del curso (pide un permiso más amplio)

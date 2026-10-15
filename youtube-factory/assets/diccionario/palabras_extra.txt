@@ -145,3 +145,9 @@ anonimizar
 anonimiza
 priorizar
 prioriza
+monto
+montos
+recalcula
+recalcular
+suscríbete
+resuélvelo

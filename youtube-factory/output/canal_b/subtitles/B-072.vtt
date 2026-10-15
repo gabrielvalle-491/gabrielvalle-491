@@ -1,0 +1,40 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:02.885
+Un promedio en Excel dejó fuera a cinco países.
+
+00:00:03.045 --> 00:00:06.115
+Y la cifra se citó en debates de política económica.
+
+00:00:06.395 --> 00:00:09.526
+En 2013, un estudiante de posgrado intentó repetir un
+
+00:00:09.526 --> 00:00:12.835
+estudio de Reinhart y Rogoff sobre deuda y crecimiento.
+
+00:00:12.995 --> 00:00:16.887
+El estudio publicaba un crecimiento de menos 0,1 %
+
+00:00:16.887 --> 00:00:20.002
+en países con deuda sobre 90 % del PIB.
+
+00:00:20.162 --> 00:00:24.381
+El reanálisis, que corrigió varios problemas, obtuvo 2,2 %.
+
+00:00:24.661 --> 00:00:27.402
+Así se ve un error de rango, con datos inventados.
+
+00:00:27.562 --> 00:00:29.657
+El promedio llega hasta la fila C.
+
+00:00:29.817 --> 00:00:32.686
+Falta la D, y el resultado es 2 en vez de 4.
+
+00:00:32.966 --> 00:00:35.500
+Los autores reconocieron el error de promedio,
+
+00:00:35.500 --> 00:00:37.704
+pero defendieron el resto de su método.
+
+00:00:37.864 --> 00:00:42.256
+La lección para tu planilla: comprueba que cada rango cubra todos los datos.

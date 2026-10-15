@@ -1,0 +1,76 @@
+{
+  "id": "B-055",
+  "duracion_s": 29.421,
+  "frases": 11,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.018,
+      "beats": [
+        -5.0,
+        3.43
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.018,
+      "fin": 16.709,
+      "beats": [
+        0.0,
+        4.715,
+        7.769
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 16.709,
+      "fin": 25.985,
+      "beats": [
+        0.0,
+        1.313,
+        3.298
+      ],
+      "plantilla": "barras"
+    },
+    {
+      "inicio": 25.985,
+      "fin": 29.421,
+      "beats": [
+        0.0,
+        1.078
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.76",
+    "input_tp": "-5.13",
+    "input_lra": "2.40",
+    "input_thresh": "-31.99",
+    "output_i": "-14.19",
+    "output_tp": "-1.50",
+    "output_lra": "1.80",
+    "output_thresh": "-24.34",
+    "normalization_type": "dynamic",
+    "target_offset": "0.19"
+  },
+  "fotogramas_unicos": 280,
+  "tts_cache": 11,
+  "spec_hash": "64366324d3d75954",
+  "segundos_produccion": 84.0,
+  "texto_hablado": [
+    "En tu cuota fija, ¿cuánto es interés y cuánto es capital?",
+    "Una tabla lo muestra.",
+    "Préstamo de mil a cinco cuotas, con interés ilustrativo de uno por ciento mensual.",
+    "La función PAGOINT devuelve el interés de cada mes.",
+    "En el mes uno, diez.",
+    "Y la columna de capital usa PAGOPRIN.",
+    "Mira cómo cambia.",
+    "En el mes uno, diez de interés.",
+    "En el mes cinco, solo dos coma cero cuatro.",
+    "La cuota es la misma, pero cada vez va más a capital.",
+    "Con tu tasa y tu plazo, arma tu tabla."
+  ]
+}

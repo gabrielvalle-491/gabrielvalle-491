@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:03,456
+Tus archivos no se ordenan por fecha por cómo los nombras.
+
+2
+00:00:03,736 --> 00:00:07,531
+Si empiezas por el día, la lista se ordena por día y no por fecha.
+
+3
+00:00:07,691 --> 00:00:10,436
+Con año, mes y día, queda en orden cronológico.
+
+4
+00:00:10,716 --> 00:00:11,571
+Tres reglas.
+
+5
+00:00:11,731 --> 00:00:14,497
+Primero, la fecha: AAAA-MM-DD, con ceros.
+
+6
+00:00:14,657 --> 00:00:16,422
+Después, una descripción corta.
+
+7
+00:00:16,582 --> 00:00:19,726
+Al final, la versión con dos dígitos, como v02.
+
+8
+00:00:20,006 --> 00:00:23,669
+Con dos dígitos, la versión diez queda después de la dos y no antes.
+
+9
+00:00:23,949 --> 00:00:26,943
+Así tus archivos se ordenan solos, sin tocar nada.
+
+10
+00:00:27,103 --> 00:00:29,115
+Pruébalo hoy con una sola carpeta.

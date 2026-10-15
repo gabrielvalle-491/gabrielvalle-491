@@ -1,0 +1,72 @@
+{
+  "id": "B-063",
+  "duracion_s": 20.924,
+  "frases": 8,
+  "subtitulos": 16,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.414,
+      "beats": [
+        -5.0,
+        1.358
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.414,
+      "fin": 9.055,
+      "beats": [
+        0.0,
+        3.572
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 9.055,
+      "fin": 14.536,
+      "beats": [
+        0.0,
+        2.434,
+        3.987
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 14.536,
+      "fin": 20.924,
+      "beats": [
+        0.0,
+        3.159
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.64",
+    "input_tp": "-7.18",
+    "input_lra": "2.00",
+    "input_thresh": "-32.01",
+    "output_i": "-14.01",
+    "output_tp": "-1.50",
+    "output_lra": "1.40",
+    "output_thresh": "-24.29",
+    "normalization_type": "dynamic",
+    "target_offset": "0.01"
+  },
+  "fotogramas_unicos": 184,
+  "tts_cache": 8,
+  "spec_hash": "d044c9bc1ce71660",
+  "segundos_produccion": 55.9,
+  "texto_hablado": [
+    "Dibuja barras dentro de tus celdas sin crear un gráfico.",
+    "Parte de una columna de números, por ejemplo ventas por producto.",
+    "Selecciona solo esos valores.",
+    "En Inicio, abre Formato condicional.",
+    "Elige Barras de datos.",
+    "Y escoge un estilo.",
+    "El largo de cada barra compara los valores del rango.",
+    "Con una sola celda, la barra llena todo."
+  ]
+}

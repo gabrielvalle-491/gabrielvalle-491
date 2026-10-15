@@ -1,0 +1,43 @@
+1
+00:00:00,120 --> 00:00:03,151
+¿Puedes seguir editando tu planilla si se cae el internet?
+
+2
+00:00:03,511 --> 00:00:05,785
+Google Sheets: debes activar el acceso sin
+
+3
+00:00:05,785 --> 00:00:08,274
+conexión estando en línea, con Chrome o Edge.
+
+4
+00:00:08,434 --> 00:00:12,283
+Excel de escritorio: trabaja con archivos guardados en tu equipo,
+
+5
+00:00:12,283 --> 00:00:15,598
+y los de OneDrive se sincronizan al volver la conexión.
+
+6
+00:00:15,758 --> 00:00:19,127
+En los dos casos, conviene preparar el archivo con conexión.
+
+7
+00:00:19,407 --> 00:00:22,974
+Antes de salir, abre el archivo con conexión al menos una vez.
+
+8
+00:00:23,134 --> 00:00:26,598
+En Sheets, márcalo como disponible sin conexión desde Drive.
+
+9
+00:00:26,758 --> 00:00:30,651
+Al volver la conexión, revisa que tus cambios se hayan sincronizado.
+
+10
+00:00:30,931 --> 00:00:34,400
+Y recuerda: tus cambios se combinan cuando vuelve la conexión.
+
+11
+00:00:34,560 --> 00:00:35,517
+Prepárate hoy.

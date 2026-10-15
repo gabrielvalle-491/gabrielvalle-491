@@ -1,0 +1,367 @@
+id: B-L03
+canal: canal_b
+curso: excel-desde-cero
+fecha: 2026-11-12
+formato: largo
+serie: "Curso: Excel desde cero"
+episodio: "Lección 3"
+pilar: formulas
+tipo_editorial: tutorial
+idea: "Tercera lección del curso: hacer que la planilla decida con SI, contar y sumar por categoría con CONTAR.SI y SUMAR.SI, y combinar condiciones con Y y O, usando una tabla de pedidos de ejemplo."
+objetivo: "Que la persona escriba una condición con SI, arme un resumen por zona con CONTAR.SI y SUMAR.SI (con rangos fijos) y sepa cuándo usar Y y cuándo O."
+publico: "Principiantes que ya usan SUMA, PROMEDIO y el signo $ y quieren que la planilla clasifique, cuente y sume por categoría."
+hipotesis: "Tercera lección del curso: medir la retención en el capítulo de CONTAR.SI y SUMAR.SI (el salto de dificultad) y el paso de la lección 2 a la 3 desde la pantalla final."
+gancho: "Al terminar esta lección vas a lograr que la planilla decida, cuente y totalice por ti."
+duracion_objetivo: "5-10 min (≈1 000-1 400 palabras)"
+titulo: "Excel desde cero · Lección 3: SI, CONTAR.SI, SUMAR.SI, Y y O"
+titulos_alternativos:
+  - "Función SI en Excel desde cero: condiciones, Y y O con ejemplos (Lección 3)"
+  - "CONTAR.SI y SUMAR.SI explicadas con una tabla de pedidos"
+  - "Cómo hacer que Excel decida: SI, Y, O y resúmenes por categoría"
+criterio_titulo: "Nombra el curso y la lección (serie) más las funciones que busca el principiante: SI, CONTAR.SI, SUMAR.SI, Y, O."
+descripcion: |
+  Tercera lección del curso gratuito de Excel y Google Sheets desde cero. Aprendes a escribir condiciones con SI, a contar y sumar por categoría con CONTAR.SI y SUMAR.SI, y a combinar condiciones con Y y O.
+  Al final hay un ejercicio con archivo de práctica (incluye la solución en otra hoja). Los pedidos, zonas y montos del ejemplo son ficticios.
+cta: "Descarga el archivo de práctica, resuelve el ejercicio y nos vemos en la lección 4."
+comentario_fijado: "Lección 3 del curso Excel desde cero. ¿Pudiste hacer el ejercicio? Cuéntame en qué paso te trabaste y lo resolvemos. Recuerda: en México y EE. UU. Excel suele usar coma (,) en lugar de punto y coma (;) entre argumentos. Desafío extra: en la fórmula de la columna D cambia O por Y y compara qué pedidos quedan con envío gratis."
+hashtags: ["#Excel", "#CursoDeExcel", "#GoogleSheets"]
+palabras_clave: ["función SI excel", "CONTAR.SI y SUMAR.SI", "función Y y O excel", "curso de excel desde cero", "condiciones en excel"]
+materiales:
+  - archivo: "Leccion03_practica.xlsx"
+    tipo: xlsx
+    titulo: "Celda Clara · Excel desde cero · Lección 3"
+    hojas:
+      - nombre: "Práctica"
+        anchos: [12, 12, 12, 14, 4, 12, 12, 14]
+        formatos: {C: "#,##0", H: "#,##0"}
+        filas:
+          - ["Pedido", "Zona", "Monto", "Envío", "", "Zona", "Pedidos", "Total"]
+          - ["P-101", "Norte", 12500, "", "", "Norte", "", ""]
+          - ["P-102", "Sur", 8200, "", "", "Sur", "", ""]
+          - ["P-103", "Norte", 15400, "", "", "Centro", "", ""]
+          - ["P-104", "Centro", 6900, "", "", "Total", "", ""]
+          - ["P-105", "Sur", 21000, "", "", "", "", ""]
+          - ["P-106", "Norte", 9800, "", "", "", "", ""]
+          - ["P-107", "Centro", 14300, "", "", "", "", ""]
+          - ["P-108", "Sur", 5600, "", "", "", "", ""]
+      - nombre: "Solución"
+        anchos: [12, 12, 12, 14, 4, 12, 12, 14]
+        formatos: {C: "#,##0", H: "#,##0"}
+        filas:
+          - ["Pedido", "Zona", "Monto", "Envío", "", "Zona", "Pedidos", "Total"]
+          - ["P-101", "Norte", 12500, '=SI(O(C2>=10000;B2="Centro");"Gratis";"Con costo")', "", "Norte", "=CONTAR.SI($B$2:$B$9;F2)", "=SUMAR.SI($B$2:$B$9;F2;$C$2:$C$9)"]
+          - ["P-102", "Sur", 8200, '=SI(O(C3>=10000;B3="Centro");"Gratis";"Con costo")', "", "Sur", "=CONTAR.SI($B$2:$B$9;F3)", "=SUMAR.SI($B$2:$B$9;F3;$C$2:$C$9)"]
+          - ["P-103", "Norte", 15400, '=SI(O(C4>=10000;B4="Centro");"Gratis";"Con costo")', "", "Centro", "=CONTAR.SI($B$2:$B$9;F4)", "=SUMAR.SI($B$2:$B$9;F4;$C$2:$C$9)"]
+          - ["P-104", "Centro", 6900, '=SI(O(C5>=10000;B5="Centro");"Gratis";"Con costo")', "", "Total", "=SUMA(G2:G4)", "=SUMA(H2:H4)"]
+          - ["P-105", "Sur", 21000, '=SI(O(C6>=10000;B6="Centro");"Gratis";"Con costo")', "", "", "", ""]
+          - ["P-106", "Norte", 9800, '=SI(O(C7>=10000;B7="Centro");"Gratis";"Con costo")', "", "", "", ""]
+          - ["P-107", "Centro", 14300, '=SI(O(C8>=10000;B8="Centro");"Gratis";"Con costo")', "", "", "", ""]
+          - ["P-108", "Sur", 5600, '=SI(O(C9>=10000;B9="Centro");"Gratis";"Con costo")', "", "", "", ""]
+        verificar: {D2: "Gratis", D3: "Con costo", D4: "Gratis", D5: "Gratis", D6: "Gratis", D7: "Con costo", D8: "Gratis", D9: "Con costo", G2: 3, G3: 3, G4: 2, G5: 8, H2: 37700, H3: 34800, H4: 21200, H5: 93700}
+escenas:
+  - narracion: "Al terminar esta lección vas a lograr que la planilla decida, cuente y totalice por ti. Esta es la tercera lección de *Excel desde cero*. Hoy aprendes a escribir condiciones con [[si|SI]]; a contar y sumar por categoría con CONTAR.SI y SUMAR.SI; y a combinar condiciones con [[y|Y]] y [[o|O]]."
+    visual:
+      plantilla: curso_portada
+      datos: {beat_objetivos: 2}
+  - narracion: "Primero, los datos. Ya sabes sacar promedios y fijar referencias con el signo de dólar, y hoy lo vas a necesitar. Trabajamos con pedidos de una tienda online: identificador, zona, importe y un espacio en blanco para decidir el envío. Todo es inventado."
+    visual:
+      plantilla: planilla
+      datos:
+        decimales: 0
+        anios_sin_separador: false
+        filas:
+          - ["Pedido", "Zona", "Monto", "Envío"]
+          - ["P-101", "Norte", 12500, ""]
+          - ["P-102", "Sur", 8200, ""]
+          - ["P-103", "Norte", 15400, ""]
+          - ["P-104", "Centro", 6900, ""]
+          - ["P-105", "Sur", 21000, ""]
+          - ["P-106", "Norte", 9800, ""]
+          - ["P-107", "Centro", 14300, ""]
+          - ["P-108", "Sur", 5600, ""]
+        resaltar:
+          - {rango: "D2:D9", beat: 2}
+        nota: "Pedidos de ejemplo, ficticios"
+        beat_nota: 3
+  - narracion: "Decidir con [[si|SI]]."
+    capitulo: "Decidir con SI"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "Decidir con *SI*"}
+  - narracion: "La función [[si|SI]] hace una pregunta, y responde una cosa si la respuesta es sí y otra si es no. Primero va la condición: que el monto sea mayor o igual que 10 000. Después, lo que devuelve si se cumple: la palabra Gratis, entre comillas. Y por último, lo que devuelve si no se cumple: Con costo. Fíjate en que el texto va entre comillas, pero las referencias y las cifras no."
+    visual:
+      plantilla: formula
+      datos:
+        titulo: "Envío gratis desde cierto monto"
+        formula: '=SI(C2>=10000;"Gratis";"Con costo")'
+        partes:
+          - {token: "C2>=10000", explica: "la *condición*: el monto llega a 10 000"}
+          - {token: '"Gratis"', explica: "si se cumple"}
+          - {token: '"Con costo"', explica: "si no se cumple"}
+        nota: "El texto va entre comillas; las celdas y los números, no"
+        beat_nota: 4
+  - narracion: "Para escribir condiciones usas operadores de comparación. El signo mayor que pregunta si un valor supera a otro. El signo menor que, si es inferior. Mayor o igual incluye también el caso en que son iguales. Y menor y mayor juntos significan distinto de."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Operadores de comparación"
+        beat_inicio: 1
+        items:
+          - {texto: ">  mayor que", detalle: "C2>10000"}
+          - {texto: "<  menor que", detalle: "C2<10000"}
+          - {texto: ">=  mayor o igual que", detalle: "C2>=10000"}
+          - {texto: "<>  distinto de", detalle: 'B2<>"Norte"'}
+  - narracion: "Esta expresión va en la primera fila de Envío, y se copia hasta el último pedido. Al ser relativa, cada fila evalúa su propio importe. El primer pedido supera el mínimo, así que dice Gratis; el segundo no llega, y dice Con costo."
+    visual:
+      plantilla: planilla
+      datos:
+        celda_formula: "D2"
+        formula: '=SI(C2>=10000;"Gratis";"Con costo")'
+        decimales: 0
+        anios_sin_separador: false
+        filas:
+          - ["Pedido", "Zona", "Monto", "Envío"]
+          - ["P-101", "Norte", 12500, "Gratis"]
+          - ["P-102", "Sur", 8200, "Con costo"]
+          - ["P-103", "Norte", 15400, "Gratis"]
+          - ["P-104", "Centro", 6900, "Con costo"]
+          - ["P-105", "Sur", 21000, "Gratis"]
+          - ["P-106", "Norte", 9800, "Con costo"]
+          - ["P-107", "Centro", 14300, "Gratis"]
+          - ["P-108", "Sur", 5600, "Con costo"]
+        resaltar:
+          - {rango: "C2:C9", beat: 1}
+        resultado: {celda: "D2", valor: "Gratis", beat: 2}
+  - narracion: "Contar y sumar por categoría."
+    capitulo: "Contar y sumar por categoría"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "Contar y sumar por *categoría*"}
+  - narracion: "Al lado de la tabla armamos un resumen con una fila por zona: ¿cuántos pedidos hay en cada una? Para eso sirve CONTAR.SI, que cuenta lo que cumple un criterio. Primero va el rango donde busca: las zonas, de [[be dos|B2]] a [[be nueve|B9]], con dólares para que no se mueva. Después, el criterio: [[efe dos|F2]], que contiene la palabra Norte."
+    visual:
+      plantilla: formula
+      datos:
+        titulo: "Contar pedidos por zona"
+        formula: "=CONTAR.SI($B$2:$B$9;F2)"
+        partes:
+          - {token: "$B$2:$B$9", explica: "*dónde* busca: la columna Zona (fijo)", beat: 2}
+          - {token: "F2", explica: "*qué* cuenta: la zona escrita en F2", beat: 3}
+  - narracion: "Así lo ve la planilla: recorre las zonas una por una. Encuentra tres que dicen Norte. Y devuelve 3 en [[ge dos|G2]], fuera de la tabla, a su derecha. Al copiar hacia abajo, el criterio pasa a Sur y a Centro, y el rango se queda quieto gracias a los dólares."
+    visual:
+      plantilla: planilla
+      datos:
+        celda_formula: "G2"
+        formula: "=CONTAR.SI($B$2:$B$9;F2)"
+        beat_formula: 0
+        decimales: 0
+        anios_sin_separador: false
+        filas:
+          - ["Pedido", "Zona", "Monto", "Envío"]
+          - ["P-101", "Norte", 12500, "Gratis"]
+          - ["P-102", "Sur", 8200, "Con costo"]
+          - ["P-103", "Norte", 15400, "Gratis"]
+          - ["P-104", "Centro", 6900, "Con costo"]
+          - ["P-105", "Sur", 21000, "Gratis"]
+          - ["P-106", "Norte", 9800, "Con costo"]
+          - ["P-107", "Centro", 14300, "Gratis"]
+          - ["P-108", "Sur", 5600, "Con costo"]
+        resaltar:
+          - {rango: "B2", beat: 1}
+          - {rango: "B4", beat: 1}
+          - {rango: "B7", beat: 1}
+        nota: "La fórmula está en G2, a la derecha de la tabla: da *3* pedidos del Norte"
+        beat_nota: 2
+  - narracion: "Para totalizar en vez de contar, está SUMAR.SI. Lleva tres partes. Primero, el rango donde mira el criterio: las zonas. Segundo, el criterio, otra vez [[efe dos|F2]]. Y tercero, el rango con los importes que se acumulan. Fíjate en el orden: primero dónde mirar, y al final qué acumular."
+    visual:
+      plantilla: formula
+      datos:
+        titulo: "Sumar montos por zona"
+        formula: "=SUMAR.SI($B$2:$B$9;F2;$C$2:$C$9)"
+        partes:
+          - {token: "$B$2:$B$9", explica: "*dónde* mira el criterio: la zona", beat: 2}
+          - {token: "F2", explica: "*qué* zona suma", beat: 3}
+          - {token: "$C$2:$C$9", explica: "*qué* suma: los montos", beat: 4}
+        nota: "El rango que se suma va *al final*"
+        beat_nota: 5
+  - narracion: "Copiando las dos fórmulas hacia abajo, el resumen queda completo. El Norte tiene 3 pedidos por 37 700. El Sur, 3 pedidos por 34 800. Y el Centro, 2 pedidos por 21 200. Un control útil: las tres zonas juntas deben dar el total de la columna de montos, que es 93 700."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Resumen por zona (datos de ejemplo)"
+        beat_inicio: 1
+        lineas:
+          - {izq: "Norte", der: "37 700", nota: "3 pedidos"}
+          - {izq: "Sur", der: "34 800", nota: "3 pedidos"}
+          - {izq: "Centro", der: "21 200", nota: "2 pedidos"}
+        resultado: {izq: "Total (debe coincidir con la columna C)", der: "93 700", beat: 4}
+  - narracion: "El criterio también puede ser una comparación. Por ejemplo, ¿cuántos pedidos llegan a 10 000, el mínimo de envío gratis? La planilla cuenta 4. Y con la misma idea, SUMAR.SI dice cuánto dinero representan esos pedidos: 63 200. Fíjate en que el operador y el número van juntos, entre comillas."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Criterios con comparación"
+        beat_inicio: 2
+        lineas:
+          - {izq: '=CONTAR.SI($C$2:$C$9;">=10000")', der: "4", nota: "Pedidos que llegan al mínimo"}
+          - {izq: '=SUMAR.SI($C$2:$C$9;">=10000")', der: "63 200", nota: "Lo que suman esos pedidos"}
+        resultado: {izq: "La comparación va *entre comillas*", der: '">=10000"', beat: 4}
+  - narracion: "Una forma de no confundirlas. [[si|SI]] decide fila por fila, y devuelve una palabra o un valor en cada fila. CONTAR.SI responde cuántos, y devuelve un solo número. SUMAR.SI responde cuánto, y también devuelve un solo número."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "¿Cuál uso?"
+        beat_inicio: 1
+        items:
+          - {texto: "SI · fila por fila", detalle: "Un resultado en cada fila"}
+          - {texto: "CONTAR.SI · ¿cuántos?", detalle: "Un solo número"}
+          - {texto: "SUMAR.SI · ¿cuánto?", detalle: "Un solo número"}
+  - narracion: "Combinar condiciones con Y y O."
+    capitulo: "Combinar condiciones con Y y O"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "Combinar condiciones con *Y* y *O*"}
+  - narracion: "A veces una sola condición no alcanza, y ahí entran [[y|Y]] y [[o|O]]. Con [[y|Y]], todas las condiciones tienen que cumplirse al mismo tiempo. Con [[o|O]], basta con que se cumpla una. Por eso [[y|Y]] es más estricta, y [[o|O]] más amplia."
+    visual:
+      plantilla: versus
+      datos:
+        titulo: "Dos formas de combinar condiciones"
+        izq: {etiqueta: "Todas", titulo: "Y", items: ['Y(C2>=10000;B2="Norte")', "Monto alto *y* zona Norte"]}
+        der: {etiqueta: "Al menos una", titulo: "O", items: ['O(C2>=10000;B2="Centro")', "Monto alto *o* zona Centro"]}
+        veredicto: "Y es más *estricta*; O es más *amplia*"
+        beat_izq: 1
+        beat_der: 2
+        beat_veredicto: 3
+  - narracion: "Usemos la función [[o|O]] dentro de [[si|SI]]: el envío es gratis si el monto llega a 10 000 o si la zona es Centro. La fórmula de la primera fila ahora es [[si|SI]], después [[o|O]] con las dos condiciones, y al final los dos textos. Mira el pedido de la fila cinco: su importe no llega al mínimo, pero es de la zona Centro, así que ahora dice Gratis."
+    visual:
+      plantilla: planilla
+      datos:
+        celda_formula: "D2"
+        formula: '=SI(O(C2>=10000;B2="Centro");"Gratis";"Con costo")'
+        beat_formula: 1
+        decimales: 0
+        anios_sin_separador: false
+        filas:
+          - ["Pedido", "Zona", "Monto", "Envío"]
+          - ["P-101", "Norte", 12500, "Gratis"]
+          - ["P-102", "Sur", 8200, "Con costo"]
+          - ["P-103", "Norte", 15400, "Gratis"]
+          - ["P-104", "Centro", 6900, ""]
+          - ["P-105", "Sur", 21000, "Gratis"]
+          - ["P-106", "Norte", 9800, "Con costo"]
+          - ["P-107", "Centro", 14300, "Gratis"]
+          - ["P-108", "Sur", 5600, "Con costo"]
+        resaltar:
+          - {rango: "B5", beat: 2}
+        resultado: {celda: "D5", valor: "Gratis", beat: 2}
+  - narracion: "Con [[y|Y]] se escribe igual, pero la regla cambia. Por ejemplo, marcar como prioridad solo los pedidos del Norte que además llegan al mínimo. Si falla cualquiera de las dos condiciones, el resultado es Normal."
+    visual:
+      plantilla: formula
+      datos:
+        titulo: "Prioridad solo si se cumplen las dos"
+        formula: '=SI(Y(C2>=10000;B2="Norte");"Prioridad";"Normal")'
+        partes:
+          - {token: 'Y(C2>=10000;B2="Norte")', explica: "las dos deben cumplirse", beat: 1}
+          - {token: '"Prioridad"', explica: "si se cumplen las dos", beat: 1}
+          - {token: '"Normal"', explica: "si falla alguna", beat: 2}
+  - narracion: "Tres errores típicos al decidir con condiciones. Escribir un texto sin comillas, y hacer que la fórmula falle. Escribir el criterio distinto a como está en la tabla, por ejemplo Nort en vez de Norte, y obtener cero. Y olvidar los dólares en los rangos, de modo que los resultados se desplazan al copiar."
+    visual:
+      plantilla: lista
+      datos:
+        titulo: "Errores típicos"
+        estilo: x
+        beat_inicio: 1
+        items:
+          - {texto: "Texto sin comillas", detalle: "La fórmula falla"}
+          - {texto: "Criterio escrito distinto", detalle: "Nort en vez de Norte: da cero"}
+          - {texto: "Rangos sin dólares", detalle: "Los resultados se desplazan"}
+  - narracion: "Práctica."
+    capitulo: "Práctica"
+    visual:
+      plantilla: capitulo
+      datos: {titulo: "*Práctica*", sub: "Archivo de práctica en la descripción"}
+  - narracion: "Hora de practicar. El archivo de la descripción trae la tabla de pedidos en su hoja Práctica. Primero, en [[de dos|D2]] escribe un [[si|SI]] con [[o|O]] que dé Gratis si el monto llega a 10 000 o la zona es Centro, y cópialo hasta el final. Después, en [[ge dos|G2]] cuenta los pedidos de cada zona con CONTAR.SI. Luego, en [[ache dos|H2]] acumula los importes por zona con SUMAR.SI. Por último, en la fila cinco calcula los totales con la función de la primera lección. Detén el video, haz el ejercicio y luego mira la solución."
+    visual:
+      plantilla: ejercicio
+      datos:
+        consigna: "Clasifica, cuenta y suma los pedidos"
+        hoja: "Práctica"
+        pasos:
+          - "D2:D9: SI con O (monto o Centro)"
+          - "G2:G4: CONTAR.SI por zona"
+          - "H2:H4: SUMAR.SI por zona"
+          - "G5 y H5: totales con SUMA"
+        pista: "Rangos con $. Extra: cambia O por Y"
+        beat_pasos: 2
+        beat_pista: 6
+  - narracion: "La solución. En [[de dos|D2]] va el [[si|SI]] con [[o|O]]: cinco pedidos quedan con envío gratis y tres con costo. En [[ge dos|G2]], CONTAR.SI con el rango fijo da 3, 3 y 2. En [[ache dos|H2]], SUMAR.SI da 37 700, 34 800 y 21 200. Y los totales son 8 pedidos y 93 700. Si un total no coincide, revisa que los rangos tengan dólares y que las zonas estén escritas igual. El archivo trae la hoja Solución para que compares."
+    visual:
+      plantilla: calculo
+      datos:
+        titulo: "Solución del ejercicio"
+        lineas:
+          - {izq: "D2:D9 · SI con O", der: "5 gratis · 3 con costo", beat: 1}
+          - {izq: "G2:G4 · CONTAR.SI", der: "3 · 3 · 2", beat: 2}
+          - {izq: "H2:H4 · SUMAR.SI", der: "37 700 · 34 800 · 21 200", beat: 3}
+        resultado: {izq: "Totales (G5 y H5)", der: "8 · 93 700", beat: 4}
+  - narracion: "En resumen, [[si|SI]] decide entre dos resultados según una condición. CONTAR.SI y SUMAR.SI resumen por categoría, con el criterio en una celda y los rangos fijos. [[y|Y]] y [[o|O]] combinan condiciones: todas, o al menos una. En la próxima lección armas tu primer proyecto, un control de gastos mensual, con todo lo que aprendiste. Haz el ejercicio y nos vemos en la lección 4."
+    visual:
+      plantilla: curso_cierre
+      datos:
+        titulo: "Lo que aprendiste hoy"
+        puntos: ["SI decide según una condición", "CONTAR.SI y SUMAR.SI resumen por categoría", "Y = todas · O = al menos una"]
+        cta: "Suscríbete para la lección 4"
+        beat_siguiente: 4
+        beat_cta: 5
+fuentes:
+  - url: "https://support.microsoft.com/es-es/excel/functions/if-function"
+    titulo: "Función SI (Microsoft Support)"
+    fecha_consulta: 2026-10-15
+    respalda: "SI hace una comparación lógica entre un valor y un resultado esperado; sintaxis SI(prueba_lógica; valor_si_verdadero; [valor_si_falso]); el texto va entre comillas."
+  - url: "https://support.microsoft.com/es-es/excel/using-if-with-and-or-and-not-functions-in-excel"
+    titulo: "Usar SI con las funciones Y, O y NO (Microsoft Support)"
+    fecha_consulta: 2026-10-15
+    respalda: "Y, O y NO se combinan con SI para evaluar varias condiciones; Y devuelve VERDADERO solo si todas se cumplen y O si se cumple al menos una."
+  - url: "https://support.microsoft.com/es-es/office/y-funci%C3%B3n-y-5f19b2e8-e1df-4408-897a-ce285a19e9d9"
+    titulo: "Función Y (Microsoft Support)"
+    fecha_consulta: 2026-10-15
+    respalda: "Y devuelve VERDADERO si todos sus argumentos se evalúan como VERDADERO y FALSO si uno o más son FALSO."
+  - url: "https://support.microsoft.com/es-es/excel/functions/or-function"
+    titulo: "Función O (Microsoft Support)"
+    fecha_consulta: 2026-10-15
+    respalda: "O devuelve VERDADERO si alguno de sus argumentos es VERDADERO y FALSO solo si todos son FALSO."
+  - url: "https://support.microsoft.com/es-es/office/usar-la-funci%C3%B3n-contar-si-en-microsoft-excel-e0de10c6-f885-4e71-abb4-1f464816df34"
+    titulo: "Usar la función CONTAR.SI (Microsoft Support)"
+    fecha_consulta: 2026-10-15
+    respalda: "CONTAR.SI cuenta el número de celdas de un rango que cumplen un criterio; los criterios de texto van entre comillas o en una celda."
+  - url: "https://support.microsoft.com/es-es/office/sumar-si-funci%C3%B3n-sumar-si-169b8c99-c05c-4483-a712-1697a653039b"
+    titulo: "Función SUMAR.SI (Microsoft Support)"
+    fecha_consulta: 2026-10-15
+    respalda: "SUMAR.SI suma los valores de un rango que cumplen un criterio; sintaxis SUMAR.SI(rango; criterio; [rango_suma]), con el rango de suma como tercer argumento."
+  - calculo: "[10000]"
+    respalda: "Monto mínimo para envío gratis en el ejemplo (regla ficticia)."
+  - calculo: "12500 + 15400 + 21000 + 14300"
+    resultado: 63200
+    respalda: "Suma de los 4 pedidos de 10 000 o más (12 500, 15 400, 21 000 y 14 300)."
+  - calculo: "12500 + 15400 + 9800"
+    resultado: 37700
+    respalda: "Suma de los montos de la zona Norte (3 pedidos)."
+  - calculo: "8200 + 21000 + 5600"
+    resultado: 34800
+    respalda: "Suma de los montos de la zona Sur (3 pedidos)."
+  - calculo: "6900 + 14300"
+    resultado: 21200
+    respalda: "Suma de los montos de la zona Centro (2 pedidos)."
+  - calculo: "12500 + 8200 + 15400 + 6900 + 21000 + 9800 + 14300 + 5600"
+    resultado: 93700
+    respalda: "Total de la columna de montos (C2:C9), igual a la suma de las tres zonas."
+riesgos:
+  derechos: "bajo"
+  exactitud: "bajo — funciones documentadas por Microsoft; sumas verificadas con cálculo y recalculando el archivo de práctica"
+  monetizacion: "bajo — contenido educativo general, datos de ejemplo ficticios"
+recursos:
+  - {nombre: "Música y efectos originales generados por la fábrica", licencia: "propia"}
+  - {nombre: "Archivo de práctica Leccion03_practica.xlsx generado por la fábrica", licencia: "propia"}
+declaracion_sintetica:
+  decision: "declarar"
+  motivo: "Voz sintética realista; gráficos no realistas. Se declara por prudencia."
+costo_estimado_usd: 0
+palabras_validas: []

@@ -1,0 +1,74 @@
+{
+  "id": "B-050",
+  "duracion_s": 33.858,
+  "frases": 9,
+  "subtitulos": 22,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.17,
+      "beats": [
+        -5.0,
+        3.07
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.17,
+      "fin": 22.454,
+      "beats": [
+        0.0,
+        2.147,
+        5.127,
+        12.126
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 22.454,
+      "fin": 30.05,
+      "beats": [
+        0.0,
+        5.077
+      ],
+      "plantilla": "barras"
+    },
+    {
+      "inicio": 30.05,
+      "fin": 33.858,
+      "beats": [
+        0.0,
+        1.227
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.11",
+    "input_tp": "-5.52",
+    "input_lra": "3.20",
+    "input_thresh": "-32.34",
+    "output_i": "-14.37",
+    "output_tp": "-1.50",
+    "output_lra": "2.90",
+    "output_thresh": "-24.52",
+    "normalization_type": "dynamic",
+    "target_offset": "0.37"
+  },
+  "fotogramas_unicos": 242,
+  "tts_cache": 0,
+  "spec_hash": "51c4caeedea1ecd8",
+  "segundos_produccion": 91.3,
+  "texto_hablado": [
+    "Quieres ganar dos mil dólares al mes como frilanser.",
+    "¿A cuánto debes cobrar la hora?",
+    "Parte de dos mil dólares netos.",
+    "Suma cuatrocientos dólares de gastos del negocio.",
+    "Ahora, de ciento sesenta horas trabajadas, solo noventa y seis se facturan; el resto es cotizar, cobrar y administrar.",
+    "Resultado: dos mil cuatrocientos entre noventa y seis, veinticinco dólares por hora.",
+    "Si divides solo entre las horas trabajadas y olvidas los gastos, te sale doce coma cinco.",
+    "Cobrarías la mitad de lo que necesitas.",
+    "Cambia las cifras por las tuyas y vuelve a calcular."
+  ]
+}

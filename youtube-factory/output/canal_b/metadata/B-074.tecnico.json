@@ -1,0 +1,75 @@
+{
+  "id": "B-074",
+  "duracion_s": 32.798,
+  "frases": 10,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 10.692,
+      "beats": [
+        -5.0,
+        3.498,
+        6.878
+      ],
+      "plantilla": "pregunta"
+    },
+    {
+      "inicio": 10.692,
+      "fin": 20.009,
+      "beats": [
+        0.0,
+        3.933,
+        7.507
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 20.009,
+      "fin": 28.993,
+      "beats": [
+        0.0,
+        2.909
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 28.993,
+      "fin": 32.798,
+      "beats": [
+        0.0,
+        1.226
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.88",
+    "input_tp": "-6.90",
+    "input_lra": "1.80",
+    "input_thresh": "-32.06",
+    "output_i": "-14.04",
+    "output_tp": "-1.50",
+    "output_lra": "1.40",
+    "output_thresh": "-24.17",
+    "normalization_type": "dynamic",
+    "target_offset": "0.04"
+  },
+  "fotogramas_unicos": 248,
+  "tts_cache": 0,
+  "spec_hash": "0f2e2bb3aafa4087",
+  "segundos_produccion": 115.6,
+  "texto_hablado": [
+    "¿Cuántos días hay entre el uno de marzo y el quince de abril?",
+    "¿cuarenta y cuatro, cuarenta y cinco o cuarenta y seis?",
+    "Son cuarenta y cinco: restar fechas da la diferencia en días.",
+    "Del uno al treinta y uno de marzo hay treinta días de diferencia.",
+    "Del treinta y uno de marzo al quince de abril, quince más.",
+    "Total: cuarenta y cinco.",
+    "En la planilla: fecha final menos fecha inicial.",
+    "Si ves una fecha rara, cambia el formato de la celda a número.",
+    "Y si quieres contar ambos días, suma uno.",
+    "Guarda el truco y reta a alguien con otras fechas."
+  ]
+}

@@ -56,9 +56,9 @@
     "target_offset": "0.55"
   },
   "fotogramas_unicos": 225,
-  "tts_cache": 0,
+  "tts_cache": 10,
   "spec_hash": "aba5c9dded9e7285",
-  "segundos_produccion": 123.2,
+  "segundos_produccion": 84.6,
   "texto_hablado": [
     "Las ventas pasan de ochenta a cien.",
     "¿Subieron veinte por ciento o veinticinco por ciento?",

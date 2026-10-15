@@ -1,0 +1,35 @@
+CURSO «IA PARA TU TRABAJO» · LECCIÓN 3 · ARCHIVO DE PRÁCTICA (Atajo IA)
+Copia cada prompt en tu asistente de IA (ChatGPT, Gemini, Claude o Copilot; la versión gratuita alcanza).
+Reemplaza lo que está entre [CORCHETES]. No pegues datos personales ni de clientes: elige un tema general de tu trabajo.
+
+MÉTODO DE COMPROBACIÓN (cuatro pasos)
+1. Separa lo comprobable (cifras, fechas, nombres, normas, citas) de lo que es redacción o ideas.
+2. Busca la fuente primaria: sitio oficial, organismo o documento original.
+3. Compara palabra por palabra con lo que dijo la IA.
+4. Si no coincide o no aparece, corrige el texto o descártalo.
+
+EJERCICIO 1 · Pide una explicación con datos y fuentes
+Explícame [UN TEMA DE TU TRABAJO] con sus datos más importantes. Indica en qué tipo de fuente oficial debería comprobarlos. Si no estás seguro de algo, dilo; no inventes cifras, citas ni enlaces.
+
+EJERCICIO 2 · Separa hechos de suposiciones (en la misma conversación)
+De lo que me explicaste, separa dos listas: lo que puedes sostener y lo que es suposición o pudo haber cambiado. Marca con un asterisco cada cifra, fecha, nombre o norma.
+
+EJERCICIO 3 · Pide una lista para comprobar (en la misma conversación)
+Para cada dato marcado con asterisco, dime qué tipo de fuente oficial lo confirmaría y qué palabras conviene buscar. No incluyas enlaces.
+
+EJERCICIO 4 · Prueba de consistencia (en un chat nuevo)
+Repite el prompt del ejercicio 1 con otras palabras y compara los datos importantes con la primera salida. ¿Cambió alguno? Si cambió, comprueba ese dato primero.
+
+EJERCICIO 5 · Rehaz una cuenta tú mismo
+Elige una cifra que se pueda recalcular (porcentaje, suma, promedio) y rehaz la operación en una calculadora o una planilla. Anota la cifra de la IA, tu resultado y si coinciden.
+
+TABLA DE REGISTRO (cópiala en tu cuaderno o en una planilla)
+Dato | Fuente oficial que consulté | ¿Coincide? | Qué hago con él (usar, corregir o descartar)
+
+LISTA DE CONTROL
+[ ] Marqué las cifras, fechas, nombres, normas y citas.
+[ ] Comprobé al menos dos datos en una fuente oficial.
+[ ] Abrí cada fuente que me dio la IA y confirmé que existe y dice lo que se afirma.
+[ ] Rehice una cuenta con mi calculadora.
+[ ] Descarté o corregí lo que no pude comprobar.
+[ ] No pegué nombres, documentos ni datos de clientes.

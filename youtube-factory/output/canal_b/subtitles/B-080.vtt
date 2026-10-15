@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:03.765
+Un mes entero de fechas con una sola fórmula, sin arrastrar nada.
+
+00:00:04.045 --> 00:00:05.240
+Se llama SECUENCIA.
+
+00:00:05.400 --> 00:00:07.642
+Primero, cuántas filas: 31.
+
+00:00:07.802 --> 00:00:09.582
+Luego, cuántas columnas: una.
+
+00:00:09.742 --> 00:00:11.741
+Y al final, la fecha donde empieza.
+
+00:00:12.021 --> 00:00:14.317
+Escribe la fórmula en la celda B dos.
+
+00:00:14.477 --> 00:00:16.947
+La fecha de inicio está en la celda A dos.
+
+00:00:17.107 --> 00:00:20.825
+Y las demás se derraman hacia abajo, hasta el 31 de enero.
+
+00:00:21.105 --> 00:00:25.764
+Si ves números raros en lugar de fechas, aplica formato de fecha a esas celdas.
+
+00:00:26.044 --> 00:00:30.308
+Requiere Excel 2021 o Microsoft 365.
+
+00:00:30.468 --> 00:00:32.367
+En Google Sheets se llama SEQUENCE.

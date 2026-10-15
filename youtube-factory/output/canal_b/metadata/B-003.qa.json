@@ -127,7 +127,7 @@
     {
       "control": "tamaño razonable (< 256 GB y > 0)",
       "ok": true,
-      "detalle": "6.2 MB",
+      "detalle": "6.3 MB",
       "peso": 5,
       "critico": true
     },

@@ -1,0 +1,73 @@
+{
+  "id": "A-031",
+  "duracion_s": 30.508,
+  "frases": 10,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 7.699,
+      "beats": [
+        -5.0,
+        2.973
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 7.699,
+      "fin": 17.683,
+      "beats": [
+        0.0,
+        4.176,
+        6.613
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 17.683,
+      "fin": 23.891,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 23.891,
+      "fin": 30.508,
+      "beats": [
+        0.0,
+        2.663
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.12",
+    "input_tp": "-6.96",
+    "input_lra": "1.90",
+    "input_thresh": "-31.50",
+    "output_i": "-14.02",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.31",
+    "normalization_type": "dynamic",
+    "target_offset": "0.02"
+  },
+  "fotogramas_unicos": 242,
+  "tts_cache": 10,
+  "spec_hash": "cdd925cb0d60a611",
+  "segundos_produccion": 102.8,
+  "texto_hablado": [
+    "Si no defines la longitud, la i a decide por ti.",
+    "Y puede darte demasiado o muy poco.",
+    "Por eso conviene fijar una medida.",
+    "Sin medida, la respuesta puede salir de tres líneas o de tres páginas.",
+    "Con una medida, sabes qué vas a recibir.",
+    "Elige una sola: palabras, viñetas o tiempo de lectura.",
+    "Por ejemplo: cinco viñetas de máximo diez palabras cada una.",
+    "Y si se pasa, pide una versión más corta.",
+    "La i a puede no ajustarse al conteo exacto.",
+    "Revisa el resultado antes de usarlo en tu trabajo."
+  ]
+}

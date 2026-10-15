@@ -1,0 +1,55 @@
+1
+00:00:00,120 --> 00:00:03,115
+Pedirle hazlo mejor a la IA es pedirle que adivine.
+
+2
+00:00:03,275 --> 00:00:05,823
+¿Mejor es más corto, más formal o con datos?
+
+3
+00:00:06,183 --> 00:00:08,639
+Con hazlo mejor, la IA decide qué es mejor.
+
+4
+00:00:08,799 --> 00:00:10,643
+Con un criterio, sabe qué cambiar.
+
+5
+00:00:10,803 --> 00:00:13,777
+Por ejemplo: redúcelo a tres líneas, con tono formal.
+
+6
+00:00:13,937 --> 00:00:16,080
+Y tú puedes comprobar si lo cumplió.
+
+7
+00:00:16,360 --> 00:00:17,527
+Elige el criterio.
+
+8
+00:00:17,687 --> 00:00:19,285
+Más corto o más largo.
+
+9
+00:00:19,445 --> 00:00:20,678
+Formal o cercano.
+
+10
+00:00:20,838 --> 00:00:22,420
+Con datos o con ejemplos.
+
+11
+00:00:22,580 --> 00:00:23,846
+O para otro público.
+
+12
+00:00:24,126 --> 00:00:26,074
+Dile también qué no debe cambiar.
+
+13
+00:00:26,234 --> 00:00:28,404
+Y compara con tu versión original.
+
+14
+00:00:28,564 --> 00:00:30,504
+Así sabes si de verdad mejoró.

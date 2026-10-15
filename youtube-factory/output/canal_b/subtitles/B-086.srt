@@ -1,0 +1,43 @@
+1
+00:00:00,120 --> 00:00:02,790
+Alguien borró tu fórmula y nadie sabe cuándo.
+
+2
+00:00:02,950 --> 00:00:04,458
+Evítalo en tres pasos.
+
+3
+00:00:04,738 --> 00:00:07,927
+Dato clave: en Excel todas las celdas ya están bloqueadas.
+
+4
+00:00:08,087 --> 00:00:11,159
+Pero ese bloqueo solo funciona cuando proteges la hoja.
+
+5
+00:00:11,439 --> 00:00:14,475
+Primero, selecciona las celdas donde sí se puede escribir.
+
+6
+00:00:14,635 --> 00:00:18,479
+Segundo, en Formato de celdas, pestaña Proteger, desmarca Bloqueada.
+
+7
+00:00:18,639 --> 00:00:21,153
+Tercero, en Revisar, elige Proteger hoja.
+
+8
+00:00:21,433 --> 00:00:25,397
+Ojo: según Microsoft, proteger una hoja no es una medida de seguridad.
+
+9
+00:00:25,557 --> 00:00:27,551
+Solo evita cambios accidentales.
+
+10
+00:00:27,831 --> 00:00:30,728
+Protege tus fórmulas antes de compartir la planilla.
+
+11
+00:00:30,888 --> 00:00:34,077
+Así nadie las borra por accidente mientras trabaja en ella.

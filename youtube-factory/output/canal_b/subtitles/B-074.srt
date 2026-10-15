@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:03,308
+¿Cuántos días hay entre el 1 de marzo y el 15 de abril?
+
+2
+00:00:03,548 --> 00:00:06,688
+¿44, 45 o 46?
+
+3
+00:00:06,928 --> 00:00:10,492
+Son 45: restar fechas da la diferencia en días.
+
+4
+00:00:10,772 --> 00:00:14,516
+Del 1 al 31 de marzo hay 30 días de diferencia.
+
+5
+00:00:14,676 --> 00:00:18,089
+Del 31 de marzo al 15 de abril, 15 más.
+
+6
+00:00:18,249 --> 00:00:19,809
+Total: 45.
+
+7
+00:00:20,089 --> 00:00:22,808
+En la planilla: fecha final menos fecha inicial.
+
+8
+00:00:22,968 --> 00:00:26,314
+Si ves una fecha rara, cambia el formato de la celda a número.
+
+9
+00:00:26,474 --> 00:00:28,793
+Y si quieres contar ambos días, suma 1.
+
+10
+00:00:29,073 --> 00:00:31,938
+Guarda el truco y reta a alguien con otras fechas.

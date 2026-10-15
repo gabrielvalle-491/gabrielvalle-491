@@ -1,0 +1,74 @@
+{
+  "id": "A-032",
+  "duracion_s": 31.458,
+  "frases": 10,
+  "subtitulos": 23,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.699,
+      "beats": [
+        -5.0,
+        2.804
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.699,
+      "fin": 15.383,
+      "beats": [
+        0.0,
+        2.689,
+        6.243
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 15.383,
+      "fin": 23.945,
+      "beats": [
+        0.0,
+        2.711
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 23.945,
+      "fin": 31.458,
+      "beats": [
+        0.0,
+        4.059
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.03",
+    "input_tp": "-6.48",
+    "input_lra": "1.40",
+    "input_thresh": "-31.34",
+    "output_i": "-14.09",
+    "output_tp": "-1.50",
+    "output_lra": "1.20",
+    "output_thresh": "-24.34",
+    "normalization_type": "dynamic",
+    "target_offset": "0.09"
+  },
+  "fotogramas_unicos": 219,
+  "tts_cache": 10,
+  "spec_hash": "e71a8eb9885dd1f8",
+  "segundos_produccion": 101.9,
+  "texto_hablado": [
+    "¿Anotas a mano cada consulta que te llega?",
+    "Un formulario lo hace solo.",
+    "Primero, crea tu formulario en gúgol forms.",
+    "Luego, en la pestaña Respuestas, vincula una hoja de cálculo.",
+    "Y en el menú de tres puntos, activa el aviso por correo de nuevas respuestas.",
+    "Cada respuesta llega como una fila nueva.",
+    "Puedes agregar una columna Estado para marcar lo pendiente.",
+    "Y el correo te avisa sin abrir la hoja.",
+    "Antes de compartir el enlace, envía una respuesta de prueba tú mismo.",
+    "Así compruebas que llegue la fila y el aviso."
+  ]
+}

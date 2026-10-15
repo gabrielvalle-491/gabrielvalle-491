@@ -1,0 +1,87 @@
+{
+  "id": "B-036",
+  "duracion_s": 35.459,
+  "frases": 12,
+  "subtitulos": 26,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.649,
+      "beats": [
+        -5.0,
+        3.323
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.649,
+      "fin": 13.324,
+      "beats": [
+        0.0,
+        2.541,
+        4.281
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 13.324,
+      "fin": 22.649,
+      "beats": [
+        0.0,
+        3.429,
+        6.834
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 22.649,
+      "fin": 29.604,
+      "beats": [
+        0.0,
+        1.881,
+        4.286
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 29.604,
+      "fin": 35.459,
+      "beats": [
+        0.0,
+        2.046
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.10",
+    "input_tp": "-6.27",
+    "input_lra": "1.70",
+    "input_thresh": "-32.34",
+    "output_i": "-14.20",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.37",
+    "normalization_type": "dynamic",
+    "target_offset": "0.20"
+  },
+  "fotogramas_unicos": 277,
+  "tts_cache": 12,
+  "spec_hash": "31c74c70b30be593",
+  "segundos_produccion": 82.9,
+  "texto_hablado": [
+    "Un subtotal en medio de tus datos hace que sumes de más.",
+    "Mira este caso.",
+    "Estas ventas tienen un subtotal en medio.",
+    "Resalta toda la columna.",
+    "Al sumarla da quinientos cincuenta, pero lo vendido es trescientos cincuenta.",
+    "Mezclado, los datos y el subtotal comparten columna.",
+    "Separado, los datos van seguidos y el total vive aparte.",
+    "Así cada fórmula lee solo registros.",
+    "Una fila por cada registro.",
+    "Ninguna fila vacía dentro del rango.",
+    "Y los totales, en otra zona o en otra hoja.",
+    "Con datos continuos, ordenar, filtrar y las tablas dinámicas leen el rango completo."
+  ]
+}

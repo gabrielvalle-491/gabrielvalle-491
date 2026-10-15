@@ -57,9 +57,9 @@
     "target_offset": "-0.01"
   },
   "fotogramas_unicos": 239,
-  "tts_cache": 0,
+  "tts_cache": 10,
   "spec_hash": "62398f718975999a",
-  "segundos_produccion": 113.0,
+  "segundos_produccion": 78.1,
   "texto_hablado": [
     "Estás separando nombres y apellidos con fórmulas, y éxcel lo hace con un ejemplo.",
     "Primero, escribe a mano el primer resultado, solo el nombre, en la columna de al lado.",

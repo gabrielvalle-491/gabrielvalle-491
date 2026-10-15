@@ -1,0 +1,84 @@
+{
+  "id": "A-074",
+  "duracion_s": 31.836,
+  "frases": 10,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.846,
+      "beats": [
+        -5.0,
+        1.498
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.846,
+      "fin": 10.244,
+      "beats": [
+        0.0,
+        2.31
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 10.244,
+      "fin": 21.281,
+      "beats": [
+        0.0,
+        3.56,
+        6.82
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 21.281,
+      "fin": 29.022,
+      "beats": [
+        0.0,
+        3.088,
+        5.093
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 29.022,
+      "fin": 31.836,
+      "beats": [
+        0.0,
+        0.829
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-20.87",
+    "input_tp": "-5.32",
+    "input_lra": "1.80",
+    "input_thresh": "-31.19",
+    "output_i": "-14.14",
+    "output_tp": "-1.50",
+    "output_lra": "1.80",
+    "output_thresh": "-24.36",
+    "normalization_type": "dynamic",
+    "target_offset": "0.14"
+  },
+  "fotogramas_unicos": 257,
+  "tts_cache": 10,
+  "spec_hash": "92823ebcad1b0c19",
+  "segundos_produccion": 111.7,
+  "texto_hablado": [
+    "¿Por qué la i a responde distinto si repites la misma pregunta?",
+    "No consulta una respuesta guardada.",
+    "Genera el texto trozo a trozo, eligiendo entre opciones probables.",
+    "Una base de datos devuelve lo mismo ante la misma consulta.",
+    "Un modelo de lenguaje puede tomar otro camino cada vez.",
+    "Por eso la variación es normal, pero los datos importantes se verifican.",
+    "Para respuestas más estables, pide un formato fijo.",
+    "Incluye un ejemplo de salida.",
+    "Y si usas una a pe i, baja la temperatura.",
+    "No es un error: es cómo funciona."
+  ]
+}

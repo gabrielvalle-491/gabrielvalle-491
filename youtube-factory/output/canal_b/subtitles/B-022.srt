@@ -1,0 +1,47 @@
+1
+00:00:00,120 --> 00:00:03,515
+Muestra solo lo pendiente con una fórmula, sin tocar el filtro.
+
+2
+00:00:03,675 --> 00:00:05,016
+Y se actualiza sola.
+
+3
+00:00:05,296 --> 00:00:07,518
+Esta es tu lista de tareas, con su estado.
+
+4
+00:00:07,678 --> 00:00:10,024
+Escribe la fórmula en una celda libre.
+
+5
+00:00:10,184 --> 00:00:12,105
+Se marcan las tareas pendientes.
+
+6
+00:00:12,265 --> 00:00:14,381
+Y aparecen solo esas, hacia abajo.
+
+7
+00:00:14,661 --> 00:00:16,469
+La fórmula tiene tres partes.
+
+8
+00:00:16,629 --> 00:00:18,847
+Primero, el rango que quieres devolver.
+
+9
+00:00:19,007 --> 00:00:21,903
+Luego, la condición: el estado debe ser Pendiente.
+
+10
+00:00:22,063 --> 00:00:24,833
+Y al final, qué mostrar si no queda nada pendiente.
+
+11
+00:00:25,113 --> 00:00:28,557
+Cambia un estado a Listo y esa tarea desaparece de la lista.
+
+12
+00:00:28,717 --> 00:00:34,205
+Funciona en Excel 365 y 2021, y en Google Sheets existe FILTER.

@@ -1,0 +1,75 @@
+{
+  "id": "B-051",
+  "duracion_s": 25.108,
+  "frases": 10,
+  "subtitulos": 20,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.32,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.32,
+      "fin": 12.409,
+      "beats": [
+        0.0,
+        3.308,
+        4.805,
+        5.961
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 12.409,
+      "fin": 21.325,
+      "beats": [
+        0.0,
+        2.963,
+        4.531
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 21.325,
+      "fin": 25.108,
+      "beats": [
+        0.0,
+        1.217
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.90",
+    "input_tp": "-6.06",
+    "input_lra": "3.00",
+    "input_thresh": "-32.19",
+    "output_i": "-14.24",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.43",
+    "normalization_type": "dynamic",
+    "target_offset": "0.24"
+  },
+  "fotogramas_unicos": 263,
+  "tts_cache": 10,
+  "spec_hash": "5979bad4f89fd95b",
+  "segundos_produccion": 73.0,
+  "texto_hablado": [
+    "¿Cuántas veces vino Ana en octubre?",
+    "Una fórmula lo cuenta por ti.",
+    "contar si conjunto recibe pares de rango y condición.",
+    "Primero, la persona.",
+    "Luego, el mes.",
+    "Y al final, el estado: Presente.",
+    "En la tabla, Ana aparece tres veces en octubre.",
+    "Solo dos son Presente.",
+    "La fórmula cuenta únicamente las filas que cumplen las tres condiciones.",
+    "Cambia el nombre o el mes y obtienes cada total."
+  ]
+}

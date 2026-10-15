@@ -29,8 +29,15 @@ SCOPES = [
     "https://www.googleapis.com/auth/youtube.readonly",
     "https://www.googleapis.com/auth/yt-analytics.readonly",
 ]
+# Agregar videos a la lista del curso necesita un permiso más amplio: solo se pide si lo activás
+# (publicacion.gestionar_listas: true en config/global.yaml). Si no, la lista se arma a mano en Studio.
+SCOPE_LISTAS = "https://www.googleapis.com/auth/youtube.force-ssl"
+
+
+def scopes() -> list[str]:
+    return SCOPES + ([SCOPE_LISTAS] if cargar_global()["publicacion"].get("gestionar_listas") else [])
 # Costos de cuota (unidades). Verificados en la documentación al 2026-10-11; confirma en Google Cloud Console.
-COSTO = {"videos.insert": 100, "channels.list": 1, "videos.list": 1, "thumbnails.set": 50, "captions.insert": 400}
+COSTO = {"playlistItems.insert": 50, "videos.insert": 100, "channels.list": 1, "videos.list": 1, "thumbnails.set": 50, "captions.insert": 400}
 
 
 class ErrorPublicacion(RuntimeError):
@@ -59,7 +66,7 @@ def credenciales(canal: str, interactivo: bool = False):
     from google.auth.transport.requests import Request
     from google.oauth2.credentials import Credentials
     tp = _token_path(canal)
-    creds = Credentials.from_authorized_user_file(str(tp), SCOPES) if tp.exists() else None
+    creds = Credentials.from_authorized_user_file(str(tp), scopes()) if tp.exists() else None
     if creds and creds.expired and creds.refresh_token:
         try:
             creds.refresh(Request())
@@ -69,7 +76,7 @@ def credenciales(canal: str, interactivo: bool = False):
         if not interactivo:
             raise ErrorPublicacion(f"El canal {canal} no está autorizado o el permiso caducó. Ejecutá: python fabrica.py autorizar {canal}")
         from google_auth_oauthlib.flow import InstalledAppFlow
-        flow = InstalledAppFlow.from_client_secrets_file(str(_client_secret()), SCOPES)
+        flow = InstalledAppFlow.from_client_secrets_file(str(_client_secret()), scopes())
         print("Se abrirá tu navegador. Elegí la cuenta/canal correcto y aceptá los permisos.")
         creds = flow.run_local_server(port=0, prompt="consent")
     tp.write_text(creds.to_json(), encoding="utf-8")
@@ -146,6 +153,9 @@ def subir(spec: dict, simular: bool = True) -> dict:
                    "selfDeclaredMadeForKids": bool(m["apto_para_ninos"]),
                    "containsSyntheticMedia": m["declaracion_sintetica"].get("decision") == "declarar"},
     }
+    from .cursos import MARCA_ENLACE
+    if MARCA_ENLACE in m["descripcion"]:
+        raise ErrorPublicacion(f"{spec['id']}: falta el enlace del material de práctica (cursos/{canal}.yaml → enlace_material).")
     if simular:
         return {"id": spec["id"], "simulado": True, "titulo": m["titulo"], "publishAt": m["publicar_en_utc"], "archivo": str(video)}
     from googleapiclient.http import MediaFileUpload
@@ -168,6 +178,14 @@ def subir(spec: dict, simular: bool = True) -> dict:
             from googleapiclient.http import MediaFileUpload as MFU
             yt.thumbnails().set(videoId=yid, media_body=MFU(str(portada), mimetype="image/jpeg")).execute()
             _registrar_cuota(COSTO["thumbnails.set"], "thumbnails.set")
+    lista = _lista_curso(spec)
+    if lista:
+        try:
+            yt.playlistItems().insert(part="snippet", body={"snippet": {"playlistId": lista, "position": max(0, _n_leccion(spec) - 1),
+                                                                        "resourceId": {"kind": "youtube#video", "videoId": yid}}}).execute()
+            _registrar_cuota(COSTO["playlistItems.insert"], "playlistItems.insert")
+        except Exception as e:  # noqa: BLE001 — la subida ya se hizo; solo falta la lista (se agrega a mano en Studio)
+            db.registrar_evento(spec["id"], "publicacion", f"no se pudo agregar a la lista del curso: {e}", "aviso")
     estado = "programado" if programado else "subido_privado"
     with db.conectar() as con:
         con.execute("INSERT OR REPLACE INTO publicaciones VALUES (?,?,?,?,?,?,?,?)",
@@ -177,6 +195,20 @@ def subir(spec: dict, simular: bool = True) -> dict:
     nota = "" if programado else " (la API no confirmó la programación: revisá en Studio; los proyectos no verificados quedan en privado)"
     db.registrar_evento(spec["id"], "publicacion", f"{estado} youtube_id={yid}{nota}")
     return {"id": spec["id"], "youtube_id": yid, "estado": estado, "publishAt": st.get("publishAt"), "nota": nota}
+
+
+def _n_leccion(spec: dict) -> int:
+    from .cursos import leccion_de
+    return int((leccion_de(spec) or {}).get("n", 1))
+
+
+def _lista_curso(spec: dict) -> str | None:
+    """Id de la lista de reproducción del curso, solo si el usuario activó la gestión de listas
+    (requiere el permiso adicional youtube.force-ssl, ver docs/AUTORIZAR_YOUTUBE.md)."""
+    if not spec.get("curso") or not cargar_global()["publicacion"].get("gestionar_listas"):
+        return None
+    from .cursos import temario
+    return (temario(spec["canal"]) or {}).get("lista_youtube_id") or None
 
 
 def publicar_lote(canal: str, desde: str | None, hasta: str | None, simular: bool = True, limite: int | None = None) -> list[dict]:

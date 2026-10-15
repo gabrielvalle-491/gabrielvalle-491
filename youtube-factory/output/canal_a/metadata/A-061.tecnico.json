@@ -1,0 +1,72 @@
+{
+  "id": "A-061",
+  "duracion_s": 31.398,
+  "frases": 8,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.239,
+      "beats": [
+        -5.0,
+        1.287
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.239,
+      "fin": 14.666,
+      "beats": [
+        0.0,
+        3.984,
+        8.679
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 14.666,
+      "fin": 27.564,
+      "beats": [
+        0.0,
+        4.905
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 27.564,
+      "fin": 31.398,
+      "beats": [
+        0.0,
+        1.238
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.00",
+    "input_tp": "-7.45",
+    "input_lra": "1.70",
+    "input_thresh": "-31.27",
+    "output_i": "-14.27",
+    "output_tp": "-1.50",
+    "output_lra": "1.30",
+    "output_thresh": "-24.47",
+    "normalization_type": "dynamic",
+    "target_offset": "0.27"
+  },
+  "fotogramas_unicos": 237,
+  "tts_cache": 8,
+  "spec_hash": "e72e964b733df857",
+  "segundos_produccion": 103.3,
+  "texto_hablado": [
+    "Modelo de i a y aplicación de i a no son lo mismo.",
+    "El modelo es el motor: el sistema entrenado que genera el texto.",
+    "La aplicación es el auto completo, con chat, historial, archivos y herramientas.",
+    "El mismo motor puede ir en autos distintos.",
+    "Según Anthropic, sus modelos se ofrecen en sus aps, en su a pe i y en nubes de terceros.",
+    "Y la ayuda de OpenAI trata la búsqueda web como una herramienta que se habilita.",
+    "Por eso, la misma pregunta puede dar respuestas distintas.",
+    "Al comparar, di qué modelo y qué aplicación usaste."
+  ]
+}

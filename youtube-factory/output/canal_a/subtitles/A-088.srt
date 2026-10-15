@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:03,465
+¿Para que la IA responda con tus documentos hay que entrenarla?
+
+2
+00:00:03,705 --> 00:00:04,188
+No.
+
+3
+00:00:04,348 --> 00:00:06,867
+Usa RAG: busca primero y responde después.
+
+4
+00:00:07,147 --> 00:00:08,452
+Haces una pregunta.
+
+5
+00:00:08,612 --> 00:00:12,077
+El sistema busca los fragmentos relevantes en tus documentos.
+
+6
+00:00:12,237 --> 00:00:15,352
+Y la IA redacta la respuesta usando esos fragmentos.
+
+7
+00:00:15,632 --> 00:00:19,126
+Es como un estudiante que mira sus apuntes antes de contestar.
+
+8
+00:00:19,286 --> 00:00:21,806
+No los memoriza: los consulta cada vez.
+
+9
+00:00:22,086 --> 00:00:24,457
+Ojo: puede buscar el fragmento equivocado.
+
+10
+00:00:24,617 --> 00:00:27,535
+Pide que cite el pasaje y compáralo con tu original.

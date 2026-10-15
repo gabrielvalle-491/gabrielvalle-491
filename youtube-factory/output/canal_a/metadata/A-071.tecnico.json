@@ -1,0 +1,83 @@
+{
+  "id": "A-071",
+  "duracion_s": 33.255,
+  "frases": 11,
+  "subtitulos": 26,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.371,
+      "beats": [
+        -5.0,
+        2.526
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.371,
+      "fin": 10.897,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 10.897,
+      "fin": 19.447,
+      "beats": [
+        0.0,
+        4.234,
+        7.033
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 19.447,
+      "fin": 27.249,
+      "beats": [
+        0.0,
+        3.459
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 27.249,
+      "fin": 33.255,
+      "beats": [
+        0.0,
+        3.058
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-20.94",
+    "input_tp": "-6.75",
+    "input_lra": "1.90",
+    "input_thresh": "-31.19",
+    "output_i": "-14.16",
+    "output_tp": "-1.50",
+    "output_lra": "1.40",
+    "output_thresh": "-24.33",
+    "normalization_type": "dynamic",
+    "target_offset": "0.16"
+  },
+  "fotogramas_unicos": 336,
+  "tts_cache": 11,
+  "spec_hash": "aa3617ffd856c0e6",
+  "segundos_produccion": 131.0,
+  "texto_hablado": [
+    "La i a propone ideas de publicaciones.",
+    "La planilla las ordena por fecha y por estado.",
+    "Pídele a la i a ideas con formato y objetivo.",
+    "Sin promociones ni precios inventados.",
+    "En la planilla, una fila por publicación: fecha, idea, formato y estado.",
+    "Con contar si cuentas cuántas están listas.",
+    "Aquí, dos de cuatro.",
+    "Usa estados fijos: idea, redactado, listo y publicado.",
+    "Y revisa cada idea antes de programarla, para que encaje con tu negocio.",
+    "La i a no conoce tu inventario ni tus promociones.",
+    "Tú sí, y tú decides qué se publica."
+  ]
+}

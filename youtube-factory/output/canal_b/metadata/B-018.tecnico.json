@@ -1,0 +1,76 @@
+{
+  "id": "B-018",
+  "duracion_s": 35.988,
+  "frases": 12,
+  "subtitulos": 20,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.658,
+      "beats": [
+        -5.0,
+        2.104
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.658,
+      "fin": 12.718,
+      "beats": [
+        0.0,
+        1.866
+      ],
+      "plantilla": "barras"
+    },
+    {
+      "inicio": 12.718,
+      "fin": 26.734,
+      "beats": [
+        0.0,
+        4.26,
+        8.684
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 26.734,
+      "fin": 35.988,
+      "beats": [
+        0.0,
+        2.468
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.91",
+    "input_tp": "-4.78",
+    "input_lra": "2.10",
+    "input_thresh": "-32.11",
+    "output_i": "-14.07",
+    "output_tp": "-1.50",
+    "output_lra": "1.90",
+    "output_thresh": "-24.20",
+    "normalization_type": "dynamic",
+    "target_offset": "0.07"
+  },
+  "fotogramas_unicos": 218,
+  "tts_cache": 0,
+  "spec_hash": "93d29506dfa2640b",
+  "segundos_produccion": 104.7,
+  "texto_hablado": [
+    "Contado: mil doscientos dólares.",
+    "O doce cuotas de ciento diecisiete dólares.",
+    "¿Cuánto cuesta financiar?",
+    "Al contado, mil doscientos.",
+    "En doce cuotas de ciento diecisiete, se pagan mil cuatrocientos cuatro.",
+    "Multiplica la cuota por el número de cuotas: ciento diecisiete por doce.",
+    "Réstale el precio de contado: mil cuatrocientos cuatro menos mil doscientos.",
+    "La diferencia es doscientos cuatro.",
+    "Eso es un diecisiete por ciento más que el contado.",
+    "Si la diferencia es cero, no hay costo extra.",
+    "Esto no dice si conviene, solo cuánto cuesta.",
+    "Pregunta siempre si el total incluye intereses y cargos."
+  ]
+}

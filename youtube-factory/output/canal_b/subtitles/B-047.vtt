@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:02.690
+Un ingreso, tres montos y una sola fórmula.
+
+00:00:02.970 --> 00:00:07.656
+La guía popular reparte tu ingreso así: 50 % para necesidades.
+
+00:00:07.816 --> 00:00:09.663
+30 % para deseos.
+
+00:00:09.823 --> 00:00:12.292
+20 % para ahorro y pago de deudas.
+
+00:00:12.452 --> 00:00:14.526
+Es un punto de partida, no una norma.
+
+00:00:14.806 --> 00:00:16.578
+Escribe el ingreso en C2.
+
+00:00:16.738 --> 00:00:18.319
+Resalta los porcentajes.
+
+00:00:18.479 --> 00:00:25.114
+La fórmula multiplica el ingreso fijo por cada porcentaje: 600, 360 y 240.
+
+00:00:25.274 --> 00:00:27.665
+Es la misma fórmula, copiada hacia abajo.
+
+00:00:27.945 --> 00:00:31.182
+Cambia el ingreso y los tres montos se actualizan solos.
+
+00:00:31.342 --> 00:00:33.736
+Ajusta los porcentajes a tu situación.

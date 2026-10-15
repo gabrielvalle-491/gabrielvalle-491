@@ -1,0 +1,31 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:03.164
+Tu fórmula de fechas falla o da un resultado raro.
+
+00:00:03.324 --> 00:00:05.381
+Quizá esas fechas son solo texto.
+
+00:00:05.661 --> 00:00:08.128
+Prueba esta fórmula en la celda de al lado.
+
+00:00:08.288 --> 00:00:11.732
+Fíjate: las fechas pegadas a la izquierda suelen ser texto.
+
+00:00:11.892 --> 00:00:14.986
+ESNUMERO responde FALSO: no es una fecha de verdad.
+
+00:00:15.266 --> 00:00:18.786
+Primero, detecta: alineada a la izquierda o ESNUMERO en FALSO.
+
+00:00:18.946 --> 00:00:25.110
+Segundo, conviértela con FECHANUMERO, que devuelve un número de serie, como 46 096.
+
+00:00:25.270 --> 00:00:27.741
+Tercero, dale formato de fecha a la celda.
+
+00:00:28.021 --> 00:00:32.285
+Con fechas reales, ya puedes restarlas, ordenarlas y filtrarlas por mes.
+
+00:00:32.445 --> 00:00:34.639
+Primero comprueba, después calcula.

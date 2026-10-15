@@ -1,0 +1,51 @@
+1
+00:00:00,120 --> 00:00:03,284
+¿Tu anuncio suena igual en México, Argentina y Colombia?
+
+2
+00:00:03,524 --> 00:00:04,477
+Casi nunca.
+
+3
+00:00:04,757 --> 00:00:07,473
+En Argentina, el trato informal es el voseo.
+
+4
+00:00:07,633 --> 00:00:09,012
+En México, el tuteo.
+
+5
+00:00:09,172 --> 00:00:11,167
+Mismo idioma, distinto trato.
+
+6
+00:00:11,447 --> 00:00:13,105
+También cambian las palabras.
+
+7
+00:00:13,265 --> 00:00:15,359
+En Colombia se usa más computador.
+
+8
+00:00:15,519 --> 00:00:17,044
+En México, computadora.
+
+9
+00:00:17,204 --> 00:00:20,248
+Y los tres usan pesos, pero cada país tiene el suyo.
+
+10
+00:00:20,528 --> 00:00:23,372
+Pídele a la IA que adapte el texto y liste lo que cambió.
+
+11
+00:00:23,532 --> 00:00:26,075
+Así ves cada decisión y puedes corregirla.
+
+12
+00:00:26,355 --> 00:00:28,504
+Después, que lo revise una persona de ese
+
+13
+00:00:28,504 --> 00:00:31,544
+país, porque dentro de cada país también hay variaciones.

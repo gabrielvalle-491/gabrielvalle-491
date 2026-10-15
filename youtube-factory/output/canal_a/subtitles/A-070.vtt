@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:03.534
+Un mensaje largo, tareas sueltas y nadie sabe quién hace qué.
+
+00:00:03.694 --> 00:00:05.292
+Conviértelo en una tabla.
+
+00:00:05.572 --> 00:00:08.304
+Parte de un texto así: Ana envía la cotización,
+
+00:00:08.304 --> 00:00:11.616
+Luis revisa el contrato, falta quién actualice la lista.
+
+00:00:11.896 --> 00:00:15.243
+En el prompt, fija las cuatro columnas y el formato de fecha.
+
+00:00:15.403 --> 00:00:17.425
+Limita el estado a tres valores.
+
+00:00:17.585 --> 00:00:19.983
+Y que escriba POR DEFINIR lo que falte.
+
+00:00:20.263 --> 00:00:22.184
+Así queda, con datos ficticios.
+
+00:00:22.344 --> 00:00:25.288
+Una fila por tarea, y los estados se pueden filtrar.
+
+00:00:25.448 --> 00:00:27.270
+Lo que falta aparece marcado.
+
+00:00:27.550 --> 00:00:30.293
+Revisa cada fila contra el mensaje original.

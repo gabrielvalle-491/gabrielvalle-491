@@ -1,0 +1,75 @@
+{
+  "id": "A-048",
+  "duracion_s": 34.369,
+  "frases": 12,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.007,
+      "beats": [
+        -5.0,
+        2.18
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.007,
+      "fin": 14.324,
+      "beats": [
+        0.0,
+        2.738,
+        5.719
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 14.324,
+      "fin": 22.767,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 22.767,
+      "fin": 34.369,
+      "beats": [
+        0.0,
+        4.65
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-20.83",
+    "input_tp": "-5.78",
+    "input_lra": "2.00",
+    "input_thresh": "-31.08",
+    "output_i": "-14.19",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.35",
+    "normalization_type": "dynamic",
+    "target_offset": "0.19"
+  },
+  "fotogramas_unicos": 288,
+  "tts_cache": 12,
+  "spec_hash": "37bf34b4ed44d173",
+  "segundos_produccion": 128.1,
+  "texto_hablado": [
+    "¿Un correo largo y poco tiempo?",
+    "Pide tres respuestas distintas.",
+    "Tú eliges y ajustas.",
+    "La formal cuida el tono con quien no conoces.",
+    "La breve va al punto con quien ya tienes confianza.",
+    "La tercera suma una propuesta concreta.",
+    "Este es el prompt.",
+    "Pega el correo y cambia tu propuesta, por ejemplo, una fecha para reunirse.",
+    "La i a solo debe usar datos del correo.",
+    "Elige una, ajusta el tono a tu estilo y revisa nombres, fechas y compromisos.",
+    "Quita datos personales antes de pegar.",
+    "Así respondes más rápido, sin enviar nada que no hayas leído."
+  ]
+}

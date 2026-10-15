@@ -63,9 +63,9 @@
     "target_offset": "0.14"
   },
   "fotogramas_unicos": 328,
-  "tts_cache": 0,
+  "tts_cache": 9,
   "spec_hash": "22ac7184a155e5d5",
-  "segundos_produccion": 164.1,
+  "segundos_produccion": 123.9,
   "texto_hablado": [
     "Si envías cada correo a mano desde tu planilla, estás repitiendo trabajo.",
     "aps script lo hace por ti.",

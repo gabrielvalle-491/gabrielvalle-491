@@ -1,0 +1,39 @@
+1
+00:00:00,120 --> 00:00:03,415
+Puedes pasarle a la IA la foto de un ticket o de una pizarra.
+
+2
+00:00:03,695 --> 00:00:05,948
+Toma la foto de frente y con buena luz.
+
+3
+00:00:06,108 --> 00:00:09,053
+Pide primero que transcriba tal cual, sin interpretar.
+
+4
+00:00:09,213 --> 00:00:12,005
+Y después, que lo pase a una tabla con tus columnas.
+
+5
+00:00:12,285 --> 00:00:14,375
+Revisa los números y los decimales.
+
+6
+00:00:14,535 --> 00:00:16,195
+Revisa los nombres propios.
+
+7
+00:00:16,355 --> 00:00:19,075
+Y el texto pequeño, torcido o borroso, porque la
+
+8
+00:00:19,075 --> 00:00:22,023
+ayuda de OpenAI advierte que ahí la precisión baja.
+
+9
+00:00:22,303 --> 00:00:24,495
+Y no subas fotos con datos sensibles.
+
+10
+00:00:24,655 --> 00:00:27,150
+Pide marcar como ilegible lo que no se lea.

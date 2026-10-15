@@ -1,0 +1,47 @@
+1
+00:00:00,120 --> 00:00:03,815
+Una tienda ofrece 110 al contado o tres cuotas de 40.
+
+2
+00:00:03,975 --> 00:00:04,806
+¿Qué conviene?
+
+3
+00:00:05,046 --> 00:00:07,710
+¿Siempre el contado, siempre las cuotas, o depende?
+
+4
+00:00:07,950 --> 00:00:09,195
+Depende de la tasa.
+
+5
+00:00:09,475 --> 00:00:12,046
+Tres cuotas de 40 suman 120.
+
+6
+00:00:12,206 --> 00:00:14,088
+El contado cuesta 110.
+
+7
+00:00:14,248 --> 00:00:19,793
+La diferencia equivale a una tasa de unos 4,5 % mensual, con la función TASA.
+
+8
+00:00:20,073 --> 00:00:22,887
+La función VA lleva las cuotas a valor de hoy.
+
+9
+00:00:23,047 --> 00:00:27,217
+A 1 % mensual valen 117,64.
+
+10
+00:00:27,377 --> 00:00:30,497
+A 8 % mensual, 103,08.
+
+11
+00:00:30,657 --> 00:00:33,772
+Compara con 110 al contado: la tasa decide.
+
+12
+00:00:34,052 --> 00:00:36,972
+Haz la cuenta con tu propia tasa antes de decidir.

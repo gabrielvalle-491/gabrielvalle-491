@@ -1,0 +1,85 @@
+{
+  "id": "B-085",
+  "duracion_s": 33.862,
+  "frases": 11,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.077,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.077,
+      "fin": 11.263,
+      "beats": [
+        0.0,
+        2.784,
+        4.865,
+        5.743
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 11.263,
+      "fin": 18.892,
+      "beats": [
+        0.0,
+        3.71,
+        5.227
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 18.892,
+      "fin": 26.346,
+      "beats": [
+        0.0,
+        2.885
+      ],
+      "plantilla": "dato"
+    },
+    {
+      "inicio": 26.346,
+      "fin": 33.862,
+      "beats": [
+        0.0,
+        3.284
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.91",
+    "input_tp": "-6.64",
+    "input_lra": "2.60",
+    "input_thresh": "-32.10",
+    "output_i": "-14.23",
+    "output_tp": "-1.50",
+    "output_lra": "2.10",
+    "output_thresh": "-24.36",
+    "normalization_type": "dynamic",
+    "target_offset": "0.23"
+  },
+  "fotogramas_unicos": 289,
+  "tts_cache": 11,
+  "spec_hash": "52cf2fe1f3eee23f",
+  "segundos_produccion": 95.6,
+  "texto_hablado": [
+    "buscar equis busca un solo valor.",
+    "Pero puedes pasarle dos.",
+    "Une los dos criterios con el símbolo &.",
+    "Haz lo mismo con las dos columnas.",
+    "Y al final, la columna con el precio.",
+    "En esta tabla, el pantalón talla M cuesta treinta y ocho.",
+    "La fórmula lo encuentra aunque haya otro pantalón en otra talla.",
+    "Si la combinación se repite, devuelve la primera.",
+    "Y requiere éxcel dos mil veintiuno o Microsoft trescientos sesenta y cinco.",
+    "Dos columnas unidas con ampersand, un solo resultado.",
+    "Cambia el producto y la talla, y la fórmula encuentra el precio."
+  ]
+}

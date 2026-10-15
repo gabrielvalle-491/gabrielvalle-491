@@ -1,0 +1,40 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:02.989
+Haz que tu inventario te avise solo cuándo reponer.
+
+00:00:03.149 --> 00:00:05.259
+Sin revisar producto por producto.
+
+00:00:05.539 --> 00:00:08.316
+Anota el stock actual y el mínimo de cada producto.
+
+00:00:08.476 --> 00:00:10.220
+Resalta esas dos columnas.
+
+00:00:10.380 --> 00:00:13.076
+Esas dos columnas son las que la fórmula compara.
+
+00:00:13.236 --> 00:00:16.955
+Con 12 de stock contra 20 de mínimo, el cable queda en Reponer.
+
+00:00:17.235 --> 00:00:19.057
+La fórmula compara dos celdas.
+
+00:00:19.217 --> 00:00:22.308
+Si el stock es menor o igual al mínimo, muestra Reponer.
+
+00:00:22.468 --> 00:00:23.806
+Si no, muestra OK.
+
+00:00:24.086 --> 00:00:26.604
+Primero, escribe producto, stock y mínimo.
+
+00:00:26.764 --> 00:00:29.234
+Segundo, pon la fórmula en la columna Estado.
+
+00:00:29.394 --> 00:00:31.196
+Tercero, cópiala hacia abajo.
+
+00:00:31.476 --> 00:00:34.715
+Cambia un stock o un mínimo y el aviso se actualiza solo.

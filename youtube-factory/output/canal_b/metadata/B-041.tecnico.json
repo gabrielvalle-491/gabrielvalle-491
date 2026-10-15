@@ -1,0 +1,77 @@
+{
+  "id": "B-041",
+  "duracion_s": 33.296,
+  "frases": 12,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.529,
+      "beats": [
+        -5.0,
+        4.449
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.529,
+      "fin": 14.341,
+      "beats": [
+        0.0,
+        2.189,
+        3.644
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 14.341,
+      "fin": 26.361,
+      "beats": [
+        0.0,
+        4.109,
+        6.638
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 26.361,
+      "fin": 33.296,
+      "beats": [
+        0.0,
+        1.837
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.05",
+    "input_tp": "-7.12",
+    "input_lra": "1.60",
+    "input_thresh": "-32.23",
+    "output_i": "-14.26",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.37",
+    "normalization_type": "dynamic",
+    "target_offset": "0.26"
+  },
+  "fotogramas_unicos": 235,
+  "tts_cache": 12,
+  "spec_hash": "414f85d04606553f",
+  "segundos_produccion": 79.2,
+  "texto_hablado": [
+    "Cuatro amigos, una cuenta de doscientos cuarenta y nadie sabe quién debe a quién.",
+    "Una planilla simple lo resuelve.",
+    "Anota cuánto pagó cada persona.",
+    "Resalta esos pagos.",
+    "La fórmula resta la cuota de sesenta, y Ana queda con noventa a favor.",
+    "La cuota es doscientos cuarenta entre cuatro: sesenta por persona.",
+    "Carla y Diego deben sesenta cada uno.",
+    "Ana recibe noventa y Beto treinta.",
+    "Un saldo negativo paga; uno positivo recibe.",
+    "Carla paga sesenta a Ana.",
+    "Diego paga treinta a Ana y treinta a Beto.",
+    "Y todos quedan en cero."
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "A-057",
+  "duracion_s": 28.992,
+  "frases": 9,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.79,
+      "beats": [
+        -5.0,
+        1.508
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.79,
+      "fin": 13.996,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 13.996,
+      "fin": 22.105,
+      "beats": [
+        0.0,
+        2.486,
+        5.865
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 22.105,
+      "fin": 28.992,
+      "beats": [
+        0.0,
+        3.285
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.33",
+    "input_tp": "-6.35",
+    "input_lra": "2.00",
+    "input_thresh": "-31.55",
+    "output_i": "-14.09",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.29",
+    "normalization_type": "dynamic",
+    "target_offset": "0.09"
+  },
+  "fotogramas_unicos": 272,
+  "tts_cache": 0,
+  "spec_hash": "291e046470469614",
+  "segundos_produccion": 114.2,
+  "texto_hablado": [
+    "Termina tu prompt con una frase y la i a te pide lo que le falta.",
+    "La frase es esta: antes de responder, hazme hasta cinco preguntas.",
+    "Ponle un límite, para que no sea un interrogatorio.",
+    "Y pide una lista numerada, así contestas todo de una vez.",
+    "Contesta cada pregunta en una línea.",
+    "Si no sabes algo, dilo y pídele que proponga un supuesto.",
+    "Y no compartas datos sensibles.",
+    "Con tus respuestas, la salida deja de ser genérica.",
+    "Si no hace preguntas, repite la frase al final."
+  ]
+}

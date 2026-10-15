@@ -1,0 +1,74 @@
+{
+  "id": "A-060",
+  "duracion_s": 33.316,
+  "frases": 9,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.065,
+      "beats": [
+        -5.0,
+        2.418
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.065,
+      "fin": 16.811,
+      "beats": [
+        0.0,
+        3.384,
+        5.766,
+        8.1
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 16.811,
+      "fin": 24.553,
+      "beats": [
+        0.0,
+        3.179
+      ],
+      "plantilla": "dato"
+    },
+    {
+      "inicio": 24.553,
+      "fin": 33.316,
+      "beats": [
+        0.0,
+        5.134
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.21",
+    "input_tp": "-6.79",
+    "input_lra": "2.10",
+    "input_thresh": "-31.48",
+    "output_i": "-14.25",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.45",
+    "normalization_type": "dynamic",
+    "target_offset": "0.25"
+  },
+  "fotogramas_unicos": 248,
+  "tts_cache": 0,
+  "spec_hash": "317d8ae6e58248f6",
+  "segundos_produccion": 110.7,
+  "texto_hablado": [
+    "Escribe prompts largos hablando, sin instalar nada: Windows trae una función de escritura por voz.",
+    "Haz clic dentro del cuadro de texto donde irá tu prompt.",
+    "Pulsa la tecla Windows y H a la vez.",
+    "Habla con calma y revisa lo escrito.",
+    "Para terminar, pulsa el botón del micrófono.",
+    "Según Microsoft, necesitas micrófono e internet.",
+    "El reconocimiento en línea usa la nube, así que no dictes datos sensibles.",
+    "Revisa nombres, cifras y puntuación antes de enviar, porque el dictado puede equivocarse.",
+    "Es más rápido, pero no reemplaza tu revisión."
+  ]
+}

@@ -1,0 +1,81 @@
+# Temario del curso de Atajo IA. Fuente única de títulos, objetivos y orden de las lecciones.
+# Cada lección es una ficha en content/canal_a/<id>.yaml con "curso: ia-para-tu-trabajo".
+# enlace_material: enlace público del archivo de práctica (Drive) después de subirlo; vacío = no se publica.
+id: ia-para-tu-trabajo
+canal: canal_a
+titulo: "IA para tu trabajo"
+titulo_completo: "IA para tu trabajo, desde cero: curso práctico gratuito"
+promesa: "En 12 lecciones aprendes a usar asistentes de IA con criterio: buenos prompts, verificación, privacidad y automatizaciones reales para el trabajo y para un negocio."
+publico: "Personas que trabajan en oficinas, comercios o de forma independiente y quieren usar IA sin humo."
+nivel: "principiante → intermedio"
+requisitos: "Cualquier asistente de IA con versión gratuita (ChatGPT, Gemini, Claude o Copilot) y una cuenta de Google para las lecciones de automatización."
+formato_leccion: "5-10 min · portada con objetivos · 3-5 capítulos · ejercicio con archivo de prompts · resumen y próxima lección"
+lista_youtube_id: ""
+enlace_lista: ""
+modulos:
+  - titulo: "Fundamentos"
+    lecciones:
+      - id: A-L01
+        pilar: conceptos
+        titulo: "Qué es un asistente de IA y cómo funciona, sin tecnicismos"
+        objetivos: ["Entender cómo genera sus respuestas", "Saber qué hace bien y qué hace mal", "Tener tu primera conversación útil"]
+        enlace_material: ""
+      - id: A-L02
+        pilar: prompts
+        titulo: "Tu primer buen prompt: rol, tarea, contexto y formato"
+        objetivos: ["Armar un prompt en cuatro partes", "Pedir el formato que necesitas", "Mejorar una respuesta en dos pasos"]
+        enlace_material: ""
+      - id: A-L03
+        pilar: ia_sin_humo
+        titulo: "Verificar lo que dice la IA: errores, inventos y cómo detectarlos"
+        objetivos: ["Reconocer respuestas inventadas", "Chequear datos, cifras y citas", "Pedir fuentes con criterio"]
+        enlace_material: ""
+      - id: A-L04
+        pilar: seguridad
+        titulo: "Privacidad y seguridad: qué nunca pegar en un chat de IA"
+        objetivos: ["Identificar datos sensibles", "Anonimizar antes de pegar", "Revisar la configuración de privacidad"]
+        enlace_material: ""
+  - titulo: "IA en el día a día"
+    lecciones:
+      - id: A-L05
+        pilar: productividad
+        titulo: "Correos y documentos: redactar, resumir y corregir con IA"
+        objetivos: ["Redactar un correo con el tono justo", "Resumir un documento largo", "Corregir sin perder tu estilo"]
+        enlace_material: ""
+      - id: A-L06
+        pilar: productividad
+        titulo: "Organiza tu semana con IA: prioridades, reuniones y tareas"
+        objetivos: ["Priorizar una lista de pendientes", "Preparar y resumir reuniones", "Armar un plan semanal realista"]
+        enlace_material: ""
+      - id: A-L07
+        pilar: automatizacion
+        titulo: "IA con planillas: fórmulas, limpieza y análisis"
+        objetivos: ["Pedir fórmulas que funcionen", "Limpiar datos desordenados", "Interpretar resultados con cuidado"]
+        enlace_material: ""
+      - id: A-L08
+        pilar: empleo
+        titulo: "IA para buscar trabajo: CV, carta y entrevista"
+        objetivos: ["Adaptar tu CV a un aviso", "Escribir una carta breve y propia", "Practicar una entrevista"]
+        enlace_material: ""
+  - titulo: "IA para un negocio"
+    lecciones:
+      - id: A-L09
+        pilar: negocio
+        titulo: "Atención al cliente con IA: respuestas, reclamos y reseñas"
+        objetivos: ["Crear respuestas modelo", "Responder reclamos con calma", "Contestar reseñas sin sonar a robot"]
+        enlace_material: ""
+      - id: A-L10
+        pilar: automatizacion
+        titulo: "Automatizaciones sin código: formularios, planillas y correo"
+        objetivos: ["Conectar un formulario con una planilla", "Enviar avisos automáticos", "Detectar qué conviene automatizar"]
+        enlace_material: ""
+      - id: A-L11
+        pilar: automatizacion
+        titulo: "Apps Script desde cero: enviar correos desde una planilla"
+        objetivos: ["Abrir y ejecutar un script", "Leer datos de una hoja", "Enviar correos personalizados con control"]
+        enlace_material: ""
+      - id: A-L12
+        pilar: prompts
+        titulo: "Proyecto final: tu biblioteca de prompts reutilizable"
+        objetivos: ["Guardar prompts que funcionan", "Organizarlos por tarea", "Mejorarlos con el uso"]
+        enlace_material: ""

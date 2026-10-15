@@ -1,0 +1,31 @@
+1
+00:00:00,120 --> 00:00:03,214
+Dibuja barras dentro de tus celdas sin crear un gráfico.
+
+2
+00:00:03,494 --> 00:00:06,876
+Parte de una columna de números, por ejemplo ventas por producto.
+
+3
+00:00:07,036 --> 00:00:08,855
+Selecciona solo esos valores.
+
+4
+00:00:09,135 --> 00:00:11,379
+En Inicio, abre Formato condicional.
+
+5
+00:00:11,539 --> 00:00:12,931
+Elige Barras de datos.
+
+6
+00:00:13,091 --> 00:00:14,336
+Y escoge un estilo.
+
+7
+00:00:14,616 --> 00:00:17,585
+El largo de cada barra compara los valores del rango.
+
+8
+00:00:17,745 --> 00:00:20,064
+Con una sola celda, la barra llena todo.

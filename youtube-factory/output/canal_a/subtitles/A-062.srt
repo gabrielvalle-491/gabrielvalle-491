@@ -1,0 +1,35 @@
+1
+00:00:00,120 --> 00:00:03,385
+Notas de reunión desordenadas y nadie sabe quién hace qué.
+
+2
+00:00:03,545 --> 00:00:05,291
+Así se pierden los acuerdos.
+
+3
+00:00:05,571 --> 00:00:09,661
+Pega tus notas y pide una tabla con tarea, responsable, fecha y estado.
+
+4
+00:00:09,821 --> 00:00:13,239
+Si falta un dato, que escriba por definir, en vez de inventarlo.
+
+5
+00:00:13,519 --> 00:00:16,334
+Así se vería el resultado, con datos ficticios.
+
+6
+00:00:16,494 --> 00:00:18,765
+Lo que falta queda marcado, no inventado.
+
+7
+00:00:18,925 --> 00:00:20,629
+Y tú decides qué completar.
+
+8
+00:00:20,909 --> 00:00:25,003
+Revisa la tabla contra tus notas y confirma los pendientes con el equipo.
+
+9
+00:00:25,163 --> 00:00:29,181
+Si las notas son confidenciales, sigue las políticas de tu organización.

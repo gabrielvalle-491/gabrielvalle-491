@@ -1,0 +1,75 @@
+{
+  "id": "B-049",
+  "duracion_s": 29.599,
+  "frases": 10,
+  "subtitulos": 22,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.851,
+      "beats": [
+        -5.0,
+        2.748
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.851,
+      "fin": 13.495,
+      "beats": [
+        0.0,
+        3.211,
+        6.661
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 13.495,
+      "fin": 24.066,
+      "beats": [
+        0.0,
+        2.609,
+        4.3
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 24.066,
+      "fin": 29.599,
+      "beats": [
+        0.0,
+        1.917
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.29",
+    "input_tp": "-7.32",
+    "input_lra": "2.50",
+    "input_thresh": "-32.51",
+    "output_i": "-14.29",
+    "output_tp": "-1.50",
+    "output_lra": "1.40",
+    "output_thresh": "-24.42",
+    "normalization_type": "dynamic",
+    "target_offset": "0.29"
+  },
+  "fotogramas_unicos": 221,
+  "tts_cache": 10,
+  "spec_hash": "9fb4029169ee037c",
+  "segundos_produccion": 82.3,
+  "texto_hablado": [
+    "vi lukap y buscar uve son la misma función.",
+    "Cambia el idioma, no la lógica.",
+    "En inglés escribes vi lukap, caunt ifs y net uerk deis.",
+    "En español, buscar uve, contar si conjunto y días lab.",
+    "Misma lógica, otro nombre.",
+    "Y hay tres trampas al copiar una fórmula.",
+    "FALSE se escribe falso.",
+    "TRUE, VERDADERO.",
+    "Y la coma entre argumentos puede ser punto y coma, según tu configuración regional.",
+    "Si abres un archivo de otra región, éxcel suele mostrarte los nombres en tu idioma."
+  ]
+}

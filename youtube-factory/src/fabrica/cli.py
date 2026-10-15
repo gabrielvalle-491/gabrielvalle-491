@@ -23,7 +23,8 @@ def cmd_validar(a):
         desbordes = []
         if not inf.criticos or a.visual:
             try:
-                info = analizar(spec, canal_de(spec), cabecera(spec, canal_de(spec)), spec["formato"] == "largo")
+                from .cursos import preparar
+                info = analizar(preparar(spec), canal_de(spec), cabecera(spec, canal_de(spec)), spec["formato"] == "largo")
                 desbordes = [o for i in info for o in i["overflow"]]
             except Exception as e:  # noqa: BLE001
                 desbordes = [f"error al dibujar: {e}"]
@@ -148,6 +149,34 @@ def cmd_control(a):
     print("Informe completo: reports/control_final.md")
 
 
+def cmd_curso(a):
+    from . import db
+    from .cursos import generar_materiales, lecciones, temario
+    from .specs import buscar_ficha, ErrorFicha
+    for c in ([a.canal] if a.canal else ["canal_a", "canal_b"]):
+        t = temario(c)
+        if not t:
+            print(f"{c}: sin temario (cursos/{c}.yaml)")
+            continue
+        estados = {v["id"]: v for v in db.listar_videos(c)}
+        print(f"\n{t['titulo_completo']} ({c})\n{t['promesa']}\n")
+        modulo = None
+        for lec in lecciones(c):
+            if lec["modulo"] != modulo:
+                modulo = lec["modulo"]
+                print(f"  Módulo {lec['modulo_n']}: {modulo}")
+            try:
+                spec = buscar_ficha(lec["id"])
+                estado = estados.get(lec["id"], {}).get("estado", "guion listo")
+                if a.materiales and spec.get("materiales"):
+                    for m in generar_materiales(spec):
+                        print(f"      material {m['archivo']}: {m['estado']} — {m['detalle']}")
+            except ErrorFicha:
+                estado = "sin guion"
+            enlace = "enlace ✔" if lec.get("enlace_material") else "enlace del material pendiente"
+            print(f"    {lec['n']:>2}. {lec['id']}  {lec['titulo']}  [{estado}; {enlace}]")
+
+
 def cmd_costos(a):
     from .diagnostics import informe_costos
     print(informe_costos())
@@ -192,6 +221,8 @@ def main(argv=None):
     s.add_argument("canal"); s.add_argument("--fin")
     s = add("control", cmd_control, "Control final: aprobados, pendientes con motivo y estadísticas (reports/control_final.md)")
     s = add("costos", cmd_costos, "Informe de costos medidos y estimados")
+    s = add("curso", cmd_curso, "Muestra el temario de los cursos (videos largos) y el estado de cada lección")
+    s.add_argument("--canal"); s.add_argument("--materiales", action="store_true", help="genera y verifica los archivos de práctica")
     a = p.parse_args(argv)
     cargar_env()
     return a.fn(a) or 0

@@ -1,0 +1,72 @@
+{
+  "id": "B-053",
+  "duracion_s": 25.507,
+  "frases": 8,
+  "subtitulos": 18,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 3.539,
+      "beats": [
+        -5.0,
+        1.408
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 3.539,
+      "fin": 11.781,
+      "beats": [
+        0.0,
+        2.112
+      ],
+      "plantilla": "barras"
+    },
+    {
+      "inicio": 11.781,
+      "fin": 21.997,
+      "beats": [
+        0.0,
+        2.83,
+        5.557
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 21.997,
+      "fin": 25.507,
+      "beats": [
+        0.0,
+        1.108
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.59",
+    "input_tp": "-7.24",
+    "input_lra": "2.70",
+    "input_thresh": "-31.90",
+    "output_i": "-13.94",
+    "output_tp": "-1.50",
+    "output_lra": "2.00",
+    "output_thresh": "-24.17",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.06"
+  },
+  "fotogramas_unicos": 220,
+  "tts_cache": 0,
+  "spec_hash": "ba584a9827019a2c",
+  "segundos_produccion": 70.9,
+  "texto_hablado": [
+    "Muestra el avance hacia tu meta con una sola barra clara.",
+    "Meta: doscientos clientes nuevos.",
+    "Llevas ciento treinta, es decir, sesenta y cinco por ciento.",
+    "Te falta treinta y cinco por ciento.",
+    "Primero, calcula el avance: logrado entre meta.",
+    "Después, lo pendiente: uno menos el avance.",
+    "Selecciona ambas celdas, ve a Insertar y elige un gráfico de barras apiladas.",
+    "Una barra, un porcentaje y nada de adornos."
+  ]
+}

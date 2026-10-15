@@ -1,0 +1,76 @@
+{
+  "id": "B-044",
+  "duracion_s": 40.569,
+  "frases": 11,
+  "subtitulos": 26,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 10.367,
+      "beats": [
+        -5.0,
+        5.473
+      ],
+      "plantilla": "mito"
+    },
+    {
+      "inicio": 10.367,
+      "fin": 21.63,
+      "beats": [
+        0.0,
+        2.112,
+        5.593
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 21.63,
+      "fin": 34.51,
+      "beats": [
+        0.0,
+        3.385,
+        6.833
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 34.51,
+      "fin": 40.569,
+      "beats": [
+        0.0,
+        2.127
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.42",
+    "input_tp": "-3.55",
+    "input_lra": "1.90",
+    "input_thresh": "-32.63",
+    "output_i": "-13.91",
+    "output_tp": "-1.50",
+    "output_lra": "1.00",
+    "output_thresh": "-24.06",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.09"
+  },
+  "fotogramas_unicos": 252,
+  "tts_cache": 0,
+  "spec_hash": "16e104b6fd4a671b",
+  "segundos_produccion": 101.5,
+  "texto_hablado": [
+    "Mito: si el interés es de dos por ciento mensual, la tasa anual es de veinticuatro por ciento.",
+    "Realidad: con interés sobre interés, es de veintiséis coma ochenta y dos por ciento.",
+    "Mes uno: cien pasan a ciento dos.",
+    "Mes dos: ciento dos pasan a ciento cuatro coma cero cuatro.",
+    "Al mes doce, cien pasan a ciento veintiséis coma ochenta y dos.",
+    "Eso es interés sobre interés.",
+    "En éxcel, la función interés efectivo hace la cuenta.",
+    "Primero, la tasa nominal anual: veinticuatro por ciento.",
+    "Después, las capitalizaciones por año: doce.",
+    "Resultado: veintiséis coma ochenta y dos por ciento.",
+    "Por eso, compara tasas con la misma base: nominal con nominal, o efectiva con efectiva."
+  ]
+}

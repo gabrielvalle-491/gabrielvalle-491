@@ -1,0 +1,75 @@
+{
+  "id": "B-058",
+  "duracion_s": 30.44,
+  "frases": 9,
+  "subtitulos": 20,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.382,
+      "beats": [
+        -5.0,
+        1.745
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.382,
+      "fin": 14.955,
+      "beats": [
+        0.0,
+        2.313,
+        4.322,
+        7.376
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 14.955,
+      "fin": 27.098,
+      "beats": [
+        0.0,
+        6.434,
+        8.996
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 27.098,
+      "fin": 30.44,
+      "beats": [
+        0.0,
+        1.009
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.03",
+    "input_tp": "-6.08",
+    "input_lra": "1.80",
+    "input_thresh": "-32.24",
+    "output_i": "-14.02",
+    "output_tp": "-1.50",
+    "output_lra": "1.50",
+    "output_thresh": "-24.19",
+    "normalization_type": "dynamic",
+    "target_offset": "0.02"
+  },
+  "fotogramas_unicos": 220,
+  "tts_cache": 9,
+  "spec_hash": "f545bdca9bf0ef52",
+  "segundos_produccion": 79.8,
+  "texto_hablado": [
+    "Tu buscar uve devuelve un precio que no existe, y no muestra ningún error.",
+    "buscar uve lleva cuatro argumentos.",
+    "Primero, el código que buscas.",
+    "Luego, la tabla y la columna que quieres devolver.",
+    "Y al final, falso: eso pide coincidencia exacta.",
+    "Sin el cuarto argumento, buscar ciento cuatro devuelve el precio del ciento uno, porque la búsqueda es aproximada.",
+    "Con falso, avisa que el código no existe.",
+    "Para coincidencia exacta, escribe siempre falso.",
+    "Revisa tus fórmulas: ¿terminan en falso?"
+  ]
+}

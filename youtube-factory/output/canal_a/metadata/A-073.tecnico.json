@@ -1,0 +1,77 @@
+{
+  "id": "A-073",
+  "duracion_s": 31.475,
+  "frases": 11,
+  "subtitulos": 23,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 5.243,
+      "beats": [
+        -5.0,
+        3.799
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 5.243,
+      "fin": 15.889,
+      "beats": [
+        0.0,
+        2.161,
+        4.645,
+        7.926
+      ],
+      "plantilla": "lista"
+    },
+    {
+      "inicio": 15.889,
+      "fin": 25.684,
+      "beats": [
+        0.0,
+        4.58,
+        8.079
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 25.684,
+      "fin": 31.475,
+      "beats": [
+        0.0,
+        2.511
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-20.94",
+    "input_tp": "-6.66",
+    "input_lra": "1.70",
+    "input_thresh": "-31.20",
+    "output_i": "-13.89",
+    "output_tp": "-1.50",
+    "output_lra": "1.40",
+    "output_thresh": "-24.08",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.11"
+  },
+  "fotogramas_unicos": 229,
+  "tts_cache": 11,
+  "spec_hash": "dc8fa38266d30cfa",
+  "segundos_produccion": 103.7,
+  "texto_hablado": [
+    "Error común: pegar en un chatbot datos que no deberías compartir.",
+    "Veamos cuáles son.",
+    "No pegues contraseñas ni claves.",
+    "Tampoco números de tarjeta o de cuenta.",
+    "Ni documentos de identidad, datos médicos o de clientes.",
+    "Ni información confidencial de tu empresa.",
+    "Si necesitas ayuda con un texto real, cambia lo identificable por etiquetas.",
+    "Así la i a entiende la estructura sin ver los datos reales.",
+    "Toma solo unos segundos.",
+    "Si dudas, no lo pegues y pregunta primero.",
+    "Y sigue la política de i a de tu empresa."
+  ]
+}

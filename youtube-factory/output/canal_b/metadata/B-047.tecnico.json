@@ -1,0 +1,76 @@
+{
+  "id": "B-047",
+  "duracion_s": 34.596,
+  "frases": 11,
+  "subtitulos": 24,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 2.89,
+      "beats": [
+        -5.0,
+        1.148
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 2.89,
+      "fin": 14.726,
+      "beats": [
+        0.0,
+        4.876,
+        6.882
+      ],
+      "plantilla": "donut"
+    },
+    {
+      "inicio": 14.726,
+      "fin": 27.865,
+      "beats": [
+        0.0,
+        1.962,
+        3.703
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 27.865,
+      "fin": 34.596,
+      "beats": [
+        0.0,
+        3.427
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.73",
+    "input_tp": "-6.11",
+    "input_lra": "2.40",
+    "input_thresh": "-31.96",
+    "output_i": "-14.39",
+    "output_tp": "-1.50",
+    "output_lra": "2.00",
+    "output_thresh": "-24.54",
+    "normalization_type": "dynamic",
+    "target_offset": "0.39"
+  },
+  "fotogramas_unicos": 233,
+  "tts_cache": 11,
+  "spec_hash": "6590154791921d9d",
+  "segundos_produccion": 80.5,
+  "texto_hablado": [
+    "Un ingreso, tres montos y una sola fórmula.",
+    "La guía popular reparte tu ingreso así: cincuenta por ciento para necesidades.",
+    "treinta por ciento para deseos.",
+    "veinte por ciento para ahorro y pago de deudas.",
+    "Es un punto de partida, no una norma.",
+    "Escribe el ingreso en ce dos.",
+    "Resalta los porcentajes.",
+    "La fórmula multiplica el ingreso fijo por cada porcentaje: seiscientos, trescientos sesenta y doscientos cuarenta.",
+    "Es la misma fórmula, copiada hacia abajo.",
+    "Cambia el ingreso y los tres montos se actualizan solos.",
+    "Ajusta los porcentajes a tu situación."
+  ]
+}

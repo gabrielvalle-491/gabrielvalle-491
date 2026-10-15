@@ -1,0 +1,2 @@
+# Los .bat se guardan con fin de línea de Windows (CRLF) tal cual
+*.bat -text

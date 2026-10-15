@@ -135,7 +135,9 @@ table.g td.res{{font-weight:800;color:#0b0b0b}}
 .vs .card{{flex:1;padding:34px 32px}}
 .vs .t{{font:800 54px/1.08 var(--fh);margin-bottom:22px}}
 .vs ul{{list-style:none;display:flex;flex-direction:column;gap:16px;font:500 40px/1.25 var(--fb)}}
-.vs li::before{{content:"";display:inline-block;width:14px;height:14px;border-radius:50%;background:var(--ac);margin-right:14px;vertical-align:.2em}}
+.vs .card{{min-width:0;overflow-wrap:anywhere;hyphens:auto}}
+.vs li{{display:flex;gap:12px;align-items:baseline}} .vs li::before{{flex:none}}
+.vs li::before{{content:"";display:inline-block;width:14px;height:14px;border-radius:50%;background:var(--ac);margin-right:2px;transform:translateY(-.15em)}}
 .vs .r li::before{{background:var(--ac2)}}
 .vs .tag{{display:inline-block;font:700 26px/1 var(--fb);letter-spacing:.06em;text-transform:uppercase;padding:10px 16px;border-radius:999px;background:color-mix(in srgb,var(--fg) 10%,transparent);margin-bottom:18px}}
 .verdict{{font:700 42px/1.25 var(--fb);text-align:center}}
@@ -143,8 +145,8 @@ table.g td.res{{font-weight:800;color:#0b0b0b}}
 .mito{{position:relative}}
 .mito .lbl{{font:800 38px/1 var(--fb);letter-spacing:.12em;margin-bottom:18px}}
 .mito .lbl.m{{color:var(--bad)}} .mito .lbl.r{{color:var(--ok)}}
-.strike{{position:relative;display:inline}}
-.strike::after{{content:"";position:absolute;left:0;top:52%;height:10px;width:calc(100% * var(--s,0));background:var(--bad);border-radius:6px}}
+.strike{{display:inline;text-decoration-line:line-through;text-decoration-thickness:.13em;text-decoration-skip-ink:none;
+  text-decoration-color:color-mix(in srgb,var(--bad) calc(var(--s,0) * 100%),transparent)}}
 /* pasos */
 .steps{{display:flex;flex-direction:column;gap:22px}}
 .step{{display:flex;gap:28px;align-items:center}}
@@ -191,7 +193,54 @@ body.h #head{{top:56px;left:96px;right:96px}}
 body.h #stage{{top:150px;left:96px;right:96px;height:740px}}
 body.h #cap{{top:920px;width:1500px;font-size:50px}}
 body.h .h1{{font-size:96px;max-height:520px}}
-body.h .p{{font-size:40px}}
+body.h .p{{font-size:50px;max-height:560px}}
+body.h .h2{{font-size:84px}}
+body.h .li{{font-size:58px}} body.h .li .tx small{{font-size:34px}}
+body.h .step .c{{font-size:56px}} body.h .step .c small{{font-size:34px}}
+body.h .part{{font-size:52px}} body.h .formula-big{{font-size:66px}}
+body.h .sheet{{width:100%;max-width:1500px;align-self:center}}
+body.h table.g{{font-size:38px}} body.h table.g td{{padding:9px 18px}} body.h table.g th{{padding:6px}}
+body.h .fx{{padding:14px 22px;font-size:34px}}
+body.h .prompt{{font-size:46px}}
+body.h .vs ul{{font-size:46px}} body.h .vs .t{{font-size:60px}}
+body.h .calc .l .a{{font-size:50px}} body.h .calc .l .b{{font-size:58px}}
+/* ---- formato CURSO (lecciones horizontales) ---- */
+#head.curso{{gap:22px}}
+#head.curso .mod{{color:var(--fg);opacity:.75}}
+#head.curso .caps{{margin-left:auto;display:flex;align-items:center;gap:10px;font:600 24px/1 var(--fm);letter-spacing:0}}
+#head.curso .caps i{{width:46px;height:10px;border-radius:5px;background:color-mix(in srgb,var(--fg) 16%,transparent)}}
+#head.curso .caps i.on{{background:var(--ac)}} #head.curso .caps i.now{{background:var(--ac2)}}
+#head.curso .caps span{{margin-left:10px;color:var(--muted)}}
+.cp{{display:grid;grid-template-columns:1.15fr 1fr;gap:64px;align-items:center}}
+.cp .h1{{font-size:84px;max-height:420px}}
+.cp .meta{{font:700 30px/1.3 var(--fb);color:var(--muted);margin-top:22px}}
+.cp .obj .t{{font:800 34px/1.2 var(--fb);letter-spacing:.06em;text-transform:uppercase;color:var(--ac);margin-bottom:22px}}
+body.h .cp .obj .li{{font-size:42px}} .cp .obj .li .ic{{width:58px;height:58px;font-size:30px;border-radius:16px}}
+.dots{{display:flex;gap:12px;align-items:center;margin-top:34px}}
+.dots i{{width:44px;height:14px;border-radius:7px;background:color-mix(in srgb,var(--fg) 14%,transparent)}}
+.dots i.on{{background:color-mix(in srgb,var(--ac) 55%,transparent)}} .dots i.now{{background:var(--ac);width:88px}}
+.dots span{{font:700 26px/1 var(--fm);color:var(--muted);margin-left:12px}}
+.chap{{display:flex;flex-direction:column;justify-content:center;gap:26px}}
+.chap .num{{font:800 230px/.9 var(--fh);letter-spacing:-.06em;color:var(--ac)}}
+.chap .lab{{font:700 34px/1 var(--fm);color:var(--muted);letter-spacing:.04em;text-transform:uppercase}}
+.chap .h1{{font-size:96px;max-height:360px}}
+.chap .bar{{height:14px;border-radius:7px;background:color-mix(in srgb,var(--fg) 12%,transparent);overflow:hidden;max-width:900px}}
+.chap .bar b{{display:block;height:100%;width:calc(var(--w) * var(--g,0));background:var(--ac);border-radius:7px}}
+.ej{{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}}
+.ej .izq{{display:flex;flex-direction:column;gap:30px;align-items:flex-start}} .ej .der{{display:flex;flex-direction:column;gap:30px}}
+.ej .pista .small{{margin-bottom:8px}} .ej .pista .p{{font-size:38px}}
+.ej .tag{{display:inline-flex;gap:14px;align-items:center;font:800 30px/1 var(--fb);letter-spacing:.08em;text-transform:uppercase;background:var(--ac2);color:#111;padding:14px 22px;border-radius:999px}}
+.ej .pausa{{display:inline-flex;gap:14px;align-items:center;font:700 30px/1 var(--fb);color:var(--muted);margin-left:18px}}
+.ej .pausa i{{width:30px;height:34px;border-left:10px solid var(--ac2);border-right:10px solid var(--ac2)}}
+.ej .h2{{font-size:76px;max-height:440px}}
+.ej .steps .step .n{{width:76px;height:76px;font-size:36px;border-width:4px}} body.h .ej .steps .step .c{{font-size:44px}}
+.chip{{display:inline-flex;gap:14px;align-items:center;font:600 28px/1.25 var(--fm);padding:16px 22px;border-radius:18px;border:2px dashed var(--ac);color:var(--fg);background:color-mix(in srgb,var(--ac) 8%,transparent)}}
+.cc{{display:grid;grid-template-columns:1.2fr 1fr;gap:56px;align-items:center}}
+.cc .h2{{font-size:66px}}
+body.h .cc .list .li{{font-size:44px}} .cc .list .li .ic{{width:58px;height:58px;font-size:30px;border-radius:16px}}
+.cc .next .t{{font:800 28px/1 var(--fb);letter-spacing:.08em;text-transform:uppercase;color:var(--ac);margin-bottom:18px}}
+.cc .next .x{{font:800 52px/1.12 var(--fh);letter-spacing:-.02em}}
+.cc .side{{display:flex;flex-direction:column;gap:28px}}
 """
 
 
@@ -369,12 +418,14 @@ def t_planilla(d):
             tdcls = ["n"] if es_num and str(v) else []
             if res_celda == (c, i):
                 tdcls.append("res")
+                if "n" not in tdcls and re.match(r"^[\d\s.,$%\-+\u00a0\u202f]+$", str(res["valor"])):
+                    tdcls.append("n")
                 v_html = f'<span data-b="{res.get("beat", 2)}" data-a="pop">{esc(res["valor"])}</span>'
             else:
                 v_html = esc(v)
             celdas.append(f'<td class="{" ".join(tdcls)}">{v_html}{mk}</td>')
         cuerpo.append(f"<tr{cls}>" + "".join(celdas) + "</tr>")
-    out += f'<div class="sheet" data-b="0" data-a="up">{fx}<table class="g">{head}{"".join(cuerpo)}</table></div>'
+    out += f'<div class="sheet" data-b="0" data-a="up">{fx}<table class="g fitw" data-min="22">{head}{"".join(cuerpo)}</table></div>'
     if d.get("nota"):
         out += f'<div class="small" data-b="{d.get("beat_nota", 1)}" data-a="up">{md(d["nota"])}</div>'
     return out
@@ -425,7 +476,10 @@ def t_lista(d):
 def t_versus(d):
     def lado(x, cls, b):
         tag = f'<div class="tag">{md(x["etiqueta"])}</div>' if x.get("etiqueta") else ""
+        larga = max((len(w) for i in x.get("items", []) for w in re.sub(r"[*\[\]|]", " ", str(i)).split()), default=0)
+        tam = "" if larga <= 12 else (' style="font-size:34px"' if larga <= 15 else ' style="font-size:29px"')
         items = "".join(f"<li>{md(i)}</li>" for i in x.get("items", []))
+        items = items.replace("<li>", f"<li{tam}>")
         return f'<div class="card {cls}" data-b="{b}" data-a="{"left" if cls=="l" else "right"}">{tag}<div class="t">{md(x["titulo"])}</div><ul>{items}</ul></div>'
     out = _bloque_titulo(d)
     out += f'<div class="vs">{lado(d["izq"], "l", d.get("beat_izq", 0))}{lado(d["der"], "r", d.get("beat_der", 1))}</div>'
@@ -574,11 +628,71 @@ def t_cierre(d):
     return out
 
 
+# ---------------------------------------------------------------- formato CURSO
+
+def _puntos_curso(n: int, total: int) -> str:
+    return "".join(f'<i class="{"now" if k == n else ("on" if k < n else "")}"></i>' for k in range(1, total + 1))
+
+
+def t_curso_portada(d):
+    n, total = int(d.get("leccion", 1)), int(d.get("total", 1))
+    obj = "".join(
+        f'<div class="li" data-b="{d.get("beat_objetivos", 1) + (k if d.get("objetivos_en_beats") else 0)}" data-a="left" data-delay="{0 if d.get("objetivos_en_beats") else 0.15 * k:.2f}">'
+        f'<span class="ic ok">✓</span><span class="tx">{md(o)}</span></div>'
+        for k, o in enumerate(d.get("objetivos", [])))
+    return (f'<div class="cp"><div>'
+            f'<div class="kicker" data-b="0" data-a="up">{md(d.get("kicker") or f"Curso gratuito · Lección {n} de {total}")}</div>'
+            f'<div class="h1 fit" data-min="54" data-b="0" data-a="up" data-delay=".06">{md(d["titulo"])}</div>'
+            f'<div class="meta" data-b="0" data-a="up" data-delay=".12">{md(d.get("curso", ""))} · {md(d.get("modulo", ""))}</div>'
+            f'<div class="dots" data-b="0" data-a="fade" data-delay=".2">{_puntos_curso(n, total)}<span>{n}/{total}</span></div>'
+            f'</div><div class="card obj" data-b="{d.get("beat_objetivos", 1)}" data-a="right">'
+            f'<div class="t">{md(d.get("titulo_objetivos", "En esta lección vas a aprender"))}</div><div class="list">{obj}</div></div></div>')
+
+
+def t_capitulo(d):
+    n, total = int(d.get("n", 1)), int(d.get("total", 1))
+    sub = f'<div class="p muted fit" style="max-height:200px" data-b="{d.get("beat_sub", 0)}" data-a="up" data-delay=".25">{md(d["sub"])}</div>' if d.get("sub") else ""
+    return (f'<div class="chap"><div class="num" data-b="0" data-a="pop">{n:02d}</div>'
+            f'<div class="lab" data-b="0" data-a="up" data-delay=".1">Capítulo {n} de {total}</div>'
+            f'<div class="h1 fit" data-min="54" data-b="0" data-a="up" data-delay=".15">{md(d["titulo"])}</div>{sub}'
+            f'<div class="bar" data-b="0" data-a="fade"><b style="--w:{100 * n / max(1, total):.1f}%" data-b="0" data-a="grow" data-dur=".9" data-delay=".2"></b></div></div>')
+
+
+def t_ejercicio(d):
+    pasos = ""
+    if d.get("pasos"):
+        base = int(d.get("beat_pasos", 1))
+        pasos = '<div class="steps">' + "".join(
+            f'<div class="step" data-b="{base + k}" data-a="left"><span class="n">{k + 1}</span><span class="c">{md(p)}</span></div>'
+            for k, p in enumerate(d["pasos"])) + "</div>"
+    pista = (f'<div class="card pista" data-b="{d.get("beat_pista", 1)}" data-a="up"><div class="small">Pista</div>'
+             f'<div class="p">{md(d["pista"])}</div></div>') if d.get("pista") else ""
+    chip = (f'<div class="chip" data-b="0" data-a="up" data-delay=".3">Archivo: {esc(d["material"])}'
+            f'{(" · hoja " + esc(d["hoja"])) if d.get("hoja") else ""}</div>') if d.get("material") else ""
+    return (f'<div class="ej"><div class="izq"><div><span class="tag" data-b="0" data-a="pop">{esc(d.get("etiqueta", "Ejercicio"))}</span>'
+            f'<span class="pausa" data-b="0" data-a="fade" data-delay=".3"><i></i>{esc(d.get("pausa", "Pausa el video y resuélvelo"))}</span></div>'
+            f'<div class="h2 fit" data-min="40" data-b="0" data-a="up" data-delay=".1">{md(d["consigna"])}</div>{chip}</div>'
+            f'<div class="der">{pasos}{pista}</div></div>')
+
+
+def t_curso_cierre(d):
+    puntos = "".join(
+        f'<div class="li" data-b="{d.get("beat_puntos", 0)}" data-a="left" data-delay="{0.15 * k:.2f}"><span class="ic ok">✓</span><span class="tx">{md(p)}</span></div>'
+        for k, p in enumerate(d.get("puntos", [])))
+    mat = f'<div class="chip" data-b="{d.get("beat_material", 1)}" data-a="up">Material: {esc(d["material"])} (enlace en la descripción)</div>' if d.get("material") else ""
+    cta = f'<div class="cta" data-b="{d.get("beat_cta", 1)}" data-a="pop" data-delay=".2">{md(d["cta"])}</div>' if d.get("cta") else ""
+    return (f'<div class="cc"><div><div class="h2 fit" data-b="0" data-a="up">{md(d.get("titulo", "Resumen de la lección"))}</div>'
+            f'<div class="list" style="margin-top:30px">{puntos}</div></div>'
+            f'<div class="side"><div class="card next" data-b="{d.get("beat_siguiente", 1)}" data-a="right"><div class="t">Próxima lección</div>'
+            f'<div class="x">{md(d.get("siguiente", ""))}</div></div>{mat}{cta}</div></div>')
+
+
 PLANTILLAS = {
     "hook": t_hook, "texto": t_texto, "numero": t_numero, "barras": t_barras, "linea": t_linea,
     "planilla": t_planilla, "formula": t_formula, "lista": t_lista, "versus": t_versus, "mito": t_mito,
     "pasos": t_pasos, "prompt": t_prompt, "codigo": t_codigo, "dato": t_dato, "calculo": t_calculo,
     "pregunta": t_pregunta, "timeline": t_timeline, "donut": t_donut, "cierre": t_cierre,
+    "curso_portada": t_curso_portada, "capitulo": t_capitulo, "ejercicio": t_ejercicio, "curso_cierre": t_curso_cierre,
 }
 
 
@@ -586,7 +700,14 @@ def pagina(canal, escena_html: str, cabecera: dict, horizontal: bool = False) ->
     serie = esc(cabecera.get("serie", ""))
     ep = esc(cabecera.get("episodio", ""))
     marca = esc(cabecera.get("marca", ""))
-    head = f'<div id="head"><span class="pill">{serie or marca}</span><span>{marca if serie else ""}</span><span class="ep">{ep}</span></div>'
+    if cabecera.get("curso"):
+        caps = "".join(f'<i class="{"now" if k == cabecera["cap_n"] else ("on" if k < cabecera["cap_n"] else "")}"></i>'
+                       for k in range(1, int(cabecera["cap_total"]) + 1))
+        head = (f'<div id="head" class="curso"><span class="pill">Curso · {esc(cabecera["curso"])}</span>'
+                f'<span class="mod">Lección {cabecera["leccion"]}/{cabecera["total"]} · Módulo {cabecera["modulo_n"]}</span>'
+                f'<span class="caps">{caps}<span>Cap. {cabecera["cap_n"]}/{cabecera["cap_total"]}</span></span></div>')
+    else:
+        head = f'<div id="head"><span class="pill">{serie or marca}</span><span>{marca if serie else ""}</span><span class="ep">{ep}</span></div>'
     return (f'<!doctype html><html><head><meta charset="utf-8"><style>{css_base(canal, horizontal)}</style></head>'
             f'<body class="{"h" if horizontal else "v"}"><div id="bg"></div><div id="grid"></div><div id="grain"></div>{head}'
             f'<div id="stage">{escena_html}</div><div id="cap"></div><script>{RUNTIME}</script></body></html>')
@@ -596,4 +717,5 @@ def html_escena(canal, visual: dict, cabecera: dict, horizontal: bool = False) -
     tipo = visual["plantilla"]
     if tipo not in PLANTILLAS:
         raise KeyError(f"Plantilla desconocida: {tipo}")
-    return pagina(canal, PLANTILLAS[tipo](visual.get("datos", {})), cabecera, horizontal)
+    cab = {**cabecera, **visual.get("_cab", {})}
+    return pagina(canal, PLANTILLAS[tipo](visual.get("datos", {})), cab, horizontal)

@@ -1,0 +1,43 @@
+1
+00:00:00,120 --> 00:00:03,359
+Cuando te dicen está caro, ¿bajas el precio o preguntas?
+
+2
+00:00:03,599 --> 00:00:06,070
+Prepara tus respuestas antes de la llamada.
+
+3
+00:00:06,350 --> 00:00:09,269
+Bajar el precio al instante cierra la conversación.
+
+4
+00:00:09,429 --> 00:00:12,573
+Preguntar por qué le parece caro abre la conversación.
+
+5
+00:00:12,733 --> 00:00:14,835
+Así entiendes qué compara el cliente.
+
+6
+00:00:15,115 --> 00:00:17,187
+Pídele a la IA varias respuestas que
+
+7
+00:00:17,187 --> 00:00:20,008
+empiecen con una pregunta, adaptadas a tu rubro.
+
+8
+00:00:20,168 --> 00:00:22,063
+Y que sean honestas, sin presión.
+
+9
+00:00:22,343 --> 00:00:24,722
+Elige las que suenen a ti, ensáyalas en voz
+
+10
+00:00:24,722 --> 00:00:27,212
+alta y no prometas lo que no puedes cumplir.
+
+11
+00:00:27,372 --> 00:00:30,791
+Con lo pienso, pregunta qué información le falta para decidir.

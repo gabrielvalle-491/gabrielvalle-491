@@ -138,17 +138,14 @@ def generar(canal_clave: str, inicio: date, dias: int = 90, fijos: int = 0) -> l
     f = inicio + timedelta(days=7)
     while f.weekday() != dia_largo:
         f += timedelta(days=1)
-    for j, (tema, pilar) in enumerate(LARGOS[canal_clave]):
+    for j, (tema, pilar, serie) in enumerate(largos(canal_clave)):
         fecha = f + timedelta(days=7 * j)
         if (fecha - inicio).days >= dias:
             break
         filas.append({
             "id": f"{canal.prefijo}-L{j+1:02d}", "canal": canal_clave, "formato": "largo", "fecha": fecha.isoformat(),
             "dia": DIAS[fecha.weekday()], "hora_ar": canal.datos["publicacion"]["hora_largo"], "fase": "largo",
-            "pilar": pilar, "serie": "Guía completa", "tipo": "tutorial", "tema": tema,
-            "angulo": "Amplía los Shorts del mismo pilar con ejemplos completos y descargable", "plantillas": "",
-            "mercado": "latam", "gancho_tipo": "resultado", "duracion_objetivo": "6-10 min",
-            "hipotesis": "Los videos largos aportan horas de visualización (requisito del YPP) y suscriptores por vista mayores que los Shorts.",
+            **fila_largo(tema, pilar, serie),
             "puntaje_idea": "", "id_idea": "",
         })
     filas.sort(key=lambda r: (r["fecha"], r["formato"]))
@@ -158,6 +155,51 @@ def generar(canal_clave: str, inicio: date, dias: int = 90, fijos: int = 0) -> l
         w.writeheader()
         w.writerows(filas)
     return filas
+
+
+def largos(canal_clave: str) -> list[tuple[str, str, str]]:
+    """Videos largos del trimestre: las lecciones del curso del canal (cursos/<canal>.yaml) o, si no hay
+    temario, las guías de LARGOS."""
+    from .cursos import lecciones, temario
+    ls = lecciones(canal_clave)
+    if ls:
+        t = temario(canal_clave)
+        return [(f"Lección {x['n']}: {x['titulo']}", x.get("pilar", ""), f"Curso: {t['titulo']}") for x in ls]
+    return [(tema, pilar, "Guía completa") for tema, pilar in LARGOS[canal_clave]]
+
+
+def fila_largo(tema: str, pilar: str, serie: str) -> dict:
+    curso = serie.startswith("Curso")
+    return {
+        "pilar": pilar, "serie": serie, "tipo": "tutorial", "tema": tema,
+        "angulo": ("Lección de curso: objetivos, capítulos, ejercicio con archivo de práctica y resumen" if curso
+                   else "Amplía los Shorts del mismo pilar con ejemplos completos y descargable"),
+        "plantillas": "curso_portada,capitulo,ejercicio,curso_cierre" if curso else "",
+        "mercado": "latam", "gancho_tipo": "resultado", "duracion_objetivo": "5-10 min" if curso else "6-10 min",
+        "hipotesis": ("Un curso en serie retiene mejor que guías sueltas: cada lección deriva a la siguiente (lista de reproducción) "
+                      "y suma horas de visualización (requisito del YPP)." if curso else
+                      "Los videos largos aportan horas de visualización (requisito del YPP) y suscriptores por vista mayores que los Shorts."),
+    }
+
+
+def actualizar_largos(canal_clave: str) -> int:
+    """Reescribe solo las filas de videos largos del calendario existente (los Shorts no se tocan)."""
+    filas = leer(canal_clave)
+    temas = largos(canal_clave)
+    n = 0
+    for f in filas:
+        if f["formato"] != "largo":
+            continue
+        j = int(f["id"].split("-L")[1]) - 1
+        if j < len(temas):
+            f.update(fila_largo(*temas[j]))
+            n += 1
+    out = ruta("strategy", f"calendario_{canal_clave}.csv")
+    with open(out, "w", newline="", encoding="utf-8") as fh:
+        w = csv.DictWriter(fh, fieldnames=list(filas[0].keys()))
+        w.writeheader()
+        w.writerows(filas)
+    return n
 
 
 def leer(canal_clave: str) -> list[dict]:

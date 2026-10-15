@@ -1,0 +1,47 @@
+1
+00:00:00,120 --> 00:00:02,945
+Pides 12 000 prestados a 24 meses.
+
+2
+00:00:03,105 --> 00:00:04,522
+¿De cuánto es la cuota?
+
+3
+00:00:04,882 --> 00:00:08,001
+La función PAGO calcula la cuota fija de un préstamo.
+
+4
+00:00:08,161 --> 00:00:11,855
+Primero, la tasa de cada mes: 12 % anual entre 12.
+
+5
+00:00:12,015 --> 00:00:14,289
+Luego, cuántos pagos hay: 24.
+
+6
+00:00:14,449 --> 00:00:16,281
+Y al final, el monto prestado.
+
+7
+00:00:16,561 --> 00:00:19,920
+El resultado es una cuota de 564,88 por mes;
+
+8
+00:00:19,920 --> 00:00:24,195
+Excel la muestra en negativo porque es dinero que sale.
+
+9
+00:00:24,355 --> 00:00:29,544
+Por 24 meses, pagas 13 557,16 en total.
+
+10
+00:00:29,704 --> 00:00:33,488
+Los intereses suman 1 557,16.
+
+11
+00:00:33,768 --> 00:00:36,384
+Ojo: PAGO no incluye impuestos ni comisiones.
+
+12
+00:00:36,544 --> 00:00:39,367
+Revisa el contrato y prueba con tu propio monto.

@@ -1,0 +1,74 @@
+{
+  "id": "B-032",
+  "duracion_s": 35.876,
+  "frases": 9,
+  "subtitulos": 25,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.412,
+      "beats": [
+        -5.0,
+        2.528
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.412,
+      "fin": 18.105,
+      "beats": [
+        0.0,
+        5.108,
+        9.688
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 18.105,
+      "fin": 29.093,
+      "beats": [
+        0.0,
+        3.614,
+        6.193
+      ],
+      "plantilla": "formula"
+    },
+    {
+      "inicio": 29.093,
+      "fin": 35.876,
+      "beats": [
+        0.0,
+        2.417
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.35",
+    "input_tp": "-6.73",
+    "input_lra": "2.60",
+    "input_thresh": "-32.60",
+    "output_i": "-14.22",
+    "output_tp": "-1.50",
+    "output_lra": "2.40",
+    "output_thresh": "-24.39",
+    "normalization_type": "dynamic",
+    "target_offset": "0.22"
+  },
+  "fotogramas_unicos": 223,
+  "tts_cache": 9,
+  "spec_hash": "2a32f8ef2beb6c68",
+  "segundos_produccion": 82.8,
+  "texto_hablado": [
+    "buscar uve no puede mirar a la izquierda.",
+    "Esta pareja de funciones sí.",
+    "buscar uve necesita el dato buscado en la primera columna y usa un número de columna.",
+    "índice y coincidir trabajan con rangos, así que devuelven de cualquier columna.",
+    "Si insertas una columna, los rangos se ajustan; un número fijo, no.",
+    "Para sacar el código a partir del producto, la fórmula es esta.",
+    "índice devuelve de la columna de códigos.",
+    "coincidir halla la posición del producto; el cero pide coincidencia exacta.",
+    "En éxcel trescientos sesenta y cinco y dos mil veintiuno, buscar equis hace lo mismo todavía más corto."
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "B-039",
+  "duracion_s": 35.688,
+  "frases": 12,
+  "subtitulos": 27,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.211,
+      "beats": [
+        -5.0,
+        1.676
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.211,
+      "fin": 14.032,
+      "beats": [
+        0.0,
+        2.58,
+        3.534
+      ],
+      "plantilla": "planilla"
+    },
+    {
+      "inicio": 14.032,
+      "fin": 20.737,
+      "beats": [
+        0.0,
+        1.522,
+        4.034
+      ],
+      "plantilla": "pasos"
+    },
+    {
+      "inicio": 20.737,
+      "fin": 30.578,
+      "beats": [
+        0.0,
+        2.913,
+        5.593
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 30.578,
+      "fin": 35.688,
+      "beats": [
+        0.0,
+        1.748
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.01",
+    "input_tp": "-4.69",
+    "input_lra": "2.50",
+    "input_thresh": "-32.26",
+    "output_i": "-13.85",
+    "output_tp": "-1.50",
+    "output_lra": "1.20",
+    "output_thresh": "-24.02",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.15"
+  },
+  "fotogramas_unicos": 287,
+  "tts_cache": 12,
+  "spec_hash": "4668cd8d475d1cab",
+  "segundos_produccion": 97.3,
+  "texto_hablado": [
+    "Haz que mil quinientos se vea como uno coma cinco k, sin cambiar el valor.",
+    "La celda be dos guarda mil quinientos.",
+    "Resáltala.",
+    "Con el formato personalizado se ve uno coma cinco k, pero la barra de fórmulas sigue mostrando mil quinientos.",
+    "Selecciona las celdas.",
+    "Abre Formato de celdas con clic derecho.",
+    "Elige Personalizada y pega el código.",
+    "Si tu éxcel usa coma decimal, el código es este.",
+    "Si usa punto decimal, como en México y EE.",
+    "UU., es este otro.",
+    "El signo del final divide lo que se ve entre mil.",
+    "El valor real sigue siendo mil quinientos, y tus fórmulas lo usan completo."
+  ]
+}

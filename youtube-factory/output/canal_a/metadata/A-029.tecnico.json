@@ -1,0 +1,76 @@
+{
+  "id": "A-029",
+  "duracion_s": 30.715,
+  "frases": 9,
+  "subtitulos": 23,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 4.162,
+      "beats": [
+        -5.0,
+        1.657
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 4.162,
+      "fin": 12.1,
+      "beats": [
+        0.0,
+        3.061,
+        4.72,
+        5.618,
+        6.466
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 12.1,
+      "fin": 24.482,
+      "beats": [
+        0.0,
+        4.485,
+        8.664
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 24.482,
+      "fin": 30.715,
+      "beats": [
+        0.0,
+        1.385
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-21.16",
+    "input_tp": "-6.92",
+    "input_lra": "2.20",
+    "input_thresh": "-31.49",
+    "output_i": "-14.23",
+    "output_tp": "-1.50",
+    "output_lra": "1.70",
+    "output_thresh": "-24.45",
+    "normalization_type": "dynamic",
+    "target_offset": "0.23"
+  },
+  "fotogramas_unicos": 248,
+  "tts_cache": 9,
+  "spec_hash": "fc68f9058042e1da",
+  "segundos_produccion": 106.6,
+  "texto_hablado": [
+    "Antes de confiar en una suma de la i a, haz esta prueba de cinco minutos.",
+    "Toma una compra de cuatro líneas: cantidad por precio.",
+    "Súmalas en una planilla.",
+    "El total correcto es trescientos cincuenta y cinco.",
+    "Una planilla da siempre el mismo resultado y puedes auditar cada fórmula.",
+    "Una i a puede equivocarse en cuentas largas, aunque explica bien el método.",
+    "Para dinero, calcula en la planilla y usa la i a para explicar.",
+    "Ahora pruébalo tú.",
+    "Si los totales no coinciden, confía en la fórmula y revisa tus datos."
+  ]
+}

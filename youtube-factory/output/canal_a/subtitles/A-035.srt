@@ -1,0 +1,43 @@
+1
+00:00:00,120 --> 00:00:02,942
+La IA no te miente: completa con lo más probable.
+
+2
+00:00:03,102 --> 00:00:06,462
+Por eso a veces inventa datos que suenan muy convincentes.
+
+3
+00:00:06,742 --> 00:00:09,811
+Un modelo de lenguaje genera texto que suena razonable.
+
+4
+00:00:09,971 --> 00:00:12,847
+Según OpenAI, el entrenamiento y las pruebas suelen
+
+5
+00:00:12,847 --> 00:00:15,611
+premiar adivinar más que admitir que no se sabe.
+
+6
+00:00:15,891 --> 00:00:17,491
+Dale permiso para dudar.
+
+7
+00:00:17,651 --> 00:00:21,089
+Pídele que responda solo si está seguro y que diga no lo sé.
+
+8
+00:00:21,369 --> 00:00:23,568
+Después, pide fuentes que puedas abrir.
+
+9
+00:00:23,728 --> 00:00:25,471
+Comprueba nombres y cifras.
+
+10
+00:00:25,631 --> 00:00:28,277
+Desconfía de lo que suena demasiado exacto.
+
+11
+00:00:28,437 --> 00:00:30,930
+Esto reduce los errores, pero no los elimina.

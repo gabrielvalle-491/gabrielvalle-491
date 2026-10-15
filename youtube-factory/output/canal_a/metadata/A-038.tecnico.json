@@ -1,0 +1,75 @@
+{
+  "id": "A-038",
+  "duracion_s": 32.037,
+  "frases": 11,
+  "subtitulos": 28,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.617,
+      "beats": [
+        -5.0
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.617,
+      "fin": 16.051,
+      "beats": [
+        0.0,
+        3.232,
+        6.063
+      ],
+      "plantilla": "versus"
+    },
+    {
+      "inicio": 16.051,
+      "fin": 21.224,
+      "beats": [
+        0.0
+      ],
+      "plantilla": "prompt"
+    },
+    {
+      "inicio": 21.224,
+      "fin": 32.037,
+      "beats": [
+        0.0,
+        2.119,
+        5.349,
+        7.656
+      ],
+      "plantilla": "lista"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-20.94",
+    "input_tp": "-5.82",
+    "input_lra": "1.70",
+    "input_thresh": "-31.18",
+    "output_i": "-14.22",
+    "output_tp": "-1.50",
+    "output_lra": "1.40",
+    "output_thresh": "-24.39",
+    "normalization_type": "dynamic",
+    "target_offset": "0.22"
+  },
+  "fotogramas_unicos": 281,
+  "tts_cache": 11,
+  "spec_hash": "331f4122ef258f17",
+  "segundos_produccion": 120.3,
+  "texto_hablado": [
+    "Si la i a te responde para cualquiera, el error está en tu prompt.",
+    "Así sale un texto genérico, igual para todos.",
+    "Un pedido sin contexto: escribe un texto para redes.",
+    "La i a tiene que adivinar tu rubro y tu cliente.",
+    "Con contexto: el texto sale pensado para tu negocio.",
+    "Esta es la plantilla.",
+    "Dile el rubro, el cliente ideal, el tono y qué quieres evitar.",
+    "Rubro, cliente, tono y límites.",
+    "Cuatro datos, y la respuesta deja de ser para cualquiera.",
+    "Revisa el texto antes de publicar.",
+    "Dáselos una vez y guarda la plantilla."
+  ]
+}

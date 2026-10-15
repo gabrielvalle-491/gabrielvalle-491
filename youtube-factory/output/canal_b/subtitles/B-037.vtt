@@ -1,0 +1,37 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:03.288
+Calcula el saldo de cada producto con una sola fórmula.
+
+00:00:03.448 --> 00:00:05.050
+Sin recontar el almacén.
+
+00:00:05.330 --> 00:00:08.266
+Anota el stock inicial, las entradas y las salidas.
+
+00:00:08.426 --> 00:00:10.195
+Resalta esas tres columnas.
+
+00:00:10.355 --> 00:00:14.494
+El cable parte con 20, entran 15 y salen 12: queda en 23.
+
+00:00:14.774 --> 00:00:16.873
+El saldo es una suma y una resta.
+
+00:00:17.033 --> 00:00:18.493
+Parte del stock inicial.
+
+00:00:18.653 --> 00:00:19.822
+Suma las entradas.
+
+00:00:19.982 --> 00:00:21.247
+Y resta las salidas.
+
+00:00:21.527 --> 00:00:24.133
+Si anotas cada movimiento en otra hoja, SUMAR.SI
+
+00:00:24.133 --> 00:00:26.521
+trae el total de entradas de cada producto.
+
+00:00:26.801 --> 00:00:30.380
+Cambia una entrada o una salida y el saldo se actualiza solo.

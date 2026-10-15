@@ -1,0 +1,31 @@
+WEBVTT
+
+00:00:00.120 --> 00:00:03.037
+La IA no lee palabras: lee trozos llamados tokens.
+
+00:00:03.197 --> 00:00:05.386
+Y eso explica varias cosas raras.
+
+00:00:05.666 --> 00:00:10.485
+Un token puede ser una palabra entera, una parte de una palabra o un solo carácter.
+
+00:00:10.645 --> 00:00:12.631
+Depende del idioma y del modelo.
+
+00:00:12.910 --> 00:00:18.595
+Como referencia, según OpenAI, 100 tokens en inglés equivalen a unas 75 palabras.
+
+00:00:18.755 --> 00:00:20.777
+Siempre hay más tokens que palabras.
+
+00:00:21.057 --> 00:00:25.868
+Por eso contar letras puede fallar: el modelo no recibe letras sueltas, sino trozos.
+
+00:00:26.028 --> 00:00:28.627
+Para contar con exactitud, usa una planilla.
+
+00:00:28.787 --> 00:00:30.903
+Y cuando una herramienta hable de límites
+
+00:00:30.903 --> 00:00:33.226
+de tokens, piensa en trozos, no en palabras.

@@ -1,0 +1,88 @@
+{
+  "id": "B-031",
+  "duracion_s": 38.666,
+  "frases": 13,
+  "subtitulos": 26,
+  "escenas": [
+    {
+      "inicio": 0.0,
+      "fin": 6.678,
+      "beats": [
+        -5.0,
+        4.497
+      ],
+      "plantilla": "hook"
+    },
+    {
+      "inicio": 6.678,
+      "fin": 14.13,
+      "beats": [
+        0.0,
+        2.162
+      ],
+      "plantilla": "texto"
+    },
+    {
+      "inicio": 14.13,
+      "fin": 21.405,
+      "beats": [
+        0.0,
+        1.697,
+        3.716,
+        5.301
+      ],
+      "plantilla": "barras"
+    },
+    {
+      "inicio": 21.405,
+      "fin": 30.76,
+      "beats": [
+        0.0,
+        2.729,
+        6.806
+      ],
+      "plantilla": "calculo"
+    },
+    {
+      "inicio": 30.76,
+      "fin": 38.666,
+      "beats": [
+        0.0,
+        3.858
+      ],
+      "plantilla": "cierre"
+    }
+  ],
+  "desbordes_texto": [],
+  "loudnorm_medido": {
+    "input_i": "-22.18",
+    "input_tp": "-6.67",
+    "input_lra": "2.40",
+    "input_thresh": "-32.40",
+    "output_i": "-14.02",
+    "output_tp": "-1.50",
+    "output_lra": "1.60",
+    "output_thresh": "-24.17",
+    "normalization_type": "dynamic",
+    "target_offset": "0.02"
+  },
+  "fotogramas_unicos": 321,
+  "tts_cache": 0,
+  "spec_hash": "4c0e00e4a0fb72f4",
+  "segundos_produccion": 104.6,
+  "texto_hablado": [
+    "¿Cuántos meses podrías cubrir tus gastos esenciales con lo que tienes ahorrado?",
+    "La respuesta sale de una división.",
+    "Primero, define qué es esencial.",
+    "Es lo que necesitas pagar cada mes para vivir: vivienda, comida, transporte y servicios.",
+    "Vivienda, ochocientos.",
+    "Comida, cuatrocientos cincuenta.",
+    "Transporte, doscientos.",
+    "Servicios, ciento cincuenta.",
+    "Suma los esenciales: mil seiscientos al mes.",
+    "Divide tu ahorro disponible, seis mil cuatrocientos, entre ese total.",
+    "El resultado: cuatro meses de cobertura.",
+    "Cada persona define qué es esencial y cuánta cobertura quiere.",
+    "En la planilla es una sola división: ahorro entre gastos."
+  ]
+}

@@ -1,0 +1,43 @@
+1
+00:00:00,120 --> 00:00:03,111
+Borraste una fila y tu total ahora dice #¡REF!.
+
+2
+00:00:03,271 --> 00:00:04,516
+Esto fue lo que pasó.
+
+3
+00:00:04,796 --> 00:00:07,365
+La suma tomaba celdas sueltas, una por una.
+
+4
+00:00:07,525 --> 00:00:10,336
+Al borrar febrero, desaparece una de esas celdas.
+
+5
+00:00:10,496 --> 00:00:12,442
+Y el total muestra #¡REF!.
+
+6
+00:00:12,722 --> 00:00:16,361
+Primero, si acabas de borrar, prueba deshacer con Ctrl + Z.
+
+7
+00:00:16,521 --> 00:00:20,191
+Segundo, usa un rango: SUMA de B2 a B4 se ajusta sola.
+
+8
+00:00:20,351 --> 00:00:22,853
+Tercero, convierte tus datos en tabla: sus
+
+9
+00:00:22,853 --> 00:00:26,011
+referencias se actualizan al agregar o quitar filas.
+
+10
+00:00:26,291 --> 00:00:28,334
+Rangos y tablas, y adiós al error.
+
+11
+00:00:28,494 --> 00:00:30,909
+Revisa tus sumas antes de borrar filas.
